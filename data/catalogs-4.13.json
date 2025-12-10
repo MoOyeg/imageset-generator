@@ -1,0 +1,28 @@
+{
+  "4.13": [
+    {
+      "name": "Red Hat Operators",
+      "url": "registry.redhat.io/redhat/redhat-operator-index",
+      "description": "Official Red Hat certified operators",
+      "default": true
+    },
+    {
+      "name": "Certified Operators",
+      "url": "registry.redhat.io/redhat/certified-operator-index",
+      "description": "Third-party certified operators",
+      "default": false
+    },
+    {
+      "name": "Community Operators",
+      "url": "registry.redhat.io/redhat/community-operator-index",
+      "description": "Community-maintained operators",
+      "default": false
+    },
+    {
+      "name": "Red Hat Marketplace",
+      "url": "registry.redhat.io/redhat/redhat-marketplace-index",
+      "description": "Commercial operators from Red Hat Marketplace",
+      "default": false
+    }
+  ]
+}

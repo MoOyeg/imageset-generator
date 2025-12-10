@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+"""
+OpenShift ImageSetConfiguration Generator - Flask API Backend
+
+This Flask application provides a REST API for the OpenShift ImageSetConfiguration generator.
+It serves as the backend for the React frontend application.
+"""
+
+import json
+import re
+from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
+import yaml
+import os
+import subprocess
+import tempfile
+from datetime import datetime
+from generator import ImageSetGenerator
+import traceback
+
+app = Flask(__name__, static_folder='frontend/build')
+CORS(app)  # Enable CORS for all routes
+
+def process_operator_data(operator):
+    """Process operator data to handle selected versions and other parameters"""
+    if isinstance(operator, str):
+        return {
+            "name": operator.strip(),
+            "catalog": None,
+            "channel": None,
+            "version": None,
+            "minVersion": None,
+            "maxVersion": None,
+            "selectedVersions": None
+        }
+    elif isinstance(operator, dict):
+        return {
+            "name": operator.get('name', '').strip() if isinstance(operator.get('name'), str) else '',
+            "catalog": operator.get('catalog', '').strip() if isinstance(operator.get('catalog'), str) else None,
+            "channel": operator.get('channel', '').strip() if isinstance(operator.get('channel'), str) else None,
+            "version": operator.get('version', '').strip() if isinstance(operator.get('version'), str) else None,
+            "minVersion": operator.get('minVersion', '').strip() if isinstance(operator.get('minVersion'), str) else None,
+            "maxVersion": operator.get('maxVersion', '').strip() if isinstance(operator.get('maxVersion'), str) else None,
+            "selectedVersions": operator.get('selectedVersions', []) if isinstance(operator.get('selectedVersions'), list) else None,
+            "fileName": operator.get('fileName') if operator.get('fileName') else None
+        }
+    else:
+        return None
+
+def prepare_operator_entry(op_data):
+    """Prepare operator entry for the generator from processed data"""
+    if not op_data or not op_data["name"]:
+        return None
+        
+    entry = {"name": op_data["name"]}
+    
+    if op_data["channel"]:
+        entry["channel"] = op_data["channel"]
+    
+    if op_data["selectedVersions"]:
+        entry["selectedVersions"] = op_data["selectedVersions"]
+    else:
+        if op_data["minVersion"]:
+            entry["minVersion"] = op_data["minVersion"]
+        if op_data["maxVersion"]:
+            entry["maxVersion"] = op_data["maxVersion"]
+    
+    if op_data["fileName"]:
+        entry["fileName"] = op_data["fileName"]
+        
+    return entry

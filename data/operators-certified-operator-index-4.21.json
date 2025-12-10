@@ -1,0 +1,5066 @@
+{
+  "operators": [
+    {
+      "package": "abinitio-runtime-operator",
+      "name": "abinitio-runtime-operator",
+      "version": "4.2.3-0",
+      "keywords": [
+        "abinitio",
+        "runtime",
+        "operator"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "abinitio-runtime-operator",
+      "name": "abinitio-runtime-operator",
+      "version": "4.3.1-0",
+      "channel": "release-4.3"
+    },
+    {
+      "package": "abinitio-runtime-operator",
+      "name": "abinitio-runtime-operator",
+      "version": "4.3.3-1",
+      "keywords": [
+        "abinitio",
+        "runtime",
+        "operator"
+      ],
+      "description": "",
+      "channel": "release-4.3"
+    },
+    {
+      "package": "accuknox-operator-certified",
+      "name": "accuknox-operator-certified",
+      "version": "0.2.1",
+      "keywords": [
+        "CNAPP",
+        "CSPM",
+        "CWPP",
+        "Cloud Native",
+        "Runtime Security",
+        "Zero-Trust"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "accuknox-operator-certified",
+      "name": "accuknox-operator-certified",
+      "version": "0.7.1",
+      "keywords": [
+        "CNAPP",
+        "CSPM",
+        "CWPP",
+        "Cloud Native",
+        "Runtime Security",
+        "Zero-Trust"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "aci-containers-operator",
+      "name": "aci-containers-operator",
+      "version": "1.0.11",
+      "keywords": [
+        "cisco",
+        "aci"
+      ],
+      "description": "The Cisco Application Centric Infrastructure (ACI) Containers Operator brings the ACI CNI Plugin and Policy model to Kubernetes clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.0",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.1",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.2",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.3",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.4",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.5",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.6",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.7",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.8",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.5.9",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.5"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.0",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.1",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.2",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.3",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.4",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.5",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.6",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.7",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.0",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.1",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.2",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.3",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.4",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.5",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.0",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "aiu-operator",
+      "name": "aiu-operator",
+      "version": "2.3.3",
+      "keywords": [
+        "app",
+        "operator"
+      ],
+      "description": "operator for AIU devices",
+      "channel": "stable-v2.3"
+    },
+    {
+      "package": "anzo-operator",
+      "name": "anzo-operator",
+      "version": "3.1.105",
+      "channel": "stable"
+    },
+    {
+      "package": "anzo-operator",
+      "name": "anzo-operator",
+      "version": "3.1.106",
+      "channel": "stable"
+    },
+    {
+      "package": "anzo-operator",
+      "name": "anzo-operator",
+      "version": "3.1.200",
+      "channel": "stable"
+    },
+    {
+      "package": "anzo-operator",
+      "name": "anzo-operator",
+      "version": "3.1.300",
+      "keywords": [
+        "Big Data"
+      ],
+      "description": "kubernetes operator for Altair Graph Studio",
+      "channel": "stable"
+    },
+    {
+      "package": "anzograph-operator",
+      "name": "anzograph-operator",
+      "version": "3.2.104",
+      "channel": "stable"
+    },
+    {
+      "package": "anzograph-operator",
+      "name": "anzograph-operator",
+      "version": "3.2.200",
+      "channel": "stable"
+    },
+    {
+      "package": "anzograph-operator",
+      "name": "anzograph-operator",
+      "version": "3.2.300",
+      "channel": "stable"
+    },
+    {
+      "package": "anzograph-operator",
+      "name": "anzograph-operator",
+      "version": "3.2.500",
+      "keywords": [
+        "Big Data",
+        "Database"
+      ],
+      "description": "kubernetes operator for Altair Graph Lakehouse DB",
+      "channel": "stable"
+    },
+    {
+      "package": "anzounstructured-operator",
+      "name": "anzounstructured-operator",
+      "version": "3.1.103",
+      "channel": "stable"
+    },
+    {
+      "package": "anzounstructured-operator",
+      "name": "anzounstructured-operator",
+      "version": "3.1.104",
+      "channel": "stable"
+    },
+    {
+      "package": "anzounstructured-operator",
+      "name": "anzounstructured-operator",
+      "version": "3.1.200",
+      "channel": "stable"
+    },
+    {
+      "package": "anzounstructured-operator",
+      "name": "anzounstructured-operator",
+      "version": "3.1.300",
+      "keywords": [
+        "Database",
+        "Big Data"
+      ],
+      "description": "Kubernetes Operator for Altair Graph Studio Unstructured",
+      "channel": "stable"
+    },
+    {
+      "package": "appdynamics-cloud-operator",
+      "name": "appdynamics-cloud-operator",
+      "version": "24.7.0-133",
+      "keywords": [
+        "monitoring",
+        "appdynamics"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "appdynamics-operator",
+      "name": "appdynamics-operator",
+      "version": "24.7.0-861",
+      "keywords": [
+        "AppDynamics",
+        "Operator",
+        "AppDynamics Cluster Agent",
+        "AppDynamics Machine Agent",
+        "AppDynamics K8s Monitoring"
+      ],
+      "description": "AppDynamics Operator to install AppDynamics Cluster Agent & AppDynamics Machine Agent for K8s Monitoring for various Cloud Providers like EKS, AKS etc.",
+      "channel": "alpha"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.518",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.519",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.587",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.588",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.662",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.683",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.720",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.759",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.760",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.805",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.818",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.829",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.836",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.848",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
+      "package": "cass-operator",
+      "name": "cass-operator",
+      "version": "1.23.2",
+      "keywords": [
+        "k8ssandra",
+        "cass-operator",
+        "DataStax Enterprise",
+        "Apache Cassandra",
+        "DSE",
+        "C*",
+        "Cassandra"
+      ],
+      "description": "Simple provisioning, turn-key operations, and automated remediation of Apache Cassandra clusters\\n",
+      "channel": "stable"
+    },
+    {
+      "package": "cfm-operator",
+      "name": "cfm-operator",
+      "version": "2.11.0-b57",
+      "keywords": [
+        "nifi",
+        "nifiregistry",
+        "cloudera",
+        "cfm"
+      ],
+      "description": "Cloudera Flow Management - Kubernetes Operator for Apache NiFideploys and operates Apache NiFi",
+      "channel": "stable"
+    },
+    {
+      "package": "cfm-operator",
+      "name": "cfm-operator",
+      "version": "2.9.0-b96",
+      "keywords": [
+        "nifi",
+        "nifiregistry",
+        "cloudera",
+        "cfm"
+      ],
+      "description": "Cloudera Flow Management - Kubernetes Operator for Apache NiFideploys and operates Apache NiFi",
+      "channel": "alpha"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.15+x1dfd26f",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.16+xcfe62ed",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.17+xc8f905f",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.18+x0c21a94",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.19+xdb27142",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.20+x5b70650",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.21+x96449fb",
+      "keywords": [
+        "networking",
+        "security",
+        "observability",
+        "eBPF"
+      ],
+      "description": "",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.14.19+xc1b9aff",
+      "channel": "1.14"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.14.20+xe01e743",
+      "channel": "1.14"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.14.21+xe0c9553",
+      "channel": "1.14"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.14.22+x6d86c88",
+      "keywords": [
+        "networking",
+        "security",
+        "observability",
+        "eBPF"
+      ],
+      "description": "",
+      "channel": "1.14"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.13+x134fa29",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.14+x0e512e3",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.15+xf37f22c",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.16+xc7e31ca",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.17+xdfd9482",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.18+xeeaa70b",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.19+x0be49ab",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.20+x6df37bb",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.21+x2661a01",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.15.22+xfb6ee71",
+      "keywords": [
+        "networking",
+        "security",
+        "observability",
+        "eBPF"
+      ],
+      "description": "",
+      "channel": "1.15"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.10+x89ab4b0",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.11+xbd1cd23",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.12+xd373871",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.13+xb2de075",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.15+x6419e26",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.16+xf0717b8",
+      "keywords": [
+        "networking",
+        "security",
+        "observability",
+        "eBPF"
+      ],
+      "description": "",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.6+x7e6eb1c",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.7+x4867421",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.8+yd2b50b4",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.16.9+x8ec4137",
+      "channel": "1.16"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.10.11+x10ae342",
+      "channel": "1.10"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.10.12+xb203fae",
+      "channel": "1.10"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.10.13+xed86eae",
+      "keywords": [
+        "networking",
+        "security",
+        "observability",
+        "eBPF"
+      ],
+      "description": "",
+      "channel": "1.10"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.11.20+x0f6d966",
+      "channel": "1.11"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.11.21+xd0d07b1",
+      "keywords": [
+        "networking",
+        "security",
+        "observability",
+        "eBPF"
+      ],
+      "description": "",
+      "channel": "1.11"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.10+x4a0e9e7",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.11+xffdea76",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.12+xbd7b835",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.13+x2b5cec9",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.14+xc86b260",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.15+x8ca64a3",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.16+x38e0b62",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.17+xae21c14",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.18+xcb1adcf",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.19+xca684e0",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.21+x3861686",
+      "keywords": [
+        "networking",
+        "security",
+        "observability",
+        "eBPF"
+      ],
+      "description": "",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.7+x53a2aab",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.8+x87b90a9",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.12.9+x4be66e4",
+      "channel": "1.12"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.10+x9d57fc7",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.11+xf6d6935",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.12+x453f6ad",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.14+xb70933f",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.2+x4b1c6c8",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.3+x69e9561",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.4+xc8b22ea",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.5+x8386cae",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.6+xd3714ef",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.7+x7320e7d",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.8+x96e1ca9",
+      "channel": "1.13"
+    },
+    {
+      "package": "cilium-enterprise",
+      "name": "cilium-enterprise",
+      "version": "1.13.9+xe8a359b",
+      "channel": "1.13"
+    },
+    {
+      "package": "cloudera-streams-messaging-kubernetes-operator",
+      "name": "cloudera-streams-messaging-kubernetes-operator",
+      "version": "1.4.0-b199",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Run Apache Kafka with Cloudera Streams Messaging - Kubernetes Operator",
+      "channel": "1.2.x"
+    },
+    {
+      "package": "cloudera-streams-messaging-kubernetes-operator",
+      "name": "cloudera-streams-messaging-kubernetes-operator",
+      "version": "1.5.0-b123",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Run Apache Kafka with Cloudera Streams Messaging - Kubernetes Operator",
+      "channel": "1.5.x"
+    },
+    {
+      "package": "coherence-operator",
+      "name": "coherence-operator",
+      "version": "3.5.7",
+      "keywords": [
+        "Coherence",
+        "Oracle",
+        "In Memory Data",
+        "Caching"
+      ],
+      "description": "The Oracle Coherence Kubernetes Operator enables easy management of Coherence clusters in a Kubernetes environment.",
+      "channel": "stable"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.2.1",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.2.2",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.2.4",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.3.0",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.3.1",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.3.4",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.3.5",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.4.2",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.4.3",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.4.4",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.5.0",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.5.3",
+      "keywords": [
+        "credential",
+        "cyber",
+        "cyberark",
+        "conjur",
+        "enterprise",
+        "management",
+        "password",
+        "secret",
+        "secrets management",
+        "security",
+        "vault"
+      ],
+      "description": "",
+      "channel": "2.5"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.6.0",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.6.1",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.6.2",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.6.3",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.7.0",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.7.1",
+      "keywords": [
+        "credential",
+        "cyber",
+        "cyberark",
+        "conjur",
+        "enterprise",
+        "management",
+        "password",
+        "secret",
+        "secrets management",
+        "security",
+        "vault"
+      ],
+      "description": "",
+      "channel": "preview"
+    },
+    {
+      "package": "coroot-operator",
+      "name": "coroot-operator",
+      "version": "1.1.5",
+      "keywords": [
+        "monitoring",
+        "coroot",
+        "observability"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "cte-k8s-operator",
+      "name": "cte-k8s-operator",
+      "version": "1.6.5",
+      "keywords": [
+        "Encryption",
+        "Data Protection",
+        "Security",
+        "Kubernetes",
+        "Openshift"
+      ],
+      "description": "",
+      "channel": "candidate"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.0.4",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
+      "channel": "alpha"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.11.1",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.12.1",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.13.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.14.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.15.1",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.16.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.17.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.18.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.19.1",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.2.1",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.20.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "24.1.10",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "24.1.14",
+      "channel": "stable-v24.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "24.1.17",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable-v24.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "24.3.5",
+      "channel": "stable-v24.3"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "24.3.6",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable-v24.3"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "25.1.0-beta.5",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "beta"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "24.1.10",
+      "keywords": [
+        "digitalai-release-operator",
+        "digitalai",
+        "digital.ai",
+        "release",
+        "devops"
+      ],
+      "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
+      "channel": "stable"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "24.1.14",
+      "channel": "stable-v24.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "24.1.17",
+      "keywords": [
+        "digitalai-release-operator",
+        "digitalai",
+        "digital.ai",
+        "release",
+        "devops"
+      ],
+      "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
+      "channel": "stable-v24.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "24.3.5",
+      "channel": "stable-v24.3"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "24.3.6",
+      "keywords": [
+        "digitalai-release-operator",
+        "digitalai",
+        "digital.ai",
+        "release",
+        "devops"
+      ],
+      "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
+      "channel": "stable-v24.3"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "25.1.0-beta.6",
+      "keywords": [
+        "digitalai-release-operator",
+        "digitalai",
+        "digital.ai",
+        "release",
+        "devops"
+      ],
+      "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
+      "channel": "beta"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.4.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.6.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.7.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.7.1",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.7.2",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "eda-k8s-operator",
+      "name": "eda-k8s-operator",
+      "version": "4.0.1",
+      "keywords": [
+        "EDA Connect",
+        "K8s Controller",
+        "EDA K8s Controller Operator"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "eginnovations-operator",
+      "name": "eginnovations-operator",
+      "version": "0.0.11",
+      "keywords": [
+        "Monitoring",
+        "Tracing"
+      ],
+      "description": "eG Innovations provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with eG Universal Agent Operator.",
+      "channel": "beta"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.11.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.11.1",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.12.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.12.1",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.13.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.14.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.15.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.16.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.16.1",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.6.2",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "2.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.2.0",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server and Logstash on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.0.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.0.1",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.1.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.2.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.3.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.3.1",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.4.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.5.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.6.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.7.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.8.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.9.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "5.1.7",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
+      "channel": "stable"
+    },
+    {
+      "package": "function-mesh",
+      "name": "function-mesh",
+      "version": "0.7.0",
+      "keywords": [
+        "pulsar",
+        "function-mesh",
+        "serverless",
+        "pulsar-functions",
+        "pulsar-io-connectors",
+        "StreamNative"
+      ],
+      "description": "The Function Mesh Operator manages the Pulsar Functions and Connectors deployed on a Kubernetes cluster.",
+      "channel": "alpha"
+    },
+    {
+      "package": "harness-gitops-operator",
+      "name": "harness-gitops-operator",
+      "version": "0.3.0",
+      "keywords": [
+        "gitops",
+        "harness",
+        "agent",
+        "cd",
+        "argocd",
+        "kubernetes"
+      ],
+      "description": "Harness operator to manage and provision GitOps Agent",
+      "channel": "alpha"
+    },
+    {
+      "package": "hazelcast-platform-operator",
+      "name": "hazelcast-platform-operator",
+      "version": "5.15.0",
+      "keywords": [
+        "hazelcast",
+        "keyvalue",
+        "in-memory",
+        "database",
+        "caching"
+      ],
+      "description": "Install Hazelcast clusters in Kubernetes environments.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hcp-terraform-operator",
+      "name": "hcp-terraform-operator",
+      "version": "2.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "hcp-terraform-operator",
+      "name": "hcp-terraform-operator",
+      "version": "2.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "hcp-terraform-operator",
+      "name": "hcp-terraform-operator",
+      "version": "2.9.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "hcp-terraform-operator",
+      "name": "hcp-terraform-operator",
+      "version": "2.9.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "hcp-terraform-operator",
+      "name": "hcp-terraform-operator",
+      "version": "2.9.2",
+      "keywords": [
+        "terraform"
+      ],
+      "description": "HCP Terraform Operator for Kubernetes allows managing HCP Terraform / Terraform Enterprise resources via Kubernetes Custom Resources.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hibernation-operator",
+      "name": "hibernation-operator",
+      "version": "0.1.103",
+      "keywords": [
+        "redhat",
+        "k8s",
+        "stakater",
+        "hibernation",
+        "operator"
+      ],
+      "description": "Operator to engage and disengage hibernation on k8s resources using cron expressions",
+      "channel": "release-0.1"
+    },
+    {
+      "package": "hnas-csi-operator",
+      "name": "hnas-csi-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "Hitachi",
+        "Storage",
+        "Container Storage Interface",
+        "CSI",
+        "NAS"
+      ],
+      "description": "An operator for managing Hitachi NAS CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "hpe-ezmeral-csi-operator",
+      "name": "hpe-ezmeral-csi-operator",
+      "version": "1.0.9",
+      "keywords": [
+        "HPE",
+        "HPE Ezmeral",
+        "HPE Ezmeral Data Fabric",
+        "Storage",
+        "FileSystem",
+        "BlockVolume"
+      ],
+      "description": "A Container Storage Interface (CSI) driver for HPE Ezmeral Data Fabric platform. The CSI driver allows you to use HPE Ezmeral Data Fabric with your preferred container orchestrator.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-application-gateway-operator",
+      "name": "ibm-application-gateway-operator",
+      "version": "24.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-application-gateway-operator",
+      "name": "ibm-application-gateway-operator",
+      "version": "25.2.0",
+      "keywords": [
+        "IBM",
+        "Security",
+        "Identity and Access"
+      ],
+      "description": "The IBM Application Gateway operator manages the lifecycle of IBM Application Gateway containers.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-security-verify-access-operator",
+      "name": "ibm-security-verify-access-operator",
+      "version": "24.12.0",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-security-verify-access-operator",
+      "name": "ibm-security-verify-access-operator",
+      "version": "25.4.0",
+      "keywords": [
+        "identity and access",
+        "security"
+      ],
+      "description": "The IBM Verify Identity Access Operator manages the lifecycle of IBM Verify Identity Access worker containers.",
+      "channel": "stable"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.100",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Veritas",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.220",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Veritas",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.301",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.310",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.320",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.330",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Veritas",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.400",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.409",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "8.0.410",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "9.0.1",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "beta"
+    },
+    {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "9.1.0",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.100",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.110",
+      "keywords": [
+        "Veritas",
+        "InfoScale",
+        "Licensing",
+        "Veritas Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.220",
+      "keywords": [
+        "Veritas",
+        "InfoScale",
+        "Licensing",
+        "Veritas Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.301",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.310",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.320",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.330",
+      "keywords": [
+        "Veritas",
+        "InfoScale",
+        "Licensing",
+        "Veritas Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.400",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.409",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "8.0.410",
+      "keywords": [
+        "Arctera",
+        "InfoScale",
+        "Licensing",
+        "Arctera Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "9.0.1",
+      "keywords": [
+        "Arctera",
+        "InfoScale",
+        "Licensing",
+        "Arctera Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "beta"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "9.1.0",
+      "keywords": [
+        "Arctera",
+        "InfoScale",
+        "Licensing",
+        "Arctera Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.100",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.110",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.220",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.230",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Veritas",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "8.0.200x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.301",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.310",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.320",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.330",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Veritas",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "8.0.300x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.400",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.409",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "8.0.410",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "8.0.400x"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "9.0.1",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "beta"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "9.1.0",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.10",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.11",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.12",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.13",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.17",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.18",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.19",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.27",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.30",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.31",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.32",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.4",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.5",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.7",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.8",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.0.9",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.1",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.10",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.11",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.12",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.13",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.14",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.15",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.16",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.17",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.18",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.19",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.2",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.20",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.21",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.22",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.23",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.24",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.25",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.27",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.28",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.29",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.3",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.30",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.31",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.32",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.33",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.34",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.35",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.36",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.4",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.5",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.6",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.7",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.8",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.1.9",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.1",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.2",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.4",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.28.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.29.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.29.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.32.1",
+      "keywords": [
+        "fpga",
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
+      ],
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
+      "channel": "alpha"
+    },
+    {
+      "package": "keysight-loadcore-agents",
+      "name": "keysight-loadcore-agents",
+      "version": "0.1.21",
+      "keywords": [
+        "loadcore",
+        "keysight"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubearmor-operator-certified",
+      "name": "kubearmor-operator-certified",
+      "version": "1.0.0",
+      "keywords": [
+        "kubearmor-operator",
+        "runtime-security",
+        "security",
+        "cloud-native"
+      ],
+      "description": "The KubeArmor Operator deloys and manages KubeArmor daemonset and its componenets within a cluster.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubearmor-operator-certified",
+      "name": "kubearmor-operator-certified",
+      "version": "1.5.2",
+      "keywords": [
+        "monitoring",
+        "security",
+        "alerting",
+        "runtime-security",
+        "cloud native",
+        "container security"
+      ],
+      "description": "KubeArmor Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "kubeblocks",
+      "name": "kubeblocks",
+      "version": "1.0.1",
+      "keywords": [
+        "kubeblocks",
+        "database",
+        "mysql",
+        "postgresql",
+        "redis",
+        "mongodb",
+        "kafka",
+        "sql"
+      ],
+      "description": "KubeBlocks is an open-source control plane that runs and manages databases, message queues and other stateful applications on K8s.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.5.4",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.5.4 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.7.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.7.1 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.7.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.7.2 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.8.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.8.0 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.8.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.8.1 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.8.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.8.2 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.0 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.1 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.2 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.3",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.3 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.4",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.4 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.5",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.5 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubemq-operator-marketplace",
+      "name": "kubemq-operator-marketplace",
+      "version": "1.7.8",
+      "keywords": [
+        "messaging",
+        "queue",
+        "broker",
+        "pubsub",
+        "rpc"
+      ],
+      "description": "Kubernetes Messaging Platform",
+      "channel": "alpha"
+    },
+    {
+      "package": "kurrentdb-operator",
+      "name": "kurrentdb-operator",
+      "version": "1.4.3",
+      "keywords": [
+        "kurrent",
+        "event sourcing",
+        "database"
+      ],
+      "description": "An operator to seamlessly deploy and manage KurrentDB clusters and backups.",
+      "channel": "stable"
+    },
+    {
+      "package": "lightbits-operator",
+      "name": "lightbits-operator",
+      "version": "1.2.2",
+      "keywords": [
+        "csi",
+        "storage",
+        "lightbits"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.1",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.1-0.gbf3c346",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.2",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.3",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.8.1",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.9.0",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.9.1",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "1.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "25.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "25.8.1-1",
+      "keywords": [
+        "mariadb",
+        "mysql",
+        "database",
+        "operator",
+        "mariadb-enterprise-operator",
+        "database"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.0.0",
+      "keywords": [
+        "MongoDB",
+        "Atlas",
+        "Database",
+        "Replica Set",
+        "Cluster"
+      ],
+      "description": "The MongoDB Atlas Kubernetes Operator enables easy management of Clusters in MongoDB Atlas",
+      "channel": "beta"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.4.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.5.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.7.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.7.2",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.7.3",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.8.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "1.9.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.2.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.2.2",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.3.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.4.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.7.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.8.0",
+      "keywords": [
+        "MongoDB",
+        "Atlas",
+        "Database",
+        "Replica Set",
+        "Cluster"
+      ],
+      "description": "The MongoDB Atlas Kubernetes Operator enables easy management of Clusters in MongoDB Atlas",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.16.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.16.2",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.16.3",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.16.4",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.17.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.17.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.17.2",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.18.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.19.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.20.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.21.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.22.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.23.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.24.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.25.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.26.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.27.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.28.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.29.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.30.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.31.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.32.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-enterprise",
+      "name": "mongodb-enterprise",
+      "version": "1.33.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Enterprise Kubernetes Operator enables easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.5.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.6.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mto-dependencies-operator",
+      "name": "mto-dependencies-operator",
+      "version": "0.0.1",
+      "keywords": [
+        "Operator",
+        "Kubernetes",
+        "OpenShift",
+        "Helm"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "netai-demo-operator",
+      "name": "netai-demo-operator",
+      "version": "0.0.1",
+      "keywords": [
+        "energaize",
+        "scaling",
+        "scale",
+        "manage",
+        "forecast",
+        "cells",
+        "5g",
+        "networking",
+        "net",
+        "ai",
+        "network",
+        "telecommunication",
+        "xapp"
+      ],
+      "description": "Net AI Operator that uses EnergAIze engine forecasts to scale Red Hat OpenShift resources.",
+      "channel": "alpha"
+    },
+    {
+      "package": "netapp-spark-operator",
+      "name": "netapp-spark-operator",
+      "version": "1.1.3",
+      "keywords": [
+        "Spark",
+        "Big Data",
+        "Apache Spark",
+        "AI",
+        "ML",
+        "Data Engineering"
+      ],
+      "description": "Red Hat and NetApp have partnered to offer enterprise-grade supported Apache Spark on OpenShift.",
+      "channel": "alpha"
+    },
+    {
+      "package": "netscaler-adm-agent-operator",
+      "name": "netscaler-adm-agent-operator",
+      "version": "141.60.38",
+      "keywords": [
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to deploy container-based ADM agent to connect NetScaler CPX with ADM Service for management and monitoring.",
+      "channel": "alpha"
+    },
+    {
+      "package": "netscaler-adm-agent-operator",
+      "name": "netscaler-adm-agent-operator",
+      "version": "141.60.52",
+      "keywords": [
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to deploy container-based NetScaler Console agent to manage NetScaler CPX with NetScaler Console for management and monitoring.",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.0.1",
+      "keywords": [
+        "Ingress",
+        "NetScaler"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.1.1",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.1.2",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.2.0",
+      "keywords": [
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.2.9",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.0",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.1",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.2",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.3",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.4",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.5",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.6",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.7",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.8",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.3.9",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.0",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.1",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.2",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.3",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.4",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.5",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.6",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.7",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.8",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.4.9",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.0",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.1",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.2",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.3",
+      "keywords": [
+        "Monitoring",
+        "Networking",
+        "Security"
+      ],
+      "description": "NeuVector delivers the only cloud-native Kubernetes security platform with uncompromising end-to-end protection from DevOps vulnerability protection to automated run-time security, and featuring a true Layer 7 container firewall.",
+      "channel": "beta"
+    },
+    {
+      "package": "nexus-repository-ha-operator-certified",
+      "name": "nexus-repository-ha-operator-certified",
+      "version": "3.84.0-1",
+      "keywords": [
+        "repository",
+        "sonatype"
+      ],
+      "description": "Nexus Repository is the central source of control to efficiently manage all binaries\\nand build artifacts across your DevOps pipeline.",
+      "channel": "stable"
+    },
+    {
+      "package": "nginx-gateway-fabric",
+      "name": "nginx-gateway-fabric",
+      "version": "1.0.1",
+      "keywords": [
+        "nginx",
+        "gateway",
+        "kubernetes",
+        "networking"
+      ],
+      "description": "The NGINX Gateway Fabric is a Kubernetes Gateway API implementation that provides application traffic management for modern cloud-native applications",
+      "channel": "stable"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.3.1",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.0",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nim-operator-certified",
+      "name": "nim-operator-certified",
+      "version": "1.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "nim-operator-certified",
+      "name": "nim-operator-certified",
+      "version": "2.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "nim-operator-certified",
+      "name": "nim-operator-certified",
+      "version": "2.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "nim-operator-certified",
+      "name": "nim-operator-certified",
+      "version": "2.0.2",
+      "channel": "stable"
+    },
+    {
+      "package": "nim-operator-certified",
+      "name": "nim-operator-certified",
+      "version": "3.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "nvidia-maintenance-operator",
+      "name": "nvidia-maintenance-operator",
+      "version": "0.2.3",
+      "keywords": [
+        "node",
+        "maintenance",
+        "drain"
+      ],
+      "description": "Node maintenance in K8s cluster in a coordinated manner",
+      "channel": "stable"
+    },
+    {
+      "package": "nxiq-operator-certified",
+      "name": "nxiq-operator-certified",
+      "version": "1.197.0-1",
+      "keywords": [
+        "security",
+        "sonatype",
+        "licensing",
+        "policy",
+        "components"
+      ],
+      "description": "Nexus Lifecycle is an open source governance platform that continuously identifies risk,\\nautomatically enforces policy, and provides visibility throughout the entire SDLC.",
+      "channel": "stable"
+    },
+    {
+      "package": "odigos-operator",
+      "name": "odigos-operator",
+      "version": "1.8.4",
+      "keywords": [
+        "OpenTelemetry",
+        "eBPF",
+        "tracing",
+        "observability",
+        "distributed tracing",
+        "otel",
+        "monitoring"
+      ],
+      "description": "Odigos enables automatic distributed tracing with OpenTelemetry and eBPF.",
+      "channel": "alpha"
+    },
+    {
+      "package": "open-liberty-certified",
+      "name": "open-liberty-certified",
+      "version": "0.8.0",
+      "channel": "beta2"
+    },
+    {
+      "package": "open-liberty-certified",
+      "name": "open-liberty-certified",
+      "version": "0.8.1",
+      "keywords": [
+        "Open Liberty",
+        "MicroProfile",
+        "Jakarta EE",
+        "Java",
+        "Application Server",
+        "Application Runtime",
+        "Runtime",
+        "Spring",
+        "Application",
+        "Open Source",
+        "OpenLiberty",
+        "OLO"
+      ],
+      "description": "Deploy and manage applications running on Liberty",
+      "channel": "beta2"
+    },
+    {
+      "package": "open-liberty-certified",
+      "name": "open-liberty-certified",
+      "version": "1.2.2",
+      "keywords": [
+        "Open Liberty",
+        "MicroProfile",
+        "Jakarta EE",
+        "Java",
+        "Application Server",
+        "Application Runtime",
+        "Runtime",
+        "Spring",
+        "Application",
+        "Open Source",
+        "OpenLiberty",
+        "OLO"
+      ],
+      "description": "Deploy and manage containerized Liberty applications",
+      "channel": "v1.2"
+    },
+    {
+      "package": "open-liberty-certified",
+      "name": "open-liberty-certified",
+      "version": "1.3.3",
+      "keywords": [
+        "Open Liberty",
+        "MicroProfile",
+        "Jakarta EE",
+        "Java",
+        "Application Server",
+        "Application Runtime",
+        "Runtime",
+        "Spring",
+        "Application",
+        "Open Source",
+        "OpenLiberty",
+        "OLO"
+      ],
+      "description": "Deploy and manage containerized Liberty applications",
+      "channel": "v1.3"
+    },
+    {
+      "package": "open-liberty-certified",
+      "name": "open-liberty-certified",
+      "version": "1.4.4",
+      "keywords": [
+        "Open Liberty",
+        "MicroProfile",
+        "Jakarta EE",
+        "Java",
+        "Application Server",
+        "Application Runtime",
+        "Runtime",
+        "Spring",
+        "Application",
+        "Open Source",
+        "OpenLiberty",
+        "OLO"
+      ],
+      "description": "Deploy and manage containerized Liberty applications",
+      "channel": "v1.4"
+    },
+    {
+      "package": "open-liberty-certified",
+      "name": "open-liberty-certified",
+      "version": "1.5.1",
+      "keywords": [
+        "Open Liberty",
+        "MicroProfile",
+        "Jakarta EE",
+        "Java",
+        "Application Server",
+        "Application Runtime",
+        "Runtime",
+        "Spring",
+        "Application",
+        "Open Source",
+        "OpenLiberty",
+        "OLO"
+      ],
+      "description": "Deploy and manage containerized Liberty applications",
+      "channel": "v1.5"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "0.9.3",
+      "keywords": [
+        "gpfs",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "gpfs",
+        "storage",
+        "virtualization"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "1.0.1",
+      "keywords": [
+        "gpfs",
+        "storage",
+        "virtualization"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshiftartifactoryha-operator",
+      "name": "openshiftartifactoryha-operator",
+      "version": "1.1.18",
+      "keywords": [
+        "DevOps",
+        "CI/CD",
+        "Developers",
+        "Software",
+        "Productivity",
+        "Artifact Repository",
+        "Repository Manager",
+        "Docker",
+        "Maven",
+        "Git",
+        "Helm",
+        "npm",
+        "go",
+        "golang",
+        "kubernetes",
+        "k8s",
+        "rpm",
+        "yum"
+      ],
+      "description": "JFrog Artifactory Enterprise deploys Artifactory in a high availability environment across multiple pods",
+      "channel": "stable"
+    },
+    {
+      "package": "openshiftartifactoryha-operator",
+      "name": "openshiftartifactoryha-operator",
+      "version": "1.3.3",
+      "keywords": [
+        "DevOps",
+        "CI/CD",
+        "Developers",
+        "Software",
+        "Productivity",
+        "Artifact Repository",
+        "Repository Manager",
+        "Docker",
+        "Maven",
+        "Git",
+        "Helm",
+        "npm",
+        "go",
+        "golang",
+        "kubernetes",
+        "k8s",
+        "rpm",
+        "yum"
+      ],
+      "description": "JFrog Artifactory Enterprise deploys Artifactory in a high availability environment across multiple pods",
+      "channel": "alpha"
+    },
+    {
+      "package": "operator-certification-operator",
+      "name": "operator-certification-operator",
+      "version": "1.4.0",
+      "keywords": [
+        "certification",
+        "pipeline",
+        "openshift"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "pubsubplus-eventbroker-operator",
+      "name": "pubsubplus-eventbroker-operator",
+      "version": "1.4.0",
+      "keywords": [
+        "solace",
+        "pubsubplus",
+        "pubsub+",
+        "pubsub",
+        "messaging",
+        "advanced event broker",
+        "event broker",
+        "event mesh",
+        "event streaming",
+        "data streaming",
+        "event integration",
+        "middleware"
+      ],
+      "description": "The Solace PubSub+ Event Broker Operator deploys and manages the lifecycle of PubSub+ Event Brokers",
+      "channel": "stable"
+    },
+    {
+      "package": "raftt-operator",
+      "name": "raftt-operator",
+      "version": "1.25.2",
+      "keywords": [
+        "dx",
+        "development",
+        "debugging"
+      ],
+      "description": "This operator installs and configures a Raftt instance",
+      "channel": "alpha"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.0.3",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
+      "package": "runtime-component-operator-certified",
+      "name": "runtime-component-operator-certified",
+      "version": "0.8.0",
+      "channel": "beta2"
+    },
+    {
+      "package": "runtime-component-operator-certified",
+      "name": "runtime-component-operator-certified",
+      "version": "0.8.1",
+      "keywords": [
+        "Runtime Component",
+        "Application Runtime",
+        "Application",
+        "Node",
+        "Swift",
+        "MicroProfile",
+        "Spring",
+        "Java",
+        "Runtime",
+        "Open Source",
+        "Application Stacks",
+        "RCO"
+      ],
+      "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
+      "channel": "beta2"
+    },
+    {
+      "package": "runtime-component-operator-certified",
+      "name": "runtime-component-operator-certified",
+      "version": "1.2.2",
+      "keywords": [
+        "Runtime Component",
+        "Application Runtime",
+        "Application",
+        "Node",
+        "Swift",
+        "MicroProfile",
+        "Spring",
+        "Java",
+        "Runtime",
+        "Open Source",
+        "Application Stacks",
+        "RCO"
+      ],
+      "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
+      "channel": "v1.2"
+    },
+    {
+      "package": "runtime-component-operator-certified",
+      "name": "runtime-component-operator-certified",
+      "version": "1.3.3",
+      "keywords": [
+        "Runtime Component",
+        "Application Runtime",
+        "Application",
+        "Node",
+        "Swift",
+        "MicroProfile",
+        "Spring",
+        "Java",
+        "Runtime",
+        "Open Source",
+        "Application Stacks",
+        "RCO"
+      ],
+      "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
+      "channel": "v1.3"
+    },
+    {
+      "package": "runtime-component-operator-certified",
+      "name": "runtime-component-operator-certified",
+      "version": "1.4.4",
+      "keywords": [
+        "Runtime Component",
+        "Application Runtime",
+        "Application",
+        "Node",
+        "Swift",
+        "MicroProfile",
+        "Spring",
+        "Java",
+        "Runtime",
+        "Open Source",
+        "Application Stacks",
+        "RCO"
+      ],
+      "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
+      "channel": "v1.4"
+    },
+    {
+      "package": "runtime-component-operator-certified",
+      "name": "runtime-component-operator-certified",
+      "version": "1.5.2",
+      "keywords": [
+        "Runtime Component",
+        "Application Runtime",
+        "Application",
+        "Node",
+        "Swift",
+        "MicroProfile",
+        "Spring",
+        "Java",
+        "Runtime",
+        "Open Source",
+        "Application Stacks",
+        "RCO"
+      ],
+      "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
+      "channel": "v1.5"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
+      "version": "2.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
+      "version": "2.11.0",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
+      "version": "2.11.1",
+      "keywords": [
+        "ACC100",
+        "vRAN",
+        "ORAN"
+      ],
+      "description": "An operator for Intel Wireless FEC Accelerator to orchestrate and manage the resources/devices exposed by a range of Intel's vRAN FEC acceleration devices/hardware within the OpenShift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
+      "version": "2.7.1",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
+      "version": "2.7.2",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
+      "version": "2.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
+      "version": "2.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "synaxg-operator",
+      "name": "synaxg-operator",
+      "version": "1.2.0",
+      "keywords": [
+        "vDU",
+        "102X",
+        "SynaXG"
+      ],
+      "description": "SynaXG Operator will work with the SuperMicro Server + SG3 card  and Openshift Container Platform.The Marvell kernel module \u201cocteon_ep\u201d and \u201cocteon_ep_vf\u201d are necessary to the Operator. The Operator can send command of \u201creset\u201d and \u201cupdate\u201d to SG3 board via the VF channel.As a result, users can realize the process of \u201creset card\u201d and \u201cupdate firmware\u201d on the web GUI, and monitor the executing result.",
+      "channel": "alpha"
+    },
+    {
+      "package": "t8c-tsc-client-certified",
+      "name": "t8c-tsc-client-certified",
+      "version": "1.4.3",
+      "keywords": [
+        "turbonomic",
+        "turbo secure connect"
+      ],
+      "description": "Turbonomic Secure Connect for Hybrid environment management",
+      "channel": "candidate"
+    },
+    {
+      "package": "t8c-tsc-client-certified",
+      "name": "t8c-tsc-client-certified",
+      "version": "1.4.3-candidate-20251022123244000",
+      "keywords": [
+        "turbonomic",
+        "turbo secure connect"
+      ],
+      "description": "Turbonomic Secure Connect for Hybrid environment management",
+      "channel": "candidate"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "2.29.1",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "template-operator",
+      "name": "template-operator",
+      "version": "0.0.1",
+      "keywords": [
+        "templates",
+        "secrets",
+        "configmaps",
+        "distribution",
+        "stakater"
+      ],
+      "description": "Operator to distribute plain kubernetes manifests, helm charts and, copy secrets and configmaps to multiple namespaces",
+      "channel": "release-0.0"
+    },
+    {
+      "package": "template-operator",
+      "name": "template-operator",
+      "version": "0.1.5",
+      "keywords": [
+        "templates",
+        "secrets",
+        "configmaps",
+        "distribution",
+        "stakater"
+      ],
+      "description": "Operator to distribute plain kubernetes manifests, helm charts and, copy secrets and configmaps to multiple namespaces",
+      "channel": "release-0.1"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.2.1",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.2"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.3.0",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.3"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.4.2",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.4"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.5.1",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.20.1",
+      "channel": "release-v1.20"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.20.2",
+      "channel": "release-v1.20"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.20.3",
+      "channel": "release-v1.20"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.20.4",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.20"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.23.0",
+      "channel": "release-v1.23"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.23.1",
+      "channel": "release-v1.23"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.23.2",
+      "channel": "release-v1.23"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.23.3",
+      "channel": "release-v1.23"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.23.4",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.23"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.25.1",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.25"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.28.13",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.28"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.29.3",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.29"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.30.9",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.30"
+    },
+    {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.32.3",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.32"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.1.1",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.0.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.1.10",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.1.x"
+    },
+    {
+      "package": "vast-csi-operator",
+      "name": "vast-csi-operator",
+      "version": "2.6.4",
+      "keywords": [
+        "VAST",
+        "VASTData",
+        "CSI",
+        "Multi Cluster",
+        "AI",
+        "High-Performance Computing"
+      ],
+      "description": "Kubernetes operator for automated deployment and lifecycle management of VAST Data CSI drivers.",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.4.3",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.5.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.5.2",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.8.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "0.9.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.0.1",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "cert-manager",
+        "venafi",
+        "vcp-operator"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.1.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.2.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.8.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.8.2",
+      "keywords": [
+        "cert-manager",
+        "cyberark",
+        "vcp-operator"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "vmstore-csi-driver-operator",
+      "name": "vmstore-csi-driver-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "CSI",
+        "Vmstore",
+        "storage",
+        "Tintri",
+        "DDN"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.13",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.14",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.17",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.26",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.27",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.29",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.33",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.36",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.38",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.40",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.42",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
+    }
+  ],
+  "count": 571,
+  "source": "opm",
+  "timestamp": "2025-12-10T13:57:15.496733"
+}

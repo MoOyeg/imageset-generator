@@ -118,6 +118,26 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.1.1",
+      "keywords": [
+        "Aerospike"
+      ],
+      "description": "The Aerospike Kubernetes Operator automates the deployment and management of Aerospike enterprise clusters on Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.1.2",
+      "keywords": [
+        "Aerospike"
+      ],
+      "description": "The Aerospike Kubernetes Operator automates the deployment and management of Aerospike enterprise clusters on Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "keywords": [
         "Aerospike"
@@ -608,6 +628,36 @@
       "channel": "v5"
     },
     {
+      "package": "crunchy-postgres-operator-rhmp",
+      "name": "crunchy-postgres-operator-rhmp",
+      "version": "5.8.3",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator-rhmp",
+      "name": "crunchy-postgres-operator-rhmp",
+      "version": "5.8.4",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
       "version": "1.0.4",
@@ -727,7 +777,46 @@
     {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
+      "version": "1.18.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.19.1",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
       "version": "1.2.1",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.20.0",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -930,6 +1019,48 @@
       "package": "dynatrace-operator-rhmp",
       "name": "dynatrace-operator-rhmp",
       "version": "1.6.2",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.7.0",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.7.1",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.7.2",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -1471,6 +1602,42 @@
     {
       "package": "instana-agent-operator-rhmp",
       "name": "instana-agent-operator-rhmp",
+      "version": "2.1.34",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.1.35",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.1.36",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
       "version": "2.1.4",
       "keywords": [
         "monitoring",
@@ -1541,6 +1708,54 @@
       "channel": "stable"
     },
     {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.0",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.1",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.2",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.4",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
       "package": "iomesh-operator-rhmp",
       "name": "iomesh-operator-rhmp",
       "version": "0.10.1-rc4",
@@ -1577,450 +1792,6 @@
       "channel": "alpha"
     },
     {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "6.5.10",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "6.5.11",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "6.5.12",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "6.5.13",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "6.5.14",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "6.5.5",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "6.5.6",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "6.5.8",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.1",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.11",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.12",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.13",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.14",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.3",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.4",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.5",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.6",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.7",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.8",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.0.9",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.0",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.1",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.10",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.2",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.3",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.4",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.7",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.8",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "7.5.9",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "8.0.0",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "8.0.1",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "8.0.2",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "8.0.3",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "8.0.4",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "8.0.5",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "8.0.6",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-paygo-rhmp",
-      "name": "k10-kasten-operator-paygo-rhmp",
-      "version": "8.0.7",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR\\n\\nNOTE: This version requires a constant internet connection to the Red Hat Marketplace and will NOT work in air-gapped (disconnected) environments",
-      "channel": "stable"
-    },
-    {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "6.5.10",
@@ -2395,6 +2166,54 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.10",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.11",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.13",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.14",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
       "version": "8.0.2",
       "keywords": [
         "kubernetes",
@@ -2465,117 +2284,9 @@
       "channel": "stable"
     },
     {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "6.5.10",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "6.5.11",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "6.5.12",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "6.5.13",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "6.5.14",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "6.5.5",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "6.5.6",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "6.5.8",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.1",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.11",
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.8",
       "keywords": [
         "kubernetes",
         "storage",
@@ -2585,321 +2296,9 @@
       "channel": "stable"
     },
     {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.12",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.13",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.14",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.3",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.4",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.5",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.6",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.7",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.8",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.0.9",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.0",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.1",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.10",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.2",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.3",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.4",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.7",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.8",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "7.5.9",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "8.0.0",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "8.0.1",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "8.0.2",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "8.0.3",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "8.0.4",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "8.0.5",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "8.0.6",
-      "keywords": [
-        "kubernetes",
-        "storage",
-        "data-management"
-      ],
-      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-term-rhmp",
-      "name": "k10-kasten-operator-term-rhmp",
-      "version": "8.0.7",
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.9",
       "keywords": [
         "kubernetes",
         "storage",
@@ -3110,6 +2509,50 @@
       "channel": "stable-cw"
     },
     {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.0-cw",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.21.1",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
+    },
+    {
       "package": "percona-xtradb-cluster-operator-certified-rhmp",
       "name": "percona-xtradb-cluster-operator-certified-rhmp",
       "version": "1.18.0",
@@ -3184,6 +2627,76 @@
       "channel": "7.22.0"
     },
     {
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "7.22.2-21.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "7.22.2-22.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "7.22.2-31.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "8.0.2-2.9",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "8.0.2-6.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.2"
+    },
+    {
       "package": "seldon-deploy-operator-rhmp",
       "name": "seldon-deploy-operator-rhmp",
       "version": "1.0.0",
@@ -3255,6 +2768,102 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.17.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.17.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.17.4",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
       "package": "starburst-enterprise-helm-operator-paygo-rhmp",
       "name": "starburst-enterprise-helm-operator-paygo-rhmp",
       "version": "402.1.0",
@@ -3285,7 +2894,7 @@
     {
       "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
       "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
-      "version": "4.13.0-2",
+      "version": "4.17.1-0",
       "keywords": [
         "collection",
         "logging",
@@ -3513,9 +3122,23 @@
       ],
       "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified-rhmp",
+      "name": "zabbix-operator-certified-rhmp",
+      "version": "6.0.42",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
     }
   ],
-  "count": 282,
+  "count": 246,
   "source": "opm",
-  "timestamp": "2025-08-27T22:58:16.212683"
+  "timestamp": "2025-12-10T14:14:47.166129"
 }

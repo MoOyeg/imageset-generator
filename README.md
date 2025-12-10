@@ -1,7 +1,6 @@
 # OpenShift ImageSetConfiguration Generator
 
 This tool generates ImageSetConfiguration files for OpenShift disconnected installations using the oc-mirror tool. It takes OCP versions and operator suggestions as input and creates a YAML configuration that can be used to mirror container images and operators for air-gapped environments.  
-The data used by the tool is stored in the data subfolder.To have it refreshed run rm -rf ./data/*.
 
 ## Quick Start
 
@@ -33,3 +32,13 @@ The data used by the tool is stored in the data subfolder.To have it refreshed r
 - On the Preview & Generate tab select "Generate Preview" to obtain the output imageset configuration.Copy you output configuration using the copy to clipboard.
 ![Output](./images/preview-gen1.png)
 ![Output..Additional](./images/preview-gen2.png)
+
+
+## Clean and Update Data
+The data used is downloaded and stored in the ./data directory
+
+To update run, the application in dev mode, delete the unnecessary info and open the webpage and update
+```
+rm -rf ./data/*. or rm -rf ./data/<the file you want updated>
+./start-dev.sh
+```

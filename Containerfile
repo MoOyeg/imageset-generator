@@ -33,7 +33,9 @@ RUN microdnf -y install \
     libassuan \
     device-mapper-libs \
     shadow-utils \
-    && microdnf clean all
+    && microdnf clean all \
+    && ln -s /usr/bin/python3.11 /usr/bin/python3 \
+    && ln -s /usr/bin/python3.11 /usr/bin/python
 
 # Download and install oc-mirror tool
 RUN wget https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/latest-4.18/oc-mirror.tar.gz \

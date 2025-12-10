@@ -1,0 +1,66 @@
+#!/usr/bin/env python3
+"""
+OpenShift ImageSetConfiguration Generator - GUI
+
+A graphical user interface for the OpenShift ImageSetConfiguration generator.
+This GUI provides an easy way to configure and generate ImageSetConfiguration files
+without using command-line arguments.
+"""
+
+import tkinter as tk
+from tkinter import ttk, filedialog, messagebox, scrolledtext
+import os
+import sys
+from typing import Dict, List, Any
+import threading
+import subprocess
+from generator import ImageSetGenerator
+
+class OperatorVersionDialog:
+    """Dialog for selecting specific operator versions"""
+    def __init__(self, parent, available_versions=None):
+        self.result = None
+        self.dialog = tk.Toplevel(parent)
+        self.dialog.title("Select Operator Versions")
+        self.dialog.geometry("400x300")
+        self.dialog.transient(parent)
+        self.dialog.grab_set()
+        
+        # Initialize with available versions if provided
+        self.available_versions = available_versions or []
+        self.selected_versions = []
+        
+        self.setup_dialog()
+        
+    def setup_dialog(self):
+        """Setup the dialog interface"""
+        main_frame = ttk.Frame(self.dialog, padding=10)
+        main_frame.pack(fill="both", expand=True)
+        
+        # Available versions listbox
+        ttk.Label(main_frame, text="Available Versions:").pack(fill="x")
+        self.versions_listbox = tk.Listbox(main_frame, selectmode="multiple", height=10)
+        self.versions_listbox.pack(fill="both", expand=True)
+        
+        # Populate versions
+        for version in sorted(self.available_versions):
+            self.versions_listbox.insert(tk.END, version)
+        
+        # Buttons
+        button_frame = ttk.Frame(main_frame)
+        button_frame.pack(fill="x", pady=10)
+        
+        ttk.Button(button_frame, text="Select", command=self.confirm_selection).pack(side="left", padx=5)
+        ttk.Button(button_frame, text="Cancel", command=self.cancel).pack(side="left", padx=5)
+        
+    def confirm_selection(self):
+        """Confirm the version selection"""
+        selection = self.versions_listbox.curselection()
+        if selection:
+            self.selected_versions = [self.versions_listbox.get(i) for i in selection]
+            self.result = self.selected_versions
+        self.dialog.destroy()
+        
+    def cancel(self):
+        """Cancel the selection"""
+        self.dialog.destroy()
