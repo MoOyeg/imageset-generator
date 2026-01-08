@@ -1,0 +1,36 @@
+# Kubernetes Storage Configuration for ImageSet Mirroring
+# Apply with: kubectl apply -f kubernetes-storage.yaml
+
+---
+# PersistentVolumeClaim for mirror storage
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: imageset-mirror-storage
+  namespace: openshift-imageset-mirror
+  labels:
+    app: imageset-mirror
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 500Gi  # Adjust based on your needs
+  storageClassName: ocs-storagecluster-ceph-rbd  # Change to your storage class
+
+---
+# PersistentVolumeClaim for automation data (state, history, logs)
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: imageset-automation-data
+  namespace: openshift-imageset-mirror
+  labels:
+    app: imageset-automation
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: ocs-storagecluster-ceph-rbd  # Change to your storage class

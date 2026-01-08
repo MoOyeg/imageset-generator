@@ -1,0 +1,212 @@
+# ImageSet Generator Automation Configuration
+# This configuration enables automated version discovery and mirroring for disconnected environments
+
+# Scheduler Configuration
+scheduler:
+  enabled: true
+  # Run in the last or second-to-last week of the month
+  # Options: "last-week" (days 22-31), "second-to-last-week" (days 15-21), "both"
+  execution_window: "last-week"
+  # Day of week to run (0=Monday, 6=Sunday)
+  day_of_week: 1  # Tuesday
+  # Time to run (24-hour format)
+  time: "02:00"
+  # Timezone
+  timezone: "UTC"
+
+# Version Discovery Configuration
+version_discovery:
+  # Channel to monitor: stable, fast, eus, candidate
+  channel: "stable"
+  # OCP major.minor version to track (e.g., "4.16", "latest" for newest available)
+  ocp_version: "latest"
+  # Version selection strategy:
+  #   - "latest": Latest version in channel
+  #   - "latest-patch": Latest patch version for the major.minor
+  #   - "latest-stable": Latest version with at least 7 days since release
+  selection_strategy: "latest"
+  # Minimum days since release before selecting (for latest-stable strategy)
+  min_days_since_release: 7
+
+# ImageSet Configuration
+imageset:
+  # Include graph data for version relationships
+  include_graph: true
+  # Operators to mirror (list of operator names or "all" for discovery-based)
+  operators:
+    enabled: true
+    # List specific operators or leave empty for none
+    packages:
+      - cluster-logging
+      - local-storage-operator
+      - odf-operator
+      - ocs-operator
+      - advanced-cluster-management
+    # Catalogs to include
+    catalogs:
+      - redhat-operator-index
+      - certified-operator-index
+    # Operator version strategy: "latest", "all", or specific version
+    version_strategy: "latest"
+
+  # Additional images to mirror
+  additional_images:
+    enabled: false
+    images: []
+      # - registry.redhat.io/ubi8/ubi:latest
+      # - registry.redhat.io/ubi9/ubi-minimal:latest
+
+  # Helm charts
+  helm:
+    enabled: false
+    repositories: []
+
+# Kubernetes Job Configuration
+kubernetes:
+  # Namespace for mirror jobs
+  namespace: "openshift-imageset-mirror"
+  # Service account with registry credentials
+  service_account: "imageset-mirror-sa"
+  # Job template configuration
+  job:
+    # Base name for jobs (will append timestamp)
+    name_prefix: "imageset-mirror"
+    # Restart policy
+    restart_policy: "OnFailure"
+    # Backoff limit for retries
+    backoff_limit: 3
+    # TTL after job finishes (seconds)
+    ttl_seconds_after_finished: 86400  # 24 hours
+    # Resource requests and limits
+    resources:
+      requests:
+        memory: "4Gi"
+        cpu: "2"
+      limits:
+        memory: "8Gi"
+        cpu: "4"
+    # Container image with oc-mirror
+    image: "registry.redhat.io/openshift4/oc-mirror-rhel9:latest"
+    # Pull policy
+    image_pull_policy: "IfNotPresent"
+    # Pull secrets for the image
+    image_pull_secrets:
+      - name: "redhat-registry-pull-secret"
+
+  # Storage configuration for mirror destination
+  storage:
+    # Use PersistentVolumeClaim
+    pvc:
+      enabled: true
+      # Existing PVC name or create new
+      name: "imageset-mirror-storage"
+      # Size if creating new PVC
+      size: "500Gi"
+      # Storage class
+      storage_class: "ocs-storagecluster-ceph-rbd"
+      # Access mode
+      access_mode: "ReadWriteOnce"
+    # Mount path in container
+    mount_path: "/mirror"
+
+  # Registry credentials secret
+  registry_credentials:
+    # Secret containing .dockerconfigjson
+    secret_name: "redhat-registry-pull-secret"
+    # Mount path for the secret
+    mount_path: "/run/user/1000/containers"
+
+  # ConfigMap for imageset configuration
+  config_map:
+    # Name will be generated: imageset-config-<timestamp>
+    name_prefix: "imageset-config"
+
+# Monitoring Configuration
+monitoring:
+  # Poll interval for job status (seconds)
+  poll_interval: 30
+  # Maximum time to wait for job completion (seconds)
+  max_wait_time: 14400  # 4 hours
+  # Enable detailed logging
+  verbose_logging: true
+  # Collect job logs on completion
+  collect_logs: true
+
+# Notification Configuration
+notifications:
+  # Enable notifications
+  enabled: true
+
+  # Email notifications
+  email:
+    enabled: false
+    smtp_server: "smtp.example.com"
+    smtp_port: 587
+    smtp_user: "imageset-automation@example.com"
+    smtp_password: "${SMTP_PASSWORD}"  # Use environment variable
+    use_tls: true
+    from_address: "imageset-automation@example.com"
+    to_addresses:
+      - "ops-team@example.com"
+      - "platform-team@example.com"
+    # Send on version selection
+    notify_on_version_selected: true
+    # Send on mirroring start
+    notify_on_mirror_start: true
+    # Send on mirroring completion
+    notify_on_mirror_complete: true
+    # Send on failure
+    notify_on_failure: true
+
+  # Slack notifications
+  slack:
+    enabled: false
+    webhook_url: "${SLACK_WEBHOOK_URL}"  # Use environment variable
+    channel: "#openshift-ops"
+    username: "ImageSet Automation"
+    icon_emoji: ":package:"
+    notify_on_version_selected: true
+    notify_on_mirror_start: true
+    notify_on_mirror_complete: true
+    notify_on_failure: true
+
+  # Generic webhook notifications
+  webhook:
+    enabled: false
+    url: "${WEBHOOK_URL}"
+    method: "POST"
+    headers:
+      Content-Type: "application/json"
+      Authorization: "Bearer ${WEBHOOK_TOKEN}"
+    notify_on_version_selected: true
+    notify_on_mirror_start: true
+    notify_on_mirror_complete: true
+    notify_on_failure: true
+
+# Persistence Configuration
+persistence:
+  # Store automation state
+  state_file: "data/automation-state.json"
+  # Store job history
+  history_file: "data/automation-history.json"
+  # Maximum history entries to retain
+  max_history_entries: 50
+
+# Safety and Control
+safety:
+  # Dry run mode (generate config and job, but don't create job)
+  dry_run: false
+  # Require manual approval before creating job
+  require_approval: false
+  # Prevent running if another job is active
+  prevent_concurrent_jobs: true
+  # Skip if same version already mirrored
+  skip_if_version_unchanged: true
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "json"  # json or text
+  file: "logs/automation.log"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5
