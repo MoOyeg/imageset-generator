@@ -37,9 +37,15 @@ class KubernetesManager:
         if not KUBERNETES_AVAILABLE:
             raise ImportError("kubernetes Python package is required for automation")
 
+        if not isinstance(kubernetes_config, dict):
+            raise ValueError("kubernetes_config must be a dictionary")
+
         self.config = kubernetes_config
         self.dry_run = dry_run
         self.namespace = kubernetes_config.get('namespace', 'default')
+
+        # Validate required configuration
+        self._validate_config()
 
         # Initialize Kubernetes clients
         try:
@@ -55,6 +61,49 @@ class KubernetesManager:
 
         self.batch_v1 = client.BatchV1Api()
         self.core_v1 = client.CoreV1Api()
+
+    def _validate_config(self):
+        """
+        Validate required configuration keys
+
+        Raises:
+            ValueError: If required configuration is missing or invalid
+        """
+        # Check job configuration
+        job_config = self.config.get('job')
+        if not job_config:
+            raise ValueError("Missing required 'job' configuration section")
+        if not isinstance(job_config, dict):
+            raise ValueError("'job' configuration must be a dictionary")
+        if 'name_prefix' not in job_config:
+            raise ValueError("Missing required 'job.name_prefix' configuration")
+
+        # Check config_map configuration
+        config_map = self.config.get('config_map')
+        if not config_map:
+            raise ValueError("Missing required 'config_map' configuration section")
+        if not isinstance(config_map, dict):
+            raise ValueError("'config_map' configuration must be a dictionary")
+        if 'name_prefix' not in config_map:
+            raise ValueError("Missing required 'config_map.name_prefix' configuration")
+
+        # Check registry_credentials configuration
+        registry_creds = self.config.get('registry_credentials')
+        if not registry_creds:
+            raise ValueError("Missing required 'registry_credentials' configuration section")
+        if not isinstance(registry_creds, dict):
+            raise ValueError("'registry_credentials' configuration must be a dictionary")
+        if 'secret_name' not in registry_creds:
+            raise ValueError("Missing required 'registry_credentials.secret_name' configuration")
+        if 'mount_path' not in registry_creds:
+            raise ValueError("Missing required 'registry_credentials.mount_path' configuration")
+
+        # Check storage configuration
+        storage = self.config.get('storage')
+        if storage and not isinstance(storage, dict):
+            raise ValueError("'storage' configuration must be a dictionary")
+
+        logger.debug("Configuration validation passed")
 
     def create_mirror_job(
         self,
@@ -75,7 +124,10 @@ class KubernetesManager:
         """
         if job_name is None:
             timestamp = datetime.utcnow().strftime('%Y%m%d-%H%M%S')
-            job_name = f"{self.config['job']['name_prefix']}-{timestamp}"
+            name_prefix = self.config.get('job', {}).get('name_prefix')
+            if not name_prefix:
+                raise ValueError("Missing required 'job.name_prefix' configuration")
+            job_name = f"{name_prefix}-{timestamp}"
 
         # Create ConfigMap for imageset configuration
         config_map_name = self._create_config_map(job_name, imageset_config)
@@ -260,7 +312,8 @@ class KubernetesManager:
 
             for job in jobs.items:
                 # Check if job matches our prefix
-                if not job.metadata.name.startswith(self.config['job']['name_prefix']):
+                name_prefix = self.config.get('job', {}).get('name_prefix')
+                if not name_prefix or not job.metadata.name.startswith(name_prefix):
                     continue
 
                 # Check if completed
@@ -284,7 +337,10 @@ class KubernetesManager:
 
     def _create_config_map(self, job_name: str, imageset_config: str) -> str:
         """Create ConfigMap with imageset configuration"""
-        config_map_name = f"{self.config['config_map']['name_prefix']}-{job_name}"
+        config_map_prefix = self.config.get('config_map', {}).get('name_prefix')
+        if not config_map_prefix:
+            raise ValueError("Missing required 'config_map.name_prefix' configuration")
+        config_map_name = f"{config_map_prefix}-{job_name}"
 
         config_map = client.V1ConfigMap(
             metadata=client.V1ObjectMeta(name=config_map_name),
@@ -302,9 +358,13 @@ class KubernetesManager:
 
     def _build_job_manifest(self, job_name: str, config_map_name: str, version: str) -> Dict:
         """Build Kubernetes Job manifest"""
-        job_config = self.config['job']
-        storage_config = self.config['storage']
-        registry_config = self.config['registry_credentials']
+        job_config = self.config.get('job', {})
+        if not job_config:
+            raise ValueError("Missing required 'job' configuration section")
+        storage_config = self.config.get('storage', {})
+        registry_config = self.config.get('registry_credentials', {})
+        if not registry_config:
+            raise ValueError("Missing required 'registry_credentials' configuration section")
 
         # Build volumes
         volumes = [
@@ -314,7 +374,7 @@ class KubernetesManager:
             },
             {
                 "name": "registry-credentials",
-                "secret": {"secretName": registry_config['secret_name']}
+                "secret": {"secretName": registry_config.get('secret_name', 'redhat-registry-pull-secret')}
             }
         ]
 
@@ -327,17 +387,20 @@ class KubernetesManager:
             },
             {
                 "name": "registry-credentials",
-                "mountPath": registry_config['mount_path'],
+                "mountPath": registry_config.get('mount_path', '/etc/containers/auth.json'),
                 "readOnly": True
             }
         ]
 
         # Add storage volume and mount
         if storage_config.get('pvc', {}).get('enabled'):
+            pvc_name = storage_config.get('pvc', {}).get('name')
+            if not pvc_name:
+                raise ValueError("Missing required 'storage.pvc.name' configuration when PVC is enabled")
             volumes.append({
                 "name": "mirror-storage",
                 "persistentVolumeClaim": {
-                    "claimName": storage_config['pvc']['name']
+                    "claimName": pvc_name
                 }
             })
         else:
@@ -346,30 +409,35 @@ class KubernetesManager:
                 "emptyDir": {}
             })
 
+        storage_mount_path = storage_config.get('mount_path', '/mirror')
         volume_mounts.append({
             "name": "mirror-storage",
-            "mountPath": storage_config['mount_path']
+            "mountPath": storage_mount_path
         })
 
         # Build oc-mirror command
-        mirror_path = storage_config['mount_path']
         command = [
             "/bin/bash",
             "-c",
-            f"oc-mirror --config /config/imageset-config.yaml file://{mirror_path}"
+            f"oc-mirror --config /config/imageset-config.yaml file://{storage_mount_path}"
         ]
 
         # Build container spec
+        image = job_config.get('image')
+        if not image:
+            raise ValueError("Missing required 'job.image' configuration")
+        
+        registry_mount = registry_config.get('mount_path', '/etc/containers/auth.json')
         container = {
             "name": "oc-mirror",
-            "image": job_config['image'],
-            "imagePullPolicy": job_config['image_pull_policy'],
+            "image": image,
+            "imagePullPolicy": job_config.get('image_pull_policy', 'IfNotPresent'),
             "command": command,
             "volumeMounts": volume_mounts,
             "resources": job_config.get('resources', {}),
             "env": [
                 {"name": "OCP_VERSION", "value": version},
-                {"name": "REGISTRY_AUTH_FILE", "value": f"{registry_config['mount_path']}/.dockerconfigjson"}
+                {"name": "REGISTRY_AUTH_FILE", "value": f"{registry_mount}/.dockerconfigjson"}
             ]
         }
 
