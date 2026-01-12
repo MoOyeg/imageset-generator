@@ -12,95 +12,76 @@ except ImportError:
 
 import json
 import sys
+import pytest
+
 
 def test_api(base_url="http://localhost:5000"):
-    """Test the Flask API endpoints"""
-    
+    """Smoke test for the Flask API endpoints.
+
+    Skips if the API server is not running locally.
+    """
+
     print(f"Testing API at {base_url}")
     print("=" * 50)
-    
+
+    test_config = {
+        "ocp_versions": ["4.14.1", "4.14.2"],
+        "ocp_channel": "stable-4.14",
+        "operators": ["logging", "monitoring"],
+        "operator_catalog": "registry.redhat.io/redhat/redhat-operator-index",
+        "additional_images": ["registry.redhat.io/ubi8/ubi:latest"],
+        "output_file": "test-config.yaml",
+    }
+
     try:
         # Test health endpoint
         print("1. Testing health endpoint...")
         response = requests.get(f"{base_url}/api/health")
-        if response.status_code == 200:
-            print("✓ Health check passed")
-            print(f"  Response: {response.json()}")
-        else:
-            print(f"✗ Health check failed: {response.status_code}")
-            return False
-        
+        if response.status_code != 200:
+            pytest.fail(f"Health check failed: {response.status_code}")
+
         # Test operator mappings
         print("\n2. Testing operator mappings...")
         response = requests.get(f"{base_url}/api/operators/mappings")
-        if response.status_code == 200:
-            data = response.json()
-            print("✓ Operator mappings retrieved")
-            print(f"  Found {len(data.get('mappings', {}))} operator mappings")
-        else:
-            print(f"✗ Operator mappings failed: {response.status_code}")
-            return False
-        
+        if response.status_code != 200:
+            pytest.fail(f"Operator mappings failed: {response.status_code}")
+        data = response.json()
+        assert isinstance(data.get("mappings", {}), dict)
+
         # Test preview generation
         print("\n3. Testing preview generation...")
-        test_config = {
-            "ocp_versions": ["4.14.1", "4.14.2"],
-            "ocp_channel": "stable-4.14",
-            "operators": ["logging", "monitoring"],
-            "operator_catalog": "registry.redhat.io/redhat/redhat-operator-index",
-            "additional_images": ["registry.redhat.io/ubi8/ubi:latest"],
-            "output_file": "test-config.yaml"
-        }
-        
         response = requests.post(f"{base_url}/api/generate/preview", json=test_config)
-        if response.status_code == 200:
-            data = response.json()
-            print("✓ Preview generation successful")
-            print(f"  Generated YAML length: {len(data.get('yaml', ''))}")
-        else:
-            print(f"✗ Preview generation failed: {response.status_code}")
-            if response.headers.get('content-type', '').startswith('application/json'):
-                print(f"  Error: {response.json()}")
-            return False
-        
+        if response.status_code != 200:
+            content_type = response.headers.get("content-type", "")
+            extra = response.json() if content_type.startswith("application/json") else response.text
+            pytest.fail(f"Preview generation failed: {response.status_code}, {extra}")
+        data = response.json()
+        assert "yaml" in data
+
         # Test sample config
         print("\n4. Testing sample config...")
         response = requests.get(f"{base_url}/api/config/sample")
-        if response.status_code == 200:
-            data = response.json()
-            print("✓ Sample config retrieved")
-            config = data.get('config', {})
-            print(f"  OCP versions: {config.get('ocp_versions', [])}")
-            print(f"  Operators: {len(config.get('operators', []))}")
-        else:
-            print(f"✗ Sample config failed: {response.status_code}")
-            return False
-        
+        if response.status_code != 200:
+            pytest.fail(f"Sample config failed: {response.status_code}")
+        data = response.json()
+        assert "config" in data
+
         # Test validation
         print("\n5. Testing configuration validation...")
         response = requests.post(f"{base_url}/api/validate", json=test_config)
-        if response.status_code == 200:
-            data = response.json()
-            print("✓ Configuration validation successful")
-            print(f"  Valid: {data.get('valid', False)}")
-            print(f"  Errors: {len(data.get('errors', []))}")
-            print(f"  Warnings: {len(data.get('warnings', []))}")
-        else:
-            print(f"✗ Configuration validation failed: {response.status_code}")
-            return False
-        
+        if response.status_code != 200:
+            pytest.fail(f"Configuration validation failed: {response.status_code}")
+        data = response.json()
+        assert "valid" in data
+
         print("\n" + "=" * 50)
         print("✓ All API tests passed!")
-        return True
-        
+
     except requests.exceptions.ConnectionError:
-        print(f"✗ Could not connect to {base_url}")
-        print("  Make sure the Flask server is running:")
-        print(f"  python app.py --host 127.0.0.1 --port 5000")
-        return False
+        pytest.skip(f"API server not running at {base_url}")
     except Exception as e:
-        print(f"✗ Test failed with error: {e}")
-        return False
+        pytest.fail(f"Test failed with error: {e}")
+
 
 if __name__ == "__main__":
     base_url = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:5000"

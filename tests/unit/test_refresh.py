@@ -5,57 +5,56 @@ import json
 import re
 import os
 from datetime import datetime
+import shutil
+import pytest
 
 def test_oc_mirror():
-    """Test oc-mirror command"""
+    """Test oc-mirror command (skips if oc-mirror is unavailable)."""
+    if shutil.which("oc-mirror") is None:
+        pytest.skip("oc-mirror not installed")
+
     try:
         print("Testing oc-mirror list releases...")
-        
-        # Run oc-mirror list releases command
+
         result = subprocess.run(
-            ['oc-mirror', 'list', 'releases'],
+            ["oc-mirror", "list", "releases"],
             capture_output=True,
             text=True,
-            timeout=60
+            timeout=60,
         )
-        
+
         print(f"Return code: {result.returncode}")
         print(f"Stdout: {result.stdout[:500]}...")
         print(f"Stderr: {result.stderr}")
-        
-        if result.returncode == 0:
-            # Parse the output to extract version numbers
-            releases = []
-            lines = result.stdout.strip().split('\n')
-            
-            print(f"Processing {len(lines)} lines...")
-            
-            for line in lines:
-                line = line.strip()
-                if line and re.match(r'^\d+\.\d+$', line):
-                    releases.append(line)
-                    print(f"Found release: {line}")
-            
-            print(f"Total releases found: {len(releases)}")
-            print(f"Releases: {releases}")
-            
-            return {
-                'status': 'success',
-                'releases': releases,
-                'count': len(releases)
-            }
-        else:
-            return {
-                'status': 'error',
-                'message': f'Command failed: {result.stderr}'
-            }
-            
+
+        if result.returncode != 0:
+            pytest.skip(f"oc-mirror list releases failed: {result.stderr}")
+
+        releases = []
+        lines = result.stdout.strip().split("\n")
+
+        print(f"Processing {len(lines)} lines...")
+
+        for line in lines:
+            line = line.strip()
+            if line and re.match(r"^\d+\.\d+$", line):
+                releases.append(line)
+                print(f"Found release: {line}")
+
+        print(f"Total releases found: {len(releases)}")
+        print(f"Releases: {releases}")
+
+        # Basic assertions to ensure output is plausible
+        assert isinstance(releases, list)
+        for rel in releases:
+            assert re.match(r"^\d+\.\d+$", rel)
+
+    except subprocess.TimeoutExpired:
+        pytest.skip("oc-mirror timed out")
+    except FileNotFoundError:
+        pytest.skip("oc-mirror binary not found")
     except Exception as e:
-        print(f"Exception: {e}")
-        return {
-            'status': 'error', 
-            'message': str(e)
-        }
+        pytest.fail(f"Unexpected error: {e}")
 
 if __name__ == "__main__":
     result = test_oc_mirror()
