@@ -8,6 +8,7 @@ Supports multiple notification channels:
 """
 
 import os
+import re
 import json
 import smtplib
 import logging
@@ -48,10 +49,20 @@ class NotificationManager:
     def _expand_env_vars(self):
         """Expand environment variables in configuration values"""
         def expand_value(value):
-            if isinstance(value, str) and value.startswith('${') and value.endswith('}'):
-                env_var = value[2:-1]
-                return os.environ.get(env_var, value)
-            return value
+            """Expand ${VAR} patterns in value, supporting multiple and embedded variables"""
+            if not isinstance(value, str):
+                return value
+            
+            # Pattern to match ${VAR_NAME}
+            pattern = r'\$\{([^}]+)\}'
+            
+            def replace_var(match):
+                var_name = match.group(1)
+                # Return environment variable value or the original placeholder if not found
+                return os.environ.get(var_name, match.group(0))
+            
+            # Replace all ${VAR} occurrences in the string
+            return re.sub(pattern, replace_var, value)
 
         def expand_dict(d):
             for key, value in d.items():
