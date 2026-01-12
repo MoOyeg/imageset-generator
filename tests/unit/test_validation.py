@@ -4,7 +4,7 @@ Tests for validation utilities
 """
 
 import pytest
-from validation import (
+from imageset_generator.validation import (
     validate_catalog_url,
     validate_version,
     validate_channel,

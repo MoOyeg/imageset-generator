@@ -3,7 +3,7 @@
 Test constants module
 """
 
-from constants import (
+from imageset_generator.constants import (
     TIMEOUT_OC_MIRROR_SHORT,
     TIMEOUT_OPM_RENDER,
     DEFAULT_PORT,

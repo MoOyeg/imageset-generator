@@ -4,15 +4,12 @@ Test custom exception classes
 Tests exception hierarchy, context preservation, and message formatting
 """
 
-import sys
-import os
 
 # Add the parent directory to the path so we can import exceptions
-sys.path.insert(0, os.path.dirname(__file__))
 
 def test_base_exception():
     """Test base ImageSetGeneratorError exception"""
-    from exceptions import ImageSetGeneratorError
+    from imageset_generator.exceptions import ImageSetGeneratorError
     
     # Test basic message
     error = ImageSetGeneratorError("Test error")
@@ -37,7 +34,7 @@ def test_base_exception():
 
 def test_catalog_error():
     """Test CatalogError and subclasses"""
-    from exceptions import CatalogError, CatalogRenderError, CatalogParseError
+    from imageset_generator.exceptions import CatalogError, CatalogRenderError, CatalogParseError
     
     # Test CatalogError
     error = CatalogError(
@@ -70,7 +67,7 @@ def test_catalog_error():
 
 def test_operator_error():
     """Test OperatorError and subclasses"""
-    from exceptions import OperatorError, OperatorNotFoundError, InvalidChannelError
+    from imageset_generator.exceptions import OperatorError, OperatorNotFoundError, InvalidChannelError
     
     # Test OperatorError
     error = OperatorError(
@@ -105,7 +102,7 @@ def test_operator_error():
 
 def test_version_error():
     """Test VersionError and subclasses"""
-    from exceptions import VersionError, InvalidVersionError, VersionComparisonError
+    from imageset_generator.exceptions import VersionError, InvalidVersionError, VersionComparisonError
     
     # Test VersionError
     error = VersionError(
@@ -140,7 +137,7 @@ def test_version_error():
 
 def test_configuration_error():
     """Test ConfigurationError"""
-    from exceptions import ConfigurationError
+    from imageset_generator.exceptions import ConfigurationError
     
     error = ConfigurationError(
         "Invalid configuration value",
@@ -155,7 +152,7 @@ def test_configuration_error():
 
 def test_file_operation_error():
     """Test FileOperationError"""
-    from exceptions import FileOperationError
+    from imageset_generator.exceptions import FileOperationError
     
     error = FileOperationError(
         "Cannot write to file",
@@ -170,7 +167,7 @@ def test_file_operation_error():
 
 def test_network_error():
     """Test NetworkError"""
-    from exceptions import NetworkError
+    from imageset_generator.exceptions import NetworkError
     
     error = NetworkError(
         "Connection timeout",
@@ -185,7 +182,7 @@ def test_network_error():
 
 def test_generation_error():
     """Test GenerationError"""
-    from exceptions import GenerationError
+    from imageset_generator.exceptions import GenerationError
     
     error = GenerationError(
         "ImageSet generation failed",
@@ -198,7 +195,7 @@ def test_generation_error():
 
 def test_exception_hierarchy():
     """Test that all exceptions inherit from base class"""
-    from exceptions import (
+    from imageset_generator.exceptions import (
         ImageSetGeneratorError,
         CatalogError,
         CatalogRenderError,
@@ -243,7 +240,7 @@ def test_exception_hierarchy():
 
 def test_exception_catching():
     """Test that exceptions can be caught at different levels"""
-    from exceptions import (
+    from imageset_generator.exceptions import (
         ImageSetGeneratorError,
         CatalogError,
         CatalogRenderError

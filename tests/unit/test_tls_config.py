@@ -7,13 +7,11 @@ Tests that build_opm_command respects TLS_VERIFY constant
 import sys
 import os
 
-# Add the parent directory to the path so we can import app
-sys.path.insert(0, os.path.dirname(__file__))
 
 def test_build_opm_command_default():
     """Test that build_opm_command uses TLS_VERIFY constant by default"""
-    from app import build_opm_command
-    from constants import TLS_VERIFY
+    from imageset_generator.app import build_opm_command
+    from imageset_generator.constants import TLS_VERIFY
     
     cmd = build_opm_command('registry.redhat.io/redhat/redhat-operator-index:v4.18')
     
@@ -33,7 +31,7 @@ def test_build_opm_command_default():
 
 def test_build_opm_command_explicit_skip_tls():
     """Test explicit skip_tls parameter overrides"""
-    from app import build_opm_command
+    from imageset_generator.app import build_opm_command
     
     # Test explicit skip_tls=True
     cmd = build_opm_command('registry.redhat.io/redhat/redhat-operator-index:v4.18', skip_tls=True)
@@ -47,7 +45,7 @@ def test_build_opm_command_explicit_skip_tls():
 
 def test_build_opm_command_json_output():
     """Test that build_opm_command handles JSON output format correctly"""
-    from app import build_opm_command
+    from imageset_generator.app import build_opm_command
     
     cmd = build_opm_command('registry.redhat.io/redhat/redhat-operator-index:v4.18', output_format='json')
     
@@ -62,7 +60,7 @@ def test_build_opm_command_json_output():
 
 def test_build_opm_command_yaml_output():
     """Test that build_opm_command handles YAML output (default) correctly"""
-    from app import build_opm_command
+    from imageset_generator.app import build_opm_command
     
     cmd = build_opm_command('registry.redhat.io/redhat/redhat-operator-index:v4.18')
     
@@ -73,7 +71,7 @@ def test_build_opm_command_yaml_output():
 
 def test_tls_verify_constant_default():
     """Test that TLS_VERIFY constant defaults to True (secure by default)"""
-    from constants import TLS_VERIFY
+    from imageset_generator.constants import TLS_VERIFY
     
     assert TLS_VERIFY == True, f"TLS_VERIFY should default to True for security, got: {TLS_VERIFY}"
     print("✓ Test passed: TLS_VERIFY constant defaults to True (secure by default)")

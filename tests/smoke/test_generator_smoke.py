@@ -1,6 +1,6 @@
 import yaml
 
-from generator import ImageSetGenerator
+from imageset_generator.generator import ImageSetGenerator
 
 
 def test_generator_smoke_builds_expected_config():

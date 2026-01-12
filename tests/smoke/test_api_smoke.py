@@ -1,4 +1,4 @@
-from app import app
+from imageset_generator.app import app
 
 
 def test_generate_preview_endpoint_returns_yaml():

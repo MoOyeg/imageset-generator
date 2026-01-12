@@ -8,12 +8,10 @@ import sys
 import os
 import tempfile
 
-# Add the parent directory to the path so we can import app
-sys.path.insert(0, os.path.dirname(__file__))
 
 def test_get_operator_file_paths():
     """Test file path generation"""
-    from app import _get_operator_file_paths
+    from imageset_generator.app import _get_operator_file_paths
     
     main, index, data, channel = _get_operator_file_paths("redhat-operator-index", "v4.18")
     
@@ -26,7 +24,7 @@ def test_get_operator_file_paths():
 
 def test_cleanup_intermediate_files():
     """Test intermediate file cleanup"""
-    from app import _cleanup_intermediate_files
+    from imageset_generator.app import _cleanup_intermediate_files
     
     # Create temporary files
     temp_files = []
@@ -50,7 +48,7 @@ def test_cleanup_intermediate_files():
 
 def test_cleanup_handles_missing_files():
     """Test that cleanup doesn't fail on missing files"""
-    from app import _cleanup_intermediate_files
+    from imageset_generator.app import _cleanup_intermediate_files
     
     # Try to cleanup non-existent files (should not raise error)
     try:
@@ -61,7 +59,7 @@ def test_cleanup_handles_missing_files():
 
 def test_find_operator_channel():
     """Test channel finding logic"""
-    from app import _find_operator_channel
+    from imageset_generator.app import _find_operator_channel
     
     # Create temporary channel file
     fd, channel_file = tempfile.mkstemp(suffix='.tsv')
@@ -93,7 +91,7 @@ openshift-gitops-operator\tgitops-1.8\topenshift-gitops-operator.v1.8.0\tgitops-
 
 def test_parse_operator_data():
     """Test TSV parsing and enrichment"""
-    from app import _parse_operator_data
+    from imageset_generator.app import _parse_operator_data
     
     # Create temporary data and channel files
     fd_data, data_file = tempfile.mkstemp(suffix='.tsv')
@@ -147,7 +145,7 @@ advanced-cluster-management\trelease-2.5\tacm-operator.v2.5.0\trelease-2.5"""
 def test_function_size_reduction():
     """Test that main function is significantly smaller"""
     import inspect
-    from app import refresh_ocp_operators
+    from imageset_generator.app import refresh_ocp_operators
     
     # Get source code
     source = inspect.getsource(refresh_ocp_operators)

@@ -3,7 +3,7 @@
 Simple tests for validation utilities (no pytest required)
 """
 
-from validation import (
+from imageset_generator.validation import (
     validate_catalog_url,
     validate_version,
     validate_channel,
