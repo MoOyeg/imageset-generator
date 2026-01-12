@@ -404,7 +404,7 @@ class AutomationEngine:
 
         else:
             logger.error(f"Unknown selection strategy: {strategy}")
-            return releases[-1]
+            return None
 
     def _should_skip_unchanged_version(self, version: str) -> bool:
         """Check if version should be skipped because it's unchanged"""
@@ -450,21 +450,20 @@ class AutomationEngine:
                         # Build full catalog URL
                         catalog_url = f"registry.redhat.io/redhat/{catalog_short_name}:v{ocp_major_minor}"
 
-                        for package in packages:
-                            generator.add_operator(
-                                catalog=catalog_url,
-                                package_name=package,
-                                min_version=None,  # Latest
-                                max_version=None,
-                                channels=None
-                            )
+                        # Build operator list for add_operators (expects list of operator names/dicts)
+                        operator_list = [{'name': pkg} for pkg in packages]
+                        generator.add_operators(
+                            operators=operator_list,
+                            catalog=catalog_url,
+                            ocp_version=ocp_major_minor
+                        )
 
             # Add additional images if enabled
             additional_images_config = imageset_config.get('additional_images', {})
             if additional_images_config.get('enabled', False):
                 images = additional_images_config.get('images', [])
-                for image in images:
-                    generator.add_additional_image(image)
+                if images:
+                    generator.add_additional_images(images)
 
             # Generate YAML
             yaml_content = generator.generate_yaml()
