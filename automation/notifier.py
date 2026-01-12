@@ -199,7 +199,7 @@ class NotificationManager:
         # Slack
         if self.slack_config.get('enabled') and self.slack_config.get(notify_key, True):
             try:
-                self._send_slack(subject, message, data)
+                self._send_slack(subject, message, data, event_type)
             except Exception as e:
                 logger.error(f"Failed to send Slack notification: {e}")
 
@@ -239,7 +239,7 @@ class NotificationManager:
 
         logger.info(f"Email notification sent: {subject}")
 
-    def _send_slack(self, subject: str, message: str, data: Dict):
+    def _send_slack(self, subject: str, message: str, data: Dict, event_type: str):
         """Send Slack notification"""
         config = self.slack_config
 
@@ -251,7 +251,7 @@ class NotificationManager:
             "text": f"*{subject}*",
             "attachments": [
                 {
-                    "color": self._get_color_for_event(data.get('timestamp', '')),
+                    "color": self._get_color_for_event(event_type),
                     "text": message,
                     "footer": "ImageSet Generator",
                     "ts": int(datetime.utcnow().timestamp())

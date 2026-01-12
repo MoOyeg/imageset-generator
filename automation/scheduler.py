@@ -8,7 +8,6 @@ Supports running in the last or second-to-last week of the month.
 import os
 import sys
 import logging
-import calendar
 from datetime import datetime, timedelta
 from typing import Dict, Any, Optional, Callable
 import pytz
@@ -196,20 +195,14 @@ class AutomationScheduler:
             'last-week', 'second-to-last-week', or 'neither'
         """
         day = dt.day
-        _, last_day = calendar.monthrange(dt.year, dt.month)
 
-        # Last week: last 10 days of month
-        if day >= last_day - 9:
+        # Last week: days 22-31
+        if day >= 22:
             return 'last-week'
 
-        # Second-to-last week: days 15-21 (or adjusted for short months)
-        if last_day <= 28:
-            # Short month, adjust windows
-            if 12 <= day <= 18:
-                return 'second-to-last-week'
-        else:
-            if 15 <= day <= 21:
-                return 'second-to-last-week'
+        # Second-to-last week: days 15-21
+        if 15 <= day <= 21:
+            return 'second-to-last-week'
 
         return 'neither'
 

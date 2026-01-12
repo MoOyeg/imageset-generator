@@ -8,7 +8,7 @@ for executing oc-mirror in disconnected environments.
 import os
 import logging
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, Any, Optional, Tuple
 import yaml
 
@@ -252,7 +252,7 @@ class KubernetesManager:
         Returns:
             Number of jobs deleted
         """
-        cutoff_time = datetime.utcnow() - timedelta(days=older_than_days)
+        cutoff_time = datetime.now(timezone.utc) - timedelta(days=older_than_days)
         deleted_count = 0
 
         try:
@@ -269,6 +269,8 @@ class KubernetesManager:
 
                 # Check age
                 completion_time = job.status.completion_time
+                if completion_time.tzinfo is None:
+                    completion_time = completion_time.replace(tzinfo=timezone.utc)
                 if completion_time < cutoff_time:
                     self.delete_job(job.metadata.name)
                     deleted_count += 1
@@ -316,15 +318,6 @@ class KubernetesManager:
             }
         ]
 
-        # Add storage volume
-        if storage_config.get('pvc', {}).get('enabled'):
-            volumes.append({
-                "name": "mirror-storage",
-                "persistentVolumeClaim": {
-                    "claimName": storage_config['pvc']['name']
-                }
-            })
-
         # Build volume mounts
         volume_mounts = [
             {
@@ -336,12 +329,27 @@ class KubernetesManager:
                 "name": "registry-credentials",
                 "mountPath": registry_config['mount_path'],
                 "readOnly": True
-            },
-            {
-                "name": "mirror-storage",
-                "mountPath": storage_config['mount_path']
             }
         ]
+
+        # Add storage volume and mount
+        if storage_config.get('pvc', {}).get('enabled'):
+            volumes.append({
+                "name": "mirror-storage",
+                "persistentVolumeClaim": {
+                    "claimName": storage_config['pvc']['name']
+                }
+            })
+        else:
+            volumes.append({
+                "name": "mirror-storage",
+                "emptyDir": {}
+            })
+
+        volume_mounts.append({
+            "name": "mirror-storage",
+            "mountPath": storage_config['mount_path']
+        })
 
         # Build oc-mirror command
         mirror_path = storage_config['mount_path']

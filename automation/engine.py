@@ -14,6 +14,7 @@ import sys
 import json
 import logging
 import time
+import re
 from datetime import datetime, timedelta
 from typing import Dict, Any, Optional, List, Tuple
 import subprocess
@@ -123,13 +124,18 @@ class AutomationEngine:
             # Step 4: Create Kubernetes job
             logger.info("Step 4: Creating Kubernetes job")
             if not self.k8s_manager:
-                result["error"] = "Kubernetes manager not available"
-                return result
-
-            job_name, job_metadata = self.k8s_manager.create_mirror_job(
-                version=version_info['version'],
-                imageset_config=imageset_config
-            )
+                if self.dry_run:
+                    job_prefix = self.config.get('kubernetes', {}).get('job', {}).get('name_prefix', 'imageset-mirror')
+                    job_name = f"{job_prefix}-{execution_id}"
+                    job_metadata = {"dry_run": True, "reason": "Kubernetes manager not available"}
+                else:
+                    result["error"] = "Kubernetes manager not available"
+                    return result
+            else:
+                job_name, job_metadata = self.k8s_manager.create_mirror_job(
+                    version=version_info['version'],
+                    imageset_config=imageset_config
+                )
 
             result["steps"]["job_creation"] = {
                 "success": True,
@@ -323,7 +329,7 @@ class AutomationEngine:
 
             if versions:
                 # Sort and return latest
-                versions.sort(key=lambda v: [int(x) for x in v.split('.')])
+                versions.sort(key=self._version_key)
                 latest = versions[-1]
                 logger.info(f"Latest OCP version: {latest}")
                 return latest
@@ -355,13 +361,22 @@ class AutomationEngine:
                 if line and line.startswith(version):
                     releases.append(line)
 
-            releases.sort(key=lambda v: [int(x) for x in v.split('.')])
+            releases.sort(key=self._version_key)
             logger.info(f"Found {len(releases)} releases in {channel}")
             return releases
 
         except Exception as e:
             logger.exception(f"Failed to get channel releases: {e}")
             return []
+
+    def _version_key(self, version: str) -> List[int]:
+        """Convert a version string into sortable integers."""
+        parts = version.split('.')
+        numbers = []
+        for part in parts:
+            match = re.match(r"(\d+)", part)
+            numbers.append(int(match.group(1)) if match else 0)
+        return numbers
 
     def _select_version(
         self,
@@ -512,6 +527,8 @@ class AutomationEngine:
             max_entries = self.config.get('persistence', {}).get('max_history_entries', 50)
             if len(history) > max_entries:
                 history = history[-max_entries:]
+
+            self.history = history
 
             with open(self.history_file, 'w') as f:
                 json.dump(history, f, indent=2)
