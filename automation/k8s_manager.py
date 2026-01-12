@@ -6,6 +6,7 @@ for executing oc-mirror in disconnected environments.
 """
 
 import os
+import re
 import logging
 import time
 from datetime import datetime, timedelta, timezone
@@ -366,6 +367,11 @@ class KubernetesManager:
         if not registry_config:
             raise ValueError("Missing required 'registry_credentials' configuration section")
 
+        registry_mount = registry_config.get('mount_path', '/etc/containers')
+        registry_mount = os.path.expandvars(registry_mount or "")
+        if not registry_mount or re.search(r"\$\{[^}]+\}", registry_mount):
+            registry_mount = "/etc/containers/auth.json"
+
         # Build volumes
         volumes = [
             {
@@ -387,7 +393,7 @@ class KubernetesManager:
             },
             {
                 "name": "registry-credentials",
-                "mountPath": registry_config.get('mount_path', '/etc/containers/auth.json'),
+                "mountPath": registry_mount,
                 "readOnly": True
             }
         ]
@@ -427,7 +433,6 @@ class KubernetesManager:
         if not image:
             raise ValueError("Missing required 'job.image' configuration")
         
-        registry_mount = registry_config.get('mount_path', '/etc/containers/auth.json')
         container = {
             "name": "oc-mirror",
             "image": image,

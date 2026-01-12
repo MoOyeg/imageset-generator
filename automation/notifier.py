@@ -12,6 +12,7 @@ import re
 import json
 import smtplib
 import logging
+import html
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
@@ -432,7 +433,8 @@ class NotificationManager:
 
     def _text_to_html(self, text: str) -> str:
         """Convert plain text to simple HTML"""
-        lines = text.split('\n')
+        escaped_text = html.escape(text, quote=True)
+        lines = escaped_text.split('\n')
         html_lines = ['<html><body><pre style="font-family: monospace;">']
         html_lines.extend(lines)
         html_lines.append('</pre></body></html>')
