@@ -110,17 +110,15 @@ try:
     if os.path.exists(automation_config_path):
         scheduler = init_automation(automation_config_path)
         if scheduler:
-            print("✓ Automation scheduler initialized and started")
+            app.logger.info("Automation scheduler initialized and started")
         else:
-            print("ℹ Automation scheduler is disabled in configuration")
+            app.logger.info("Automation scheduler is disabled in configuration")
     else:
-        print(f"ℹ Automation config not found at {automation_config_path}, skipping automation")
+        app.logger.info(f"Automation config not found at {automation_config_path}, skipping automation")
 except ImportError as e:
-    print(f"ℹ Automation module not available: {e}")
-except Exception as e:
-    print(f"⚠ Failed to initialize automation: {e}")
-    import traceback
-    traceback.print_exc()
+    app.logger.info(f"Automation module not available: {e}")
+except Exception:
+    app.logger.exception("Failed to initialize automation")
 
 def return_base_catalog_info(catalog_url):
     base_catalogs = [
