@@ -14,6 +14,12 @@ The data used by the tool is stored in the data subfolder.To have it refreshed r
 - **Multi-version Support** - Generate configs for OCP 4.16 through 4.20
 - **Operator Search** - Search and filter operators by name or keywords
 - **Multi-catalog Support** - Red Hat, Certified, Community, and Marketplace catalogs
+- **🆕 Complete Automation** - Full automation for disconnected environments
+  - Automatic version discovery in stable/fast/eus channels
+  - Scheduled execution in last or second-to-last week of month
+  - Kubernetes Job creation and monitoring
+  - Multi-channel notifications (Email, Slack, Webhooks)
+  - See [automation/README.md](automation/README.md) for details
 - **Security Features**
   - Input validation with allowlist patterns
   - Path traversal prevention

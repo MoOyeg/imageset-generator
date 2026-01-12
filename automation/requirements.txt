@@ -1,0 +1,17 @@
+# Automation Module Requirements
+# Install with: pip install -r automation/requirements.txt
+
+# Scheduler
+apscheduler>=3.10.0
+
+# Kubernetes client
+kubernetes>=28.1.0
+
+# HTTP requests for notifications
+requests>=2.31.0
+
+# YAML parsing (should already be installed)
+pyyaml>=6.0
+
+# Timezone support
+pytz>=2023.3

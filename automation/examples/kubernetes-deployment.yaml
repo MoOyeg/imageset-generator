@@ -1,0 +1,235 @@
+# Kubernetes Deployment for ImageSet Automation Scheduler
+# This runs the automation scheduler as a continuous service
+# Apply with: kubectl apply -f kubernetes-deployment.yaml
+
+---
+# ConfigMap with automation configuration
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: automation-config
+  namespace: openshift-imageset-mirror
+data:
+  config.yaml: |
+    # Scheduler Configuration
+    scheduler:
+      enabled: true
+      execution_window: "last-week"
+      day_of_week: 1  # Tuesday
+      time: "02:00"
+      timezone: "UTC"
+
+    # Version Discovery
+    version_discovery:
+      channel: "stable"
+      ocp_version: "latest"
+      selection_strategy: "latest"
+
+    # ImageSet Configuration
+    imageset:
+      include_graph: true
+      operators:
+        enabled: true
+        packages:
+          - cluster-logging
+          - local-storage-operator
+          - odf-operator
+        catalogs:
+          - redhat-operator-index
+      additional_images:
+        enabled: false
+        images: []
+
+    # Kubernetes Configuration
+    kubernetes:
+      namespace: "openshift-imageset-mirror"
+      service_account: "imageset-mirror-sa"
+      job:
+        name_prefix: "imageset-mirror"
+        restart_policy: "OnFailure"
+        backoff_limit: 3
+        ttl_seconds_after_finished: 86400
+        resources:
+          requests:
+            memory: "4Gi"
+            cpu: "2"
+          limits:
+            memory: "8Gi"
+            cpu: "4"
+        image: "registry.redhat.io/openshift4/oc-mirror-rhel9:latest"
+        image_pull_policy: "IfNotPresent"
+        image_pull_secrets:
+          - name: "redhat-registry-pull-secret"
+
+      storage:
+        pvc:
+          enabled: true
+          name: "imageset-mirror-storage"
+          size: "500Gi"
+          storage_class: "ocs-storagecluster-ceph-rbd"
+          access_mode: "ReadWriteOnce"
+        mount_path: "/mirror"
+
+      registry_credentials:
+        secret_name: "redhat-registry-pull-secret"
+        mount_path: "/run/user/1000/containers"
+
+      config_map:
+        name_prefix: "imageset-config"
+
+    # Monitoring
+    monitoring:
+      poll_interval: 30
+      max_wait_time: 14400
+      verbose_logging: true
+      collect_logs: true
+
+    # Notifications
+    notifications:
+      enabled: true
+      email:
+        enabled: false
+      slack:
+        enabled: true
+        webhook_url: "${SLACK_WEBHOOK_URL}"
+        channel: "#openshift-ops"
+        notify_on_version_selected: true
+        notify_on_mirror_start: true
+        notify_on_mirror_complete: true
+        notify_on_failure: true
+      webhook:
+        enabled: false
+
+    # Persistence
+    persistence:
+      state_file: "data/automation-state.json"
+      history_file: "data/automation-history.json"
+      max_history_entries: 50
+
+    # Safety
+    safety:
+      dry_run: false
+      require_approval: false
+      prevent_concurrent_jobs: true
+      skip_if_version_unchanged: true
+
+    # Logging
+    logging:
+      level: "INFO"
+      format: "json"
+      file: "logs/automation.log"
+
+---
+# Deployment for automation scheduler
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: imageset-automation
+  namespace: openshift-imageset-mirror
+  labels:
+    app: imageset-automation
+spec:
+  replicas: 1  # Only run one instance
+  strategy:
+    type: Recreate  # Ensure only one instance runs at a time
+  selector:
+    matchLabels:
+      app: imageset-automation
+  template:
+    metadata:
+      labels:
+        app: imageset-automation
+    spec:
+      serviceAccountName: imageset-mirror-sa
+      containers:
+      - name: automation
+        image: REPLACE_WITH_YOUR_REGISTRY/imageset-generator:latest  # MUST update with your registry
+        imagePullPolicy: IfNotPresent
+        command:
+          - python
+          - -m
+          - automation.scheduler
+          - --config
+          - /config/config.yaml
+          - --log-level
+          - INFO
+        env:
+        # Environment variables for sensitive data
+        - name: SLACK_WEBHOOK_URL
+          valueFrom:
+            secretKeyRef:
+              name: automation-secrets
+              key: slack-webhook-url
+              optional: true
+        - name: SMTP_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: automation-secrets
+              key: smtp-password
+              optional: true
+        - name: WEBHOOK_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: automation-secrets
+              key: webhook-token
+              optional: true
+        volumeMounts:
+        - name: config
+          mountPath: /config
+          readOnly: true
+        - name: data
+          mountPath: /app/data
+        - name: logs
+          mountPath: /app/logs
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+        livenessProbe:
+          exec:
+            command:
+            - python
+            - -c
+            - "import sys; sys.exit(0)"  # Simple health check
+          initialDelaySeconds: 30
+          periodSeconds: 60
+        readinessProbe:
+          exec:
+            command:
+            - python
+            - -c
+            - "import sys; sys.exit(0)"
+          initialDelaySeconds: 10
+          periodSeconds: 30
+      volumes:
+      - name: config
+        configMap:
+          name: automation-config
+      - name: data
+        persistentVolumeClaim:
+          claimName: imageset-automation-data
+      - name: logs
+        emptyDir: {}
+      restartPolicy: Always
+
+---
+# Service (optional, if you want to expose API endpoints)
+apiVersion: v1
+kind: Service
+metadata:
+  name: imageset-automation
+  namespace: openshift-imageset-mirror
+  labels:
+    app: imageset-automation
+spec:
+  selector:
+    app: imageset-automation
+  ports:
+  - name: api
+    port: 5000
+    targetPort: 5000
+    protocol: TCP
+  type: ClusterIP

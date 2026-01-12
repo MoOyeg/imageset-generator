@@ -1,0 +1,110 @@
+# Kubernetes RBAC Configuration for ImageSet Automation
+# Apply with: kubectl apply -f kubernetes-rbac.yaml
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: openshift-imageset-mirror
+  labels:
+    name: openshift-imageset-mirror
+    purpose: automated-mirroring
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: imageset-mirror-sa
+  namespace: openshift-imageset-mirror
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: imageset-automation-role
+  namespace: openshift-imageset-mirror
+rules:
+# Job management
+- apiGroups: ["batch"]
+  resources: ["jobs"]
+  verbs: ["create", "get", "list", "watch", "delete", "patch", "update"]
+
+# Pod management for monitoring
+- apiGroups: [""]
+  resources: ["pods", "pods/log"]
+  verbs: ["get", "list", "watch"]
+
+# ConfigMap for imageset configurations
+- apiGroups: [""]
+  resources: ["configmaps"]
+  verbs: ["create", "get", "list", "delete"]
+
+# PVC access for mirror storage
+- apiGroups: [""]
+  resources: ["persistentvolumeclaims"]
+  verbs: ["get", "list"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: imageset-automation-binding
+  namespace: openshift-imageset-mirror
+subjects:
+- kind: ServiceAccount
+  name: imageset-mirror-sa
+  namespace: openshift-imageset-mirror
+roleRef:
+  kind: Role
+  name: imageset-automation-role
+  apiGroup: rbac.authorization.k8s.io
+
+---
+# ClusterRole for reading node information (optional, for advanced monitoring)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: imageset-node-reader
+rules:
+- apiGroups: [""]
+  resources: ["nodes"]
+  verbs: ["get", "list"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: imageset-node-reader-binding
+subjects:
+- kind: ServiceAccount
+  name: imageset-mirror-sa
+  namespace: openshift-imageset-mirror
+roleRef:
+  kind: ClusterRole
+  name: imageset-node-reader
+  apiGroup: rbac.authorization.k8s.io
+
+---
+# ClusterRole for namespace creation (optional, if automation should create namespaces)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: imageset-namespace-creator
+rules:
+- apiGroups: [""]
+  resources: ["namespaces"]
+  verbs: ["get", "create"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: imageset-namespace-creator-binding
+subjects:
+- kind: ServiceAccount
+  name: imageset-mirror-sa
+  namespace: openshift-imageset-mirror
+roleRef:
+  kind: ClusterRole
+  name: imageset-namespace-creator
+  apiGroup: rbac.authorization.k8s.io

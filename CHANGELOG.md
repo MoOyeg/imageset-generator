@@ -73,6 +73,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+#### Dependencies (2026-01-12)
+- Added `pytest` and `requests` to `requirements.txt`
+
 #### Code Quality & Refactoring (2025-10-28)
 - **Function Refactoring**
   - Refactored `refresh_ocp_operators()` from 166 lines to 45 lines (73% reduction)
@@ -94,6 +97,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added detailed completion notes with commit references
 
 ### Fixed
+
+#### Automation API Compatibility (2026-01-12)
+- Fix variable shadowing in `k8s_manager.py` where parameter `k8s_config` shadowed imported module
+- Fix REGISTRY_AUTH_FILE path to use `.dockerconfigjson` instead of `auth.json`
+- Fix `add_operator()` call to use correct `add_operators()` method with list API
+- Fix `add_additional_image()` call to use correct `add_additional_images()` method
+- Return `None` for unknown selection strategy instead of silently using latest
+- Add `graph` parameter to `add_ocp_versions()` in generator.py
+- Fix pre-existing bug in `add_operators()` when channels parameter is None
+
+#### Automation Input Validation (2026-01-12)
+- Add validation for required email config fields before sending notifications
+- Add validation for webhook URL before sending notifications
+- Add time string format validation (HH:MM) in scheduler with clear error messages
+
+#### Automation Reliability (2026-01-12)
+- Ensure mirror jobs always mount storage, using `emptyDir` when PVCs are disabled
+- Make job cleanup timezone-safe when comparing completion timestamps
+- Allow dry-run executions without an available Kubernetes client
+- Align scheduler window checks to the configured day ranges
+- Use event types for Slack notification color selection
+- Sort release versions safely when suffixes are present
+- Keep in-memory execution history trimmed to the configured size
+
+#### Logging Improvements (2026-01-12)
+- Replace `print()` statements with `app.logger` in automation initialization
+
+#### Documentation Improvements (2026-01-12)
+- Use obvious placeholders (REPLACE_WITH_YOUR_...) in example configs
+- Add missing env vars (SMTP_PASSWORD, WEBHOOK_TOKEN) to second CronJob example
 
 #### Security Improvements (2025-10-28)
 - Fixed command injection vulnerabilities with input validation

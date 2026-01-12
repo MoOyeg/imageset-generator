@@ -1,0 +1,169 @@
+# Kubernetes CronJob for ImageSet Automation
+# Alternative to running as a Deployment - triggers automation via CronJob
+# Apply with: kubectl apply -f kubernetes-cronjob.yaml
+
+---
+# CronJob to trigger automation in last week of month
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: imageset-automation-last-week
+  namespace: openshift-imageset-mirror
+  labels:
+    app: imageset-automation
+    schedule: last-week
+spec:
+  # Run every Tuesday at 2 AM UTC during days 22-31
+  # Note: Kubernetes CronJob doesn't directly support day ranges,
+  # so this will run every Tuesday and the automation engine will
+  # validate it's in the correct window
+  schedule: "0 2 * * 2"  # Every Tuesday at 2 AM
+  timeZone: "UTC"
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  concurrencyPolicy: Forbid  # Don't allow concurrent runs
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      ttlSecondsAfterFinished: 604800  # Keep for 7 days
+      template:
+        metadata:
+          labels:
+            app: imageset-automation
+            trigger: cronjob
+        spec:
+          serviceAccountName: imageset-mirror-sa
+          restartPolicy: OnFailure
+          containers:
+          - name: automation-trigger
+            image: REPLACE_WITH_YOUR_REGISTRY/imageset-generator:latest  # MUST update with your registry
+            imagePullPolicy: IfNotPresent
+            command:
+              - python
+              - -m
+              - automation.engine
+              - --config
+              - /config/config.yaml
+              - --log-level
+              - INFO
+            env:
+            - name: SLACK_WEBHOOK_URL
+              valueFrom:
+                secretKeyRef:
+                  name: automation-secrets
+                  key: slack-webhook-url
+                  optional: true
+            - name: SMTP_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: automation-secrets
+                  key: smtp-password
+                  optional: true
+            - name: WEBHOOK_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: automation-secrets
+                  key: webhook-token
+                  optional: true
+            volumeMounts:
+            - name: config
+              mountPath: /config
+              readOnly: true
+            - name: data
+              mountPath: /app/data
+            resources:
+              requests:
+                memory: "512Mi"
+                cpu: "250m"
+              limits:
+                memory: "1Gi"
+                cpu: "500m"
+          volumes:
+          - name: config
+            configMap:
+              name: automation-config
+          - name: data
+            persistentVolumeClaim:
+              claimName: imageset-automation-data
+
+---
+# Optional: CronJob for second-to-last week
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: imageset-automation-second-last-week
+  namespace: openshift-imageset-mirror
+  labels:
+    app: imageset-automation
+    schedule: second-to-last-week
+spec:
+  # Run every Tuesday at 2 AM UTC during days 15-21
+  schedule: "0 2 * * 2"  # Every Tuesday at 2 AM
+  timeZone: "UTC"
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  concurrencyPolicy: Forbid
+  suspend: true  # Disabled by default, remove this line to enable
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      ttlSecondsAfterFinished: 604800
+      template:
+        metadata:
+          labels:
+            app: imageset-automation
+            trigger: cronjob
+        spec:
+          serviceAccountName: imageset-mirror-sa
+          restartPolicy: OnFailure
+          containers:
+          - name: automation-trigger
+            image: REPLACE_WITH_YOUR_REGISTRY/imageset-generator:latest  # MUST update with your registry
+            imagePullPolicy: IfNotPresent
+            command:
+              - python
+              - -m
+              - automation.engine
+              - --config
+              - /config/config.yaml
+              - --log-level
+              - INFO
+            env:
+            - name: SLACK_WEBHOOK_URL
+              valueFrom:
+                secretKeyRef:
+                  name: automation-secrets
+                  key: slack-webhook-url
+                  optional: true
+            - name: SMTP_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: automation-secrets
+                  key: smtp-password
+                  optional: true
+            - name: WEBHOOK_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: automation-secrets
+                  key: webhook-token
+                  optional: true
+            volumeMounts:
+            - name: config
+              mountPath: /config
+              readOnly: true
+            - name: data
+              mountPath: /app/data
+            resources:
+              requests:
+                memory: "512Mi"
+                cpu: "250m"
+              limits:
+                memory: "1Gi"
+                cpu: "500m"
+          volumes:
+          - name: config
+            configMap:
+              name: automation-config
+          - name: data
+            persistentVolumeClaim:
+              claimName: imageset-automation-data

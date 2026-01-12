@@ -56,7 +56,7 @@ class ImageSetGenerator:
         """
         self.config["spec"]["archiveSize"] = size
     
-    def add_ocp_versions(self, versions: List[str] = None, channel: List[str] = "stable-4.14", min_version: str = None, max_version: str = None):
+    def add_ocp_versions(self, versions: List[str] = None, channel: List[str] = "stable-4.14", min_version: str = None, max_version: str = None, graph: bool = True):
         """
         Add OpenShift platform versions to the configuration
         
@@ -65,7 +65,10 @@ class ImageSetGenerator:
             channel: OCP channel name (default: "stable-4.14")
             min_version: Minimum version to mirror
             max_version: Maximum version to mirror (optional)
+            graph: Whether to include version graph data (default: True)
         """
+        # Set graph option in platform config
+        self.config["spec"]["mirror"]["platform"]["graph"] = graph
         # Handle legacy versions list or new min/max approach
         if min_version or max_version:
             # Use the new min/max approach
@@ -170,21 +173,23 @@ class ImageSetGenerator:
                         operator_entry["maxVersion"] = op["maxVersion"]
 
                 # Add channel if present
-                channel = (channels.get(op.get("name")) if channels else None)
-                channel= list(channel)
+                channel = None
+                if channels:
+                    channel = channels.get(op.get("name")) or channels.get(package_name)
+                if not channel:
+                    channel = op.get("channel")
 
-                if len(channel) > 0:
-                    operator_entry["channels"] = []
-                    for ch in channel:
-                        operator_entry["channels"].append({"name": ch})
+                if channel:
+                    if isinstance(channel, (list, tuple, set)):
+                        channel_list = list(channel)
+                    else:
+                        channel_list = [channel]
 
+                    operator_entry["channels"] = [{"name": ch} for ch in channel_list]
                     if newest_channel and package_name in newest_channel:
                         operator_entry["defaultChannel"] = newest_channel[package_name]
                     else:
-                        operator_entry["defaultChannel"] = channel[-1]
-
-                if channel is None:
-                    channel = op.get("channel")
+                        operator_entry["defaultChannel"] = channel_list[-1]
                     
 
                 operator_packages.append(operator_entry)
