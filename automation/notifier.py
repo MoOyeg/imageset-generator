@@ -25,6 +25,19 @@ logger = logging.getLogger(__name__)
 class NotificationManager:
     """Manages notifications across multiple channels"""
 
+    _SENSITIVE_KEYS = (
+        "password",
+        "token",
+        "secret",
+        "credentials",
+        "auth",
+        "api_key",
+        "apikey",
+        "access_key",
+        "refresh_token",
+        "private_key",
+    )
+
     def __init__(self, config: Dict[str, Any]):
         """
         Initialize notification manager
@@ -257,6 +270,26 @@ class NotificationManager:
 
         logger.info(f"Email notification sent: {subject}")
 
+    def _sanitize_payload(self, data: Any, redact_all: bool = False) -> Any:
+        """Redact sensitive fields before sending structured payloads."""
+        if isinstance(data, dict):
+            sanitized = {}
+            for key, value in data.items():
+                key_str = str(key)
+                key_lower = key_str.lower()
+                if key_lower == "metadata":
+                    sanitized[key_str] = self._sanitize_payload(value, redact_all=True)
+                elif redact_all or any(term in key_lower for term in self._SENSITIVE_KEYS):
+                    sanitized[key_str] = "<redacted>"
+                else:
+                    sanitized[key_str] = self._sanitize_payload(value)
+            return sanitized
+        if isinstance(data, list):
+            return [self._sanitize_payload(item, redact_all=redact_all) for item in data]
+        if redact_all:
+            return "<redacted>"
+        return data
+
     def _send_slack(self, subject: str, message: str, data: Dict, event_type: str):
         """Send Slack notification"""
         config = self.slack_config
@@ -266,17 +299,18 @@ class NotificationManager:
             raise ValueError("Missing required Slack configuration field: webhook_url")
 
         # Format Slack message
+        sanitized_data = self._sanitize_payload(data) if data else None
         attachment = {
             "color": self._get_color_for_event(event_type),
             "text": message,
             "footer": "ImageSet Generator",
             "ts": int(datetime.utcnow().timestamp())
         }
-        if data:
+        if sanitized_data:
             attachment["fields"] = [
                 {
                     "title": "Details",
-                    "value": json.dumps(data, indent=2, sort_keys=True),
+                    "value": json.dumps(sanitized_data, indent=2, sort_keys=True),
                     "short": False
                 }
             ]

@@ -138,6 +138,10 @@ export WEBHOOK_TOKEN="your-webhook-token"
 kubectl create namespace openshift-imageset-mirror
 ```
 
+Note: Namespace creation is cluster-scoped. If the automation service account
+does not have namespace permissions, pre-create the namespace (see
+`automation/examples/kubernetes-rbac.yaml` for the optional ClusterRole).
+
 #### Create Service Account
 
 ```bash
@@ -614,6 +618,10 @@ roleRef:
   apiGroup: rbac.authorization.k8s.io
 ```
 
+If you want automation to create namespaces automatically, add the optional
+ClusterRole/ClusterRoleBinding from `automation/examples/kubernetes-rbac.yaml`
+to grant `namespaces` create/get permissions.
+
 ### Network Policies
 
 Restrict network access for mirror jobs:
@@ -677,6 +685,8 @@ monitoring:
   max_wait_time: 28800  # 8 hours for very large mirrors
   poll_interval: 60     # Check every minute
 ```
+
+If `max_wait_time` is omitted or set to null, the default timeout is 4 hours.
 
 ## Advanced Usage
 

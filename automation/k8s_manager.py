@@ -22,6 +22,7 @@ except ImportError:
     logging.warning("Kubernetes Python client not available")
 
 logger = logging.getLogger(__name__)
+DEFAULT_MONITOR_MAX_WAIT_TIME = 4 * 60 * 60
 
 
 class KubernetesManager:
@@ -179,12 +180,15 @@ class KubernetesManager:
         Args:
             job_name: Name of the Job to monitor
             poll_interval: Seconds between status checks
-            max_wait_time: Maximum seconds to wait (None for unlimited)
+            max_wait_time: Maximum seconds to wait (None uses default timeout)
 
         Returns:
             Job completion status and metadata
         """
         start_time = time.time()
+        effective_max_wait_time = max_wait_time
+        if effective_max_wait_time is None:
+            effective_max_wait_time = DEFAULT_MONITOR_MAX_WAIT_TIME
         logger.info(f"Monitoring Job {job_name}")
 
         while True:
@@ -227,12 +231,15 @@ class KubernetesManager:
                         }
 
                 # Check timeout
-                if max_wait_time and (time.time() - start_time) > max_wait_time:
-                    logger.warning(f"Job {job_name} monitoring timeout after {max_wait_time}s")
+                elapsed = time.time() - start_time
+                if elapsed > effective_max_wait_time:
+                    logger.warning(
+                        f"Job {job_name} monitoring timeout after {effective_max_wait_time}s"
+                    )
                     return {
                         "status": "timeout",
                         "succeeded": False,
-                        "duration": time.time() - start_time
+                        "duration": elapsed
                     }
 
                 # Log progress
@@ -495,6 +502,8 @@ class KubernetesManager:
 
         return manifest
 
+    # NOTE: Namespace creation requires cluster-level RBAC. In restricted environments,
+    # pre-create the namespace (see automation/examples/kubernetes-rbac.yaml and automation/README.md).
     def _ensure_namespace(self):
         """Ensure the namespace exists"""
         try:

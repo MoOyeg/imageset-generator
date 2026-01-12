@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from generator import ImageSetGenerator
 from automation.notifier import NotificationManager
-from automation.k8s_manager import KubernetesManager
+from automation.k8s_manager import KubernetesManager, DEFAULT_MONITOR_MAX_WAIT_TIME
 
 logger = logging.getLogger(__name__)
 
@@ -158,10 +158,14 @@ class AutomationEngine:
                 logger.info("Step 5: Monitoring job execution")
                 monitoring_config = self.config.get('monitoring', {})
 
+                max_wait_time = monitoring_config.get('max_wait_time')
+                if max_wait_time is None:
+                    max_wait_time = DEFAULT_MONITOR_MAX_WAIT_TIME
+
                 job_result = self.k8s_manager.monitor_job(
                     job_name=job_name,
                     poll_interval=monitoring_config.get('poll_interval', 30),
-                    max_wait_time=monitoring_config.get('max_wait_time')
+                    max_wait_time=max_wait_time
                 )
 
                 result["steps"]["job_monitoring"] = job_result

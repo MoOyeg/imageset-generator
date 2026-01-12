@@ -114,8 +114,8 @@ kubernetes:
     # Secret containing .dockerconfigjson
     secret_name: "redhat-registry-pull-secret"
     # Mount path for the secret (supports environment variable substitution)
-    # Uses XDG_RUNTIME_DIR if available, otherwise defaults to /etc/containers/auth.json
-    # Examples: "${XDG_RUNTIME_DIR}/containers", "/etc/containers/auth.json"
+    # Uses XDG_RUNTIME_DIR if available, otherwise defaults to /etc/containers
+    # Examples: "${XDG_RUNTIME_DIR}/containers", "/etc/containers"
     mount_path: "${XDG_RUNTIME_DIR}/containers"
 
   # ConfigMap for imageset configuration
