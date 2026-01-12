@@ -260,25 +260,38 @@ class NotificationManager:
     def _send_slack(self, subject: str, message: str, data: Dict, event_type: str):
         """Send Slack notification"""
         config = self.slack_config
+        webhook_url = config.get('webhook_url')
+        if not webhook_url:
+            logger.error("Missing required Slack configuration field: webhook_url")
+            raise ValueError("Missing required Slack configuration field: webhook_url")
 
         # Format Slack message
+        attachment = {
+            "color": self._get_color_for_event(event_type),
+            "text": message,
+            "footer": "ImageSet Generator",
+            "ts": int(datetime.utcnow().timestamp())
+        }
+        if data:
+            attachment["fields"] = [
+                {
+                    "title": "Details",
+                    "value": json.dumps(data, indent=2, sort_keys=True),
+                    "short": False
+                }
+            ]
         payload = {
             "channel": config.get('channel'),
             "username": config.get('username', 'ImageSet Automation'),
             "icon_emoji": config.get('icon_emoji', ':package:'),
             "text": f"*{subject}*",
             "attachments": [
-                {
-                    "color": self._get_color_for_event(event_type),
-                    "text": message,
-                    "footer": "ImageSet Generator",
-                    "ts": int(datetime.utcnow().timestamp())
-                }
+                attachment
             ]
         }
 
         response = requests.post(
-            config['webhook_url'],
+            webhook_url,
             json=payload,
             timeout=10
         )

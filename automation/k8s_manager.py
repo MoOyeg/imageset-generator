@@ -326,8 +326,13 @@ class KubernetesManager:
                 if completion_time.tzinfo is None:
                     completion_time = completion_time.replace(tzinfo=timezone.utc)
                 if completion_time < cutoff_time:
-                    self.delete_job(job.metadata.name)
-                    deleted_count += 1
+                    deleted = self.delete_job(job.metadata.name)
+                    if deleted:
+                        deleted_count += 1
+                    else:
+                        logger.warning(
+                            f"Failed to delete old job {job.metadata.name}"
+                        )
 
             logger.info(f"Cleaned up {deleted_count} old jobs")
             return deleted_count
@@ -370,7 +375,9 @@ class KubernetesManager:
         registry_mount = registry_config.get('mount_path', '/etc/containers')
         registry_mount = os.path.expandvars(registry_mount or "")
         if not registry_mount or re.search(r"\$\{[^}]+\}", registry_mount):
-            registry_mount = "/etc/containers/auth.json"
+            registry_mount = "/etc/containers"
+        elif registry_mount.endswith(".json"):
+            registry_mount = os.path.dirname(registry_mount) or "/etc/containers"
 
         # Build volumes
         volumes = [
