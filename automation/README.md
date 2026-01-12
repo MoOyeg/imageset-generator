@@ -45,7 +45,7 @@ The system is designed to run in the last or second-to-last week of each month, 
 ### 🗓️ Intelligent Scheduling
 - Runs automatically in configurable monthly windows
 - Last week (days 22-31) or second-to-last week (days 15-21)
-- Handles varying month lengths (28-31 days)
+- Uses fixed calendar windows for execution
 - Timezone-aware scheduling
 
 ### 🔍 Smart Version Discovery
@@ -56,7 +56,7 @@ The system is designed to run in the last or second-to-last week of each month, 
 
 ### ☸️ Kubernetes Integration
 - Creates Jobs with proper resource limits
-- Mounts PVCs for mirror storage
+- Mounts PVCs for mirror storage (or emptyDir when disabled)
 - Injects registry credentials
 - Monitors job progress and completion
 - Automatic cleanup of old jobs
@@ -221,7 +221,7 @@ python -m automation.engine \
 
 ### Dry Run Mode
 
-Test without creating actual Kubernetes jobs:
+Test without creating actual Kubernetes jobs. Dry-run works even if the Kubernetes client is unavailable:
 
 ```bash
 python -m automation.engine \

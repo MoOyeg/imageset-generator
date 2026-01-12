@@ -73,6 +73,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+#### Dependencies (2026-01-12)
+- Added `pytest` and `requests` to `requirements.txt`
+
 #### Code Quality & Refactoring (2025-10-28)
 - **Function Refactoring**
   - Refactored `refresh_ocp_operators()` from 166 lines to 45 lines (73% reduction)
@@ -94,6 +97,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added detailed completion notes with commit references
 
 ### Fixed
+
+#### Automation Reliability (2026-01-12)
+- Ensure mirror jobs always mount storage, using `emptyDir` when PVCs are disabled
+- Make job cleanup timezone-safe when comparing completion timestamps
+- Allow dry-run executions without an available Kubernetes client
+- Align scheduler window checks to the configured day ranges
+- Use event types for Slack notification color selection
+- Sort release versions safely when suffixes are present
+- Keep in-memory execution history trimmed to the configured size
 
 #### Security Improvements (2025-10-28)
 - Fixed command injection vulnerabilities with input validation
