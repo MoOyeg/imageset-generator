@@ -36,7 +36,7 @@ spec:
           restartPolicy: OnFailure
           containers:
           - name: automation-trigger
-            image: your-registry.io/imageset-generator:latest  # Update with your image
+            image: REPLACE_WITH_YOUR_REGISTRY/imageset-generator:latest  # MUST update with your registry
             imagePullPolicy: IfNotPresent
             command:
               - python
@@ -118,7 +118,7 @@ spec:
           restartPolicy: OnFailure
           containers:
           - name: automation-trigger
-            image: your-registry.io/imageset-generator:latest
+            image: REPLACE_WITH_YOUR_REGISTRY/imageset-generator:latest  # MUST update with your registry
             imagePullPolicy: IfNotPresent
             command:
               - python
@@ -134,6 +134,18 @@ spec:
                 secretKeyRef:
                   name: automation-secrets
                   key: slack-webhook-url
+                  optional: true
+            - name: SMTP_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: automation-secrets
+                  key: smtp-password
+                  optional: true
+            - name: WEBHOOK_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: automation-secrets
+                  key: webhook-token
                   optional: true
             volumeMounts:
             - name: config

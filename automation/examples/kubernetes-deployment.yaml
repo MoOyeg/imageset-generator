@@ -143,7 +143,7 @@ spec:
       serviceAccountName: imageset-mirror-sa
       containers:
       - name: automation
-        image: your-registry.io/imageset-generator:latest  # Update with your image
+        image: REPLACE_WITH_YOUR_REGISTRY/imageset-generator:latest  # MUST update with your registry
         imagePullPolicy: IfNotPresent
         command:
           - python

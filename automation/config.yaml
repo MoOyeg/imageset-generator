@@ -142,13 +142,13 @@ notifications:
     enabled: false
     smtp_server: "smtp.example.com"
     smtp_port: 587
-    smtp_user: "imageset-automation@example.com"
+    smtp_user: "REPLACE_WITH_YOUR_EMAIL@example.com"
     smtp_password: "${SMTP_PASSWORD}"  # Use environment variable
     use_tls: true
-    from_address: "imageset-automation@example.com"
+    from_address: "REPLACE_WITH_YOUR_EMAIL@example.com"
     to_addresses:
-      - "ops-team@example.com"
-      - "platform-team@example.com"
+      - "REPLACE_WITH_OPS_TEAM_EMAIL@example.com"
+      - "REPLACE_WITH_PLATFORM_TEAM_EMAIL@example.com"
     # Send on version selection
     notify_on_version_selected: true
     # Send on mirroring start
