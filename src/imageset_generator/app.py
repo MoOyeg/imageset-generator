@@ -16,9 +16,9 @@ import os
 import subprocess
 import tempfile
 from datetime import datetime
-from generator import ImageSetGenerator
+from .generator import ImageSetGenerator
 import traceback
-from constants import TLS_VERIFY, TIMEOUT_OPM_RENDER
+from .constants import TLS_VERIFY, TIMEOUT_OPM_RENDER
 
 def build_opm_command(catalog_url, output_format='yaml', skip_tls=None):
     """

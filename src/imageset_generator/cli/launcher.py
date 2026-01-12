@@ -85,7 +85,7 @@ def main():
     if use_gui:
         print("Launching GUI...")
         try:
-            from gui import main as gui_main
+            from .gui import main as gui_main
             gui_main()
         except ImportError as e:
             print(f"Error: Cannot import GUI module: {e}")
@@ -98,7 +98,7 @@ def main():
     if not use_gui:
         # Launch CLI version
         try:
-            from generator import main as cli_main
+            from ..generator import main as cli_main
             # Restore original sys.argv for generator.py
             sys.argv = [sys.argv[0]] + remaining_args
             cli_main()

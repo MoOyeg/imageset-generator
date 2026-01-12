@@ -14,7 +14,7 @@ import sys
 from typing import Dict, List, Any
 import threading
 import subprocess
-from generator import ImageSetGenerator
+from ..generator import ImageSetGenerator
 
 
 class ImageSetGeneratorGUI:
