@@ -1872,22 +1872,6 @@ def internal_error(error):
     }), 500
 
 
-if __name__ == '__main__':
-    import argparse
-    
-    parser = argparse.ArgumentParser(description='OpenShift ImageSetConfiguration Generator Web API')
-    parser.add_argument('--host', default='127.0.0.1', help='Host to bind to')
-    parser.add_argument('--port', type=int, default=5000, help='Port to bind to')
-    parser.add_argument('--debug', action='store_true', help='Enable debug mode')
-    
-    args = parser.parse_args()
-    
-    print(f"Starting OpenShift ImageSetConfiguration Generator Web API...")
-    print(f"Access the application at: http://{args.host}:{args.port}")
-    
-    app.run(host=args.host, port=args.port, debug=args.debug)
-
-
 @app.route("/api/ocp-versions", methods=["GET"])
 def get_ocp_versions_static():
     """Get OCP versions from static file"""
@@ -1917,4 +1901,20 @@ def get_ocp_versions_static():
             "message": f"Error reading OCP versions: {str(e)}",
             "timestamp": datetime.now().isoformat()
         }), 500
+
+
+if __name__ == '__main__':
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='OpenShift ImageSetConfiguration Generator Web API')
+    parser.add_argument('--host', default='127.0.0.1', help='Host to bind to')
+    parser.add_argument('--port', type=int, default=5000, help='Port to bind to')
+    parser.add_argument('--debug', action='store_true', help='Enable debug mode')
+    
+    args = parser.parse_args()
+    
+    print(f"Starting OpenShift ImageSetConfiguration Generator Web API...")
+    print(f"Access the application at: http://{args.host}:{args.port}")
+    
+    app.run(host=args.host, port=args.port, debug=args.debug)
 

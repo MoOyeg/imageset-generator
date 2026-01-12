@@ -50,14 +50,17 @@ RUN python3.11 -m pip install --no-cache-dir -r requirements.txt
 RUN mkdir -p /app/data
 
 # Copy application code and data
-COPY . .
-COPY data/ /app/data/
+COPY src/ ./src/
+COPY data/ ./data/
+COPY automation/ ./automation/
+COPY scripts/ ./scripts/
+COPY requirements.txt ./
 
 # Copy built frontend from builder stage
 COPY --from=frontend-builder /app/frontend/build ./frontend/build
 
 # Make startup script executable
-RUN chmod +x startup.sh
+RUN chmod +x scripts/startup.sh
 
 # Create non-root user
 RUN useradd --create-home --shell /bin/bash app
@@ -72,4 +75,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD curl -f http://localhost:5000/api/health || exit 1
 
 # Run the application
-CMD ["./startup.sh"]
+CMD ["./scripts/startup.sh"]

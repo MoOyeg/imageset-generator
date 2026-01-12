@@ -14,5 +14,5 @@ echo "================================"
 echo ""
 echo "Starting OpenShift ImageSetConfiguration Generator Web API..."
 
-# Start the Flask application
-exec python3.11 app.py --host 0.0.0.0 --port 5000
+# Start the Flask application using the new package structure
+exec python3.11 -m imageset_generator.app --host 0.0.0.0 --port 5000
