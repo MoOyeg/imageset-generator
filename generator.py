@@ -56,7 +56,7 @@ class ImageSetGenerator:
         """
         self.config["spec"]["archiveSize"] = size
     
-    def add_ocp_versions(self, versions: List[str] = None, channel: List[str] = "stable-4.14", min_version: str = None, max_version: str = None):
+    def add_ocp_versions(self, versions: List[str] = None, channel: List[str] = "stable-4.14", min_version: str = None, max_version: str = None, graph: bool = True):
         """
         Add OpenShift platform versions to the configuration
         
@@ -65,7 +65,10 @@ class ImageSetGenerator:
             channel: OCP channel name (default: "stable-4.14")
             min_version: Minimum version to mirror
             max_version: Maximum version to mirror (optional)
+            graph: Whether to include version graph data (default: True)
         """
+        # Set graph option in platform config
+        self.config["spec"]["mirror"]["platform"]["graph"] = graph
         # Handle legacy versions list or new min/max approach
         if min_version or max_version:
             # Use the new min/max approach
@@ -171,7 +174,10 @@ class ImageSetGenerator:
 
                 # Add channel if present
                 channel = (channels.get(op.get("name")) if channels else None)
-                channel= list(channel)
+                if channel is not None:
+                    channel = list(channel)
+                else:
+                    channel = []
 
                 if len(channel) > 0:
                     operator_entry["channels"] = []
