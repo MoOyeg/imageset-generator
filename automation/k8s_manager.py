@@ -26,20 +26,20 @@ logger = logging.getLogger(__name__)
 class KubernetesManager:
     """Manages Kubernetes Jobs for oc-mirror operations"""
 
-    def __init__(self, k8s_config: Dict[str, Any], dry_run: bool = False):
+    def __init__(self, kubernetes_config: Dict[str, Any], dry_run: bool = False):
         """
         Initialize Kubernetes manager
 
         Args:
-            k8s_config: Kubernetes configuration from automation config
+            kubernetes_config: Kubernetes configuration from automation config
             dry_run: If True, don't actually create resources
         """
         if not KUBERNETES_AVAILABLE:
             raise ImportError("kubernetes Python package is required for automation")
 
-        self.config = k8s_config
+        self.config = kubernetes_config
         self.dry_run = dry_run
-        self.namespace = k8s_config.get('namespace', 'default')
+        self.namespace = kubernetes_config.get('namespace', 'default')
 
         # Initialize Kubernetes clients
         try:
@@ -369,7 +369,7 @@ class KubernetesManager:
             "resources": job_config.get('resources', {}),
             "env": [
                 {"name": "OCP_VERSION", "value": version},
-                {"name": "REGISTRY_AUTH_FILE", "value": f"{registry_config['mount_path']}/auth.json"}
+                {"name": "REGISTRY_AUTH_FILE", "value": f"{registry_config['mount_path']}/.dockerconfigjson"}
             ]
         }
 
