@@ -15,7 +15,7 @@ index*.json
 *.log
 
 # Python cache
-__pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
 *.pyd
@@ -28,8 +28,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # React build outputs
-build/
-dist/
+**/build/
+**/dist/
 
 # IDE files
 .vscode/
@@ -54,6 +54,9 @@ Thumbs.db
 .env.production.local
 .oc-mirror.log
 
+
+# Log files
+run-log.log
 
 #Virtualenv
 .venv
