@@ -69,8 +69,17 @@ class AutomationScheduler:
         day_of_week = self.scheduler_config.get('day_of_week', 1)  # Tuesday
         time_str = self.scheduler_config.get('time', '02:00')
 
-        # Parse time
-        hour, minute = map(int, time_str.split(':'))
+        # Parse time with validation
+        try:
+            parts = time_str.split(':')
+            if len(parts) != 2:
+                raise ValueError(f"Invalid time format: '{time_str}'. Expected HH:MM format.")
+            hour, minute = int(parts[0]), int(parts[1])
+            if not (0 <= hour <= 23 and 0 <= minute <= 59):
+                raise ValueError(f"Invalid time values: hour={hour}, minute={minute}. Hour must be 0-23, minute must be 0-59.")
+        except ValueError as e:
+            logger.error(f"Failed to parse scheduler time: {e}")
+            raise
 
         logger.info(f"Configuring scheduler: window={execution_window}, day={day_of_week}, time={time_str}")
 

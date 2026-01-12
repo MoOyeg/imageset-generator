@@ -214,6 +214,12 @@ class NotificationManager:
         """Send email notification"""
         config = self.email_config
 
+        # Validate required email configuration
+        required_fields = ['from_address', 'to_addresses', 'smtp_server', 'smtp_port']
+        missing_fields = [f for f in required_fields if not config.get(f)]
+        if missing_fields:
+            raise ValueError(f"Missing required email configuration fields: {', '.join(missing_fields)}")
+
         msg = MIMEMultipart('alternative')
         msg['Subject'] = subject
         msg['From'] = config['from_address']
@@ -271,6 +277,10 @@ class NotificationManager:
     def _send_webhook(self, subject: str, message: str, data: Dict):
         """Send generic webhook notification"""
         config = self.webhook_config
+
+        # Validate required webhook configuration
+        if not config.get('url'):
+            raise ValueError("Missing required webhook configuration field: url")
 
         # Prepare payload
         payload = {
