@@ -173,24 +173,23 @@ class ImageSetGenerator:
                         operator_entry["maxVersion"] = op["maxVersion"]
 
                 # Add channel if present
-                channel = (channels.get(op.get("name")) if channels else None)
-                if channel is not None:
-                    channel = list(channel)
-                else:
-                    channel = []
+                channel = None
+                if channels:
+                    channel = channels.get(op.get("name")) or channels.get(package_name)
+                if not channel:
+                    channel = op.get("channel")
 
-                if len(channel) > 0:
-                    operator_entry["channels"] = []
-                    for ch in channel:
-                        operator_entry["channels"].append({"name": ch})
+                if channel:
+                    if isinstance(channel, (list, tuple, set)):
+                        channel_list = list(channel)
+                    else:
+                        channel_list = [channel]
 
+                    operator_entry["channels"] = [{"name": ch} for ch in channel_list]
                     if newest_channel and package_name in newest_channel:
                         operator_entry["defaultChannel"] = newest_channel[package_name]
                     else:
-                        operator_entry["defaultChannel"] = channel[-1]
-
-                if channel is None:
-                    channel = op.get("channel")
+                        operator_entry["defaultChannel"] = channel_list[-1]
                     
 
                 operator_packages.append(operator_entry)

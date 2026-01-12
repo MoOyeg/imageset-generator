@@ -46,3 +46,21 @@ def test_generator_smoke_builds_expected_config():
     yaml_output = generator.generate_yaml()
     body = yaml.safe_load("\n".join(line for line in yaml_output.splitlines() if not line.startswith("#")))
     assert body["mirror"]["additionalImages"][0]["name"] == "registry.redhat.io/ubi8/ubi:latest"
+
+
+def test_generator_uses_operator_channel_when_mapping_missing():
+    generator = ImageSetGenerator()
+    generator.add_operators(
+        operators=[
+            {
+                "name": "cluster-logging",
+                "channel": "stable-5.8",
+            }
+        ],
+        catalog="registry.redhat.io/redhat/redhat-operator-index",
+    )
+
+    operator_config = generator.config["spec"]["mirror"]["operators"][0]
+    package = operator_config["packages"][0]
+    assert package["channels"] == [{"name": "stable-5.8"}]
+    assert package["defaultChannel"] == "stable-5.8"
