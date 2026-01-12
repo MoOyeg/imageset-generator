@@ -19,6 +19,7 @@ from datetime import datetime
 from .generator import ImageSetGenerator
 import traceback
 from .constants import TLS_VERIFY, TIMEOUT_OPM_RENDER
+from .validation import validate_version, validate_channel, safe_path_component, ValidationError
 
 def build_opm_command(catalog_url, output_format='yaml', skip_tls=None):
     """
@@ -566,19 +567,23 @@ def refresh_ocp_releases(version=None, channel=None):
             'timestamp': datetime.now().isoformat()
         }), 400
         
-    # Check if version is in valid format
-    if not re.match(r'^\d+\.\d+$', version):
+    # Validate version format using centralized validation
+    try:
+        version = validate_version(version)
+    except ValidationError as e:
         return jsonify({
             'status': 'error',
-            'message': 'Invalid version format. Expected format is X.Y (e.g., 4.14)',
+            'message': str(e),
             'timestamp': datetime.now().isoformat()
         }), 400
         
-    # Check if channel is in valid format
-    if not re.match(r'^[A-Za-z0-9\-]+\d+\.\d+$', channel):
+    # Validate channel format using centralized validation
+    try:
+        channel = validate_channel(channel)
+    except ValidationError as e:
         return jsonify({
             'status': 'error',
-            'message': 'Invalid channel format. Expected alphanumeric characters and hyphens only',
+            'message': str(e),
             'timestamp': datetime.now().isoformat()
         }), 400
         
@@ -939,19 +944,23 @@ def get_ocp_releases(version, channel):
             'timestamp': datetime.now().isoformat()
         }), 400
         
-    #Check if version is in valid format
-    if not re.match(r'^\d+\.\d+$', version):
+    # Validate version format using centralized validation
+    try:
+        version = validate_version(version)
+    except ValidationError as e:
         return jsonify({
             'status': 'error',
-            'message': 'Invalid version format. Expected format is X.Y (e.g., 4.14)',
+            'message': str(e),
             'timestamp': datetime.now().isoformat()
         }), 400
         
-    #Check if channel is in valid format
-    if not re.match(r'^[A-Za-z0-9\-]+\d+\.\d+$', channel):
+    # Validate channel format using centralized validation
+    try:
+        channel = validate_channel(channel)
+    except ValidationError as e:
         return jsonify({
             'status': 'error',
-            'message': 'Invalid channel format. Expected alphanumeric characters and hyphens only',
+            'message': str(e),
             'timestamp': datetime.now().isoformat()
         }), 400
         
@@ -1011,10 +1020,13 @@ def get_ocp_channels(version):
             'timestamp': datetime.now().isoformat()
         }), 400
         
-    if not re.match(r'^\d+\.\d+$', version):
+    # Validate version format using centralized validation
+    try:
+        version = validate_version(version)
+    except ValidationError as e:
         return jsonify({
             'status': 'error',
-            'message': 'Invalid version format. Expected format is X.Y (e.g., 4.14)',
+            'message': str(e),
             'timestamp': datetime.now().isoformat()
         }), 400
         
