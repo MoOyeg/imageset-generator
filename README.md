@@ -65,11 +65,11 @@ The data used by the tool is stored in the data subfolder.To have it refreshed r
 
 ### Backend (Flask/Python)
 
-- **`app.py`** - Main Flask application with REST API endpoints
-- **`validation.py`** - Input validation with allowlist patterns
-- **`constants.py`** - Centralized configuration (timeouts, catalogs, patterns)
-- **`exceptions.py`** - Custom exception classes with detailed context
-- **`generator.py`** - ImageSet YAML generation logic
+- **`src/imageset_generator/app.py`** - Main Flask application with REST API endpoints
+- **`src/imageset_generator/validation.py`** - Input validation with allowlist patterns
+- **`src/imageset_generator/constants.py`** - Centralized configuration (timeouts, catalogs, patterns)
+- **`src/imageset_generator/exceptions.py`** - Custom exception classes with detailed context
+- **`src/imageset_generator/generator.py`** - ImageSet YAML generation logic
 
 ### Frontend (React)
 
@@ -90,7 +90,7 @@ The data used by the tool is stored in the data subfolder.To have it refreshed r
 All user inputs are validated using allowlist patterns:
 
 ```python
-from validation import validate_catalog_url, validate_version, ValidationError
+from imageset_generator.validation import validate_catalog_url, validate_version, ValidationError
 
 # Catalog URLs must match Red Hat registry patterns
 validate_catalog_url("registry.redhat.io/redhat/redhat-operator-index")
