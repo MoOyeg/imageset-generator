@@ -20,6 +20,19 @@ from .generator import ImageSetGenerator
 import traceback
 from .constants import TLS_VERIFY, TIMEOUT_OPM_RENDER
 from .validation import validate_version, validate_channel, safe_path_component, ValidationError
+from .exceptions import (
+    ImageSetGeneratorError,
+    CatalogError,
+    CatalogRenderError,
+    CatalogParseError,
+    OperatorError,
+    OperatorNotFoundError,
+    VersionError,
+    ConfigurationError,
+    FileOperationError,
+    NetworkError,
+    GenerationError,
+)
 
 def build_opm_command(catalog_url, output_format='yaml', skip_tls=None):
     """
@@ -167,7 +180,11 @@ def get_operators_from_opm(catalog_url, version_key):
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=TIMEOUT_OPM_RENDER)
         
         if result.returncode != 0:
-            raise Exception(f"opm render failed: {result.stderr}")
+            raise CatalogRenderError(
+                f"opm render failed: {result.stderr}",
+                catalog=full_catalog,
+                version=version_key
+            )
             
         operators = set()
         docs = list(yaml.safe_load_all(result.stdout))
@@ -182,8 +199,15 @@ def get_operators_from_opm(catalog_url, version_key):
                     operators.add(op_name)
                     
         return sorted(list(operators))
+    except CatalogRenderError:
+        raise
     except Exception as e:
-        raise Exception(f"Error getting operators from opm: {str(e)}")
+        raise CatalogError(
+            f"Error getting operators from opm",
+            catalog=catalog_url,
+            version=version_key,
+            original_error=e
+        )
 
 def get_cached_operators(cache_file):
     """Get operators from cache file if it exists and is not expired"""
