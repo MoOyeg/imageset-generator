@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+  imageset-generator:
+    build:
+      context: .
+      dockerfile: Containerfile
+    container_name: imageset-generator
+    ports:
+      - "5000:5000"
+    volumes:
+      # Mount data directory for persistent cache
+      - ./data:/app/data:z
+      # Mount examples for output
+      - ./examples:/app/examples:z
+    environment:
+      - PYTHONPATH=/app/src
+      - DEBUG_MODE=false
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  # Development service with live reload
+  imageset-generator-dev:
+    build:
+      context: .
+      dockerfile: Containerfile
+    container_name: imageset-generator-dev
+    ports:
+      - "5000:5000"
+    volumes:
+      # Mount source for live development
+      - ./src:/app/src:z
+      - ./data:/app/data:z
+      - ./scripts:/app/scripts:z
+      - ./examples:/app/examples:z
+      - ./automation:/app/automation:z
+    environment:
+      - PYTHONPATH=/app/src
+      - DEBUG_MODE=true
+      - FLASK_DEBUG=1
+    command: ["python3.11", "-m", "imageset_generator.app", "--host", "0.0.0.0", "--port", "5000", "--debug"]
+    profiles:
+      - dev
