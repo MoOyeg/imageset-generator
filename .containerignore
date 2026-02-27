@@ -54,9 +54,23 @@ test_results/
 start-web.sh
 start-dev.sh
 start-podman-dev.sh
-test_api.py
+start-podman.sh
+
+# Legacy files (no longer used)
+gui.py
+launcher.py
+add_functions.py
+refresh_endpoint.py
+refresh_function.py
+refresh_operators.py
+update_ocp_function.py
+
+# Assets (README images, not needed at runtime)
+images/
 
 # Temporary files
 temp_uploads/
+logs/
 *.tmp
 *.log
+*.new

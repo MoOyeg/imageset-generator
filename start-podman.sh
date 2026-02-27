@@ -34,11 +34,22 @@ if podman ps -a --format "{{.Names}}" | grep -q "^imageset-generator$"; then
     podman rm imageset-generator 2>/dev/null || true
 fi
 
-# Run the container
+# Resolve data directory path
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DATA_DIR="${SCRIPT_DIR}/data"
+
+if [ ! -d "$DATA_DIR" ]; then
+    echo "Creating data directory at ${DATA_DIR}..."
+    mkdir -p "$DATA_DIR"
+fi
+
+# Run the container with data directory mounted for persistence
 echo "Starting the application..."
+echo "Data directory: ${DATA_DIR}"
 podman run -d \
     --name imageset-generator \
     -p 5000:5000 \
+    -v "${DATA_DIR}:/app/data:Z" \
     --restart unless-stopped \
     imageset-generator:latest
 

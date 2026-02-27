@@ -138,6 +138,26 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.2.0",
+      "keywords": [
+        "Aerospike"
+      ],
+      "description": "The Aerospike Kubernetes Operator automates the deployment and management of Aerospike enterprise clusters on Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.3.0",
+      "keywords": [
+        "Aerospike"
+      ],
+      "description": "The Aerospike Kubernetes Operator automates the deployment and management of Aerospike enterprise clusters on Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "keywords": [
         "Aerospike"
@@ -447,6 +467,58 @@
     {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
+      "version": "1.21.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.22.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.23.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.23.1",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
       "version": "1.3.0",
       "keywords": [
         "Datadog",
@@ -679,6 +751,48 @@
       "package": "dynatrace-operator-rhmp",
       "name": "dynatrace-operator-rhmp",
       "version": "1.7.2",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.7.3",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.8.0",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.8.1",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -1374,6 +1488,54 @@
       "channel": "stable"
     },
     {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.5",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.6",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.7",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.8",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
       "package": "iomesh-operator-rhmp",
       "name": "iomesh-operator-rhmp",
       "version": "0.10.1-rc4",
@@ -1832,6 +1994,18 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.15",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
       "version": "8.0.2",
       "keywords": [
         "kubernetes",
@@ -1917,6 +2091,54 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "8.0.9",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.0",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.1",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.2",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.3",
       "keywords": [
         "kubernetes",
         "storage",
@@ -2127,6 +2349,100 @@
       "channel": "stable-cw"
     },
     {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.1",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.1-cw",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.2",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.2-cw",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.19.0",
+      "keywords": [
+        "mysql",
+        "percona",
+        "database",
+        "pxc",
+        "galera",
+        "database",
+        "sql",
+        "operator"
+      ],
+      "description": "Percona Operator for MySQL based on Percona XtraDB Cluster manages the lifecycle of Percona XtraDB cluster instances.",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.19.0-cw",
+      "keywords": [
+        "mysql",
+        "percona",
+        "database",
+        "pxc",
+        "galera",
+        "database",
+        "sql",
+        "operator"
+      ],
+      "description": "Percona Operator for MySQL based on Percona XtraDB Cluster manages the lifecycle of Percona XtraDB cluster instances.",
+      "channel": "stable-cw"
+    },
+    {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "8.0.2-2.9",
@@ -2226,6 +2542,54 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.4",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.5",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
       "package": "starburst-enterprise-helm-operator-paygo-rhmp",
       "name": "starburst-enterprise-helm-operator-paygo-rhmp",
       "version": "402.1.0",
@@ -2251,6 +2615,19 @@
         "data"
       ],
       "description": "Deploys StarburstEnterprise Helm Operator",
+      "channel": "alpha"
+    },
+    {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "4.21.0-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
       "channel": "alpha"
     },
     {
@@ -2485,9 +2862,23 @@
       ],
       "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified-rhmp",
+      "name": "zabbix-operator-certified-rhmp",
+      "version": "6.0.44",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
     }
   ],
-  "count": 202,
+  "count": 231,
   "source": "opm",
-  "timestamp": "2025-12-10T14:13:09.960528"
+  "timestamp": "2026-02-27T20:54:51.612537"
 }

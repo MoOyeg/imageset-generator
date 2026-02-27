@@ -410,7 +410,7 @@ function BasicConfig({ config, updateConfig, operatorMappings, ocpReleases, ocpC
                                 </div>
                               }
                               isChecked={(config.operator_catalogs || []).includes(catalog.url)}
-                              onChange={(checked) => handleCatalogSelectionChange(catalog.url, checked)}
+                              onChange={(_event, checked) => handleCatalogSelectionChange(catalog.url, checked)}
                               id={`catalog-${index}`}
                             />
                           </div>

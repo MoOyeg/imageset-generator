@@ -23,6 +23,7 @@ import BasicConfig from './components/BasicConfig';
 import AdvancedConfig from './components/AdvancedConfig';
 import PreviewGenerate from './components/PreviewGenerate';
 import StatusBar from './components/StatusBar';
+import ResetData from './components/ResetData';
 
 // Utility to deeply sanitize config for JSON serialization
 function deepSanitizeConfig(obj) {
@@ -331,6 +332,10 @@ function App() {
               onGeneratePreview={generatePreview}
               onDownloadConfig={downloadConfig}
             />
+          </Tab>
+
+          <Tab eventKey={3} title={<TabTitleText>Reset</TabTitleText>}>
+            <ResetData />
           </Tab>
         </Tabs>
       </PageSection>

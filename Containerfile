@@ -29,6 +29,7 @@ RUN microdnf -y install \
     gcc \
     tar \
     wget \
+    jq \
     gpgme \
     libassuan \
     device-mapper-libs \
@@ -43,6 +44,15 @@ RUN wget https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/latest
     && chmod +x oc-mirror \
     && mv oc-mirror /usr/local/bin/ \
     && rm oc-mirror.tar.gz
+
+# Download and install opm (Operator Package Manager)
+RUN wget https://github.com/operator-framework/operator-registry/releases/download/v1.63.0/linux-amd64-opm \
+    -O /usr/local/bin/opm \
+    && chmod +x /usr/local/bin/opm
+
+# Create containers policy.json required by opm for pulling images
+RUN mkdir -p /etc/containers \
+    && echo '{"default":[{"type":"insecureAcceptAnything"}]}' > /etc/containers/policy.json
 
 # Copy Python requirements and install dependencies
 COPY requirements.txt .

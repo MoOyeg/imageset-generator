@@ -87,6 +87,18 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "channel": "alpha"
     },
@@ -141,7 +153,7 @@
     {
       "package": "cockroachdb-certified-rhmp",
       "name": "cockroachdb-certified-rhmp",
-      "version": "2.18.2",
+      "version": "2.18.3",
       "channel": "stable"
     },
     {
@@ -179,6 +191,18 @@
       "name": "couchbase-enterprise-certified-rhmp",
       "version": "2.6.0-2",
       "channel": "2.6.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.6.1-1",
+      "channel": "2.6.1"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.6.1-2",
+      "channel": "2.6.1"
     },
     {
       "package": "couchbase-enterprise-certified-rhmp",
@@ -241,148 +265,10 @@
       "channel": "2.8.1"
     },
     {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.1.0",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.1.1",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.1.2",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.1.3",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.2.0",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.3.0",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.4.1",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.4.2",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.4.3",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.5.0",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.5.1",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.5.2",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.6.0",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.6.1",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.7.0",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.7.1",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.7.2",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.7.3",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.7.4",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.8.0",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.8.1",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.8.2",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.8.3",
-      "channel": "v5"
-    },
-    {
-      "package": "crunchy-postgres-operator-rhmp",
-      "name": "crunchy-postgres-operator-rhmp",
-      "version": "5.8.4",
-      "channel": "v5"
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.0-1",
+      "channel": "2.9.0"
     },
     {
       "package": "datadog-operator-certified-rhmp",
@@ -460,6 +346,30 @@
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
       "version": "1.20.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.21.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.22.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.23.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.23.1",
       "channel": "stable"
     },
     {
@@ -568,6 +478,24 @@
       "package": "dynatrace-operator-rhmp",
       "name": "dynatrace-operator-rhmp",
       "version": "1.7.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.7.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.8.1",
       "channel": "alpha"
     },
     {
@@ -925,6 +853,30 @@
       "channel": "stable"
     },
     {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.5",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.6",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.7",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.8",
+      "channel": "stable"
+    },
+    {
       "package": "iomesh-operator-rhmp",
       "name": "iomesh-operator-rhmp",
       "version": "0.10.1-rc4",
@@ -1251,6 +1203,12 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.15",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
       "version": "8.0.2",
       "channel": "stable"
     },
@@ -1297,6 +1255,30 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.1",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.2",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.3",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace-rhmp",
       "name": "kubemq-operator-marketplace-rhmp",
       "version": "1.7.8",
@@ -1319,24 +1301,6 @@
       "name": "marketplace-games-operator-rhmp",
       "version": "1.0.0",
       "channel": "alpha"
-    },
-    {
-      "package": "minio-operator-rhmp",
-      "name": "minio-operator-rhmp",
-      "version": "5.0.13",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-operator-rhmp",
-      "name": "minio-operator-rhmp",
-      "version": "5.0.14",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-operator-rhmp",
-      "name": "minio-operator-rhmp",
-      "version": "5.0.15",
-      "channel": "stable"
     },
     {
       "package": "model-builder-for-vision-certified-rhmp",
@@ -1807,6 +1771,24 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.3",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.4",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.5",
+      "channel": "candidate"
+    },
+    {
       "package": "starburst-enterprise-helm-operator-paygo-rhmp",
       "name": "starburst-enterprise-helm-operator-paygo-rhmp",
       "version": "402.1.0",
@@ -1821,7 +1803,7 @@
     {
       "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
       "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
-      "version": "4.17.1-0",
+      "version": "4.21.0-0",
       "channel": "alpha"
     },
     {
@@ -1931,9 +1913,15 @@
       "name": "zabbix-operator-certified-rhmp",
       "version": "6.0.42",
       "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified-rhmp",
+      "name": "zabbix-operator-certified-rhmp",
+      "version": "6.0.44",
+      "channel": "lts"
     }
   ],
-  "count": 322,
+  "count": 320,
   "source": "opm",
-  "timestamp": "2025-12-10T16:18:26.602591"
+  "timestamp": "2026-02-27T20:42:30.375403"
 }

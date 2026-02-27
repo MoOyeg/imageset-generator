@@ -42,6 +42,17 @@
       "channel": "stable"
     },
     {
+      "package": "aic-operator",
+      "name": "aic-operator",
+      "version": "0.3.2",
+      "keywords": [
+        "AIC",
+        "AIC-Operator"
+      ],
+      "description": "Automate the management of OpenShift Operator for Qualcomm AI 100 accelerators.",
+      "channel": "alpha"
+    },
+    {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.5.0",
@@ -93,22 +104,6 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.5.8",
-      "keywords": [
-        "WAF",
-        "Web Application Firewall",
-        "WAAP",
-        "Web Application and API protection",
-        "OWASP",
-        "Airlock",
-        "Microgateway",
-        "Security",
-        "Filtering",
-        "DevSecOps",
-        "shift left",
-        "control plane",
-        "Operator"
-      ],
-      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
       "channel": "4.5"
     },
     {
@@ -148,6 +143,28 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.6.10",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.6.2",
       "channel": "4.6"
     },
@@ -167,28 +184,18 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.6.5",
-      "keywords": [
-        "WAF",
-        "Web Application Firewall",
-        "WAAP",
-        "Web Application and API protection",
-        "OWASP",
-        "Airlock",
-        "Microgateway",
-        "Security",
-        "Filtering",
-        "DevSecOps",
-        "shift left",
-        "control plane",
-        "Operator"
-      ],
-      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
       "channel": "4.6"
     },
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.6.6",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.7",
       "keywords": [
         "WAF",
         "Web Application Firewall",
@@ -210,7 +217,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
-      "version": "4.6.7",
+      "version": "4.6.8",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.9",
       "keywords": [
         "WAF",
         "Web Application Firewall",
@@ -251,46 +280,12 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.7.3",
-      "keywords": [
-        "Gateway API",
-        "WAF",
-        "Web Application Firewall",
-        "WAAP",
-        "Web Application and API protection",
-        "OWASP",
-        "Airlock",
-        "Microgateway",
-        "Security",
-        "Filtering",
-        "DevSecOps",
-        "shift left",
-        "control plane",
-        "Operator"
-      ],
-      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
       "channel": "4.7"
     },
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.7.4",
-      "keywords": [
-        "Gateway API",
-        "WAF",
-        "Web Application Firewall",
-        "WAAP",
-        "Web Application and API protection",
-        "OWASP",
-        "Airlock",
-        "Microgateway",
-        "Security",
-        "Filtering",
-        "DevSecOps",
-        "shift left",
-        "control plane",
-        "Operator"
-      ],
-      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
       "channel": "4.7"
     },
     {
@@ -319,7 +314,151 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.7.6",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.7",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.8",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.8.0",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.1",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.2",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.3",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.4",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -402,6 +541,22 @@
       "package": "amd-gpu-operator",
       "name": "amd-gpu-operator",
       "version": "1.3.2",
+      "keywords": [
+        "AMD",
+        "GPU",
+        "AI",
+        "Deep Learning",
+        "Hardware",
+        "Driver",
+        "Monitoring"
+      ],
+      "description": "Operator responsible for deploying AMD GPU kernel drivers, device plugin, device test runner and device metrics exporter\\nFor more information, visit [documentation](https://instinct.docs.amd.com/projects/gpu-operator/en/latest/)",
+      "channel": "alpha"
+    },
+    {
+      "package": "amd-gpu-operator",
+      "name": "amd-gpu-operator",
+      "version": "1.4.1",
       "keywords": [
         "AMD",
         "GPU",
@@ -501,9 +656,25 @@
       "channel": "stable"
     },
     {
+      "package": "apelocal-csi",
+      "name": "apelocal-csi",
+      "version": "0.4.3",
+      "keywords": [
+        "ape-local",
+        "apelocal-csi",
+        "database",
+        "csi",
+        "LocalPV",
+        "local-storage",
+        "cgroup"
+      ],
+      "description": "ApeLocal CSI is the good choice for running databases on local disks by using Kubernetes.",
+      "channel": "stable"
+    },
+    {
       "package": "app-insights-operator",
       "name": "app-insights-operator",
-      "version": "1.17.8-1",
+      "version": "1.18.0-1",
       "keywords": [
         "developer tools",
         "insights",
@@ -602,6 +773,18 @@
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
       "version": "2022.4.836",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.848",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.860",
       "keywords": [
         "aqua-security",
         "scanning",
@@ -614,7 +797,7 @@
     {
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
-      "version": "2022.4.848",
+      "version": "2022.4.868",
       "keywords": [
         "aqua-security",
         "scanning",
@@ -1120,6 +1303,36 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.16.19-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.16"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.16.20-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.16"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.10-cee.1",
       "keywords": [
         "Cilium",
@@ -1136,6 +1349,36 @@
       "package": "clife",
       "name": "clife",
       "version": "1.17.10-cee.2",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.17.12-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.17.13-cee.1",
       "keywords": [
         "Cilium",
         "networking",
@@ -1238,648 +1481,49 @@
       "channel": "1.18"
     },
     {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.18.10",
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.6-cee.1",
       "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
       ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "stable"
+      "description": "",
+      "channel": "1.18"
     },
     {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.18.11",
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.6-cee.2",
       "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
       ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
+      "description": "",
+      "channel": "1.18"
     },
     {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.18.12",
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.7-cee.1",
       "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
       ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.18.13",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.18.7",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.18.8",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.18.9",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.19.0",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.19.1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.20.0",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.20.1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.20.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.21.0",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.21.1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.0",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "Operator to manage Postgres high availability clusters with a primary/standby architecture.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.10",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable-v1.22"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.11",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable-v1.22"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.3",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.4",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.5",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.6",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.7",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.8",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.22.9",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.23.1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloud",
-        "native",
-        "edb",
-        "enterprisedb",
-        "cnp",
-        "pg4k"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.23.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.23.3",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.23.4",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable-v1.23"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.23.5",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable-v1.23"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.23.6",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable-v1.23"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.24.0",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.24.1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "fast"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.24.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable-v1.24"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.24.3",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable-v1.24"
-    },
-    {
-      "package": "cloud-native-postgresql",
-      "name": "cloud-native-postgresql",
-      "version": "1.24.4",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "cloudnativepg",
-        "cloudnative-pg",
-        "cnp"
-      ],
-      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
-      "channel": "stable-v1.24"
+      "description": "",
+      "channel": "1.18"
     },
     {
       "package": "cloud-native-postgresql",
@@ -1960,6 +1604,38 @@
       ],
       "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
       "channel": "stable"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.5",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.6",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.25"
     },
     {
       "package": "cloud-native-postgresql",
@@ -2060,6 +1736,22 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.26.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.26"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.27.0",
       "keywords": [
         "postgresql",
@@ -2108,6 +1800,54 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.27.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.27"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.27.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.27"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.28.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.28.0-rc1",
       "keywords": [
         "postgresql",
@@ -2136,6 +1876,22 @@
       ],
       "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
       "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.28.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
     },
     {
       "package": "cloudera-streams-messaging-kubernetes-operator",
@@ -2414,6 +2170,22 @@
     {
       "package": "cloudnative-pg",
       "name": "cloudnative-pg",
+      "version": "1.28.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
       "version": "1.28.0-rc1",
       "keywords": [
         "postgresql",
@@ -2444,9 +2216,25 @@
       "channel": "candidate"
     },
     {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.28.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
       "package": "coherence-operator",
       "name": "coherence-operator",
-      "version": "3.5.7",
+      "version": "3.5.9",
       "keywords": [
         "Coherence",
         "Oracle",
@@ -2459,7 +2247,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.0.2",
+      "version": "3.0.3",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -2634,6 +2422,34 @@
         "observability"
       ],
       "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "0.0.1",
+      "keywords": [
+        "Confluent",
+        "Flink",
+        "Kubernetes",
+        "Operator",
+        "FKO"
+      ],
+      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
+      "channel": "alpha"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.13.0-cp2",
+      "keywords": [
+        "Confluent",
+        "Flink",
+        "Kubernetes",
+        "Operator",
+        "FKO"
+      ],
+      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
       "channel": "stable"
     },
     {
@@ -3042,9 +2858,24 @@
       "channel": "v5"
     },
     {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.6",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
       "package": "cte-k8s-operator",
       "name": "cte-k8s-operator",
-      "version": "1.6.5",
+      "version": "1.7.8",
       "keywords": [
         "Encryption",
         "Data Protection",
@@ -3126,13 +2957,6 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.19.1",
-      "keywords": [
-        "Datadog",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
       "channel": "stable"
     },
     {
@@ -3145,13 +2969,58 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.20.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.21.0",
       "keywords": [
         "Datadog",
         "Monitoring",
         "Logs",
         "Tracing"
       ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.22.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.23.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.23.1",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
       "channel": "stable"
     },
     {
@@ -3194,6 +3063,218 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.10.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.10.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.11.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.11.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.11.2",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.6.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.7.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.8.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.8.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.9.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.9.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
       "channel": "stable"
     },
     {
@@ -3329,6 +3410,20 @@
       "channel": "beta"
     },
     {
+      "package": "dxoperator",
+      "name": "dxoperator",
+      "version": "1.0.77",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -3386,14 +3481,6 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.7.1",
-      "keywords": [
-        "monitoring",
-        "dynatrace",
-        "oneagent",
-        "activegate",
-        "observability"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
@@ -3411,13 +3498,43 @@
       "channel": "alpha"
     },
     {
-      "package": "eda-k8s-operator",
-      "name": "eda-k8s-operator",
-      "version": "4.0.0",
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.7.3",
       "keywords": [
-        "EDA Connect",
-        "K8s Controller",
-        "EDA K8s Controller Operator"
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.8.0",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.8.1",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
       ],
       "description": "",
       "channel": "alpha"
@@ -3425,7 +3542,7 @@
     {
       "package": "eda-k8s-operator",
       "name": "eda-k8s-operator",
-      "version": "4.0.1",
+      "version": "5.0.0",
       "keywords": [
         "EDA Connect",
         "K8s Controller",
@@ -3433,6 +3550,71 @@
       ],
       "description": "",
       "channel": "stable"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.3.3",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.3.4",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.3.5",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2026.1.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "innovation"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2026.2.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "innovation"
     },
     {
       "package": "eginnovations-operator",
@@ -3600,6 +3782,64 @@
       "channel": "stable"
     },
     {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.3.0",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server, Logstash Elastic AutoOps Agent and Elastic Package Registry on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.3.1",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server and Logstash on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.4.3",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "alpha"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.4.5",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -3615,6 +3855,28 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.1.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.10.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.11.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
       "channel": "certified-1.0"
     },
     {
@@ -3663,11 +3925,6 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.8.0",
-      "keywords": [
-        "security",
-        "runtime-protection"
-      ],
-      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
       "channel": "certified-1.0"
     },
     {
@@ -3715,6 +3972,24 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.6.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.7.0",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -3728,7 +4003,105 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
-      "version": "2.6.1",
+      "version": "2.7.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.8.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.8.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.8.2",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.8.3",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.8.4",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.9.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.9.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -3743,42 +4116,18 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.43.0",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
       "channel": "stable"
     },
     {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.43.1",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
       "channel": "stable"
     },
     {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.43.2",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
       "channel": "stable"
     },
     {
@@ -3796,9 +4145,47 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.45.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.46.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -3821,6 +4208,16 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.11.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -3843,12 +4240,32 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "22.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "22.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -3871,12 +4288,32 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "23.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "23.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -3899,6 +4336,16 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "23.6.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -3921,12 +4368,32 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "23.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "23.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -3965,12 +4432,32 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "24.6.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "24.6.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -3993,12 +4480,32 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "24.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "24.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -4053,24 +4560,64 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "25.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "25.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "25.3.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "25.3.3",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
       "channel": "stable"
     },
     {
@@ -4092,6 +4639,42 @@
     {
       "package": "habana-ai-operator",
       "name": "habana-ai-operator",
+      "version": "1.22.1-6-2",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.22"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.22.1-6-3",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.22"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.22.2-32",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.22"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
       "version": "1.22.2-32-1",
       "keywords": [
         "habanalabs",
@@ -4100,6 +4683,30 @@
       ],
       "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
       "channel": "1.22"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.22.2-32-2",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.22"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.23.0-695",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.23"
     },
     {
       "package": "harness-gitops-operator",
@@ -4133,6 +4740,16 @@
     {
       "package": "hcp-terraform-operator",
       "name": "hcp-terraform-operator",
+      "version": "2.11.0",
+      "keywords": [
+        "terraform"
+      ],
+      "description": "HCP Terraform Operator for Kubernetes allows managing HCP Terraform / Terraform Enterprise resources via Kubernetes Custom Resources.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hcp-terraform-operator",
+      "name": "hcp-terraform-operator",
       "version": "2.8.0",
       "channel": "alpha"
     },
@@ -4158,10 +4775,6 @@
       "package": "hcp-terraform-operator",
       "name": "hcp-terraform-operator",
       "version": "2.9.2",
-      "keywords": [
-        "terraform"
-      ],
-      "description": "HCP Terraform Operator for Kubernetes allows managing HCP Terraform / Terraform Enterprise resources via Kubernetes Custom Resources.",
       "channel": "alpha"
     },
     {
@@ -4193,9 +4806,22 @@
       "channel": "stable"
     },
     {
+      "package": "hpe-csi-operator",
+      "name": "hpe-csi-operator",
+      "version": "3.0.2",
+      "keywords": [
+        "HPE",
+        "HPE CSI",
+        "HPE Storage",
+        "CSI"
+      ],
+      "description": "A Container Storage Interface (CSI) driver for HPE storage platforms. The CSI driver allows you to use HPE storage with your preferred container orchestrator.",
+      "channel": "stable"
+    },
+    {
       "package": "hpe-ezmeral-csi-operator",
       "name": "hpe-ezmeral-csi-operator",
-      "version": "1.0.9",
+      "version": "1.0.19",
       "keywords": [
         "HPE",
         "HPE Ezmeral",
@@ -4208,9 +4834,22 @@
       "channel": "stable"
     },
     {
+      "package": "hpe-filex-csi-operator",
+      "name": "hpe-filex-csi-operator",
+      "version": "2.6.4",
+      "keywords": [
+        "HPE",
+        "HPE CSI",
+        "HPE Storage",
+        "CSI"
+      ],
+      "description": "A Container Storage Interface (CSI) driver for HPE GreenLake File Storage.",
+      "channel": "stable"
+    },
+    {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.17.2",
+      "version": "1.17.4",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -4275,9 +4914,21 @@
       "channel": "stable"
     },
     {
+      "package": "ibm-block-csi-operator",
+      "name": "ibm-block-csi-operator",
+      "version": "1.13.0",
+      "keywords": [
+        "IBM",
+        "BlockStorage",
+        "CSI"
+      ],
+      "description": "Run IBM block storage CSI driver on OpenShift.",
+      "channel": "stable"
+    },
+    {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.23.0",
+      "version": "2.23.3",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -4288,7 +4939,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.23.0",
+      "version": "2.23.3",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -4330,25 +4981,24 @@
       "channel": "alpha"
     },
     {
+      "package": "infinibox-operator-certified",
+      "name": "infinibox-operator-certified",
+      "version": "2.25.0",
+      "keywords": [
+        "csi",
+        "nas",
+        "san",
+        "storage",
+        "infinidat",
+        "infinibox"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "infoscale-dr-manager",
       "name": "infoscale-dr-manager",
       "version": "8.0.100",
-      "keywords": [
-        "Infoscale",
-        "Storage foundation",
-        "Veritas",
-        "Data storage",
-        "Storage",
-        "Data",
-        "SDS",
-        "Software",
-        "Defined Storage",
-        "Clustered storage",
-        "CFS",
-        "DR",
-        "Disaster Recovery"
-      ],
-      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
       "channel": "8.0.200x"
     },
     {
@@ -4501,18 +5151,6 @@
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "8.0.110",
-      "keywords": [
-        "Veritas",
-        "InfoScale",
-        "Licensing",
-        "Veritas Licensing",
-        "VLIC",
-        "Storage",
-        "Data Storage",
-        "SDS",
-        "Software Defined Storage"
-      ],
-      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
       "channel": "8.0.200x"
     },
     {
@@ -5106,12 +5744,6 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.2",
-      "keywords": [
-        "monitoring",
-        "APM",
-        "Instana"
-      ],
-      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
       "channel": "stable"
     },
     {
@@ -5127,21 +5759,94 @@
       "channel": "stable"
     },
     {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.5",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.6",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.7",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.8",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
       "package": "intel-device-plugins-operator",
       "name": "intel-device-plugins-operator",
       "version": "0.28.0",
+      "keywords": [
+        "fpga",
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
+      ],
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
       "channel": "alpha"
     },
     {
       "package": "intel-device-plugins-operator",
       "name": "intel-device-plugins-operator",
       "version": "0.29.0",
+      "keywords": [
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
+      ],
+      "description": "",
       "channel": "alpha"
     },
     {
       "package": "intel-device-plugins-operator",
       "name": "intel-device-plugins-operator",
       "version": "0.29.1",
+      "keywords": [
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
+      ],
+      "description": "",
       "channel": "alpha"
     },
     {
@@ -5158,6 +5863,505 @@
       ],
       "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
       "channel": "alpha"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.32.2",
+      "keywords": [
+        "fpga",
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
+      ],
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
+      "channel": "alpha"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.34.1",
+      "keywords": [
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa"
+      ],
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.35.0",
+      "keywords": [
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa"
+      ],
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "intel-network-operator",
+      "name": "intel-network-operator",
+      "version": "1.1.1",
+      "keywords": [
+        "gaudi",
+        "gpu",
+        "intel",
+        "rdma",
+        "scaleout"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "ipm-controller",
+      "name": "ipm-controller",
+      "version": "25.11.0",
+      "keywords": [
+        "intel",
+        "infrastructure",
+        "power",
+        "manager",
+        "management"
+      ],
+      "description": "IPM Controller manages resources via REST API interactions.",
+      "channel": "stable"
+    },
+    {
+      "package": "jenkins2tekton-operator",
+      "name": "jenkins2tekton-operator",
+      "version": "0.1.0",
+      "keywords": [
+        "jenkins",
+        "tekton",
+        "pipelines",
+        "cicd",
+        "openshift"
+      ],
+      "description": "Convert Jenkins declarative pipelines (Jenkinsfile) into Tekton Pipelines/Tasks on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "jenkins2tekton-operator",
+      "name": "jenkins2tekton-operator",
+      "version": "0.1.1",
+      "keywords": [
+        "jenkins",
+        "tekton",
+        "pipelines",
+        "cicd",
+        "openshift"
+      ],
+      "description": "Convert Jenkins declarative pipelines (Jenkinsfile) into Tekton Pipelines/Tasks on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "jenkins2tekton-operator",
+      "name": "jenkins2tekton-operator",
+      "version": "0.1.2",
+      "keywords": [
+        "jenkins",
+        "tekton",
+        "pipelines",
+        "cicd",
+        "openshift"
+      ],
+      "description": "Convert Jenkins declarative pipelines (Jenkinsfile) into Tekton Pipelines/Tasks on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "jenkins2tekton-operator",
+      "name": "jenkins2tekton-operator",
+      "version": "0.1.4",
+      "keywords": [
+        "jenkins",
+        "tekton",
+        "pipelines",
+        "cicd",
+        "openshift"
+      ],
+      "description": "Convert Jenkins declarative pipelines (Jenkinsfile) into Tekton Pipelines/Tasks on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "jenkins2tekton-operator",
+      "name": "jenkins2tekton-operator",
+      "version": "0.1.5",
+      "keywords": [
+        "jenkins",
+        "tekton",
+        "pipelines",
+        "cicd",
+        "openshift"
+      ],
+      "description": "Convert Jenkins declarative pipelines (Jenkinsfile) into Tekton Pipelines/Tasks on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "3.1.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "3.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "3.1.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "3.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "3.1.2",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "3.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "3.1.3",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "3.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.2",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.3",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.4",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.5",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.2",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.3",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.4",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.1.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.1.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.1.2",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.2.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.2.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.3.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.3.x"
     },
     {
       "package": "keysight-loadcore-agents",
@@ -5420,9 +6624,94 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.6",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.6 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.0 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.1 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.2 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.3",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.3 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
-      "version": "1.4.3",
+      "version": "1.5.0",
       "keywords": [
         "kurrent",
         "event sourcing",
@@ -5477,6 +6766,16 @@
       "package": "linstor-operator",
       "name": "linstor-operator",
       "version": "2.10.3",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.4",
       "keywords": [
         "storage"
       ],
@@ -5541,12 +6840,144 @@
       "channel": "stable"
     },
     {
-      "package": "minio-minkms",
-      "name": "minio-minkms",
-      "version": "2025.11.24000001",
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2025.12.20100920",
       "keywords": [
         "AI Storage",
         "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.2.9031243",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.19074437",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.19091821",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.20100920",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.5.12190907",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.6.3065135",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.7.1011319",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.8.1184927",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.8.19175300",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.2.9031243",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
       ],
       "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
       "channel": "stable"
@@ -5943,6 +7374,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.6.1",
       "keywords": [
         "mongodb",
         "databases",
@@ -5954,7 +7397,7 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "keywords": [
         "mongodb",
         "databases",
@@ -5966,7 +7409,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.1",
+      "version": "0.0.4",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -5999,21 +7442,6 @@
       "channel": "alpha"
     },
     {
-      "package": "netapp-spark-operator",
-      "name": "netapp-spark-operator",
-      "version": "1.1.3",
-      "keywords": [
-        "Spark",
-        "Big Data",
-        "Apache Spark",
-        "AI",
-        "ML",
-        "Data Engineering"
-      ],
-      "description": "Red Hat and NetApp have partnered to offer enterprise-grade supported Apache Spark on OpenShift.",
-      "channel": "alpha"
-    },
-    {
       "package": "netscaler-adm-agent-operator",
       "name": "netscaler-adm-agent-operator",
       "version": "141.60.38",
@@ -6034,7 +7462,7 @@
     {
       "package": "netscaler-adm-agent-operator",
       "name": "netscaler-adm-agent-operator",
-      "version": "141.60.52",
+      "version": "141.60.57",
       "keywords": [
         "Ingress",
         "NetScaler",
@@ -6076,7 +7504,75 @@
       "package": "netscaler-operator",
       "name": "netscaler-operator",
       "version": "3.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.3.0",
       "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.4.0",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.4.1",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.4.2",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
         "Ingress",
         "NetScaler",
         "ADC",
@@ -6238,6 +7734,24 @@
       "package": "neuvector-certified-operator",
       "name": "neuvector-certified-operator",
       "version": "1.5.3",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.4",
+      "keywords": [
+        "Monitoring",
+        "Networking",
+        "Security"
+      ],
+      "description": "NeuVector delivers the only cloud-native Kubernetes security platform with uncompromising end-to-end protection from DevOps vulnerability protection to automated run-time security, and featuring a true Layer 7 container firewall.",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.5",
       "keywords": [
         "Monitoring",
         "Networking",
@@ -6260,7 +7774,7 @@
     {
       "package": "nginx-gateway-fabric",
       "name": "nginx-gateway-fabric",
-      "version": "1.0.1",
+      "version": "1.2.2",
       "keywords": [
         "nginx",
         "gateway",
@@ -6274,6 +7788,18 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.1",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -6288,7 +7814,37 @@
     {
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
-      "version": "3.4.0",
+      "version": "3.4.2",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.3",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.4",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -6331,6 +7887,12 @@
       "channel": "stable"
     },
     {
+      "package": "nim-operator-certified",
+      "name": "nim-operator-certified",
+      "version": "3.0.1",
+      "channel": "stable"
+    },
+    {
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.3.4",
@@ -6340,6 +7902,12 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.3.8",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.3.9",
       "keywords": [
         "Nutanix",
         "CSI",
@@ -6353,7 +7921,7 @@
     {
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
-      "version": "3.3.9",
+      "version": "3.6.0",
       "keywords": [
         "Nutanix",
         "CSI",
@@ -6379,7 +7947,29 @@
     {
       "package": "nvidia-network-operator",
       "name": "nvidia-network-operator",
+      "version": "25.10.0",
+      "keywords": [
+        "sriov",
+        "networking"
+      ],
+      "description": "Deploy and manage NVIDIA networking resources in Kubernetes",
+      "channel": "stable"
+    },
+    {
+      "package": "nvidia-network-operator",
+      "name": "nvidia-network-operator",
       "version": "25.7.0",
+      "keywords": [
+        "sriov",
+        "networking"
+      ],
+      "description": "Deploy and manage NVIDIA networking resources in Kubernetes",
+      "channel": "stable"
+    },
+    {
+      "package": "nvidia-network-operator",
+      "name": "nvidia-network-operator",
+      "version": "26.1.0",
       "keywords": [
         "sriov",
         "networking"
@@ -6510,7 +8100,7 @@
     {
       "package": "open-liberty-certified",
       "name": "open-liberty-certified",
-      "version": "1.5.1",
+      "version": "1.5.2",
       "keywords": [
         "Open Liberty",
         "MicroProfile",
@@ -6555,6 +8145,30 @@
       "package": "openshift-fusion-access-operator",
       "name": "openshift-fusion-access-operator",
       "version": "1.0.1",
+      "keywords": [
+        "gpfs",
+        "storage",
+        "virtualization"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "1.1.0-1",
+      "keywords": [
+        "gpfs",
+        "storage",
+        "virtualization"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "1.1.1-1",
       "keywords": [
         "gpfs",
         "storage",
@@ -6620,7 +8234,7 @@
     {
       "package": "operator-certification-operator",
       "name": "operator-certification-operator",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "keywords": [
         "certification",
         "pipeline",
@@ -6633,6 +8247,30 @@
       "package": "percona-postgresql-operator-certified",
       "name": "percona-postgresql-operator-certified",
       "version": "2.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "2.8.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "2.8.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "2.8.1-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "2.8.2",
       "keywords": [
         "postgres",
         "postgresql",
@@ -6647,7 +8285,7 @@
     {
       "package": "percona-postgresql-operator-certified",
       "name": "percona-postgresql-operator-certified",
-      "version": "2.8.0-cw",
+      "version": "2.8.2-cw",
       "keywords": [
         "postgres",
         "postgresql",
@@ -6670,6 +8308,187 @@
       ],
       "description": "Percona Operator for MySQL based on Percona Server for MySQL automates the creation and management of highly available, enterprise-ready MySQL database clusters on Kubernetes.",
       "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified",
+      "name": "percona-xtradb-cluster-operator-certified",
+      "version": "1.19.0",
+      "keywords": [
+        "mysql",
+        "percona",
+        "database",
+        "pxc",
+        "galera",
+        "database",
+        "sql",
+        "operator"
+      ],
+      "description": "Percona Operator for MySQL based on Percona XtraDB Cluster manages the lifecycle of Percona XtraDB cluster instances.",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified",
+      "name": "percona-xtradb-cluster-operator-certified",
+      "version": "1.19.0-cw",
+      "keywords": [
+        "mysql",
+        "percona",
+        "database",
+        "pxc",
+        "galera",
+        "database",
+        "sql",
+        "operator"
+      ],
+      "description": "Percona Operator for MySQL based on Percona XtraDB Cluster manages the lifecycle of Percona XtraDB cluster instances.",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "1.0.1",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) v5 workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "stable"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "1.1.0",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) v5 workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "stable"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "1.1.1",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) v5 workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "stable"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "1.1.2",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) v5 workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "stable"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "1.1.3",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) v5 workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "stable"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "1.2.0",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) v5 workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "candidate"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "1.2.0-rc1",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) v5 workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "candidate"
     },
     {
       "package": "portworx-certified",
@@ -7218,6 +9037,48 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.5.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.5.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.6.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -7253,7 +9114,7 @@
     {
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
-      "version": "0.0.3",
+      "version": "0.2.2",
       "keywords": [
         "rebellions",
         "ai",
@@ -7268,6 +9129,48 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "8.0.10-21.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.10"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "8.0.10-22.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.10"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "8.0.10-23.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.10"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "8.0.2-2.9",
       "keywords": [
         "redislabs",
@@ -7277,7 +9180,7 @@
         "cache"
       ],
       "description": "",
-      "channel": "8.0.2"
+      "channel": "8.0.10"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -7291,7 +9194,21 @@
         "cache"
       ],
       "description": "",
-      "channel": "8.0.2"
+      "channel": "8.0.10"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "8.0.6-8.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.10"
     },
     {
       "package": "runtime-component-operator-certified",
@@ -7408,15 +9325,6 @@
       "package": "runtime-fabric-operator",
       "name": "runtime-fabric-operator",
       "version": "2.11.50",
-      "keywords": [
-        "operator",
-        "agent",
-        "rtf",
-        "runtime",
-        "fabric",
-        "mulesoft"
-      ],
-      "description": "Runtime Fabric Operator Application from Mulesoft",
       "channel": "alpha"
     },
     {
@@ -7432,6 +9340,457 @@
         "mulesoft"
       ],
       "description": "Runtime Fabric Operator Application from Mulesoft",
+      "channel": "alpha"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.10",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.11",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.12",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.13",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.15",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.16",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.17",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.18",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.20",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.21",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.22",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.24",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.25",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.27",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.29",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.30",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.8",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.26.9",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.1",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.10",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.11",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.12",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.13",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.2",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.3",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.4",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.5",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.6",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.8",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.27.9",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.0",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.1",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scylladb-operator",
+      "name": "scylladb-operator",
+      "version": "1.20.0",
+      "keywords": [
+        "scylladb-operator",
+        "kubernetes",
+        "scylladb"
+      ],
+      "description": "Kubernetes Operator for ScyllaDB",
+      "channel": "dev"
+    },
+    {
+      "package": "scylladb-operator",
+      "name": "scylladb-operator",
+      "version": "1.20.0-rc.0",
+      "keywords": [
+        "scylladb-operator",
+        "kubernetes",
+        "scylladb"
+      ],
+      "description": "Kubernetes Operator for ScyllaDB",
+      "channel": "dev"
+    },
+    {
+      "package": "sn-operator",
+      "name": "sn-operator",
+      "version": "0.14.8",
+      "keywords": [
+        "streamnative",
+        "pulsar"
+      ],
+      "description": "The StreamNative Operator is a commercial operator built for managing StreamNative Private Cloud commercial components and enterprise features.",
       "channel": "alpha"
     },
     {
@@ -7472,6 +9831,17 @@
       ],
       "description": "The Splunk Operator for Kubernetes enables you to quickly and easily deploy Splunk Enterprise on your choice of private or public cloud provider. The Operator simplifies scaling and management of Splunk Enterprise by automating administrative workflows using Kubernetes best practices.",
       "channel": "stable"
+    },
+    {
+      "package": "spyre-operator",
+      "name": "spyre-operator",
+      "version": "1.1.1",
+      "keywords": [
+        "app",
+        "operator"
+      ],
+      "description": "Operator for IBM Spyre devices",
+      "channel": "stable-v1.1"
     },
     {
       "package": "sriov-fec",
@@ -7519,6 +9889,16 @@
       "package": "sriov-fec",
       "name": "sriov-fec",
       "version": "2.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-airflow-operator",
+      "name": "stackable-airflow-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "airflow"
+      ],
+      "description": "Stackable Operator for Apache Airflow",
       "channel": "stable"
     },
     {
@@ -7632,6 +10012,36 @@
       "channel": "stable"
     },
     {
+      "package": "stackable-spark-operator",
+      "name": "stackable-spark-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "spark-k8s"
+      ],
+      "description": "Stackable Operator for Apache Spark",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-superset-operator",
+      "name": "stackable-superset-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "superset"
+      ],
+      "description": "Stackable Operator for Apache Superset",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-trino-operator",
+      "name": "stackable-trino-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "trino"
+      ],
+      "description": "Stackable Operator for Trino",
+      "channel": "stable"
+    },
+    {
       "package": "stackable-zookeeper-operator",
       "name": "stackable-zookeeper-operator",
       "version": "25.11.0",
@@ -7645,6 +10055,18 @@
       "package": "stackgres-certified",
       "name": "stackgres-certified",
       "version": "1.18.1",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.2",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.3",
       "keywords": [
         "postgresql",
         "postgres",
@@ -7660,7 +10082,7 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.2",
+      "version": "1.18.4",
       "keywords": [
         "postgresql",
         "postgres",
@@ -7672,6 +10094,35 @@
       ],
       "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
       "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.5",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "4.21.0-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
     },
     {
       "package": "synaxg-operator",
@@ -7787,7 +10238,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.5.1",
+      "version": "1.5.2",
       "keywords": [
         "tenant",
         "stakater",
@@ -7936,9 +10387,43 @@
       "channel": "alpha"
     },
     {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.40.4",
+      "keywords": [
+        "tigera-operator",
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.40"
+    },
+    {
       "package": "trident-operator",
       "name": "trident-operator",
       "version": "25.10.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.10.0-linux-only",
       "keywords": [
         "NetApp",
         "ONTAP",
@@ -7973,7 +10458,7 @@
     {
       "package": "tvo-operator",
       "name": "tvo-operator",
-      "version": "6.1.10",
+      "version": "6.1.11",
       "keywords": [
         "OpenStack",
         "Backup",
@@ -8075,6 +10560,36 @@
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.1.0",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.2.0",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.3.0",
       "keywords": [
         "vault",
         "security",
@@ -8159,6 +10674,12 @@
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.9.1",
       "keywords": [
         "cert-manager",
         "cyberark",
@@ -8168,18 +10689,81 @@
       "channel": "stable"
     },
     {
-      "package": "vmstore-csi-driver-operator",
-      "name": "vmstore-csi-driver-operator",
-      "version": "1.0.0",
+      "package": "vfunction-server-operator",
+      "name": "vfunction-server-operator",
+      "version": "4.5.1961",
       "keywords": [
-        "CSI",
-        "Vmstore",
-        "storage",
-        "Tintri",
-        "DDN"
+        "vfunction",
+        "analyzing",
+        "services"
       ],
-      "description": "",
-      "channel": "alpha"
+      "description": "vFunction is a cutting-edge code analysis, machine learning, and automation to boost your Java modernization projects.",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.67.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "webserver-operator",
+      "name": "webserver-operator",
+      "version": "1.0.35",
+      "keywords": [
+        "nginx",
+        "apache",
+        "webserver",
+        "ansible"
+      ],
+      "description": "An Ansible-based operator that deploys NGINX or Apache based on a WebServer CR.",
+      "channel": "stable"
+    },
+    {
+      "package": "webserver-operator",
+      "name": "webserver-operator",
+      "version": "1.0.36",
+      "keywords": [
+        "nginx",
+        "apache",
+        "webserver",
+        "ansible"
+      ],
+      "description": "An Ansible-based operator that deploys NGINX or Apache based on a WebServer CR.",
+      "channel": "stable"
+    },
+    {
+      "package": "xspc-operator",
+      "name": "xspc-operator",
+      "version": "1.17.3",
+      "keywords": [
+        "XP7",
+        "XP8",
+        "HPE",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing HPE XP Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
     },
     {
       "package": "zabbix-operator-certified",
@@ -8254,9 +10838,23 @@
       ],
       "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.44",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
     }
   ],
-  "count": 797,
+  "count": 988,
   "source": "opm",
-  "timestamp": "2025-12-10T14:12:34.819048"
+  "timestamp": "2026-02-27T20:54:14.649501"
 }

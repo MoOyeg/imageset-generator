@@ -31,36 +31,6 @@
       "channel": "release-4.3"
     },
     {
-      "package": "accuknox-operator-certified",
-      "name": "accuknox-operator-certified",
-      "version": "0.2.1",
-      "keywords": [
-        "CNAPP",
-        "CSPM",
-        "CWPP",
-        "Cloud Native",
-        "Runtime Security",
-        "Zero-Trust"
-      ],
-      "description": "",
-      "channel": "alpha"
-    },
-    {
-      "package": "accuknox-operator-certified",
-      "name": "accuknox-operator-certified",
-      "version": "0.7.1",
-      "keywords": [
-        "CNAPP",
-        "CSPM",
-        "CWPP",
-        "Cloud Native",
-        "Runtime Security",
-        "Zero-Trust"
-      ],
-      "description": "",
-      "channel": "stable"
-    },
-    {
       "package": "aci-containers-operator",
       "name": "aci-containers-operator",
       "version": "1.0.11",
@@ -123,22 +93,6 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.5.8",
-      "keywords": [
-        "WAF",
-        "Web Application Firewall",
-        "WAAP",
-        "Web Application and API protection",
-        "OWASP",
-        "Airlock",
-        "Microgateway",
-        "Security",
-        "Filtering",
-        "DevSecOps",
-        "shift left",
-        "control plane",
-        "Operator"
-      ],
-      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
       "channel": "4.5"
     },
     {
@@ -178,6 +132,28 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.6.10",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.6.2",
       "channel": "4.6"
     },
@@ -197,28 +173,18 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.6.5",
-      "keywords": [
-        "WAF",
-        "Web Application Firewall",
-        "WAAP",
-        "Web Application and API protection",
-        "OWASP",
-        "Airlock",
-        "Microgateway",
-        "Security",
-        "Filtering",
-        "DevSecOps",
-        "shift left",
-        "control plane",
-        "Operator"
-      ],
-      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
       "channel": "4.6"
     },
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.6.6",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.7",
       "keywords": [
         "WAF",
         "Web Application Firewall",
@@ -240,7 +206,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
-      "version": "4.6.7",
+      "version": "4.6.8",
+      "keywords": [
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.6"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.6.9",
       "keywords": [
         "WAF",
         "Web Application Firewall",
@@ -281,46 +269,12 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.7.3",
-      "keywords": [
-        "Gateway API",
-        "WAF",
-        "Web Application Firewall",
-        "WAAP",
-        "Web Application and API protection",
-        "OWASP",
-        "Airlock",
-        "Microgateway",
-        "Security",
-        "Filtering",
-        "DevSecOps",
-        "shift left",
-        "control plane",
-        "Operator"
-      ],
-      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
       "channel": "4.7"
     },
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.7.4",
-      "keywords": [
-        "Gateway API",
-        "WAF",
-        "Web Application Firewall",
-        "WAAP",
-        "Web Application and API protection",
-        "OWASP",
-        "Airlock",
-        "Microgateway",
-        "Security",
-        "Filtering",
-        "DevSecOps",
-        "shift left",
-        "control plane",
-        "Operator"
-      ],
-      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
       "channel": "4.7"
     },
     {
@@ -349,7 +303,151 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.7.6",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.7",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.8",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.8.0",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.1",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.2",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.3",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.4",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -379,6 +477,86 @@
       ],
       "description": "operator for AIU devices",
       "channel": "stable-v2.3"
+    },
+    {
+      "package": "amd-gpu-operator",
+      "name": "amd-gpu-operator",
+      "version": "1.1.1",
+      "keywords": [
+        "AMD",
+        "GPU",
+        "AI",
+        "Deep Learning",
+        "Hardware",
+        "Driver",
+        "Monitoring"
+      ],
+      "description": "Operator responsible for deploying AMD GPU kernel drivers, device plugin and device metrics exporter\\nFor more information, visit [documentation](https://dcgpu.docs.amd.com/projects/gpu-operator/en/latest/)",
+      "channel": "alpha"
+    },
+    {
+      "package": "amd-gpu-operator",
+      "name": "amd-gpu-operator",
+      "version": "1.2.1",
+      "keywords": [
+        "AMD",
+        "GPU",
+        "AI",
+        "Deep Learning",
+        "Hardware",
+        "Driver",
+        "Monitoring"
+      ],
+      "description": "Operator responsible for deploying AMD GPU kernel drivers, device plugin, device test runner and device metrics exporter\\nFor more information, visit [documentation](https://instinct.docs.amd.com/projects/gpu-operator/en/latest/)",
+      "channel": "alpha"
+    },
+    {
+      "package": "amd-gpu-operator",
+      "name": "amd-gpu-operator",
+      "version": "1.3.1",
+      "keywords": [
+        "AMD",
+        "GPU",
+        "AI",
+        "Deep Learning",
+        "Hardware",
+        "Driver",
+        "Monitoring"
+      ],
+      "description": "Operator responsible for deploying AMD GPU kernel drivers, device plugin, device test runner and device metrics exporter\\nFor more information, visit [documentation](https://instinct.docs.amd.com/projects/gpu-operator/en/latest/)",
+      "channel": "alpha"
+    },
+    {
+      "package": "amd-gpu-operator",
+      "name": "amd-gpu-operator",
+      "version": "1.3.2",
+      "keywords": [
+        "AMD",
+        "GPU",
+        "AI",
+        "Deep Learning",
+        "Hardware",
+        "Driver",
+        "Monitoring"
+      ],
+      "description": "Operator responsible for deploying AMD GPU kernel drivers, device plugin, device test runner and device metrics exporter\\nFor more information, visit [documentation](https://instinct.docs.amd.com/projects/gpu-operator/en/latest/)",
+      "channel": "alpha"
+    },
+    {
+      "package": "amd-gpu-operator",
+      "name": "amd-gpu-operator",
+      "version": "1.4.1",
+      "keywords": [
+        "AMD",
+        "GPU",
+        "AI",
+        "Deep Learning",
+        "Hardware",
+        "Driver",
+        "Monitoring"
+      ],
+      "description": "Operator responsible for deploying AMD GPU kernel drivers, device plugin, device test runner and device metrics exporter\\nFor more information, visit [documentation](https://instinct.docs.amd.com/projects/gpu-operator/en/latest/)",
+      "channel": "alpha"
     },
     {
       "package": "anzo-operator",
@@ -467,15 +645,20 @@
       "channel": "stable"
     },
     {
-      "package": "appdynamics-cloud-operator",
-      "name": "appdynamics-cloud-operator",
-      "version": "24.7.0-133",
+      "package": "apelocal-csi",
+      "name": "apelocal-csi",
+      "version": "0.4.3",
       "keywords": [
-        "monitoring",
-        "appdynamics"
+        "ape-local",
+        "apelocal-csi",
+        "database",
+        "csi",
+        "LocalPV",
+        "local-storage",
+        "cgroup"
       ],
-      "description": "",
-      "channel": "alpha"
+      "description": "ApeLocal CSI is the good choice for running databases on local disks by using Kubernetes.",
+      "channel": "stable"
     },
     {
       "package": "appdynamics-operator",
@@ -567,6 +750,18 @@
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
       "version": "2022.4.836",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.848",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.860",
       "keywords": [
         "aqua-security",
         "scanning",
@@ -579,7 +774,7 @@
     {
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
-      "version": "2022.4.848",
+      "version": "2022.4.868",
       "keywords": [
         "aqua-security",
         "scanning",
@@ -1053,6 +1248,374 @@
       "channel": "1.13"
     },
     {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.4",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.5",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.6",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.25"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.26.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.26.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.26.0-rc2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.26.0-rc3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.26.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.26.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.26"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.26.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.26"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.27.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.27.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.27.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.27.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.27"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.27.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.27"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.28.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.28.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.28.0-rc2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.28.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
+    },
+    {
       "package": "cloudera-streams-messaging-kubernetes-operator",
       "name": "cloudera-streams-messaging-kubernetes-operator",
       "version": "1.4.0-b199",
@@ -1087,9 +1650,313 @@
       "channel": "1.5.x"
     },
     {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.23.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.23.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.23.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.24.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.24.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.25.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.25.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.26.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.26.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.26.0-rc2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.26.0-rc3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.26.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.27.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.27.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.27.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.28.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.28.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.28.0-rc2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.28.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
       "package": "coherence-operator",
       "name": "coherence-operator",
-      "version": "3.5.7",
+      "version": "3.5.9",
       "keywords": [
         "Coherence",
         "Oracle",
@@ -1236,21 +2103,37 @@
       "channel": "preview"
     },
     {
-      "package": "coroot-operator",
-      "name": "coroot-operator",
-      "version": "1.1.5",
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "0.0.1",
       "keywords": [
-        "monitoring",
-        "coroot",
-        "observability"
+        "Confluent",
+        "Flink",
+        "Kubernetes",
+        "Operator",
+        "FKO"
       ],
-      "description": "",
+      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
+      "channel": "alpha"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.13.0-cp2",
+      "keywords": [
+        "Confluent",
+        "Flink",
+        "Kubernetes",
+        "Operator",
+        "FKO"
+      ],
+      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
       "channel": "stable"
     },
     {
       "package": "cte-k8s-operator",
       "name": "cte-k8s-operator",
-      "version": "1.6.5",
+      "version": "1.7.8",
       "keywords": [
         "Encryption",
         "Data Protection",
@@ -1332,13 +2215,6 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.19.1",
-      "keywords": [
-        "Datadog",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
       "channel": "stable"
     },
     {
@@ -1351,13 +2227,58 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.20.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.21.0",
       "keywords": [
         "Datadog",
         "Monitoring",
         "Logs",
         "Tracing"
       ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.",
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.22.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.23.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.23.1",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
       "channel": "stable"
     },
     {
@@ -1535,6 +2456,20 @@
       "channel": "beta"
     },
     {
+      "package": "dxoperator",
+      "name": "dxoperator",
+      "version": "1.0.77",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -1592,14 +2527,6 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.7.1",
-      "keywords": [
-        "monitoring",
-        "dynatrace",
-        "oneagent",
-        "activegate",
-        "observability"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
@@ -1617,9 +2544,51 @@
       "channel": "alpha"
     },
     {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.7.3",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.8.0",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.8.1",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "eda-k8s-operator",
       "name": "eda-k8s-operator",
-      "version": "4.0.1",
+      "version": "5.0.0",
       "keywords": [
         "EDA Connect",
         "K8s Controller",
@@ -1794,6 +2763,64 @@
       "channel": "stable"
     },
     {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.3.0",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server, Logstash Elastic AutoOps Agent and Elastic Package Registry on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.3.1",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server and Logstash on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.4.3",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "alpha"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.4.5",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -1809,6 +2836,28 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.1.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.10.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.11.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
       "channel": "certified-1.0"
     },
     {
@@ -1857,11 +2906,6 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.8.0",
-      "keywords": [
-        "security",
-        "runtime-protection"
-      ],
-      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
       "channel": "certified-1.0"
     },
     {
@@ -1906,6 +2950,482 @@
       "channel": "alpha"
     },
     {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "1.10.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "1.10.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "1.11.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "1.11.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "22.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "22.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "22.9.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.3.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.6.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.6.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.9.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.6.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.6.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.6.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.9.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.10.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.10.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.3",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.4",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.23.0-695",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.23"
+    },
+    {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
       "version": "0.3.0",
@@ -1937,6 +3457,16 @@
     {
       "package": "hcp-terraform-operator",
       "name": "hcp-terraform-operator",
+      "version": "2.11.0",
+      "keywords": [
+        "terraform"
+      ],
+      "description": "HCP Terraform Operator for Kubernetes allows managing HCP Terraform / Terraform Enterprise resources via Kubernetes Custom Resources.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hcp-terraform-operator",
+      "name": "hcp-terraform-operator",
       "version": "2.8.0",
       "channel": "alpha"
     },
@@ -1962,10 +3492,6 @@
       "package": "hcp-terraform-operator",
       "name": "hcp-terraform-operator",
       "version": "2.9.2",
-      "keywords": [
-        "terraform"
-      ],
-      "description": "HCP Terraform Operator for Kubernetes allows managing HCP Terraform / Terraform Enterprise resources via Kubernetes Custom Resources.",
       "channel": "alpha"
     },
     {
@@ -2012,22 +3538,40 @@
       "channel": "stable"
     },
     {
-      "package": "ibm-application-gateway-operator",
-      "name": "ibm-application-gateway-operator",
-      "version": "24.4.0",
+      "package": "hspc-operator",
+      "name": "hspc-operator",
+      "version": "1.17.4",
+      "keywords": [
+        "Hitachi",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing Hitachi Storage Plug-in for Containers CSI driver",
       "channel": "stable"
     },
     {
-      "package": "ibm-application-gateway-operator",
-      "name": "ibm-application-gateway-operator",
-      "version": "25.2.0",
+      "package": "ibm-data-reporter-operator",
+      "name": "ibm-data-reporter-operator",
+      "version": "2.23.3",
       "keywords": [
-        "IBM",
-        "Security",
-        "Identity and Access"
+        "red hat marketplace",
+        "operators"
       ],
-      "description": "The IBM Application Gateway operator manages the lifecycle of IBM Application Gateway containers.",
-      "channel": "stable"
+      "description": "The IBM Data Reporter Operator accepts events and transforms them into reports submitted to the Data Service of the IBM Metrics Operator.",
+      "channel": "beta"
+    },
+    {
+      "package": "ibm-metrics-operator",
+      "name": "ibm-metrics-operator",
+      "version": "2.23.3",
+      "keywords": [
+        "red hat marketplace",
+        "operators",
+        "buy"
+      ],
+      "description": "The IBM Metrics Operator provides workload metering and reporting for IBM and Red Hat Marketplace customers.",
+      "channel": "beta"
     },
     {
       "package": "ibm-security-verify-access-operator",
@@ -2050,22 +3594,6 @@
       "package": "infoscale-dr-manager",
       "name": "infoscale-dr-manager",
       "version": "8.0.100",
-      "keywords": [
-        "Infoscale",
-        "Storage foundation",
-        "Veritas",
-        "Data storage",
-        "Storage",
-        "Data",
-        "SDS",
-        "Software",
-        "Defined Storage",
-        "Clustered storage",
-        "CFS",
-        "DR",
-        "Disaster Recovery"
-      ],
-      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
       "channel": "8.0.200x"
     },
     {
@@ -2218,18 +3746,6 @@
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "8.0.110",
-      "keywords": [
-        "Veritas",
-        "InfoScale",
-        "Licensing",
-        "Veritas Licensing",
-        "VLIC",
-        "Storage",
-        "Data Storage",
-        "SDS",
-        "Software Defined Storage"
-      ],
-      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
       "channel": "8.0.200x"
     },
     {
@@ -2823,12 +4339,6 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.2",
-      "keywords": [
-        "monitoring",
-        "APM",
-        "Instana"
-      ],
-      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
       "channel": "stable"
     },
     {
@@ -2844,21 +4354,94 @@
       "channel": "stable"
     },
     {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.5",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.6",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.7",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.8",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
       "package": "intel-device-plugins-operator",
       "name": "intel-device-plugins-operator",
       "version": "0.28.0",
+      "keywords": [
+        "fpga",
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
+      ],
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
       "channel": "alpha"
     },
     {
       "package": "intel-device-plugins-operator",
       "name": "intel-device-plugins-operator",
       "version": "0.29.0",
+      "keywords": [
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
+      ],
+      "description": "",
       "channel": "alpha"
     },
     {
       "package": "intel-device-plugins-operator",
       "name": "intel-device-plugins-operator",
       "version": "0.29.1",
+      "keywords": [
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
+      ],
+      "description": "",
       "channel": "alpha"
     },
     {
@@ -2877,43 +4460,405 @@
       "channel": "alpha"
     },
     {
-      "package": "keysight-loadcore-agents",
-      "name": "keysight-loadcore-agents",
-      "version": "0.1.21",
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.32.2",
       "keywords": [
-        "loadcore",
-        "keysight"
+        "fpga",
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa",
+        "dlb"
       ],
-      "description": "",
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
       "channel": "alpha"
     },
     {
-      "package": "kubearmor-operator-certified",
-      "name": "kubearmor-operator-certified",
-      "version": "1.0.0",
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.34.1",
       "keywords": [
-        "kubearmor-operator",
-        "runtime-security",
-        "security",
-        "cloud-native"
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa"
       ],
-      "description": "The KubeArmor Operator deloys and manages KubeArmor daemonset and its componenets within a cluster.",
-      "channel": "alpha"
-    },
-    {
-      "package": "kubearmor-operator-certified",
-      "name": "kubearmor-operator-certified",
-      "version": "1.5.2",
-      "keywords": [
-        "monitoring",
-        "security",
-        "alerting",
-        "runtime-security",
-        "cloud native",
-        "container security"
-      ],
-      "description": "KubeArmor Operator",
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
       "channel": "stable"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.35.0",
+      "keywords": [
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa"
+      ],
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "3.1.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "3.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "3.1.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "3.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "3.1.2",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "3.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "3.1.3",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "3.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.2",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.3",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.4",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "4.0.5",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "4.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.2",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.3",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.0.4",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.0.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.1.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.1.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.1.2",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.1.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.2.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.2.x"
+    },
+    {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.3.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.3.x"
     },
     {
       "package": "kubeblocks",
@@ -3137,23 +5082,94 @@
       "channel": "stable"
     },
     {
-      "package": "kubemq-operator-marketplace",
-      "name": "kubemq-operator-marketplace",
-      "version": "1.7.8",
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.6",
       "keywords": [
-        "messaging",
-        "queue",
-        "broker",
-        "pubsub",
-        "rpc"
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
       ],
-      "description": "Kubernetes Messaging Platform",
-      "channel": "alpha"
+      "description": "Deploys Kubecost 3.0.6 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.0 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.1 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.2 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.3",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.3 via the Helm chart.",
+      "channel": "stable"
     },
     {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
-      "version": "1.4.3",
+      "version": "1.5.0",
       "keywords": [
         "kurrent",
         "event sourcing",
@@ -3173,76 +5189,6 @@
       ],
       "description": "",
       "channel": "alpha"
-    },
-    {
-      "package": "linstor-operator",
-      "name": "linstor-operator",
-      "version": "2.10.1",
-      "keywords": [
-        "storage"
-      ],
-      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
-      "channel": "stable-v2"
-    },
-    {
-      "package": "linstor-operator",
-      "name": "linstor-operator",
-      "version": "2.10.1-0.gbf3c346",
-      "keywords": [
-        "storage"
-      ],
-      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
-      "channel": "stable-v2"
-    },
-    {
-      "package": "linstor-operator",
-      "name": "linstor-operator",
-      "version": "2.10.2",
-      "keywords": [
-        "storage"
-      ],
-      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
-      "channel": "stable-v2"
-    },
-    {
-      "package": "linstor-operator",
-      "name": "linstor-operator",
-      "version": "2.10.3",
-      "keywords": [
-        "storage"
-      ],
-      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
-      "channel": "stable-v2"
-    },
-    {
-      "package": "linstor-operator",
-      "name": "linstor-operator",
-      "version": "2.8.1",
-      "keywords": [
-        "storage"
-      ],
-      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
-      "channel": "stable-v2"
-    },
-    {
-      "package": "linstor-operator",
-      "name": "linstor-operator",
-      "version": "2.9.0",
-      "keywords": [
-        "storage"
-      ],
-      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
-      "channel": "stable-v2"
-    },
-    {
-      "package": "linstor-operator",
-      "name": "linstor-operator",
-      "version": "2.9.1",
-      "keywords": [
-        "storage"
-      ],
-      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
-      "channel": "stable-v2"
     },
     {
       "package": "mariadb-enterprise-operator",
@@ -3269,6 +5215,149 @@
         "database"
       ],
       "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2025.12.20100920",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.2.9031243",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.19074437",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.19091821",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.20100920",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.5.12190907",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.6.3065135",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.7.1011319",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.8.1184927",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.8.19175300",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.2.9031243",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
       "channel": "stable"
     },
     {
@@ -3663,6 +5752,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.6.1",
       "keywords": [
         "mongodb",
         "databases",
@@ -3674,7 +5775,7 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "keywords": [
         "mongodb",
         "databases",
@@ -3686,7 +5787,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.1",
+      "version": "0.0.4",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -3719,21 +5820,6 @@
       "channel": "alpha"
     },
     {
-      "package": "netapp-spark-operator",
-      "name": "netapp-spark-operator",
-      "version": "1.1.3",
-      "keywords": [
-        "Spark",
-        "Big Data",
-        "Apache Spark",
-        "AI",
-        "ML",
-        "Data Engineering"
-      ],
-      "description": "Red Hat and NetApp have partnered to offer enterprise-grade supported Apache Spark on OpenShift.",
-      "channel": "alpha"
-    },
-    {
       "package": "netscaler-adm-agent-operator",
       "name": "netscaler-adm-agent-operator",
       "version": "141.60.38",
@@ -3754,7 +5840,7 @@
     {
       "package": "netscaler-adm-agent-operator",
       "name": "netscaler-adm-agent-operator",
-      "version": "141.60.52",
+      "version": "141.60.57",
       "keywords": [
         "Ingress",
         "NetScaler",
@@ -3796,7 +5882,75 @@
       "package": "netscaler-operator",
       "name": "netscaler-operator",
       "version": "3.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.3.0",
       "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.4.0",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.4.1",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.4.2",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
         "Ingress",
         "NetScaler",
         "ADC",
@@ -3958,6 +6112,24 @@
       "package": "neuvector-certified-operator",
       "name": "neuvector-certified-operator",
       "version": "1.5.3",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.4",
+      "keywords": [
+        "Monitoring",
+        "Networking",
+        "Security"
+      ],
+      "description": "NeuVector delivers the only cloud-native Kubernetes security platform with uncompromising end-to-end protection from DevOps vulnerability protection to automated run-time security, and featuring a true Layer 7 container firewall.",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.5",
       "keywords": [
         "Monitoring",
         "Networking",
@@ -3980,7 +6152,7 @@
     {
       "package": "nginx-gateway-fabric",
       "name": "nginx-gateway-fabric",
-      "version": "1.0.1",
+      "version": "1.2.2",
       "keywords": [
         "nginx",
         "gateway",
@@ -3994,6 +6166,18 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.1",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -4008,7 +6192,37 @@
     {
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
-      "version": "3.4.0",
+      "version": "3.4.2",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.3",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.4.4",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -4051,6 +6265,12 @@
       "channel": "stable"
     },
     {
+      "package": "nim-operator-certified",
+      "name": "nim-operator-certified",
+      "version": "3.0.1",
+      "channel": "stable"
+    },
+    {
       "package": "nvidia-maintenance-operator",
       "name": "nvidia-maintenance-operator",
       "version": "0.2.3",
@@ -4060,6 +6280,17 @@
         "drain"
       ],
       "description": "Node maintenance in K8s cluster in a coordinated manner",
+      "channel": "stable"
+    },
+    {
+      "package": "nvidia-network-operator",
+      "name": "nvidia-network-operator",
+      "version": "25.10.0",
+      "keywords": [
+        "sriov",
+        "networking"
+      ],
+      "description": "Deploy and manage NVIDIA networking resources in Kubernetes",
       "channel": "stable"
     },
     {
@@ -4185,7 +6416,7 @@
     {
       "package": "open-liberty-certified",
       "name": "open-liberty-certified",
-      "version": "1.5.1",
+      "version": "1.5.2",
       "keywords": [
         "Open Liberty",
         "MicroProfile",
@@ -4230,6 +6461,30 @@
       "package": "openshift-fusion-access-operator",
       "name": "openshift-fusion-access-operator",
       "version": "1.0.1",
+      "keywords": [
+        "gpfs",
+        "storage",
+        "virtualization"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "1.1.0-1",
+      "keywords": [
+        "gpfs",
+        "storage",
+        "virtualization"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "1.1.1-1",
       "keywords": [
         "gpfs",
         "storage",
@@ -4295,13 +6550,601 @@
     {
       "package": "operator-certification-operator",
       "name": "operator-certification-operator",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "keywords": [
         "certification",
         "pipeline",
         "openshift"
       ],
       "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.10.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.10.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.10.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.10.3",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.10.4",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.10.5",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.6.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.7.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.8.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.8.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.9.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "1.9.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.10.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.10.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.10.3",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.10.4",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.10.5",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.3.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.3.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.4.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.5.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.5.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "23.7.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.1.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.1.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.1.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.1.3",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.2.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.2.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.2.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.2.3",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "24.2.4",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.2.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.2.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.2.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.3.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.3.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.4.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.5.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.5.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.5.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.6.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
       "channel": "alpha"
     },
     {
@@ -4512,6 +7355,19 @@
       "channel": "stable"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "4.21.0-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "synaxg-operator",
       "name": "synaxg-operator",
       "version": "1.2.0",
@@ -4625,7 +7481,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.5.1",
+      "version": "1.5.2",
       "keywords": [
         "tenant",
         "stakater",
@@ -4777,7 +7633,7 @@
     {
       "package": "tvo-operator",
       "name": "tvo-operator",
-      "version": "6.1.10",
+      "version": "6.1.11",
       "keywords": [
         "OpenStack",
         "Backup",
@@ -4879,6 +7735,36 @@
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.1.0",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.2.0",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.3.0",
       "keywords": [
         "vault",
         "security",
@@ -4963,6 +7849,12 @@
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.9.1",
       "keywords": [
         "cert-manager",
         "cyberark",
@@ -4972,18 +7864,19 @@
       "channel": "stable"
     },
     {
-      "package": "vmstore-csi-driver-operator",
-      "name": "vmstore-csi-driver-operator",
-      "version": "1.0.0",
+      "package": "xspc-operator",
+      "name": "xspc-operator",
+      "version": "1.17.3",
       "keywords": [
-        "CSI",
-        "Vmstore",
-        "storage",
-        "Tintri",
-        "DDN"
+        "XP7",
+        "XP8",
+        "HPE",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
       ],
-      "description": "",
-      "channel": "alpha"
+      "description": "An operator for managing HPE XP Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
     },
     {
       "package": "zabbix-operator-certified",
@@ -5058,9 +7951,23 @@
       ],
       "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.44",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
     }
   ],
-  "count": 571,
+  "count": 770,
   "source": "opm",
-  "timestamp": "2025-12-10T13:57:15.496733"
+  "timestamp": "2026-02-27T21:47:09.014564"
 }

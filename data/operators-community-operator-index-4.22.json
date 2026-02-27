@@ -1,0 +1,187 @@
+{
+  "operators": [
+    {
+      "package": "ack-ecr-controller",
+      "name": "ack-ecr-controller",
+      "version": "1.5.1",
+      "keywords": [
+        "ecr",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS ECR controller is a service controller for managing ECR resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.11.2",
+      "keywords": [
+        "eks",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS EKS controller is a service controller for managing EKS resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elbv2-controller",
+      "name": "ack-elbv2-controller",
+      "version": "1.3.2",
+      "keywords": [
+        "elbv2",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS ELB controller is a service controller for managing ELB resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ssm-controller",
+      "name": "ack-ssm-controller",
+      "version": "1.3.0",
+      "keywords": [
+        "ssm",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS SSM controller is a service controller for managing SSM resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "fence-agents-remediation",
+      "name": "fence-agents-remediation",
+      "version": "0.7.0",
+      "keywords": [
+        "medik8s",
+        "fencing",
+        "auto-healing",
+        "recovery",
+        "high-availability",
+        "fence-agents",
+        "fence-agents-remediation",
+        "remediation",
+        "far",
+        "baremetal"
+      ],
+      "description": "Fence Agents Remediation Operator uses well-known agents to fence and remediate unhealthy nodes. The remediation includes rebooting the unhealthy node using a fence agent, and then evicting workloads from the unhealthy node.",
+      "channel": "stable"
+    },
+    {
+      "package": "fqdn-egress-operator",
+      "name": "fqdn-egress-operator",
+      "version": "1.0.3",
+      "keywords": [
+        "operator",
+        "network",
+        "fqdn",
+        "egress"
+      ],
+      "description": "Creates and maintains NetworkPolicies that supports outbound flows based on FQDNs",
+      "channel": "stable"
+    },
+    {
+      "package": "fqdn-egress-operator",
+      "name": "fqdn-egress-operator",
+      "version": "1.0.4",
+      "keywords": [
+        "operator",
+        "network",
+        "fqdn",
+        "egress"
+      ],
+      "description": "Creates and maintains NetworkPolicies that supports outbound flows based on FQDNs",
+      "channel": "stable"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.9.0-rc.1",
+      "channel": "rc"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.9.0-rc.2",
+      "channel": "rc"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.9.0-rc.3",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Konveyor is an open-source application modernization platform that helps organizations safely and predictably modernize applications to Kubernetes at scale.",
+      "channel": "rc"
+    },
+    {
+      "package": "machine-deletion-remediation",
+      "name": "machine-deletion-remediation",
+      "version": "0.6.0",
+      "keywords": [
+        "medik8s",
+        "machine",
+        "deletion",
+        "remediation",
+        "mdr"
+      ],
+      "description": "Machine Deletion Remediation operator for reprovisioning unhealthy nodes using the Machine API.",
+      "channel": "stable"
+    },
+    {
+      "package": "node-healthcheck-operator",
+      "name": "node-healthcheck-operator",
+      "version": "0.11.0",
+      "keywords": [
+        "NHC",
+        "Self Node Remediation",
+        "SNR",
+        "Remediation",
+        "Fencing",
+        "medik8s",
+        "k8s"
+      ],
+      "description": "Detect failed Nodes and trigger remediation with a remediation operator.",
+      "channel": "stable"
+    },
+    {
+      "package": "node-maintenance-operator",
+      "name": "node-maintenance-operator",
+      "version": "0.20.0",
+      "keywords": [
+        "medik8s",
+        "Node-maintenance",
+        "nmo"
+      ],
+      "description": "Node Maintenance Operator for cordoning and draining nodes.",
+      "channel": "stable"
+    },
+    {
+      "package": "self-node-remediation",
+      "name": "self-node-remediation",
+      "version": "0.12.0",
+      "keywords": [
+        "fencing",
+        "remediation",
+        "auto-healing",
+        "recovery",
+        "high-availability",
+        "baremetal",
+        "SNR"
+      ],
+      "description": "Self Node Remediation Operator for remediate itself in case of a failure.",
+      "channel": "stable"
+    }
+  ],
+  "count": 14,
+  "source": "opm",
+  "timestamp": "2026-02-27T20:57:03.163547"
+}
