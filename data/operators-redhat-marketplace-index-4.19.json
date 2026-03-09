@@ -2489,6 +2489,20 @@
       "channel": "stable"
     },
     {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.22.0",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
+    },
+    {
       "package": "percona-xtradb-cluster-operator-certified-rhmp",
       "name": "percona-xtradb-cluster-operator-certified-rhmp",
       "version": "1.18.0",
@@ -2882,6 +2896,22 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.6",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
       "package": "starburst-enterprise-helm-operator-paygo-rhmp",
       "name": "starburst-enterprise-helm-operator-paygo-rhmp",
       "version": "402.1.0",
@@ -3170,7 +3200,7 @@
       "channel": "lts"
     }
   ],
-  "count": 251,
+  "count": 253,
   "source": "opm",
-  "timestamp": "2026-02-27T20:53:29.685452"
+  "timestamp": "2026-03-09T19:06:30.595751"
 }

@@ -799,6 +799,12 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -910,6 +916,12 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.3-opr-1+0.1767807057.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1",
       "channel": "7.13.x"
     },
     {
@@ -1293,6 +1305,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "3.1.0-14",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.1.0-6",
       "channel": "amq-streams-3.1.x"
     },
@@ -1431,6 +1449,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.1.0-10",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.1.0-4",
       "channel": "amq-streams-3.1.x"
     },
@@ -1480,6 +1504,12 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.1.0-12",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.1.0-15",
       "channel": "amq-streams-3.1.x"
     },
     {
@@ -2307,6 +2337,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1772612675",
+      "channel": "stable-2.5"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1772612774",
+      "channel": "stable-2.5-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1758684783",
       "channel": "stable-2.6"
     },
@@ -2410,6 +2452,18 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1768951413",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1772556720",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1772556740",
       "channel": "stable-2.6-cluster-scoped"
     },
     {
@@ -3010,6 +3064,12 @@
       "package": "authorino-operator",
       "name": "authorino-operator",
       "version": "1.2.3",
+      "channel": "stable"
+    },
+    {
+      "package": "authorino-operator",
+      "name": "authorino-operator",
+      "version": "1.2.4",
       "channel": "stable"
     },
     {
@@ -7129,6 +7189,12 @@
       "channel": "stable"
     },
     {
+      "package": "dns-operator",
+      "name": "dns-operator",
+      "version": "1.2.0",
+      "channel": "stable"
+    },
+    {
       "package": "dpu-network-operator",
       "name": "dpu-network-operator",
       "version": "4.13.0-202309181427",
@@ -10945,6 +11011,12 @@
       "channel": "stable"
     },
     {
+      "package": "limitador-operator",
+      "name": "limitador-operator",
+      "version": "1.2.0",
+      "channel": "stable"
+    },
+    {
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.16.0-202406061206",
@@ -12040,6 +12112,12 @@
       "package": "mcg-operator",
       "name": "mcg-operator",
       "version": "4.16.22-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.16.23-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -13449,6 +13527,12 @@
     {
       "package": "netobserv-operator",
       "name": "netobserv-operator",
+      "version": "1.11.0",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -14247,6 +14331,12 @@
     {
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
+      "version": "4.16.23-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
       "version": "4.16.3-rhodf",
       "channel": "stable-4.16"
     },
@@ -14536,6 +14626,12 @@
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.16.22-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.16.23-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -14883,6 +14979,12 @@
     {
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
+      "version": "4.16.23-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
       "version": "4.16.3-rhodf",
       "channel": "stable-4.16"
     },
@@ -15177,6 +15279,12 @@
     {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
+      "version": "4.16.23-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
       "version": "4.16.3-rhodf",
       "channel": "stable-4.16"
     },
@@ -15471,6 +15579,12 @@
     {
       "package": "odf-operator",
       "name": "odf-operator",
+      "version": "4.16.23-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
       "version": "4.16.3-rhodf",
       "channel": "stable-4.16"
     },
@@ -15604,6 +15718,12 @@
       "package": "odf-prometheus-operator",
       "name": "odf-prometheus-operator",
       "version": "4.16.22-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odf-prometheus-operator",
+      "name": "odf-prometheus-operator",
+      "version": "4.16.23-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -15903,6 +16023,12 @@
     {
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
+      "version": "4.16.23-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
       "version": "4.16.3-rhodf",
       "channel": "stable-4.16"
     },
@@ -16192,6 +16318,12 @@
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.16.22-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.16.23-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -16851,6 +16983,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.17.5",
+      "channel": "gitops-1.17"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.18.0",
       "channel": "gitops-1.18"
     },
@@ -16875,6 +17013,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.18.4",
+      "channel": "gitops-1.18"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.19.0",
       "channel": "gitops-1.19"
     },
@@ -16882,6 +17026,12 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.19.1",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.19.2",
       "channel": "gitops-1.19"
     },
     {
@@ -17067,36 +17217,6 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
-      "version": "1.11.1",
-      "channel": "latest"
-    },
-    {
-      "package": "openshift-pipelines-operator-rh",
-      "name": "openshift-pipelines-operator-rh",
-      "version": "1.12.0",
-      "channel": "latest"
-    },
-    {
-      "package": "openshift-pipelines-operator-rh",
-      "name": "openshift-pipelines-operator-rh",
-      "version": "1.12.1",
-      "channel": "latest"
-    },
-    {
-      "package": "openshift-pipelines-operator-rh",
-      "name": "openshift-pipelines-operator-rh",
-      "version": "1.12.2",
-      "channel": "latest"
-    },
-    {
-      "package": "openshift-pipelines-operator-rh",
-      "name": "openshift-pipelines-operator-rh",
-      "version": "1.13.0",
-      "channel": "latest"
-    },
-    {
-      "package": "openshift-pipelines-operator-rh",
-      "name": "openshift-pipelines-operator-rh",
       "version": "1.14.1",
       "channel": "latest"
     },
@@ -17104,31 +17224,31 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.14.2",
-      "channel": "pipelines-1.14"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.14.3",
-      "channel": "pipelines-1.14"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.14.4",
-      "channel": "pipelines-1.14"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.14.5",
-      "channel": "pipelines-1.14"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.14.6",
-      "channel": "pipelines-1.14"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -17140,19 +17260,25 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.15.1",
-      "channel": "pipelines-1.15"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.15.2",
-      "channel": "pipelines-1.15"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.15.3",
-      "channel": "pipelines-1.15"
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.15.4",
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -17164,25 +17290,25 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.16.1",
-      "channel": "pipelines-1.16"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.16.2",
-      "channel": "pipelines-1.16"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.16.3",
-      "channel": "pipelines-1.16"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.16.4",
-      "channel": "pipelines-1.16"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -17200,7 +17326,7 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.17.2",
-      "channel": "pipelines-1.17"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -17260,6 +17386,12 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.20.2",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.20.3",
       "channel": "latest"
     },
     {
@@ -19785,6 +19917,12 @@
     {
       "package": "recipe",
       "name": "recipe",
+      "version": "4.16.23-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "recipe",
+      "name": "recipe",
       "version": "4.16.3-rhodf",
       "channel": "stable-4.16"
     },
@@ -20949,410 +21087,416 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.0",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.2.0",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.2.1",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.2.2",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.2.3",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.2.4",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.2.5",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.0",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.1",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.2",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.3",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.4",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.5",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.6",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.7",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.3.8",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.0",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.1",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.2",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.3",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.4",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.5",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.6",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.7",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.4.8",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.0",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.1",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.2",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.3",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.4",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.5",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.6",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.7",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.8",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.5.9",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.0",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.1",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.10",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.2",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.3",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.4",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.5",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.6",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.7",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.8",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.6.9",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.0",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.1",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.2",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.3",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.4",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.5",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.6",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.7",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.8",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.7.9",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.0",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.1",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.2",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.3",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.4",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.5",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.6",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.7",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.8.8",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.0",
-      "channel": "rhacs-4.9"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.1",
-      "channel": "rhacs-4.9"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.2",
-      "channel": "rhacs-4.9"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.3",
-      "channel": "rhacs-4.9"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhbk-operator",
@@ -21573,6 +21717,12 @@
     {
       "package": "rhbk-operator",
       "name": "rhbk-operator",
+      "version": "26.2.14-opr.1",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
       "version": "26.2.4-opr.1",
       "channel": "stable-v26"
     },
@@ -21610,6 +21760,12 @@
       "package": "rhbk-operator",
       "name": "rhbk-operator",
       "version": "26.2.9-opr.1",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.4.10-opr.1",
       "channel": "stable-v26"
     },
     {
@@ -21682,6 +21838,18 @@
       "package": "rhcl-operator",
       "name": "rhcl-operator",
       "version": "1.1.1",
+      "channel": "stable"
+    },
+    {
+      "package": "rhcl-operator",
+      "name": "rhcl-operator",
+      "version": "1.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "rhcl-operator",
+      "name": "rhcl-operator",
+      "version": "1.2.1",
       "channel": "stable"
     },
     {
@@ -21886,6 +22054,12 @@
       "package": "rhdh",
       "name": "rhdh",
       "version": "1.8.4",
+      "channel": "fast"
+    },
+    {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.9.0",
       "channel": "fast"
     },
     {
@@ -22180,6 +22354,12 @@
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "2.25.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
+      "version": "2.25.3",
       "channel": "alpha"
     },
     {
@@ -22894,6 +23074,12 @@
       "package": "rook-ceph-operator",
       "name": "rook-ceph-operator",
       "version": "4.16.22-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "rook-ceph-operator",
+      "name": "rook-ceph-operator",
+      "version": "4.16.23-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -24178,6 +24364,12 @@
       "package": "servicemeshoperator",
       "name": "servicemeshoperator",
       "version": "2.6.13-0",
+      "channel": "1.0"
+    },
+    {
+      "package": "servicemeshoperator",
+      "name": "servicemeshoperator",
+      "version": "2.6.14-0",
       "channel": "1.0"
     },
     {
@@ -25911,6 +26103,12 @@
     {
       "package": "volsync-product",
       "name": "volsync-product",
+      "version": "0.15.0",
+      "channel": "stable"
+    },
+    {
+      "package": "volsync-product",
+      "name": "volsync-product",
       "version": "0.9.0",
       "channel": "stable-0.9"
     },
@@ -26185,7 +26383,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4364,
+  "count": 4397,
   "source": "opm",
-  "timestamp": "2026-02-27T20:47:14.672577"
+  "timestamp": "2026-03-09T18:59:47.690961"
 }

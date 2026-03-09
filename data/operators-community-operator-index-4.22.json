@@ -1,6 +1,19 @@
 {
   "operators": [
     {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "ec2",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS EC2 controller is a service controller for managing EC2 resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-ecr-controller",
       "name": "ack-ecr-controller",
       "version": "1.5.1",
@@ -53,6 +66,21 @@
       "channel": "alpha"
     },
     {
+      "package": "eclipse-che",
+      "name": "eclipse-che",
+      "version": "7.115.0",
+      "keywords": [
+        "eclipse che",
+        "workspaces",
+        "devtools",
+        "developer",
+        "ide",
+        "java"
+      ],
+      "description": "A Kube-native development solution that delivers portable and collaborative developer workspaces.",
+      "channel": "stable"
+    },
+    {
       "package": "fence-agents-remediation",
       "name": "fence-agents-remediation",
       "version": "0.7.0",
@@ -75,13 +103,6 @@
       "package": "fqdn-egress-operator",
       "name": "fqdn-egress-operator",
       "version": "1.0.3",
-      "keywords": [
-        "operator",
-        "network",
-        "fqdn",
-        "egress"
-      ],
-      "description": "Creates and maintains NetworkPolicies that supports outbound flows based on FQDNs",
       "channel": "stable"
     },
     {
@@ -100,6 +121,19 @@
     {
       "package": "konveyor-operator",
       "name": "konveyor-operator",
+      "version": "0.9.0",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Konveyor is an open-source application modernization platform that helps organizations safely and predictably modernize applications to Kubernetes at scale.",
+      "channel": "konveyor-0.9"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
       "version": "0.9.0-rc.1",
       "channel": "rc"
     },
@@ -113,6 +147,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.9.0-rc.3",
+      "channel": "rc"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.9.0-rc.5",
       "keywords": [
         "modernization",
         "migration",
@@ -181,7 +221,7 @@
       "channel": "stable"
     }
   ],
-  "count": 14,
+  "count": 18,
   "source": "opm",
-  "timestamp": "2026-02-27T20:57:03.163547"
+  "timestamp": "2026-03-09T19:10:37.651815"
 }

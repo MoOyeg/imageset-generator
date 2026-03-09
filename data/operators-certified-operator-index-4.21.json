@@ -468,6 +468,29 @@
       "channel": "4.8"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.5",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -1616,6 +1639,42 @@
       "channel": "fast"
     },
     {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.0",
+      "keywords": [
+        "backup",
+        "storage",
+        "cloudcasa"
+      ],
+      "description": "CloudCasa is a powerful and easy-to-use data protection service for Kubernetes and cloud databases.",
+      "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.1",
+      "keywords": [
+        "backup",
+        "storage",
+        "cloudcasa"
+      ],
+      "description": "CloudCasa is a powerful and easy-to-use data protection service for Kubernetes and cloud databases.",
+      "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.2",
+      "keywords": [
+        "backup",
+        "storage",
+        "cloudcasa"
+      ],
+      "description": "CloudCasa is a powerful and easy-to-use data protection service for Kubernetes and cloud databases.",
+      "channel": "alpha"
+    },
+    {
       "package": "cloudera-streams-messaging-kubernetes-operator",
       "name": "cloudera-streams-messaging-kubernetes-operator",
       "version": "1.4.0-b199",
@@ -2085,7 +2144,7 @@
     {
       "package": "conjur-follower-operator",
       "name": "conjur-follower-operator",
-      "version": "2.7.1",
+      "version": "2.8.1",
       "keywords": [
         "credential",
         "cyber",
@@ -2129,6 +2188,426 @@
       ],
       "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
       "channel": "stable"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.1.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.1.1",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.1.2",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.1.3",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.2.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.3.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.4.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.4.1",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.4.2",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.4.3",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.4.4",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.5.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.5.1",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.5.2",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.6.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.6.1",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.7.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.7.1",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.7.2",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.7.3",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.7.4",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.1",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.2",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.3",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.4",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.5",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.6",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
     },
     {
       "package": "cte-k8s-operator",
@@ -3553,7 +4032,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.23.3",
+      "version": "2.24.0",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -3564,7 +4043,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.23.3",
+      "version": "2.24.0",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -5167,6 +5646,40 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.4",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.4 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.5",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.5 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
       "version": "1.5.0",
@@ -5787,7 +6300,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.4",
+      "version": "0.0.5",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -5948,6 +6461,26 @@
       "package": "netscaler-operator",
       "name": "netscaler-operator",
       "version": "3.4.2",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.5.0",
       "keywords": [
         "GatewayAPI",
         "Gateway",
@@ -6560,6 +7093,20 @@
       "channel": "alpha"
     },
     {
+      "package": "percona-server-mongodb-operator-certified",
+      "name": "percona-server-mongodb-operator-certified",
+      "version": "1.22.0",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
+    },
+    {
       "package": "portworx-certified",
       "name": "portworx-certified",
       "version": "1.10.0",
@@ -7148,6 +7695,20 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.6.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -7355,6 +7916,156 @@
       "channel": "stable"
     },
     {
+      "package": "stackable-airflow-operator",
+      "name": "stackable-airflow-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "airflow"
+      ],
+      "description": "Stackable Operator for Apache Airflow",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-commons-operator",
+      "name": "stackable-commons-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "commons"
+      ],
+      "description": "Stackable Commons Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-druid-operator",
+      "name": "stackable-druid-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "druid"
+      ],
+      "description": "Stackable Operator for Apache Druid",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-hbase-operator",
+      "name": "stackable-hbase-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "hbase"
+      ],
+      "description": "Stackable Operator for Apache HBase",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-hdfs-operator",
+      "name": "stackable-hdfs-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "hdfs"
+      ],
+      "description": "Stackable Operator for Apache Hadoop HDFS",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-hive-operator",
+      "name": "stackable-hive-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "hive"
+      ],
+      "description": "Stackable Operator for Apache Hive",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-kafka-operator",
+      "name": "stackable-kafka-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "kafka"
+      ],
+      "description": "Stackable Operator for Apache Kafka",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-listener-operator",
+      "name": "stackable-listener-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "listener"
+      ],
+      "description": "Stackable Listener Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-nifi-operator",
+      "name": "stackable-nifi-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "nifi"
+      ],
+      "description": "Stackable Operator for Apache NiFi",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-opensearch-operator",
+      "name": "stackable-opensearch-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "opensearch"
+      ],
+      "description": "Stackable Operator for OpenSearch",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-secret-operator",
+      "name": "stackable-secret-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "secret"
+      ],
+      "description": "Stackable Secret Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-spark-operator",
+      "name": "stackable-spark-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "spark-k8s"
+      ],
+      "description": "Stackable Operator for Apache Spark",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-superset-operator",
+      "name": "stackable-superset-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "superset"
+      ],
+      "description": "Stackable Operator for Apache Superset",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-trino-operator",
+      "name": "stackable-trino-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "trino"
+      ],
+      "description": "Stackable Operator for Trino",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-zookeeper-operator",
+      "name": "stackable-zookeeper-operator",
+      "version": "25.11.0",
+      "keywords": [
+        "zookeeper"
+      ],
+      "description": "Stackable Operator for Apache ZooKeeper",
+      "channel": "stable"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -7388,12 +8099,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.3-candidate-20251022123244000",
+      "version": "1.4.4-candidate-20260305202121000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -7491,21 +8202,51 @@
       "channel": "release-1.5"
     },
     {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.6.0",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.6"
+    },
+    {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.20.1",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.20"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.20.2",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.20"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.20.3",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.20"
     },
     {
@@ -7524,24 +8265,48 @@
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.23.0",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.23"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.23.1",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.23"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.23.2",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.23"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.23.3",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.23"
     },
     {
@@ -7615,6 +8380,40 @@
       ],
       "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.32"
+    },
+    {
+      "package": "truenas-csi",
+      "name": "truenas-csi",
+      "version": "0.1.0",
+      "keywords": [
+        "storage",
+        "csi",
+        "truenas",
+        "nfs",
+        "iscsi",
+        "zfs",
+        "block",
+        "file"
+      ],
+      "description": "Deploys and manages the TrueNAS CSI driver for dynamic volume provisioning",
+      "channel": "stable"
+    },
+    {
+      "package": "truenas-csi",
+      "name": "truenas-csi",
+      "version": "1.0.0",
+      "keywords": [
+        "storage",
+        "csi",
+        "truenas",
+        "nfs",
+        "iscsi",
+        "zfs",
+        "block",
+        "file"
+      ],
+      "description": "Deploys and manages the TrueNAS CSI driver for dynamic volume provisioning",
+      "channel": "stable"
     },
     {
       "package": "tvo-operator",
@@ -7864,6 +8663,18 @@
       "channel": "stable"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.2",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "xspc-operator",
       "name": "xspc-operator",
       "version": "1.17.3",
@@ -7967,7 +8778,7 @@
       "channel": "lts"
     }
   ],
-  "count": 770,
+  "count": 826,
   "source": "opm",
-  "timestamp": "2026-02-27T21:47:09.014564"
+  "timestamp": "2026-03-09T19:08:51.102054"
 }

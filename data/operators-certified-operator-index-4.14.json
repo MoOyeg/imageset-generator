@@ -1297,6 +1297,24 @@
       "channel": "alpha"
     },
     {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.2",
+      "channel": "alpha"
+    },
+    {
       "package": "cloudera-streams-messaging-kubernetes-operator",
       "name": "cloudera-streams-messaging-kubernetes-operator",
       "version": "1.4.0-b199",
@@ -1581,7 +1599,7 @@
     {
       "package": "conjur-follower-operator",
       "name": "conjur-follower-operator",
-      "version": "2.7.1",
+      "version": "2.8.1",
       "channel": "preview"
     },
     {
@@ -2193,6 +2211,12 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "24.3.15",
+      "channel": "stable-v24.3"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "24.3.5",
       "channel": "stable-v24.3"
     },
@@ -2266,6 +2290,12 @@
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
       "version": "25.1.8",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "25.1.9",
       "channel": "stable-v25.1"
     },
     {
@@ -2343,6 +2373,12 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
+      "version": "24.3.15",
+      "channel": "stable-v24.3"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
       "version": "24.3.5",
       "channel": "stable-v24.3"
     },
@@ -2416,6 +2452,12 @@
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
       "version": "25.1.8",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "25.1.9",
       "channel": "stable-v25.1"
     },
     {
@@ -3465,7 +3507,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.23.3",
+      "version": "2.24.0",
       "channel": "beta"
     },
     {
@@ -3501,7 +3543,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.23.3",
+      "version": "2.24.0",
       "channel": "beta"
     },
     {
@@ -4741,6 +4783,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.4",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace",
       "name": "kubemq-operator-marketplace",
       "version": "1.8.5",
@@ -4767,8 +4815,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.0",
-      "channel": "stable"
+      "version": "8.19.10",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -5415,7 +5463,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.4",
+      "version": "0.0.5",
       "channel": "alpha"
     },
     {
@@ -5476,6 +5524,12 @@
       "package": "netscaler-operator",
       "name": "netscaler-operator",
       "version": "3.4.2",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.5.0",
       "channel": "stable"
     },
     {
@@ -6409,10 +6463,16 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.6.1",
+      "channel": "alpha"
+    },
+    {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.0",
-      "channel": "stable"
+      "version": "8.19.10",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -6646,6 +6706,12 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-11.0",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-13.0",
       "channel": "7.8.6"
     },
     {
@@ -6934,6 +7000,30 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.28.1",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.3",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.4",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.5",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.7",
       "channel": "stable-v1"
     },
     {
@@ -7549,6 +7639,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.6",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -7557,8 +7653,8 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.98.0",
-      "channel": "stable"
+      "version": "42.99.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
@@ -7570,12 +7666,12 @@
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
       "version": "1.4.3",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.3-candidate-20251022123244000",
+      "version": "1.4.4-candidate-20260305202121000",
       "channel": "candidate"
     },
     {
@@ -7931,6 +8027,12 @@
       "name": "tenant-operator",
       "version": "1.5.2",
       "channel": "release-1.5"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.6.0",
+      "channel": "release-1.6"
     },
     {
       "package": "tigera-operator",
@@ -8649,13 +8751,7 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
-      "version": "0.67.0",
-      "channel": "beta"
-    },
-    {
-      "package": "victoriametrics-operator",
-      "name": "victoriametrics-operator",
-      "version": "0.68.1",
+      "version": "0.68.2",
       "channel": "beta"
     },
     {
@@ -8755,7 +8851,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1459,
+  "count": 1475,
   "source": "opm",
-  "timestamp": "2026-02-27T20:41:22.248714"
+  "timestamp": "2026-03-09T18:53:44.420980"
 }

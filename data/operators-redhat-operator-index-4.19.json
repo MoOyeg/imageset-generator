@@ -1134,6 +1134,17 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -1335,6 +1346,17 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.3-opr-1+0.1767807057.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1",
       "keywords": [
         "activemqartemis",
         "operator"
@@ -2416,6 +2438,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "3.1.0-14",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.1.0-6",
       "keywords": [
         "kafka",
@@ -2870,6 +2909,26 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.1.0-10",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.1.0-4",
       "keywords": [
         "kafka",
@@ -2999,6 +3058,22 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.1.0-12",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.1.0-15",
       "keywords": [
         "kafka",
         "messaging",
@@ -4032,6 +4107,40 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1772612675",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.5"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1772612774",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.5-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1758684783",
       "keywords": [
         "ansible",
@@ -4322,6 +4431,40 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1768951413",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1772556720",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1772556740",
       "keywords": [
         "ansible",
         "automation",
@@ -5825,6 +5968,17 @@
       "package": "aws-efs-csi-driver-operator",
       "name": "aws-efs-csi-driver-operator",
       "version": "4.19.0-202602091011",
+      "keywords": [
+        "storage",
+        "efs"
+      ],
+      "description": "Install and configure AWS EFS CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.19.0-202602241916",
       "keywords": [
         "storage",
         "efs"
@@ -7651,6 +7805,17 @@
     {
       "package": "cephcsi-operator",
       "name": "cephcsi-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "cephcsi-operator",
+      "name": "cephcsi-operator",
       "version": "4.18.3-rhodf",
       "keywords": [
         "storage",
@@ -7762,6 +7927,17 @@
       "package": "cephcsi-operator",
       "name": "cephcsi-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "cephcsi-operator",
+      "name": "cephcsi-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "storage",
         "csi"
@@ -8673,6 +8849,19 @@
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.19.0-202602091011",
+      "keywords": [
+        "deschedule",
+        "scale",
+        "binpack",
+        "efficiency"
+      ],
+      "description": "An operator to manage the OpenShift ClusterResourceOverride Mutating Admission Webhook Server",
+      "channel": "stable"
+    },
+    {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.19.0-202602241916",
       "keywords": [
         "deschedule",
         "scale",
@@ -13999,6 +14188,18 @@
       "channel": "stable"
     },
     {
+      "package": "dpu-operator",
+      "name": "dpu-operator",
+      "version": "4.19.0-202602251047",
+      "keywords": [
+        "dpu",
+        "dpu-operator",
+        "ipu"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "eap",
       "name": "eap",
       "version": "2.2.0",
@@ -17411,6 +17612,17 @@
       "channel": "stable"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.19.0-202602241916",
+      "keywords": [
+        "storage",
+        "filestore"
+      ],
+      "description": "Install and configure GCP Filestore CSI driver.",
+      "channel": "stable"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.19.0-202505200051",
@@ -17594,6 +17806,16 @@
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.19.0-202602091011",
+      "keywords": [
+        "ingressnodefirewall"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "ingress-node-firewall",
+      "name": "ingress-node-firewall",
+      "version": "4.19.0-202602241916",
       "keywords": [
         "ingressnodefirewall"
       ],
@@ -18916,6 +19138,18 @@
       "channel": "stable"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.19.0-202602241916",
+      "keywords": [
+        "nmstate",
+        "networking",
+        "NetworkManager"
+      ],
+      "description": "Kubernetes NMState is a declaritive means of configuring NetworkManager.\\n",
+      "channel": "stable"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -19815,6 +20049,16 @@
       "channel": "4.19"
     },
     {
+      "package": "lifecycle-agent",
+      "name": "lifecycle-agent",
+      "version": "4.19.2",
+      "keywords": [
+        "upgrade"
+      ],
+      "description": "The Lifecycle Agent for OpenShift provides local lifecycle management services for Single Node Openshift (SNO) clusters.",
+      "channel": "4.19"
+    },
+    {
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
       "version": "1.0.8",
@@ -20102,6 +20346,17 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.19.0-202602091011",
+      "keywords": [
+        "storage",
+        "local storage"
+      ],
+      "description": "Configure and use local storage volumes.",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.19.0-202602241916",
       "keywords": [
         "storage",
         "local storage"
@@ -20736,6 +20991,26 @@
     {
       "package": "mcg-operator",
       "name": "mcg-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "noobaa",
+        "kubernetes",
+        "openshift",
+        "cloud",
+        "hybrid",
+        "multi",
+        "data",
+        "storage",
+        "s3",
+        "tiering",
+        "mirroring"
+      ],
+      "description": "NooBaa is an object data service for hybrid and multi cloud environments.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "noobaa",
@@ -20957,6 +21232,26 @@
       "package": "mcg-operator",
       "name": "mcg-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "noobaa",
+        "kubernetes",
+        "openshift",
+        "cloud",
+        "hybrid",
+        "multi",
+        "data",
+        "storage",
+        "s3",
+        "tiering",
+        "mirroring"
+      ],
+      "description": "NooBaa is an object data service for hybrid and multi cloud environments.",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "noobaa",
         "kubernetes",
@@ -21337,6 +21632,16 @@
       "package": "metallb-operator",
       "name": "metallb-operator",
       "version": "4.19.0-202602091011",
+      "keywords": [
+        "metallb-operator"
+      ],
+      "description": "An operator for deploying MetalLB on a kubernetes cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.19.0-202602251047",
       "keywords": [
         "metallb-operator"
       ],
@@ -23364,6 +23669,18 @@
       "channel": "stable"
     },
     {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.19.0-202602241916",
+      "keywords": [
+        "feature-discovery",
+        "feature-detection",
+        "node-labels"
+      ],
+      "description": "The Node Feature Discovery Operator manages the detection of hardware features and configuration in a Kubernetes cluster by labeling the nodes with hardware-specific information. The Node Feature Discovery (NFD) will label the host with node-specific attributes, like PCI cards, kernel, or OS version, and many more.\\n\\nNFD consists  of the following software components:\\n\\nThe NFD Operator is based on the Operator Framework an open source toolkit to manage Kubernetes native applications, called Operators, in an effective, automated, and scalable way.\\n\\n##NFD-Master\\nNFD-Master is the daemon responsible for communication towards the Kubernetes API. That is, it receives labeling requests from the worker and modifies node objects accordingly.\\n\\n##NFD-Worker\\nNFD-Worker is a daemon responsible for feature detection. It then communicates the information to nfd-master which does the actual node labeling. One instance of nfd-worker is supposed to be running on each node of the cluster.\\n\\n##NFD-Topology-Updater\\nNFD-Topology-Updater is a daemon responsible for examining allocated resources on a worker node to account for resources available to be allocated to new pod on a per-zone basis (where a zone can be a NUMA node). It then communicates the information to nfd-master which does the NodeResourceTopology CR creation corresponding to all the nodes in the cluster. One instance of nfd-topology-updater is supposed to be running on each node of the cluster.",
+      "channel": "stable"
+    },
+    {
       "package": "node-healthcheck-operator",
       "name": "node-healthcheck-operator",
       "version": "0.10.0",
@@ -23761,6 +24078,18 @@
     {
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation client operator enables consumption of storage services from a remote centralized OpenShift Data Foundation provider cluster.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "operator",
@@ -23894,6 +24223,18 @@
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation client operator enables consumption of storage services from a remote centralized OpenShift Data Foundation provider cluster.",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "operator",
         "data",
@@ -24136,6 +24477,21 @@
     {
       "package": "ocs-operator",
       "name": "ocs-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "storage",
+        "rook",
+        "ceph",
+        "block storage",
+        "shared filesystem",
+        "object storage"
+      ],
+      "description": "Red Hat OpenShift Container Storage provides hyperconverged storage for applications within an OpenShift cluster.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "storage",
@@ -24302,6 +24658,21 @@
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "storage",
+        "rook",
+        "ceph",
+        "block storage",
+        "shared filesystem",
+        "object storage"
+      ],
+      "description": "Red Hat OpenShift Container Storage provides hyperconverged storage for applications within an OpenShift cluster.",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "storage",
         "rook",
@@ -24535,6 +24906,17 @@
     {
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "storage",
@@ -24657,6 +25039,17 @@
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "storage",
         "csi"
@@ -24881,6 +25274,20 @@
     {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "odf",
+        "multicluster",
+        "orchestrator",
+        "storage",
+        "acm"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "odf",
@@ -25036,6 +25443,20 @@
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "odf",
+        "multicluster",
+        "orchestrator",
+        "storage",
+        "acm"
+      ],
+      "description": "",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "odf",
         "multicluster",
@@ -25269,6 +25690,18 @@
     {
       "package": "odf-operator",
       "name": "odf-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation provides a common control plane for storage solutions on OpenShift Container Platform.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "operator",
@@ -25402,6 +25835,18 @@
       "package": "odf-operator",
       "name": "odf-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation provides a common control plane for storage solutions on OpenShift Container Platform.",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "operator",
         "data",
@@ -25635,6 +26080,20 @@
     {
       "package": "odf-prometheus-operator",
       "name": "odf-prometheus-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "prometheus",
+        "monitoring",
+        "tsdb",
+        "alerting",
+        "observability"
+      ],
+      "description": "Manage the full lifecycle of configuring and managing Prometheus and Alertmanager servers.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odf-prometheus-operator",
+      "name": "odf-prometheus-operator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "prometheus",
@@ -25790,6 +26249,20 @@
       "package": "odf-prometheus-operator",
       "name": "odf-prometheus-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "prometheus",
+        "monitoring",
+        "tsdb",
+        "alerting",
+        "observability"
+      ],
+      "description": "Manage the full lifecycle of configuring and managing Prometheus and Alertmanager servers.",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "odf-prometheus-operator",
+      "name": "odf-prometheus-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "prometheus",
         "monitoring",
@@ -26023,6 +26496,18 @@
     {
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "Storage",
@@ -26156,6 +26641,18 @@
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "Storage",
         "Integration & Delivery",
@@ -26371,6 +26868,18 @@
     {
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
       "version": "4.18.2-rhodf",
       "keywords": [
         "Storage",
@@ -26504,6 +27013,18 @@
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "Storage",
         "Integration & Delivery",
@@ -27693,6 +28214,18 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.17.5",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.17"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.18.0",
       "keywords": [
         "devtools",
@@ -27741,6 +28274,18 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.18.4",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.18"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.19.0",
       "keywords": [
         "devtools",
@@ -27754,6 +28299,18 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.19.1",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.19.2",
       "keywords": [
         "devtools",
         "gitops",
@@ -28125,6 +28682,32 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.14.1",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.14.2",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.14.3",
       "keywords": [
         "tektoncd",
@@ -28133,7 +28716,7 @@
         "pipeline"
       ],
       "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "pipelines-1.14"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -28146,7 +28729,7 @@
         "pipeline"
       ],
       "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "pipelines-1.14"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -28159,7 +28742,20 @@
         "pipeline"
       ],
       "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "pipelines-1.14"
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.14.6",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -28185,7 +28781,7 @@
         "pipeline"
       ],
       "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "pipelines-1.15"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -28198,7 +28794,33 @@
         "pipeline"
       ],
       "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "pipelines-1.15"
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.15.3",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.15.4",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -28224,7 +28846,7 @@
         "pipeline"
       ],
       "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "pipelines-1.16"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -28237,7 +28859,7 @@
         "pipeline"
       ],
       "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "pipelines-1.16"
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -28250,7 +28872,20 @@
         "pipeline"
       ],
       "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "pipelines-1.16"
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.16.4",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
     },
     {
       "package": "openshift-pipelines-operator-rh",
@@ -28269,6 +28904,19 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.17.1",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.17.2",
       "keywords": [
         "tektoncd",
         "openshift",
@@ -28399,6 +29047,19 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.20.2",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.20.3",
       "keywords": [
         "tektoncd",
         "openshift",
@@ -29178,6 +29839,18 @@
       "channel": "stable"
     },
     {
+      "package": "pf-status-relay-operator",
+      "name": "pf-status-relay-operator",
+      "version": "4.19.0-202602241916",
+      "keywords": [
+        "pf-status-relay",
+        "sriov",
+        "lacp"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "policy-controller-operator",
       "name": "policy-controller-operator",
       "version": "0.0.1-techpreview",
@@ -29464,6 +30137,16 @@
       "package": "ptp-operator",
       "name": "ptp-operator",
       "version": "4.19.0-202602091011",
+      "keywords": [
+        "ptp"
+      ],
+      "description": "This software enables configuration of Precision Time Protocol(PTP) on Kubernetes. It detects hardware capable PTP devices on each node, and configures linuxptp processes such as ptp4l, phc2sys and timemaster.",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.19.0-202602241916",
       "keywords": [
         "ptp"
       ],
@@ -32659,6 +33342,16 @@
     {
       "package": "recipe",
       "name": "recipe",
+      "version": "4.18.17-rhodf",
+      "keywords": [
+        "recipe"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "recipe",
+      "name": "recipe",
       "version": "4.18.2-rhodf",
       "keywords": [
         "recipe"
@@ -32770,6 +33463,16 @@
       "package": "recipe",
       "name": "recipe",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "recipe"
+      ],
+      "description": "",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "recipe",
+      "name": "recipe",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "recipe"
       ],
@@ -35428,6 +36131,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.0",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.2.0",
       "keywords": [
         "advanced-cluster-security",
@@ -35444,7 +36168,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35465,7 +36189,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35486,7 +36210,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35507,7 +36231,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35528,7 +36252,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35549,7 +36273,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.2"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35570,7 +36294,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35591,7 +36315,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35612,7 +36336,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35633,7 +36357,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35654,7 +36378,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35675,7 +36399,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35696,7 +36420,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35717,7 +36441,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35738,7 +36462,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.3"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35759,7 +36483,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35780,7 +36504,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35801,7 +36525,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35822,7 +36546,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35843,7 +36567,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35864,7 +36588,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35885,7 +36609,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35906,7 +36630,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35927,7 +36651,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.4"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35948,7 +36672,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35969,7 +36693,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -35990,7 +36714,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36011,7 +36735,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36032,7 +36756,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36053,7 +36777,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36074,7 +36798,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36095,7 +36819,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36116,7 +36840,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36137,7 +36861,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.5"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36158,7 +36882,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36179,7 +36903,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36200,7 +36924,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36221,7 +36945,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36242,7 +36966,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36263,7 +36987,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36284,7 +37008,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36305,7 +37029,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36326,7 +37050,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36347,7 +37071,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36368,7 +37092,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.6"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36389,7 +37113,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36410,7 +37134,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36431,7 +37155,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36452,7 +37176,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36473,7 +37197,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36494,7 +37218,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36515,7 +37239,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36536,7 +37260,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36557,7 +37281,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36578,7 +37302,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.7"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36599,7 +37323,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36620,7 +37344,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36641,7 +37365,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36662,7 +37386,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36683,7 +37407,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36704,7 +37428,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36725,7 +37449,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36746,7 +37470,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36767,7 +37491,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.8"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36788,7 +37512,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.9"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36809,7 +37533,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.9"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36830,7 +37554,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.9"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhacs-operator",
@@ -36851,7 +37575,7 @@
         "risk"
       ],
       "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
-      "channel": "rhacs-4.9"
+      "channel": "rhacs-4.10"
     },
     {
       "package": "rhbk-operator",
@@ -37288,6 +38012,18 @@
     {
       "package": "rhbk-operator",
       "name": "rhbk-operator",
+      "version": "26.2.14-opr.1",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
       "version": "26.2.4-opr.1",
       "keywords": [
         "Keycloak",
@@ -37361,6 +38097,18 @@
       "package": "rhbk-operator",
       "name": "rhbk-operator",
       "version": "26.2.9-opr.1",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.4.10-opr.1",
       "keywords": [
         "Keycloak",
         "Identity",
@@ -37928,6 +38676,17 @@
       "package": "rhdh",
       "name": "rhdh",
       "version": "1.8.4",
+      "keywords": [
+        "Backstage",
+        "RHDH"
+      ],
+      "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins and configuration settings, supports use of an external database, and can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
+      "channel": "fast"
+    },
+    {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.9.0",
       "keywords": [
         "Backstage",
         "RHDH"
@@ -39219,6 +39978,43 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
+      "version": "2.25.3",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
       "version": "2.4.0",
       "keywords": [
         "Operator",
@@ -39452,6 +40248,44 @@
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "3.2.0",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack",
+        "mlflow"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "fast-3.x"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
+      "version": "3.3.0",
       "keywords": [
         "Operator",
         "OpenShift",
@@ -40692,6 +41526,17 @@
       "channel": "stable-v1.1"
     },
     {
+      "package": "rhtpa-operator",
+      "name": "rhtpa-operator",
+      "version": "1.1.2",
+      "keywords": [
+        "rhtpa",
+        "trusted-profile-analyzer"
+      ],
+      "description": "",
+      "channel": "stable-v1.1"
+    },
+    {
       "package": "rook-ceph-operator",
       "name": "rook-ceph-operator",
       "version": "4.18.0-rhodf",
@@ -40823,6 +41668,22 @@
       "package": "rook-ceph-operator",
       "name": "rook-ceph-operator",
       "version": "4.18.16-rhodf",
+      "keywords": [
+        "rook",
+        "ceph",
+        "storage",
+        "object storage",
+        "open source",
+        "block storage",
+        "shared filesystem"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "rook-ceph-operator",
+      "name": "rook-ceph-operator",
+      "version": "4.18.17-rhodf",
       "keywords": [
         "rook",
         "ceph",
@@ -41015,6 +41876,22 @@
       "package": "rook-ceph-operator",
       "name": "rook-ceph-operator",
       "version": "4.19.11-rhodf",
+      "keywords": [
+        "rook",
+        "ceph",
+        "storage",
+        "object storage",
+        "open source",
+        "block storage",
+        "shared filesystem"
+      ],
+      "description": "",
+      "channel": "stable-4.19"
+    },
+    {
+      "package": "rook-ceph-operator",
+      "name": "rook-ceph-operator",
+      "version": "4.19.12-rhodf",
       "keywords": [
         "rook",
         "ceph",
@@ -41694,6 +42571,16 @@
       "package": "secrets-store-csi-driver-operator",
       "name": "secrets-store-csi-driver-operator",
       "version": "4.19.0-202602091011",
+      "keywords": [
+        "storage"
+      ],
+      "description": "Install and configure Secrets Store CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.19.0-202602241916",
       "keywords": [
         "storage"
       ],
@@ -43846,6 +44733,18 @@
     {
       "package": "servicemeshoperator",
       "name": "servicemeshoperator",
+      "version": "2.6.14-0",
+      "keywords": [
+        "istio",
+        "maistra",
+        "servicemesh"
+      ],
+      "description": "The OpenShift Service Mesh 2 Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh 2.6 and earlier releases. OpenShift Service Mesh 2 is based on the open source Istio project.",
+      "channel": "1.0"
+    },
+    {
+      "package": "servicemeshoperator",
+      "name": "servicemeshoperator",
       "version": "2.6.2-0",
       "keywords": [
         "istio",
@@ -44995,6 +45894,18 @@
       "channel": "stable"
     },
     {
+      "package": "smb-csi-driver-operator",
+      "name": "smb-csi-driver-operator",
+      "version": "4.19.0-202602241916",
+      "keywords": [
+        "storage",
+        "smb",
+        "cifs"
+      ],
+      "description": "Install and configure CIFS/SMB CSI driver.",
+      "channel": "stable"
+    },
+    {
       "package": "sriov-network-operator",
       "name": "sriov-network-operator",
       "version": "4.19.0-202506041351",
@@ -45238,6 +46149,18 @@
       "package": "sriov-network-operator",
       "name": "sriov-network-operator",
       "version": "4.19.0-202602091011",
+      "keywords": [
+        "network",
+        "sr-iov",
+        "sriov"
+      ],
+      "description": "An operator for configuring SR-IOV components and initializing SRIOV network devices in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.19.0-202602241916",
       "keywords": [
         "network",
         "sr-iov",
@@ -46024,6 +46947,19 @@
       "channel": "stable"
     },
     {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.19.0-202602241916",
+      "keywords": [
+        "verticalpodautoscaler",
+        "vpa",
+        "autoscaling",
+        "scaling"
+      ],
+      "description": "An operator to run the OpenShift Vertical Pod Autoscaler. Vertical Pod Autoscaler (VPA) can be configured to monitor a workload's resource utilization, and then adjust its CPU and memory limits by updating the pod (future) or restarting the pod with updated limits.",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.12.0",
@@ -46147,6 +47083,21 @@
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.14.1",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.15.0",
       "keywords": [
         "backup",
         "csi",
@@ -46697,7 +47648,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3343,
+  "count": 3412,
   "source": "opm",
-  "timestamp": "2026-02-27T20:52:20.835188"
+  "timestamp": "2026-03-09T19:05:30.325550"
 }

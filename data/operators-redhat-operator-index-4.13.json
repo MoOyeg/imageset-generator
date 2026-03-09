@@ -871,6 +871,12 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -982,6 +988,12 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.3-opr-1+0.1767807057.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1",
       "channel": "7.13.x"
     },
     {
@@ -1365,6 +1377,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "3.1.0-14",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.1.0-6",
       "channel": "amq-streams-3.1.x"
     },
@@ -1503,6 +1521,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.1.0-10",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.1.0-4",
       "channel": "amq-streams-3.1.x"
     },
@@ -1552,6 +1576,12 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.1.0-12",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.1.0-15",
       "channel": "amq-streams-3.1.x"
     },
     {
@@ -2992,6 +3022,12 @@
       "package": "aws-efs-csi-driver-operator",
       "name": "aws-efs-csi-driver-operator",
       "version": "4.13.0-202601131310",
+      "channel": "stable"
+    },
+    {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.13.0-202602231306",
       "channel": "stable"
     },
     {
@@ -4600,6 +4636,12 @@
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.13.0-202601131310",
+      "channel": "stable"
+    },
+    {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.13.0-202602231306",
       "channel": "stable"
     },
     {
@@ -7531,6 +7573,12 @@
       "channel": "4.16-eus"
     },
     {
+      "package": "fence-agents-remediation",
+      "name": "fence-agents-remediation",
+      "version": "0.6.0",
+      "channel": "ITN-2026-00040-stable"
+    },
+    {
       "package": "file-integrity-operator",
       "name": "file-integrity-operator",
       "version": "0.1.13",
@@ -8899,6 +8947,12 @@
       "channel": "preview"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.13.0-202602231306",
+      "channel": "preview"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.13.0-202304190216",
@@ -9694,6 +9748,12 @@
       "package": "kubernetes-nmstate-operator",
       "name": "kubernetes-nmstate-operator",
       "version": "4.13.0-202601131310",
+      "channel": "4.13"
+    },
+    {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.13.0-202602231306",
       "channel": "4.13"
     },
     {
@@ -10729,6 +10789,12 @@
       "channel": "4.16-eus"
     },
     {
+      "package": "machine-deletion-remediation",
+      "name": "machine-deletion-remediation",
+      "version": "0.5.0",
+      "channel": "ITN-2026-00040-stable"
+    },
+    {
       "package": "marin3r-operator",
       "name": "marin3r-operator",
       "version": "0.13.0",
@@ -11182,6 +11248,12 @@
       "package": "metallb-operator",
       "name": "metallb-operator",
       "version": "4.13.0-202601131310",
+      "channel": "stable"
+    },
+    {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.13.0-202602231306",
       "channel": "stable"
     },
     {
@@ -12379,6 +12451,18 @@
       "channel": "stable"
     },
     {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.13.0-202602231306",
+      "channel": "stable"
+    },
+    {
+      "package": "node-healthcheck-operator",
+      "name": "node-healthcheck-operator",
+      "version": "0.10.1",
+      "channel": "ITN-2026-00040-stable"
+    },
+    {
       "package": "node-healthcheck-operator",
       "name": "node-healthcheck-operator",
       "version": "0.3.1",
@@ -12437,6 +12521,12 @@
       "name": "node-maintenance-operator",
       "version": "5.3.1",
       "channel": "4.16-eus"
+    },
+    {
+      "package": "node-maintenance-operator",
+      "name": "node-maintenance-operator",
+      "version": "5.5.0",
+      "channel": "ITN-2026-00040-stable"
     },
     {
       "package": "node-observability-operator",
@@ -14109,6 +14199,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.17.5",
+      "channel": "gitops-1.17"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.18.0",
       "channel": "gitops-1.18"
     },
@@ -14133,6 +14229,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.18.4",
+      "channel": "gitops-1.18"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.19.0",
       "channel": "gitops-1.19"
     },
@@ -14140,6 +14242,12 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.19.1",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.19.2",
       "channel": "gitops-1.19"
     },
     {
@@ -14830,6 +14938,12 @@
       "package": "ptp-operator",
       "name": "ptp-operator",
       "version": "4.13.0-202601131310",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.13.0-202602231306",
       "channel": "stable"
     },
     {
@@ -19107,6 +19221,12 @@
     {
       "package": "self-node-remediation",
       "name": "self-node-remediation",
+      "version": "0.11.0",
+      "channel": "ITN-2026-00040-stable"
+    },
+    {
+      "package": "self-node-remediation",
+      "name": "self-node-remediation",
       "version": "0.5.1",
       "channel": "4.12-eus"
     },
@@ -19258,6 +19378,42 @@
       "package": "serverless-operator",
       "name": "serverless-operator",
       "version": "1.34.1",
+      "channel": "stable-1.34"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.35.0",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.35.1",
+      "channel": "stable-1.35"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.36.0",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.36.1",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.37.0",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.37.1",
       "channel": "stable"
     },
     {
@@ -20359,6 +20515,12 @@
       "channel": "4.13"
     },
     {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.13.0-202602231306",
+      "channel": "4.13"
+    },
+    {
       "package": "submariner",
       "name": "submariner",
       "version": "0.14.6",
@@ -20626,6 +20788,78 @@
       "package": "tempo-product",
       "name": "tempo-product",
       "version": "0.13.0-1+0.1730817419.p",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.14.1-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.14.1-2",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.15.3-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.15.4-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.16.0-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.16.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.18.0-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.18.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.19.0-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.19.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.19.0-3",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.20.0-1",
       "channel": "stable"
     },
     {
@@ -20902,6 +21136,12 @@
       "package": "vertical-pod-autoscaler",
       "name": "vertical-pod-autoscaler",
       "version": "4.13.0-202601131310",
+      "channel": "stable"
+    },
+    {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.13.0-202602231306",
       "channel": "stable"
     },
     {
@@ -21301,7 +21541,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3550,
+  "count": 3590,
   "source": "opm",
-  "timestamp": "2026-02-27T20:37:46.241964"
+  "timestamp": "2026-03-09T18:50:07.175294"
 }

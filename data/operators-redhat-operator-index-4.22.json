@@ -936,6 +936,17 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -1137,6 +1148,17 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.3-opr-1+0.1767807057.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1",
       "keywords": [
         "activemqartemis",
         "operator"
@@ -2218,6 +2240,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "3.1.0-14",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.1.0-6",
       "keywords": [
         "kafka",
@@ -2672,6 +2711,26 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.1.0-10",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.1.0-4",
       "keywords": [
         "kafka",
@@ -2801,6 +2860,22 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.1.0-12",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.1.0-15",
       "keywords": [
         "kafka",
         "messaging",
@@ -20838,6 +20913,18 @@
     {
       "package": "servicemeshoperator",
       "name": "servicemeshoperator",
+      "version": "2.6.14-0",
+      "keywords": [
+        "istio",
+        "maistra",
+        "servicemesh"
+      ],
+      "description": "The OpenShift Service Mesh 2 Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh 2.6 and earlier releases. OpenShift Service Mesh 2 is based on the open source Istio project.",
+      "channel": "1.0"
+    },
+    {
+      "package": "servicemeshoperator",
+      "name": "servicemeshoperator",
       "version": "2.6.2-0",
       "keywords": [
         "istio",
@@ -21791,6 +21878,21 @@
       "channel": "stable"
     },
     {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.15.0",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "web-terminal",
       "name": "web-terminal",
       "version": "1.10.0",
@@ -22295,7 +22397,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1592,
+  "count": 1599,
   "source": "opm",
-  "timestamp": "2026-02-27T20:56:31.790402"
+  "timestamp": "2026-03-09T19:09:59.730392"
 }

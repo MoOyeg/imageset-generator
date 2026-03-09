@@ -1987,6 +1987,20 @@
       "channel": "stable"
     },
     {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.22.0",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
       "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
       "version": "4.21.0-0",
@@ -2182,7 +2196,7 @@
       "channel": "lts"
     }
   ],
-  "count": 178,
+  "count": 179,
   "source": "opm",
-  "timestamp": "2026-02-27T20:56:10.257447"
+  "timestamp": "2026-03-09T19:09:39.354241"
 }

@@ -509,6 +509,29 @@
       "channel": "4.8"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.5",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -1955,6 +1978,42 @@
       "channel": "fast"
     },
     {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.0",
+      "keywords": [
+        "backup",
+        "storage",
+        "cloudcasa"
+      ],
+      "description": "CloudCasa is a powerful and easy-to-use data protection service for Kubernetes and cloud databases.",
+      "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.1",
+      "keywords": [
+        "backup",
+        "storage",
+        "cloudcasa"
+      ],
+      "description": "CloudCasa is a powerful and easy-to-use data protection service for Kubernetes and cloud databases.",
+      "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.0.2",
+      "keywords": [
+        "backup",
+        "storage",
+        "cloudcasa"
+      ],
+      "description": "CloudCasa is a powerful and easy-to-use data protection service for Kubernetes and cloud databases.",
+      "channel": "alpha"
+    },
+    {
       "package": "cloudera-streams-messaging-kubernetes-operator",
       "name": "cloudera-streams-messaging-kubernetes-operator",
       "version": "1.4.0-b199",
@@ -2483,7 +2542,7 @@
     {
       "package": "conjur-follower-operator",
       "name": "conjur-follower-operator",
-      "version": "2.7.1",
+      "version": "2.8.1",
       "keywords": [
         "credential",
         "cyber",
@@ -5273,7 +5332,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.23.3",
+      "version": "2.24.0",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -5284,7 +5343,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.23.3",
+      "version": "2.24.0",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -7086,6 +7145,40 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.4",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.4 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.5",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.5 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace",
       "name": "kubemq-operator-marketplace",
       "version": "1.7.8",
@@ -7297,6 +7390,21 @@
       "package": "mariadb-enterprise-operator",
       "name": "mariadb-enterprise-operator",
       "version": "25.8.1-1",
+      "keywords": [
+        "mariadb",
+        "mysql",
+        "database",
+        "operator",
+        "mariadb-enterprise-operator",
+        "database"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "26.3.0",
       "keywords": [
         "mariadb",
         "mysql",
@@ -7878,7 +7986,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.4",
+      "version": "0.0.5",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -8039,6 +8147,26 @@
       "package": "netscaler-operator",
       "name": "netscaler-operator",
       "version": "3.4.2",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.5.0",
       "keywords": [
         "GatewayAPI",
         "Gateway",
@@ -8802,6 +8930,20 @@
       "package": "percona-server-mongodb-operator-certified",
       "name": "percona-server-mongodb-operator-certified",
       "version": "1.21.2",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified",
+      "name": "percona-server-mongodb-operator-certified",
+      "version": "1.22.0",
       "keywords": [
         "mongodb",
         "percona",
@@ -9626,6 +9768,20 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "25.6.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -10414,6 +10570,58 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.3",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.4",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.5",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.7",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
       "package": "scylladb-operator",
       "name": "scylladb-operator",
       "version": "1.20.0-alpha.10",
@@ -11136,6 +11344,22 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.6",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -11169,12 +11393,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.3-candidate-20251022123244000",
+      "version": "1.4.4-candidate-20260305202121000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -11272,21 +11496,51 @@
       "channel": "release-1.5"
     },
     {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.6.0",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.6"
+    },
+    {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.20.1",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.20"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.20.2",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.20"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.20.3",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.20"
     },
     {
@@ -11305,24 +11559,48 @@
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.23.0",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.23"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.23.1",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.23"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.23.2",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.23"
     },
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.23.3",
+      "keywords": [
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
       "channel": "release-v1.23"
     },
     {
@@ -11987,19 +12265,7 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
-      "version": "0.67.0",
-      "keywords": [
-        "monitoring",
-        "prometheus",
-        "victoriametrics"
-      ],
-      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
-      "channel": "beta"
-    },
-    {
-      "package": "victoriametrics-operator",
-      "name": "victoriametrics-operator",
-      "version": "0.68.1",
+      "version": "0.68.2",
       "keywords": [
         "monitoring",
         "prometheus",
@@ -12138,7 +12404,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1101,
+  "count": 1116,
   "source": "opm",
-  "timestamp": "2026-02-27T20:52:40.755501"
+  "timestamp": "2026-03-09T19:05:52.131734"
 }

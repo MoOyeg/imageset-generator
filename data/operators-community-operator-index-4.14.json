@@ -2167,6 +2167,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-documentdb-controller",
+      "name": "ack-documentdb-controller",
+      "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "0.0.10",
@@ -2734,6 +2740,12 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.1.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.10.0",
       "channel": "alpha"
     },
     {
@@ -3982,6 +3994,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.11.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.11.3",
       "channel": "alpha"
     },
     {
@@ -9829,6 +9847,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-sagemaker-controller",
+      "name": "ack-sagemaker-controller",
+      "version": "1.7.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "0.0.1",
@@ -11302,6 +11326,24 @@
       "package": "alloydb-omni-operator",
       "name": "alloydb-omni-operator",
       "version": "1.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.6.2",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.6.3",
       "channel": "stable"
     },
     {
@@ -13309,6 +13351,12 @@
       "channel": "alpha"
     },
     {
+      "package": "clickhouse",
+      "name": "clickhouse",
+      "version": "0.26.0",
+      "channel": "latest"
+    },
+    {
       "package": "cluster-aas-operator",
       "name": "cluster-aas-operator",
       "version": "0.0.1",
@@ -14704,6 +14752,12 @@
       "package": "eclipse-che",
       "name": "eclipse-che",
       "version": "7.114.0",
+      "channel": "stable"
+    },
+    {
+      "package": "eclipse-che",
+      "name": "eclipse-che",
+      "version": "7.115.0",
       "channel": "stable"
     },
     {
@@ -17389,6 +17443,12 @@
       "channel": "v5"
     },
     {
+      "package": "grafana-operator",
+      "name": "grafana-operator",
+      "version": "5.22.0",
+      "channel": "v5"
+    },
+    {
       "package": "group-sync-operator",
       "name": "group-sync-operator",
       "version": "0.0.13",
@@ -18045,6 +18105,12 @@
     {
       "package": "hive-operator",
       "name": "hive-operator",
+      "version": "1.2.5143-a5d0850",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
       "version": "2.3.3039-60b8a9a",
       "channel": "ocm-2.3"
     },
@@ -18496,6 +18562,18 @@
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.5.1",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.2",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.3",
       "channel": "stable"
     },
     {
@@ -19723,6 +19801,18 @@
       "channel": "fast"
     },
     {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.5.4",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.5.5",
+      "channel": "fast"
+    },
+    {
       "package": "keycloak-permissions-operator",
       "name": "keycloak-permissions-operator",
       "version": "1.2.0",
@@ -20643,6 +20733,12 @@
     {
       "package": "konveyor-operator",
       "name": "konveyor-operator",
+      "version": "0.9.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
       "version": "0.9.0-alpha.1",
       "channel": "alpha"
     },
@@ -20680,6 +20776,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.9.0-rc.3",
+      "channel": "rc"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.9.0-rc.5",
       "channel": "rc"
     },
     {
@@ -22903,12 +23005,6 @@
       "channel": "alpha"
     },
     {
-      "package": "ocm-operator",
-      "name": "ocm-operator",
-      "version": "0.1.0",
-      "channel": "alpha"
-    },
-    {
       "package": "odf-node-recovery-operator",
       "name": "odf-node-recovery-operator",
       "version": "1.0.0",
@@ -24801,6 +24897,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.10.18",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.10.2",
       "channel": "stable-3.10"
     },
@@ -26145,54 +26247,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-13",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-16",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-17",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-18",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-19",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-20",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-21",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-22",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-02-24",
       "channel": "1.29-nightly"
     },
@@ -26212,6 +26266,66 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0-nightly-2026-02-27",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-02-28",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-01",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-02",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-03",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-04",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-05",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-06",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-07",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-08",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-09",
       "channel": "1.29-nightly"
     },
     {
@@ -27163,6 +27277,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-community",
+      "name": "stackgres-community",
+      "version": "1.18.6",
+      "channel": "candidate"
+    },
+    {
       "package": "stolostron",
       "name": "stolostron",
       "version": "0.2.1",
@@ -27508,6 +27628,18 @@
       "package": "strimzi-kafka-operator",
       "name": "strimzi-kafka-operator",
       "version": "0.50.0",
+      "channel": "stable"
+    },
+    {
+      "package": "strimzi-kafka-operator",
+      "name": "strimzi-kafka-operator",
+      "version": "0.50.1",
+      "channel": "stable"
+    },
+    {
+      "package": "strimzi-kafka-operator",
+      "name": "strimzi-kafka-operator",
+      "version": "0.51.0",
       "channel": "stable"
     },
     {
@@ -28885,6 +29017,12 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.2",
+      "channel": "beta"
+    },
+    {
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "0.0.1",
@@ -29257,7 +29395,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4876,
+  "count": 4899,
   "source": "opm",
-  "timestamp": "2026-02-27T20:42:03.604950"
+  "timestamp": "2026-03-09T18:54:28.011140"
 }

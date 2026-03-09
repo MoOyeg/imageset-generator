@@ -2272,6 +2272,12 @@
       "package": "ack-documentdb-controller",
       "name": "ack-documentdb-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-documentdb-controller",
+      "name": "ack-documentdb-controller",
+      "version": "1.3.0",
       "keywords": [
         "documentdb",
         "aws",
@@ -2861,6 +2867,19 @@
     {
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "ec2",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS EC2 controller is a service controller for managing EC2 resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -3162,13 +3181,6 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.9.2",
-      "keywords": [
-        "ec2",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS EC2 controller is a service controller for managing EC2 resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -4079,6 +4091,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.11.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.11.3",
       "keywords": [
         "eks",
         "aws",
@@ -10083,6 +10101,12 @@
       "package": "ack-sagemaker-controller",
       "name": "ack-sagemaker-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sagemaker-controller",
+      "name": "ack-sagemaker-controller",
+      "version": "1.7.2",
       "keywords": [
         "sagemaker",
         "aws",
@@ -11689,6 +11713,57 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.6.1",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.6.2",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.6.3",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "alvearie-imaging-ingestion",
       "name": "alvearie-imaging-ingestion",
       "version": "0.0.1",
@@ -13016,6 +13091,16 @@
       "channel": "Fast"
     },
     {
+      "package": "aws-neuron-operator",
+      "name": "aws-neuron-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "aws-neuron-operator"
+      ],
+      "description": "",
+      "channel": "Fast"
+    },
+    {
       "package": "awss3-operator-registry",
       "name": "awss3-operator-registry",
       "version": "1.0.1",
@@ -14027,6 +14112,21 @@
       "name": "cert-utils-operator",
       "version": "1.3.9",
       "channel": "alpha"
+    },
+    {
+      "package": "clickhouse",
+      "name": "clickhouse",
+      "version": "0.26.0",
+      "keywords": [
+        "clickhouse",
+        "database",
+        "oltp",
+        "timeseries",
+        "time series",
+        "altinity"
+      ],
+      "description": "The Altinity\u00ae Kubernetes Operator for ClickHouse\u00ae manages the full lifecycle of ClickHouse clusters.",
+      "channel": "latest"
     },
     {
       "package": "cluster-aas-operator",
@@ -15844,6 +15944,12 @@
       "package": "eclipse-che",
       "name": "eclipse-che",
       "version": "7.114.0",
+      "channel": "stable"
+    },
+    {
+      "package": "eclipse-che",
+      "name": "eclipse-che",
+      "version": "7.115.0",
       "keywords": [
         "eclipse che",
         "workspaces",
@@ -16243,13 +16349,19 @@
         "redhat"
       ],
       "description": "",
-      "channel": "v0.3"
+      "channel": "alpha"
     },
     {
       "package": "ecr-secret-operator",
       "name": "ecr-secret-operator",
       "version": "0.4.0",
-      "channel": "v0.4"
+      "keywords": [
+        "ecr",
+        "aws",
+        "redhat"
+      ],
+      "description": "",
+      "channel": "alpha"
     },
     {
       "package": "ecr-secret-operator",
@@ -16261,7 +16373,19 @@
         "redhat"
       ],
       "description": "",
-      "channel": "v0.4"
+      "channel": "alpha"
+    },
+    {
+      "package": "ecr-secret-operator",
+      "name": "ecr-secret-operator",
+      "version": "0.5.0",
+      "keywords": [
+        "ecr",
+        "aws",
+        "redhat"
+      ],
+      "description": "Automatically refreshes AWS ECR authentication tokens as Kubernetes image pull secrets before they expire.",
+      "channel": "alpha"
     },
     {
       "package": "edp-keycloak-operator",
@@ -17512,6 +17636,12 @@
       "package": "fqdn-egress-operator",
       "name": "fqdn-egress-operator",
       "version": "1.0.4",
+      "channel": "stable"
+    },
+    {
+      "package": "fqdn-egress-operator",
+      "name": "fqdn-egress-operator",
+      "version": "1.0.5",
       "keywords": [
         "operator",
         "network",
@@ -17980,6 +18110,12 @@
       "package": "grafana-operator",
       "name": "grafana-operator",
       "version": "5.21.2",
+      "channel": "v5"
+    },
+    {
+      "package": "grafana-operator",
+      "name": "grafana-operator",
+      "version": "5.22.0",
       "keywords": [
         "Grafana",
         "Metrics",
@@ -19217,6 +19353,19 @@
     {
       "package": "hive-operator",
       "name": "hive-operator",
+      "version": "1.2.5143-a5d0850",
+      "keywords": [
+        "kubernetes",
+        "openshift",
+        "multi-cluster",
+        "cluster"
+      ],
+      "description": "OpenShift cluster provisioning and management at scale.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
       "version": "2.3.3039-60b8a9a",
       "keywords": [
         "kubernetes",
@@ -19878,6 +20027,26 @@
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.5.1",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.2",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.3",
       "keywords": [
         "infinispan",
         "key value",
@@ -21157,6 +21326,18 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.5.3",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.5.4",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.5.5",
       "keywords": [
         "Keycloak",
         "Identity",
@@ -22411,6 +22592,19 @@
     {
       "package": "konveyor-operator",
       "name": "konveyor-operator",
+      "version": "0.9.0",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Konveyor is an open-source application modernization platform that helps organizations safely and predictably modernize applications to Kubernetes at scale.",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
       "version": "0.9.0-alpha.1",
       "channel": "alpha"
     },
@@ -22462,6 +22656,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.9.0-rc.3",
+      "channel": "rc"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.9.0-rc.5",
       "keywords": [
         "modernization",
         "migration",
@@ -24221,6 +24421,17 @@
     {
       "package": "multicluster-global-hub-operator",
       "name": "multicluster-global-hub-operator",
+      "version": "1.7.0",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.7"
+    },
+    {
+      "package": "multicluster-global-hub-operator",
+      "name": "multicluster-global-hub-operator",
       "version": "1.7.0-alpha",
       "keywords": [
         "multicluster-global-hub",
@@ -25233,20 +25444,6 @@
         "CCM",
         "OpenShift",
         "Kubernetes"
-      ],
-      "description": "",
-      "channel": "alpha"
-    },
-    {
-      "package": "ocm-operator",
-      "name": "ocm-operator",
-      "version": "0.1.0",
-      "keywords": [
-        "ocm",
-        "rosa",
-        "redhat",
-        "machinepool",
-        "mobb"
       ],
       "description": "",
       "channel": "alpha"
@@ -28028,6 +28225,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.17",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.10.18",
       "keywords": [
         "open source",
         "containers",
@@ -29895,102 +30098,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-13",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-16",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-17",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-18",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-19",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-20",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-21",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-02-22",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-02-24",
       "keywords": [
         "istio",
@@ -30028,6 +30135,126 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0-nightly-2026-02-27",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-02-28",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-01",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-02",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-03",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-04",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-05",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-06",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-07",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-08",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-09",
       "keywords": [
         "istio",
         "servicemesh",
@@ -30989,6 +31216,12 @@
       "package": "stackgres-community",
       "name": "stackgres-community",
       "version": "1.18.5",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-community",
+      "name": "stackgres-community",
+      "version": "1.18.6",
       "keywords": [
         "postgresql",
         "postgres",
@@ -31596,6 +31829,29 @@
       "package": "strimzi-kafka-operator",
       "name": "strimzi-kafka-operator",
       "version": "0.50.0",
+      "channel": "stable"
+    },
+    {
+      "package": "strimzi-kafka-operator",
+      "name": "strimzi-kafka-operator",
+      "version": "0.50.1",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Strimzi provides a way to run an Apache Kafka cluster on Kubernetes or OpenShift in various deployment configurations.",
+      "channel": "stable"
+    },
+    {
+      "package": "strimzi-kafka-operator",
+      "name": "strimzi-kafka-operator",
+      "version": "0.51.0",
       "keywords": [
         "kafka",
         "messaging",
@@ -33090,6 +33346,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.2",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "0.0.1",
@@ -33487,7 +33755,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4546,
+  "count": 4573,
   "source": "opm",
-  "timestamp": "2026-02-27T20:53:11.559646"
+  "timestamp": "2026-03-09T19:06:11.768423"
 }
