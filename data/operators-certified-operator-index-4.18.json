@@ -3,25 +3,7 @@
     {
       "package": "abinitio-runtime-operator",
       "name": "abinitio-runtime-operator",
-      "version": "4.2.3-0",
-      "keywords": [
-        "abinitio",
-        "runtime",
-        "operator"
-      ],
-      "description": "",
-      "channel": "stable"
-    },
-    {
-      "package": "abinitio-runtime-operator",
-      "name": "abinitio-runtime-operator",
-      "version": "4.3.1-0",
-      "channel": "release-4.3"
-    },
-    {
-      "package": "abinitio-runtime-operator",
-      "name": "abinitio-runtime-operator",
-      "version": "4.3.3-1",
+      "version": "4.4.3-2",
       "keywords": [
         "abinitio",
         "runtime",
@@ -81,6 +63,17 @@
       ],
       "description": "Automate the management of OpenShift Operator for Qualcomm AI 100 accelerators.",
       "channel": "alpha"
+    },
+    {
+      "package": "aic-operator",
+      "name": "aic-operator",
+      "version": "0.4.0",
+      "keywords": [
+        "AIC",
+        "AIC-Operator"
+      ],
+      "description": "Automate the management of OpenShift Operator for Qualcomm AI 100 accelerators.",
+      "channel": "stable"
     },
     {
       "package": "aikit-operator",
@@ -425,6 +418,29 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.7.8",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.9",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -817,7 +833,7 @@
     {
       "package": "app-insights-operator",
       "name": "app-insights-operator",
-      "version": "1.18.0-1",
+      "version": "1.18.2-1",
       "keywords": [
         "developer tools",
         "insights",
@@ -13152,6 +13168,18 @@
     {
       "package": "sriov-fec",
       "name": "sriov-fec",
+      "version": "2.12.0",
+      "keywords": [
+        "ACC100",
+        "vRAN",
+        "ORAN"
+      ],
+      "description": "An operator for Intel Wireless FEC Accelerator to orchestrate and manage the resources/devices exposed by a range of Intel's vRAN FEC acceleration devices/hardware within the OpenShift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
       "version": "2.7.1",
       "channel": "stable"
     },
@@ -15030,7 +15058,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1390,
+  "count": 1391,
   "source": "opm",
-  "timestamp": "2026-03-09T19:04:04.512715"
+  "timestamp": "2026-03-10T06:43:05.960909"
 }

@@ -14378,6 +14378,16 @@
       "channel": "fast-v0"
     },
     {
+      "package": "clusterpulse",
+      "name": "clusterpulse",
+      "version": "1.0.0",
+      "keywords": [
+        "clusterpulse"
+      ],
+      "description": "Provides OpenShift cluster health monitoring",
+      "channel": "fast-v1"
+    },
+    {
       "package": "cockroachdb",
       "name": "cockroachdb",
       "version": "5.0.3",
@@ -30264,6 +30274,18 @@
       "channel": "1.29-nightly"
     },
     {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-10",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
       "package": "sap-commerce-operator",
       "name": "sap-commerce-operator",
       "version": "0.0.2",
@@ -33755,7 +33777,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4573,
+  "count": 4575,
   "source": "opm",
-  "timestamp": "2026-03-09T19:06:11.768423"
+  "timestamp": "2026-03-10T06:44:56.696697"
 }

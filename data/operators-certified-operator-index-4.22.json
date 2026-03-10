@@ -3,25 +3,7 @@
     {
       "package": "abinitio-runtime-operator",
       "name": "abinitio-runtime-operator",
-      "version": "4.2.3-0",
-      "keywords": [
-        "abinitio",
-        "runtime",
-        "operator"
-      ],
-      "description": "",
-      "channel": "stable"
-    },
-    {
-      "package": "abinitio-runtime-operator",
-      "name": "abinitio-runtime-operator",
-      "version": "4.3.1-0",
-      "channel": "release-4.3"
-    },
-    {
-      "package": "abinitio-runtime-operator",
-      "name": "abinitio-runtime-operator",
-      "version": "4.3.3-1",
+      "version": "4.4.3-2",
       "keywords": [
         "abinitio",
         "runtime",
@@ -380,6 +362,29 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.7.8",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.7.9",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -4756,6 +4761,18 @@
     {
       "package": "sriov-fec",
       "name": "sriov-fec",
+      "version": "2.12.0",
+      "keywords": [
+        "ACC100",
+        "vRAN",
+        "ORAN"
+      ],
+      "description": "An operator for Intel Wireless FEC Accelerator to orchestrate and manage the resources/devices exposed by a range of Intel's vRAN FEC acceleration devices/hardware within the OpenShift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
       "version": "2.7.1",
       "channel": "stable"
     },
@@ -5479,5 +5496,5 @@
   ],
   "count": 607,
   "source": "opm",
-  "timestamp": "2026-03-09T19:10:16.270903"
+  "timestamp": "2026-03-10T06:49:02.848579"
 }
