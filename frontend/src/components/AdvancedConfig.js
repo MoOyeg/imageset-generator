@@ -5,6 +5,8 @@ import {
   CardBody,
   Form,
   FormGroup,
+  FormSelect,
+  FormSelectOption,
   TextArea,
   TextInput,
   Button,
@@ -30,15 +32,15 @@ function AdvancedConfig({ config, updateConfig }) {
   });
   const [showHelmForm, setShowHelmForm] = useState(false);
 
-  const handleAdditionalImagesChange = (e) => {
-    const images = e.target.value
+  const handleAdditionalImagesChange = (_event, value) => {
+    const images = value
       .split(',')
       .map(img => img.trim())
       .filter(img => img.length > 0);
     updateConfig({ additional_images: images });
   };
 
-  const handleArchiveSizeChange = (value) => {
+  const handleArchiveSizeChange = (_event, value) => {
     // Only allow positive integers or empty string
     if (value === '' || (/^\d+$/.test(value) && parseInt(value) > 0)) {
       updateConfig({ archive_size: value === '' ? '' : parseInt(value) });
@@ -65,8 +67,44 @@ function AdvancedConfig({ config, updateConfig }) {
     updateConfig({ helm_charts: updatedCharts });
   };
 
+  const isV2 = config.oc_mirror_version === 2;
+
   return (
     <Grid hasGutter>
+      <GridItem span={12}>
+        <Card>
+          <CardTitle>
+            <Title headingLevel="h2">oc-mirror Version</Title>
+          </CardTitle>
+          <CardBody>
+            <Form>
+              <FormGroup
+                label="oc-mirror Version"
+                fieldId="oc-mirror-version"
+                helperText={
+                  <HelperText>
+                    <HelperTextItem>
+                      {isV2
+                        ? 'v2 generates v2alpha1 configs. storageConfig and archiveSize are managed via CLI flags (--workspace).'
+                        : 'v1 generates v1alpha2 configs with storageConfig and archiveSize in the YAML.'}
+                    </HelperTextItem>
+                  </HelperText>
+                }
+              >
+                <FormSelect
+                  value={config.oc_mirror_version || 1}
+                  onChange={(_event, value) => updateConfig({ oc_mirror_version: parseInt(value) })}
+                  id="oc-mirror-version"
+                >
+                  <FormSelectOption value={1} label="oc-mirror v1 (v1alpha2)" />
+                  <FormSelectOption value={2} label="oc-mirror v2 (v2alpha1)" />
+                </FormSelect>
+              </FormGroup>
+            </Form>
+          </CardBody>
+        </Card>
+      </GridItem>
+
       <GridItem span={12}>
         <Card>
           <CardTitle>
@@ -74,25 +112,27 @@ function AdvancedConfig({ config, updateConfig }) {
           </CardTitle>
           <CardBody>
             <Form>
-              <FormGroup
-                label="Archive Size (optional, GiB)"
-                fieldId="archive-size"
-                helperText="Set the maximum archive size in GiB (Gibibytes) for oc-mirror. Leave blank to omit."
-              >
-                <TextInput
-                  id="archive-size"
-                  type="number"
-                  min={1}
-                  value={config.archive_size === undefined ? '' : config.archive_size}
-                  onChange={handleArchiveSizeChange}
-                  placeholder="4"
-                />
-              </FormGroup>
+              {!isV2 && (
+                <FormGroup
+                  label="Archive Size (optional, GiB)"
+                  fieldId="archive-size"
+                  helperText="Set the maximum archive size in GiB (Gibibytes) for oc-mirror. Leave blank to omit."
+                >
+                  <TextInput
+                    id="archive-size"
+                    type="number"
+                    min={1}
+                    value={config.archive_size === undefined ? '' : config.archive_size}
+                    onChange={handleArchiveSizeChange}
+                    placeholder="4"
+                  />
+                </FormGroup>
+              )}
               <FormGroup>
                 <Checkbox
                   label="Enable KubeVirt Container Mirroring"
                   isChecked={config.kubevirt_container || false}
-                  onChange={(checked) => updateConfig({ kubevirt_container: checked })}
+                  onChange={(_event, checked) => updateConfig({ kubevirt_container: checked })}
                   id="kubevirt-container-checkbox"
                   description="Enables mirroring of KubeVirt container images by setting mirror.platform.kubeVirtContainer: true"
                 />
@@ -101,7 +141,7 @@ function AdvancedConfig({ config, updateConfig }) {
                 <Checkbox
                   label="Enable Graph Mirroring"
                   isChecked={config.graph || false}
-                  onChange={(checked) => updateConfig({ graph: checked })}
+                  onChange={(_event, checked) => updateConfig({ graph: checked })}
                   id="graph-checkbox"
                   description="Enables mirroring of graph data and related components by setting mirror.platform.graph: true"
                 />
@@ -111,46 +151,57 @@ function AdvancedConfig({ config, updateConfig }) {
         </Card>
       </GridItem>
 
-      {/* Storage Configuration Card moved from BasicConfig */}
-      <GridItem span={12}>
-        <Card>
-          <CardTitle>
-            <Title headingLevel="h2">Storage Configuration</Title>
-          </CardTitle>
-          <CardBody>
-            <Form isHorizontal>
-              <FormGroup label="Registry imageURL" fieldId="storage-registry">
-                <input
-                  type="text"
-                  id="storage-registry"
-                  value={typeof config.storageConfig?.registry === 'string' ? config.storageConfig.registry : ''}
-                  onChange={e => {
-                    let value = '';
-                    if (e && e.target && typeof e.target.value === 'string') {
-                      value = e.target.value;
-                    } else if (typeof e === 'string') {
-                      value = e;
-                    }
-                    // Defensive: never allow DOM nodes or events
-                    if (typeof value !== 'string') value = '';
-                    updateConfig({ storageConfig: { ...config.storageConfig, registry: value } });
-                  }}
-                  placeholder="quay.io/your-registry"
-                  style={{ width: '100%', padding: '6px', fontSize: '1rem' }}
-                />
-              </FormGroup>
-              <FormGroup label="Skip TLS" fieldId="storage-skip-tls">
-                <Checkbox
-                  id="storage-skip-tls"
-                  label="Skip TLS verification for registry"
-                  isChecked={!!config.storageConfig?.skipTLS}
-                  onChange={(event, checked) => updateConfig({ storageConfig: { ...config.storageConfig, skipTLS: checked } })}
-                />
-              </FormGroup>
-            </Form>
-          </CardBody>
-        </Card>
-      </GridItem>
+      {/* Storage Configuration Card — v1 only (v2 uses --workspace CLI flag) */}
+      {!isV2 && (
+        <GridItem span={12}>
+          <Card>
+            <CardTitle>
+              <Title headingLevel="h2">Storage Configuration</Title>
+            </CardTitle>
+            <CardBody>
+              <Form isHorizontal>
+                <FormGroup label="Registry imageURL" fieldId="storage-registry">
+                  <input
+                    type="text"
+                    id="storage-registry"
+                    value={typeof config.storageConfig?.registry === 'string' ? config.storageConfig.registry : ''}
+                    onChange={e => {
+                      let value = '';
+                      if (e && e.target && typeof e.target.value === 'string') {
+                        value = e.target.value;
+                      } else if (typeof e === 'string') {
+                        value = e;
+                      }
+                      // Defensive: never allow DOM nodes or events
+                      if (typeof value !== 'string') value = '';
+                      updateConfig({ storageConfig: { ...config.storageConfig, registry: value } });
+                    }}
+                    placeholder="quay.io/your-registry"
+                    style={{ width: '100%', padding: '6px', fontSize: '1rem' }}
+                  />
+                </FormGroup>
+                <FormGroup label="Skip TLS" fieldId="storage-skip-tls">
+                  <Checkbox
+                    id="storage-skip-tls"
+                    label="Skip TLS verification for registry"
+                    isChecked={!!config.storageConfig?.skipTLS}
+                    onChange={(event, checked) => updateConfig({ storageConfig: { ...config.storageConfig, skipTLS: checked } })}
+                  />
+                </FormGroup>
+              </Form>
+            </CardBody>
+          </Card>
+        </GridItem>
+      )}
+
+      {isV2 && (
+        <GridItem span={12}>
+          <Alert variant="info" title="Storage configuration not available in oc-mirror v2">
+            In oc-mirror v2, storage is configured via the <code>--workspace</code> CLI flag instead of the YAML configuration.
+            For example: <code>oc-mirror --config imageset-config.yaml --workspace file:///path docker://registry --v2</code>
+          </Alert>
+        </GridItem>
+      )}
 
       <GridItem span={12}>
         <Card>
@@ -212,7 +263,7 @@ function AdvancedConfig({ config, updateConfig }) {
                         id="helm-name"
                         type="text"
                         value={helmChartForm.name}
-                        onChange={(value) => setHelmChartForm({ ...helmChartForm, name: value })}
+                        onChange={(_event, value) => setHelmChartForm({ ...helmChartForm, name: value })}
                         placeholder="prometheus"
                       />
                     </FormGroup>
@@ -228,7 +279,7 @@ function AdvancedConfig({ config, updateConfig }) {
                         id="helm-repository"
                         type="text"
                         value={helmChartForm.repository}
-                        onChange={(value) => setHelmChartForm({ ...helmChartForm, repository: value })}
+                        onChange={(_event, value) => setHelmChartForm({ ...helmChartForm, repository: value })}
                         placeholder="https://prometheus-community.github.io/helm-charts"
                       />
                     </FormGroup>
@@ -243,7 +294,7 @@ function AdvancedConfig({ config, updateConfig }) {
                         id="helm-version"
                         type="text"
                         value={helmChartForm.version}
-                        onChange={(value) => setHelmChartForm({ ...helmChartForm, version: value })}
+                        onChange={(_event, value) => setHelmChartForm({ ...helmChartForm, version: value })}
                         placeholder="15.0.0"
                       />
                     </FormGroup>

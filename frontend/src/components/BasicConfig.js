@@ -92,15 +92,7 @@ function BasicConfig({ config, updateConfig, operatorMappings, ocpReleases, ocpC
 
   // Track last selected version to allow re-selecting the same version
   const lastSelectedVersion = useRef('');
-  const handleSingleOcpVersionChange = (value, event) => {
-    let selectedValue;
-    if (typeof value === 'string') {
-      selectedValue = value;
-    } else if (value && value.target) {
-      selectedValue = value.target.value;
-    } else {
-      selectedValue = '';
-    }
+  const handleSingleOcpVersionChange = (_event, selectedValue) => {
     // Always update config, even if the same version is selected again
     updateConfig({ ocp_versions: selectedValue ? [selectedValue] : [] });
     lastSelectedVersion.current = selectedValue;
@@ -121,22 +113,8 @@ function BasicConfig({ config, updateConfig, operatorMappings, ocpReleases, ocpC
     }
   }, [ocpReleases]);
 
-  const handleChannelChange = (value, event) => {
-    // PatternFly FormSelect can pass either (value, event) or (event) depending on version
-    let selectedValue;
-    
-    if (typeof value === 'string') {
-      // New PatternFly API: (value, event)
-      selectedValue = value;
-    } else if (value && value.target) {
-      // Old PatternFly API or standard HTML: (event)
-      selectedValue = value.target.value;
-    } else {
-      // Fallback
-      selectedValue = '';
-    }
-    
-    updateConfig({ 
+  const handleChannelChange = (_event, selectedValue) => {
+    updateConfig({
       ocp_channel: selectedValue,
       ocp_min_version: '', // Reset min/max when channel changes
       ocp_max_version: ''
@@ -149,39 +127,11 @@ function BasicConfig({ config, updateConfig, operatorMappings, ocpReleases, ocpC
     }
   };
 
-  const handleMinVersionChange = (value, event) => {
-    // PatternFly FormSelect can pass either (value, event) or (event) depending on version
-    let selectedValue;
-    
-    if (typeof value === 'string') {
-      // New PatternFly API: (value, event)
-      selectedValue = value;
-    } else if (value && value.target) {
-      // Old PatternFly API or standard HTML: (event)
-      selectedValue = value.target.value;
-    } else {
-      // Fallback
-      selectedValue = '';
-    }
-    
+  const handleMinVersionChange = (_event, selectedValue) => {
     updateConfig({ ocp_min_version: selectedValue });
   };
 
-  const handleMaxVersionChange = (value, event) => {
-    // PatternFly FormSelect can pass either (value, event) or (event) depending on version
-    let selectedValue;
-    
-    if (typeof value === 'string') {
-      // New PatternFly API: (value, event)
-      selectedValue = value;
-    } else if (value && value.target) {
-      // Old PatternFly API or standard HTML: (event)
-      selectedValue = value.target.value;
-    } else {
-      // Fallback
-      selectedValue = '';
-    }
-    
+  const handleMaxVersionChange = (_event, selectedValue) => {
     updateConfig({ ocp_max_version: selectedValue });
   };
 
@@ -419,7 +369,7 @@ function BasicConfig({ config, updateConfig, operatorMappings, ocpReleases, ocpC
                     ) : (
                       <TextInput
                         value={(config.operator_catalogs || []).filter(isValidCatalogUrl).join(', ')}
-                        onChange={(value) => {
+                        onChange={(_event, value) => {
                           const catalogs = value
                             .split(',')
                             .map(c => c.trim())

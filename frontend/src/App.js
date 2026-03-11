@@ -71,7 +71,8 @@ function App() {
     helm_charts: [],
     output_file: 'imageset-config.yaml',
     kubevirt_container: false,
-    storageConfig: { registry: '', skipTLS: false }
+    storageConfig: { registry: '', skipTLS: false },
+    oc_mirror_version: 1
   });
   const [yamlPreview, setYamlPreview] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);

@@ -24,10 +24,28 @@ import re
 
 class ImageSetGenerator:
     """Generator for OpenShift ImageSetConfiguration files"""
-    
-    def __init__(self):
+
+    # oc-mirror version constants
+    V1 = 1
+    V2 = 2
+
+    API_VERSIONS = {
+        V1: "mirror.openshift.io/v1alpha2",
+        V2: "mirror.openshift.io/v2alpha1",
+    }
+
+    def __init__(self, oc_mirror_version=1):
+        """
+        Initialize the generator.
+
+        Args:
+            oc_mirror_version: 1 for oc-mirror v1 (v1alpha2), 2 for oc-mirror v2 (v2alpha1)
+        """
+        self.oc_mirror_version = int(oc_mirror_version) if oc_mirror_version in (1, 2, '1', '2') else 1
+        api_version = self.API_VERSIONS.get(self.oc_mirror_version, self.API_VERSIONS[self.V1])
+
         self.config = {
-            "apiVersion": "mirror.openshift.io/v1alpha2",
+            "apiVersion": api_version,
             "kind": "ImageSetConfiguration",
             "metadata": {
                 "name": "openshift-imageset",
@@ -37,7 +55,7 @@ class ImageSetGenerator:
                 }
             },
             "spec": {
-                # 'archiveSize' will only be set if explicitly requested
+                # 'archiveSize' will only be set if explicitly requested (v1 only)
                 "mirror": {
                     "platform": {
                         "channels": [],
@@ -52,8 +70,10 @@ class ImageSetGenerator:
 
     def set_archive_size(self, size: int):
         """
-        Set the archiveSize in the configuration (optional)
+        Set the archiveSize in the configuration (v1 only — ignored for v2)
         """
+        if self.oc_mirror_version == self.V2:
+            return
         self.config["spec"]["archiveSize"] = size
     
     def add_ocp_versions(self, versions: List[str] = None, channel: List[str] = "stable-4.14", min_version: str = None, max_version: str = None):
@@ -178,10 +198,14 @@ class ImageSetGenerator:
                     for ch in channel:
                         operator_entry["channels"].append({"name": ch})
 
-                    if newest_channel and package_name in newest_channel:
+                    # defaultChannel must be one of the included channels,
+                    # otherwise oc-mirror v2 rejects the config when the
+                    # catalog's real default channel was filtered out.
+                    if newest_channel and package_name in newest_channel and newest_channel[package_name] in channel:
                         operator_entry["defaultChannel"] = newest_channel[package_name]
                     else:
-                        operator_entry["defaultChannel"] = channel[-1]
+                        # Fall back to the first included channel
+                        operator_entry["defaultChannel"] = channel[0]
 
                 if channel is None:
                     channel = op.get("channel")
@@ -252,6 +276,8 @@ class ImageSetGenerator:
         config_copy.update(spec)
         # Prepare YAML comments for metadata
         comment_lines = []
+        api_label = self.API_VERSIONS.get(self.oc_mirror_version, self.API_VERSIONS[self.V1])
+        comment_lines.append(f"# Generated for oc-mirror v{self.oc_mirror_version} ({api_label})")
         if metadata:
             for k, v in metadata.items():
                 if isinstance(v, dict):
@@ -259,9 +285,16 @@ class ImageSetGenerator:
                         comment_lines.append(f"# {k}.{subk}: {subv}")
                 else:
                     comment_lines.append(f"# {k}: {v}")
-        # Add storageConfig if present
-        if 'storageConfig' in config_copy and config_copy['storageConfig'] is None:
-            del config_copy['storageConfig']
+
+        # v2: storageConfig is not valid — always remove it
+        if self.oc_mirror_version == self.V2:
+            config_copy.pop('storageConfig', None)
+            config_copy.pop('archiveSize', None)
+        else:
+            # v1: remove storageConfig only if it's None/empty
+            if 'storageConfig' in config_copy and config_copy['storageConfig'] is None:
+                del config_copy['storageConfig']
+
         yaml_body = yaml.dump(config_copy, default_flow_style=False, sort_keys=False)
         return ("\n".join(comment_lines) + "\n" + yaml_body) if comment_lines else yaml_body
     
