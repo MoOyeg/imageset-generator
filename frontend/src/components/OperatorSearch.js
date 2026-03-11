@@ -19,13 +19,13 @@ import {
   Divider,
   Badge
 } from '@patternfly/react-core';
-import { SearchIcon, TimesIcon } from '@patternfly/react-icons';
+import { SearchIcon, TimesIcon, LinkIcon } from '@patternfly/react-icons';
 
-function OperatorSearch({ 
-  selectedOperators, 
-  onOperatorsChange, 
-  selectedCatalogs, 
-  selectedVersion 
+function OperatorSearch({
+  selectedOperators,
+  onOperatorsChange,
+  selectedCatalogs,
+  selectedVersion
 }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [availableOperators, setAvailableOperators] = useState([]);
@@ -38,6 +38,9 @@ function OperatorSearch({
   const [page, setPage] = useState(0);
   // For each operator, store [minIndex, maxIndex] for the version range slider
   const [selectedVersionRangeByName, setSelectedVersionRangeByName] = useState({});
+  // Dependency resolution alerts
+  const [dependencyAlerts, setDependencyAlerts] = useState([]);
+  const [isResolvingDeps, setIsResolvingDeps] = useState(false);
 
   // Reset local state when catalogs or version change (via key prop)
   useEffect(() => {
@@ -50,6 +53,8 @@ function OperatorSearch({
     setOperatorChannels({});
     setSelectedVersionRangeByName({});
     setPage(0);
+    setDependencyAlerts([]);
+    setIsResolvingDeps(false);
   }, [selectedCatalogs, selectedVersion]);
 
   // Define fetchOperators function FIRST before any useEffect that uses it
@@ -155,6 +160,81 @@ function OperatorSearch({
     setPage(0); // Reset to first page on filter change
   }, [searchTerm, availableOperators]);
 
+  // Resolve dependencies for an operator after it's been added
+  const resolveDependencies = useCallback(async (operatorName, catalog, currentOperators) => {
+    if (!selectedVersion || !selectedCatalogs || selectedCatalogs.length === 0) return;
+
+    setIsResolvingDeps(true);
+    try {
+      const params = new URLSearchParams({
+        catalog: catalog || selectedCatalogs[0] || '',
+        version: selectedVersion,
+        all_catalogs: (selectedCatalogs || []).join(',')
+      });
+      const resp = await fetch(`/api/operators/${encodeURIComponent(operatorName)}/dependencies?${params}`);
+      const data = await resp.json();
+
+      if (data.status !== 'success') return;
+
+      const depOperators = [];
+      const newAlerts = [];
+
+      // Process resolved dependencies
+      if (data.dependencies && data.dependencies.length > 0) {
+        const addedNames = [];
+        for (const dep of data.dependencies) {
+          // Skip if already selected
+          if (currentOperators.some(op => op.name === dep.package)) continue;
+
+          // Try to find the dep in available operators for display info
+          const depInfo = availableOperators.find(
+            op => op.name === dep.package || op.package === dep.package
+          );
+          depOperators.push({
+            name: dep.package,
+            display_name: depInfo?.display_name || dep.package,
+            channel: depInfo?.channel || 'stable',
+            catalog: depInfo?.catalog || catalog,
+            isDependency: true,
+            dependencyOf: operatorName
+          });
+          const label = dep.type === 'gvk'
+            ? `${dep.package} (provides ${dep.gvk})`
+            : `${dep.package}${dep.versionRange ? ' ' + dep.versionRange : ''}`;
+          addedNames.push(label);
+        }
+        if (addedNames.length > 0) {
+          newAlerts.push({
+            variant: 'info',
+            title: `Auto-selected ${addedNames.length} dependenc${addedNames.length === 1 ? 'y' : 'ies'} for "${operatorName}"`,
+            message: addedNames.join(', ')
+          });
+        }
+      }
+
+      // Process unresolved dependencies
+      if (data.unresolved && data.unresolved.length > 0) {
+        const descs = data.unresolved.map(u => `${u.kind} (${u.group}/${u.version})`);
+        newAlerts.push({
+          variant: 'danger',
+          title: `Could not find provider${data.unresolved.length > 1 ? 's' : ''} for dependenc${data.unresolved.length === 1 ? 'y' : 'ies'} of "${operatorName}"`,
+          message: `Missing API/CRD providers: ${descs.join(', ')}. You may need to manually add the operator that provides ${data.unresolved.length === 1 ? 'this API' : 'these APIs'}.`
+        });
+      }
+
+      if (depOperators.length > 0) {
+        onOperatorsChange([...currentOperators, ...depOperators]);
+      }
+      if (newAlerts.length > 0) {
+        setDependencyAlerts(prev => [...prev, ...newAlerts]);
+      }
+    } catch (err) {
+      console.error('Error resolving dependencies:', err);
+    } finally {
+      setIsResolvingDeps(false);
+    }
+  }, [selectedVersion, selectedCatalogs, availableOperators, onOperatorsChange]);
+
 
   const addOperator = (operator, minVersion, maxVersion) => {
     // Find the catalog for the selected minVersion (for display)
@@ -176,11 +256,20 @@ function OperatorSearch({
     };
     const updatedOperators = [...(selectedOperators || []), newOperator];
     onOperatorsChange(updatedOperators);
+
+    // Resolve dependencies asynchronously
+    resolveDependencies(operator.name, catalog, updatedOperators);
   };
 
   const removeOperator = (operatorName) => {
     const updatedOperators = (selectedOperators || []).filter(op => op.name !== operatorName);
     onOperatorsChange(updatedOperators);
+    // Clear dependency alerts related to this operator
+    setDependencyAlerts(prev => prev.filter(a => !a.title.includes(`"${operatorName}"`)));
+  };
+
+  const dismissDependencyAlert = (index) => {
+    setDependencyAlerts(prev => prev.filter((_, i) => i !== index));
   };
 
   const isOperatorSelected = (operatorName, minVersion, maxVersion) => {
@@ -242,9 +331,9 @@ function OperatorSearch({
 
           {!isLoading && filteredOperators.length === 0 && !error && (
             <Alert variant="info" title="No operators found">
-              {availableOperators.length === 0 
+              {availableOperators.length === 0
                 ? "No operators available in the selected catalog(s)."
-                : searchTerm 
+                : searchTerm
                   ? `No operators match "${searchTerm}". Try a different search term.`
                   : "No operators to display."
               }
@@ -303,7 +392,7 @@ function OperatorSearch({
                           ) : null}
                           {operator.description && (
                             <Text component="p" style={{ marginTop: '8px', fontSize: '14px' }}>
-                              {operator.description.length > 100 
+                              {operator.description.length > 100
                                 ? `${operator.description.substring(0, 100)}...`
                                 : operator.description
                               }
@@ -363,11 +452,12 @@ function OperatorSearch({
                                 variant="primary"
                                 size="sm"
                                 onClick={() => addOperator(operator, minVersion, maxVersion)}
+                                isDisabled={isResolvingDeps}
                               >
                                 Add Operator
                               </Button>
                             ) : (
-                              <Badge>✓ Selected</Badge>
+                              <Badge>Selected</Badge>
                             )}
                           </div>
                         </CardBody>
@@ -376,6 +466,35 @@ function OperatorSearch({
                   );
                 })}
               </Grid>
+            </div>
+          )}
+
+          {/* Dependency resolution alerts */}
+          {dependencyAlerts.length > 0 && (
+            <div style={{ marginTop: '16px' }}>
+              {dependencyAlerts.map((alert, index) => (
+                <Alert
+                  key={index}
+                  variant={alert.variant}
+                  title={alert.title}
+                  isInline
+                  actionClose={
+                    <Button variant="plain" onClick={() => dismissDependencyAlert(index)} aria-label="Dismiss">
+                      <TimesIcon />
+                    </Button>
+                  }
+                  style={{ marginBottom: '8px' }}
+                >
+                  {alert.message}
+                </Alert>
+              ))}
+            </div>
+          )}
+
+          {isResolvingDeps && (
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '12px' }}>
+              <Spinner size="sm" />
+              <Text component="small">Resolving operator dependencies...</Text>
             </div>
           )}
 
@@ -388,7 +507,7 @@ function OperatorSearch({
               <Grid hasGutter>
                 {selectedOperators.map((operator) => (
                   <GridItem span={12} md={6} key={operator.name}>
-                    <Card>
+                    <Card style={operator.isDependency ? { borderLeft: '3px solid var(--pf-v5-global--info-color--100, #2b9af3)' } : undefined}>
                       <CardBody>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                           <div>
@@ -413,6 +532,14 @@ function OperatorSearch({
                             Channel: {operator.channel || 'stable'}
                           </Text>
                         </div>
+                        {operator.isDependency && (
+                          <div style={{ marginTop: '6px' }}>
+                            <Badge style={{ backgroundColor: 'var(--pf-v5-global--info-color--100, #2b9af3)', color: '#fff', fontSize: '0.75rem' }}>
+                              <LinkIcon style={{ marginRight: '4px' }} />
+                              Dependency of {operator.dependencyOf}
+                            </Badge>
+                          </div>
+                        )}
                       </CardBody>
                     </Card>
                   </GridItem>

@@ -18,6 +18,7 @@ from routes.shared import (
     _reset_refresh_catalogs,
     _reset_refresh_releases,
     _reset_refresh_operators,
+    _reset_refresh_dependencies,
 )
 from routes.ocp import do_refresh_versions, do_refresh_ocp_channels, do_refresh_ocp_releases
 from routes.operators import do_refresh_ocp_operators
@@ -186,6 +187,32 @@ def check_data_integrity():
                             failures.append({"version": v, "type": "operators", "detail": f"{catalog_index} v{v} — repair failed: {str(e)}", "fixed": False})
                             yield sse_event("log", f"  Operators ({catalog_index}): ERROR — {str(e)}")
 
+                # Check dependencies for each catalog
+                for catalog_url in CATALOG_BASE_URLS:
+                    catalog_index = catalog_url.split('/')[-1]
+                    total_checked += 1
+                    deps_file = os.path.join("data", f"deps-{catalog_index}-{v}.json")
+                    try:
+                        if not os.path.exists(deps_file):
+                            raise ValueError("File not found")
+                        with open(deps_file, 'r') as f:
+                            deps_data = json.load(f)
+                        if not deps_data.get("dependencies") and not deps_data.get("gvk_providers"):
+                            raise ValueError("Empty dependency data")
+                        dep_count = len(deps_data.get("dependencies", {}))
+                        gvk_count = len(deps_data.get("gvk_providers", {}))
+                        yield sse_event("log", f"  Dependencies ({catalog_index}): OK ({dep_count} deps, {gvk_count} GVKs)")
+                    except Exception:
+                        yield sse_event("log", f"  Dependencies ({catalog_index}): MISSING — regenerating...")
+                        try:
+                            dep_count = _reset_refresh_dependencies(catalog_url, v)
+                            failures.append({"version": v, "type": "dependencies", "detail": f"deps-{catalog_index}-{v}.json missing/corrupt", "fixed": True})
+                            fixed_count += 1
+                            yield sse_event("log", f"  Dependencies ({catalog_index}): FIXED — {dep_count} operators with deps")
+                        except Exception as e:
+                            failures.append({"version": v, "type": "dependencies", "detail": f"deps-{catalog_index}-{v}.json — repair failed: {str(e)}", "fixed": False})
+                            yield sse_event("log", f"  Dependencies ({catalog_index}): ERROR — {str(e)}")
+
                 # Check releases for each channel of this version
                 for ch in version_channels:
                     total_checked += 1
@@ -350,10 +377,12 @@ def reset_all_data():
                     yield sse_event("log", f"  [{current_op}/{total_ops}] Refreshing operators: {catalog_name} v{v}...")
                     try:
                         count = _reset_refresh_operators(catalog_url, v)
-                        yield sse_event("log", f"    Saved {count} operator entries")
+                        deps_file = os.path.join("data", f"deps-{catalog_name}-{v}.json")
+                        deps_ok = os.path.exists(deps_file)
+                        yield sse_event("log", f"    Saved {count} operator entries" + (" + dependencies" if deps_ok else ""))
                     except Exception as e:
                         yield sse_event("log", f"    WARNING: Failed - {str(e)}")
-            yield sse_event("log", "\nAll operators refreshed.\n")
+            yield sse_event("log", "\nAll operators and dependencies refreshed.\n")
 
             # --- Done ---
             yield sse_event("complete", json.dumps({

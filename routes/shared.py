@@ -187,6 +187,281 @@ def load_operators_from_file(catalog_key, version_key):
         return None
 
 
+def load_dependencies_from_file(catalog_key, version_key):
+    """Load operator dependency data from cached JSON file."""
+    try:
+        catalog_index = (catalog_key.split('/')[-1]).split(':')[0]
+        filepath = os.path.join("data", f"deps-{catalog_index}-{version_key}.json")
+        if os.path.exists(filepath):
+            with open(filepath, 'r') as f:
+                return json.load(f)
+        return None
+    except Exception:
+        return None
+
+
+def resolve_operator_dependencies(operator_name, catalog_key, version_key, all_catalogs=None):
+    """Resolve all dependencies for an operator, including cross-catalog GVK resolution.
+
+    Returns dict with 'dependencies' (resolved) and 'unresolved' (missing providers).
+    """
+    # Collect dependency maps and GVK providers across all relevant catalogs
+    all_dependencies = {}
+    all_gvk_providers = {}
+
+    catalogs_to_check = list(set([catalog_key] + (all_catalogs or [])))
+    for cat in catalogs_to_check:
+        data = load_dependencies_from_file(cat, version_key)
+        if not data:
+            continue
+        # Merge dependency maps
+        for pkg, deps in data.get('dependencies', {}).items():
+            if pkg not in all_dependencies:
+                all_dependencies[pkg] = {'requires_packages': [], 'requires_gvks': []}
+            # Merge requires_packages (deduplicate by packageName)
+            existing_names = {r['packageName'] for r in all_dependencies[pkg]['requires_packages']}
+            for rp in deps.get('requires_packages', []):
+                if rp.get('packageName') and rp['packageName'] not in existing_names:
+                    all_dependencies[pkg]['requires_packages'].append(rp)
+                    existing_names.add(rp['packageName'])
+            # Merge requires_gvks (deduplicate by key)
+            existing_gvks = {
+                f"{r.get('group')}/{r.get('version')}/{r.get('kind')}"
+                for r in all_dependencies[pkg]['requires_gvks']
+            }
+            for rg in deps.get('requires_gvks', []):
+                gk = f"{rg.get('group')}/{rg.get('version')}/{rg.get('kind')}"
+                if gk not in existing_gvks:
+                    all_dependencies[pkg]['requires_gvks'].append(rg)
+                    existing_gvks.add(gk)
+        # Merge GVK providers
+        for gvk_key, providers in data.get('gvk_providers', {}).items():
+            if gvk_key not in all_gvk_providers:
+                all_gvk_providers[gvk_key] = set()
+            all_gvk_providers[gvk_key].update(providers)
+
+    op_deps = all_dependencies.get(operator_name)
+    if not op_deps:
+        return {'dependencies': [], 'unresolved': []}
+
+    resolved = []
+    unresolved = []
+
+    # Resolve direct package dependencies
+    for req in op_deps.get('requires_packages', []):
+        pkg_name = req.get('packageName', '')
+        if pkg_name and pkg_name != operator_name:
+            resolved.append({
+                'package': pkg_name,
+                'type': 'package',
+                'versionRange': req.get('versionRange', '')
+            })
+
+    # Resolve GVK dependencies → find provider packages
+    for req in op_deps.get('requires_gvks', []):
+        gvk_key = f"{req.get('group', '')}/{req.get('version', '')}/{req.get('kind', '')}"
+        providers = all_gvk_providers.get(gvk_key, set())
+        providers = sorted(p for p in providers if p != operator_name)
+        if providers:
+            resolved.append({
+                'package': providers[0],
+                'type': 'gvk',
+                'gvk': gvk_key,
+                'all_providers': providers
+            })
+        else:
+            unresolved.append({
+                'type': 'gvk',
+                'gvk': gvk_key,
+                'group': req.get('group', ''),
+                'version': req.get('version', ''),
+                'kind': req.get('kind', '')
+            })
+
+    # Deduplicate resolved by package name
+    seen = set()
+    deduped = []
+    for dep in resolved:
+        if dep['package'] not in seen:
+            seen.add(dep['package'])
+            deduped.append(dep)
+
+    return {'dependencies': deduped, 'unresolved': unresolved}
+
+
+def _extract_and_save_dependencies(index_file_path, deps_file_path):
+    """Extract operator dependency data from opm render output and save to file.
+
+    Parses olm.bundle entries for olm.package.required, olm.gvk.required, and
+    olm.gvk properties. Builds a per-package dependency map and a GVK→provider index.
+    """
+    jq_filter = '''
+    select(.schema == "olm.bundle") | {
+      p: .package,
+      rp: [.properties[]? | select(.type == "olm.package.required") | .value],
+      rg: [.properties[]? | select(.type == "olm.gvk.required") | .value],
+      pg: [.properties[]? | select(.type == "olm.gvk") | .value]
+    }
+    '''
+    try:
+        with open(index_file_path, "r") as infile:
+            result = subprocess.run(
+                ["jq", "-c", jq_filter],
+                stdin=infile, capture_output=True, text=True, timeout=300
+            )
+        if result.returncode != 0:
+            return
+    except Exception:
+        return
+
+    dependencies = {}   # package → {requires_packages, requires_gvks}
+    gvk_providers = {}  # "group/version/kind" → set(package names)
+
+    for line in result.stdout.strip().split('\n'):
+        if not line.strip():
+            continue
+        try:
+            entry = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+
+        pkg = entry.get('p', '')
+        if not pkg:
+            continue
+
+        # Build GVK provider map from every bundle
+        for gvk in entry.get('pg', []):
+            key = f"{gvk.get('group', '')}/{gvk.get('version', '')}/{gvk.get('kind', '')}"
+            if key not in gvk_providers:
+                gvk_providers[key] = set()
+            gvk_providers[key].add(pkg)
+
+        # Build dependency map for bundles that have requirements
+        req_pkgs = entry.get('rp', [])
+        req_gvks = entry.get('rg', [])
+        if req_pkgs or req_gvks:
+            if pkg not in dependencies:
+                dependencies[pkg] = {'requires_packages': [], 'requires_gvks': []}
+
+            existing_pkg_names = {r['packageName'] for r in dependencies[pkg]['requires_packages']}
+            for rp in req_pkgs:
+                if rp.get('packageName') and rp['packageName'] not in existing_pkg_names:
+                    dependencies[pkg]['requires_packages'].append(rp)
+                    existing_pkg_names.add(rp['packageName'])
+
+            existing_gvk_keys = {
+                f"{r.get('group')}/{r.get('version')}/{r.get('kind')}"
+                for r in dependencies[pkg]['requires_gvks']
+            }
+            for rg in req_gvks:
+                gk = f"{rg.get('group')}/{rg.get('version')}/{rg.get('kind')}"
+                if gk not in existing_gvk_keys:
+                    dependencies[pkg]['requires_gvks'].append(rg)
+                    existing_gvk_keys.add(gk)
+
+    serializable_providers = {k: sorted(list(v)) for k, v in gvk_providers.items()}
+
+    with open(deps_file_path, 'w') as f:
+        json.dump({
+            'dependencies': dependencies,
+            'gvk_providers': serializable_providers,
+            'timestamp': datetime.now().isoformat()
+        }, f, indent=2)
+
+
+def _reset_refresh_dependencies(catalog_url, version):
+    """Standalone refresh of dependency data for a catalog/version.
+
+    Runs opm render piped through jq to extract dependency info without
+    writing the full intermediate index file. Use when the operator data
+    file exists but the deps file is missing.
+    """
+    full_catalog = f"{catalog_url}:v{version}"
+    catalog_index = catalog_url.split('/')[-1]
+    deps_file_path = os.path.join("data", f"deps-{catalog_index}-{version}.json")
+
+    jq_filter = '''
+    select(.schema == "olm.bundle") | {
+      p: .package,
+      rp: [.properties[]? | select(.type == "olm.package.required") | .value],
+      rg: [.properties[]? | select(.type == "olm.gvk.required") | .value],
+      pg: [.properties[]? | select(.type == "olm.gvk") | .value]
+    }
+    '''
+
+    # Pipe opm render directly through jq — no huge intermediate file
+    opm_proc = subprocess.Popen(
+        ['opm', 'render', full_catalog, '--skip-tls-verify', '--output', 'json'],
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE
+    )
+    jq_proc = subprocess.Popen(
+        ['jq', '-c', jq_filter],
+        stdin=opm_proc.stdout, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+    )
+    opm_proc.stdout.close()  # Allow opm to receive SIGPIPE if jq exits
+    jq_output, jq_err = jq_proc.communicate(timeout=600)
+    opm_proc.wait()
+
+    if jq_proc.returncode != 0:
+        raise Exception(f"Dependency extraction failed for {full_catalog}")
+
+    # Parse jq output and build dependency/provider maps
+    dependencies = {}
+    gvk_providers = {}
+
+    for line in jq_output.decode('utf-8', errors='replace').strip().split('\n'):
+        if not line.strip():
+            continue
+        try:
+            entry = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+
+        pkg = entry.get('p', '')
+        if not pkg:
+            continue
+
+        for gvk in entry.get('pg', []):
+            key = f"{gvk.get('group', '')}/{gvk.get('version', '')}/{gvk.get('kind', '')}"
+            if key not in gvk_providers:
+                gvk_providers[key] = set()
+            gvk_providers[key].add(pkg)
+
+        req_pkgs = entry.get('rp', [])
+        req_gvks = entry.get('rg', [])
+        if req_pkgs or req_gvks:
+            if pkg not in dependencies:
+                dependencies[pkg] = {'requires_packages': [], 'requires_gvks': []}
+
+            existing_pkg_names = {r['packageName'] for r in dependencies[pkg]['requires_packages']}
+            for rp in req_pkgs:
+                if rp.get('packageName') and rp['packageName'] not in existing_pkg_names:
+                    dependencies[pkg]['requires_packages'].append(rp)
+                    existing_pkg_names.add(rp['packageName'])
+
+            existing_gvk_keys = {
+                f"{r.get('group')}/{r.get('version')}/{r.get('kind')}"
+                for r in dependencies[pkg]['requires_gvks']
+            }
+            for rg in req_gvks:
+                gk = f"{rg.get('group')}/{rg.get('version')}/{rg.get('kind')}"
+                if gk not in existing_gvk_keys:
+                    dependencies[pkg]['requires_gvks'].append(rg)
+                    existing_gvk_keys.add(gk)
+
+    serializable_providers = {k: sorted(list(v)) for k, v in gvk_providers.items()}
+
+    os.makedirs("data", exist_ok=True)
+    with open(deps_file_path, 'w') as f:
+        json.dump({
+            'dependencies': dependencies,
+            'gvk_providers': serializable_providers,
+            'timestamp': datetime.now().isoformat()
+        }, f, indent=2)
+
+    return len(dependencies)
+
+
 def load_catalogs_from_file(version_key):
     """Load catalog information from cached JSON files"""
     try:
@@ -444,6 +719,10 @@ def _reset_refresh_operators(catalog_url, version):
             "source": "opm",
             "timestamp": datetime.now().isoformat()
         }, f, indent=2)
+
+    # Step 5b: Extract dependency data from the raw opm render output
+    deps_file_path = os.path.join("data", f"deps-{catalog_index}-{version}.json")
+    _extract_and_save_dependencies(static_file_path_index, deps_file_path)
 
     # Step 6: Clean up intermediate files
     for fp in [static_file_path_index, static_file_path_data, static_file_path_channel]:

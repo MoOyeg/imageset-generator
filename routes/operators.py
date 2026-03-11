@@ -13,6 +13,9 @@ from routes.shared import (
     return_base_catalog_info,
     load_operators_from_file,
     load_catalogs_from_file,
+    load_dependencies_from_file,
+    resolve_operator_dependencies,
+    _extract_and_save_dependencies,
 )
 
 operators_bp = Blueprint('operators', __name__)
@@ -112,6 +115,10 @@ def do_refresh_ocp_operators(catalog, version):
                 "source": "opm",
                 "timestamp": datetime.now().isoformat()
             }, f, indent=2)
+
+        # Extract dependency data from raw opm render output
+        deps_file_path = os.path.join("data", f"deps-{catalog_index}-{version}.json")
+        _extract_and_save_dependencies(static_file_path_index, deps_file_path)
 
         # Remove intermediate files
         try:
@@ -529,5 +536,45 @@ def get_operator_channels(operator_name):
         return jsonify({
             'status': 'error',
             'message': f'Failed to fetch operator channels: {str(e)}',
+            'timestamp': datetime.utcnow().isoformat()
+        }), 500
+
+
+@operators_bp.route('/<operator_name>/dependencies', methods=['GET'])
+def get_operator_dependencies(operator_name):
+    """Get resolved dependencies for a specific operator.
+
+    Query params:
+        catalog  – primary catalog URL (e.g. registry.redhat.io/redhat/redhat-operator-index)
+        version  – OCP version (e.g. 4.16)
+        all_catalogs – comma-separated list of all selected catalog URLs for cross-catalog resolution
+    """
+    try:
+        catalog = request.args.get('catalog', 'registry.redhat.io/redhat/redhat-operator-index')
+        version = request.args.get('version', '4.18')
+        all_catalogs_param = request.args.get('all_catalogs', '')
+
+        if '.' in version:
+            version_parts = version.split('.')
+            version_key = f"{version_parts[0]}.{version_parts[1]}"
+        else:
+            version_key = version
+
+        all_catalogs = [c.strip() for c in all_catalogs_param.split(',') if c.strip()] if all_catalogs_param else None
+
+        result = resolve_operator_dependencies(operator_name, catalog, version_key, all_catalogs)
+
+        return jsonify({
+            'status': 'success',
+            'operator': operator_name,
+            'dependencies': result['dependencies'],
+            'unresolved': result['unresolved'],
+            'timestamp': datetime.utcnow().isoformat()
+        })
+    except Exception as e:
+        current_app.logger.error(f"Error resolving dependencies for {operator_name}: {e}")
+        return jsonify({
+            'status': 'error',
+            'message': f'Failed to resolve dependencies: {str(e)}',
             'timestamp': datetime.utcnow().isoformat()
         }), 500

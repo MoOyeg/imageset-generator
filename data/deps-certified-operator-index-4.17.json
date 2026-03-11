@@ -1,0 +1,2595 @@
+{
+  "dependencies": {
+    "app-insights-operator": {
+      "requires_packages": [
+        {
+          "packageName": "netobserv-operator",
+          "versionRange": ">=0.10.1"
+        },
+        {
+          "packageName": "opentelemetry-product",
+          "versionRange": ">=0.140.0-1"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "cpd-platform-operator": {
+      "requires_packages": [
+        {
+          "packageName": "ibm-common-service-operator",
+          "versionRange": "<5.0.0"
+        }
+      ],
+      "requires_gvks": [
+        {
+          "group": "operator.ibm.com",
+          "kind": "CommonService",
+          "version": "v3"
+        }
+      ]
+    },
+    "edb-hcp-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "cert-manager.io",
+          "kind": "Certificate",
+          "version": "v1"
+        }
+      ]
+    },
+    "ibm-cpd-ccs": {
+      "requires_packages": [
+        {
+          "packageName": "ibm-elasticsearch-operator",
+          "versionRange": ">=1.1.1502 <1.2.0"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "ibm-data-reporter-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "marketplace.redhat.com",
+          "kind": "MarketplaceConfig",
+          "version": "v1alpha1"
+        }
+      ]
+    },
+    "ibm-storage-odf-operator": {
+      "requires_packages": [
+        {
+          "packageName": "ibm-block-csi-operator",
+          "versionRange": "=1.11.4"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "infoscale-sds-operator": {
+      "requires_packages": [
+        {
+          "packageName": "infoscale-licensing-operator",
+          "versionRange": ">=8.0.100"
+        },
+        {
+          "packageName": "openshift-special-resource-operator",
+          "versionRange": ">=4.9.0-202112142229"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "instana-agent-operator": {
+      "requires_packages": [
+        {
+          "packageName": "cert-manager",
+          "versionRange": ">1.6.1"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "linstor-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "PodMonitor",
+          "version": "v1"
+        },
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "PrometheusRule",
+          "version": "v1"
+        },
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "ServiceMonitor",
+          "version": "v1"
+        }
+      ]
+    },
+    "operator-certification-operator": {
+      "requires_packages": [
+        {
+          "packageName": "openshift-pipelines-operator-rh",
+          "versionRange": ">=1.5.2"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "pg4k-pgd": {
+      "requires_packages": [
+        {
+          "packageName": "cert-manager",
+          "versionRange": ">1.10.0"
+        },
+        {
+          "packageName": "cloud-native-postgresql",
+          "versionRange": ">=1.22.0 <1.23.0"
+        }
+      ],
+      "requires_gvks": [
+        {
+          "group": "cert-manager.io",
+          "kind": "Certificate",
+          "version": "v1"
+        }
+      ]
+    },
+    "tenant-operator": {
+      "requires_packages": [
+        {
+          "packageName": "template-operator",
+          "versionRange": ">=0.1.4"
+        },
+        {
+          "packageName": "hibernation-operator",
+          "versionRange": ">=0.1.103"
+        },
+        {
+          "packageName": "mto-dependencies-operator",
+          "versionRange": ">=0.0.5"
+        }
+      ],
+      "requires_gvks": []
+    }
+  },
+  "gvk_providers": {
+    "cloud.abinitio.com/v1/CoOperatingSystemRuntime": [
+      "abinitio-runtime-operator"
+    ],
+    "cloud.abinitio.com/v1/CoOperatingSystemRuntimeClaim": [
+      "abinitio-runtime-operator"
+    ],
+    "cloud.abinitio.com/v1/CoOperatingSystemRuntimePool": [
+      "abinitio-runtime-operator"
+    ],
+    "cloud.abinitio.com/v1/CoOperatingSystemRuntimeResourcesRequest": [
+      "abinitio-runtime-operator"
+    ],
+    "cloud.abinitio.com/v1/CoOperatingSystemRuntimeTemplate": [
+      "abinitio-runtime-operator"
+    ],
+    "operator.accuknox.com/v1/AccuknoxConfig": [
+      "accuknox-operator-certified"
+    ],
+    "aci.ctrl/v1alpha1/AciContainersOperator": [
+      "aci-containers-operator"
+    ],
+    "aic.quicinc.com/v1/AIC": [
+      "aic-operator"
+    ],
+    "aikit.intel/v1alpha1/AIKitContainer": [
+      "aikit-operator"
+    ],
+    "microgateway.airlock.com/v1alpha1/APIProtection": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/AccessControl": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/AccessControlPolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/CSRFProtection": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/ContentSecurity": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/ContentSecurityPolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/DenyRules": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/EnvoyCluster": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/EnvoyConfiguration": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/EnvoyHTTPFilter": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/GatewayParameters": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/GraphQL": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/HeaderRewrites": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/IdentityPropagation": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/JWKS": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/Limits": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/OIDCProvider": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/OIDCRelyingParty": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/OpenAPI": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/Parser": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/RedisProvider": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/SessionHandling": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/SidecarGateway": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/Telemetry": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/JWT": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/TokenExchange": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/CustomResponse": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/CustomResponsePolicy": [
+      "airlock-microgateway"
+    ],
+    "aiu.ibm.com/v2/AiuClusterPolicy": [
+      "aiu-operator"
+    ],
+    "aiu.ibm.com/v2/AiuNodeState": [
+      "aiu-operator"
+    ],
+    "charts.alloys.com/v1alpha1/Alloy": [
+      "alloy"
+    ],
+    "amd.com/v1alpha1/DeviceConfig": [
+      "amd-gpu-operator"
+    ],
+    "charts.anchore.io/v1alpha1/AnchoreEngine": [
+      "anchore-engine"
+    ],
+    "anjuna.io/v1/AnjunaConfig": [
+      "anjuna-operator"
+    ],
+    "operator.antrea.vmware.com/v1/AntreaInstall": [
+      "antrea-by-broadcom-operator"
+    ],
+    "anzo.cambridgesemantics.com/v2/Anzo": [
+      "anzo-operator"
+    ],
+    "anzobackup.cambridgesemantics.com/v1beta1/AnzoBackup": [
+      "anzo-operator"
+    ],
+    "anzograph.clusters.cambridgesemantics.com/v2/AnzoGraph": [
+      "anzograph-operator"
+    ],
+    "anzounstructured.clusters.cambridgesemantics.com/v1/AnzoUnstructured": [
+      "anzounstructured-operator"
+    ],
+    "apelocal.csi.apecloud.com/v1alpha1/HostPathDefinition": [
+      "apelocal-csi"
+    ],
+    "appinsights.randoli/v1beta1/RandoliAgent": [
+      "app-insights-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/Clustermon": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/Containermon": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/DbCollector": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/DbConfig": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/Inframon": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/LogCollector": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/Servermon": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/Clusteragent": [
+      "appdynamics-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/InfraViz": [
+      "appdynamics-operator"
+    ],
+    "crd.k8s.appian.com/v1beta1/Appian": [
+      "appian-operator"
+    ],
+    "aquasecurity.github.io/v1alpha1/AquaStarboard": [
+      "aqua-operator-certified"
+    ],
+    "aquasecurity.github.io/v1alpha1/ClusterConfigAuditReport": [
+      "aqua-operator-certified"
+    ],
+    "aquasecurity.github.io/v1alpha1/ConfigAuditReport": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaCloudConnector": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaCsp": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaDatabase": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaEnforcer": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaGateway": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaKubeEnforcer": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaLightning": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaScanner": [
+      "aqua-operator-certified"
+    ],
+    "operator.aquasec.com/v1alpha1/AquaServer": [
+      "aqua-operator-certified"
+    ],
+    "cassandra.datastax.com/v1beta1/CassandraDatacenter": [
+      "cass-operator"
+    ],
+    "control.k8ssandra.io/v1alpha1/CassandraTask": [
+      "cass-operator"
+    ],
+    "charts.operatorhub.io/v1/CcmNodeAgent": [
+      "ccm-node-agent-dcap-operator",
+      "ccm-node-agent-operator"
+    ],
+    "cfm.cloudera.com/v1alpha1/Nifi": [
+      "cfm-operator"
+    ],
+    "cfm.cloudera.com/v1alpha1/NifiRegistry": [
+      "cfm-operator"
+    ],
+    "cfm.cloudera.com/v1alpha1/NifiRegistryBinding": [
+      "cfm-operator"
+    ],
+    "cilium.io/v1alpha1/CiliumConfig": [
+      "cilium",
+      "cilium-enterprise",
+      "clife"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Backup": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Cluster": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/ClusterImageCatalog": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Database": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/ImageCatalog": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Pooler": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Publication": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/ScheduledBackup": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Subscription": [
+      "cloud-native-postgresql"
+    ],
+    "barmancloud.cnpg.io/v1/ObjectStore": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/FailoverQuorum": [
+      "cloud-native-postgresql"
+    ],
+    "charts.cloudbees.com/v1alpha1/CloudBeesCI": [
+      "cloudbees-ci"
+    ],
+    "apps.cloudcasa.io/v1alpha1/Cloudcasa": [
+      "cloudcasa-operator"
+    ],
+    "core.strimzi.io/v1beta2/StrimziPodSet": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/Kafka": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaBridge": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaConnect": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaConnector": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaMirrorMaker": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaMirrorMaker2": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaNodePool": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaRebalance": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1alpha1/KafkaTopic": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta1/KafkaTopic": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaTopic": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1alpha1/KafkaUser": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta1/KafkaUser": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "kafka.strimzi.io/v1beta2/KafkaUser": [
+      "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "postgresql.cnpg.io/v1/Backup": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Cluster": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/ClusterImageCatalog": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/ImageCatalog": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Pooler": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/ScheduledBackup": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Database": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Publication": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Subscription": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/FailoverQuorum": [
+      "cloudnative-pg"
+    ],
+    "eweb.enterpriseweb.com/v1/CloudNFV": [
+      "cnfv-operator"
+    ],
+    "crdb.cockroachlabs.com/v1alpha1/CrdbCluster": [
+      "cockroachdb-certified"
+    ],
+    "coherence.oracle.com/v1/Coherence": [
+      "coherence-operator"
+    ],
+    "coherence.oracle.com/v1/CoherenceJob": [
+      "coherence-operator"
+    ],
+    "platform.confluent.io/v1beta1/CMFRestClass": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/ClusterLink": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/ConfluentRolebinding": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/Connect": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/Connector": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/ControlCenter": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/FlinkApplication": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/FlinkEnvironment": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/KRaftController": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/KRaftMigrationJob": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/Kafka": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/KafkaRestClass": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/KafkaRestProxy": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/KafkaTopic": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/KsqlDB": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/Schema": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/SchemaExporter": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/SchemaRegistry": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/Zookeeper": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/Gateway": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/SchemaImporter": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/USMAgent": [
+      "confluent-for-kubernetes"
+    ],
+    "conjur.cyberark.com/v1/ConjurFollower": [
+      "conjur-follower-operator"
+    ],
+    "coroot.com/v1/Coroot": [
+      "coroot-operator"
+    ],
+    "couchbase.com/v2/CouchbaseAutoscaler": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBackup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBackupRestore": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCluster": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCollection": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCollectionGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseEphemeralBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseMemcachedBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseMigrationReplication": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseReplication": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseRoleBinding": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseScope": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseScopeGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseUser": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseEncryptionKey": [
+      "couchbase-enterprise-certified"
+    ],
+    "flink.apache.org/v1beta1/FlinkDeployment": [
+      "cp-fko"
+    ],
+    "flink.apache.org/v1beta1/FlinkSessionJob": [
+      "cp-fko"
+    ],
+    "flink.apache.org/v1beta1/FlinkStateSnapshot": [
+      "cp-fko"
+    ],
+    "cpd.ibm.com/v1/Ibmcpd": [
+      "cpd-platform-operator"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PostgresCluster": [
+      "crunchy-postgres-operator",
+      "percona-postgresql-operator-certified"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PGUpgrade": [
+      "crunchy-postgres-operator",
+      "percona-postgresql-operator-certified"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PGAdmin": [
+      "crunchy-postgres-operator",
+      "percona-postgresql-operator-certified"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/CrunchyBridgeCluster": [
+      "crunchy-postgres-operator",
+      "percona-postgresql-operator-certified"
+    ],
+    "cte-k8s-operator.csi.cte.cpl.thalesgroup.com/v1/CteK8sOperator": [
+      "cte-k8s-operator"
+    ],
+    "datadoghq.com/v1alpha1/DatadogAgent": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v2alpha1/DatadogAgent": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogMetric": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogMonitor": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogAgentProfile": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogDashboard": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogPodAutoscaler": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogSLO": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogGenericResource": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha2/DatadogPodAutoscaler": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogAgentInternal": [
+      "datadog-operator-certified"
+    ],
+    "datasance.com/v3/ControlPlane": [
+      "datasance-pot-operator"
+    ],
+    "storage.dell.com/v1/ContainerStorageModule": [
+      "dell-csm-operator-certified"
+    ],
+    "storage.dell.com/v1/ApexConnectivityClient": [
+      "dell-csm-operator-certified"
+    ],
+    "xld.digital.ai/v1alpha1/DigitalaiDeploy": [
+      "digitalai-deploy-operator"
+    ],
+    "xlr.digital.ai/v1alpha1/DigitalaiRelease": [
+      "digitalai-release-operator"
+    ],
+    "dh2i.com/v1/DxEnterpriseSqlAg": [
+      "dxoperator"
+    ],
+    "dynatrace.com/v1beta1/DynaKube": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1beta2/DynaKube": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1beta3/DynaKube": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1alpha1/EdgeConnect": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1alpha2/EdgeConnect": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1beta4/DynaKube": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1beta5/DynaKube": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1beta6/DynaKube": [
+      "dynatrace-operator"
+    ],
+    "config.eda.nokia.com/v1/ConnectControllerConfig": [
+      "eda-k8s-operator"
+    ],
+    "connect.eda.nokia.com/v1/ConnectNetworkAttachmentStatus": [
+      "eda-k8s-operator"
+    ],
+    "connect.eda.nokia.com/v1/ConnectNetworkDefinition": [
+      "eda-k8s-operator"
+    ],
+    "edbpgai.edb.com/v1alpha1/HybridControlPlane": [
+      "edb-hcp-operator"
+    ],
+    "edbpgai.edb.com/v1alpha1/Postflight": [
+      "edb-hcp-operator"
+    ],
+    "edbpgai.edb.com/v1alpha1/Preflight": [
+      "edb-hcp-operator"
+    ],
+    "eginnovations.com/v1beta1/EgUniversalAgent": [
+      "eginnovations-operator"
+    ],
+    "agent.k8s.elastic.co/v1alpha1/Agent": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "apm.k8s.elastic.co/v1/ApmServer": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "apm.k8s.elastic.co/v1alpha1/ApmServer": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "apm.k8s.elastic.co/v1beta1/ApmServer": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "beat.k8s.elastic.co/v1beta1/Beat": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "elasticsearch.k8s.elastic.co/v1/Elasticsearch": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "elasticsearch.k8s.elastic.co/v1alpha1/Elasticsearch": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "elasticsearch.k8s.elastic.co/v1beta1/Elasticsearch": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "enterprisesearch.k8s.elastic.co/v1/EnterpriseSearch": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "enterprisesearch.k8s.elastic.co/v1beta1/EnterpriseSearch": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "kibana.k8s.elastic.co/v1/Kibana": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "kibana.k8s.elastic.co/v1alpha1/Kibana": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "kibana.k8s.elastic.co/v1beta1/Kibana": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "maps.k8s.elastic.co/v1alpha1/ElasticMapsServer": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "autoscaling.k8s.elastic.co/v1alpha1/ElasticsearchAutoscaler": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "logstash.k8s.elastic.co/v1alpha1/Logstash": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "stackconfigpolicy.k8s.elastic.co/v1alpha1/StackConfigPolicy": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "autoops.k8s.elastic.co/v1alpha1/AutoOpsAgentPolicy": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
+      "elasticsearch-eck-operator-certified"
+    ],
+    "charts.ddn.com/v1alpha1/ExaCsi": [
+      "exascaler-csi-driver-operator"
+    ],
+    "ai.security.f5.com/v1alpha1/SecurityOperator": [
+      "f5-ai-security-operator"
+    ],
+    "cis.f5.com/v1/F5BigIpCtlr": [
+      "f5-bigip-ctlr-operator"
+    ],
+    "fic.f5.com/v1/F5IpamCtlr": [
+      "f5-ipam-controller-operator"
+    ],
+    "falcon.crowdstrike.com/v1alpha1/FalconAdmission": [
+      "falcon-operator"
+    ],
+    "falcon.crowdstrike.com/v1alpha1/FalconContainer": [
+      "falcon-operator"
+    ],
+    "falcon.crowdstrike.com/v1alpha1/FalconImageAnalyzer": [
+      "falcon-operator"
+    ],
+    "falcon.crowdstrike.com/v1alpha1/FalconNodeSensor": [
+      "falcon-operator"
+    ],
+    "falcon.crowdstrike.com/v1alpha1/FalconDeployment": [
+      "falcon-operator"
+    ],
+    "federatorai.containers.ai/v1alpha1/AlamedaService": [
+      "federatorai-certified"
+    ],
+    "fep.fujitsu.io/v1/FEPAction": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPAutoscale": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPBackup": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPCert": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v2/FEPCluster": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPConfig": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPExporter": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPLogging": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPPgpool2": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPPgpool2Cert": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPRestore": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPUpgrade": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPUser": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "fep.fujitsu.io/v1/FEPVolume": [
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
+    ],
+    "compute.functionmesh.io/v1alpha1/Function": [
+      "function-mesh"
+    ],
+    "compute.functionmesh.io/v1alpha1/FunctionMesh": [
+      "function-mesh"
+    ],
+    "compute.functionmesh.io/v1alpha1/Sink": [
+      "function-mesh"
+    ],
+    "compute.functionmesh.io/v1alpha1/Source": [
+      "function-mesh"
+    ],
+    "apps.gitlab.com/v1beta1/GitLab": [
+      "gitlab-operator-kubernetes"
+    ],
+    "apps.gitlab.com/v1beta2/Runner": [
+      "gitlab-runner-operator"
+    ],
+    "nvidia.com/v1/ClusterPolicy": [
+      "gpu-operator-certified"
+    ],
+    "nvidia.com/v1alpha1/NVIDIADriver": [
+      "gpu-operator-certified"
+    ],
+    "habanalabs.habana.ai/v1/ClusterPolicy": [
+      "habana-ai-operator"
+    ],
+    "gitops.harness.io/v1alpha1/GitopsAgent": [
+      "harness-gitops-operator"
+    ],
+    "hazelcast.com/v1alpha1/Cache": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/CronHotBackup": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/Hazelcast": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/HazelcastEndpoint": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/HotBackup": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/JetJob": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/JetJobSnapshot": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/ManagementCenter": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/Map": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/MultiMap": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/Queue": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/ReplicatedMap": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/Topic": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/UserCodeNamespace": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/VectorCollection": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/WanReplication": [
+      "hazelcast-platform-operator"
+    ],
+    "hazelcast.com/v1alpha1/WanSync": [
+      "hazelcast-platform-operator"
+    ],
+    "app.terraform.io/v1alpha2/AgentPool": [
+      "hcp-terraform-operator"
+    ],
+    "app.terraform.io/v1alpha2/AgentToken": [
+      "hcp-terraform-operator"
+    ],
+    "app.terraform.io/v1alpha2/Module": [
+      "hcp-terraform-operator"
+    ],
+    "app.terraform.io/v1alpha2/Project": [
+      "hcp-terraform-operator"
+    ],
+    "app.terraform.io/v1alpha2/RunsCollector": [
+      "hcp-terraform-operator"
+    ],
+    "app.terraform.io/v1alpha2/Workspace": [
+      "hcp-terraform-operator"
+    ],
+    "hibernation.stakater.com/v1beta1/ClusterResourceSupervisor": [
+      "hibernation-operator"
+    ],
+    "hibernation.stakater.com/v1beta1/ResourceSupervisor": [
+      "hibernation-operator"
+    ],
+    "charts.csi.hitachi.com/v1/HNAS": [
+      "hnas-csi-operator"
+    ],
+    "storage.hpe.com/v1/HPECSIDriver": [
+      "hpe-csi-operator"
+    ],
+    "ezmeral.hpe.com/v1/HPEEzmeralCSIDriver": [
+      "hpe-ezmeral-csi-operator"
+    ],
+    "ezmeral.hpe.com/v1/HPEEzmeralNFSCSIDriver": [
+      "hpe-ezmeral-csi-operator"
+    ],
+    "storage.hpe.com/v1/HPEGreenLakeFileCSIDriver": [
+      "hpe-filex-csi-operator"
+    ],
+    "csi.hitachi.com/v1/HSPC": [
+      "hspc-operator"
+    ],
+    "hulft.saison-technology.com/v1/Hulft": [
+      "hulft"
+    ],
+    "ibm.com/v1/IBMApplicationGateway": [
+      "ibm-application-gateway-operator"
+    ],
+    "csi.ibm.com/v1/HostDefiner": [
+      "ibm-block-csi-operator"
+    ],
+    "csi.ibm.com/v1/HostDefinition": [
+      "ibm-block-csi-operator"
+    ],
+    "csi.ibm.com/v1/IBMBlockCSI": [
+      "ibm-block-csi-operator"
+    ],
+    "operator.ibm.com/v3/CommonService": [
+      "ibm-common-service-operator"
+    ],
+    "foundation.ibm.com/v1/NavConfiguration": [
+      "ibm-commonui-operator-app"
+    ],
+    "operators.ibm.com/v1alpha1/CommonWebUI": [
+      "ibm-commonui-operator-app"
+    ],
+    "operators.ibm.com/v1alpha1/SwitcherItem": [
+      "ibm-commonui-operator-app"
+    ],
+    "ccs.cpd.ibm.com/v1beta1/CCS": [
+      "ibm-cpd-ccs"
+    ],
+    "runtimes.ibm.com/v1alpha1/RuntimeAssembly": [
+      "ibm-cpd-ccs"
+    ],
+    "ds.cpd.ibm.com/v1/DataStage": [
+      "ibm-cpd-datastage-operator"
+    ],
+    "ds.cpd.ibm.com/v1alpha1/DataStage": [
+      "ibm-cpd-datastage-operator"
+    ],
+    "ds.cpd.ibm.com/v1/PXRuntime": [
+      "ibm-cpd-datastage-operator"
+    ],
+    "ds.cpd.ibm.com/v1alpha1/PXRuntime": [
+      "ibm-cpd-datastage-operator"
+    ],
+    "wspipelines.cpd.ibm.com/v1beta1/WSPipelines": [
+      "ibm-cpd-wspipelines"
+    ],
+    "marketplace.redhat.com/v1alpha1/DataReporterConfig": [
+      "ibm-data-reporter-operator"
+    ],
+    "elasticsearch.opencontent.ibm.com/v1/ElasticsearchCluster": [
+      "ibm-elasticsearch-operator"
+    ],
+    "oidc.security.ibm.com/v1/Client": [
+      "ibm-iam-operator"
+    ],
+    "operator.ibm.com/v1alpha1/Authentication": [
+      "ibm-iam-operator"
+    ],
+    "operator.ibm.com/v1alpha1/IBMLicenseServiceReporter": [
+      "ibm-license-service-reporter-operator"
+    ],
+    "operator.ibm.com/v1/IBMLicenseServiceScanner": [
+      "ibm-license-service-scanner-operator"
+    ],
+    "operator.ibm.com/v1alpha1/IBMLicensing": [
+      "ibm-licensing-operator-app"
+    ],
+    "operator.ibm.com/v1/IBMLicensingDefinition": [
+      "ibm-licensing-operator-app"
+    ],
+    "operator.ibm.com/v1alpha1/IBMLicensingMetadata": [
+      "ibm-licensing-operator-app"
+    ],
+    "operator.ibm.com/v1/IBMLicensingQuerySource": [
+      "ibm-licensing-operator-app"
+    ],
+    "marketplace.redhat.com/v1alpha1/MarketplaceConfig": [
+      "ibm-metrics-operator"
+    ],
+    "marketplace.redhat.com/v1alpha1/MeterBase": [
+      "ibm-metrics-operator"
+    ],
+    "marketplace.redhat.com/v1alpha1/MeterDefinition": [
+      "ibm-metrics-operator"
+    ],
+    "marketplace.redhat.com/v1beta1/MeterDefinition": [
+      "ibm-metrics-operator"
+    ],
+    "marketplace.redhat.com/v1alpha1/MeterReport": [
+      "ibm-metrics-operator"
+    ],
+    "operator.ibm.com/v1/NamespaceScope": [
+      "ibm-namespace-scope-operator"
+    ],
+    "operator.ibm.com/v1alpha1/OperandBindInfo": [
+      "ibm-odlm"
+    ],
+    "operator.ibm.com/v1alpha1/OperandConfig": [
+      "ibm-odlm"
+    ],
+    "operator.ibm.com/v1alpha1/OperandRegistry": [
+      "ibm-odlm"
+    ],
+    "operator.ibm.com/v1alpha1/OperandRequest": [
+      "ibm-odlm"
+    ],
+    "operator.ibm.com/v1alpha1/OperatorConfig": [
+      "ibm-odlm"
+    ],
+    "ibm.com/v1/IBMSecurityVerifyAccess": [
+      "ibm-security-verify-access-operator"
+    ],
+    "ibm.com/v1/IBMSecurityVerifyDirectory": [
+      "ibm-security-verify-directory-operator"
+    ],
+    "ibm.com/v1/IBMSecurityVerify": [
+      "ibm-security-verify-operator"
+    ],
+    "odf.ibm.com/v1alpha1/FlashSystemCluster": [
+      "ibm-storage-odf-operator"
+    ],
+    "zen.cpd.ibm.com/v1/ZenExtension": [
+      "ibm-zen-operator"
+    ],
+    "zen.cpd.ibm.com/v1/ZenService": [
+      "ibm-zen-operator"
+    ],
+    "csidriver.infinidat.com/v1/Iboxreplica": [
+      "infinibox-operator-certified"
+    ],
+    "csidriver.infinidat.com/v1alpha1/InfiniboxCsiDriver": [
+      "infinibox-operator-certified"
+    ],
+    "csidriver.infinidat.com/v1/Iboxpromote": [
+      "infinibox-operator-certified"
+    ],
+    "infoscale.veritas.com/v1/DNS": [
+      "infoscale-dr-manager"
+    ],
+    "infoscale.veritas.com/v1/DataReplication": [
+      "infoscale-dr-manager"
+    ],
+    "infoscale.veritas.com/v1/DisasterRecoveryPlan": [
+      "infoscale-dr-manager"
+    ],
+    "infoscale.veritas.com/v1/GlobalClusterMembership": [
+      "infoscale-dr-manager"
+    ],
+    "vlic.veritas.com/v1/License": [
+      "infoscale-licensing-operator"
+    ],
+    "infoscale.veritas.com/v1/InfoScaleCluster": [
+      "infoscale-sds-operator"
+    ],
+    "infoscale.veritas.com/v1/InfoScaleStoragePool": [
+      "infoscale-sds-operator"
+    ],
+    "infoscale.veritas.com/v1/InfoScaleClusterSet": [
+      "infoscale-sds-operator"
+    ],
+    "infrastructure.asset.orchestrator.com/v1/Generatekey": [
+      "infrastructure-asset-orchestrator-certified"
+    ],
+    "infrastructure.asset.orchestrator.com/v1/Mb-broker-service": [
+      "infrastructure-asset-orchestrator-certified"
+    ],
+    "instana.io/v1/InstanaAgent": [
+      "instana-agent-operator"
+    ],
+    "instana.io/v1beta1/InstanaAgent": [
+      "instana-agent-operator"
+    ],
+    "instana.io/v1/InstanaAgentRemote": [
+      "instana-agent-operator"
+    ],
+    "deviceplugin.intel.com/v1/GpuDevicePlugin": [
+      "intel-device-plugins-operator"
+    ],
+    "deviceplugin.intel.com/v1/QatDevicePlugin": [
+      "intel-device-plugins-operator"
+    ],
+    "deviceplugin.intel.com/v1/SgxDevicePlugin": [
+      "intel-device-plugins-operator"
+    ],
+    "deviceplugin.intel.com/v1/DsaDevicePlugin": [
+      "intel-device-plugins-operator"
+    ],
+    "iomesh.com/v1alpha1/IOMeshCluster": [
+      "iomesh-operator"
+    ],
+    "ipm.intel.com/v1/CPUPowerProv": [
+      "ipm-controller"
+    ],
+    "jenkins2tekton.io/v1alpha1/JenkinsPipeline": [
+      "jenkins2tekton-operator"
+    ],
+    "app.joget.com/v1alpha1/JogetDX": [
+      "joget-dx-operator"
+    ],
+    "app.joget.com/v1alpha1/JogetDX8": [
+      "joget-dx8-operator"
+    ],
+    "triliovault.trilio.io/v1/TrilioVaultManager": [
+      "k8s-triliovault"
+    ],
+    "charts.kedify.io/v1alpha1/KedifyAgent": [
+      "kedify-agent-helm-operator"
+    ],
+    "ati.loadcore.keysight.com/v1alpha1/Updates": [
+      "keysight-ati-updates"
+    ],
+    "kcos.loadcore.keysight.com/v1alpha1/Framework": [
+      "keysight-kcos-framework"
+    ],
+    "kcos.loadcore.keysight.com/v1alpha1/Ingress": [
+      "keysight-kcos-ingress"
+    ],
+    "kcos.loadcore.keysight.com/v1alpha1/Licensing": [
+      "keysight-kcos-licensing"
+    ],
+    "kcos.loadcore.keysight.com/v1alpha1/Sso": [
+      "keysight-kcos-sso"
+    ],
+    "keycloak.org/v1alpha1/KCOSClientRoleMapping": [
+      "keysight-keycloak-operator"
+    ],
+    "keycloak.org/v1alpha1/KCOSRealmRole": [
+      "keysight-keycloak-operator"
+    ],
+    "keycloak.org/v1alpha1/KCOSUserRoleMapping": [
+      "keysight-keycloak-operator"
+    ],
+    "keycloak.org/v1alpha1/Keycloak": [
+      "keysight-keycloak-operator"
+    ],
+    "keycloak.org/v1alpha1/KeycloakBackup": [
+      "keysight-keycloak-operator"
+    ],
+    "keycloak.org/v1alpha1/KeycloakClient": [
+      "keysight-keycloak-operator"
+    ],
+    "keycloak.org/v1alpha1/KeycloakRealm": [
+      "keysight-keycloak-operator"
+    ],
+    "keycloak.org/v1alpha1/KeycloakUser": [
+      "keysight-keycloak-operator"
+    ],
+    "app.loadcore.keysight.com/v1alpha1/Loadcore": [
+      "keysight-load-core"
+    ],
+    "app.loadcore.keysight.com/v1alpha1/Agents": [
+      "keysight-loadcore-agents"
+    ],
+    "nats.io/v1alpha2/NatsCluster": [
+      "keysight-nats-operator"
+    ],
+    "nats.io/v1alpha2/NatsServiceRole": [
+      "keysight-nats-operator"
+    ],
+    "app.loadcore.keysight.com/v1alpha1/Nimbusmosaicdusim": [
+      "keysight-nimbusmosaic-dusim"
+    ],
+    "rest.loadcore.keysight.com/v1alpha1/Apibrowser": [
+      "keysight-rest-api-browser-v1"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Appsec": [
+      "keysight-wap-appsec"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Core": [
+      "keysight-wap-core"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Db": [
+      "keysight-wap-db"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Diagnostics": [
+      "keysight-wap-diagnostics"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Logging": [
+      "keysight-wap-logging"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Migration": [
+      "keysight-wap-migration"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Messagebroker": [
+      "keysight-wap-msg-broker"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Notifications": [
+      "keysight-wap-notifications"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Statsdashboard": [
+      "keysight-wap-stats-dashboards"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Storage": [
+      "keysight-wap-storage"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Testcore": [
+      "keysight-wap-test-core"
+    ],
+    "wap.loadcore.keysight.com/v1alpha1/Ui": [
+      "keysight-wap-ui"
+    ],
+    "websocket.loadcore.keysight.com/v1alpha1/Websocket": [
+      "keysight-websocket-service"
+    ],
+    "gateway-operator.konghq.com/v1alpha1/ControlPlane": [
+      "kong-gateway-operator"
+    ],
+    "gateway-operator.konghq.com/v1alpha1/DataPlane": [
+      "kong-gateway-operator"
+    ],
+    "gateway-operator.konghq.com/v1alpha1/GatewayConfiguration": [
+      "kong-gateway-operator"
+    ],
+    "containers.kove.com/v1/KoveMemoryConfig": [
+      "kove-operator"
+    ],
+    "containers.kove.com/v1/KoveSystem": [
+      "kove-operator"
+    ],
+    "operator.kubearmor.com/v1/KubeArmorConfig": [
+      "kubearmor-operator-certified"
+    ],
+    "apps.kubeblocks.io/v1/Cluster": [
+      "kubeblocks"
+    ],
+    "apps.kubeblocks.io/v1/ClusterDefinition": [
+      "kubeblocks"
+    ],
+    "apps.kubeblocks.io/v1/Component": [
+      "kubeblocks"
+    ],
+    "apps.kubeblocks.io/v1/ComponentDefinition": [
+      "kubeblocks"
+    ],
+    "apps.kubeblocks.io/v1/ComponentVersion": [
+      "kubeblocks"
+    ],
+    "apps.kubeblocks.io/v1beta1/ConfigConstraint": [
+      "kubeblocks"
+    ],
+    "apps.kubeblocks.io/v1/ServiceDescriptor": [
+      "kubeblocks"
+    ],
+    "apps.kubeblocks.io/v1/ShardingDefinition": [
+      "kubeblocks"
+    ],
+    "apps.kubeblocks.io/v1/SidecarDefinition": [
+      "kubeblocks"
+    ],
+    "dataprotection.kubeblocks.io/v1alpha1/ActionSet": [
+      "kubeblocks"
+    ],
+    "dataprotection.kubeblocks.io/v1alpha1/Backup": [
+      "kubeblocks"
+    ],
+    "dataprotection.kubeblocks.io/v1alpha1/BackupPolicy": [
+      "kubeblocks"
+    ],
+    "dataprotection.kubeblocks.io/v1alpha1/BackupPolicyTemplate": [
+      "kubeblocks"
+    ],
+    "dataprotection.kubeblocks.io/v1alpha1/BackupRepo": [
+      "kubeblocks"
+    ],
+    "dataprotection.kubeblocks.io/v1alpha1/BackupSchedule": [
+      "kubeblocks"
+    ],
+    "dataprotection.kubeblocks.io/v1alpha1/Restore": [
+      "kubeblocks"
+    ],
+    "dataprotection.kubeblocks.io/v1alpha1/StorageProvider": [
+      "kubeblocks"
+    ],
+    "experimental.kubeblocks.io/v1alpha1/NodeCountScaler": [
+      "kubeblocks"
+    ],
+    "extensions.kubeblocks.io/v1alpha1/Addon": [
+      "kubeblocks"
+    ],
+    "operations.kubeblocks.io/v1alpha1/OpsDefinition": [
+      "kubeblocks"
+    ],
+    "operations.kubeblocks.io/v1alpha1/OpsRequest": [
+      "kubeblocks"
+    ],
+    "parameters.kubeblocks.io/v1alpha1/ComponentParameter": [
+      "kubeblocks"
+    ],
+    "parameters.kubeblocks.io/v1alpha1/ParamConfigRenderer": [
+      "kubeblocks"
+    ],
+    "parameters.kubeblocks.io/v1alpha1/Parameter": [
+      "kubeblocks"
+    ],
+    "parameters.kubeblocks.io/v1alpha1/ParametersDefinition": [
+      "kubeblocks"
+    ],
+    "trace.kubeblocks.io/v1/ReconciliationTrace": [
+      "kubeblocks"
+    ],
+    "workloads.kubeblocks.io/v1/InstanceSet": [
+      "kubeblocks"
+    ],
+    "charts.kubecost.com/v1alpha1/CostAnalyzer": [
+      "kubecost-operator"
+    ],
+    "charts.kubecost.com/v1/Kubecost": [
+      "kubecost-operator"
+    ],
+    "core.k8s.kubemq.io/v1beta1/KubemqCluster": [
+      "kubemq-operator-marketplace"
+    ],
+    "core.k8s.kubemq.io/v1beta1/KubemqConnector": [
+      "kubemq-operator-marketplace"
+    ],
+    "charts.helm.k8s.io/v1/Kubeturbo": [
+      "kubeturbo-certified"
+    ],
+    "charts.helm.k8s.io/v1alpha1/Kubeturbo": [
+      "kubeturbo-certified"
+    ],
+    "kubernetes.kurrent.io/v1/KurrentDB": [
+      "kurrentdb-operator"
+    ],
+    "kubernetes.kurrent.io/v1/KurrentDBBackup": [
+      "kurrentdb-operator"
+    ],
+    "kubernetes.kurrent.io/v1/KurrentDBBackupSchedule": [
+      "kurrentdb-operator"
+    ],
+    "locd.lenovo.com/v1alpha1/Cluster": [
+      "lenovo-locd-operator"
+    ],
+    "storage.lightbitslabs.com/v1alpha1/CSIDriver": [
+      "lightbits-operator"
+    ],
+    "storage.lightbitslabs.com/v1alpha1/Cluster": [
+      "lightbits-operator"
+    ],
+    "piraeus.io/v1/LinstorCluster": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorNodeConnection": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorSatellite": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorSatelliteConfiguration": [
+      "linstor-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/Backup": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/Connection": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/Database": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/Grant": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/MariaDB": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/MaxScale": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/Restore": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/SqlJob": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/User": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/ExternalMariaDB": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/PhysicalBackup": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/PointInTimeRecovery": [
+      "mariadb-enterprise-operator"
+    ],
+    "game.marketplace.redhat.com/v1/Arcade": [
+      "marketplace-games-operator"
+    ],
+    "cache.omarg.net/v1alpha1/Memcached": [
+      "memcached-operator-ogaye"
+    ],
+    "charts.quay.io/v1alpha1/Directpv": [
+      "minio-directpv"
+    ],
+    "charts.quay.io/v1alpha1/AistorVolumemanager": [
+      "minio-directpv"
+    ],
+    "minkms.min.io/v1alpha1/MinKMS": [
+      "minio-minkms-operator"
+    ],
+    "aistor.min.io/v1alpha1/AdminJob": [
+      "minio-object-store-operator"
+    ],
+    "aistor.min.io/v1/ObjectStore": [
+      "minio-object-store-operator"
+    ],
+    "sts.min.io/v1alpha1/PolicyBinding": [
+      "minio-object-store-operator"
+    ],
+    "sts.min.io/v1beta1/PolicyBinding": [
+      "minio-object-store-operator"
+    ],
+    "modelbuilder.com/v1alpha1/Modelbuilder": [
+      "model-builder-for-vision-certified"
+    ],
+    "modelbuilder.com/v1alpha1/ModelbuilderAWS": [
+      "model-builder-for-vision-certified"
+    ],
+    "atlas.mongodb.com/v1/AtlasBackupPolicy": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasBackupSchedule": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasDatabaseUser": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasDeployment": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasProject": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasTeam": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasDataFederation": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasFederatedAuth": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasBackupCompliancePolicy": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasCustomRole": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasIPAccessList": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasNetworkContainer": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasNetworkPeering": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasPrivateEndpoint": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasSearchIndexConfig": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasStreamConnection": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasStreamInstance": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasThirdPartyIntegration": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.mongodb.com/v1/AtlasOrgSettings": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDB": [
+      "mongodb-enterprise",
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDBMulti": [
+      "mongodb-enterprise"
+    ],
+    "mongodb.com/v1/MongoDBOpsManager": [
+      "mongodb-enterprise",
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDBUser": [
+      "mongodb-enterprise",
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDBMultiCluster": [
+      "mongodb-enterprise",
+      "mongodb-kubernetes"
+    ],
+    "mongodbcommunity.mongodb.com/v1/MongoDBCommunity": [
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDBSearch": [
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/ClusterMongoDBRole": [
+      "mongodb-kubernetes"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/Dex": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/DexConfigOperator": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/FinOpsOperator": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/KubeStateMetrics": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/OpenCost": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/Postgres": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/Prometheus": [
+      "mto-dependencies-operator"
+    ],
+    "netscaler.com/v1/AdmAgent": [
+      "netscaler-adm-agent-operator"
+    ],
+    "netscaler.com/v1/AdmAgentOnprem": [
+      "netscaler-adm-agent-operator"
+    ],
+    "netscaler.com/v1/NetscalerCloudController": [
+      "netscaler-operator"
+    ],
+    "netscaler.com/v1/NetscalerGslbController": [
+      "netscaler-operator"
+    ],
+    "netscaler.com/v1/NetscalerCpxWithIngressController": [
+      "netscaler-operator"
+    ],
+    "netscaler.com/v1/NetscalerIngressController": [
+      "netscaler-operator"
+    ],
+    "netscaler.com/v1/NetscalerObservabilityExporter": [
+      "netscaler-operator"
+    ],
+    "netscaler.com/v1/NetscalerIpamController": [
+      "netscaler-operator"
+    ],
+    "netscaler.com/v1/NetscalerCpxWithK8sGatewayController": [
+      "netscaler-operator"
+    ],
+    "netscaler.com/v1/NetscalerK8sGatewayController": [
+      "netscaler-operator"
+    ],
+    "apm.neuvector.com/v1alpha1/Neuvector": [
+      "neuvector-certified-operator"
+    ],
+    "sonatype.com/v1alpha1/NexusRepo": [
+      "nexus-repository-ha-operator-certified",
+      "nxrm-operator-certified"
+    ],
+    "charts.nginx.org/v1alpha1/NginxIngress": [
+      "nginx-ingress-operator"
+    ],
+    "apps.nvidia.com/v1alpha1/NIMCache": [
+      "nim-operator-certified"
+    ],
+    "apps.nvidia.com/v1alpha1/NIMPipeline": [
+      "nim-operator-certified"
+    ],
+    "apps.nvidia.com/v1alpha1/NIMService": [
+      "nim-operator-certified"
+    ],
+    "apps.nvidia.com/v1alpha1/NemoCustomizer": [
+      "nim-operator-certified"
+    ],
+    "apps.nvidia.com/v1alpha1/NemoDatastore": [
+      "nim-operator-certified"
+    ],
+    "apps.nvidia.com/v1alpha1/NemoEntitystore": [
+      "nim-operator-certified"
+    ],
+    "apps.nvidia.com/v1alpha1/NemoEvaluator": [
+      "nim-operator-certified"
+    ],
+    "apps.nvidia.com/v1alpha1/NemoGuardrail": [
+      "nim-operator-certified"
+    ],
+    "apps.nvidia.com/v1alpha1/NIMBuild": [
+      "nim-operator-certified"
+    ],
+    "csi.nec.com/v1/NSPC": [
+      "nspc-operator"
+    ],
+    "crd.nutanix.com/v1alpha1/NutanixCsiStorage": [
+      "nutanixcsioperator"
+    ],
+    "maintenance.nvidia.com/v1alpha1/MaintenanceOperatorConfig": [
+      "nvidia-maintenance-operator"
+    ],
+    "maintenance.nvidia.com/v1alpha1/NodeMaintenance": [
+      "nvidia-maintenance-operator"
+    ],
+    "mellanox.com/v1alpha1/HostDeviceNetwork": [
+      "nvidia-network-operator"
+    ],
+    "mellanox.com/v1alpha1/IPoIBNetwork": [
+      "nvidia-network-operator"
+    ],
+    "mellanox.com/v1alpha1/MacvlanNetwork": [
+      "nvidia-network-operator"
+    ],
+    "mellanox.com/v1alpha1/NicClusterPolicy": [
+      "nvidia-network-operator"
+    ],
+    "sonatype.com/v1alpha1/NexusIQ": [
+      "nxiq-operator-certified"
+    ],
+    "operator.odigos.io/v1alpha1/Odigos": [
+      "odigos-operator"
+    ],
+    "apps.openliberty.io/v1beta2/OpenLibertyApplication": [
+      "open-liberty-certified"
+    ],
+    "apps.openliberty.io/v1beta2/OpenLibertyDump": [
+      "open-liberty-certified"
+    ],
+    "apps.openliberty.io/v1beta2/OpenLibertyTrace": [
+      "open-liberty-certified"
+    ],
+    "apps.openliberty.io/v1/OpenLibertyApplication": [
+      "open-liberty-certified"
+    ],
+    "apps.openliberty.io/v1/OpenLibertyDump": [
+      "open-liberty-certified"
+    ],
+    "apps.openliberty.io/v1/OpenLibertyTrace": [
+      "open-liberty-certified"
+    ],
+    "apps.openliberty.io/v1/OpenLibertyPerformanceData": [
+      "open-liberty-certified"
+    ],
+    "charts.helm.k8s.io/v1/OpenshiftArtifactoryHa": [
+      "openshiftartifactoryha-operator"
+    ],
+    "charts.helm.k8s.io/v1/OpenshiftXray": [
+      "openshiftxray-operator"
+    ],
+    "cache.microsafe.com.mx/v1/AimsMobile": [
+      "operator-aims-mobile"
+    ],
+    "certification.redhat.com/v1alpha1/OperatorPipeline": [
+      "operator-certification-operator"
+    ],
+    "intel.com/v1alpha1/ModelServer": [
+      "ovms-operator"
+    ],
+    "intel.com/v1alpha1/Notebook": [
+      "ovms-operator"
+    ],
+    "aiml.pachyderm.com/v1beta1/Pachyderm": [
+      "pachyderm-operator"
+    ],
+    "aiml.pachyderm.com/v1beta1/PachydermExport": [
+      "pachyderm-operator"
+    ],
+    "aiml.pachyderm.com/v1beta1/PachydermImport": [
+      "pachyderm-operator"
+    ],
+    "pcc.paloaltonetworks.com/v1alpha1/Console": [
+      "pcc-operator"
+    ],
+    "pcc.paloaltonetworks.com/v1alpha1/ConsoleDefender": [
+      "pcc-operator"
+    ],
+    "pcc.paloaltonetworks.com/v1alpha1/Defender": [
+      "pcc-operator"
+    ],
+    "pgv2.percona.com/v2/PerconaPGBackup": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGCluster": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGRestore": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGUpgrade": [
+      "percona-postgresql-operator-certified"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-10-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-11-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-12-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-2-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-3-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-4-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-5-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-6-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-7-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-8-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-9-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBBackup": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQL": [
+      "percona-server-mysql-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLBackup": [
+      "percona-server-mysql-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLRestore": [
+      "percona-server-mysql-operator-certified"
+    ],
+    "pxc.percona.com/v1/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1/PerconaXtraDBClusterBackup": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1/PerconaXtraDBClusterRestore": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-10-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-11-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-2-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-3-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-4-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-5-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-6-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-7-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-8-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-9-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pgd.k8s.enterprisedb.io/v1beta1/PGDGroup": [
+      "pg4k-pgd"
+    ],
+    "pgd.k8s.enterprisedb.io/v1beta1/PGDGroupCleanup": [
+      "pg4k-pgd"
+    ],
+    "pgd.k8s.enterprisedb.io/v1beta1/ClusterImageCatalog": [
+      "pg4k-pgd"
+    ],
+    "pgd.k8s.enterprisedb.io/v1beta1/ImageCatalog": [
+      "pg4k-pgd"
+    ],
+    "pmem-csi.intel.com/v1beta1/PmemCSIDeployment": [
+      "pmem-csi-operator-os"
+    ],
+    "core.libopenstorage.org/v1/StorageCluster": [
+      "portworx-certified"
+    ],
+    "core.libopenstorage.org/v1alpha1/StorageCluster": [
+      "portworx-certified"
+    ],
+    "core.libopenstorage.org/v1/StorageNode": [
+      "portworx-certified"
+    ],
+    "core.libopenstorage.org/v1alpha1/StorageNode": [
+      "portworx-certified"
+    ],
+    "core.libopenstorage.org/v1/ComponentK8sConfig": [
+      "portworx-certified"
+    ],
+    "charts.helm.k8s.io/v1/Prometurbo": [
+      "prometurbo-certified"
+    ],
+    "charts.helm.k8s.io/v1alpha1/Prometurbo": [
+      "prometurbo-certified"
+    ],
+    "metrics.turbonomic.io/v1alpha1/PrometheusQueryMapping": [
+      "prometurbo-certified"
+    ],
+    "metrics.turbonomic.io/v1alpha1/PrometheusServerConfig": [
+      "prometurbo-certified"
+    ],
+    "pubsubplus.solace.com/v1beta1/PubSubPlusEventBroker": [
+      "pubsubplus-eventbroker-operator"
+    ],
+    "raftt.io/v1beta1/Raftt": [
+      "raftt-operator"
+    ],
+    "rebellions.ai/v1beta1/RBLNClusterPolicy": [
+      "rbln-npu-operator"
+    ],
+    "rebellions.ai/v1alpha1/RBLNDriver": [
+      "rbln-npu-operator"
+    ],
+    "app.redislabs.com/v1/RedisEnterpriseCluster": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseCluster": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseDatabase": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseActiveActiveDatabase": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseRemoteCluster": [
+      "redis-enterprise-operator-cert"
+    ],
+    "rc.app.stacks/v1beta2/RuntimeComponent": [
+      "runtime-component-operator-certified"
+    ],
+    "rc.app.stacks/v1beta2/RuntimeOperation": [
+      "runtime-component-operator-certified"
+    ],
+    "rc.app.stacks/v1/RuntimeComponent": [
+      "runtime-component-operator-certified"
+    ],
+    "rc.app.stacks/v1/RuntimeOperation": [
+      "runtime-component-operator-certified"
+    ],
+    "rtf.operators.mulesoft.com/v1/RuntimeFabric": [
+      "runtime-fabric-operator"
+    ],
+    "csi.nec.com/v1/SANStorageCSI": [
+      "sanstoragecsi-operator-bundle"
+    ],
+    "analysis.scaleops.sh/v1/ScaleOps": [
+      "scaleops-operator"
+    ],
+    "sts.silicom.com/v1alpha1/StsConfig": [
+      "silicom-sts-operator"
+    ],
+    "sts.silicom.com/v1alpha1/StsNode": [
+      "silicom-sts-operator"
+    ],
+    "sts.silicom.com/v1alpha1/StsOperatorConfig": [
+      "silicom-sts-operator"
+    ],
+    "operator.smilecdr.com/v1alpha1/Smilecdr": [
+      "smilecdr-operator"
+    ],
+    "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/AgentFunction": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/ApiKeys": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/ConnectorCatalog": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/Console": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/KafkaConnect": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/MqttProxy": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/OxiaCluster": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/OxiaNamespace": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/PFSQLCluster": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/PulsarCoordinator": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/StorageCatalog": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/UniLink": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/UniLinkSchema": [
+      "sn-operator"
+    ],
+    "pulsar.streamnative.io/v1alpha1/PulsarBroker": [
+      "sn-operator"
+    ],
+    "pulsar.streamnative.io/v1alpha1/PulsarBrokerRevision": [
+      "sn-operator"
+    ],
+    "pulsar.streamnative.io/v1alpha1/PulsarFunctionsWorker": [
+      "sn-operator"
+    ],
+    "pulsar.streamnative.io/v1alpha1/PulsarProxy": [
+      "sn-operator"
+    ],
+    "zookeeper.streamnative.io/v1alpha1/ZooKeeperCluster": [
+      "sn-operator"
+    ],
+    "enterprise.splunk.com/v4/ClusterManager": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/ClusterMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/ClusterMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/ClusterMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/IndexerCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/IndexerCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/IndexerCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/IndexerCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/LicenseManager": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/LicenseMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/LicenseMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/LicenseMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/MonitoringConsole": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/MonitoringConsole": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/SearchHeadCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/SearchHeadCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/SearchHeadCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/SearchHeadCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/Standalone": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/Standalone": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/Standalone": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/Standalone": [
+      "splunk-operator"
+    ],
+    "spyre.ibm.com/v1alpha1/SpyreClusterPolicy": [
+      "spyre-operator"
+    ],
+    "spyre.ibm.com/v1alpha1/SpyreNodeState": [
+      "spyre-operator"
+    ],
+    "sriovfec.intel.com/v1/SriovFecClusterConfig": [
+      "sriov-fec"
+    ],
+    "sriovfec.intel.com/v2/SriovFecClusterConfig": [
+      "sriov-fec"
+    ],
+    "sriovfec.intel.com/v1/SriovFecNodeConfig": [
+      "sriov-fec"
+    ],
+    "sriovfec.intel.com/v2/SriovFecNodeConfig": [
+      "sriov-fec"
+    ],
+    "sriovvrb.intel.com/v1/SriovVrbClusterConfig": [
+      "sriov-fec"
+    ],
+    "sriovvrb.intel.com/v1/SriovVrbNodeConfig": [
+      "sriov-fec"
+    ],
+    "airflow.stackable.tech/v1alpha1/AirflowCluster": [
+      "stackable-airflow-operator"
+    ],
+    "authentication.stackable.tech/v1alpha1/AuthenticationClass": [
+      "stackable-commons-operator"
+    ],
+    "s3.stackable.tech/v1alpha1/S3Bucket": [
+      "stackable-commons-operator"
+    ],
+    "s3.stackable.tech/v1alpha1/S3Connection": [
+      "stackable-commons-operator"
+    ],
+    "druid.stackable.tech/v1alpha1/DruidCluster": [
+      "stackable-druid-operator"
+    ],
+    "hbase.stackable.tech/v1alpha1/HbaseCluster": [
+      "stackable-hbase-operator"
+    ],
+    "hdfs.stackable.tech/v1alpha1/HdfsCluster": [
+      "stackable-hdfs-operator"
+    ],
+    "hive.stackable.tech/v1alpha1/HiveCluster": [
+      "stackable-hive-operator"
+    ],
+    "kafka.stackable.tech/v1alpha1/KafkaCluster": [
+      "stackable-kafka-operator"
+    ],
+    "listeners.stackable.tech/v1alpha1/Listener": [
+      "stackable-listener-operator"
+    ],
+    "listeners.stackable.tech/v1alpha1/ListenerClass": [
+      "stackable-listener-operator"
+    ],
+    "listeners.stackable.tech/v1alpha1/PodListeners": [
+      "stackable-listener-operator"
+    ],
+    "nifi.stackable.tech/v1alpha1/NifiCluster": [
+      "stackable-nifi-operator"
+    ],
+    "opa.stackable.tech/v1alpha1/OpaCluster": [
+      "stackable-opa-operator"
+    ],
+    "opensearch.stackable.tech/v1alpha1/OpenSearchCluster": [
+      "stackable-opensearch-operator"
+    ],
+    "secrets.stackable.tech/v1alpha1/SecretClass": [
+      "stackable-secret-operator"
+    ],
+    "secrets.stackable.tech/v1alpha1/TrustStore": [
+      "stackable-secret-operator"
+    ],
+    "spark.stackable.tech/v1alpha1/SparkApplication": [
+      "stackable-spark-operator"
+    ],
+    "spark.stackable.tech/v1alpha1/SparkConnectServer": [
+      "stackable-spark-operator"
+    ],
+    "spark.stackable.tech/v1alpha1/SparkHistoryServer": [
+      "stackable-spark-operator"
+    ],
+    "superset.stackable.tech/v1alpha1/DruidConnection": [
+      "stackable-superset-operator"
+    ],
+    "superset.stackable.tech/v1alpha1/SupersetCluster": [
+      "stackable-superset-operator"
+    ],
+    "trino.stackable.tech/v1alpha1/TrinoCatalog": [
+      "stackable-trino-operator"
+    ],
+    "trino.stackable.tech/v1alpha1/TrinoCluster": [
+      "stackable-trino-operator"
+    ],
+    "zookeeper.stackable.tech/v1alpha1/ZookeeperCluster": [
+      "stackable-zookeeper-operator"
+    ],
+    "zookeeper.stackable.tech/v1alpha1/ZookeeperZnode": [
+      "stackable-zookeeper-operator"
+    ],
+    "stackgres.io/v1/SGBackup": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGCluster": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGConfig": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGDbOps": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGDistributedLogs": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGInstanceProfile": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1beta1/SGObjectStorage": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGPoolingConfig": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGPostgresConfig": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGScript": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGShardedBackup": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1alpha1/SGShardedCluster": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGShardedDbOps": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1alpha1/SGStream": [
+      "stackgres-certified"
+    ],
+    "helm-operator.sumologic.com/v1alpha1/SumologicCollection": [
+      "sumologic-kubernetes-collection-helm-operator"
+    ],
+    "card.synaxg.app.com/v1/SG3Reset": [
+      "synaxg-operator"
+    ],
+    "card.synaxg.app.com/v1/SG3Update": [
+      "synaxg-operator"
+    ],
+    "charts.helm.k8s.io/v1/Xl": [
+      "t8c-certified"
+    ],
+    "charts.helm.k8s.io/v1alpha1/Xl": [
+      "t8c-certified"
+    ],
+    "clients.turbonomic.ibm.com/v1alpha1/TurbonomicClient": [
+      "t8c-tsc-client-certified"
+    ],
+    "clients.turbonomic.ibm.com/v1alpha1/VersionManager": [
+      "t8c-tsc-client-certified"
+    ],
+    "tawon.mantisnet.com/v1alpha1/Directive": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/TopologyAggregator": [
+      "tawon-operator"
+    ],
+    "templates.stakater.com/v1alpha1/ClusterTemplateInstance": [
+      "template-operator"
+    ],
+    "templates.stakater.com/v1alpha1/Template": [
+      "template-operator"
+    ],
+    "templates.stakater.com/v1alpha1/TemplateInstance": [
+      "template-operator"
+    ],
+    "tenantoperator.stakater.com/v1alpha1/Template": [
+      "template-operator",
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1alpha1/TemplateGroupInstance": [
+      "template-operator",
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1alpha1/TemplateInstance": [
+      "template-operator",
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1alpha1/Extensions": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1alpha1/IntegrationConfig": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta1/IntegrationConfig": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta1/Quota": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta2/Tenant": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta3/Tenant": [
+      "tenant-operator"
+    ],
+    "crd.projectcalico.org/v1/BGPConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/BGPPeer": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/BlockAffinity": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/ClusterInformation": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/FelixConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/GlobalNetworkPolicy": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/GlobalNetworkSet": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/HostEndpoint": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMBlock": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMConfig": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMHandle": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPPool": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/KubeControllersConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/NetworkPolicy": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/NetworkSet": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/ImageSet": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/Installation": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/TigeraStatus": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/CalicoNodeStatus": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPReservation": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/APIServer": [
+      "tigera-operator"
+    ],
+    "tm.solution-soft.com/v1alpha1/TimeMachine": [
+      "timemachine-operator"
+    ],
+    "trident.netapp.io/v1/TridentOrchestrator": [
+      "trident-operator"
+    ],
+    "trident.netapp.io/v1/TridentConfigurator": [
+      "trident-operator"
+    ],
+    "tvo.trilio.io/v1/TVOBackupTarget": [
+      "tvo-operator"
+    ],
+    "tvo.trilio.io/v1/TVOControlPlane": [
+      "tvo-operator"
+    ],
+    "ca.broadcom.com/v1alpha1/UniversalMonitoringAgentsAdmin": [
+      "uma-admin-operator"
+    ],
+    "ca.broadcom.com/v1alpha1/UniversalMonitoringAgent": [
+      "uma-operator"
+    ],
+    "ca.broadcom.com1/v1alpha1/UniversalMonitoringAgentsTeam": [
+      "uma-team-operator"
+    ],
+    "storage.vastdata.com/v1/VastCSIDriver": [
+      "vast-csi-operator"
+    ],
+    "storage.vastdata.com/v1/VastCluster": [
+      "vast-csi-operator"
+    ],
+    "storage.vastdata.com/v1/VastStorage": [
+      "vast-csi-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/HCPAuth": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/HCPVaultSecretsApp": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/SecretTransformation": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/VaultAuth": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/VaultAuthGlobal": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/VaultConnection": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/VaultDynamicSecret": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/VaultPKISecret": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/VaultStaticSecret": [
+      "vault-secrets-operator"
+    ],
+    "secrets.hashicorp.com/v1beta1/CSISecrets": [
+      "vault-secrets-operator"
+    ],
+    "installer.venafi.com/v1alpha1/VenafiInstall": [
+      "vcp-operator"
+    ],
+    "vfunction.com/v1/VfunctionServer": [
+      "vfunction-server-operator"
+    ],
+    "operator.victoriametrics.com/v1/VLAgent": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VLCluster": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VLSingle": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VLogs": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAgent": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAlert": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAlertmanager": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAlertmanagerConfig": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VMAnomaly": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAuth": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMCluster": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1alpha1/VMDistributed": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMNodeScrape": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMPodScrape": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMProbe": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMRule": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMScrapeConfig": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMServiceScrape": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMSingle": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMStaticScrape": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMUser": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VTCluster": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VTSingle": [
+      "victoriametrics-operator"
+    ],
+    "webotx.nec.com/v3/ApplicationServer": [
+      "webotx-operator"
+    ],
+    "xcrypt.zettaset.com/v1alpha1/XCrypt": [
+      "xcrypt-operator"
+    ],
+    "csi.hpe.com/v1/XSPC": [
+      "xspc-operator"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixAgent": [
+      "zabbix-operator-certified"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixAgent2": [
+      "zabbix-operator-certified"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixFull": [
+      "zabbix-operator-certified"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixProxyMysql": [
+      "zabbix-operator-certified"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixProxySqlite": [
+      "zabbix-operator-certified"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixServer": [
+      "zabbix-operator-certified"
+    ]
+  },
+  "timestamp": "2026-03-11T12:14:41.907525"
+}

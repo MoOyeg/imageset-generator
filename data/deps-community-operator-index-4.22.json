@@ -1,0 +1,181 @@
+{
+  "dependencies": {
+    "eclipse-che": {
+      "requires_packages": [
+        {
+          "packageName": "devworkspace-operator",
+          "versionRange": ">=0.11.0"
+        }
+      ],
+      "requires_gvks": []
+    }
+  },
+  "gvk_providers": {
+    "ec2.services.k8s.aws/v1alpha1/CapacityReservation": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/DHCPOptions": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/ElasticIPAddress": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/FlowLog": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/Instance": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/InternetGateway": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/LaunchTemplate": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/ManagedPrefixList": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/NATGateway": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/NetworkACL": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/RouteTable": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/SecurityGroup": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/Subnet": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/TransitGateway": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/TransitGatewayVPCAttachment": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/VPC": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/VPCEndpoint": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/VPCEndpointServiceConfiguration": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/VPCPeeringConnection": [
+      "ack-ec2-controller"
+    ],
+    "ecr.services.k8s.aws/v1alpha1/PullThroughCacheRule": [
+      "ack-ecr-controller"
+    ],
+    "ecr.services.k8s.aws/v1alpha1/Repository": [
+      "ack-ecr-controller"
+    ],
+    "ecr.services.k8s.aws/v1alpha1/RepositoryCreationTemplate": [
+      "ack-ecr-controller"
+    ],
+    "eks.services.k8s.aws/v1alpha1/AccessEntry": [
+      "ack-eks-controller"
+    ],
+    "eks.services.k8s.aws/v1alpha1/Addon": [
+      "ack-eks-controller"
+    ],
+    "eks.services.k8s.aws/v1alpha1/Capability": [
+      "ack-eks-controller"
+    ],
+    "eks.services.k8s.aws/v1alpha1/Cluster": [
+      "ack-eks-controller"
+    ],
+    "eks.services.k8s.aws/v1alpha1/FargateProfile": [
+      "ack-eks-controller"
+    ],
+    "eks.services.k8s.aws/v1alpha1/IdentityProviderConfig": [
+      "ack-eks-controller"
+    ],
+    "eks.services.k8s.aws/v1alpha1/Nodegroup": [
+      "ack-eks-controller"
+    ],
+    "eks.services.k8s.aws/v1alpha1/PodIdentityAssociation": [
+      "ack-eks-controller"
+    ],
+    "elbv2.services.k8s.aws/v1alpha1/Listener": [
+      "ack-elbv2-controller"
+    ],
+    "elbv2.services.k8s.aws/v1alpha1/LoadBalancer": [
+      "ack-elbv2-controller"
+    ],
+    "elbv2.services.k8s.aws/v1alpha1/Rule": [
+      "ack-elbv2-controller"
+    ],
+    "elbv2.services.k8s.aws/v1alpha1/TargetGroup": [
+      "ack-elbv2-controller"
+    ],
+    "ssm.services.k8s.aws/v1alpha1/Document": [
+      "ack-ssm-controller"
+    ],
+    "ssm.services.k8s.aws/v1alpha1/Parameter": [
+      "ack-ssm-controller"
+    ],
+    "ssm.services.k8s.aws/v1alpha1/PatchBaseline": [
+      "ack-ssm-controller"
+    ],
+    "ssm.services.k8s.aws/v1alpha1/ResourceDataSync": [
+      "ack-ssm-controller"
+    ],
+    "org.eclipse.che/v1/CheCluster": [
+      "eclipse-che"
+    ],
+    "org.eclipse.che/v2/CheCluster": [
+      "eclipse-che"
+    ],
+    "fence-agents-remediation.medik8s.io/v1alpha1/FenceAgentsRemediation": [
+      "fence-agents-remediation"
+    ],
+    "fence-agents-remediation.medik8s.io/v1alpha1/FenceAgentsRemediationTemplate": [
+      "fence-agents-remediation"
+    ],
+    "networking.turbosimone.com/v1alpha1/NetworkPolicy": [
+      "fqdn-egress-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/Addon": [
+      "konveyor-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/Extension": [
+      "konveyor-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/Schema": [
+      "konveyor-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/Tackle": [
+      "konveyor-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/Task": [
+      "konveyor-operator"
+    ],
+    "machine-deletion-remediation.medik8s.io/v1alpha1/MachineDeletionRemediation": [
+      "machine-deletion-remediation"
+    ],
+    "machine-deletion-remediation.medik8s.io/v1alpha1/MachineDeletionRemediationTemplate": [
+      "machine-deletion-remediation"
+    ],
+    "remediation.medik8s.io/v1alpha1/NodeHealthCheck": [
+      "node-healthcheck-operator"
+    ],
+    "nodemaintenance.medik8s.io/v1beta1/NodeMaintenance": [
+      "node-maintenance-operator"
+    ],
+    "self-node-remediation.medik8s.io/v1alpha1/SelfNodeRemediation": [
+      "self-node-remediation"
+    ],
+    "self-node-remediation.medik8s.io/v1alpha1/SelfNodeRemediationConfig": [
+      "self-node-remediation"
+    ],
+    "self-node-remediation.medik8s.io/v1alpha1/SelfNodeRemediationTemplate": [
+      "self-node-remediation"
+    ]
+  },
+  "timestamp": "2026-03-11T12:17:08.692329"
+}

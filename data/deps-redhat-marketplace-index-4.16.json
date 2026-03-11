@@ -1,0 +1,561 @@
+{
+  "dependencies": {
+    "instana-agent-operator-rhmp": {
+      "requires_packages": [
+        {
+          "packageName": "cert-manager",
+          "versionRange": ">1.6.1"
+        }
+      ],
+      "requires_gvks": []
+    }
+  },
+  "gvk_providers": {
+    "abot.com/v3/Abot": [
+      "abot-operator-rhmp"
+    ],
+    "abot.com/v2/Abot": [
+      "abot-operator-rhmp"
+    ],
+    "asdb.aerospike.com/v1/AerospikeCluster": [
+      "aerospike-kubernetes-operator-rhmp"
+    ],
+    "asdb.aerospike.com/v1beta1/AerospikeCluster": [
+      "aerospike-kubernetes-operator-rhmp"
+    ],
+    "asdb.aerospike.com/v1beta1/AerospikeBackup": [
+      "aerospike-kubernetes-operator-rhmp"
+    ],
+    "asdb.aerospike.com/v1beta1/AerospikeBackupService": [
+      "aerospike-kubernetes-operator-rhmp"
+    ],
+    "asdb.aerospike.com/v1beta1/AerospikeRestore": [
+      "aerospike-kubernetes-operator-rhmp"
+    ],
+    "aikit.intel/v1alpha1/AIKitContainer": [
+      "aikit-operator-rhmp"
+    ],
+    "anzo.cambridgesemantics.com/v1/Anzo": [
+      "anzo-operator-rhmp"
+    ],
+    "anzograph.clusters.cambridgesemantics.com/v2/AnzoGraph": [
+      "anzograph-operator-rhmp"
+    ],
+    "anzounstructured.clusters.cambridgesemantics.com/v1/AnzoUnstructured": [
+      "anzounstructured-operator-rhmp"
+    ],
+    "charts.cloudbees.com/v1alpha1/CloudBeesCI": [
+      "cloudbees-ci-rhmp"
+    ],
+    "crdb.cockroachlabs.com/v1alpha1/CrdbCluster": [
+      "cockroachdb-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseAutoscaler": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseBackup": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseBackupRestore": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseBucket": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseCluster": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseCollection": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseCollectionGroup": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseEphemeralBucket": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseGroup": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseMemcachedBucket": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseMigrationReplication": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseReplication": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseRoleBinding": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseScope": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseScopeGroup": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseUser": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "couchbase.com/v2/CouchbaseEncryptionKey": [
+      "couchbase-enterprise-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogAgent": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v2alpha1/DatadogAgent": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogMetric": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogMonitor": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogAgentProfile": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogDashboard": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogPodAutoscaler": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogSLO": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogGenericResource": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha2/DatadogPodAutoscaler": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "datadoghq.com/v1alpha1/DatadogAgentInternal": [
+      "datadog-operator-certified-rhmp"
+    ],
+    "dynatrace.com/v1beta1/DynaKube": [
+      "dynatrace-operator-rhmp"
+    ],
+    "dynatrace.com/v1beta2/DynaKube": [
+      "dynatrace-operator-rhmp"
+    ],
+    "dynatrace.com/v1beta3/DynaKube": [
+      "dynatrace-operator-rhmp"
+    ],
+    "dynatrace.com/v1alpha1/EdgeConnect": [
+      "dynatrace-operator-rhmp"
+    ],
+    "dynatrace.com/v1alpha2/EdgeConnect": [
+      "dynatrace-operator-rhmp"
+    ],
+    "dynatrace.com/v1beta4/DynaKube": [
+      "dynatrace-operator-rhmp"
+    ],
+    "dynatrace.com/v1beta5/DynaKube": [
+      "dynatrace-operator-rhmp"
+    ],
+    "dynatrace.com/v1beta6/DynaKube": [
+      "dynatrace-operator-rhmp"
+    ],
+    "entando.org/v1/EntandoApp": [
+      "entando-k8s-operator-rhmp"
+    ],
+    "entando.org/v1/EntandoAppPluginLink": [
+      "entando-k8s-operator-rhmp"
+    ],
+    "entando.org/v1/EntandoClusterInfrastructure": [
+      "entando-k8s-operator-rhmp"
+    ],
+    "entando.org/v1/EntandoCompositeApp": [
+      "entando-k8s-operator-rhmp"
+    ],
+    "entando.org/v1/EntandoDatabaseService": [
+      "entando-k8s-operator-rhmp"
+    ],
+    "entando.org/v1/EntandoDeBundle": [
+      "entando-k8s-operator-rhmp"
+    ],
+    "entando.org/v1/EntandoKeycloakServer": [
+      "entando-k8s-operator-rhmp"
+    ],
+    "entando.org/v1/EntandoPlugin": [
+      "entando-k8s-operator-rhmp"
+    ],
+    "helm.toolkit.fluxcd.io/v2beta1/HelmRelease": [
+      "flux"
+    ],
+    "image.toolkit.fluxcd.io/v1beta1/ImagePolicy": [
+      "flux"
+    ],
+    "image.toolkit.fluxcd.io/v1beta2/ImagePolicy": [
+      "flux"
+    ],
+    "image.toolkit.fluxcd.io/v1beta1/ImageRepository": [
+      "flux"
+    ],
+    "image.toolkit.fluxcd.io/v1beta2/ImageRepository": [
+      "flux"
+    ],
+    "image.toolkit.fluxcd.io/v1beta1/ImageUpdateAutomation": [
+      "flux"
+    ],
+    "kustomize.toolkit.fluxcd.io/v1/Kustomization": [
+      "flux"
+    ],
+    "kustomize.toolkit.fluxcd.io/v1beta1/Kustomization": [
+      "flux"
+    ],
+    "kustomize.toolkit.fluxcd.io/v1beta2/Kustomization": [
+      "flux"
+    ],
+    "notification.toolkit.fluxcd.io/v1beta1/Alert": [
+      "flux"
+    ],
+    "notification.toolkit.fluxcd.io/v1beta2/Alert": [
+      "flux"
+    ],
+    "notification.toolkit.fluxcd.io/v1beta1/Provider": [
+      "flux"
+    ],
+    "notification.toolkit.fluxcd.io/v1beta2/Provider": [
+      "flux"
+    ],
+    "notification.toolkit.fluxcd.io/v1/Receiver": [
+      "flux"
+    ],
+    "notification.toolkit.fluxcd.io/v1beta1/Receiver": [
+      "flux"
+    ],
+    "notification.toolkit.fluxcd.io/v1beta2/Receiver": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta1/Bucket": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta2/Bucket": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1/GitRepository": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta1/GitRepository": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta2/GitRepository": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta1/HelmChart": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta2/HelmChart": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta1/HelmRepository": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta2/HelmRepository": [
+      "flux"
+    ],
+    "source.toolkit.fluxcd.io/v1beta2/OCIRepository": [
+      "flux"
+    ],
+    "instana.io/v1/InstanaAgent": [
+      "instana-agent-operator-rhmp"
+    ],
+    "instana.io/v1beta1/InstanaAgent": [
+      "instana-agent-operator-rhmp"
+    ],
+    "instana.io/v1/InstanaAgentRemote": [
+      "instana-agent-operator-rhmp"
+    ],
+    "iomesh.com/v1alpha1/IOMeshCluster": [
+      "iomesh-operator-rhmp"
+    ],
+    "app.joget.com/v1alpha1/JogetDX": [
+      "joget-dx-operator-rhmp"
+    ],
+    "app.joget.com/v1alpha1/JogetDX8": [
+      "joget-dx8-operator-rhmp"
+    ],
+    "apik10.kasten.io/v1alpha1/K10": [
+      "k10-kasten-operator-rhmp"
+    ],
+    "apik10.kasten.io/v1alpha1/K10restore": [
+      "k10-kasten-operator-rhmp"
+    ],
+    "core.k8s.kubemq.io/v1alpha1/KubemqCluster": [
+      "kubemq-operator-marketplace-rhmp"
+    ],
+    "core.k8s.kubemq.io/v1beta1/KubemqCluster": [
+      "kubemq-operator-marketplace-rhmp"
+    ],
+    "core.k8s.kubemq.io/v1alpha1/KubemqConnector": [
+      "kubemq-operator-marketplace-rhmp"
+    ],
+    "core.k8s.kubemq.io/v1beta1/KubemqConnector": [
+      "kubemq-operator-marketplace-rhmp"
+    ],
+    "core.k8s.kubemq.io/v1alpha1/KubemqDashboard": [
+      "kubemq-operator-marketplace-rhmp"
+    ],
+    "core.k8s.kubemq.io/v1beta1/KubemqDashboard": [
+      "kubemq-operator-marketplace-rhmp"
+    ],
+    "charts.helm.k8s.io/v1/Kubeturbo": [
+      "kubeturbo-certified-rhmp"
+    ],
+    "charts.helm.k8s.io/v1alpha1/Kubeturbo": [
+      "kubeturbo-certified-rhmp"
+    ],
+    "linstor.linbit.com/v1/LinstorCSIDriver": [
+      "linstor-operator-rhmp"
+    ],
+    "linstor.linbit.com/v1/LinstorController": [
+      "linstor-operator-rhmp"
+    ],
+    "linstor.linbit.com/v1/LinstorSatelliteSet": [
+      "linstor-operator-rhmp"
+    ],
+    "game.marketplace.redhat.com/v1/Arcade": [
+      "marketplace-games-operator-rhmp"
+    ],
+    "modelbuilder.com/v1alpha1/Modelbuilder": [
+      "model-builder-for-vision-certified-rhmp"
+    ],
+    "modelbuilder.com/v1alpha1/ModelbuilderAWS": [
+      "model-builder-for-vision-certified-rhmp"
+    ],
+    "apm.neuvector.com/v1alpha1/Neuvector": [
+      "neuvector-certified-operator-rhmp"
+    ],
+    "intel.com/v1alpha1/ModelServer": [
+      "ovms-operator-rhmp"
+    ],
+    "intel.com/v1alpha1/Notebook": [
+      "ovms-operator-rhmp"
+    ],
+    "aiml.pachyderm.com/v1beta1/Pachyderm": [
+      "pachyderm-operator-rhmp"
+    ],
+    "aiml.pachyderm.com/v1beta1/PachydermExport": [
+      "pachyderm-operator-rhmp"
+    ],
+    "aiml.pachyderm.com/v1beta1/PachydermImport": [
+      "pachyderm-operator-rhmp"
+    ],
+    "pgv2.percona.com/v2/PerconaPGBackup": [
+      "percona-postgresql-operator-certified-rhmp"
+    ],
+    "pgv2.percona.com/v2/PerconaPGCluster": [
+      "percona-postgresql-operator-certified-rhmp"
+    ],
+    "pgv2.percona.com/v2/PerconaPGRestore": [
+      "percona-postgresql-operator-certified-rhmp"
+    ],
+    "pgv2.percona.com/v2/PerconaPGUpgrade": [
+      "percona-postgresql-operator-certified-rhmp"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/CrunchyBridgeCluster": [
+      "percona-postgresql-operator-certified-rhmp"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PGAdmin": [
+      "percona-postgresql-operator-certified-rhmp"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PGUpgrade": [
+      "percona-postgresql-operator-certified-rhmp"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PostgresCluster": [
+      "percona-postgresql-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-10-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-11-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-12-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-2-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-3-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-4-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-5-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-6-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-7-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-8-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1-9-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBBackup": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
+      "percona-server-mongodb-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1/PerconaXtraDBClusterBackup": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1/PerconaXtraDBClusterRestore": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-10-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-11-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-2-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-3-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-4-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-5-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-6-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-7-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-8-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "pxc.percona.com/v1-9-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified-rhmp"
+    ],
+    "app.redislabs.com/v1/RedisEnterpriseCluster": [
+      "redis-enterprise-operator-cert-rhmp"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseCluster": [
+      "redis-enterprise-operator-cert-rhmp"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseDatabase": [
+      "redis-enterprise-operator-cert-rhmp"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseActiveActiveDatabase": [
+      "redis-enterprise-operator-cert-rhmp"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseRemoteCluster": [
+      "redis-enterprise-operator-cert-rhmp"
+    ],
+    "machinelearning.seldon.io/v1alpha1/SeldonDeploy": [
+      "seldon-deploy-operator-rhmp"
+    ],
+    "stackgres.io/v1/SGBackup": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGCluster": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGConfig": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGDbOps": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGDistributedLogs": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGInstanceProfile": [
+      "stackgres"
+    ],
+    "stackgres.io/v1beta1/SGObjectStorage": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGPoolingConfig": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGPostgresConfig": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGScript": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGShardedBackup": [
+      "stackgres"
+    ],
+    "stackgres.io/v1alpha1/SGShardedCluster": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGShardedDbOps": [
+      "stackgres"
+    ],
+    "stackgres.io/v1alpha1/SGStream": [
+      "stackgres"
+    ],
+    "charts.starburstdata.com/v1alpha1/StarburstEnterprise": [
+      "starburst-enterprise-helm-operator-paygo-rhmp",
+      "starburst-enterprise-helm-operator-rhmp"
+    ],
+    "charts.starburstdata.com/v1alpha1/StarburstHive": [
+      "starburst-enterprise-helm-operator-paygo-rhmp",
+      "starburst-enterprise-helm-operator-rhmp"
+    ],
+    "helm-operator.sumologic.com/v1alpha1/SumologicCollection": [
+      "sumologic-kubernetes-collection-helm-operator-rhmp"
+    ],
+    "charts.helm.k8s.io/v1/Xl": [
+      "t8c-certified-rhmp"
+    ],
+    "charts.helm.k8s.io/v1alpha1/Xl": [
+      "t8c-certified-rhmp"
+    ],
+    "tm.solution-soft.com/v1alpha1/TimeMachine": [
+      "timemachine-operator-rhmp"
+    ],
+    "vfunction.com/v1/VfunctionServer": [
+      "vfunction-server-operator-rhmp"
+    ],
+    "xcrypt.zettaset.com/v1alpha1/XCrypt": [
+      "xcrypt-operator-rhmp"
+    ],
+    "yugabyte.com/v1alpha1/YBPlatform": [
+      "yugabyte-platform-operator-bundle-rhmp"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixAgent": [
+      "zabbix-operator-certified-rhmp"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixAgent2": [
+      "zabbix-operator-certified-rhmp"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixFull": [
+      "zabbix-operator-certified-rhmp"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixProxyMysql": [
+      "zabbix-operator-certified-rhmp"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixProxySqlite": [
+      "zabbix-operator-certified-rhmp"
+    ],
+    "kubernetes.zabbix.com/v1alpha1/ZabbixServer": [
+      "zabbix-operator-certified-rhmp"
+    ]
+  },
+  "timestamp": "2026-03-11T12:21:21.436833"
+}
