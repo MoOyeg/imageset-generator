@@ -1672,6 +1672,17 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773243388.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -2643,6 +2654,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.3-5",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "keywords": [
         "kafka",
@@ -3017,6 +3045,26 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.3-10",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.3-12",
       "keywords": [
         "kafka",
         "messaging",
@@ -10351,6 +10399,20 @@
     {
       "package": "cluster-logging",
       "name": "cluster-logging",
+      "version": "6.2.9",
+      "keywords": [
+        "logging",
+        "observability",
+        "loki",
+        "vector",
+        "otlp"
+      ],
+      "description": "The Red Hat OpenShift Logging Operator for OCP provides a means for configuring and managing log collection and forwarding.",
+      "channel": "stable-6.2"
+    },
+    {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
       "version": "6.3.0",
       "keywords": [
         "logging",
@@ -11749,6 +11811,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.13.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.13.11",
       "keywords": [
         "open source",
         "containers",
@@ -23440,6 +23514,23 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.17.43",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.17.5",
       "keywords": [
         "KubeVirt",
@@ -24093,6 +24184,17 @@
       "channel": "stable"
     },
     {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202603041417",
+      "keywords": [
+        "storage",
+        "local storage"
+      ],
+      "description": "Configure and use local storage volumes.",
+      "channel": "stable"
+    },
+    {
       "package": "logic-operator",
       "name": "logic-operator",
       "version": "1.37.0",
@@ -24546,6 +24648,17 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "6.2.8",
+      "keywords": [
+        "logging",
+        "loki"
+      ],
+      "description": "The Loki Operator for OCP provides a means for configuring and managing a Loki stack for cluster logging.\\n## Prerequisites and Requirements\\n### Loki Operator Namespace\\nThe Loki Operator must be deployed to the global operator group namespace `openshift-operators-redhat`.\\n### Memory Considerations\\nLoki is a memory intensive application.  The initial\\nset of OCP nodes may not be large enough to support the Loki stack.  Additional OCP nodes must be added\\nto the OCP cluster if you desire to run with the recommended (or better) memory.\\n",
+      "channel": "stable-6.2"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.2.9",
       "keywords": [
         "logging",
         "loki"
@@ -26225,6 +26338,18 @@
       "package": "model-validation-operator",
       "name": "model-validation-operator",
       "version": "0.0.2",
+      "keywords": [
+        "model signing",
+        "signing",
+        "ai"
+      ],
+      "description": "",
+      "channel": "tech-preview"
+    },
+    {
+      "package": "model-validation-operator",
+      "name": "model-validation-operator",
+      "version": "0.0.3",
       "keywords": [
         "model signing",
         "signing",
@@ -28134,6 +28259,17 @@
       ],
       "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
       "channel": "release-1.6"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.7.0",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.7"
     },
     {
       "package": "nbde-tang-server",
@@ -37732,6 +37868,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.13.11",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.13.2",
       "keywords": [
         "registry",
@@ -39317,6 +39465,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.13.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.13.11",
       "keywords": [
         "open source",
         "containers",
@@ -46143,6 +46303,17 @@
       "channel": "fast"
     },
     {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.9.1",
+      "keywords": [
+        "Backstage",
+        "RHDH"
+      ],
+      "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins and configuration settings, supports use of an external database, and can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
+      "channel": "fast"
+    },
+    {
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "1.20.1-8",
@@ -49727,6 +49898,19 @@
       "package": "runtimes-inventory-operator",
       "name": "runtimes-inventory-operator",
       "version": "1.0.0",
+      "keywords": [
+        "insights",
+        "java",
+        "runtimes",
+        "red hat"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "runtimes-inventory-operator",
+      "name": "runtimes-inventory-operator",
+      "version": "1.0.1",
       "keywords": [
         "insights",
         "java",
@@ -55724,7 +55908,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4035,
+  "count": 4049,
   "source": "opm",
-  "timestamp": "2026-03-10T06:41:10.763244"
+  "timestamp": "2026-03-13T06:41:55.855401"
 }

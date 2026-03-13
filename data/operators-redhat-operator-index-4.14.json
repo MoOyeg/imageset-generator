@@ -997,6 +997,12 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773243388.p",
+      "channel": "7.13.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -1341,6 +1347,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.3-5",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "channel": "amq-streams-3.0.x"
     },
@@ -1462,6 +1474,12 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.3-10",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.3-12",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -4141,6 +4159,12 @@
       "channel": "stable"
     },
     {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "4.14.2",
+      "channel": "stable"
+    },
+    {
       "package": "cluster-logging",
       "name": "cluster-logging",
       "version": "5.7.0",
@@ -5242,6 +5266,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.13.10",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.13.11",
       "channel": "stable-3.13"
     },
     {
@@ -6519,7 +6549,37 @@
     {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
+      "version": "0.7.8",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
       "version": "0.7.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.11",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.12",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.13",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.14",
       "channel": "alpha"
     },
     {
@@ -10636,6 +10696,12 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.14.0-202602101314",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202603050119",
       "channel": "stable"
     },
     {
@@ -15087,6 +15153,18 @@
     {
       "package": "openshift-builds-operator",
       "name": "openshift-builds-operator",
+      "version": "1.4.0",
+      "channel": "builds-1.4"
+    },
+    {
+      "package": "openshift-builds-operator",
+      "name": "openshift-builds-operator",
+      "version": "1.4.1",
+      "channel": "builds-1.4"
+    },
+    {
+      "package": "openshift-builds-operator",
+      "name": "openshift-builds-operator",
       "version": "1.5.0",
       "channel": "builds-1.5"
     },
@@ -16953,6 +17031,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.13.11",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.13.2",
       "channel": "stable-3.13"
     },
@@ -17752,6 +17836,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.13.10",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.13.11",
       "channel": "stable-3.13"
     },
     {
@@ -18904,6 +18994,12 @@
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.3.7",
+      "channel": "stable-1.3"
+    },
+    {
+      "package": "redhat-oadp-operator",
+      "name": "redhat-oadp-operator",
+      "version": "1.3.8",
       "channel": "stable-1.3"
     },
     {
@@ -21166,6 +21262,12 @@
       "package": "runtimes-inventory-operator",
       "name": "runtimes-inventory-operator",
       "version": "1.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "runtimes-inventory-operator",
+      "name": "runtimes-inventory-operator",
+      "version": "1.0.1",
       "channel": "stable"
     },
     {
@@ -24037,7 +24139,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4006,
+  "count": 4023,
   "source": "opm",
-  "timestamp": "2026-03-10T06:32:22.943216"
+  "timestamp": "2026-03-13T06:32:12.176068"
 }

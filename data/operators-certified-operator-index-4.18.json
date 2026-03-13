@@ -3028,7 +3028,47 @@
     {
       "package": "conjur-follower-operator",
       "name": "conjur-follower-operator",
+      "version": "2.7.1",
+      "keywords": [
+        "credential",
+        "cyber",
+        "cyberark",
+        "conjur",
+        "enterprise",
+        "management",
+        "password",
+        "secret",
+        "secrets management",
+        "security",
+        "vault"
+      ],
+      "description": "",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
       "version": "2.8.1",
+      "keywords": [
+        "credential",
+        "cyber",
+        "cyberark",
+        "conjur",
+        "enterprise",
+        "management",
+        "password",
+        "secret",
+        "secrets management",
+        "security",
+        "vault"
+      ],
+      "description": "",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.8.2",
       "keywords": [
         "credential",
         "cyber",
@@ -3264,6 +3304,26 @@
       ],
       "description": "",
       "channel": "v6.2"
+    },
+    {
+      "package": "cpd-platform-operator",
+      "name": "cpd-platform-operator",
+      "version": "6.4.0",
+      "keywords": [
+        "Cloud Pak",
+        "Data",
+        "Analytics",
+        "IBM",
+        "AI",
+        "Machine Learning",
+        "Cloud Pak for Data",
+        "Auto AI",
+        "Db2",
+        "Watson",
+        "Data Governance"
+      ],
+      "description": "",
+      "channel": "v6.4"
     },
     {
       "package": "crunchy-postgres-operator",
@@ -3827,6 +3887,19 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.23.1",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.24.0",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -5190,6 +5263,17 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.12.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -5476,6 +5560,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.9.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.9.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -6320,7 +6418,7 @@
     {
       "package": "hpe-csi-operator",
       "name": "hpe-csi-operator",
-      "version": "3.0.2",
+      "version": "3.1.0",
       "keywords": [
         "HPE",
         "HPE CSI",
@@ -9084,6 +9182,16 @@
       "package": "linstor-operator",
       "name": "linstor-operator",
       "version": "2.10.4",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.5",
       "keywords": [
         "storage"
       ],
@@ -12020,7 +12128,7 @@
     {
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "keywords": [
         "rebellions",
         "ai",
@@ -12191,6 +12299,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-38.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.4-9.0",
       "keywords": [
         "redislabs",
@@ -12246,7 +12368,7 @@
         "cache"
       ],
       "description": "",
-      "channel": "7.8.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -12515,6 +12637,21 @@
       "package": "runtime-fabric-operator",
       "name": "runtime-fabric-operator",
       "version": "3.0.1",
+      "keywords": [
+        "operator",
+        "agent",
+        "rtf",
+        "runtime",
+        "fabric",
+        "mulesoft"
+      ],
+      "description": "Runtime Fabric Operator Application from Mulesoft",
+      "channel": "alpha"
+    },
+    {
+      "package": "runtime-fabric-operator",
+      "name": "runtime-fabric-operator",
+      "version": "3.0.43",
       "keywords": [
         "operator",
         "agent",
@@ -13004,6 +13141,19 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.28.7",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.8",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -13801,13 +13951,13 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.3",
+      "version": "1.4.4",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "stable"
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -15058,7 +15208,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1391,
+  "count": 1401,
   "source": "opm",
-  "timestamp": "2026-03-10T06:43:05.960909"
+  "timestamp": "2026-03-13T06:43:50.881616"
 }

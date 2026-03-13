@@ -32,6 +32,26 @@
       ],
       "requires_gvks": []
     },
+    "linstor-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "PodMonitor",
+          "version": "v1"
+        },
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "PrometheusRule",
+          "version": "v1"
+        },
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "ServiceMonitor",
+          "version": "v1"
+        }
+      ]
+    },
     "openshift-fusion-access-operator": {
       "requires_packages": [
         {
@@ -888,6 +908,18 @@
     "storage.lightbitslabs.com/v1alpha1/Cluster": [
       "lightbits-operator"
     ],
+    "piraeus.io/v1/LinstorCluster": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorNodeConnection": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorSatellite": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorSatelliteConfiguration": [
+      "linstor-operator"
+    ],
     "enterprise.mariadb.com/v1alpha1/Backup": [
       "mariadb-enterprise-operator"
     ],
@@ -1628,5 +1660,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-11T12:13:54.920760"
+  "timestamp": "2026-03-13T06:47:58.700028"
 }

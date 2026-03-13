@@ -925,6 +925,12 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773243388.p",
+      "channel": "7.13.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -1269,6 +1275,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.3-5",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "channel": "amq-streams-3.0.x"
     },
@@ -1390,6 +1402,12 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.3-10",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.3-12",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -4663,6 +4681,12 @@
       "channel": "stable-6.2"
     },
     {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
+      "version": "6.2.9",
+      "channel": "stable-6.2"
+    },
+    {
       "package": "cluster-observability-operator",
       "name": "cluster-observability-operator",
       "version": "1.0.0",
@@ -5338,6 +5362,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.13.10",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.13.11",
       "channel": "stable-3.13"
     },
     {
@@ -6605,6 +6635,48 @@
       "name": "datagrid",
       "version": "8.5.9",
       "channel": "stable"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.5",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.8",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.11",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.12",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.13",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.14",
+      "channel": "alpha"
     },
     {
       "package": "designate-operator",
@@ -11275,6 +11347,12 @@
       "channel": "stable"
     },
     {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202603101354",
+      "channel": "stable"
+    },
+    {
       "package": "logic-operator",
       "name": "logic-operator",
       "version": "1.37.0",
@@ -11614,6 +11692,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "6.2.8",
+      "channel": "stable-6.2"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.2.9",
       "channel": "stable-6.2"
     },
     {
@@ -12448,6 +12532,12 @@
       "package": "model-validation-operator",
       "name": "model-validation-operator",
       "version": "0.0.2",
+      "channel": "tech-preview"
+    },
+    {
+      "package": "model-validation-operator",
+      "name": "model-validation-operator",
+      "version": "0.0.3",
       "channel": "tech-preview"
     },
     {
@@ -13505,6 +13595,12 @@
       "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.1",
       "channel": "release-1.6"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.7.0",
+      "channel": "release-1.7"
     },
     {
       "package": "netobserv-operator",
@@ -18543,6 +18639,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.13.11",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.13.2",
       "channel": "stable-3.13"
     },
@@ -19342,6 +19444,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.13.10",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.13.11",
       "channel": "stable-3.13"
     },
     {
@@ -22069,6 +22177,12 @@
       "channel": "fast"
     },
     {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.9.1",
+      "channel": "fast"
+    },
+    {
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "1.20.1-8",
@@ -23182,6 +23296,12 @@
       "package": "runtimes-inventory-operator",
       "name": "runtimes-inventory-operator",
       "version": "1.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "runtimes-inventory-operator",
+      "name": "runtimes-inventory-operator",
+      "version": "1.0.1",
       "channel": "stable"
     },
     {
@@ -26389,7 +26509,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4398,
+  "count": 4418,
   "source": "opm",
-  "timestamp": "2026-03-10T06:38:53.117902"
+  "timestamp": "2026-03-13T06:39:17.625024"
 }

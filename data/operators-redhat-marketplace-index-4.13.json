@@ -381,6 +381,12 @@
     {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
+      "version": "1.24.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
       "version": "1.3.0",
       "channel": "stable"
     },
@@ -1291,6 +1297,12 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.4",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace-rhmp",
       "name": "kubemq-operator-marketplace-rhmp",
       "version": "1.7.8",
@@ -1879,7 +1891,7 @@
       "channel": "lts"
     }
   ],
-  "count": 313,
+  "count": 315,
   "source": "opm",
-  "timestamp": "2026-03-10T06:30:59.267071"
+  "timestamp": "2026-03-13T06:30:48.424151"
 }
