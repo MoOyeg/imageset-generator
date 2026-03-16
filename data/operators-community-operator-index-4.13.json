@@ -1189,6 +1189,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-athena-controller",
+      "name": "ack-athena-controller",
+      "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-bedrock-controller",
       "name": "ack-bedrock-controller",
       "version": "0.1.0",
@@ -4101,6 +4107,12 @@
     {
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
+      "version": "1.12.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -4630,6 +4642,12 @@
       "package": "ack-elasticache-controller",
       "name": "ack-elasticache-controller",
       "version": "1.3.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
+      "version": "1.3.4",
       "channel": "alpha"
     },
     {
@@ -8911,6 +8929,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.7.7",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-recyclebin-controller",
       "name": "ack-recyclebin-controller",
       "version": "0.0.1",
@@ -9340,6 +9364,12 @@
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
+      "version": "1.2.2",
       "channel": "alpha"
     },
     {
@@ -10027,6 +10057,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-sagemaker-controller",
+      "name": "ack-sagemaker-controller",
+      "version": "1.7.3",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "0.0.1",
@@ -10600,6 +10636,12 @@
       "package": "ack-sfn-controller",
       "name": "ack-sfn-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sfn-controller",
+      "name": "ack-sfn-controller",
+      "version": "1.2.2",
       "channel": "alpha"
     },
     {
@@ -11704,6 +11746,12 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.7",
+      "channel": "3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.0",
       "channel": "3.x"
     },
     {
@@ -16521,6 +16569,12 @@
     {
       "package": "flux-operator",
       "name": "flux-operator",
+      "version": "0.44.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
       "version": "0.8.0",
       "channel": "stable"
     },
@@ -18700,6 +18754,12 @@
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.5.3",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.4",
       "channel": "stable"
     },
     {
@@ -21730,6 +21790,12 @@
       "package": "mariadb-operator",
       "name": "mariadb-operator",
       "version": "25.8.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "mariadb-operator",
+      "name": "mariadb-operator",
+      "version": "26.3.0",
       "channel": "alpha"
     },
     {
@@ -25252,6 +25318,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.10",
+      "channel": "stable-3.13"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.13.11",
       "channel": "stable-3.13"
     },
     {
@@ -33343,7 +33415,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5557,
+  "count": 5569,
   "source": "opm",
-  "timestamp": "2026-03-13T06:30:21.089372"
+  "timestamp": "2026-03-16T06:30:01.987221"
 }

@@ -1957,6 +1957,12 @@
       "channel": "v5"
     },
     {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.7",
+      "channel": "v5"
+    },
+    {
       "package": "cte-k8s-operator",
       "name": "cte-k8s-operator",
       "version": "1.7.8",
@@ -4875,7 +4881,7 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.20-beta.1",
+      "version": "8.19.20-beta.2",
       "channel": "beta"
     },
     {
@@ -7065,6 +7071,12 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.28.11",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.28.3",
       "channel": "stable-v1"
     },
@@ -8265,7 +8277,7 @@
     {
       "package": "tvo-operator",
       "name": "tvo-operator",
-      "version": "6.1.11",
+      "version": "6.1.12",
       "channel": "6.1.x"
     },
     {
@@ -8815,6 +8827,12 @@
       "channel": "stable"
     },
     {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.9.2",
+      "channel": "stable"
+    },
+    {
       "package": "vfunction-server-operator",
       "name": "vfunction-server-operator",
       "version": "4.5.1961",
@@ -8923,7 +8941,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1487,
+  "count": 1490,
   "source": "opm",
-  "timestamp": "2026-03-13T06:32:52.580910"
+  "timestamp": "2026-03-16T06:32:34.961309"
 }

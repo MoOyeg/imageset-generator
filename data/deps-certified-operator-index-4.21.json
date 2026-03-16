@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "edb-hcp-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "cert-manager.io",
+          "kind": "Certificate",
+          "version": "v1"
+        }
+      ]
+    },
     "ibm-data-reporter-operator": {
       "requires_packages": [],
       "requires_gvks": [
@@ -496,6 +506,15 @@
     ],
     "connect.eda.nokia.com/v1/ConnectNetworkDefinition": [
       "eda-k8s-operator"
+    ],
+    "edbpgai.edb.com/v1alpha1/HybridControlPlane": [
+      "edb-hcp-operator"
+    ],
+    "edbpgai.edb.com/v1alpha1/Postflight": [
+      "edb-hcp-operator"
+    ],
+    "edbpgai.edb.com/v1alpha1/Preflight": [
+      "edb-hcp-operator"
     ],
     "eginnovations.com/v1beta1/EgUniversalAgent": [
       "eginnovations-operator"
@@ -1660,5 +1679,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-13T06:47:58.700028"
+  "timestamp": "2026-03-16T06:48:38.241986"
 }
