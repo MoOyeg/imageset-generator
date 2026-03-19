@@ -877,6 +877,12 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773321292.p",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -999,7 +1005,19 @@
     {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773241632.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
       "version": "7.13.4-opr-1+0.1773243388.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773623530.p",
       "channel": "7.13.x"
     },
     {
@@ -4417,6 +4435,12 @@
       "channel": "stable"
     },
     {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.4.0",
+      "channel": "stable"
+    },
+    {
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.13.0-202304190216",
@@ -4989,6 +5013,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.12.15",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.12.2",
       "channel": "stable-3.12"
     },
@@ -5140,6 +5170,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.14.5",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.14.6",
       "channel": "stable-3.14"
     },
     {
@@ -6322,6 +6358,12 @@
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.5.9",
+      "channel": "stable"
+    },
+    {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.0",
       "channel": "stable"
     },
     {
@@ -8079,6 +8121,12 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1773761219.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "channel": "fuse-apicurito-7.10.x"
     },
@@ -8332,6 +8380,12 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1771828310.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1773829909.p",
       "channel": "7.13.x"
     },
     {
@@ -10165,6 +10219,12 @@
       "channel": "stable"
     },
     {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.37.2",
+      "channel": "stable"
+    },
+    {
       "package": "logic-operator-rhel8",
       "name": "logic-operator-rhel8",
       "version": "1.33.0",
@@ -11578,6 +11638,12 @@
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.8.1",
+      "channel": "release-v1.8"
+    },
+    {
+      "package": "mtc-operator",
+      "name": "mtc-operator",
+      "version": "1.8.14",
       "channel": "release-v1.8"
     },
     {
@@ -15249,6 +15315,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.12.15",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.12.2",
       "channel": "stable-3.12"
     },
@@ -15400,6 +15472,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.14.5",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.14.6",
       "channel": "stable-3.14"
     },
     {
@@ -16059,6 +16137,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.12.15",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.12.2",
       "channel": "stable-3.12"
     },
@@ -16210,6 +16294,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.14.5",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.14.6",
       "channel": "stable-3.14"
     },
     {
@@ -20943,6 +21033,12 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.20.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "channel": "stable"
     },
@@ -21619,7 +21715,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3603,
+  "count": 3619,
   "source": "opm",
-  "timestamp": "2026-03-16T06:28:44.642965"
+  "timestamp": "2026-03-19T06:29:53.249061"
 }

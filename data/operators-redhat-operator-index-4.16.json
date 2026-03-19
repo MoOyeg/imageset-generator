@@ -805,6 +805,12 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773321292.p",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -927,7 +933,19 @@
     {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773241632.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
       "version": "7.13.4-opr-1+0.1773243388.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773623530.p",
       "channel": "7.13.x"
     },
     {
@@ -2014,6 +2032,18 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.4.0+0.1768599045",
+      "channel": "stable-2.4-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.4.0+0.1773412457",
+      "channel": "stable-2.4"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.4.0+0.1773417703",
       "channel": "stable-2.4-cluster-scoped"
     },
     {
@@ -4243,6 +4273,12 @@
       "channel": "stable"
     },
     {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.0.4",
+      "channel": "stable"
+    },
+    {
       "package": "cluster-logging",
       "name": "cluster-logging",
       "version": "5.8.0",
@@ -4732,6 +4768,12 @@
       "package": "cluster-observability-operator",
       "name": "cluster-observability-operator",
       "version": "1.3.1",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.4.0",
       "channel": "stable"
     },
     {
@@ -5301,6 +5343,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.12.15",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.12.2",
       "channel": "stable-3.12"
     },
@@ -5452,6 +5500,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.14.5",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.14.6",
       "channel": "stable-3.14"
     },
     {
@@ -6634,6 +6688,12 @@
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.5.9",
+      "channel": "stable"
+    },
+    {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.0",
       "channel": "stable"
     },
     {
@@ -8421,6 +8481,12 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1773761219.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "channel": "fuse-apicurito-7.10.x"
     },
@@ -8674,6 +8740,12 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1771828310.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1773829909.p",
       "channel": "7.13.x"
     },
     {
@@ -10977,6 +11049,12 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.16.32",
+      "channel": "stable"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.16.4",
       "channel": "stable"
     },
@@ -11038,6 +11116,12 @@
       "package": "lifecycle-agent",
       "name": "lifecycle-agent",
       "version": "4.16.4",
+      "channel": "4.16"
+    },
+    {
+      "package": "lifecycle-agent",
+      "name": "lifecycle-agent",
+      "version": "4.16.5",
       "channel": "4.16"
     },
     {
@@ -11362,6 +11446,12 @@
       "package": "logic-operator",
       "name": "logic-operator",
       "version": "1.37.1",
+      "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.37.2",
       "channel": "stable"
     },
     {
@@ -12862,6 +12952,12 @@
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.8.13",
+      "channel": "release-v1.8"
+    },
+    {
+      "package": "mtc-operator",
+      "name": "mtc-operator",
+      "version": "1.8.14",
       "channel": "release-v1.8"
     },
     {
@@ -17703,6 +17799,12 @@
     {
       "package": "openstack-operator",
       "name": "openstack-operator",
+      "version": "1.0.20",
+      "channel": "stable-v1.0"
+    },
+    {
+      "package": "openstack-operator",
+      "name": "openstack-operator",
       "version": "1.0.3",
       "channel": "stable-v1.0"
     },
@@ -18573,6 +18675,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.12.15",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.12.2",
       "channel": "stable-3.12"
     },
@@ -18724,6 +18832,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.14.5",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.14.6",
       "channel": "stable-3.14"
     },
     {
@@ -19383,6 +19497,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.12.15",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.12.2",
       "channel": "stable-3.12"
     },
@@ -19534,6 +19654,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.14.5",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.14.6",
       "channel": "stable-3.14"
     },
     {
@@ -21591,6 +21717,12 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.8.9",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.9.0",
       "channel": "rhacs-4.10"
     },
@@ -21610,6 +21742,12 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.3",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.9.4",
       "channel": "rhacs-4.10"
     },
     {
@@ -25761,6 +25899,12 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.20.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "channel": "stable"
     },
@@ -26509,7 +26653,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4418,
+  "count": 4442,
   "source": "opm",
-  "timestamp": "2026-03-16T06:39:19.366635"
+  "timestamp": "2026-03-19T06:40:02.977013"
 }

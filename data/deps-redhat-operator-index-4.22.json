@@ -375,6 +375,69 @@
     "updateservice.operator.openshift.io/v1/UpdateService": [
       "cincinnati-operator"
     ],
+    "monitoring.rhobs/v1/Alertmanager": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/AlertmanagerConfig": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/MonitoringStack": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/PodMonitor": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/Probe": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/Prometheus": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/PrometheusAgent": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/PrometheusRule": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/ScrapeConfig": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/ServiceMonitor": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/ThanosQuerier": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/ThanosRuler": [
+      "cluster-observability-operator"
+    ],
+    "observability.openshift.io/v1alpha1/UIPlugin": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha1/Perses": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha1/PersesDashboard": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha1/PersesDatasource": [
+      "cluster-observability-operator"
+    ],
+    "observability.openshift.io/v1alpha1/ObservabilityInstaller": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/Perses": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesDashboard": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesDatasource": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesGlobalDatasource": [
+      "cluster-observability-operator"
+    ],
     "secscan.quay.redhat.com/v1alpha1/ImageManifestVuln": [
       "container-security-operator"
     ],
@@ -1169,5 +1232,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-03-16T06:49:51.773157"
+  "timestamp": "2026-03-19T06:49:29.293799"
 }

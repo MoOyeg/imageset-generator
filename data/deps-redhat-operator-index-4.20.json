@@ -559,6 +559,18 @@
     "observability.openshift.io/v1alpha1/ObservabilityInstaller": [
       "cluster-observability-operator"
     ],
+    "perses.dev/v1alpha2/Perses": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesDashboard": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesDatasource": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesGlobalDatasource": [
+      "cluster-observability-operator"
+    ],
     "operator.autoscaling.openshift.io/v1/ClusterResourceOverride": [
       "clusterresourceoverride"
     ],
@@ -781,9 +793,6 @@
     "nmstate.io/v1beta1/NMState": [
       "kubernetes-nmstate-operator"
     ],
-    "aaq.kubevirt.io/v1alpha1/AAQ": [
-      "kubevirt-hyperconverged"
-    ],
     "cdi.kubevirt.io/v1alpha1/CDI": [
       "kubevirt-hyperconverged"
     ],
@@ -791,6 +800,9 @@
       "kubevirt-hyperconverged"
     ],
     "hco.kubevirt.io/v1beta1/HyperConverged": [
+      "kubevirt-hyperconverged"
+    ],
+    "hostpathprovisioner.kubevirt.io/v1alpha1/HostPathProvisioner": [
       "kubevirt-hyperconverged"
     ],
     "hostpathprovisioner.kubevirt.io/v1beta1/HostPathProvisioner": [
@@ -808,7 +820,19 @@
     "networkaddonsoperator.network.kubevirt.io/v1alpha1/NetworkAddonsConfig": [
       "kubevirt-hyperconverged"
     ],
+    "ssp.kubevirt.io/v1beta1/SSP": [
+      "kubevirt-hyperconverged"
+    ],
+    "tektontasks.kubevirt.io/v1alpha1/TektonTasks": [
+      "kubevirt-hyperconverged"
+    ],
+    "mtq.kubevirt.io/v1alpha1/MTQ": [
+      "kubevirt-hyperconverged"
+    ],
     "ssp.kubevirt.io/v1beta2/SSP": [
+      "kubevirt-hyperconverged"
+    ],
+    "aaq.kubevirt.io/v1alpha1/AAQ": [
       "kubevirt-hyperconverged"
     ],
     "ssp.kubevirt.io/v1beta3/SSP": [
@@ -2280,5 +2304,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-03-16T06:46:57.360767"
+  "timestamp": "2026-03-19T06:46:55.220621"
 }

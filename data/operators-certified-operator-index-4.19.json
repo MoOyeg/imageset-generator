@@ -1803,6 +1803,22 @@
       "channel": "fast"
     },
     {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.29.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
       "version": "4.0.0",
@@ -2165,6 +2181,22 @@
       "channel": "stable-v1"
     },
     {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.29.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
       "package": "cockroachdb-certified",
       "name": "cockroachdb-certified",
       "version": "2.18.3",
@@ -2235,6 +2267,22 @@
       ],
       "description": "",
       "channel": "3.1"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "3.2.0",
+      "keywords": [
+        "Confluent",
+        "Kafka",
+        "Kubernetes",
+        "Private Cloud",
+        "Cloud-Native",
+        "Event Streaming",
+        "Data in Motion"
+      ],
+      "description": "",
+      "channel": "3.2"
     },
     {
       "package": "conjur-follower-operator",
@@ -3396,6 +3444,48 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator",
+      "name": "dxoperator",
+      "version": "1.0.78",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.85",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.86",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -4035,15 +4125,24 @@
       "channel": "stable"
     },
     {
-      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "version": "7.1.6",
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.2.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
       "channel": "stable"
     },
     {
       "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
       "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "version": "8.1.1",
+      "version": "8.1.2",
       "keywords": [
         "postgres",
         "postgresql",
@@ -5106,19 +5205,22 @@
     {
       "package": "infinibox-operator-certified",
       "name": "infinibox-operator-certified",
-      "version": "2.23.0",
-      "channel": "alpha"
-    },
-    {
-      "package": "infinibox-operator-certified",
-      "name": "infinibox-operator-certified",
-      "version": "2.24.0",
-      "channel": "alpha"
-    },
-    {
-      "package": "infinibox-operator-certified",
-      "name": "infinibox-operator-certified",
       "version": "2.25.0",
+      "keywords": [
+        "csi",
+        "nas",
+        "san",
+        "storage",
+        "infinidat",
+        "infinibox"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "infinibox-operator-certified",
+      "name": "infinibox-operator-certified",
+      "version": "2.26.0",
       "keywords": [
         "csi",
         "nas",
@@ -5277,6 +5379,28 @@
       "channel": "fast"
     },
     {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "9.1.2",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "fast"
+    },
+    {
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "8.0.100",
@@ -5394,6 +5518,24 @@
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "9.1.0",
+      "keywords": [
+        "Arctera",
+        "InfoScale",
+        "Licensing",
+        "Arctera Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "9.1.2",
       "keywords": [
         "Arctera",
         "InfoScale",
@@ -5536,6 +5678,25 @@
       "package": "infoscale-sds-operator",
       "name": "infoscale-sds-operator",
       "version": "9.1.0",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "9.1.2",
       "keywords": [
         "Infoscale",
         "Storage foundation",
@@ -7176,45 +7337,6 @@
     {
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
-      "version": "2025.6.3065135",
-      "keywords": [
-        "AI Storage",
-        "S3",
-        "MinIO",
-        "Object Storage"
-      ],
-      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.7.1011319",
-      "keywords": [
-        "AI Storage",
-        "S3",
-        "MinIO",
-        "Object Storage"
-      ],
-      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.8.1184927",
-      "keywords": [
-        "AI Storage",
-        "S3",
-        "MinIO",
-        "Object Storage"
-      ],
-      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
       "version": "2025.8.19175300",
       "keywords": [
         "AI Storage",
@@ -8721,6 +8843,27 @@
       "channel": "candidate"
     },
     {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "2.0.0-rc1",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes (v2) is an operator designed to manage EDB Postgres Distributed (PGD) v6 workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "candidate"
+    },
+    {
       "package": "portworx-certified",
       "name": "portworx-certified",
       "version": "1.10.0",
@@ -10146,6 +10289,45 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.28.12",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.13",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.14",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.28.3",
       "keywords": [
         "vertical scaling",
@@ -11061,7 +11243,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "tenant",
         "stakater",
@@ -11832,6 +12014,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.3",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "webserver-operator",
       "name": "webserver-operator",
       "version": "1.0.35",
@@ -11946,7 +12140,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1132,
+  "count": 1142,
   "source": "opm",
-  "timestamp": "2026-03-16T06:45:39.369258"
+  "timestamp": "2026-03-19T06:45:44.731578"
 }

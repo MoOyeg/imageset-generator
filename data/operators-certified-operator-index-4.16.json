@@ -1495,6 +1495,12 @@
       "channel": "fast"
     },
     {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.29.0-rc1",
+      "channel": "candidate"
+    },
+    {
       "package": "cloudbees-ci",
       "name": "cloudbees-ci",
       "version": "3.34.1",
@@ -1645,6 +1651,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.29.0-rc1",
+      "channel": "candidate"
+    },
+    {
       "package": "cnfv-operator",
       "name": "cnfv-operator",
       "version": "0.0.1",
@@ -1697,6 +1709,12 @@
       "name": "confluent-for-kubernetes",
       "version": "3.1.1",
       "channel": "3.1"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "3.2.0",
+      "channel": "3.2"
     },
     {
       "package": "conjur-follower-operator",
@@ -2635,6 +2653,24 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator",
+      "name": "dxoperator",
+      "version": "1.0.78",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.85",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.86",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -3031,15 +3067,15 @@
       "channel": "stable"
     },
     {
-      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "version": "7.1.6",
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.2.0",
       "channel": "stable"
     },
     {
       "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
       "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "version": "8.1.1",
+      "version": "8.1.2",
       "channel": "stable"
     },
     {
@@ -3895,6 +3931,12 @@
       "channel": "fast"
     },
     {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "9.1.2",
+      "channel": "fast"
+    },
+    {
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "8.0.100",
@@ -3964,6 +4006,12 @@
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "9.1.0",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "9.1.2",
       "channel": "fast"
     },
     {
@@ -4042,6 +4090,12 @@
       "package": "infoscale-sds-operator",
       "name": "infoscale-sds-operator",
       "version": "9.1.0",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "9.1.2",
       "channel": "fast"
     },
     {
@@ -5248,24 +5302,6 @@
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2025.5.12190907",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.6.3065135",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.7.1011319",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.8.1184927",
       "channel": "stable"
     },
     {
@@ -6565,6 +6601,12 @@
       "channel": "candidate"
     },
     {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "2.0.0-rc1",
+      "channel": "candidate"
+    },
+    {
       "package": "pmem-csi-operator-os",
       "name": "pmem-csi-operator-os",
       "version": "1.0.0",
@@ -7395,6 +7437,24 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.28.12",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.13",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.14",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.28.3",
       "channel": "stable-v1"
     },
@@ -8107,6 +8167,12 @@
       "channel": "fast-v2"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "2.40.0-rc19",
+      "channel": "candidate-v2"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -8163,7 +8229,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "channel": "release-1.6"
     },
     {
@@ -8773,6 +8839,12 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.3",
+      "channel": "beta"
+    },
+    {
       "package": "webotx-operator",
       "name": "webotx-operator",
       "version": "11.11.0",
@@ -8863,7 +8935,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1477,
+  "count": 1489,
   "source": "opm",
-  "timestamp": "2026-03-16T06:40:02.789240"
+  "timestamp": "2026-03-19T06:40:43.888117"
 }

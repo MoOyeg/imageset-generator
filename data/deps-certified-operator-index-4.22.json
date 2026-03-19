@@ -359,6 +359,12 @@
     "xlr.digital.ai/v1alpha1/DigitalaiRelease": [
       "digitalai-release-operator"
     ],
+    "dh2i.com/v1/DxEnterpriseSqlAg": [
+      "dxoperator"
+    ],
+    "dh2i.com/v1/DxSqlAg": [
+      "dxoperator-v2"
+    ],
     "dynatrace.com/v1beta1/DynaKube": [
       "dynatrace-operator"
     ],
@@ -820,9 +826,6 @@
     ],
     "enterprise.mariadb.com/v1alpha1/PhysicalBackup": [
       "mariadb-enterprise-operator"
-    ],
-    "minkms.min.io/v1alpha1/MinKMS": [
-      "minio-minkms-operator"
     ],
     "atlas.mongodb.com/v1/AtlasBackupPolicy": [
       "mongodb-atlas-kubernetes"
@@ -1354,5 +1357,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-16T06:50:09.155072"
+  "timestamp": "2026-03-19T06:49:47.629086"
 }

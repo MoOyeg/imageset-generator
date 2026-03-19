@@ -1453,6 +1453,22 @@
       "channel": "fast"
     },
     {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.29.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
       "version": "4.0.0",
@@ -1815,6 +1831,22 @@
       "channel": "stable-v1"
     },
     {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.29.0-rc1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
       "package": "coherence-operator",
       "name": "coherence-operator",
       "version": "3.5.9",
@@ -1826,6 +1858,22 @@
       ],
       "description": "The Oracle Coherence Kubernetes Operator enables easy management of Coherence clusters in a Kubernetes environment.",
       "channel": "stable"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "3.2.0",
+      "keywords": [
+        "Confluent",
+        "Kafka",
+        "Kubernetes",
+        "Private Cloud",
+        "Cloud-Native",
+        "Event Streaming",
+        "Data in Motion"
+      ],
+      "description": "",
+      "channel": "3.2"
     },
     {
       "package": "conjur-follower-operator",
@@ -2752,6 +2800,48 @@
       "package": "dxoperator",
       "name": "dxoperator",
       "version": "1.0.77",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator",
+      "name": "dxoperator",
+      "version": "1.0.78",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.85",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.86",
       "keywords": [
         "sql server",
         "availability group",
@@ -3849,6 +3939,21 @@
       "channel": "stable"
     },
     {
+      "package": "infinibox-operator-certified",
+      "name": "infinibox-operator-certified",
+      "version": "2.26.0",
+      "keywords": [
+        "csi",
+        "nas",
+        "san",
+        "storage",
+        "infinidat",
+        "infinibox"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "infoscale-dr-manager",
       "name": "infoscale-dr-manager",
       "version": "8.0.100",
@@ -3995,6 +4100,28 @@
       "channel": "fast"
     },
     {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "9.1.2",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "fast"
+    },
+    {
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "8.0.100",
@@ -4112,6 +4239,24 @@
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "9.1.0",
+      "keywords": [
+        "Arctera",
+        "InfoScale",
+        "Licensing",
+        "Arctera Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "9.1.2",
       "keywords": [
         "Arctera",
         "InfoScale",
@@ -4254,6 +4399,25 @@
       "package": "infoscale-sds-operator",
       "name": "infoscale-sds-operator",
       "version": "9.1.0",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "9.1.2",
       "keywords": [
         "Infoscale",
         "Storage foundation",
@@ -5643,45 +5807,6 @@
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2025.5.12190907",
-      "keywords": [
-        "AI Storage",
-        "S3",
-        "MinIO",
-        "Object Storage"
-      ],
-      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.6.3065135",
-      "keywords": [
-        "AI Storage",
-        "S3",
-        "MinIO",
-        "Object Storage"
-      ],
-      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.7.1011319",
-      "keywords": [
-        "AI Storage",
-        "S3",
-        "MinIO",
-        "Object Storage"
-      ],
-      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.8.1184927",
       "keywords": [
         "AI Storage",
         "S3",
@@ -7985,7 +8110,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "tenant",
         "stakater",
@@ -8439,6 +8564,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.3",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "xspc-operator",
       "name": "xspc-operator",
       "version": "1.17.3",
@@ -8534,7 +8671,7 @@
       "channel": "lts"
     }
   ],
-  "count": 844,
+  "count": 852,
   "source": "opm",
-  "timestamp": "2026-03-16T06:48:37.945480"
+  "timestamp": "2026-03-19T06:48:32.108839"
 }

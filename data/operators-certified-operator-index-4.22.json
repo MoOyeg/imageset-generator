@@ -1591,6 +1591,62 @@
       "channel": "beta"
     },
     {
+      "package": "dxoperator",
+      "name": "dxoperator",
+      "version": "1.0.77",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator",
+      "name": "dxoperator",
+      "version": "1.0.78",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.85",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.86",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -2303,6 +2359,28 @@
       "channel": "fast"
     },
     {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "9.1.2",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "fast"
+    },
+    {
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "8.0.100",
@@ -2420,6 +2498,24 @@
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "9.1.0",
+      "keywords": [
+        "Arctera",
+        "InfoScale",
+        "Licensing",
+        "Arctera Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "9.1.2",
       "keywords": [
         "Arctera",
         "InfoScale",
@@ -2562,6 +2658,25 @@
       "package": "infoscale-sds-operator",
       "name": "infoscale-sds-operator",
       "version": "9.1.0",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Arctera",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "9.1.2",
       "keywords": [
         "Infoscale",
         "Storage foundation",
@@ -3161,28 +3276,6 @@
         "database"
       ],
       "description": "",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-minkms-operator",
-      "name": "minio-minkms-operator",
-      "version": "2025.12.20100920",
-      "keywords": [
-        "AI Storage",
-        "MinIO"
-      ],
-      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-minkms-operator",
-      "name": "minio-minkms-operator",
-      "version": "2026.2.9031243",
-      "keywords": [
-        "AI Storage",
-        "MinIO"
-      ],
-      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
       "channel": "stable"
     },
     {
@@ -4553,7 +4646,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "tenant",
         "stakater",
@@ -5102,7 +5195,7 @@
       "channel": "lts"
     }
   ],
-  "count": 612,
+  "count": 617,
   "source": "opm",
-  "timestamp": "2026-03-16T06:50:08.963314"
+  "timestamp": "2026-03-19T06:49:47.429484"
 }

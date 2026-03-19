@@ -505,6 +505,18 @@
     "observability.openshift.io/v1alpha1/ObservabilityInstaller": [
       "cluster-observability-operator"
     ],
+    "perses.dev/v1alpha2/Perses": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesDashboard": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesDatasource": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesGlobalDatasource": [
+      "cluster-observability-operator"
+    ],
     "operator.autoscaling.openshift.io/v1/ClusterResourceOverride": [
       "clusterresourceoverride"
     ],
@@ -1909,5 +1921,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-03-16T06:32:04.749912"
+  "timestamp": "2026-03-19T06:33:20.548934"
 }

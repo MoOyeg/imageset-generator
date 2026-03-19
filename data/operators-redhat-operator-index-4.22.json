@@ -961,6 +961,17 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773321292.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -1183,7 +1194,29 @@
     {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773241632.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
       "version": "7.13.4-opr-1+0.1773243388.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1773623530.p",
       "keywords": [
         "activemqartemis",
         "operator"
@@ -5868,6 +5901,123 @@
       "channel": "v1"
     },
     {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.1.0",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.1.1",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.2.0",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.2.1",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.2.2",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.3.0",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.3.1",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.4.0",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.10.0",
@@ -8943,6 +9093,20 @@
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.5.9",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.0",
       "keywords": [
         "infinispan",
         "key value",
@@ -12045,6 +12209,20 @@
       "package": "logic-operator",
       "name": "logic-operator",
       "version": "1.37.1",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.37.2",
       "keywords": [
         "sonataflow",
         "cncf",
@@ -22116,6 +22294,20 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.20.0-2",
+      "keywords": [
+        "tempo",
+        "tracing",
+        "observability",
+        "monitoring",
+        "database"
+      ],
+      "description": "Create and manage deployments of Tempo, a high-scale distributed tracing backend.",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "keywords": [
         "tracing",
@@ -22693,7 +22885,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1621,
+  "count": 1636,
   "source": "opm",
-  "timestamp": "2026-03-16T06:49:50.881482"
+  "timestamp": "2026-03-19T06:49:28.382865"
 }

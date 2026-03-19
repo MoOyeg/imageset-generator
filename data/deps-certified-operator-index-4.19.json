@@ -631,6 +631,9 @@
     "dh2i.com/v1/DxEnterpriseSqlAg": [
       "dxoperator"
     ],
+    "dh2i.com/v1/DxSqlAg": [
+      "dxoperator-v2"
+    ],
     "dynatrace.com/v1beta1/DynaKube": [
       "dynatrace-operator"
     ],
@@ -975,13 +978,16 @@
     "odf.ibm.com/v1alpha1/FlashSystemCluster": [
       "ibm-storage-odf-operator"
     ],
+    "csidriver.infinidat.com/v1/Iboxpromote": [
+      "infinibox-operator-certified"
+    ],
     "csidriver.infinidat.com/v1/Iboxreplica": [
       "infinibox-operator-certified"
     ],
     "csidriver.infinidat.com/v1alpha1/InfiniboxCsiDriver": [
       "infinibox-operator-certified"
     ],
-    "csidriver.infinidat.com/v1/Iboxpromote": [
+    "csidriver.infinidat.com/v1/Iboxcg": [
       "infinibox-operator-certified"
     ],
     "infoscale.veritas.com/v1/DNS": [
@@ -2258,5 +2264,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-16T06:45:39.880936"
+  "timestamp": "2026-03-19T06:45:45.244516"
 }

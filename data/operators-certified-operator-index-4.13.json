@@ -2005,6 +2005,24 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator",
+      "name": "dxoperator",
+      "version": "1.0.78",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.85",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.86",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -4407,24 +4425,6 @@
     {
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
-      "version": "2025.6.3065135",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.7.1011319",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
-      "version": "2025.8.1184927",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-object-store-operator",
-      "name": "minio-object-store-operator",
       "version": "2025.8.19175300",
       "channel": "stable"
     },
@@ -6291,6 +6291,24 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.28.12",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.13",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.14",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.28.3",
       "channel": "stable-v1"
     },
@@ -6975,6 +6993,12 @@
     {
       "package": "tawon-operator",
       "name": "tawon-operator",
+      "version": "2.40.0-rc19",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
       "version": "3.0.0-rc3",
       "channel": "candidate-v3"
     },
@@ -7095,7 +7119,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "channel": "release-1.6"
     },
     {
@@ -7855,6 +7879,12 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.3",
+      "channel": "beta"
+    },
+    {
       "package": "webotx-operator",
       "name": "webotx-operator",
       "version": "11.11.0",
@@ -7951,7 +7981,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1325,
+  "count": 1330,
   "source": "opm",
-  "timestamp": "2026-03-16T06:29:20.538802"
+  "timestamp": "2026-03-19T06:30:28.669010"
 }
