@@ -3361,6 +3361,12 @@
       "channel": "stable"
     },
     {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.16.0-202603060115",
+      "channel": "stable"
+    },
+    {
       "package": "aws-load-balancer-operator",
       "name": "aws-load-balancer-operator",
       "version": "0.0.1",
@@ -5017,6 +5023,12 @@
       "channel": "stable"
     },
     {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.16.0-202602271323",
+      "channel": "stable"
+    },
+    {
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "0.1.32",
@@ -5872,6 +5884,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.9.18",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.9.19",
       "channel": "stable-3.9"
     },
     {
@@ -7546,6 +7564,12 @@
       "package": "dpu-operator",
       "name": "dpu-operator",
       "version": "4.16.0-202602091312",
+      "channel": "stable"
+    },
+    {
+      "package": "dpu-operator",
+      "name": "dpu-operator",
+      "version": "4.16.0-202602271323",
       "channel": "stable"
     },
     {
@@ -9463,6 +9487,12 @@
       "channel": "stable"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.16.0-202603060115",
+      "channel": "stable"
+    },
+    {
       "package": "glance-operator",
       "name": "glance-operator",
       "version": "1.0.0",
@@ -9856,6 +9886,12 @@
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.16.0-202602091312",
+      "channel": "stable"
+    },
+    {
+      "package": "ingress-node-firewall",
+      "name": "ingress-node-firewall",
+      "version": "4.16.0-202602271323",
       "channel": "stable"
     },
     {
@@ -10492,6 +10528,12 @@
       "package": "kiali-ossm",
       "name": "kiali-ossm",
       "version": "2.17.4",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
+      "version": "2.22.1",
       "channel": "stable"
     },
     {
@@ -11434,6 +11476,12 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202603101354",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202603111714",
       "channel": "stable"
     },
     {
@@ -12613,6 +12661,12 @@
       "channel": "stable"
     },
     {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.16.0-202603031319",
+      "channel": "stable"
+    },
+    {
       "package": "model-validation-operator",
       "name": "model-validation-operator",
       "version": "0.0.1",
@@ -13683,6 +13737,12 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.5.4",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.0",
       "channel": "release-1.6"
     },
@@ -14074,6 +14134,12 @@
       "package": "nfd",
       "name": "nfd",
       "version": "4.16.0-202602091312",
+      "channel": "stable"
+    },
+    {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.16.0-202602271323",
       "channel": "stable"
     },
     {
@@ -18433,6 +18499,12 @@
       "channel": "stable"
     },
     {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.16.0-202602271323",
+      "channel": "stable"
+    },
+    {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.10.0",
@@ -19209,6 +19281,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.19",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.2",
       "channel": "stable-3.9"
     },
@@ -19966,6 +20044,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.18",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.19",
       "channel": "stable-3.9"
     },
     {
@@ -23791,6 +23875,12 @@
       "channel": "preview"
     },
     {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.16.0-202602271323",
+      "channel": "preview"
+    },
+    {
       "package": "security-profiles-operator",
       "name": "security-profiles-operator",
       "version": "0.10.0",
@@ -25297,6 +25387,12 @@
       "channel": "preview"
     },
     {
+      "package": "smb-csi-driver-operator",
+      "name": "smb-csi-driver-operator",
+      "version": "4.16.0-202602271323",
+      "channel": "preview"
+    },
+    {
       "package": "sriov-network-operator",
       "name": "sriov-network-operator",
       "version": "4.13.0-202309190544",
@@ -25552,6 +25648,12 @@
       "package": "sriov-network-operator",
       "name": "sriov-network-operator",
       "version": "4.16.0-202602091312",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.16.0-202602271323",
       "channel": "stable"
     },
     {
@@ -26269,6 +26371,12 @@
       "channel": "stable"
     },
     {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.16.0-202602271323",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.10.0",
@@ -26653,7 +26761,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4442,
+  "count": 4460,
   "source": "opm",
-  "timestamp": "2026-03-19T06:40:02.977013"
+  "timestamp": "2026-03-22T06:40:45.348530"
 }

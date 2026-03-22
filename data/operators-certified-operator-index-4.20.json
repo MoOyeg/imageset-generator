@@ -334,6 +334,32 @@
       "channel": "4.8"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.0",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -1181,6 +1207,21 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.16.21-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.16"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.10-cee.1",
       "keywords": [
         "Cilium",
@@ -1227,6 +1268,21 @@
       "package": "clife",
       "name": "clife",
       "version": "1.17.13-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.17.14-cee.1",
       "keywords": [
         "Cilium",
         "networking",
@@ -1362,6 +1418,21 @@
       "package": "clife",
       "name": "clife",
       "version": "1.18.7-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.18"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.8-cee.1",
       "keywords": [
         "Cilium",
         "networking",
@@ -3796,6 +3867,19 @@
       "channel": "stable"
     },
     {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.6.0",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -4040,6 +4124,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.46.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.47.0",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -4806,7 +4904,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.0",
+      "version": "2.24.1",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -4817,7 +4915,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.0",
+      "version": "2.24.1",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -6624,6 +6722,19 @@
       "channel": "stable"
     },
     {
+      "package": "kubedb-installer",
+      "name": "kubedb-installer",
+      "version": "2026.2.26",
+      "keywords": [
+        "kubedb",
+        "dbaas",
+        "openshift",
+        "kubernetes"
+      ],
+      "description": "Database-as-a-Service (DBaaS) Anywhere with Any Storage",
+      "channel": "stable"
+    },
+    {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
       "version": "1.5.0",
@@ -7668,6 +7779,21 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.0",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -7972,6 +8098,18 @@
       "package": "openshift-fusion-access-operator",
       "name": "openshift-fusion-access-operator",
       "version": "1.1.1-1",
+      "keywords": [
+        "gpfs",
+        "storage",
+        "virtualization"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "1.2.0-3",
       "keywords": [
         "gpfs",
         "storage",
@@ -9671,6 +9809,19 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.28.15",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.28.3",
       "keywords": [
         "vertical scaling",
@@ -9823,6 +9974,17 @@
       ],
       "description": "Operator for IBM Spyre devices",
       "channel": "stable-v1.1"
+    },
+    {
+      "package": "spyre-operator",
+      "name": "spyre-operator",
+      "version": "1.2.0",
+      "keywords": [
+        "app",
+        "operator"
+      ],
+      "description": "Operator for IBM Spyre devices",
+      "channel": "stable-v1.2"
     },
     {
       "package": "sriov-fec",
@@ -10469,6 +10631,27 @@
       "channel": "stable"
     },
     {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.2.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
       "package": "truenas-csi",
       "name": "truenas-csi",
       "version": "0.1.0",
@@ -10883,7 +11066,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1030,
+  "count": 1042,
   "source": "opm",
-  "timestamp": "2026-03-19T06:47:12.965746"
+  "timestamp": "2026-03-22T06:48:21.382847"
 }

@@ -55,6 +55,21 @@
       ],
       "requires_gvks": []
     },
+    "kubedb-installer": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "cert-manager.io",
+          "kind": "Certificate",
+          "version": "v1"
+        },
+        {
+          "group": "cert-manager.io",
+          "kind": "Issuer",
+          "version": "v1"
+        }
+      ]
+    },
     "linstor-operator": {
       "requires_packages": [],
       "requires_gvks": [
@@ -237,6 +252,15 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/CustomResponsePolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "aiu.ibm.com/v2/AiuClusterPolicy": [
@@ -1080,6 +1104,9 @@
     ],
     "charts.kubecost.com/v1/Kubecost": [
       "kubecost-operator"
+    ],
+    "installer.kubedb.com/v1/Kubedb": [
+      "kubedb-installer"
     ],
     "charts.helm.k8s.io/v1/Kubeturbo": [
       "kubeturbo-certified"
@@ -2163,5 +2190,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-19T06:47:13.372578"
+  "timestamp": "2026-03-22T06:48:21.857234"
 }

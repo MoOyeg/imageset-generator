@@ -312,6 +312,32 @@
       "channel": "4.8"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.0",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -3173,6 +3199,19 @@
       "channel": "stable"
     },
     {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.6.0",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -3901,7 +3940,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.0",
+      "version": "2.24.1",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -3912,7 +3951,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.0",
+      "version": "2.24.1",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -5599,6 +5638,19 @@
       "channel": "stable"
     },
     {
+      "package": "kubedb-installer",
+      "name": "kubedb-installer",
+      "version": "2026.2.26",
+      "keywords": [
+        "kubedb",
+        "dbaas",
+        "openshift",
+        "kubernetes"
+      ],
+      "description": "Database-as-a-Service (DBaaS) Anywhere with Any Storage",
+      "channel": "stable"
+    },
+    {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
       "version": "1.5.0",
@@ -6643,6 +6695,21 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.0",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -6893,6 +6960,18 @@
       "package": "openshift-fusion-access-operator",
       "name": "openshift-fusion-access-operator",
       "version": "1.1.1-1",
+      "keywords": [
+        "gpfs",
+        "storage",
+        "virtualization"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-fusion-access-operator",
+      "name": "openshift-fusion-access-operator",
+      "version": "1.2.0-3",
       "keywords": [
         "gpfs",
         "storage",
@@ -7758,6 +7837,17 @@
       "channel": "alpha"
     },
     {
+      "package": "spyre-operator",
+      "name": "spyre-operator",
+      "version": "1.2.0",
+      "keywords": [
+        "app",
+        "operator"
+      ],
+      "description": "Operator for IBM Spyre devices",
+      "channel": "stable-v1.2"
+    },
+    {
       "package": "sriov-fec",
       "name": "sriov-fec",
       "version": "2.10.0",
@@ -8288,6 +8378,27 @@
       "channel": "release-v1.32"
     },
     {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.2.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
       "package": "truenas-csi",
       "name": "truenas-csi",
       "version": "0.1.0",
@@ -8671,7 +8782,7 @@
       "channel": "lts"
     }
   ],
-  "count": 852,
+  "count": 859,
   "source": "opm",
-  "timestamp": "2026-03-19T06:48:32.108839"
+  "timestamp": "2026-03-22T06:49:41.894330"
 }

@@ -5775,6 +5775,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.9.19",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.9.2",
       "channel": "stable-3.9"
     },
@@ -9981,6 +9987,12 @@
     {
       "package": "kiali-ossm",
       "name": "kiali-ossm",
+      "version": "2.22.1",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
       "version": "2.4.3",
       "channel": "stable"
     },
@@ -10366,7 +10378,7 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.14.1",
-      "channel": "stable"
+      "channel": "candidate"
     },
     {
       "package": "kubevirt-hyperconverged",
@@ -10409,6 +10421,12 @@
       "name": "kubevirt-hyperconverged",
       "version": "4.14.16",
       "channel": "stable"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.14.17",
+      "channel": "candidate"
     },
     {
       "package": "kubevirt-hyperconverged",
@@ -17577,6 +17595,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.19",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.2",
       "channel": "stable-3.9"
     },
@@ -18334,6 +18358,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.18",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.19",
       "channel": "stable-3.9"
     },
     {
@@ -24259,7 +24289,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4043,
+  "count": 4048,
   "source": "opm",
-  "timestamp": "2026-03-19T06:33:12.082014"
+  "timestamp": "2026-03-22T06:34:00.688707"
 }

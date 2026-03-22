@@ -11478,6 +11478,19 @@
     {
       "package": "kiali-ossm",
       "name": "kiali-ossm",
+      "version": "2.22.1",
+      "keywords": [
+        "service-mesh",
+        "observability",
+        "monitoring",
+        "istio"
+      ],
+      "description": "This productized operator provides Kiali and OSSMC. Kiali is the Istio observability and management Console. OSSMC is the OpenShift Service Mesh Console plugin, powered by Kiali.",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
       "version": "2.4.3",
       "keywords": [
         "service-mesh",
@@ -21733,6 +21746,18 @@
       "channel": "stable"
     },
     {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.3.0",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
       "package": "skupper-netobs-operator",
       "name": "skupper-netobs-operator",
       "version": "2.1.1-rh-8",
@@ -22885,7 +22910,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1636,
+  "count": 1638,
   "source": "opm",
-  "timestamp": "2026-03-19T06:49:28.382865"
+  "timestamp": "2026-03-22T06:50:37.991589"
 }

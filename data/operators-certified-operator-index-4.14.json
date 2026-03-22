@@ -1191,6 +1191,12 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.16.21-cee.1",
+      "channel": "1.16"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.10-cee.1",
       "channel": "1.17"
     },
@@ -1210,6 +1216,12 @@
       "package": "clife",
       "name": "clife",
       "version": "1.17.13-cee.1",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.17.14-cee.1",
       "channel": "1.17"
     },
     {
@@ -1264,6 +1276,12 @@
       "package": "clife",
       "name": "clife",
       "version": "1.18.7-cee.1",
+      "channel": "1.18"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.8-cee.1",
       "channel": "1.18"
     },
     {
@@ -3085,6 +3103,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.47.0",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -3591,7 +3615,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.0",
+      "version": "2.24.1",
       "channel": "beta"
     },
     {
@@ -3627,7 +3651,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.0",
+      "version": "2.24.1",
       "channel": "beta"
     },
     {
@@ -4905,13 +4929,13 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.10",
-      "channel": "stable"
+      "version": "8.19.20",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.20-beta.2",
+      "version": "8.19.20-beta.3",
       "channel": "beta"
     },
     {
@@ -5815,6 +5839,12 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.0",
+      "channel": "alpha"
+    },
+    {
       "package": "nspc-operator",
       "name": "nspc-operator",
       "version": "1.13.1",
@@ -6549,13 +6579,13 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.10",
-      "channel": "stable"
+      "version": "8.19.20",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.20-beta.1",
+      "version": "8.19.20-beta.2",
       "channel": "beta"
     },
     {
@@ -7102,6 +7132,12 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.28.14",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.15",
       "channel": "stable-v1"
     },
     {
@@ -7767,14 +7803,14 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.100.0-beta.1",
+      "version": "42.100.0",
       "channel": "beta"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.99.0",
-      "channel": "stable"
+      "version": "42.100.0-beta.1",
+      "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -8302,6 +8338,12 @@
       "package": "trident-operator",
       "name": "trident-operator",
       "version": "25.6.2",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.2.0",
       "channel": "stable"
     },
     {
@@ -8983,7 +9025,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1497,
+  "count": 1504,
   "source": "opm",
-  "timestamp": "2026-03-19T06:34:04.317123"
+  "timestamp": "2026-03-22T06:34:41.088574"
 }

@@ -11570,6 +11570,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.9.19",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.9.2",
       "keywords": [
         "open source",
@@ -16057,19 +16069,6 @@
     {
       "package": "external-dns-operator",
       "name": "external-dns-operator",
-      "version": "0.1.2",
-      "keywords": [
-        "openshift",
-        "dns",
-        "externaldns",
-        "operator"
-      ],
-      "description": "",
-      "channel": "alpha"
-    },
-    {
-      "package": "external-dns-operator",
-      "name": "external-dns-operator",
       "version": "1.0.0",
       "keywords": [
         "openshift",
@@ -16078,7 +16077,7 @@
         "operator"
       ],
       "description": "",
-      "channel": "stable-v1.0"
+      "channel": "stable-v1"
     },
     {
       "package": "external-dns-operator",
@@ -16091,7 +16090,7 @@
         "operator"
       ],
       "description": "",
-      "channel": "stable-v1.0"
+      "channel": "stable-v1"
     },
     {
       "package": "external-dns-operator",
@@ -16104,7 +16103,7 @@
         "operator"
       ],
       "description": "",
-      "channel": "stable-v1.1"
+      "channel": "stable-v1"
     },
     {
       "package": "external-dns-operator",
@@ -16117,7 +16116,7 @@
         "operator"
       ],
       "description": "",
-      "channel": "stable-v1.1"
+      "channel": "stable-v1"
     },
     {
       "package": "external-dns-operator",
@@ -16130,7 +16129,7 @@
         "operator"
       ],
       "description": "",
-      "channel": "stable-v1.2"
+      "channel": "stable-v1"
     },
     {
       "package": "external-dns-operator",
@@ -16162,6 +16161,19 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.3.2",
+      "keywords": [
+        "openshift",
+        "dns",
+        "externaldns",
+        "operator"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.3",
       "keywords": [
         "openshift",
         "dns",
@@ -20524,6 +20536,19 @@
       "package": "kiali-ossm",
       "name": "kiali-ossm",
       "version": "2.17.4",
+      "keywords": [
+        "service-mesh",
+        "observability",
+        "monitoring",
+        "istio"
+      ],
+      "description": "This productized operator provides Kiali and OSSMC. Kiali is the Istio observability and management Console. OSSMC is the OpenShift Service Mesh Console plugin, powered by Kiali.",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
+      "version": "2.22.1",
       "keywords": [
         "service-mesh",
         "observability",
@@ -25832,6 +25857,17 @@
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.3",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.5.4",
       "keywords": [
         "multicluster-global-hub",
         "multiple-hubs"
@@ -35854,6 +35890,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.19",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.2",
       "keywords": [
         "registry",
@@ -37367,6 +37415,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.18",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.19",
       "keywords": [
         "open source",
         "containers",
@@ -49752,6 +49812,18 @@
       "channel": "stable"
     },
     {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.3.0",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
       "package": "skupper-netobs-operator",
       "name": "skupper-netobs-operator",
       "version": "2.1.1-rh-8",
@@ -52758,7 +52830,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3814,
+  "count": 3820,
   "source": "opm",
-  "timestamp": "2026-03-19T06:43:57.096440"
+  "timestamp": "2026-03-22T06:44:59.565932"
 }
