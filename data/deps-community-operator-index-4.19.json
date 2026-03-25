@@ -2706,6 +2706,9 @@
     "logging.logging.opstreelabs.in/v1beta1/Kibana": [
       "logging-operator"
     ],
+    "monitoring.logicmonitor.com/v1alpha1/LMContainer": [
+      "logicmonitor-openshift-operator"
+    ],
     "charts.example.com/v1alpha1/Loki": [
       "loki-helm-operator"
     ],
@@ -3211,6 +3214,12 @@
       "opendatahub-operator"
     ],
     "components.platform.opendatahub.io/v1alpha1/SparkOperator": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1alpha1/AzureKubernetesEngine": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1alpha1/CoreWeaveKubernetesEngine": [
       "opendatahub-operator"
     ],
     "openebs.io/v1alpha1/OpenEBSInstallTemplate": [
@@ -4369,5 +4378,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-03-22T06:47:15.736712"
+  "timestamp": "2026-03-25T06:55:57.245162"
 }

@@ -1403,6 +1403,90 @@
     "eventing.keda.sh/v1alpha1/ClusterCloudEventSource": [
       "openshift-custom-metrics-autoscaler-operator"
     ],
+    "external-secrets.io/v1/ClusterExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1beta1/ClusterExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1alpha1/ClusterPushSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/ClusterSecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1beta1/ClusterSecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/ExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1beta1/ExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1alpha1/PushSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/SecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1beta1/SecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/ACRAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/CloudsmithAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/ClusterGenerator": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/ECRAuthorizationToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/GCRAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/GeneratorState": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/GithubAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/Grafana": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/MFA": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/Password": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/QuayAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/SSHKey": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/STSSessionToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/UUID": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/VaultDynamicSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/Webhook": [
+      "openshift-external-secrets-operator"
+    ],
+    "operator.openshift.io/v1alpha1/ExternalSecretsConfig": [
+      "openshift-external-secrets-operator"
+    ],
+    "operator.openshift.io/v1alpha1/ExternalSecretsManager": [
+      "openshift-external-secrets-operator"
+    ],
     "argoproj.io/v1alpha1/AnalysisRun": [
       "openshift-gitops-operator"
     ],
@@ -2229,5 +2313,5 @@
       "watcher-operator"
     ]
   },
-  "timestamp": "2026-03-22T06:45:01.831076"
+  "timestamp": "2026-03-25T06:52:43.361273"
 }

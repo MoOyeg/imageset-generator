@@ -1558,6 +1558,21 @@
     "operator.open-cluster-management.io/v1/ClusterManager": [
       "cluster-manager"
     ],
+    "charts.clusterpulse.io/v1alpha1/ClusterPulse": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/ClusterConnection": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/MonitorAccessPolicy": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/RegistryConnection": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/MetricSource": [
+      "clusterpulse"
+    ],
     "charts.operatorhub.io/v1alpha1/Cockroachdb": [
       "cockroachdb"
     ],
@@ -2149,6 +2164,9 @@
     "github-practice.boxboat.com/v1alpha1/ActionsRunnerController": [
       "github-arc-operator"
     ],
+    "apps.gitlab.com/v1beta1/GitLab": [
+      "gitlab-operator-kubernetes"
+    ],
     "primer.gitops.io/v1alpha1/Export": [
       "gitops-primer"
     ],
@@ -2570,6 +2588,9 @@
     "logging.logging.opstreelabs.in/v1beta1/Kibana": [
       "logging-operator"
     ],
+    "monitoring.logicmonitor.com/v1alpha1/LMContainer": [
+      "logicmonitor-openshift-operator"
+    ],
     "charts.example.com/v1alpha1/Loki": [
       "loki-helm-operator"
     ],
@@ -2953,6 +2974,117 @@
     ],
     "odoo-community.org/v1alpha1/Odoo": [
       "odoo-operator"
+    ],
+    "kfdef.apps.kubeflow.org/v1/KfDef": [
+      "opendatahub-operator"
+    ],
+    "console.openshift.io/v1/OdhQuickStart": [
+      "opendatahub-operator"
+    ],
+    "dashboard.opendatahub.io/v1alpha/AcceleratorProfile": [
+      "opendatahub-operator"
+    ],
+    "dashboard.opendatahub.io/v1/OdhApplication": [
+      "opendatahub-operator"
+    ],
+    "dashboard.opendatahub.io/v1/OdhDocument": [
+      "opendatahub-operator"
+    ],
+    "opendatahub.io/v1alpha/OdhDashboardConfig": [
+      "opendatahub-operator"
+    ],
+    "datasciencecluster.opendatahub.io/v1/DataScienceCluster": [
+      "opendatahub-operator"
+    ],
+    "dscinitialization.opendatahub.io/v1/DSCInitialization": [
+      "opendatahub-operator"
+    ],
+    "features.opendatahub.io/v1/FeatureTracker": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/CodeFlare": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Dashboard": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/DataSciencePipelines": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Kserve": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Kueue": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/ModelController": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/ModelMeshServing": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/ModelRegistry": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Ray": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/TrainingOperator": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/TrustyAI": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Workbenches": [
+      "opendatahub-operator"
+    ],
+    "services.platform.opendatahub.io/v1alpha1/Monitoring": [
+      "opendatahub-operator"
+    ],
+    "services.platform.opendatahub.io/v1alpha1/Auth": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/FeastOperator": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/LlamaStackOperator": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1alpha1/HardwareProfile": [
+      "opendatahub-operator"
+    ],
+    "services.platform.opendatahub.io/v1alpha1/ServiceMesh": [
+      "opendatahub-operator"
+    ],
+    "datasciencecluster.opendatahub.io/v2/DataScienceCluster": [
+      "opendatahub-operator"
+    ],
+    "dscinitialization.opendatahub.io/v2/DSCInitialization": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1/HardwareProfile": [
+      "opendatahub-operator"
+    ],
+    "services.platform.opendatahub.io/v1alpha1/GatewayConfig": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/MLflowOperator": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/ModelsAsService": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Trainer": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/SparkOperator": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1alpha1/AzureKubernetesEngine": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1alpha1/CoreWeaveKubernetesEngine": [
+      "opendatahub-operator"
     ],
     "openebs.io/v1alpha1/OpenEBSInstallTemplate": [
       "openebs"
@@ -3674,6 +3806,9 @@
     "pingcap.com/v1alpha1/TidbNGMonitoring": [
       "tidb-operator"
     ],
+    "trident.netapp.io/v1/TridentOrchestrator": [
+      "trident-operator"
+    ],
     "org.trustify/v1alpha1/Trustify": [
       "trustify-operator"
     ],
@@ -3960,5 +4095,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-03-22T06:50:01.911336"
+  "timestamp": "2026-03-25T07:00:12.310675"
 }

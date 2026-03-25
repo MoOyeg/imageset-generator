@@ -1506,6 +1506,21 @@
       "channel": "1.18"
     },
     {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.8-cee.2",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.18"
+    },
+    {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
       "version": "1.25.0",
@@ -4063,20 +4078,7 @@
     {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
-      "version": "0.4.5",
-      "keywords": [
-        "ai",
-        "security",
-        "guardrails",
-        "red-team"
-      ],
-      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
-      "channel": "stable"
-    },
-    {
-      "package": "f5-ai-security-operator",
-      "name": "f5-ai-security-operator",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "keywords": [
         "ai",
         "security",
@@ -4256,79 +4258,15 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
-      "version": "2.5.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.6.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.6.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.6.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.7.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.7.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.3",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.4",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.9.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.9.1",
+      "version": "2.10.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
@@ -4861,6 +4799,22 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "25.3.4",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.0",
       "keywords": [
         "gpu",
         "cuda",
@@ -7369,6 +7323,16 @@
       "channel": "stable"
     },
     {
+      "package": "mediation-openstack-operator",
+      "name": "mediation-openstack-operator",
+      "version": "8.19.2",
+      "keywords": [
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "minio-minkms-operator",
       "name": "minio-minkms-operator",
       "version": "2025.12.20100920",
@@ -9806,6 +9770,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "8.0.16-24.4",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.16"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "8.0.2-2.9",
       "keywords": [
         "redislabs",
@@ -10479,6 +10457,19 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.28.16",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.28.3",
       "keywords": [
         "vertical scaling",
@@ -10732,7 +10723,7 @@
         "airflow"
       ],
       "description": "Stackable Operator for Apache Airflow",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-airflow-operator",
@@ -10742,7 +10733,7 @@
         "airflow"
       ],
       "description": "Stackable Operator for Apache Airflow",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-airflow-operator",
@@ -10755,9 +10746,29 @@
       "channel": "25.7"
     },
     {
+      "package": "stackable-airflow-operator",
+      "name": "stackable-airflow-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "airflow"
+      ],
+      "description": "Stackable Operator for Apache Airflow",
+      "channel": "26.3"
+    },
+    {
       "package": "stackable-commons-operator",
       "name": "stackable-commons-operator",
       "version": "25.11.0",
+      "keywords": [
+        "commons"
+      ],
+      "description": "Stackable Commons Operator",
+      "channel": "25.11"
+    },
+    {
+      "package": "stackable-commons-operator",
+      "name": "stackable-commons-operator",
+      "version": "25.3.0",
       "keywords": [
         "commons"
       ],
@@ -10767,22 +10778,22 @@
     {
       "package": "stackable-commons-operator",
       "name": "stackable-commons-operator",
-      "version": "25.3.0",
+      "version": "25.7.0",
       "keywords": [
         "commons"
       ],
       "description": "Stackable Commons Operator",
-      "channel": "stable"
+      "channel": "25.7"
     },
     {
       "package": "stackable-commons-operator",
       "name": "stackable-commons-operator",
-      "version": "25.7.0",
+      "version": "26.3.0",
       "keywords": [
         "commons"
       ],
       "description": "Stackable Commons Operator",
-      "channel": "25.7"
+      "channel": "26.3"
     },
     {
       "package": "stackable-druid-operator",
@@ -10792,7 +10803,7 @@
         "druid"
       ],
       "description": "Stackable Operator for Apache Druid",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-druid-operator",
@@ -10802,7 +10813,7 @@
         "druid"
       ],
       "description": "Stackable Operator for Apache Druid",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-druid-operator",
@@ -10815,6 +10826,16 @@
       "channel": "25.7"
     },
     {
+      "package": "stackable-druid-operator",
+      "name": "stackable-druid-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "druid"
+      ],
+      "description": "Stackable Operator for Apache Druid",
+      "channel": "26.3"
+    },
+    {
       "package": "stackable-hbase-operator",
       "name": "stackable-hbase-operator",
       "version": "25.11.0",
@@ -10822,7 +10843,7 @@
         "hbase"
       ],
       "description": "Stackable Operator for Apache HBase",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-hbase-operator",
@@ -10832,7 +10853,7 @@
         "hbase"
       ],
       "description": "Stackable Operator for Apache HBase",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-hbase-operator",
@@ -10843,6 +10864,16 @@
       ],
       "description": "Stackable Operator for Apache HBase",
       "channel": "25.7"
+    },
+    {
+      "package": "stackable-hbase-operator",
+      "name": "stackable-hbase-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "hbase"
+      ],
+      "description": "Stackable Operator for Apache HBase",
+      "channel": "26.3"
     },
     {
       "package": "stackable-hdfs-operator",
@@ -10852,7 +10883,7 @@
         "hdfs"
       ],
       "description": "Stackable Operator for Apache Hadoop HDFS",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-hdfs-operator",
@@ -10862,7 +10893,7 @@
         "hdfs"
       ],
       "description": "Stackable Operator for Apache Hadoop HDFS",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-hdfs-operator",
@@ -10875,6 +10906,16 @@
       "channel": "25.7"
     },
     {
+      "package": "stackable-hdfs-operator",
+      "name": "stackable-hdfs-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "hdfs"
+      ],
+      "description": "Stackable Operator for Apache Hadoop HDFS",
+      "channel": "26.3"
+    },
+    {
       "package": "stackable-hive-operator",
       "name": "stackable-hive-operator",
       "version": "25.11.0",
@@ -10882,7 +10923,7 @@
         "hive"
       ],
       "description": "Stackable Operator for Apache Hive",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-hive-operator",
@@ -10892,7 +10933,7 @@
         "hive"
       ],
       "description": "Stackable Operator for Apache Hive",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-hive-operator",
@@ -10905,6 +10946,16 @@
       "channel": "25.7"
     },
     {
+      "package": "stackable-hive-operator",
+      "name": "stackable-hive-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "hive"
+      ],
+      "description": "Stackable Operator for Apache Hive",
+      "channel": "26.3"
+    },
+    {
       "package": "stackable-kafka-operator",
       "name": "stackable-kafka-operator",
       "version": "25.11.0",
@@ -10912,7 +10963,7 @@
         "kafka"
       ],
       "description": "Stackable Operator for Apache Kafka",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-kafka-operator",
@@ -10922,7 +10973,7 @@
         "kafka"
       ],
       "description": "Stackable Operator for Apache Kafka",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-kafka-operator",
@@ -10935,6 +10986,16 @@
       "channel": "25.7"
     },
     {
+      "package": "stackable-kafka-operator",
+      "name": "stackable-kafka-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "kafka"
+      ],
+      "description": "Stackable Operator for Apache Kafka",
+      "channel": "26.3"
+    },
+    {
       "package": "stackable-listener-operator",
       "name": "stackable-listener-operator",
       "version": "25.11.0",
@@ -10942,7 +11003,7 @@
         "listener"
       ],
       "description": "Stackable Listener Operator",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-listener-operator",
@@ -10952,7 +11013,7 @@
         "listener"
       ],
       "description": "Stackable Listener Operator",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-listener-operator",
@@ -10963,6 +11024,16 @@
       ],
       "description": "Stackable Listener Operator",
       "channel": "25.7"
+    },
+    {
+      "package": "stackable-listener-operator",
+      "name": "stackable-listener-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "listener"
+      ],
+      "description": "Stackable Listener Operator",
+      "channel": "26.3"
     },
     {
       "package": "stackable-nifi-operator",
@@ -11002,7 +11073,7 @@
         "opa"
       ],
       "description": "Stackable Operator for the Open Policy Agent",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-opa-operator",
@@ -11012,7 +11083,7 @@
         "opa"
       ],
       "description": "Stackable Operator for the Open Policy Agent",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-opa-operator",
@@ -11023,6 +11094,16 @@
       ],
       "description": "Stackable Operator for the Open Policy Agent",
       "channel": "25.7"
+    },
+    {
+      "package": "stackable-opa-operator",
+      "name": "stackable-opa-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "opa"
+      ],
+      "description": "Stackable Operator for the Open Policy Agent",
+      "channel": "26.3"
     },
     {
       "package": "stackable-opensearch-operator",
@@ -11042,7 +11123,7 @@
         "secret"
       ],
       "description": "Stackable Secret Operator",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-secret-operator",
@@ -11065,6 +11146,16 @@
       "channel": "25.7"
     },
     {
+      "package": "stackable-secret-operator",
+      "name": "stackable-secret-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "secret"
+      ],
+      "description": "Stackable Secret Operator",
+      "channel": "26.3"
+    },
+    {
       "package": "stackable-spark-operator",
       "name": "stackable-spark-operator",
       "version": "25.11.0",
@@ -11072,7 +11163,7 @@
         "spark-k8s"
       ],
       "description": "Stackable Operator for Apache Spark",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-spark-operator",
@@ -11082,7 +11173,7 @@
         "spark-k8s"
       ],
       "description": "Stackable Operator for Apache Spark",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-spark-operator",
@@ -11093,6 +11184,16 @@
       ],
       "description": "Stackable Operator for Apache Spark",
       "channel": "25.7"
+    },
+    {
+      "package": "stackable-spark-operator",
+      "name": "stackable-spark-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "spark-k8s"
+      ],
+      "description": "Stackable Operator for Apache Spark",
+      "channel": "26.3"
     },
     {
       "package": "stackable-superset-operator",
@@ -11102,7 +11203,7 @@
         "superset"
       ],
       "description": "Stackable Operator for Apache Superset",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-superset-operator",
@@ -11112,7 +11213,7 @@
         "superset"
       ],
       "description": "Stackable Operator for Apache Superset",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-superset-operator",
@@ -11125,6 +11226,16 @@
       "channel": "25.7"
     },
     {
+      "package": "stackable-superset-operator",
+      "name": "stackable-superset-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "superset"
+      ],
+      "description": "Stackable Operator for Apache Superset",
+      "channel": "26.3"
+    },
+    {
       "package": "stackable-trino-operator",
       "name": "stackable-trino-operator",
       "version": "25.11.0",
@@ -11132,7 +11243,7 @@
         "trino"
       ],
       "description": "Stackable Operator for Trino",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-trino-operator",
@@ -11142,7 +11253,7 @@
         "trino"
       ],
       "description": "Stackable Operator for Trino",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-trino-operator",
@@ -11155,6 +11266,16 @@
       "channel": "25.7"
     },
     {
+      "package": "stackable-trino-operator",
+      "name": "stackable-trino-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "trino"
+      ],
+      "description": "Stackable Operator for Trino",
+      "channel": "26.3"
+    },
+    {
       "package": "stackable-zookeeper-operator",
       "name": "stackable-zookeeper-operator",
       "version": "25.11.0",
@@ -11162,7 +11283,7 @@
         "zookeeper"
       ],
       "description": "Stackable Operator for Apache ZooKeeper",
-      "channel": "stable"
+      "channel": "25.11"
     },
     {
       "package": "stackable-zookeeper-operator",
@@ -11172,7 +11293,7 @@
         "zookeeper"
       ],
       "description": "Stackable Operator for Apache ZooKeeper",
-      "channel": "stable"
+      "channel": "25.3"
     },
     {
       "package": "stackable-zookeeper-operator",
@@ -11183,6 +11304,16 @@
       ],
       "description": "Stackable Operator for Apache ZooKeeper",
       "channel": "25.7"
+    },
+    {
+      "package": "stackable-zookeeper-operator",
+      "name": "stackable-zookeeper-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "zookeeper"
+      ],
+      "description": "Stackable Operator for Apache ZooKeeper",
+      "channel": "26.3"
     },
     {
       "package": "stackgres-certified",
@@ -11300,12 +11431,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.4-candidate-20260305202121000",
+      "version": "1.5.0-candidate-20260323111001000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -12323,7 +12454,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1154,
+  "count": 1160,
   "source": "opm",
-  "timestamp": "2026-03-22T06:46:55.386133"
+  "timestamp": "2026-03-25T06:55:28.981179"
 }

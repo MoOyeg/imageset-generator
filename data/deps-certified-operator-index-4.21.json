@@ -741,6 +741,9 @@
     "compute.functionmesh.io/v1alpha1/Source": [
       "function-mesh"
     ],
+    "apps.gitlab.com/v1beta1/GitLab": [
+      "gitlab-operator-kubernetes"
+    ],
     "nvidia.com/v1/ClusterPolicy": [
       "gpu-operator-certified"
     ],
@@ -1077,6 +1080,9 @@
     "enterprise.mariadb.com/v1alpha1/PhysicalBackup": [
       "mariadb-enterprise-operator"
     ],
+    "mediation.turbonomic.ibm.com/v1alpha1/OpenstackProbe": [
+      "mediation-openstack-operator"
+    ],
     "minkms.min.io/v1alpha1/MinKMS": [
       "minio-minkms-operator"
     ],
@@ -1407,6 +1413,21 @@
     ],
     "rebellions.ai/v1beta1/RBLNClusterPolicy": [
       "rbln-npu-operator"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseActiveActiveDatabase": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1/RedisEnterpriseCluster": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseCluster": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseDatabase": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseRemoteCluster": [
+      "redis-enterprise-operator-cert"
     ],
     "rc.app.stacks/v1beta2/RuntimeComponent": [
       "runtime-component-operator-certified"
@@ -1796,5 +1817,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-22T06:49:42.229380"
+  "timestamp": "2026-03-25T06:59:27.388130"
 }

@@ -2195,6 +2195,18 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.5",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace-rhmp",
       "name": "kubemq-operator-marketplace-rhmp",
       "version": "1.7.8",
@@ -3225,7 +3237,7 @@
       "channel": "lts"
     }
   ],
-  "count": 255,
+  "count": 256,
   "source": "opm",
-  "timestamp": "2026-03-22T06:47:34.630618"
+  "timestamp": "2026-03-25T06:56:30.314377"
 }

@@ -2715,6 +2715,9 @@
     "logging.logging.opstreelabs.in/v1beta1/Kibana": [
       "logging-operator"
     ],
+    "monitoring.logicmonitor.com/v1alpha1/LMContainer": [
+      "logicmonitor-openshift-operator"
+    ],
     "charts.example.com/v1alpha1/Loki": [
       "loki-helm-operator"
     ],
@@ -4360,5 +4363,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-03-22T06:32:10.372913"
+  "timestamp": "2026-03-25T06:39:52.131573"
 }

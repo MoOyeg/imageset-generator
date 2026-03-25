@@ -1437,6 +1437,33 @@
     "operator.openshift.io/v1alpha1/ExternalSecretsManager": [
       "openshift-external-secrets-operator"
     ],
+    "external-secrets.io/v1/ClusterExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1alpha1/ClusterPushSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/ClusterSecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/ExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/SecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/CloudsmithAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/MFA": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/SSHKey": [
+      "openshift-external-secrets-operator"
+    ],
+    "operator.openshift.io/v1alpha1/ExternalSecretsConfig": [
+      "openshift-external-secrets-operator"
+    ],
     "argoproj.io/v1alpha1/AnalysisRun": [
       "openshift-gitops-operator"
     ],
@@ -2278,5 +2305,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-03-22T06:46:37.283252"
+  "timestamp": "2026-03-25T06:54:56.221476"
 }

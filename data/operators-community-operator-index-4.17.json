@@ -14761,6 +14761,16 @@
       "channel": "fast-v1"
     },
     {
+      "package": "clusterpulse",
+      "name": "clusterpulse",
+      "version": "1.0.1",
+      "keywords": [
+        "clusterpulse"
+      ],
+      "description": "Provides OpenShift cluster health monitoring",
+      "channel": "fast-v1"
+    },
+    {
       "package": "cockroachdb",
       "name": "cockroachdb",
       "version": "5.0.3",
@@ -18333,6 +18343,20 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.10.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -18490,14 +18514,6 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.9.2",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
@@ -24016,6 +24032,22 @@
       "channel": "beta"
     },
     {
+      "package": "logicmonitor-openshift-operator",
+      "name": "logicmonitor-openshift-operator",
+      "version": "0.3.0",
+      "keywords": [
+        "monitoring",
+        "observability",
+        "kubernetes",
+        "openshift",
+        "logicmonitor",
+        "metrics",
+        "apm"
+      ],
+      "description": "Deploy LogicMonitor container monitoring on OpenShift clusters",
+      "channel": "alpha"
+    },
+    {
       "package": "loki-helm-operator",
       "name": "loki-helm-operator",
       "version": "0.0.1",
@@ -27464,6 +27496,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.145.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.148.0",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -30876,42 +30914,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-07",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-08",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-09",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-10",
       "keywords": [
         "istio",
@@ -30997,6 +30999,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-22",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-23",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-24",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-25",
       "keywords": [
         "istio",
         "servicemesh",
@@ -33370,6 +33408,27 @@
       "channel": "stable"
     },
     {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.2.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
       "package": "trustify-operator",
       "name": "trustify-operator",
       "version": "0.1.0-alpha.2",
@@ -34783,7 +34842,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4764,
+  "count": 4769,
   "source": "opm",
-  "timestamp": "2026-03-22T06:43:52.815222"
+  "timestamp": "2026-03-25T06:51:55.995618"
 }

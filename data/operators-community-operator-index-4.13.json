@@ -17229,6 +17229,12 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -21565,6 +21571,12 @@
       "channel": "beta"
     },
     {
+      "package": "logicmonitor-openshift-operator",
+      "name": "logicmonitor-openshift-operator",
+      "version": "0.3.0",
+      "channel": "alpha"
+    },
+    {
       "package": "loki-helm-operator",
       "name": "loki-helm-operator",
       "version": "0.0.1",
@@ -24004,6 +24016,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.144.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.148.0",
       "channel": "alpha"
     },
     {
@@ -33631,7 +33649,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5605,
+  "count": 5608,
   "source": "opm",
-  "timestamp": "2026-03-22T06:32:07.493100"
+  "timestamp": "2026-03-25T06:39:49.276901"
 }

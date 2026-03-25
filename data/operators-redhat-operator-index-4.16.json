@@ -811,6 +811,24 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773761472.p",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773829919.p",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773844407.p",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -946,6 +964,12 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.4-opr-1+0.1773623530.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1774232950.p",
       "channel": "7.13.x"
     },
     {
@@ -3939,6 +3963,12 @@
     {
       "package": "businessautomation-operator",
       "name": "businessautomation-operator",
+      "version": "7.13.5-20",
+      "channel": "stable"
+    },
+    {
+      "package": "businessautomation-operator",
+      "name": "businessautomation-operator",
       "version": "7.13.5-3",
       "channel": "stable"
     },
@@ -5181,6 +5211,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.19",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.2",
       "channel": "stable-3.10"
     },
@@ -5561,6 +5597,12 @@
       "name": "container-security-operator",
       "version": "3.16.2",
       "channel": "stable-3.16"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.17.0",
+      "channel": "stable-3.17"
     },
     {
       "package": "container-security-operator",
@@ -7791,6 +7833,12 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.13",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.2",
       "channel": "stable"
     },
@@ -8506,6 +8554,18 @@
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
       "version": "7.13.0+0.1773761219.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
+      "version": "7.13.0+0.1773829910.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
+      "version": "7.13.0+0.1773844242.p",
       "channel": "fuse-apicurito-7.13.x"
     },
     {
@@ -10261,6 +10321,12 @@
       "channel": "release-2.5"
     },
     {
+      "package": "kernel-module-management",
+      "name": "kernel-module-management",
+      "version": "2.6.0",
+      "channel": "release-2.6"
+    },
+    {
       "package": "kernel-module-management-hub",
       "name": "kernel-module-management-hub",
       "version": "2.0.0",
@@ -10331,6 +10397,12 @@
       "name": "kernel-module-management-hub",
       "version": "2.5.1",
       "channel": "release-2.5"
+    },
+    {
+      "package": "kernel-module-management-hub",
+      "name": "kernel-module-management-hub",
+      "version": "2.6.0",
+      "channel": "release-2.6"
     },
     {
       "package": "keystone-operator",
@@ -16755,6 +16827,12 @@
     {
       "package": "openshift-builds-operator",
       "name": "openshift-builds-operator",
+      "version": "1.6.4",
+      "channel": "builds-1.6"
+    },
+    {
+      "package": "openshift-builds-operator",
+      "name": "openshift-builds-operator",
       "version": "1.7.0",
       "channel": "builds-1.7"
     },
@@ -18573,6 +18651,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.19",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.2",
       "channel": "stable-3.10"
     },
@@ -18953,6 +19037,12 @@
       "name": "quay-bridge-operator",
       "version": "3.16.2",
       "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.17.0",
+      "channel": "stable-3.17"
     },
     {
       "package": "quay-bridge-operator",
@@ -19401,6 +19491,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.10.19",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.10.2",
       "channel": "stable-3.10"
     },
@@ -19781,6 +19877,12 @@
       "name": "quay-operator",
       "version": "3.16.2",
       "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.17.0",
+      "channel": "stable-3.17"
     },
     {
       "package": "quay-operator",
@@ -22405,6 +22507,12 @@
       "channel": "fast"
     },
     {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.9.2",
+      "channel": "fast"
+    },
+    {
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "1.20.1-8",
@@ -23296,6 +23404,12 @@
       "package": "rhtas-operator",
       "name": "rhtas-operator",
       "version": "1.3.2",
+      "channel": "stable"
+    },
+    {
+      "package": "rhtas-operator",
+      "name": "rhtas-operator",
+      "version": "1.3.3",
       "channel": "stable"
     },
     {
@@ -26761,7 +26875,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4460,
+  "count": 4479,
   "source": "opm",
-  "timestamp": "2026-03-22T06:40:45.348530"
+  "timestamp": "2026-03-25T06:48:28.633633"
 }

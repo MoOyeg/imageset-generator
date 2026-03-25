@@ -14137,6 +14137,16 @@
       "channel": "fast-v1"
     },
     {
+      "package": "clusterpulse",
+      "name": "clusterpulse",
+      "version": "1.0.1",
+      "keywords": [
+        "clusterpulse"
+      ],
+      "description": "Provides OpenShift cluster health monitoring",
+      "channel": "fast-v1"
+    },
+    {
       "package": "cockroachdb",
       "name": "cockroachdb",
       "version": "5.0.3",
@@ -17398,6 +17408,20 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.10.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.6.0",
       "channel": "stable"
     },
@@ -17471,14 +17495,6 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.9.2",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
@@ -21881,6 +21897,21 @@
     {
       "package": "konflux-operator",
       "name": "konflux-operator",
+      "version": "0.0.15-rc.3",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
       "version": "0.0.4",
       "keywords": [
         "build",
@@ -22047,6 +22078,36 @@
       "package": "konflux-operator",
       "name": "konflux-operator",
       "version": "0.1.3-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.4",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.4-rc.0",
       "keywords": [
         "build",
         "release",
@@ -23169,6 +23230,22 @@
       ],
       "description": "A golang-based operator to create and manage EFK (Elasticsearch, Fluentd, and Kibana) stack on Kubernetes.",
       "channel": "beta"
+    },
+    {
+      "package": "logicmonitor-openshift-operator",
+      "name": "logicmonitor-openshift-operator",
+      "version": "0.3.0",
+      "keywords": [
+        "monitoring",
+        "observability",
+        "kubernetes",
+        "openshift",
+        "logicmonitor",
+        "metrics",
+        "apm"
+      ],
+      "description": "Deploy LogicMonitor container monitoring on OpenShift clusters",
+      "channel": "alpha"
     },
     {
       "package": "loki-helm-operator",
@@ -26336,6 +26413,31 @@
       "channel": "fast-3"
     },
     {
+      "package": "opendatahub-operator",
+      "name": "opendatahub-operator",
+      "version": "3.4.0-ea.2",
+      "keywords": [
+        "odh",
+        "notebooks",
+        "serving",
+        "training",
+        "pipelines",
+        "workbenches",
+        "dashboard",
+        "kserve",
+        "distributed workloads",
+        "trustyai",
+        "modelregistry",
+        "feast",
+        "featurestore",
+        "llamastack",
+        "mlflow",
+        "sparkoperator"
+      ],
+      "description": "",
+      "channel": "fast-3"
+    },
+    {
       "package": "openebs",
       "name": "openebs",
       "version": "2.12.2",
@@ -26656,6 +26758,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.145.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.148.0",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -30017,42 +30125,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-07",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-08",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-09",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-10",
       "keywords": [
         "istio",
@@ -30138,6 +30210,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-22",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-23",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-24",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-25",
       "keywords": [
         "istio",
         "servicemesh",
@@ -31954,7 +32062,217 @@
     {
       "package": "trident-operator",
       "name": "trident-operator",
+      "version": "24.10.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "24.10.1",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "24.2.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage Astra Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "24.6.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage Astra Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
       "version": "25.10.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.2.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.2.1",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.6.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.6.1",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.6.2",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.2.0",
       "keywords": [
         "NetApp",
         "ONTAP",
@@ -33386,7 +33704,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4511,
+  "count": 4529,
   "source": "opm",
-  "timestamp": "2026-03-22T06:48:40.737872"
+  "timestamp": "2026-03-25T06:58:07.539651"
 }

@@ -1965,6 +1965,21 @@
       "channel": "1.18"
     },
     {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.8-cee.2",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.18"
+    },
+    {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
       "version": "1.25.0",
@@ -5090,20 +5105,7 @@
     {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
-      "version": "0.4.5",
-      "keywords": [
-        "ai",
-        "security",
-        "guardrails",
-        "red-team"
-      ],
-      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
-      "channel": "stable"
-    },
-    {
-      "package": "f5-ai-security-operator",
-      "name": "f5-ai-security-operator",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "keywords": [
         "ai",
         "security",
@@ -5337,79 +5339,15 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
-      "version": "2.5.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.6.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.6.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.6.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.7.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.7.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.3",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.8.4",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.9.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.9.1",
+      "version": "2.10.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
@@ -5942,6 +5880,22 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "25.3.4",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.0",
       "keywords": [
         "gpu",
         "cuda",
@@ -9329,6 +9283,16 @@
       "channel": "alpha"
     },
     {
+      "package": "mediation-openstack-operator",
+      "name": "mediation-openstack-operator",
+      "version": "8.19.2",
+      "keywords": [
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "memcached-operator-ogaye",
       "name": "memcached-operator-ogaye",
       "version": "0.0.1",
@@ -12247,6 +12211,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "8.0.16-24.4",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.16"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "8.0.2-2.9",
       "keywords": [
         "redislabs",
@@ -12945,6 +12923,19 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.28.15",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.28.16",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -13788,12 +13779,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.4-candidate-20260305202121000",
+      "version": "1.5.0-candidate-20260323111001000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -15018,7 +15009,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1453,
+  "count": 1445,
   "source": "opm",
-  "timestamp": "2026-03-22T06:43:31.404084"
+  "timestamp": "2026-03-25T06:51:28.513283"
 }

@@ -883,6 +883,24 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773761472.p",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773829919.p",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.6-opr-1+0.1773844407.p",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -1018,6 +1036,12 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.4-opr-1+0.1773623530.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1774232950.p",
       "channel": "7.13.x"
     },
     {
@@ -3591,6 +3615,12 @@
     {
       "package": "businessautomation-operator",
       "name": "businessautomation-operator",
+      "version": "7.13.5-20",
+      "channel": "stable"
+    },
+    {
+      "package": "businessautomation-operator",
+      "name": "businessautomation-operator",
       "version": "7.13.5-3",
       "channel": "stable"
     },
@@ -4839,6 +4869,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.19",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.2",
       "channel": "stable-3.10"
     },
@@ -5219,6 +5255,12 @@
       "name": "container-security-operator",
       "version": "3.16.2",
       "channel": "stable-3.16"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.17.0",
+      "channel": "stable-3.17"
     },
     {
       "package": "container-security-operator",
@@ -7167,6 +7209,12 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.13",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.2",
       "channel": "stable"
     },
@@ -8128,6 +8176,18 @@
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
       "version": "7.13.0+0.1773761219.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
+      "version": "7.13.0+0.1773829910.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
+      "version": "7.13.0+0.1773844242.p",
       "channel": "fuse-apicurito-7.13.x"
     },
     {
@@ -15147,6 +15207,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.19",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.2",
       "channel": "stable-3.10"
     },
@@ -15527,6 +15593,12 @@
       "name": "quay-bridge-operator",
       "version": "3.16.2",
       "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.17.0",
+      "channel": "stable-3.17"
     },
     {
       "package": "quay-bridge-operator",
@@ -15975,6 +16047,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.10.19",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.10.2",
       "channel": "stable-3.10"
     },
@@ -16355,6 +16433,12 @@
       "name": "quay-operator",
       "version": "3.16.2",
       "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.17.0",
+      "channel": "stable-3.17"
     },
     {
       "package": "quay-operator",
@@ -21733,7 +21817,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3622,
+  "count": 3636,
   "source": "opm",
-  "timestamp": "2026-03-22T06:30:50.499186"
+  "timestamp": "2026-03-25T06:38:12.538373"
 }

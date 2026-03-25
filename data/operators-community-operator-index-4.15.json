@@ -17163,6 +17163,12 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -21439,6 +21445,12 @@
       "channel": "beta"
     },
     {
+      "package": "logicmonitor-openshift-operator",
+      "name": "logicmonitor-openshift-operator",
+      "version": "0.3.0",
+      "channel": "alpha"
+    },
+    {
       "package": "loki-helm-operator",
       "name": "loki-helm-operator",
       "version": "0.0.1",
@@ -23884,6 +23896,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.145.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.148.0",
       "channel": "alpha"
     },
     {
@@ -26547,24 +26565,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-07",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-08",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-09",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-10",
       "channel": "1.29-nightly"
     },
@@ -26608,6 +26608,24 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-22",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-23",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-24",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-03-25",
       "channel": "1.29-nightly"
     },
     {
@@ -28375,6 +28393,12 @@
       "channel": "stable"
     },
     {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.2.0",
+      "channel": "stable"
+    },
+    {
       "package": "trustify-operator",
       "name": "trustify-operator",
       "version": "0.1.0-alpha.2",
@@ -29695,7 +29719,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4949,
+  "count": 4953,
   "source": "opm",
-  "timestamp": "2026-03-22T06:38:43.797595"
+  "timestamp": "2026-03-25T06:46:31.340429"
 }
