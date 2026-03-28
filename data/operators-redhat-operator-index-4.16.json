@@ -297,6 +297,12 @@
     {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
+      "version": "2.12.8",
+      "channel": "release-2.12"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
       "version": "2.13.0",
       "channel": "release-2.13"
     },
@@ -7347,6 +7353,12 @@
     {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
+      "version": "0.40.0",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
       "version": "0.9.0",
       "channel": "fast"
     },
@@ -8566,6 +8578,12 @@
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
       "version": "7.13.0+0.1773844242.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
+      "version": "7.13.0+0.1774370015.p",
       "channel": "fuse-apicurito-7.13.x"
     },
     {
@@ -11913,6 +11931,12 @@
     {
       "package": "lvms-operator",
       "name": "lvms-operator",
+      "version": "4.15.0",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "lvms-operator",
+      "name": "lvms-operator",
       "version": "4.15.1",
       "channel": "stable-4.15"
     },
@@ -11991,6 +12015,12 @@
     {
       "package": "lvms-operator",
       "name": "lvms-operator",
+      "version": "4.16.10",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "lvms-operator",
+      "name": "lvms-operator",
       "version": "4.16.2",
       "channel": "stable-4.16"
     },
@@ -12035,6 +12065,36 @@
       "name": "lvms-operator",
       "version": "4.16.9",
       "channel": "stable-4.16"
+    },
+    {
+      "package": "lvms-operator",
+      "name": "lvms-operator",
+      "version": "4.18.0",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "lvms-operator",
+      "name": "lvms-operator",
+      "version": "4.18.1",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "lvms-operator",
+      "name": "lvms-operator",
+      "version": "4.18.2",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "lvms-operator",
+      "name": "lvms-operator",
+      "version": "4.18.3",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "lvms-operator",
+      "name": "lvms-operator",
+      "version": "4.18.4",
+      "channel": "stable-4.18"
     },
     {
       "package": "machine-deletion-remediation",
@@ -12925,6 +12985,12 @@
       "channel": "stable-v8.0"
     },
     {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.0",
+      "channel": "stable-v8.1"
+    },
+    {
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.7.0",
@@ -13636,6 +13702,12 @@
       "package": "multicluster-engine",
       "name": "multicluster-engine",
       "version": "2.7.8",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
+      "version": "2.7.9",
       "channel": "stable-2.7"
     },
     {
@@ -16909,6 +16981,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "openshift-cert-manager-operator",
+      "name": "openshift-cert-manager-operator",
+      "version": "1.17.1",
+      "channel": "stable-v1.17"
+    },
+    {
       "package": "openshift-custom-metrics-autoscaler-operator",
       "name": "openshift-custom-metrics-autoscaler-operator",
       "version": "2.10.1-267",
@@ -17375,6 +17453,12 @@
       "name": "openshift-gitops-operator",
       "version": "1.19.2",
       "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.20.0",
+      "channel": "gitops-1.20"
     },
     {
       "package": "openshift-gitops-operator",
@@ -22701,6 +22785,12 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
+      "version": "2.16.4",
+      "channel": "eus-2.16"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
       "version": "2.17.0",
       "channel": "alpha"
     },
@@ -24567,6 +24657,12 @@
     {
       "package": "service-registry-operator",
       "name": "service-registry-operator",
+      "version": "2.6.13-r3",
+      "channel": "2.x"
+    },
+    {
+      "package": "service-registry-operator",
+      "name": "service-registry-operator",
       "version": "2.6.3",
       "channel": "2.x"
     },
@@ -24957,6 +25053,12 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.0.9",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.1.0",
       "channel": "stable"
     },
@@ -24988,6 +25090,12 @@
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
       "version": "3.1.5",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.1.6",
       "channel": "stable"
     },
     {
@@ -26875,7 +26983,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4479,
+  "count": 4497,
   "source": "opm",
-  "timestamp": "2026-03-25T06:48:28.633633"
+  "timestamp": "2026-03-28T06:44:35.318673"
 }

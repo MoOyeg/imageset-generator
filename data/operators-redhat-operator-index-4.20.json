@@ -5854,6 +5854,17 @@
       "channel": "stable"
     },
     {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.20.0-202603110559",
+      "keywords": [
+        "storage",
+        "efs"
+      ],
+      "description": "Install and configure AWS EFS CSI driver.",
+      "channel": "stable"
+    },
+    {
       "package": "aws-load-balancer-operator",
       "name": "aws-load-balancer-operator",
       "version": "1.0.0",
@@ -13705,6 +13716,18 @@
     {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
+      "version": "0.40.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
       "version": "0.9.0",
       "keywords": [
         "Devworkspace Operator",
@@ -15620,6 +15643,18 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1774370015.p",
+      "keywords": [
+        "api",
+        "apicurio",
+        "apicurito"
+      ],
+      "description": "Manages the installation and upgrades of apicurito, a small/minimal version of Apicurio",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "keywords": [
         "api",
@@ -17020,6 +17055,17 @@
       "package": "gcp-filestore-csi-driver-operator",
       "name": "gcp-filestore-csi-driver-operator",
       "version": "4.20.0-202602261925",
+      "keywords": [
+        "storage",
+        "filestore"
+      ],
+      "description": "Install and configure GCP Filestore CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.20.0-202603052148",
       "keywords": [
         "storage",
         "filestore"
@@ -20371,6 +20417,16 @@
       "channel": "stable"
     },
     {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.20.0-202603152019",
+      "keywords": [
+        "metallb-operator"
+      ],
+      "description": "An operator for deploying MetalLB on a kubernetes cluster.",
+      "channel": "stable"
+    },
+    {
       "package": "model-validation-operator",
       "name": "model-validation-operator",
       "version": "0.0.1",
@@ -20797,6 +20853,19 @@
       ],
       "description": "MTA is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
       "channel": "stable-v8.0"
+    },
+    {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.0",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Migration Toolkit for Applications is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
+      "channel": "stable-v8.1"
     },
     {
       "package": "mtc-operator",
@@ -22146,6 +22215,18 @@
       "channel": "stable"
     },
     {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.20.0-202603051149",
+      "keywords": [
+        "feature-discovery",
+        "feature-detection",
+        "node-labels"
+      ],
+      "description": "The Node Feature Discovery Operator manages the detection of hardware features and configuration in a Kubernetes cluster by labeling the nodes with hardware-specific information. The Node Feature Discovery (NFD) will label the host with node-specific attributes, like PCI cards, kernel, or OS version, and many more.\\n\\nNFD consists  of the following software components:\\n\\nThe NFD Operator is based on the Operator Framework an open source toolkit to manage Kubernetes native applications, called Operators, in an effective, automated, and scalable way.\\n\\n##NFD-Master\\nNFD-Master is the daemon responsible for communication towards the Kubernetes API. That is, it receives labeling requests from the worker and modifies node objects accordingly.\\n\\n##NFD-Worker\\nNFD-Worker is a daemon responsible for feature detection. It then communicates the information to nfd-master which does the actual node labeling. One instance of nfd-worker is supposed to be running on each node of the cluster.\\n\\n##NFD-Topology-Updater\\nNFD-Topology-Updater is a daemon responsible for examining allocated resources on a worker node to account for resources available to be allocated to new pod on a per-zone basis (where a zone can be a NUMA node). It then communicates the information to nfd-master which does the NodeResourceTopology CR creation corresponding to all the nodes in the cluster. One instance of nfd-topology-updater is supposed to be running on each node of the cluster.",
+      "channel": "stable"
+    },
+    {
       "package": "node-healthcheck-operator",
       "name": "node-healthcheck-operator",
       "version": "0.10.0",
@@ -22275,6 +22356,17 @@
       "package": "numaresources-operator",
       "name": "numaresources-operator",
       "version": "4.20.0",
+      "keywords": [
+        "RTE",
+        "NUMA"
+      ],
+      "description": "",
+      "channel": "4.20"
+    },
+    {
+      "package": "numaresources-operator",
+      "name": "numaresources-operator",
+      "version": "4.20.1",
       "keywords": [
         "RTE",
         "NUMA"
@@ -24641,6 +24733,21 @@
     {
       "package": "openshift-cert-manager-operator",
       "name": "openshift-cert-manager-operator",
+      "version": "1.17.1",
+      "keywords": [
+        "cert-manager",
+        "cert-manager-operator",
+        "cert",
+        "certificates",
+        "security",
+        "TLS"
+      ],
+      "description": "",
+      "channel": "stable-v1.17"
+    },
+    {
+      "package": "openshift-cert-manager-operator",
+      "name": "openshift-cert-manager-operator",
       "version": "1.18.0",
       "keywords": [
         "cert-manager",
@@ -25631,6 +25738,18 @@
       ],
       "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
       "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.20.0",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.20"
     },
     {
       "package": "openshift-gitops-operator",
@@ -27304,6 +27423,16 @@
       "package": "ptp-operator",
       "name": "ptp-operator",
       "version": "4.20.0-202603030647",
+      "keywords": [
+        "ptp"
+      ],
+      "description": "This software enables configuration of Precision Time Protocol(PTP) on Kubernetes. It detects hardware capable PTP devices on each node, and configures linuxptp processes such as ptp4l, phc2sys and timemaster.",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.20.0-202603160950",
       "keywords": [
         "ptp"
       ],
@@ -41216,6 +41345,25 @@
     {
       "package": "service-registry-operator",
       "name": "service-registry-operator",
+      "version": "2.6.13-r3",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "service",
+        "service-registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Red Hat build of Apicurio Registry on OpenShift.",
+      "channel": "2.x"
+    },
+    {
+      "package": "service-registry-operator",
+      "name": "service-registry-operator",
       "version": "2.6.3",
       "keywords": [
         "integration",
@@ -42015,6 +42163,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.0.9",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.1.0",
       "keywords": [
         "istio",
@@ -42087,6 +42247,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.1.6",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.2.0",
       "keywords": [
         "istio",
@@ -42123,7 +42295,31 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.2.3",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.3.0",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.3.1",
       "keywords": [
         "istio",
         "servicemesh",
@@ -43265,6 +43461,21 @@
       "channel": "tech-preview"
     },
     {
+      "package": "support-log-gather-operator",
+      "name": "support-log-gather-operator",
+      "version": "4.20.0-202603130602",
+      "keywords": [
+        "kubernetes",
+        "openshift",
+        "monitoring",
+        "diagnostics",
+        "must-gather",
+        "support"
+      ],
+      "description": "Operator to enable CEE to collect must-gathers from OSDv4 clusters",
+      "channel": "tech-preview"
+    },
+    {
       "package": "tang-operator",
       "name": "tang-operator",
       "version": "1.0.0",
@@ -43854,6 +44065,19 @@
       "package": "vertical-pod-autoscaler",
       "name": "vertical-pod-autoscaler",
       "version": "4.20.0-202602261925",
+      "keywords": [
+        "verticalpodautoscaler",
+        "vpa",
+        "autoscaling",
+        "scaling"
+      ],
+      "description": "An operator to run the OpenShift Vertical Pod Autoscaler. Vertical Pod Autoscaler (VPA) can be configured to monitor a workload's resource utilization, and then adjust its CPU and memory limits by updating the pod (future) or restarting the pod with updated limits.",
+      "channel": "stable"
+    },
+    {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.20.0-202603060259",
       "keywords": [
         "verticalpodautoscaler",
         "vpa",
@@ -44506,7 +44730,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3154,
+  "count": 3172,
   "source": "opm",
-  "timestamp": "2026-03-25T06:57:11.933768"
+  "timestamp": "2026-03-28T06:51:39.507021"
 }

@@ -1,30 +1,5 @@
 {
   "dependencies": {
-    "alloydb-omni-operator": {
-      "requires_packages": [
-        {
-          "packageName": "cert-manager",
-          "versionRange": ">=1.12.2"
-        }
-      ],
-      "requires_gvks": [
-        {
-          "group": "cert-manager.io",
-          "kind": "Certificate",
-          "version": "v1"
-        },
-        {
-          "group": "cert-manager.io",
-          "kind": "ClusterIssuer",
-          "version": "v1"
-        },
-        {
-          "group": "cert-manager.io",
-          "kind": "Issuer",
-          "version": "v1"
-        }
-      ]
-    },
     "assisted-service-operator": {
       "requires_packages": [],
       "requires_gvks": [
@@ -160,16 +135,7 @@
       ]
     },
     "mercury-operator": {
-      "requires_packages": [
-        {
-          "packageName": "camel-k",
-          "versionRange": "1.9.0"
-        },
-        {
-          "packageName": "strimzi-kafka-operator",
-          "versionRange": "0.28.0"
-        }
-      ],
+      "requires_packages": [],
       "requires_gvks": [
         {
           "group": "camel.apache.org",
@@ -238,36 +204,6 @@
       ],
       "requires_gvks": []
     },
-    "rabbitmq-messaging-topology-operator": {
-      "requires_packages": [
-        {
-          "packageName": "rabbitmq-cluster-operator",
-          "versionRange": ">2.0.0"
-        }
-      ],
-      "requires_gvks": [
-        {
-          "group": "rabbitmq.com",
-          "kind": "RabbitmqCluster",
-          "version": "v1beta1"
-        }
-      ]
-    },
-    "shipwright-operator": {
-      "requires_packages": [],
-      "requires_gvks": [
-        {
-          "group": "cert-manager.io",
-          "kind": "Certificate",
-          "version": "v1"
-        },
-        {
-          "group": "operator.tekton.dev",
-          "kind": "TektonConfig",
-          "version": "v1alpha1"
-        }
-      ]
-    },
     "silicom-sts-operator": {
       "requires_packages": [
         {
@@ -334,9 +270,6 @@
       "3scale-community-operator"
     ],
     "capabilities.3scale.net/v1alpha1/Tenant": [
-      "3scale-community-operator"
-    ],
-    "capabilities.3scale.net/v1beta1/Application": [
       "3scale-community-operator"
     ],
     "acm.services.k8s.aws/v1alpha1/Certificate": [
@@ -816,9 +749,6 @@
     "prometheusservice.services.k8s.aws/v1alpha1/LoggingConfiguration": [
       "ack-prometheusservice-controller"
     ],
-    "quicksight.services.k8s.aws/v1alpha1/DataSource": [
-      "ack-quicksight-controller"
-    ],
     "ram.services.k8s.aws/v1alpha1/Permission": [
       "ack-ram-controller"
     ],
@@ -903,6 +833,12 @@
     "sagemaker.services.k8s.aws/v1alpha1/HyperParameterTuningJob": [
       "ack-sagemaker-controller"
     ],
+    "sagemaker.services.k8s.aws/v1alpha1/InferenceComponent": [
+      "ack-sagemaker-controller"
+    ],
+    "sagemaker.services.k8s.aws/v1alpha1/LabelingJob": [
+      "ack-sagemaker-controller"
+    ],
     "sagemaker.services.k8s.aws/v1alpha1/Model": [
       "ack-sagemaker-controller"
     ],
@@ -930,6 +866,12 @@
     "sagemaker.services.k8s.aws/v1alpha1/NotebookInstanceLifecycleConfig": [
       "ack-sagemaker-controller"
     ],
+    "sagemaker.services.k8s.aws/v1alpha1/Pipeline": [
+      "ack-sagemaker-controller"
+    ],
+    "sagemaker.services.k8s.aws/v1alpha1/PipelineExecution": [
+      "ack-sagemaker-controller"
+    ],
     "sagemaker.services.k8s.aws/v1alpha1/ProcessingJob": [
       "ack-sagemaker-controller"
     ],
@@ -940,18 +882,6 @@
       "ack-sagemaker-controller"
     ],
     "sagemaker.services.k8s.aws/v1alpha1/UserProfile": [
-      "ack-sagemaker-controller"
-    ],
-    "sagemaker.services.k8s.aws/v1alpha1/Pipeline": [
-      "ack-sagemaker-controller"
-    ],
-    "sagemaker.services.k8s.aws/v1alpha1/PipelineExecution": [
-      "ack-sagemaker-controller"
-    ],
-    "sagemaker.services.k8s.aws/v1alpha1/InferenceComponent": [
-      "ack-sagemaker-controller"
-    ],
-    "sagemaker.services.k8s.aws/v1alpha1/LabelingJob": [
       "ack-sagemaker-controller"
     ],
     "sagemaker.services.k8s.aws/v1alpha1/Space": [
@@ -978,10 +908,10 @@
     "sns.services.k8s.aws/v1alpha1/PlatformEndpoint": [
       "ack-sns-controller"
     ],
-    "sns.services.k8s.aws/v1alpha1/Topic": [
+    "sns.services.k8s.aws/v1alpha1/Subscription": [
       "ack-sns-controller"
     ],
-    "sns.services.k8s.aws/v1alpha1/Subscription": [
+    "sns.services.k8s.aws/v1alpha1/Topic": [
       "ack-sns-controller"
     ],
     "sqs.services.k8s.aws/v1alpha1/Queue": [
@@ -1025,81 +955,6 @@
     ],
     "workflow.apache.org/v1alpha1/AirFlow": [
       "airflow-helm-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/Backup": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/BackupPlan": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/DBCluster": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/DBInstance": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/Failover": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/PgBouncer": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/Replication": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/Restore": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/Sidecar": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/Switchover": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/BackupRepository": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/CreateStandbyJob": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/DeleteStandbyJob": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/Failover": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/Instance": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/InstanceBackup": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/InstanceBackupPlan": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/InstanceRestore": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/InstanceSwitchover": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/LROJob": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/ReplicationConfig": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/Sidecar": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/UserDefinedAuthentication": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.internal.dbadmin.goog/v1/InstanceUserDefinedAuthentication": [
-      "alloydb-omni-operator"
-    ],
-    "alloydbomni.dbadmin.goog/v1/TdeConfig": [
-      "alloydb-omni-operator"
     ],
     "imaging-ingestion.alvearie.org/v1alpha1/DicomEventDrivenIngestion": [
       "alvearie-imaging-ingestion"
@@ -1483,27 +1338,8 @@
     "beegfs.csi.netapp.com/v1/BeegfsDriver": [
       "beegfs-csi-driver-operator"
     ],
-    "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
-      "bookkeeper-operator",
-      "sn-operator"
-    ],
-    "bpfd.dev/v1alpha1/BpfProgram": [
-      "bpfd-operator"
-    ],
-    "bpfd.dev/v1alpha1/KprobeProgram": [
-      "bpfd-operator"
-    ],
-    "bpfd.dev/v1alpha1/TcProgram": [
-      "bpfd-operator"
-    ],
-    "bpfd.dev/v1alpha1/TracepointProgram": [
-      "bpfd-operator"
-    ],
-    "bpfd.dev/v1alpha1/UprobeProgram": [
-      "bpfd-operator"
-    ],
-    "bpfd.dev/v1alpha1/XdpProgram": [
-      "bpfd-operator"
+    "bpfman.io/v1alpha1/BpfApplication": [
+      "bpfman-operator"
     ],
     "bpfman.io/v1alpha1/BpfProgram": [
       "bpfman-operator"
@@ -1527,9 +1363,6 @@
       "bpfman-operator"
     ],
     "bpfman.io/v1alpha1/XdpProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/BpfApplication": [
       "bpfman-operator"
     ],
     "bpfman.io/v1alpha1/BpfNsApplication": [
@@ -1697,9 +1530,6 @@
     "operator.open-cluster-management.io/v1/ClusterManager": [
       "cluster-manager"
     ],
-    "rhsyseng.github.io/v1beta1/ClusterRelocation": [
-      "cluster-relocation-operator"
-    ],
     "charts.operatorhub.io/v1alpha1/Cockroachdb": [
       "cockroachdb"
     ],
@@ -1767,6 +1597,12 @@
       "community-kubevirt-hyperconverged"
     ],
     "ssp.kubevirt.io/v1beta2/SSP": [
+      "community-kubevirt-hyperconverged"
+    ],
+    "aaq.kubevirt.io/v1alpha1/AAQ": [
+      "community-kubevirt-hyperconverged"
+    ],
+    "ssp.kubevirt.io/v1beta3/SSP": [
       "community-kubevirt-hyperconverged"
     ],
     "hostpathprovisioner.kubevirt.io/v1alpha1/HostPathProvisioner": [
@@ -1910,12 +1746,6 @@
     "debezium.io/v1alpha1/DebeziumServer": [
       "debezium-operator"
     ],
-    "storage.dell.com/v1/ContainerStorageModule": [
-      "dell-csm-operator"
-    ],
-    "storage.dell.com/v1/ApexConnectivityClient": [
-      "dell-csm-operator"
-    ],
     "apimc.com.perficient/v1alpha1/DevSecOpsManager": [
       "devopsinabox"
     ],
@@ -1925,20 +1755,8 @@
     "apimc.com.perficient/v1alpha1/SpringBootApp": [
       "devopsinabox"
     ],
-    "kuadrant.io/v1alpha1/DNSHealthCheckProbe": [
-      "dns-operator",
-      "kuadrant-operator"
-    ],
     "kuadrant.io/v1alpha1/DNSRecord": [
-      "dns-operator",
-      "kuadrant-operator"
-    ],
-    "kuadrant.io/v1alpha1/ManagedZone": [
-      "dns-operator",
-      "kuadrant-operator"
-    ],
-    "docling.github.io/v1alpha1/DoclingServe": [
-      "docling-operator"
+      "dns-operator"
     ],
     "dynatrace.com/v1alpha1/DynaKube": [
       "dynatrace-operator"
@@ -1946,16 +1764,16 @@
     "dynatrace.com/v1beta1/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1alpha1/EdgeConnect": [
-      "dynatrace-operator"
-    ],
     "dynatrace.com/v1beta2/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1alpha2/EdgeConnect": [
+    "dynatrace.com/v1beta3/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta3/DynaKube": [
+    "dynatrace.com/v1alpha1/EdgeConnect": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1alpha2/EdgeConnect": [
       "dynatrace-operator"
     ],
     "dynatrace.com/v1beta4/DynaKube": [
@@ -1987,12 +1805,6 @@
     ],
     "org.eclipse.che/v1/CheClusterRestore": [
       "eclipse-che"
-    ],
-    "ecr.mobb.redhat.com/v1alpha1/Secret": [
-      "ecr-secret-operator"
-    ],
-    "ecr.mobb.redhat.com/v1alpha1/ArgoHelmRepoSecret": [
-      "ecr-secret-operator"
     ],
     "v1.edp.epam.com/v1/Keycloak": [
       "edp-keycloak-operator"
@@ -2064,9 +1876,6 @@
       "edp-keycloak-operator"
     ],
     "v1.edp.epam.com/v1alpha1/ClusterKeycloakRealm": [
-      "edp-keycloak-operator"
-    ],
-    "v1.edp.epam.com/v1alpha1/KeycloakOrganization": [
       "edp-keycloak-operator"
     ],
     "eginnovations.com/v1beta1/EgUniversalAgent": [
@@ -2285,48 +2094,6 @@
     "source.toolkit.fluxcd.io/v1/HelmRepository": [
       "flux"
     ],
-    "fluxcd.controlplane.io/v1/FluxInstance": [
-      "flux-operator"
-    ],
-    "fluxcd.controlplane.io/v1/FluxReport": [
-      "flux-operator"
-    ],
-    "fluxcd.controlplane.io/v1/ResourceSet": [
-      "flux-operator"
-    ],
-    "fluxcd.controlplane.io/v1/ResourceSetInputProvider": [
-      "flux-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/ForkliftController": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Hook": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Host": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Migration": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/NetworkMap": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/OpenstackVolumePopulator": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/OvirtVolumePopulator": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Plan": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Provider": [
-      "forklift-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/StorageMap": [
-      "forklift-operator"
-    ],
     "fossul.io/v1/Backup": [
       "fossul-operator"
     ],
@@ -2348,12 +2115,6 @@
     "github-practice.boxboat.com/v1alpha1/ActionsRunnerController": [
       "github-arc-operator"
     ],
-    "apps.gitlab.com/v1beta1/GitLab": [
-      "gitlab-operator-kubernetes"
-    ],
-    "apps.gitlab.com/v1beta2/Runner": [
-      "gitlab-runner-operator"
-    ],
     "primer.gitops.io/v1alpha1/Export": [
       "gitops-primer"
     ],
@@ -2373,22 +2134,13 @@
       "global-load-balancer-operator",
       "k8gb"
     ],
-    "integreatly.org/v1alpha1/Grafana": [
-      "grafana-operator"
-    ],
-    "integreatly.org/v1alpha1/GrafanaDashboard": [
-      "grafana-operator"
-    ],
-    "integreatly.org/v1alpha1/GrafanaDataSource": [
-      "grafana-operator"
-    ],
-    "integreatly.org/v1alpha1/GrafanaNotificationChannel": [
-      "grafana-operator"
-    ],
-    "integreatly.org/v1alpha1/GrafanaFolder": [
-      "grafana-operator"
-    ],
     "grafana.integreatly.org/v1beta1/Grafana": [
+      "grafana-operator"
+    ],
+    "grafana.integreatly.org/v1beta1/GrafanaAlertRuleGroup": [
+      "grafana-operator"
+    ],
+    "grafana.integreatly.org/v1beta1/GrafanaContactPoint": [
       "grafana-operator"
     ],
     "grafana.integreatly.org/v1beta1/GrafanaDashboard": [
@@ -2400,16 +2152,7 @@
     "grafana.integreatly.org/v1beta1/GrafanaFolder": [
       "grafana-operator"
     ],
-    "grafana.integreatly.org/v1beta1/GrafanaAlertRuleGroup": [
-      "grafana-operator"
-    ],
-    "grafana.integreatly.org/v1beta1/GrafanaContactPoint": [
-      "grafana-operator"
-    ],
     "grafana.integreatly.org/v1beta1/GrafanaNotificationPolicy": [
-      "grafana-operator"
-    ],
-    "grafana.integreatly.org/v1beta1/GrafanaNotificationTemplate": [
       "grafana-operator"
     ],
     "grafana.integreatly.org/v1beta1/GrafanaLibraryPanel": [
@@ -2419,6 +2162,9 @@
       "grafana-operator"
     ],
     "grafana.integreatly.org/v1beta1/GrafanaNotificationPolicyRoute": [
+      "grafana-operator"
+    ],
+    "grafana.integreatly.org/v1beta1/GrafanaNotificationTemplate": [
       "grafana-operator"
     ],
     "grafana.integreatly.org/v1beta1/GrafanaServiceAccount": [
@@ -2508,15 +2254,6 @@
     "hyperfoil.io/v1alpha2/Hyperfoil": [
       "hyperfoil-bundle"
     ],
-    "csi.ibm.com/v1/HostDefiner": [
-      "ibm-block-csi-operator-community"
-    ],
-    "csi.ibm.com/v1/HostDefinition": [
-      "ibm-block-csi-operator-community"
-    ],
-    "csi.ibm.com/v1/IBMBlockCSI": [
-      "ibm-block-csi-operator-community"
-    ],
     "ibm.com/v1/IBMSecurityVerifyAccess": [
       "ibm-security-verify-access-operator"
     ],
@@ -2541,21 +2278,6 @@
     "ibmcloud.ibm.com/v1beta1/Service": [
       "ibmcloud-operator"
     ],
-    "infinispan.org/v2alpha1/Backup": [
-      "infinispan"
-    ],
-    "infinispan.org/v2alpha1/Batch": [
-      "infinispan"
-    ],
-    "infinispan.org/v2alpha1/Cache": [
-      "infinispan"
-    ],
-    "infinispan.org/v1/Infinispan": [
-      "infinispan"
-    ],
-    "infinispan.org/v2alpha1/Restore": [
-      "infinispan"
-    ],
     "apis.integrityshield.io/v1/IntegrityShield": [
       "integrity-shield-operator"
     ],
@@ -2574,14 +2296,8 @@
     "jaegertracing.io/v1/Jaeger": [
       "jaeger"
     ],
-    "maximilianopizarro.github.io/v1alpha1/JhipsterOnline": [
-      "jhipster-online-operator"
-    ],
     "k8gb.absa.oss/v1beta1/Gslb": [
       "k8gb"
-    ],
-    "designer.kaoto.io/v1alpha1/Kaoto": [
-      "kaoto-operator"
     ],
     "keda.sh/v1alpha1/KedaController": [
       "keda"
@@ -2600,12 +2316,6 @@
     ],
     "redhatcop.redhat.io/v1alpha1/KeepalivedGroup": [
       "keepalived-operator"
-    ],
-    "kepler.system.sustainable.computing.io/v1alpha1/Kepler": [
-      "kepler-operator"
-    ],
-    "kepler.system.sustainable.computing.io/v1alpha1/KeplerInternal": [
-      "kepler-operator"
     ],
     "keycloak.org/v1alpha1/Keycloak": [
       "keycloak-operator"
@@ -2646,15 +2356,6 @@
     "app.kiegroup.org/v1beta1/KogitoSupportingService": [
       "kogito-operator"
     ],
-    "koku-metrics-cfg.openshift.io/v1alpha1/KokuMetricsConfig": [
-      "koku-metrics-operator"
-    ],
-    "koku-metrics-cfg.openshift.io/v1beta1/KokuMetricsConfig": [
-      "koku-metrics-operator"
-    ],
-    "costmanagement-metrics-cfg.openshift.io/v1beta1/CostManagementMetricsConfig": [
-      "koku-metrics-operator"
-    ],
     "tackle.konveyor.io/v1alpha1/Addon": [
       "konveyor-operator"
     ],
@@ -2685,9 +2386,6 @@
     "korrel8r.openshift.io/v1alpha1/Korrel8r": [
       "korrel8r"
     ],
-    "kruize.io/v1alpha1/Kruize": [
-      "kruize-operator"
-    ],
     "kuadrant.io/v1beta2/AuthPolicy": [
       "kuadrant-operator"
     ],
@@ -2708,9 +2406,6 @@
     ],
     "kuadrant.io/v1beta1/RateLimitPolicy": [
       "kuadrant-operator"
-    ],
-    "kube-green.com/v1alpha1/SleepInfo": [
-      "kube-green"
     ],
     "charts.kubecost.com/v1alpha1/CostAnalyzer": [
       "kubecost"
@@ -2937,33 +2632,6 @@
     "move2kube.konveyor.io/v1alpha1/Move2Kube": [
       "move2kube-operator"
     ],
-    "multinic.fms.io/v1/CIDR": [
-      "multi-nic-cni-operator"
-    ],
-    "multinic.fms.io/v1/Config": [
-      "multi-nic-cni-operator"
-    ],
-    "multinic.fms.io/v1/DeviceClass": [
-      "multi-nic-cni-operator"
-    ],
-    "multinic.fms.io/v1/HostInterface": [
-      "multi-nic-cni-operator"
-    ],
-    "multinic.fms.io/v1/IPPool": [
-      "multi-nic-cni-operator"
-    ],
-    "multinic.fms.io/v1/MultiNicNetwork": [
-      "multi-nic-cni-operator"
-    ],
-    "global-hub.open-cluster-management.io/v1alpha1/ManagedClusterMigration": [
-      "multicluster-global-hub-operator"
-    ],
-    "operator.open-cluster-management.io/v1alpha4/MulticlusterGlobalHub": [
-      "multicluster-global-hub-operator"
-    ],
-    "operator.open-cluster-management.io/v1alpha1/MulticlusterGlobalHubAgent": [
-      "multicluster-global-hub-operator"
-    ],
     "app.k8s.io/v1beta1/Application": [
       "multicluster-operators-subscription"
     ],
@@ -3037,15 +2705,6 @@
       "nexus-operator"
     ],
     "edp.epam.com/v1alpha1/NexusUser": [
-      "nexus-operator"
-    ],
-    "edp.epam.com/v1alpha1/NexusBlobStore": [
-      "nexus-operator"
-    ],
-    "edp.epam.com/v1alpha1/NexusCleanupPolicy": [
-      "nexus-operator"
-    ],
-    "edp.epam.com/v1alpha1/NexusScript": [
       "nexus-operator"
     ],
     "apps.m88i.io/v1alpha1/Nexus": [
@@ -3159,83 +2818,8 @@
     "ccm.oraclecloud.com/v1alpha1/OCICsiDriver": [
       "oci-ccm-operator"
     ],
-    "odf.openshift.io/v1alpha1/NodeRecovery": [
-      "odf-node-recovery-operator"
-    ],
     "odoo-community.org/v1alpha1/Odoo": [
       "odoo-operator"
-    ],
-    "kfdef.apps.kubeflow.org/v1/KfDef": [
-      "opendatahub-operator"
-    ],
-    "console.openshift.io/v1/OdhQuickStart": [
-      "opendatahub-operator"
-    ],
-    "dashboard.opendatahub.io/v1alpha/AcceleratorProfile": [
-      "opendatahub-operator"
-    ],
-    "dashboard.opendatahub.io/v1/OdhApplication": [
-      "opendatahub-operator"
-    ],
-    "dashboard.opendatahub.io/v1/OdhDocument": [
-      "opendatahub-operator"
-    ],
-    "opendatahub.io/v1alpha/OdhDashboardConfig": [
-      "opendatahub-operator"
-    ],
-    "datasciencecluster.opendatahub.io/v1/DataScienceCluster": [
-      "opendatahub-operator"
-    ],
-    "dscinitialization.opendatahub.io/v1/DSCInitialization": [
-      "opendatahub-operator"
-    ],
-    "features.opendatahub.io/v1/FeatureTracker": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/CodeFlare": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/Dashboard": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/DataSciencePipelines": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/Kserve": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/Kueue": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/ModelController": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/ModelMeshServing": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/ModelRegistry": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/Ray": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/TrainingOperator": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/TrustyAI": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/Workbenches": [
-      "opendatahub-operator"
-    ],
-    "services.platform.opendatahub.io/v1alpha1/Monitoring": [
-      "opendatahub-operator"
-    ],
-    "services.platform.opendatahub.io/v1alpha1/Auth": [
-      "opendatahub-operator"
-    ],
-    "components.platform.opendatahub.io/v1alpha1/FeastOperator": [
-      "opendatahub-operator"
     ],
     "openebs.io/v1alpha1/OpenEBSInstallTemplate": [
       "openebs"
@@ -3270,9 +2854,6 @@
     "redhatcop.redhat.io/v1alpha1/Patch": [
       "patch-operator"
     ],
-    "gitops.hybrid-cloud-patterns.io/v1alpha1/Pattern": [
-      "patterns-operator"
-    ],
     "pcc.paloaltonetworks.com/v1alpha1/Console": [
       "pcc-operator"
     ],
@@ -3288,79 +2869,13 @@
     "charts.pelorus.dora-metrics.io/v1alpha1/Pelorus": [
       "pelorus-operator"
     ],
-    "pgv2.percona.com/v2/PerconaPGBackup": [
-      "percona-postgresql-operator"
-    ],
-    "pgv2.percona.com/v2/PerconaPGCluster": [
-      "percona-postgresql-operator"
-    ],
-    "pgv2.percona.com/v2/PerconaPGRestore": [
-      "percona-postgresql-operator"
-    ],
-    "postgres-operator.crunchydata.com/v1beta1/PostgresCluster": [
-      "percona-postgresql-operator"
-    ],
-    "pgv2.percona.com/v2/PerconaPGUpgrade": [
-      "percona-postgresql-operator"
-    ],
-    "postgres-operator.crunchydata.com/v1beta1/CrunchyBridgeCluster": [
-      "percona-postgresql-operator"
-    ],
-    "postgres-operator.crunchydata.com/v1beta1/PGAdmin": [
-      "percona-postgresql-operator"
-    ],
-    "postgres-operator.crunchydata.com/v1beta1/PGUpgrade": [
-      "percona-postgresql-operator"
-    ],
-    "psmdb.percona.com/v1/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-10-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-11-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-12-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-2-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-3-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-4-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-5-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-6-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-7-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-8-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1-9-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1/PerconaServerMongoDBBackup": [
-      "percona-server-mongodb-operator"
-    ],
-    "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
-      "percona-server-mongodb-operator"
+    "pxc.percona.com/v1alpha1/PerconaXtraDBBackup": [
+      "percona-xtradb-cluster-operator"
     ],
     "pxc.percona.com/v1/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
     ],
-    "pxc.percona.com/v1-10-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator"
-    ],
-    "pxc.percona.com/v1-11-0/PerconaXtraDBCluster": [
+    "pxc.percona.com/v1-1-0/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
     ],
     "pxc.percona.com/v1-2-0/PerconaXtraDBCluster": [
@@ -3387,19 +2902,13 @@
     "pxc.percona.com/v1-9-0/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
     ],
+    "pxc.percona.com/v1alpha1/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator"
+    ],
     "pxc.percona.com/v1/PerconaXtraDBClusterBackup": [
       "percona-xtradb-cluster-operator"
     ],
     "pxc.percona.com/v1/PerconaXtraDBClusterRestore": [
-      "percona-xtradb-cluster-operator"
-    ],
-    "pxc.percona.com/v1alpha1/PerconaXtraDBBackup": [
-      "percona-xtradb-cluster-operator"
-    ],
-    "pxc.percona.com/v1-1-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator"
-    ],
-    "pxc.percona.com/v1alpha1/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
     ],
     "redhatcop.redhat.io/v1alpha1/NodeScalingWatermark": [
@@ -3474,74 +2983,6 @@
     "repo-manager.pulpproject.org/v1beta2/PulpRestore": [
       "pulp-operator"
     ],
-    "pulsar.streamnative.io/v1alpha1/PulsarBroker": [
-      "pulsar-operator",
-      "sn-operator"
-    ],
-    "pulsar.streamnative.io/v1alpha1/PulsarProxy": [
-      "pulsar-operator",
-      "sn-operator"
-    ],
-    "resource.streamnative.io/v1alpha1/PulsarConnection": [
-      "pulsar-resources-operator"
-    ],
-    "resource.streamnative.io/v1alpha1/PulsarGeoReplication": [
-      "pulsar-resources-operator"
-    ],
-    "resource.streamnative.io/v1alpha1/PulsarNamespace": [
-      "pulsar-resources-operator"
-    ],
-    "resource.streamnative.io/v1alpha1/PulsarPermission": [
-      "pulsar-resources-operator"
-    ],
-    "resource.streamnative.io/v1alpha1/PulsarTenant": [
-      "pulsar-resources-operator"
-    ],
-    "resource.streamnative.io/v1alpha1/PulsarTopic": [
-      "pulsar-resources-operator"
-    ],
-    "rabbitmq.com/v1beta1/Binding": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/Exchange": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/Federation": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/Permission": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/Policy": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/Queue": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/SchemaReplication": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/Shovel": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1alpha1/SuperStream": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/TopicPermission": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/User": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/Vhost": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1beta1/OperatorPolicy": [
-      "rabbitmq-messaging-topology-operator"
-    ],
-    "rabbitmq.com/v1alpha1/SuperStreamConsumer": [
-      "rabbitmq-single-active-consumer-operator"
-    ],
     "redis.redis.opstreelabs.in/v1beta1/Redis": [
       "redis-operator"
     ],
@@ -3569,15 +3010,6 @@
     "redkey.inditex.dev/v1/RedkeyCluster": [
       "redkey-operator"
     ],
-    "registry.devfile.io/v1alpha1/ClusterDevfileRegistriesList": [
-      "registry-operator"
-    ],
-    "registry.devfile.io/v1alpha1/DevfileRegistriesList": [
-      "registry-operator"
-    ],
-    "registry.devfile.io/v1alpha1/DevfileRegistry": [
-      "registry-operator"
-    ],
     "rp5.reportportal.io/v1/ReportPortal": [
       "reportportal-operator"
     ],
@@ -3604,132 +3036,6 @@
     ],
     "ripsaw.cloudbulldozer.io/v1alpha1/Benchmark": [
       "ripsaw"
-    ],
-    "extensions.istio.io/v1alpha1/WasmPlugin": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1/DestinationRule": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1alpha3/DestinationRule": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1beta1/DestinationRule": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1alpha3/EnvoyFilter": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1/Gateway": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1alpha3/Gateway": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1beta1/Gateway": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1beta1/ProxyConfig": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1/ServiceEntry": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1alpha3/ServiceEntry": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1beta1/ServiceEntry": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1/Sidecar": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1alpha3/Sidecar": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1beta1/Sidecar": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1/VirtualService": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1alpha3/VirtualService": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1beta1/VirtualService": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1/WorkloadEntry": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1alpha3/WorkloadEntry": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1beta1/WorkloadEntry": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1/WorkloadGroup": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1alpha3/WorkloadGroup": [
-      "sailoperator"
-    ],
-    "networking.istio.io/v1beta1/WorkloadGroup": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1alpha1/Istio": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1alpha1/IstioCNI": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1alpha1/IstioRevision": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1alpha1/RemoteIstio": [
-      "sailoperator"
-    ],
-    "security.istio.io/v1/AuthorizationPolicy": [
-      "sailoperator"
-    ],
-    "security.istio.io/v1beta1/AuthorizationPolicy": [
-      "sailoperator"
-    ],
-    "security.istio.io/v1/PeerAuthentication": [
-      "sailoperator"
-    ],
-    "security.istio.io/v1beta1/PeerAuthentication": [
-      "sailoperator"
-    ],
-    "security.istio.io/v1/RequestAuthentication": [
-      "sailoperator"
-    ],
-    "security.istio.io/v1beta1/RequestAuthentication": [
-      "sailoperator"
-    ],
-    "telemetry.istio.io/v1/Telemetry": [
-      "sailoperator"
-    ],
-    "telemetry.istio.io/v1alpha1/Telemetry": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1/Istio": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1/IstioCNI": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1/IstioRevision": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1/IstioRevisionTag": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1alpha1/ZTunnel": [
-      "sailoperator"
-    ],
-    "sailoperator.io/v1/ZTunnel": [
-      "sailoperator"
     ],
     "hybris.hybris.org/v1alpha1/HybrisApp": [
       "sap-commerce-operator"
@@ -3776,9 +3082,6 @@
     "servicebinding.io/v1beta1/ServiceBinding": [
       "service-binding-operator"
     ],
-    "operator.shipwright.io/v1alpha1/ShipwrightBuild": [
-      "shipwright-operator"
-    ],
     "helm.sigstore.dev/v1alpha1/Rekor": [
       "sigstore-helm-operator"
     ],
@@ -3790,55 +3093,6 @@
     ],
     "sts.silicom.com/v1alpha1/StsOperatorConfig": [
       "silicom-sts-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/ApiKeys": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/ConnectorCatalog": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/Console": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/KafkaConnect": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/OxiaCluster": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/OxiaNamespace": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/PFSQLCluster": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/PulsarCoordinator": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/UniLink": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/UniLinkSchema": [
-      "sn-operator"
-    ],
-    "pulsar.streamnative.io/v1alpha1/PulsarBrokerRevision": [
-      "sn-operator"
-    ],
-    "zookeeper.streamnative.io/v1alpha1/ZooKeeperCluster": [
-      "sn-operator",
-      "zookeeper-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/AgentFunction": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/MqttProxy": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/StorageCatalog": [
-      "sn-operator"
-    ],
-    "pulsar.streamnative.io/v1alpha1/PulsarFunctionsWorker": [
-      "sn-operator"
     ],
     "snapscheduler.backube/v1/SnapshotSchedule": [
       "snapscheduler"
@@ -3896,60 +3150,6 @@
     ],
     "sro.openshift.io/v1beta1/SpecialResource": [
       "special-resource-operator"
-    ],
-    "stackgres.io/v1/SGBackup": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGCluster": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGConfig": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGDbOps": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGDistributedLogs": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGInstanceProfile": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1beta1/SGObjectStorage": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGPoolingConfig": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGPostgresConfig": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGScript": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGShardedBackup": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1alpha1/SGShardedCluster": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1/SGShardedDbOps": [
-      "stackgres-community"
-    ],
-    "stackgres.io/v1alpha1/SGStream": [
-      "stackgres-community"
-    ],
-    "operator.open-cluster-management.io/v1/MultiClusterHub": [
-      "stolostron"
-    ],
-    "submarineraddon.open-cluster-management.io/v1alpha1/SubmarinerConfig": [
-      "stolostron"
-    ],
-    "submarineraddon.open-cluster-management.io/v1alpha1/SubmarinerDiagnoseConfig": [
-      "stolostron"
-    ],
-    "multicluster.openshift.io/v1/MultiClusterEngine": [
-      "stolostron-engine"
     ],
     "kafka.strimzi.io/v1beta2/Kafka": [
       "strimzi-kafka-operator"
@@ -4088,12 +3288,6 @@
     ],
     "pingcap.com/v1alpha1/TidbNGMonitoring": [
       "tidb-operator"
-    ],
-    "trident.netapp.io/v1/TridentOrchestrator": [
-      "trident-operator"
-    ],
-    "trident.netapp.io/v1/TridentConfigurator": [
-      "trident-operator"
     ],
     "org.trustify/v1alpha1/Trustify": [
       "trustify-operator"
@@ -4296,78 +3490,6 @@
     "vertica.com/v1/VerticaRestorePointsQuery": [
       "verticadb-operator"
     ],
-    "operator.victoriametrics.com/v1beta1/VMAgent": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMAlert": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMAlertmanager": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMAlertmanagerConfig": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMAuth": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMCluster": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMNodeScrape": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMPodScrape": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMProbe": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMRule": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMServiceScrape": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMSingle": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMStaticScrape": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMUser": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMScrapeConfig": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VLogs": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1/VLCluster": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1/VLSingle": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1/VMAnomaly": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1/VLAgent": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1/VTCluster": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1/VTSingle": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1alpha1/VMDistributed": [
-      "victoriametrics-operator"
-    ],
-    "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
-      "visionone-containersecurity"
-    ],
     "apps.wandb.com/v1/WeightsAndBiases": [
       "wandb-operator"
     ],
@@ -4381,5 +3503,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-03-28T06:39:31.342645"
+  "timestamp": "2026-03-28T06:55:56.122678"
 }

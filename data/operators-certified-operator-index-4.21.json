@@ -1497,25 +1497,11 @@
     {
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
-      "version": "4.0.0",
-      "channel": "alpha"
-    },
-    {
-      "package": "cloudcasa-operator",
-      "name": "cloudcasa-operator",
-      "version": "4.0.1",
-      "channel": "alpha"
-    },
-    {
-      "package": "cloudcasa-operator",
-      "name": "cloudcasa-operator",
-      "version": "4.0.2",
+      "version": "4.1.0",
       "keywords": [
-        "backup",
-        "storage",
-        "cloudcasa"
+        "storage"
       ],
-      "description": "CloudCasa is a powerful and easy-to-use data protection service for Kubernetes and cloud databases.",
+      "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
       "channel": "alpha"
     },
     {
@@ -1888,7 +1874,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.2.0",
+      "version": "3.2.1",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -3338,6 +3324,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.10.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -3957,7 +3957,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.1",
+      "version": "2.24.2",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -3968,7 +3968,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.1",
+      "version": "2.24.2",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -5841,6 +5841,17 @@
       "channel": "stable"
     },
     {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.3.18173617",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2025.12.19074437",
@@ -5912,6 +5923,20 @@
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2026.2.9031243",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.3.18173617",
       "keywords": [
         "AI Storage",
         "S3",
@@ -6737,6 +6762,21 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.1",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -6812,7 +6852,7 @@
     {
       "package": "odigos-operator",
       "name": "odigos-operator",
-      "version": "1.8.4",
+      "version": "1.22.2",
       "keywords": [
         "OpenTelemetry",
         "eBPF",
@@ -8110,7 +8150,17 @@
         "nifi"
       ],
       "description": "Stackable Operator for Apache NiFi",
-      "channel": "stable"
+      "channel": "25.11"
+    },
+    {
+      "package": "stackable-nifi-operator",
+      "name": "stackable-nifi-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "nifi"
+      ],
+      "description": "Stackable Operator for Apache NiFi",
+      "channel": "26.3"
     },
     {
       "package": "stackable-opa-operator",
@@ -8140,7 +8190,17 @@
         "opensearch"
       ],
       "description": "Stackable Operator for OpenSearch",
-      "channel": "stable"
+      "channel": "25.11"
+    },
+    {
+      "package": "stackable-opensearch-operator",
+      "name": "stackable-opensearch-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "opensearch"
+      ],
+      "description": "Stackable Operator for OpenSearch",
+      "channel": "26.3"
     },
     {
       "package": "stackable-secret-operator",
@@ -8270,13 +8330,13 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.4",
+      "version": "1.5.0",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "stable"
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -8963,7 +9023,7 @@
       "channel": "lts"
     }
   ],
-  "count": 876,
+  "count": 880,
   "source": "opm",
-  "timestamp": "2026-03-25T06:59:27.035279"
+  "timestamp": "2026-03-28T06:53:21.992685"
 }

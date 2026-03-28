@@ -1539,19 +1539,7 @@
     {
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
-      "version": "4.0.0",
-      "channel": "alpha"
-    },
-    {
-      "package": "cloudcasa-operator",
-      "name": "cloudcasa-operator",
-      "version": "4.0.1",
-      "channel": "alpha"
-    },
-    {
-      "package": "cloudcasa-operator",
-      "name": "cloudcasa-operator",
-      "version": "4.0.2",
+      "version": "4.1.0",
       "channel": "alpha"
     },
     {
@@ -1707,13 +1695,13 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.10.4",
+      "version": "2.10.5",
       "channel": "2.10"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.11.4",
+      "version": "2.11.5",
       "channel": "2.11"
     },
     {
@@ -1725,25 +1713,25 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.9.8",
+      "version": "2.9.9",
       "channel": "2.9"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.0.3",
+      "version": "3.0.4",
       "channel": "3.0"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.1.1",
+      "version": "3.1.2",
       "channel": "3.1"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.2.0",
+      "version": "3.2.1",
       "channel": "3.2"
     },
     {
@@ -3081,25 +3069,13 @@
     {
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
-      "version": "7.3.1",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.1.0",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.1.1",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
       "version": "8.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.2.1",
       "channel": "stable"
     },
     {
@@ -3124,6 +3100,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.10.1",
       "channel": "stable"
     },
     {
@@ -3717,7 +3699,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.1",
+      "version": "2.24.2",
       "channel": "beta"
     },
     {
@@ -3753,7 +3735,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.1",
+      "version": "2.24.2",
       "channel": "beta"
     },
     {
@@ -5074,12 +5056,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.19.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.20-beta.3",
+      "version": "8.19.30-beta.2",
       "channel": "beta"
     },
     {
@@ -5263,6 +5245,12 @@
       "channel": "stable"
     },
     {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.3.18173617",
+      "channel": "stable"
+    },
+    {
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2025.12.19074437",
@@ -5296,6 +5284,12 @@
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2026.2.9031243",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.3.18173617",
       "channel": "stable"
     },
     {
@@ -6043,6 +6037,12 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.1",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -6195,7 +6195,7 @@
     {
       "package": "odigos-operator",
       "name": "odigos-operator",
-      "version": "1.8.4",
+      "version": "1.22.2",
       "channel": "alpha"
     },
     {
@@ -6597,6 +6597,12 @@
     {
       "package": "pg4k-pgd",
       "name": "pg4k-pgd",
+      "version": "2.0.0",
+      "channel": "candidate"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
       "version": "2.0.0-rc1",
       "channel": "candidate"
     },
@@ -6868,12 +6874,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.19.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.20-beta.2",
+      "version": "8.19.30-beta.1",
       "channel": "beta"
     },
     {
@@ -6891,7 +6897,7 @@
     {
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "channel": "candidate"
     },
     {
@@ -8091,8 +8097,8 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.4",
-      "channel": "stable"
+      "version": "1.5.0",
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -8182,6 +8188,12 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "2.40.0-rc19",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "2.40.0-rc20",
       "channel": "candidate-v2"
     },
     {
@@ -8953,7 +8965,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1492,
+  "count": 1494,
   "source": "opm",
-  "timestamp": "2026-03-25T06:49:22.390450"
+  "timestamp": "2026-03-28T06:45:14.709362"
 }

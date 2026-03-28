@@ -981,19 +981,7 @@
     {
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
-      "version": "4.0.0",
-      "channel": "alpha"
-    },
-    {
-      "package": "cloudcasa-operator",
-      "name": "cloudcasa-operator",
-      "version": "4.0.1",
-      "channel": "alpha"
-    },
-    {
-      "package": "cloudcasa-operator",
-      "name": "cloudcasa-operator",
-      "version": "4.0.2",
+      "version": "4.1.0",
       "channel": "alpha"
     },
     {
@@ -1023,13 +1011,13 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.10.4",
+      "version": "2.10.5",
       "channel": "2.10"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.11.4",
+      "version": "2.11.5",
       "channel": "2.11"
     },
     {
@@ -1047,19 +1035,19 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.9.8",
+      "version": "2.9.9",
       "channel": "2.9"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.0.3",
+      "version": "3.0.4",
       "channel": "3.0"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.1.1",
+      "version": "3.1.2",
       "channel": "3.1"
     },
     {
@@ -2433,6 +2421,12 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.10.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.9.2",
       "channel": "stable"
     },
@@ -2931,7 +2925,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.1",
+      "version": "2.24.2",
       "channel": "beta"
     },
     {
@@ -2967,7 +2961,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.1",
+      "version": "2.24.2",
       "channel": "beta"
     },
     {
@@ -4204,12 +4198,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.19.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.20-beta.3",
+      "version": "8.19.30-beta.2",
       "channel": "beta"
     },
     {
@@ -5119,6 +5113,12 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.1",
+      "channel": "alpha"
+    },
+    {
       "package": "nspc-operator",
       "name": "nspc-operator",
       "version": "1.13.1",
@@ -5211,7 +5211,7 @@
     {
       "package": "odigos-operator",
       "name": "odigos-operator",
-      "version": "1.8.4",
+      "version": "1.22.2",
       "channel": "alpha"
     },
     {
@@ -5692,12 +5692,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.19.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.20-beta.2",
+      "version": "8.19.30-beta.1",
       "channel": "beta"
     },
     {
@@ -6681,8 +6681,8 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.4",
-      "channel": "stable"
+      "version": "1.5.0",
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -6952,6 +6952,12 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "2.40.0-rc19",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "2.40.0-rc20",
       "channel": "candidate-v2"
     },
     {
@@ -7939,7 +7945,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1323,
+  "count": 1324,
   "source": "opm",
-  "timestamp": "2026-03-25T06:39:08.194434"
+  "timestamp": "2026-03-28T06:35:33.000045"
 }

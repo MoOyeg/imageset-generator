@@ -280,6 +280,20 @@
     {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
+      "version": "2.12.8",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.12"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
       "version": "2.13.0",
       "keywords": [
         "acm",
@@ -6703,6 +6717,17 @@
       "package": "aws-efs-csi-driver-operator",
       "name": "aws-efs-csi-driver-operator",
       "version": "4.18.0-202603040208",
+      "keywords": [
+        "storage",
+        "efs"
+      ],
+      "description": "Install and configure AWS EFS CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.18.0-202603181756",
       "keywords": [
         "storage",
         "efs"
@@ -14986,6 +15011,18 @@
     {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
+      "version": "0.40.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
       "version": "0.9.0",
       "keywords": [
         "Devworkspace Operator",
@@ -17352,6 +17389,18 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1774370015.p",
+      "keywords": [
+        "api",
+        "apicurio",
+        "apicurito"
+      ],
+      "description": "Manages the installation and upgrades of apicurito, a small/minimal version of Apicurio",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "keywords": [
         "api",
@@ -19165,6 +19214,17 @@
       "package": "gcp-filestore-csi-driver-operator",
       "name": "gcp-filestore-csi-driver-operator",
       "version": "4.18.0-202602261953",
+      "keywords": [
+        "storage",
+        "filestore"
+      ],
+      "description": "Install and configure GCP Filestore CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.18.0-202603131924",
       "keywords": [
         "storage",
         "filestore"
@@ -21151,6 +21211,18 @@
       "channel": "stable"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.18.0-202603181756",
+      "keywords": [
+        "nmstate",
+        "networking",
+        "NetworkManager"
+      ],
+      "description": "Kubernetes NMState is a declaritive means of configuring NetworkManager.\\n",
+      "channel": "stable"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -22537,6 +22609,17 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202602272244",
+      "keywords": [
+        "storage",
+        "local storage"
+      ],
+      "description": "Configure and use local storage volumes.",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202603152157",
       "keywords": [
         "storage",
         "local storage"
@@ -24298,6 +24381,16 @@
       "channel": "stable"
     },
     {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.18.0-202603181756",
+      "keywords": [
+        "metallb-operator"
+      ],
+      "description": "An operator for deploying MetalLB on a kubernetes cluster.",
+      "channel": "stable"
+    },
+    {
       "package": "model-validation-operator",
       "name": "model-validation-operator",
       "version": "0.0.1",
@@ -24724,6 +24817,19 @@
       ],
       "description": "MTA is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
       "channel": "stable-v8.0"
+    },
+    {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.0",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Migration Toolkit for Applications is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
+      "channel": "stable-v8.1"
     },
     {
       "package": "mtc-operator",
@@ -25827,6 +25933,18 @@
     {
       "package": "multicluster-engine",
       "name": "multicluster-engine",
+      "version": "2.7.9",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
       "version": "2.8.0",
       "keywords": [
         "mce",
@@ -26742,6 +26860,18 @@
       "package": "nfd",
       "name": "nfd",
       "version": "4.18.0-202602261953",
+      "keywords": [
+        "feature-discovery",
+        "feature-detection",
+        "node-labels"
+      ],
+      "description": "The Node Feature Discovery Operator manages the detection of hardware features and configuration in a Kubernetes cluster by labeling the nodes with hardware-specific information. The Node Feature Discovery (NFD) will label the host with node-specific attributes, like PCI cards, kernel, or OS version, and many more.\\n\\nNFD consists  of the following software components:\\n\\nThe NFD Operator is based on the Operator Framework an open source toolkit to manage Kubernetes native applications, called Operators, in an effective, automated, and scalable way.\\n\\n##NFD-Master\\nNFD-Master is the daemon responsible for communication towards the Kubernetes API. That is, it receives labeling requests from the worker and modifies node objects accordingly.\\n\\n##NFD-Worker\\nNFD-Worker is a daemon responsible for feature detection. It then communicates the information to nfd-master which does the actual node labeling. One instance of nfd-worker is supposed to be running on each node of the cluster.\\n\\n##NFD-Topology-Updater\\nNFD-Topology-Updater is a daemon responsible for examining allocated resources on a worker node to account for resources available to be allocated to new pod on a per-zone basis (where a zone can be a NUMA node). It then communicates the information to nfd-master which does the NodeResourceTopology CR creation corresponding to all the nodes in the cluster. One instance of nfd-topology-updater is supposed to be running on each node of the cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.18.0-202603181756",
       "keywords": [
         "feature-discovery",
         "feature-detection",
@@ -31407,6 +31537,21 @@
     {
       "package": "openshift-cert-manager-operator",
       "name": "openshift-cert-manager-operator",
+      "version": "1.17.1",
+      "keywords": [
+        "cert-manager",
+        "cert-manager-operator",
+        "cert",
+        "certificates",
+        "security",
+        "TLS"
+      ],
+      "description": "",
+      "channel": "stable-v1.17"
+    },
+    {
+      "package": "openshift-cert-manager-operator",
+      "name": "openshift-cert-manager-operator",
       "version": "1.18.0",
       "keywords": [
         "cert-manager",
@@ -32384,6 +32529,18 @@
       ],
       "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
       "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.20.0",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.20"
     },
     {
       "package": "openshift-gitops-operator",
@@ -34514,6 +34671,16 @@
       "package": "ptp-operator",
       "name": "ptp-operator",
       "version": "4.18.0-202602261953",
+      "keywords": [
+        "ptp"
+      ],
+      "description": "This software enables configuration of Precision Time Protocol(PTP) on Kubernetes. It detects hardware capable PTP devices on each node, and configures linuxptp processes such as ptp4l, phc2sys and timemaster.",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.18.0-202603171536",
       "keywords": [
         "ptp"
       ],
@@ -44180,6 +44347,40 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
+      "version": "2.16.4",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "eus-2.16"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
       "version": "2.17.0",
       "keywords": [
         "Operator",
@@ -47531,6 +47732,16 @@
       "channel": "stable"
     },
     {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.18.0-202603131924",
+      "keywords": [
+        "storage"
+      ],
+      "description": "Install and configure Secrets Store CSI driver.",
+      "channel": "stable"
+    },
+    {
       "package": "security-profiles-operator",
       "name": "security-profiles-operator",
       "version": "0.10.0",
@@ -49131,6 +49342,25 @@
     {
       "package": "service-registry-operator",
       "name": "service-registry-operator",
+      "version": "2.6.13-r3",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "service",
+        "service-registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Red Hat build of Apicurio Registry on OpenShift.",
+      "channel": "2.x"
+    },
+    {
+      "package": "service-registry-operator",
+      "name": "service-registry-operator",
       "version": "2.6.3",
       "keywords": [
         "integration",
@@ -49958,6 +50188,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.0.9",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.1.0",
       "keywords": [
         "istio",
@@ -50030,6 +50272,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.1.6",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.2.0",
       "keywords": [
         "istio",
@@ -50066,7 +50320,31 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.2.3",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.3.0",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.3.1",
       "keywords": [
         "istio",
         "servicemesh",
@@ -51332,6 +51610,18 @@
       "package": "sriov-network-operator",
       "name": "sriov-network-operator",
       "version": "4.18.0-202602261953",
+      "keywords": [
+        "network",
+        "sr-iov",
+        "sriov"
+      ],
+      "description": "An operator for configuring SR-IOV components and initializing SRIOV network devices in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.18.0-202603111324",
       "keywords": [
         "network",
         "sr-iov",
@@ -53082,7 +53372,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3840,
+  "count": 3862,
   "source": "opm",
-  "timestamp": "2026-03-25T06:52:41.027987"
+  "timestamp": "2026-03-28T06:48:25.515319"
 }

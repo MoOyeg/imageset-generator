@@ -11881,6 +11881,12 @@
       "channel": "3.x"
     },
     {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.1",
+      "channel": "3.x"
+    },
+    {
       "package": "apicurito",
       "name": "apicurito",
       "version": "1.0.1",
@@ -12076,6 +12082,18 @@
       "package": "arkmq-org-broker-operator",
       "name": "arkmq-org-broker-operator",
       "version": "2.1.1",
+      "channel": "stable"
+    },
+    {
+      "package": "arkmq-org-broker-operator",
+      "name": "arkmq-org-broker-operator",
+      "version": "2.1.3",
+      "channel": "stable"
+    },
+    {
+      "package": "arkmq-org-broker-operator",
+      "name": "arkmq-org-broker-operator",
+      "version": "2.1.4",
       "channel": "stable"
     },
     {
@@ -13645,6 +13663,12 @@
       "channel": "latest"
     },
     {
+      "package": "clickhouse",
+      "name": "clickhouse",
+      "version": "0.26.2",
+      "channel": "latest"
+    },
+    {
       "package": "cluster-aas-operator",
       "name": "cluster-aas-operator",
       "version": "0.0.1",
@@ -15040,6 +15064,12 @@
       "package": "eclipse-che",
       "name": "eclipse-che",
       "version": "7.115.0",
+      "channel": "stable"
+    },
+    {
+      "package": "eclipse-che",
+      "name": "eclipse-che",
+      "version": "7.116.0",
       "channel": "stable"
     },
     {
@@ -17230,6 +17260,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.10.1",
       "channel": "stable"
     },
     {
@@ -21577,6 +21613,18 @@
       "channel": "alpha"
     },
     {
+      "package": "logicmonitor-openshift-operator",
+      "name": "logicmonitor-openshift-operator",
+      "version": "0.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "logicmonitor-openshift-operator",
+      "name": "logicmonitor-openshift-operator",
+      "version": "0.3.2",
+      "channel": "alpha"
+    },
+    {
       "package": "loki-helm-operator",
       "name": "loki-helm-operator",
       "version": "0.0.1",
@@ -24813,6 +24861,24 @@
     {
       "package": "patterns-operator",
       "name": "patterns-operator",
+      "version": "0.0.67",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.68",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.69",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
       "version": "0.0.7",
       "channel": "fast"
     },
@@ -25293,6 +25359,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.10.19",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.10.2",
       "channel": "stable-3.10"
     },
@@ -25462,6 +25534,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.14",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.12.15",
       "channel": "stable-3.12"
     },
     {
@@ -25667,6 +25745,12 @@
       "name": "project-quay",
       "version": "3.16.2",
       "channel": "stable-3.16"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.17.0",
+      "channel": "stable-3.17"
     },
     {
       "package": "project-quay",
@@ -33649,7 +33733,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5608,
+  "count": 5622,
   "source": "opm",
-  "timestamp": "2026-03-25T06:39:49.276901"
+  "timestamp": "2026-03-28T06:36:13.328306"
 }

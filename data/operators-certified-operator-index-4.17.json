@@ -2384,25 +2384,11 @@
     {
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
-      "version": "4.0.0",
-      "channel": "alpha"
-    },
-    {
-      "package": "cloudcasa-operator",
-      "name": "cloudcasa-operator",
-      "version": "4.0.1",
-      "channel": "alpha"
-    },
-    {
-      "package": "cloudcasa-operator",
-      "name": "cloudcasa-operator",
-      "version": "4.0.2",
+      "version": "4.1.0",
       "keywords": [
-        "backup",
-        "storage",
-        "cloudcasa"
+        "storage"
       ],
-      "description": "CloudCasa is a powerful and easy-to-use data protection service for Kubernetes and cloud databases.",
+      "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
       "channel": "alpha"
     },
     {
@@ -2798,7 +2784,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.10.4",
+      "version": "2.10.5",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -2814,7 +2800,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.11.4",
+      "version": "2.11.5",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -2830,7 +2816,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.9.8",
+      "version": "2.9.9",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -2846,7 +2832,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.0.3",
+      "version": "3.0.4",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -2862,7 +2848,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.1.1",
+      "version": "3.1.2",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -2878,7 +2864,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.2.0",
+      "version": "3.2.1",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -4000,6 +3986,26 @@
       "package": "dell-csm-operator-certified",
       "name": "dell-csm-operator-certified",
       "version": "1.11.2",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.11.3",
       "keywords": [
         "Dell Container Storage Modules",
         "Dell CSI Driver",
@@ -5267,19 +5273,7 @@
     {
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
-      "version": "7.3.1",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.1.0",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.1.1",
+      "version": "8.2.0",
       "keywords": [
         "postgres",
         "postgresql",
@@ -5294,7 +5288,7 @@
     {
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.0",
+      "version": "8.2.1",
       "keywords": [
         "postgres",
         "postgresql",
@@ -5340,6 +5334,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.10.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.10.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -6568,7 +6576,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.1",
+      "version": "2.24.2",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -6660,7 +6668,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.1",
+      "version": "2.24.2",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -9363,6 +9371,17 @@
       "channel": "stable"
     },
     {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.3.18173617",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2025.12.19074437",
@@ -9434,6 +9453,20 @@
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2026.2.9031243",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.3.18173617",
       "keywords": [
         "AI Storage",
         "S3",
@@ -10306,6 +10339,21 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.1",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -10497,7 +10545,7 @@
     {
       "package": "odigos-operator",
       "name": "odigos-operator",
-      "version": "1.8.4",
+      "version": "1.22.2",
       "keywords": [
         "OpenTelemetry",
         "eBPF",
@@ -11239,6 +11287,27 @@
     {
       "package": "pg4k-pgd",
       "name": "pg4k-pgd",
+      "version": "2.0.0",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "candidate"
+    },
+    {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
       "version": "2.0.0-rc1",
       "keywords": [
         "postgresql",
@@ -11908,7 +11977,7 @@
     {
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "keywords": [
         "rebellions",
         "ai",
@@ -13773,13 +13842,13 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.4.4",
+      "version": "1.5.0",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "stable"
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -15009,7 +15078,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1445,
+  "count": 1447,
   "source": "opm",
-  "timestamp": "2026-03-25T06:51:28.513283"
+  "timestamp": "2026-03-28T06:47:17.583284"
 }

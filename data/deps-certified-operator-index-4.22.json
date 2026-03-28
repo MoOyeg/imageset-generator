@@ -1,38 +1,5 @@
 {
   "dependencies": {
-    "app-insights-operator": {
-      "requires_packages": [
-        {
-          "packageName": "netobserv-operator",
-          "versionRange": ">=0.10.1"
-        },
-        {
-          "packageName": "opentelemetry-product",
-          "versionRange": ">=0.140.0-1"
-        }
-      ],
-      "requires_gvks": []
-    },
-    "edb-hcp-operator": {
-      "requires_packages": [],
-      "requires_gvks": [
-        {
-          "group": "cert-manager.io",
-          "kind": "Certificate",
-          "version": "v1"
-        }
-      ]
-    },
-    "ibm-data-reporter-operator": {
-      "requires_packages": [],
-      "requires_gvks": [
-        {
-          "group": "marketplace.redhat.com",
-          "kind": "MarketplaceConfig",
-          "version": "v1alpha1"
-        }
-      ]
-    },
     "infoscale-sds-operator": {
       "requires_packages": [
         {
@@ -54,78 +21,6 @@
         }
       ],
       "requires_gvks": []
-    },
-    "kubedb-installer": {
-      "requires_packages": [],
-      "requires_gvks": [
-        {
-          "group": "cert-manager.io",
-          "kind": "Certificate",
-          "version": "v1"
-        },
-        {
-          "group": "cert-manager.io",
-          "kind": "Issuer",
-          "version": "v1"
-        }
-      ]
-    },
-    "linstor-operator": {
-      "requires_packages": [],
-      "requires_gvks": [
-        {
-          "group": "monitoring.coreos.com",
-          "kind": "PodMonitor",
-          "version": "v1"
-        },
-        {
-          "group": "monitoring.coreos.com",
-          "kind": "PrometheusRule",
-          "version": "v1"
-        },
-        {
-          "group": "monitoring.coreos.com",
-          "kind": "ServiceMonitor",
-          "version": "v1"
-        }
-      ]
-    },
-    "openshift-fusion-access-operator": {
-      "requires_packages": [
-        {
-          "packageName": "kernel-module-management",
-          "versionRange": ">=2.4.0"
-        }
-      ],
-      "requires_gvks": []
-    },
-    "operator-certification-operator": {
-      "requires_packages": [
-        {
-          "packageName": "openshift-pipelines-operator-rh",
-          "versionRange": ">=1.5.2"
-        }
-      ],
-      "requires_gvks": []
-    },
-    "pg4k-pgd": {
-      "requires_packages": [
-        {
-          "packageName": "cert-manager",
-          "versionRange": ">1.10.0"
-        },
-        {
-          "packageName": "cloud-native-postgresql",
-          "versionRange": ">=1.22.0 <1.23.0"
-        }
-      ],
-      "requires_gvks": [
-        {
-          "group": "cert-manager.io",
-          "kind": "Certificate",
-          "version": "v1"
-        }
-      ]
     },
     "tenant-operator": {
       "requires_packages": [
@@ -161,11 +56,11 @@
     "cloud.abinitio.com/v1/CoOperatingSystemRuntimeTemplate": [
       "abinitio-runtime-operator"
     ],
+    "operator.accuknox.com/v1/AccuknoxConfig": [
+      "accuknox-operator-certified"
+    ],
     "aci.ctrl/v1alpha1/AciContainersOperator": [
       "aci-containers-operator"
-    ],
-    "aic.quicinc.com/v1/AIC": [
-      "aic-operator"
     ],
     "microgateway.airlock.com/v1alpha1/APIProtection": [
       "airlock-microgateway"
@@ -269,9 +164,6 @@
     "aiu.ibm.com/v2/AiuNodeState": [
       "aiu-operator"
     ],
-    "amd.com/v1alpha1/DeviceConfig": [
-      "amd-gpu-operator"
-    ],
     "anzo.cambridgesemantics.com/v2/Anzo": [
       "anzo-operator"
     ],
@@ -287,8 +179,26 @@
     "apelocal.csi.apecloud.com/v1alpha1/HostPathDefinition": [
       "apelocal-csi"
     ],
-    "appinsights.randoli/v1beta1/RandoliAgent": [
-      "app-insights-operator"
+    "cluster.appdynamics.com/v1alpha1/Clustermon": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/Containermon": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/DbCollector": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/DbConfig": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/Inframon": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/LogCollector": [
+      "appdynamics-cloud-operator"
+    ],
+    "cluster.appdynamics.com/v1alpha1/Servermon": [
+      "appdynamics-cloud-operator"
     ],
     "cluster.appdynamics.com/v1alpha1/Clusteragent": [
       "appdynamics-operator"
@@ -348,44 +258,7 @@
       "cfm-operator"
     ],
     "cilium.io/v1alpha1/CiliumConfig": [
-      "cilium-enterprise",
-      "clife"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/Backup": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/Cluster": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/ClusterImageCatalog": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/Database": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/ImageCatalog": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/Pooler": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/Publication": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/ScheduledBackup": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/Subscription": [
-      "cloud-native-postgresql"
-    ],
-    "barmancloud.cnpg.io/v1/ObjectStore": [
-      "cloud-native-postgresql"
-    ],
-    "postgresql.k8s.enterprisedb.io/v1/FailoverQuorum": [
-      "cloud-native-postgresql"
-    ],
-    "apps.cloudcasa.io/v1alpha1/Cloudcasa": [
-      "cloudcasa-operator"
+      "cilium-enterprise"
     ],
     "core.strimzi.io/v1beta2/StrimziPodSet": [
       "cloudera-streams-messaging-kubernetes-operator"
@@ -432,107 +305,11 @@
     "kafka.strimzi.io/v1beta2/KafkaUser": [
       "cloudera-streams-messaging-kubernetes-operator"
     ],
-    "postgresql.cnpg.io/v1/Backup": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/Cluster": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/ClusterImageCatalog": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/ImageCatalog": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/Pooler": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/ScheduledBackup": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/Database": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/Publication": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/Subscription": [
-      "cloudnative-pg"
-    ],
-    "postgresql.cnpg.io/v1/FailoverQuorum": [
-      "cloudnative-pg"
-    ],
     "coherence.oracle.com/v1/Coherence": [
       "coherence-operator"
     ],
     "coherence.oracle.com/v1/CoherenceJob": [
       "coherence-operator"
-    ],
-    "platform.confluent.io/v1beta1/CMFRestClass": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/ClusterLink": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/ConfluentRolebinding": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/Connect": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/Connector": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/ControlCenter": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/FlinkApplication": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/FlinkEnvironment": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/KRaftController": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/KRaftMigrationJob": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/Kafka": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/KafkaRestClass": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/KafkaRestProxy": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/KafkaTopic": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/KsqlDB": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/Schema": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/SchemaExporter": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/SchemaRegistry": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/Zookeeper": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/Gateway": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/SchemaImporter": [
-      "confluent-for-kubernetes"
-    ],
-    "platform.confluent.io/v1beta1/USMAgent": [
-      "confluent-for-kubernetes"
     ],
     "conjur.cyberark.com/v1/ConjurFollower": [
       "conjur-follower-operator"
@@ -548,22 +325,6 @@
     ],
     "flink.apache.org/v1beta1/FlinkStateSnapshot": [
       "cp-fko"
-    ],
-    "postgres-operator.crunchydata.com/v1beta1/PostgresCluster": [
-      "crunchy-postgres-operator",
-      "percona-postgresql-operator-certified"
-    ],
-    "postgres-operator.crunchydata.com/v1beta1/PGUpgrade": [
-      "crunchy-postgres-operator",
-      "percona-postgresql-operator-certified"
-    ],
-    "postgres-operator.crunchydata.com/v1beta1/PGAdmin": [
-      "crunchy-postgres-operator",
-      "percona-postgresql-operator-certified"
-    ],
-    "postgres-operator.crunchydata.com/v1beta1/CrunchyBridgeCluster": [
-      "crunchy-postgres-operator",
-      "percona-postgresql-operator-certified"
     ],
     "cte-k8s-operator.csi.cte.cpl.thalesgroup.com/v1/CteK8sOperator": [
       "cte-k8s-operator"
@@ -600,12 +361,6 @@
     ],
     "datadoghq.com/v1alpha1/DatadogAgentInternal": [
       "datadog-operator-certified"
-    ],
-    "storage.dell.com/v1/ContainerStorageModule": [
-      "dell-csm-operator-certified"
-    ],
-    "storage.dell.com/v1/ApexConnectivityClient": [
-      "dell-csm-operator-certified"
     ],
     "xld.digital.ai/v1alpha1/DigitalaiDeploy": [
       "digitalai-deploy-operator"
@@ -651,15 +406,6 @@
     ],
     "connect.eda.nokia.com/v1/ConnectNetworkDefinition": [
       "eda-k8s-operator"
-    ],
-    "edbpgai.edb.com/v1alpha1/HybridControlPlane": [
-      "edb-hcp-operator"
-    ],
-    "edbpgai.edb.com/v1alpha1/Postflight": [
-      "edb-hcp-operator"
-    ],
-    "edbpgai.edb.com/v1alpha1/Preflight": [
-      "edb-hcp-operator"
     ],
     "eginnovations.com/v1beta1/EgUniversalAgent": [
       "eginnovations-operator"
@@ -720,9 +466,6 @@
     ],
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
-    ],
-    "ai.security.f5.com/v1alpha1/SecurityOperator": [
-      "f5-ai-security-operator"
     ],
     "falcon.crowdstrike.com/v1alpha1/FalconAdmission": [
       "falcon-operator"
@@ -792,21 +535,6 @@
     ],
     "compute.functionmesh.io/v1alpha1/Source": [
       "function-mesh"
-    ],
-    "apps.gitlab.com/v1beta1/GitLab": [
-      "gitlab-operator-kubernetes"
-    ],
-    "apps.gitlab.com/v1beta2/Runner": [
-      "gitlab-runner-operator"
-    ],
-    "nvidia.com/v1/ClusterPolicy": [
-      "gpu-operator-certified"
-    ],
-    "nvidia.com/v1alpha1/NVIDIADriver": [
-      "gpu-operator-certified"
-    ],
-    "habanalabs.habana.ai/v1/ClusterPolicy": [
-      "habana-ai-operator"
     ],
     "gitops.harness.io/v1alpha1/GitopsAgent": [
       "harness-gitops-operator"
@@ -892,68 +620,20 @@
     "charts.csi.hitachi.com/v1/HNAS": [
       "hnas-csi-operator"
     ],
-    "storage.hpe.com/v1/HPECSIDriver": [
-      "hpe-csi-operator"
-    ],
     "ezmeral.hpe.com/v1/HPEEzmeralCSIDriver": [
       "hpe-ezmeral-csi-operator"
     ],
     "ezmeral.hpe.com/v1/HPEEzmeralNFSCSIDriver": [
       "hpe-ezmeral-csi-operator"
     ],
-    "storage.hpe.com/v1/HPEGreenLakeFileCSIDriver": [
-      "hpe-filex-csi-operator"
-    ],
     "csi.hitachi.com/v1/HSPC": [
       "hspc-operator"
-    ],
-    "hulft.saison-technology.com/v1/Hulft": [
-      "hulft"
     ],
     "ibm.com/v1/IBMApplicationGateway": [
       "ibm-application-gateway-operator"
     ],
-    "csi.ibm.com/v1/HostDefiner": [
-      "ibm-block-csi-operator"
-    ],
-    "csi.ibm.com/v1/HostDefinition": [
-      "ibm-block-csi-operator"
-    ],
-    "csi.ibm.com/v1/IBMBlockCSI": [
-      "ibm-block-csi-operator"
-    ],
-    "marketplace.redhat.com/v1alpha1/DataReporterConfig": [
-      "ibm-data-reporter-operator"
-    ],
-    "marketplace.redhat.com/v1alpha1/MarketplaceConfig": [
-      "ibm-metrics-operator"
-    ],
-    "marketplace.redhat.com/v1alpha1/MeterBase": [
-      "ibm-metrics-operator"
-    ],
-    "marketplace.redhat.com/v1alpha1/MeterDefinition": [
-      "ibm-metrics-operator"
-    ],
-    "marketplace.redhat.com/v1beta1/MeterDefinition": [
-      "ibm-metrics-operator"
-    ],
-    "marketplace.redhat.com/v1alpha1/MeterReport": [
-      "ibm-metrics-operator"
-    ],
     "ibm.com/v1/IBMSecurityVerifyAccess": [
       "ibm-security-verify-access-operator"
-    ],
-    "csidriver.infinidat.com/v1/Iboxpromote": [
-      "infinibox-operator-certified"
-    ],
-    "csidriver.infinidat.com/v1/Iboxreplica": [
-      "infinibox-operator-certified"
-    ],
-    "csidriver.infinidat.com/v1alpha1/InfiniboxCsiDriver": [
-      "infinibox-operator-certified"
-    ],
-    "csidriver.infinidat.com/v1/Iboxcg": [
-      "infinibox-operator-certified"
     ],
     "infoscale.veritas.com/v1/DNS": [
       "infoscale-dr-manager"
@@ -999,18 +679,6 @@
     ],
     "deviceplugin.intel.com/v1/DsaDevicePlugin": [
       "intel-device-plugins-operator"
-    ],
-    "intel.com/v1alpha1/NetworkClusterPolicy": [
-      "intel-network-operator"
-    ],
-    "ipm.intel.com/v1/CPUPowerProv": [
-      "ipm-controller"
-    ],
-    "jenkins2tekton.io/v1alpha1/JenkinsPipeline": [
-      "jenkins2tekton-operator"
-    ],
-    "triliovault.trilio.io/v1/TrilioVaultManager": [
-      "k8s-triliovault"
     ],
     "app.loadcore.keysight.com/v1alpha1/Agents": [
       "keysight-loadcore-agents"
@@ -1099,14 +767,23 @@
     "workloads.kubeblocks.io/v1/InstanceSet": [
       "kubeblocks"
     ],
-    "charts.kubecost.com/v1alpha1/CostAnalyzer": [
-      "kubecost-operator"
+    "core.k8s.kubemq.io/v1alpha1/KubemqCluster": [
+      "kubemq-operator-marketplace"
     ],
-    "charts.kubecost.com/v1/Kubecost": [
-      "kubecost-operator"
+    "core.k8s.kubemq.io/v1beta1/KubemqCluster": [
+      "kubemq-operator-marketplace"
     ],
-    "installer.kubedb.com/v1/Kubedb": [
-      "kubedb-installer"
+    "core.k8s.kubemq.io/v1alpha1/KubemqConnector": [
+      "kubemq-operator-marketplace"
+    ],
+    "core.k8s.kubemq.io/v1beta1/KubemqConnector": [
+      "kubemq-operator-marketplace"
+    ],
+    "core.k8s.kubemq.io/v1alpha1/KubemqDashboard": [
+      "kubemq-operator-marketplace"
+    ],
+    "core.k8s.kubemq.io/v1beta1/KubemqDashboard": [
+      "kubemq-operator-marketplace"
     ],
     "charts.helm.k8s.io/v1/Kubeturbo": [
       "kubeturbo-certified"
@@ -1128,18 +805,6 @@
     ],
     "storage.lightbitslabs.com/v1alpha1/Cluster": [
       "lightbits-operator"
-    ],
-    "piraeus.io/v1/LinstorCluster": [
-      "linstor-operator"
-    ],
-    "piraeus.io/v1/LinstorNodeConnection": [
-      "linstor-operator"
-    ],
-    "piraeus.io/v1/LinstorSatellite": [
-      "linstor-operator"
-    ],
-    "piraeus.io/v1/LinstorSatelliteConfiguration": [
-      "linstor-operator"
     ],
     "enterprise.mariadb.com/v1alpha1/Backup": [
       "mariadb-enterprise-operator"
@@ -1173,21 +838,6 @@
     ],
     "mediation.turbonomic.ibm.com/v1alpha1/OpenstackProbe": [
       "mediation-openstack-operator"
-    ],
-    "minkms.min.io/v1alpha1/MinKMS": [
-      "minio-minkms-operator"
-    ],
-    "aistor.min.io/v1alpha1/AdminJob": [
-      "minio-object-store-operator"
-    ],
-    "aistor.min.io/v1/ObjectStore": [
-      "minio-object-store-operator"
-    ],
-    "sts.min.io/v1alpha1/PolicyBinding": [
-      "minio-object-store-operator"
-    ],
-    "sts.min.io/v1beta1/PolicyBinding": [
-      "minio-object-store-operator"
     ],
     "atlas.mongodb.com/v1/AtlasBackupPolicy": [
       "mongodb-atlas-kubernetes"
@@ -1331,9 +981,6 @@
     "sonatype.com/v1alpha1/NexusRepo": [
       "nexus-repository-ha-operator-certified"
     ],
-    "gateway.nginx.org/v1alpha1/NginxGatewayFabric": [
-      "nginx-gateway-fabric"
-    ],
     "charts.nginx.org/v1alpha1/NginxIngress": [
       "nginx-ingress-operator"
     ],
@@ -1364,26 +1011,11 @@
     "apps.nvidia.com/v1alpha1/NIMBuild": [
       "nim-operator-certified"
     ],
-    "crd.nutanix.com/v1alpha1/NutanixCsiStorage": [
-      "nutanixcsioperator"
-    ],
     "maintenance.nvidia.com/v1alpha1/MaintenanceOperatorConfig": [
       "nvidia-maintenance-operator"
     ],
     "maintenance.nvidia.com/v1alpha1/NodeMaintenance": [
       "nvidia-maintenance-operator"
-    ],
-    "mellanox.com/v1alpha1/HostDeviceNetwork": [
-      "nvidia-network-operator"
-    ],
-    "mellanox.com/v1alpha1/IPoIBNetwork": [
-      "nvidia-network-operator"
-    ],
-    "mellanox.com/v1alpha1/MacvlanNetwork": [
-      "nvidia-network-operator"
-    ],
-    "mellanox.com/v1alpha1/NicClusterPolicy": [
-      "nvidia-network-operator"
     ],
     "sonatype.com/v1alpha1/NexusIQ": [
       "nxiq-operator-certified"
@@ -1412,152 +1044,8 @@
     "apps.openliberty.io/v1/OpenLibertyPerformanceData": [
       "open-liberty-certified"
     ],
-    "fusion.storage.openshift.io/v1alpha1/FusionAccess": [
-      "openshift-fusion-access-operator"
-    ],
-    "fusion.storage.openshift.io/v1alpha1/LocalVolumeDiscovery": [
-      "openshift-fusion-access-operator"
-    ],
-    "fusion.storage.openshift.io/v1alpha1/LocalVolumeDiscoveryResult": [
-      "openshift-fusion-access-operator"
-    ],
-    "fusion.storage.openshift.io/v1alpha1/FileSystemClaim": [
-      "openshift-fusion-access-operator"
-    ],
     "charts.helm.k8s.io/v1/OpenshiftArtifactoryHa": [
       "openshiftartifactoryha-operator"
-    ],
-    "certification.redhat.com/v1alpha1/OperatorPipeline": [
-      "operator-certification-operator"
-    ],
-    "pgv2.percona.com/v2/PerconaPGBackup": [
-      "percona-postgresql-operator-certified"
-    ],
-    "pgv2.percona.com/v2/PerconaPGCluster": [
-      "percona-postgresql-operator-certified"
-    ],
-    "pgv2.percona.com/v2/PerconaPGRestore": [
-      "percona-postgresql-operator-certified"
-    ],
-    "pgv2.percona.com/v2/PerconaPGUpgrade": [
-      "percona-postgresql-operator-certified"
-    ],
-    "psmdb.percona.com/v1/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-10-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-11-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-12-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-2-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-3-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-4-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-5-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-6-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-7-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-8-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1-9-0/PerconaServerMongoDB": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1/PerconaServerMongoDBBackup": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
-      "percona-server-mongodb-operator-certified"
-    ],
-    "ps.percona.com/v1/PerconaServerMySQL": [
-      "percona-server-mysql-operator-certified"
-    ],
-    "ps.percona.com/v1/PerconaServerMySQLBackup": [
-      "percona-server-mysql-operator-certified"
-    ],
-    "ps.percona.com/v1/PerconaServerMySQLRestore": [
-      "percona-server-mysql-operator-certified"
-    ],
-    "pxc.percona.com/v1/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-10-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-11-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-2-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-3-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-4-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-5-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-6-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-7-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-8-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1-9-0/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1/PerconaXtraDBClusterBackup": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pxc.percona.com/v1/PerconaXtraDBClusterRestore": [
-      "percona-xtradb-cluster-operator-certified"
-    ],
-    "pgd.k8s.enterprisedb.io/v1beta1/PGDGroup": [
-      "pg4k-pgd"
-    ],
-    "pgd.k8s.enterprisedb.io/v1beta1/PGDGroupCleanup": [
-      "pg4k-pgd"
-    ],
-    "pgd.k8s.enterprisedb.io/v1beta1/ClusterImageCatalog": [
-      "pg4k-pgd"
-    ],
-    "pgd.k8s.enterprisedb.io/v1beta1/ImageCatalog": [
-      "pg4k-pgd"
-    ],
-    "core.libopenstorage.org/v1/StorageCluster": [
-      "portworx-certified"
-    ],
-    "core.libopenstorage.org/v1alpha1/StorageCluster": [
-      "portworx-certified"
-    ],
-    "core.libopenstorage.org/v1/StorageNode": [
-      "portworx-certified"
-    ],
-    "core.libopenstorage.org/v1alpha1/StorageNode": [
-      "portworx-certified"
-    ],
-    "core.libopenstorage.org/v1/ComponentK8sConfig": [
-      "portworx-certified"
     ],
     "charts.helm.k8s.io/v1/Prometurbo": [
       "prometurbo-certified"
@@ -1580,24 +1068,6 @@
     "rebellions.ai/v1beta1/RBLNClusterPolicy": [
       "rbln-npu-operator"
     ],
-    "rebellions.ai/v1alpha1/RBLNDriver": [
-      "rbln-npu-operator"
-    ],
-    "app.redislabs.com/v1alpha1/RedisEnterpriseActiveActiveDatabase": [
-      "redis-enterprise-operator-cert"
-    ],
-    "app.redislabs.com/v1/RedisEnterpriseCluster": [
-      "redis-enterprise-operator-cert"
-    ],
-    "app.redislabs.com/v1alpha1/RedisEnterpriseCluster": [
-      "redis-enterprise-operator-cert"
-    ],
-    "app.redislabs.com/v1alpha1/RedisEnterpriseDatabase": [
-      "redis-enterprise-operator-cert"
-    ],
-    "app.redislabs.com/v1alpha1/RedisEnterpriseRemoteCluster": [
-      "redis-enterprise-operator-cert"
-    ],
     "rc.app.stacks/v1beta2/RuntimeComponent": [
       "runtime-component-operator-certified"
     ],
@@ -1609,174 +1079,6 @@
     ],
     "rc.app.stacks/v1/RuntimeOperation": [
       "runtime-component-operator-certified"
-    ],
-    "rtf.operators.mulesoft.com/v1/RuntimeFabric": [
-      "runtime-fabric-operator"
-    ],
-    "analysis.scaleops.sh/v1/ScaleOps": [
-      "scaleops-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/NodeConfig": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/RemoteKubernetesCluster": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/RemoteOwner": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1/ScyllaCluster": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/ScyllaDBCluster": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/ScyllaDBDatacenter": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/ScyllaDBDatacenterNodesStatusReport": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/ScyllaDBManagerClusterRegistration": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/ScyllaDBManagerTask": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/ScyllaDBMonitoring": [
-      "scylladb-operator"
-    ],
-    "scylla.scylladb.com/v1alpha1/ScyllaOperatorConfig": [
-      "scylladb-operator"
-    ],
-    "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/AgentFunction": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/ApiKeys": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/ConnectorCatalog": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/Console": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/KafkaConnect": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/MqttProxy": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/OxiaCluster": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/OxiaNamespace": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/PFSQLCluster": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/PulsarCoordinator": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/StorageCatalog": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/UniLink": [
-      "sn-operator"
-    ],
-    "k8s.streamnative.io/v1alpha1/UniLinkSchema": [
-      "sn-operator"
-    ],
-    "pulsar.streamnative.io/v1alpha1/PulsarBroker": [
-      "sn-operator"
-    ],
-    "pulsar.streamnative.io/v1alpha1/PulsarBrokerRevision": [
-      "sn-operator"
-    ],
-    "pulsar.streamnative.io/v1alpha1/PulsarFunctionsWorker": [
-      "sn-operator"
-    ],
-    "pulsar.streamnative.io/v1alpha1/PulsarProxy": [
-      "sn-operator"
-    ],
-    "zookeeper.streamnative.io/v1alpha1/ZooKeeperCluster": [
-      "sn-operator"
-    ],
-    "enterprise.splunk.com/v4/ClusterManager": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v1/ClusterMaster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v2/ClusterMaster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v3/ClusterMaster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v1/IndexerCluster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v2/IndexerCluster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v3/IndexerCluster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v4/IndexerCluster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v4/LicenseManager": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v1/LicenseMaster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v2/LicenseMaster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v3/LicenseMaster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v3/MonitoringConsole": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v4/MonitoringConsole": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v1/SearchHeadCluster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v2/SearchHeadCluster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v3/SearchHeadCluster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v4/SearchHeadCluster": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v1/Standalone": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v2/Standalone": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v3/Standalone": [
-      "splunk-operator"
-    ],
-    "enterprise.splunk.com/v4/Standalone": [
-      "splunk-operator"
-    ],
-    "spyre.ibm.com/v1alpha1/SpyreClusterPolicy": [
-      "spyre-operator"
-    ],
-    "spyre.ibm.com/v1alpha1/SpyreNodeState": [
-      "spyre-operator"
     ],
     "sriovfec.intel.com/v1/SriovFecClusterConfig": [
       "sriov-fec"
@@ -1795,123 +1097,6 @@
     ],
     "sriovvrb.intel.com/v1/SriovVrbNodeConfig": [
       "sriov-fec"
-    ],
-    "airflow.stackable.tech/v1alpha1/AirflowCluster": [
-      "stackable-airflow-operator"
-    ],
-    "authentication.stackable.tech/v1alpha1/AuthenticationClass": [
-      "stackable-commons-operator"
-    ],
-    "s3.stackable.tech/v1alpha1/S3Bucket": [
-      "stackable-commons-operator"
-    ],
-    "s3.stackable.tech/v1alpha1/S3Connection": [
-      "stackable-commons-operator"
-    ],
-    "druid.stackable.tech/v1alpha1/DruidCluster": [
-      "stackable-druid-operator"
-    ],
-    "hbase.stackable.tech/v1alpha1/HbaseCluster": [
-      "stackable-hbase-operator"
-    ],
-    "hdfs.stackable.tech/v1alpha1/HdfsCluster": [
-      "stackable-hdfs-operator"
-    ],
-    "hive.stackable.tech/v1alpha1/HiveCluster": [
-      "stackable-hive-operator"
-    ],
-    "kafka.stackable.tech/v1alpha1/KafkaCluster": [
-      "stackable-kafka-operator"
-    ],
-    "listeners.stackable.tech/v1alpha1/Listener": [
-      "stackable-listener-operator"
-    ],
-    "listeners.stackable.tech/v1alpha1/ListenerClass": [
-      "stackable-listener-operator"
-    ],
-    "listeners.stackable.tech/v1alpha1/PodListeners": [
-      "stackable-listener-operator"
-    ],
-    "nifi.stackable.tech/v1alpha1/NifiCluster": [
-      "stackable-nifi-operator"
-    ],
-    "opa.stackable.tech/v1alpha1/OpaCluster": [
-      "stackable-opa-operator"
-    ],
-    "opensearch.stackable.tech/v1alpha1/OpenSearchCluster": [
-      "stackable-opensearch-operator"
-    ],
-    "spark.stackable.tech/v1alpha1/SparkApplication": [
-      "stackable-spark-operator"
-    ],
-    "spark.stackable.tech/v1alpha1/SparkConnectServer": [
-      "stackable-spark-operator"
-    ],
-    "spark.stackable.tech/v1alpha1/SparkHistoryServer": [
-      "stackable-spark-operator"
-    ],
-    "superset.stackable.tech/v1alpha1/DruidConnection": [
-      "stackable-superset-operator"
-    ],
-    "superset.stackable.tech/v1alpha1/SupersetCluster": [
-      "stackable-superset-operator"
-    ],
-    "trino.stackable.tech/v1alpha1/TrinoCatalog": [
-      "stackable-trino-operator"
-    ],
-    "trino.stackable.tech/v1alpha1/TrinoCluster": [
-      "stackable-trino-operator"
-    ],
-    "zookeeper.stackable.tech/v1alpha1/ZookeeperCluster": [
-      "stackable-zookeeper-operator"
-    ],
-    "zookeeper.stackable.tech/v1alpha1/ZookeeperZnode": [
-      "stackable-zookeeper-operator"
-    ],
-    "stackgres.io/v1/SGBackup": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGCluster": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGConfig": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGDbOps": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGDistributedLogs": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGInstanceProfile": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1beta1/SGObjectStorage": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGPoolingConfig": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGPostgresConfig": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGScript": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGShardedBackup": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1alpha1/SGShardedCluster": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1/SGShardedDbOps": [
-      "stackgres-certified"
-    ],
-    "stackgres.io/v1alpha1/SGStream": [
-      "stackgres-certified"
-    ],
-    "helm-operator.sumologic.com/v1alpha1/SumologicCollection": [
-      "sumologic-kubernetes-collection-helm-operator"
     ],
     "card.synaxg.app.com/v1/SG3Reset": [
       "synaxg-operator"
@@ -2042,9 +1227,6 @@
     "operator.tigera.io/v1/APIServer": [
       "tigera-operator"
     ],
-    "trident.netapp.io/v1/TridentOrchestrator": [
-      "trident-operator"
-    ],
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
@@ -2095,9 +1277,6 @@
     ],
     "installer.venafi.com/v1alpha1/VenafiInstall": [
       "vcp-operator"
-    ],
-    "vfunction.com/v1/VfunctionServer": [
-      "vfunction-server-operator"
     ],
     "operator.victoriametrics.com/v1/VLAgent": [
       "victoriametrics-operator"
@@ -2168,9 +1347,6 @@
     "operator.victoriametrics.com/v1/VTSingle": [
       "victoriametrics-operator"
     ],
-    "example.com/v1alpha1/WebServer": [
-      "webserver-operator"
-    ],
     "csi.hpe.com/v1/XSPC": [
       "xspc-operator"
     ],
@@ -2193,5 +1369,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-28T06:52:01.359659"
+  "timestamp": "2026-03-28T06:55:37.381286"
 }
