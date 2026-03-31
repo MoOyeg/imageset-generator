@@ -981,6 +981,9 @@
     "sonatype.com/v1alpha1/NexusRepo": [
       "nexus-repository-ha-operator-certified"
     ],
+    "gateway.nginx.org/v1alpha1/NginxGatewayFabric": [
+      "nginx-gateway-fabric"
+    ],
     "charts.nginx.org/v1alpha1/NginxIngress": [
       "nginx-ingress-operator"
     ],
@@ -1010,6 +1013,9 @@
     ],
     "apps.nvidia.com/v1alpha1/NIMBuild": [
       "nim-operator-certified"
+    ],
+    "csi.nec.com/v1/NSPC": [
+      "nspc-operator"
     ],
     "maintenance.nvidia.com/v1alpha1/MaintenanceOperatorConfig": [
       "nvidia-maintenance-operator"
@@ -1369,5 +1375,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-28T06:55:37.381286"
+  "timestamp": "2026-03-31T06:53:19.194864"
 }

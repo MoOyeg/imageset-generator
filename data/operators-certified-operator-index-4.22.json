@@ -4056,6 +4056,19 @@
       "channel": "stable"
     },
     {
+      "package": "nginx-gateway-fabric",
+      "name": "nginx-gateway-fabric",
+      "version": "1.3.0",
+      "keywords": [
+        "nginx",
+        "gateway",
+        "kubernetes",
+        "networking"
+      ],
+      "description": "The NGINX Gateway Fabric is a Kubernetes Gateway API implementation that provides application traffic management for modern cloud-native applications",
+      "channel": "stable"
+    },
+    {
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.3.1",
@@ -4164,6 +4177,21 @@
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "3.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "nspc-operator",
+      "name": "nspc-operator",
+      "version": "1.17.3",
+      "keywords": [
+        "NEC",
+        "Storage",
+        "iStorage",
+        "V Series",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing NEC Storage Plug-in for Containers CSI driver",
       "channel": "stable"
     },
     {
@@ -5261,7 +5289,7 @@
       "channel": "lts"
     }
   ],
-  "count": 621,
+  "count": 623,
   "source": "opm",
-  "timestamp": "2026-03-28T06:55:37.186394"
+  "timestamp": "2026-03-31T06:53:18.997736"
 }

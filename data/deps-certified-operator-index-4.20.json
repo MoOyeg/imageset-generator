@@ -1364,6 +1364,9 @@
     "apps.nvidia.com/v1alpha1/NIMBuild": [
       "nim-operator-certified"
     ],
+    "csi.nec.com/v1/NSPC": [
+      "nspc-operator"
+    ],
     "crd.nutanix.com/v1alpha1/NutanixCsiStorage": [
       "nutanixcsioperator"
     ],
@@ -2054,6 +2057,15 @@
     "tvo.trilio.io/v1/TVOControlPlane": [
       "tvo-operator"
     ],
+    "ca.broadcom.com/v1alpha1/UniversalMonitoringAgentsAdmin": [
+      "uma-admin-operator"
+    ],
+    "ca.broadcom.com/v1alpha1/UniversalMonitoringAgent": [
+      "uma-operator"
+    ],
+    "ca.broadcom.com1/v1alpha1/UniversalMonitoringAgentsTeam": [
+      "uma-team-operator"
+    ],
     "storage.vastdata.com/v1/VastCSIDriver": [
       "vast-csi-operator"
     ],
@@ -2193,5 +2205,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-03-28T06:52:01.359659"
+  "timestamp": "2026-03-31T06:49:46.749830"
 }

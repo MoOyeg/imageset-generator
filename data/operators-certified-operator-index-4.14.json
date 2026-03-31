@@ -393,7 +393,7 @@
     {
       "package": "appdynamics-operator",
       "name": "appdynamics-operator",
-      "version": "26.2.0-1311",
+      "version": "26.3.0-1323",
       "channel": "stable"
     },
     {
@@ -1336,6 +1336,12 @@
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
       "version": "4.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.1.1",
       "channel": "alpha"
     },
     {
@@ -4825,6 +4831,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.6",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace",
       "name": "kubemq-operator-marketplace",
       "version": "1.8.5",
@@ -7111,6 +7123,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.29.3",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -8425,6 +8443,12 @@
       "channel": "beta"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.3.1-2",
+      "channel": "2026.3"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2024.10.2-12",
@@ -8545,6 +8569,12 @@
       "channel": "beta"
     },
     {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.3.1-2",
+      "channel": "2026.3"
+    },
+    {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
       "version": "2024.10.2-12",
@@ -8663,6 +8693,12 @@
       "name": "uma-team-operator",
       "version": "2026.2.0-10",
       "channel": "beta"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.3.1-2",
+      "channel": "2026.3"
     },
     {
       "package": "vast-csi-operator",
@@ -8863,6 +8899,12 @@
       "channel": "stable"
     },
     {
+      "package": "vfunction-server-operator",
+      "name": "vfunction-server-operator",
+      "version": "4.6.1984",
+      "channel": "stable"
+    },
+    {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.68.2",
@@ -8971,7 +9013,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1495,
+  "count": 1502,
   "source": "opm",
-  "timestamp": "2026-03-28T06:38:44.490860"
+  "timestamp": "2026-03-31T06:36:05.098710"
 }

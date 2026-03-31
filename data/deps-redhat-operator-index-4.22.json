@@ -993,6 +993,42 @@
     "argocd-image-updater.argoproj.io/v1alpha1/ImageUpdater": [
       "openshift-gitops-operator"
     ],
+    "operator.tekton.dev/v1alpha1/OpenShiftPipelinesAsCode": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonAddon": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonChain": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonConfig": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonHub": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonInstallerSet": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonPipeline": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonResult": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonTrigger": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonDashboard": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonPruner": [
+      "openshift-pipelines-operator-rh"
+    ],
     "operator.openshift.io/v1/SecondaryScheduler": [
       "openshift-secondary-scheduler-operator"
     ],
@@ -1354,5 +1390,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-03-28T06:55:21.022496"
+  "timestamp": "2026-03-31T06:53:03.855244"
 }

@@ -710,6 +710,20 @@
       "channel": "alpha"
     },
     {
+      "package": "appdynamics-operator",
+      "name": "appdynamics-operator",
+      "version": "26.3.0-1323",
+      "keywords": [
+        "AppDynamics",
+        "Operator",
+        "AppDynamics Cluster Agent",
+        "AppDynamics Machine Agent",
+        "AppDynamics K8s Monitoring"
+      ],
+      "description": "AppDynamics Operator to install AppDynamics Cluster Agent & AppDynamics Machine Agent for K8s Monitoring for various Cloud Providers like EKS, AKS etc.",
+      "channel": "stable"
+    },
+    {
       "package": "appian-operator",
       "name": "appian-operator",
       "version": "0.171.0",
@@ -2350,6 +2364,16 @@
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
       "version": "4.1.0",
+      "keywords": [
+        "storage"
+      ],
+      "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
+      "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.1.1",
       "keywords": [
         "storage"
       ],
@@ -6620,6 +6644,21 @@
       "channel": "alpha"
     },
     {
+      "package": "infinibox-operator-certified",
+      "name": "infinibox-operator-certified",
+      "version": "2.27.0",
+      "keywords": [
+        "csi",
+        "nas",
+        "san",
+        "storage",
+        "infinidat",
+        "infinibox"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "infoscale-dr-manager",
       "name": "infoscale-dr-manager",
       "version": "8.0.100",
@@ -8812,6 +8851,23 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.6",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.6 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -10237,7 +10293,7 @@
     {
       "package": "nspc-operator",
       "name": "nspc-operator",
-      "version": "1.16.0",
+      "version": "1.17.3",
       "keywords": [
         "NEC",
         "Storage",
@@ -12060,6 +12116,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "8.0.16-25.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.16"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "8.0.2-2.9",
       "keywords": [
         "redislabs",
@@ -12836,6 +12906,19 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.28.8",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.29.3",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -14439,6 +14522,16 @@
       "channel": "beta"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.3.1-2",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "2026.3"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2025.10.1-12",
@@ -14537,6 +14630,16 @@
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "beta"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.3.1-2",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "2026.3"
     },
     {
       "package": "uma-team-operator",
@@ -14647,6 +14750,17 @@
       ],
       "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "beta"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.3.1-2",
+      "keywords": [
+        "uma-team-operator",
+        "uma-operator"
+      ],
+      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "2026.3"
     },
     {
       "package": "vast-csi-operator",
@@ -14874,6 +14988,18 @@
       "channel": "stable"
     },
     {
+      "package": "vfunction-server-operator",
+      "name": "vfunction-server-operator",
+      "version": "4.6.1984",
+      "keywords": [
+        "vfunction",
+        "analyzing",
+        "services"
+      ],
+      "description": "vFunction is a cutting-edge code analysis, machine learning, and automation to boost your Java modernization projects.",
+      "channel": "stable"
+    },
+    {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.68.2",
@@ -15037,7 +15163,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1438,
+  "count": 1448,
   "source": "opm",
-  "timestamp": "2026-03-28T06:48:45.843813"
+  "timestamp": "2026-03-31T06:46:44.799469"
 }
