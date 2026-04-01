@@ -127,6 +127,12 @@
       "channel": "threescale-2.16"
     },
     {
+      "package": "3scale-operator",
+      "name": "3scale-operator",
+      "version": "0.13.3",
+      "channel": "threescale-2.16"
+    },
+    {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
       "version": "2.10.0",
@@ -1329,6 +1335,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.3-6",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "channel": "amq-streams-3.0.x"
     },
@@ -1456,6 +1468,12 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.3-12",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.3-14",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -2079,6 +2097,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.4.0+0.1774577278",
+      "channel": "stable-2.4"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.4.0+0.1774582128",
+      "channel": "stable-2.4-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.5.0+0.1727240614",
       "channel": "stable-2.5"
     },
@@ -2427,6 +2457,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1774617850",
+      "channel": "stable-2.5-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1774618015",
+      "channel": "stable-2.5"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1758684783",
       "channel": "stable-2.6"
     },
@@ -2542,6 +2584,18 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1772556740",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1774648945",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1774648973",
       "channel": "stable-2.6-cluster-scoped"
     },
     {
@@ -2836,6 +2890,12 @@
       "package": "apicast-operator",
       "name": "apicast-operator",
       "version": "0.13.2",
+      "channel": "threescale-2.16"
+    },
+    {
+      "package": "apicast-operator",
+      "name": "apicast-operator",
+      "version": "0.13.3",
       "channel": "threescale-2.16"
     },
     {
@@ -21235,6 +21295,12 @@
       "channel": "stable-1.4"
     },
     {
+      "package": "redhat-oadp-operator",
+      "name": "redhat-oadp-operator",
+      "version": "1.4.9",
+      "channel": "stable-1.4"
+    },
+    {
       "package": "rh-service-binding-operator",
       "name": "rh-service-binding-operator",
       "version": "0.10.0",
@@ -27091,7 +27157,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4515,
+  "count": 4526,
   "source": "opm",
-  "timestamp": "2026-03-31T06:42:08.595214"
+  "timestamp": "2026-04-01T06:41:41.759498"
 }

@@ -3184,7 +3184,7 @@
     {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
-      "version": "0.6.1",
+      "version": "0.7.0",
       "keywords": [
         "ai",
         "security",
@@ -3954,7 +3954,7 @@
     {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.17.4",
+      "version": "1.18.0",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -7034,6 +7034,27 @@
       "channel": "v1.5"
     },
     {
+      "package": "open-liberty-certified",
+      "name": "open-liberty-certified",
+      "version": "1.6.0",
+      "keywords": [
+        "Open Liberty",
+        "MicroProfile",
+        "Jakarta EE",
+        "Java",
+        "Application Server",
+        "Application Runtime",
+        "Runtime",
+        "Spring",
+        "Application",
+        "Open Source",
+        "OpenLiberty",
+        "OLO"
+      ],
+      "description": "Deploy and manage containerized Liberty applications",
+      "channel": "v1.6"
+    },
+    {
       "package": "openshift-fusion-access-operator",
       "name": "openshift-fusion-access-operator",
       "version": "0.9.3",
@@ -7972,6 +7993,27 @@
       ],
       "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
       "channel": "v1.5"
+    },
+    {
+      "package": "runtime-component-operator-certified",
+      "name": "runtime-component-operator-certified",
+      "version": "1.6.0",
+      "keywords": [
+        "Runtime Component",
+        "Application Runtime",
+        "Application",
+        "Node",
+        "Swift",
+        "MicroProfile",
+        "Spring",
+        "Java",
+        "Runtime",
+        "Open Source",
+        "Application Stacks",
+        "RCO"
+      ],
+      "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
+      "channel": "v1.6"
     },
     {
       "package": "runtime-fabric-operator",
@@ -9094,7 +9136,7 @@
       "channel": "lts"
     }
   ],
-  "count": 885,
+  "count": 887,
   "source": "opm",
-  "timestamp": "2026-03-31T06:52:06.984179"
+  "timestamp": "2026-04-01T06:50:59.448960"
 }

@@ -11517,17 +11517,6 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.0",
-      "keywords": [
-        "integration",
-        "streaming",
-        "messaging",
-        "api",
-        "schemas",
-        "registry",
-        "apicurio",
-        "apicurio-registry"
-      ],
-      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.x"
     },
     {
@@ -12720,11 +12709,17 @@
       "package": "bpfman-operator",
       "name": "bpfman-operator",
       "version": "0.5.6",
+      "channel": "alpha"
+    },
+    {
+      "package": "bpfman-operator",
+      "name": "bpfman-operator",
+      "version": "0.6.0",
       "keywords": [
         "ebpf",
         "kubernetes"
       ],
-      "description": "",
+      "description": "The bpfman Operator is designed to manage eBPF programs for applications.",
       "channel": "alpha"
     },
     {
@@ -20998,16 +20993,6 @@
       "package": "logicmonitor-openshift-operator",
       "name": "logicmonitor-openshift-operator",
       "version": "0.3.1",
-      "keywords": [
-        "monitoring",
-        "observability",
-        "kubernetes",
-        "openshift",
-        "logicmonitor",
-        "metrics",
-        "apm"
-      ],
-      "description": "Deploy LogicMonitor container monitoring on OpenShift clusters",
       "channel": "alpha"
     },
     {
@@ -27844,7 +27829,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4068,
+  "count": 4069,
   "source": "opm",
-  "timestamp": "2026-03-31T06:53:37.417646"
+  "timestamp": "2026-04-01T06:53:10.108967"
 }

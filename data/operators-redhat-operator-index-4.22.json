@@ -2257,6 +2257,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.3-6",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "keywords": [
         "kafka",
@@ -2651,6 +2668,26 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.3-12",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.3-14",
       "keywords": [
         "kafka",
         "messaging",
@@ -6077,6 +6114,188 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "0.1.32",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "4.7"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "0.1.61",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "release-0.1"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.4.0",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.4.1",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.5.0",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.5.1",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.6.0",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.6.1",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.6.2",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.7.0",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.7.1",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.8.0",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.8.1",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.8.2",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
       "channel": "stable"
     },
     {
@@ -10975,6 +11194,105 @@
       ],
       "description": "Fence Agents Remediation Operator uses well-known agents to fence and remediate unhealthy nodes. The remediation includes rebooting the unhealthy node using a fence agent, and then evicting workloads from the unhealthy node.",
       "channel": "4.18-eus"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "0.1.13",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "4.7"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "0.1.32",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "release-0.1"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "v1"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.3.3",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.3.4",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.3.5",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.3.6",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.3.7",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.3.8",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable"
     },
     {
       "package": "jws-operator",
@@ -20705,6 +21023,90 @@
       "channel": "stable"
     },
     {
+      "package": "security-profiles-operator",
+      "name": "security-profiles-operator",
+      "version": "0.10.0",
+      "keywords": [
+        "security",
+        "selinux",
+        "seccomp",
+        "apparmor",
+        "ebpf"
+      ],
+      "description": "",
+      "channel": "release-alpha-rhel-8"
+    },
+    {
+      "package": "security-profiles-operator",
+      "name": "security-profiles-operator",
+      "version": "0.8.2",
+      "keywords": [
+        "security",
+        "selinux",
+        "seccomp",
+        "apparmor",
+        "ebpf"
+      ],
+      "description": "",
+      "channel": "release-alpha-rhel-8"
+    },
+    {
+      "package": "security-profiles-operator",
+      "name": "security-profiles-operator",
+      "version": "0.8.4",
+      "keywords": [
+        "security",
+        "selinux",
+        "seccomp",
+        "apparmor",
+        "ebpf"
+      ],
+      "description": "",
+      "channel": "release-alpha-rhel-8"
+    },
+    {
+      "package": "security-profiles-operator",
+      "name": "security-profiles-operator",
+      "version": "0.8.5",
+      "keywords": [
+        "security",
+        "selinux",
+        "seccomp",
+        "apparmor",
+        "ebpf"
+      ],
+      "description": "",
+      "channel": "release-alpha-rhel-8"
+    },
+    {
+      "package": "security-profiles-operator",
+      "name": "security-profiles-operator",
+      "version": "0.8.6",
+      "keywords": [
+        "security",
+        "selinux",
+        "seccomp",
+        "apparmor",
+        "ebpf"
+      ],
+      "description": "",
+      "channel": "release-alpha-rhel-8"
+    },
+    {
+      "package": "security-profiles-operator",
+      "name": "security-profiles-operator",
+      "version": "0.9.0",
+      "keywords": [
+        "security",
+        "selinux",
+        "seccomp",
+        "apparmor",
+        "ebpf"
+      ],
+      "description": "",
+      "channel": "release-alpha-rhel-8"
+    },
+    {
       "package": "self-node-remediation",
       "name": "self-node-remediation",
       "version": "0.10.0",
@@ -24193,7 +24595,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1732,
+  "count": 1763,
   "source": "opm",
-  "timestamp": "2026-03-31T06:53:02.784305"
+  "timestamp": "2026-04-01T06:51:55.597972"
 }

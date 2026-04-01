@@ -438,6 +438,42 @@
     "perses.dev/v1alpha2/PersesGlobalDatasource": [
       "cluster-observability-operator"
     ],
+    "compliance.openshift.io/v1alpha1/ComplianceCheckResult": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ComplianceRemediation": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ComplianceScan": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ComplianceSuite": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/Profile": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ProfileBundle": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/Rule": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ScanSetting": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ScanSettingBinding": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/TailoredProfile": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/Variable": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/CustomRule": [
+      "compliance-operator"
+    ],
     "secscan.quay.redhat.com/v1alpha1/ImageManifestVuln": [
       "container-security-operator"
     ],
@@ -506,6 +542,12 @@
     ],
     "fence-agents-remediation.medik8s.io/v1alpha1/FenceAgentsRemediationTemplate": [
       "fence-agents-remediation"
+    ],
+    "fileintegrity.openshift.io/v1alpha1/FileIntegrity": [
+      "file-integrity-operator"
+    ],
+    "fileintegrity.openshift.io/v1alpha1/FileIntegrityNodeStatus": [
+      "file-integrity-operator"
     ],
     "web.servers.org/v1alpha1/WebServer": [
       "jws-operator"
@@ -1170,6 +1212,30 @@
     "confidentialcontainers.org/v1alpha1/PeerPodConfig": [
       "sandboxed-containers-operator"
     ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/AppArmorProfile": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/ProfileBinding": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/ProfileRecording": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha2/RawSelinuxProfile": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1beta1/SeccompProfile": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/SecurityProfileNodeStatus": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/SecurityProfilesOperatorDaemon": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha2/SelinuxProfile": [
+      "security-profiles-operator"
+    ],
     "self-node-remediation.medik8s.io/v1alpha1/SelfNodeRemediation": [
       "self-node-remediation"
     ],
@@ -1390,5 +1456,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-03-31T06:53:03.855244"
+  "timestamp": "2026-04-01T06:51:56.690601"
 }
