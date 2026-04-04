@@ -1954,6 +1954,22 @@
       "channel": "stable"
     },
     {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.3.2",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server and Logstash on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -3733,6 +3749,18 @@
       "channel": "stable"
     },
     {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.8.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
       "version": "0.0.5",
@@ -4782,7 +4810,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "keywords": [
         "tenant",
         "stakater",
@@ -5331,7 +5359,7 @@
       "channel": "lts"
     }
   ],
-  "count": 625,
+  "count": 627,
   "source": "opm",
-  "timestamp": "2026-04-01T06:52:51.123779"
+  "timestamp": "2026-04-04T06:49:09.703583"
 }

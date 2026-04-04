@@ -375,6 +375,12 @@
     "updateservice.operator.openshift.io/v1/UpdateService": [
       "cincinnati-operator"
     ],
+    "logging.openshift.io/v1alpha1/LogFileMetricExporter": [
+      "cluster-logging"
+    ],
+    "observability.openshift.io/v1/ClusterLogForwarder": [
+      "cluster-logging"
+    ],
     "monitoring.rhobs/v1/Alertmanager": [
       "cluster-observability-operator"
     ],
@@ -659,6 +665,30 @@
     "sonataflow.org/v1alpha08/SonataFlowPlatform": [
       "logic-operator",
       "logic-operator-rhel8"
+    ],
+    "loki.grafana.com/v1/AlertingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/AlertingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/LokiStack": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/LokiStack": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/RecordingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/RecordingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/RulerConfig": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/RulerConfig": [
+      "loki-operator"
     ],
     "machine-deletion-remediation.medik8s.io/v1alpha1/MachineDeletionRemediation": [
       "machine-deletion-remediation"
@@ -1456,5 +1486,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-01T06:51:56.690601"
+  "timestamp": "2026-04-04T06:48:52.954352"
 }

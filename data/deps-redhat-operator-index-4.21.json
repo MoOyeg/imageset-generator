@@ -436,6 +436,21 @@
       "bamoe-kogito-operator",
       "rhpam-kogito-operator"
     ],
+    "bpfman.io/v1alpha1/BpfApplication": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/BpfApplicationState": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/ClusterBpfApplication": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/ClusterBpfApplicationState": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/Config": [
+      "bpfman-operator"
+    ],
     "app.kiegroup.org/v1/KieApp": [
       "businessautomation-operator"
     ],
@@ -2216,5 +2231,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-01T06:50:41.686306"
+  "timestamp": "2026-04-04T06:47:21.665181"
 }

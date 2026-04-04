@@ -35,6 +35,15 @@
         }
       ]
     },
+    "automotive-dev-operator": {
+      "requires_packages": [
+        {
+          "packageName": "openshift-pipelines-operator-rh",
+          "versionRange": ">=1.12.0"
+        }
+      ],
+      "requires_gvks": []
+    },
     "awss3-operator-registry": {
       "requires_packages": [],
       "requires_gvks": [
@@ -1269,6 +1278,27 @@
     ],
     "authorino.kuadrant.io/v1beta3/AuthConfig": [
       "authorino-operator"
+    ],
+    "automotive.sdv.cloud.redhat.com/v1alpha1/CatalogImage": [
+      "automotive-dev-operator"
+    ],
+    "automotive.sdv.cloud.redhat.com/v1alpha1/ContainerBuild": [
+      "automotive-dev-operator"
+    ],
+    "automotive.sdv.cloud.redhat.com/v1alpha1/Image": [
+      "automotive-dev-operator"
+    ],
+    "automotive.sdv.cloud.redhat.com/v1alpha1/ImageBuild": [
+      "automotive-dev-operator"
+    ],
+    "automotive.sdv.cloud.redhat.com/v1alpha1/ImageReseal": [
+      "automotive-dev-operator"
+    ],
+    "automotive.sdv.cloud.redhat.com/v1alpha1/OperatorConfig": [
+      "automotive-dev-operator"
+    ],
+    "automotive.sdv.cloud.redhat.com/v1alpha1/Workspace": [
+      "automotive-dev-operator"
     ],
     "automotive.sig.centos.org/v1/ContainerBuild": [
       "automotive-infra"
@@ -3159,6 +3189,24 @@
     "ccm.oraclecloud.com/v1alpha1/OCICsiDriver": [
       "oci-ccm-operator"
     ],
+    "kea.openshift.io/v1alpha1/KeaControlAgent": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaDhcp4Server": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaDhcp6Server": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaDhcpDdns": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaServer": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaStorkServer": [
+      "ocp-kea-dhcp"
+    ],
     "odoo-community.org/v1alpha1/Odoo": [
       "odoo-operator"
     ],
@@ -4429,5 +4477,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-01T06:49:55.140130"
+  "timestamp": "2026-04-04T06:46:38.343921"
 }

@@ -675,7 +675,7 @@
     {
       "package": "app-insights-operator",
       "name": "app-insights-operator",
-      "version": "1.18.2-1",
+      "version": "1.19.0-1",
       "keywords": [
         "developer tools",
         "insights",
@@ -2717,6 +2717,38 @@
       ],
       "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
       "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.28.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.29.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
     },
     {
       "package": "cloudnative-pg",
@@ -5015,6 +5047,22 @@
       "package": "elasticsearch-eck-operator-certified",
       "name": "elasticsearch-eck-operator-certified",
       "version": "3.3.1",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server and Logstash on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.3.2",
       "keywords": [
         "elasticsearch",
         "kibana",
@@ -9857,6 +9905,18 @@
       "channel": "stable"
     },
     {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.8.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
       "version": "0.0.5",
@@ -10327,6 +10387,20 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.6.0",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.6.1",
       "keywords": [
         "Nutanix",
         "CSI",
@@ -13055,6 +13129,21 @@
       "channel": "stable"
     },
     {
+      "package": "splunk-operator",
+      "name": "splunk-operator",
+      "version": "3.1.0",
+      "keywords": [
+        "Splunk",
+        "Enterprise",
+        "Operator",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "The Splunk Operator for Kubernetes enables you to quickly and easily deploy Splunk Enterprise on your choice of private or public cloud provider. The Operator simplifies scaling and management of Splunk Enterprise by automating administrative workflows using Kubernetes best practices.",
+      "channel": "stable"
+    },
+    {
       "package": "spyre-operator",
       "name": "spyre-operator",
       "version": "0.1.2",
@@ -13101,7 +13190,7 @@
     {
       "package": "spyre-operator",
       "name": "spyre-operator",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "keywords": [
         "app",
         "operator"
@@ -14004,7 +14093,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "keywords": [
         "tenant",
         "stakater",
@@ -15205,7 +15294,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1450,
+  "count": 1456,
   "source": "opm",
-  "timestamp": "2026-04-01T06:46:35.074219"
+  "timestamp": "2026-04-04T06:42:54.579765"
 }

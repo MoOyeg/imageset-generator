@@ -1855,6 +1855,38 @@
     {
       "package": "cloudnative-pg",
       "name": "cloudnative-pg",
+      "version": "1.28.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.29.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnpg"
+      ],
+      "description": "CloudNativePG is an open source operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
       "version": "1.29.0-rc1",
       "keywords": [
         "postgresql",
@@ -3156,6 +3188,22 @@
       "package": "elasticsearch-eck-operator-certified",
       "name": "elasticsearch-eck-operator-certified",
       "version": "3.3.1",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server and Logstash on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.3.2",
       "keywords": [
         "elasticsearch",
         "kibana",
@@ -6408,6 +6456,18 @@
       "channel": "stable"
     },
     {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.8.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
       "version": "0.0.5",
@@ -8033,7 +8093,7 @@
     {
       "package": "spyre-operator",
       "name": "spyre-operator",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "keywords": [
         "app",
         "operator"
@@ -8554,7 +8614,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "keywords": [
         "tenant",
         "stakater",
@@ -9136,7 +9196,7 @@
       "channel": "lts"
     }
   ],
-  "count": 887,
+  "count": 891,
   "source": "opm",
-  "timestamp": "2026-04-01T06:50:59.448960"
+  "timestamp": "2026-04-04T06:47:38.435053"
 }

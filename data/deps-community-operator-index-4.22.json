@@ -2290,6 +2290,21 @@
     "ibmcloud.ibm.com/v1beta1/Service": [
       "ibmcloud-operator"
     ],
+    "infinispan.org/v2alpha1/Backup": [
+      "infinispan"
+    ],
+    "infinispan.org/v2alpha1/Batch": [
+      "infinispan"
+    ],
+    "infinispan.org/v2alpha1/Cache": [
+      "infinispan"
+    ],
+    "infinispan.org/v1/Infinispan": [
+      "infinispan"
+    ],
+    "infinispan.org/v2alpha1/Restore": [
+      "infinispan"
+    ],
     "apis.integrityshield.io/v1/IntegrityShield": [
       "integrity-shield-operator"
     ],
@@ -2829,6 +2844,24 @@
     ],
     "ccm.oraclecloud.com/v1alpha1/OCICsiDriver": [
       "oci-ccm-operator"
+    ],
+    "kea.openshift.io/v1alpha1/KeaControlAgent": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaDhcp4Server": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaDhcp6Server": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaDhcpDdns": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaServer": [
+      "ocp-kea-dhcp"
+    ],
+    "kea.openshift.io/v1alpha1/KeaStorkServer": [
+      "ocp-kea-dhcp"
     ],
     "odoo-community.org/v1alpha1/Odoo": [
       "odoo-operator"
@@ -3515,5 +3548,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-01T06:53:10.687051"
+  "timestamp": "2026-04-04T06:49:39.581713"
 }

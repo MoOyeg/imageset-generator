@@ -177,7 +177,7 @@
     {
       "package": "app-insights-operator",
       "name": "app-insights-operator",
-      "version": "1.18.2-1",
+      "version": "1.19.0-1",
       "channel": "stable"
     },
     {
@@ -4209,8 +4209,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.20",
-      "channel": "stable"
+      "version": "8.19.30",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -4840,6 +4840,12 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.8.0",
       "channel": "stable"
     },
     {
@@ -5703,13 +5709,13 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.20",
-      "channel": "stable"
+      "version": "8.19.30",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.30-beta.1",
+      "version": "8.19.30-beta.2",
       "channel": "beta"
     },
     {
@@ -6379,6 +6385,12 @@
       "channel": "stable"
     },
     {
+      "package": "splunk-operator",
+      "name": "splunk-operator",
+      "version": "3.1.0",
+      "channel": "stable"
+    },
+    {
       "package": "sriov-fec",
       "name": "sriov-fec",
       "version": "2.10.0",
@@ -6687,8 +6699,8 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.100.0",
-      "channel": "stable"
+      "version": "42.101.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
@@ -7101,7 +7113,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "channel": "release-1.6"
     },
     {
@@ -7987,7 +7999,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1331,
+  "count": 1333,
   "source": "opm",
-  "timestamp": "2026-04-01T06:32:31.455435"
+  "timestamp": "2026-04-04T06:29:11.645637"
 }

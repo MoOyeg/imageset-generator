@@ -375,7 +375,7 @@
     {
       "package": "app-insights-operator",
       "name": "app-insights-operator",
-      "version": "1.18.2-1",
+      "version": "1.19.0-1",
       "channel": "stable"
     },
     {
@@ -1469,6 +1469,18 @@
       "name": "cloudnative-pg",
       "version": "1.28.1",
       "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.28.2",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.29.0",
+      "channel": "candidate"
     },
     {
       "package": "cloudnative-pg",
@@ -2812,6 +2824,12 @@
       "package": "elasticsearch-eck-operator-certified",
       "name": "elasticsearch-eck-operator-certified",
       "version": "3.3.1",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.3.2",
       "channel": "stable"
     },
     {
@@ -4863,8 +4881,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.20",
-      "channel": "stable"
+      "version": "8.19.30",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -5503,6 +5521,12 @@
       "channel": "stable"
     },
     {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.8.0",
+      "channel": "stable"
+    },
+    {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
       "version": "0.0.5",
@@ -5824,6 +5848,12 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.6.0",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.6.1",
       "channel": "stable-3.x"
     },
     {
@@ -6525,13 +6555,13 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.20",
-      "channel": "stable"
+      "version": "8.19.30",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.30-beta.1",
+      "version": "8.19.30-beta.2",
       "channel": "beta"
     },
     {
@@ -7189,6 +7219,12 @@
       "channel": "stable"
     },
     {
+      "package": "splunk-operator",
+      "name": "splunk-operator",
+      "version": "3.1.0",
+      "channel": "stable"
+    },
+    {
       "package": "sriov-fec",
       "name": "sriov-fec",
       "version": "2.10.0",
@@ -7761,8 +7797,8 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.100.0",
-      "channel": "stable"
+      "version": "42.101.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
@@ -8151,7 +8187,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "channel": "release-1.6"
     },
     {
@@ -9013,7 +9049,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1502,
+  "count": 1508,
   "source": "opm",
-  "timestamp": "2026-04-01T06:35:46.189203"
+  "timestamp": "2026-04-04T06:32:29.733782"
 }

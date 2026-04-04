@@ -5971,6 +5971,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-keyspaces-controller",
       "name": "ack-keyspaces-controller",
       "version": "0.0.1",
@@ -18784,61 +18790,61 @@
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.0",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.1",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.10",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.11",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.12",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.13",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.14",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.15",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.16",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.17",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
@@ -18850,49 +18856,49 @@
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.2",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.3",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.4",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.5",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.6",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.7",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.8",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.4.9",
-      "channel": "2.4.x"
+      "channel": "stable"
     },
     {
       "package": "infinispan",
@@ -18928,6 +18934,12 @@
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.5.5",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.6",
       "channel": "stable"
     },
     {
@@ -19294,6 +19306,12 @@
       "package": "kaoto-operator",
       "name": "kaoto-operator",
       "version": "2.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "kaoto-operator",
+      "name": "kaoto-operator",
+      "version": "2.10.0",
       "channel": "alpha"
     },
     {
@@ -26025,6 +26043,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.9.19",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.9.2",
       "channel": "stable-3.9"
     },
@@ -26649,18 +26673,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-18",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-19",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-22",
       "channel": "1.29-nightly"
     },
@@ -26710,6 +26722,18 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0-nightly-2026-04-01",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-04-03",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-04-04",
       "channel": "1.29-nightly"
     },
     {
@@ -29803,7 +29827,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4967,
+  "count": 4971,
   "source": "opm",
-  "timestamp": "2026-04-01T06:39:45.379944"
+  "timestamp": "2026-04-04T06:36:31.136007"
 }
