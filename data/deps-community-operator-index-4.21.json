@@ -3197,6 +3197,30 @@
     "charts.pelorus.dora-metrics.io/v1alpha1/Pelorus": [
       "pelorus-operator"
     ],
+    "pgv2.percona.com/v2/PerconaPGBackup": [
+      "percona-postgresql-operator"
+    ],
+    "pgv2.percona.com/v2/PerconaPGCluster": [
+      "percona-postgresql-operator"
+    ],
+    "pgv2.percona.com/v2/PerconaPGRestore": [
+      "percona-postgresql-operator"
+    ],
+    "pgv2.percona.com/v2/PerconaPGUpgrade": [
+      "percona-postgresql-operator"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/CrunchyBridgeCluster": [
+      "percona-postgresql-operator"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PGAdmin": [
+      "percona-postgresql-operator"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PGUpgrade": [
+      "percona-postgresql-operator"
+    ],
+    "postgres-operator.crunchydata.com/v1beta1/PostgresCluster": [
+      "percona-postgresql-operator"
+    ],
     "psmdb.percona.com/v1/PerconaServerMongoDB": [
       "percona-server-mongodb-operator"
     ],
@@ -4155,5 +4179,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-04T06:47:58.557243"
+  "timestamp": "2026-04-07T06:50:11.312864"
 }

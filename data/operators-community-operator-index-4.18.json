@@ -9636,6 +9636,12 @@
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
+      "version": "1.3.1",
       "keywords": [
         "route53",
         "aws",
@@ -28916,6 +28922,12 @@
       "package": "percona-postgresql-operator",
       "name": "percona-postgresql-operator",
       "version": "2.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator",
+      "name": "percona-postgresql-operator",
+      "version": "2.9.0",
       "keywords": [
         "postgres",
         "postgresql",
@@ -29773,6 +29785,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.16.2",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.16.3",
       "keywords": [
         "open source",
         "containers",
@@ -31259,18 +31277,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-22",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-23",
       "keywords": [
         "istio",
@@ -31380,6 +31386,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0-nightly-2026-04-04",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-04-05",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-04-06",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-04-07",
       "keywords": [
         "istio",
         "servicemesh",
@@ -35020,7 +35062,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4727,
+  "count": 4732,
   "source": "opm",
-  "timestamp": "2026-04-04T06:43:13.952779"
+  "timestamp": "2026-04-07T06:45:15.530586"
 }

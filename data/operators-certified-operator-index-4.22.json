@@ -3832,6 +3832,24 @@
       "channel": "stable"
     },
     {
+      "package": "netscaler-adm-agent-operator",
+      "name": "netscaler-adm-agent-operator",
+      "version": "141.66.63",
+      "keywords": [
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to deploy container-based NetScaler Console agent to manage NetScaler CPX with NetScaler Console for management and monitoring.",
+      "channel": "stable"
+    },
+    {
       "package": "netscaler-operator",
       "name": "netscaler-operator",
       "version": "3.0.1",
@@ -5359,7 +5377,7 @@
       "channel": "lts"
     }
   ],
-  "count": 627,
+  "count": 628,
   "source": "opm",
-  "timestamp": "2026-04-04T06:49:09.703583"
+  "timestamp": "2026-04-07T06:51:05.439516"
 }

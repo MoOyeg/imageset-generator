@@ -8195,6 +8195,24 @@
       "channel": "5.3.x"
     },
     {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.3.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.3.x"
+    },
+    {
       "package": "kedify-agent-helm-operator",
       "name": "kedify-agent-helm-operator",
       "version": "0.2.16",
@@ -9988,6 +10006,24 @@
       "channel": "stable"
     },
     {
+      "package": "netscaler-adm-agent-operator",
+      "name": "netscaler-adm-agent-operator",
+      "version": "141.66.63",
+      "keywords": [
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to deploy container-based NetScaler Console agent to manage NetScaler CPX with NetScaler Console for management and monitoring.",
+      "channel": "stable"
+    },
+    {
       "package": "netscaler-operator",
       "name": "netscaler-operator",
       "version": "3.0.1",
@@ -10941,6 +10977,21 @@
       "channel": "stable-cw"
     },
     {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "2.9.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable"
+    },
+    {
       "package": "percona-server-mongodb-operator-certified",
       "name": "percona-server-mongodb-operator-certified",
       "version": "1.20.0",
@@ -11848,6 +11899,20 @@
       "package": "portworx-certified",
       "name": "portworx-certified",
       "version": "25.6.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.1.0",
       "keywords": [
         "portworx",
         "persistent storage",
@@ -13035,6 +13100,19 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.29.3",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.29.4",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -15294,7 +15372,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1456,
+  "count": 1461,
   "source": "opm",
-  "timestamp": "2026-04-04T06:42:54.579765"
+  "timestamp": "2026-04-07T06:44:56.115650"
 }

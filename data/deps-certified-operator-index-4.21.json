@@ -508,16 +508,20 @@
       "cp-fko"
     ],
     "postgres-operator.crunchydata.com/v1beta1/PostgresCluster": [
-      "crunchy-postgres-operator"
+      "crunchy-postgres-operator",
+      "percona-postgresql-operator-certified"
     ],
     "postgres-operator.crunchydata.com/v1beta1/PGUpgrade": [
-      "crunchy-postgres-operator"
+      "crunchy-postgres-operator",
+      "percona-postgresql-operator-certified"
     ],
     "postgres-operator.crunchydata.com/v1beta1/PGAdmin": [
-      "crunchy-postgres-operator"
+      "crunchy-postgres-operator",
+      "percona-postgresql-operator-certified"
     ],
     "postgres-operator.crunchydata.com/v1beta1/CrunchyBridgeCluster": [
-      "crunchy-postgres-operator"
+      "crunchy-postgres-operator",
+      "percona-postgresql-operator-certified"
     ],
     "cte-k8s-operator.csi.cte.cpl.thalesgroup.com/v1/CteK8sOperator": [
       "cte-k8s-operator"
@@ -1342,6 +1346,18 @@
     "certification.redhat.com/v1alpha1/OperatorPipeline": [
       "operator-certification-operator"
     ],
+    "pgv2.percona.com/v2/PerconaPGBackup": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGCluster": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGRestore": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGUpgrade": [
+      "percona-postgresql-operator-certified"
+    ],
     "psmdb.percona.com/v1/PerconaServerMongoDB": [
       "percona-server-mongodb-operator-certified"
     ],
@@ -1823,5 +1839,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-04T06:47:38.759050"
+  "timestamp": "2026-04-07T06:49:52.016846"
 }

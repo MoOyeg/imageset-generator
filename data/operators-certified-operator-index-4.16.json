@@ -4729,6 +4729,12 @@
       "channel": "5.3.x"
     },
     {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.3.1",
+      "channel": "5.3.x"
+    },
+    {
       "package": "kedify-agent-helm-operator",
       "name": "kedify-agent-helm-operator",
       "version": "0.2.16",
@@ -5806,6 +5812,12 @@
       "package": "netscaler-adm-agent-operator",
       "name": "netscaler-adm-agent-operator",
       "version": "141.60.57",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-adm-agent-operator",
+      "name": "netscaler-adm-agent-operator",
+      "version": "141.66.63",
       "channel": "stable"
     },
     {
@@ -6919,6 +6931,12 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.1.0",
+      "channel": "alpha"
+    },
+    {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.19.30",
@@ -6927,7 +6945,7 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.30-beta.2",
+      "version": "8.19.30-beta.3",
       "channel": "beta"
     },
     {
@@ -7552,6 +7570,12 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.29.3",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.29.4",
       "channel": "stable-v1"
     },
     {
@@ -9055,7 +9079,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1509,
+  "count": 1513,
   "source": "opm",
-  "timestamp": "2026-04-04T06:39:08.544611"
+  "timestamp": "2026-04-07T06:41:05.167047"
 }
