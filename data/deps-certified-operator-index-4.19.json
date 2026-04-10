@@ -387,6 +387,9 @@
       "cilium-enterprise",
       "clife"
     ],
+    "intersight.cisco.com/v1/CiscoIntersight": [
+      "cisco-intersight"
+    ],
     "postgresql.k8s.enterprisedb.io/v1/Backup": [
       "cloud-native-postgresql"
     ],
@@ -578,6 +581,57 @@
     ],
     "coroot.com/v1/Coroot": [
       "coroot-operator"
+    ],
+    "couchbase.com/v2/CouchbaseAutoscaler": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBackup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBackupRestore": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCluster": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCollection": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCollectionGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseEphemeralBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseMemcachedBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseMigrationReplication": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseReplication": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseRoleBinding": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseScope": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseScopeGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseUser": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseEncryptionKey": [
+      "couchbase-enterprise-certified"
     ],
     "flink.apache.org/v1beta1/FlinkDeployment": [
       "cp-fko"
@@ -1262,6 +1316,9 @@
     ],
     "mediation.turbonomic.ibm.com/v1alpha1/OpenstackProbe": [
       "mediation-openstack-operator"
+    ],
+    "charts.quay.io/v1alpha1/Directpv": [
+      "minio-directpv"
     ],
     "minkms.min.io/v1alpha1/MinKMS": [
       "minio-minkms-operator"
@@ -2309,5 +2366,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-07T06:46:57.686746"
+  "timestamp": "2026-04-10T06:46:55.471838"
 }

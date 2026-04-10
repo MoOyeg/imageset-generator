@@ -282,6 +282,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.7.10",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.7.2",
       "channel": "4.7"
     },
@@ -400,7 +423,36 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.8.6",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.0.0",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.1",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -737,6 +789,16 @@
       "package": "appian-operator",
       "name": "appian-operator",
       "version": "0.184.0",
+      "keywords": [
+        "Appian"
+      ],
+      "description": "The Appian operator facilitates managing instances of Appian on Kubernetes.",
+      "channel": "alpha"
+    },
+    {
+      "package": "appian-operator",
+      "name": "appian-operator",
+      "version": "0.200.0",
       "keywords": [
         "Appian"
       ],
@@ -1644,6 +1706,19 @@
       "channel": "1.13"
     },
     {
+      "package": "cisco-intersight",
+      "name": "cisco-intersight",
+      "version": "1.0.0",
+      "keywords": [
+        "Cisco",
+        "Intersight",
+        "ConsolePlugin",
+        "UCS"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "clife",
       "name": "clife",
       "version": "0.0.1",
@@ -2073,6 +2148,22 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.25.7",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.25"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.26.0",
       "keywords": [
         "postgresql",
@@ -2265,6 +2356,22 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.27.4",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.27"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.28.0",
       "keywords": [
         "postgresql",
@@ -2329,6 +2436,38 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.28.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.29.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.29.0-rc1",
       "keywords": [
         "postgresql",
@@ -2364,10 +2503,6 @@
       "package": "cloudcasa-operator",
       "name": "cloudcasa-operator",
       "version": "4.1.0",
-      "keywords": [
-        "storage"
-      ],
-      "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
       "channel": "alpha"
     },
     {
@@ -2379,6 +2514,16 @@
       ],
       "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
       "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.1.2",
+      "keywords": [
+        "storage"
+      ],
+      "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
+      "channel": "stable"
     },
     {
       "package": "cloudera-streams-messaging-kubernetes-operator",
@@ -3832,6 +3977,12 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.24.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.25.0",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -4302,7 +4453,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.3",
+      "version": "26.1.0",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -4503,7 +4654,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.3.3",
+      "version": "26.1.0",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -5047,16 +5198,6 @@
       "package": "elasticsearch-eck-operator-certified",
       "name": "elasticsearch-eck-operator-certified",
       "version": "3.3.1",
-      "keywords": [
-        "elasticsearch",
-        "kibana",
-        "analytics",
-        "search",
-        "database",
-        "apm",
-        "logstash"
-      ],
-      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server and Logstash on Kubernetes and OpenShift",
       "channel": "stable"
     },
     {
@@ -5269,15 +5410,6 @@
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
       "version": "8.2.0",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "Fujitsu",
-        "fep"
-      ],
-      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
       "channel": "stable"
     },
     {
@@ -5329,20 +5461,18 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.10.0",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.10.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.10.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -5357,14 +5487,6 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.9.2",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
@@ -5407,6 +5529,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.46.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.47.0",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -5420,7 +5548,7 @@
     {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
-      "version": "1.47.0",
+      "version": "1.47.1",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -6665,30 +6793,12 @@
       "package": "infinibox-operator-certified",
       "name": "infinibox-operator-certified",
       "version": "2.25.0",
-      "keywords": [
-        "csi",
-        "nas",
-        "san",
-        "storage",
-        "infinidat",
-        "infinibox"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
       "package": "infinibox-operator-certified",
       "name": "infinibox-operator-certified",
       "version": "2.26.0",
-      "keywords": [
-        "csi",
-        "nas",
-        "san",
-        "storage",
-        "infinidat",
-        "infinibox"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
@@ -9221,6 +9331,21 @@
       "channel": "stable"
     },
     {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "26.3.2",
+      "keywords": [
+        "mariadb",
+        "mysql",
+        "database",
+        "operator",
+        "mariadb-enterprise-operator",
+        "database"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "marketplace-games-operator",
       "name": "marketplace-games-operator",
       "version": "1.0.0",
@@ -9259,25 +9384,7 @@
     {
       "package": "minio-directpv",
       "name": "minio-directpv",
-      "version": "2025.12.16150624",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-directpv",
-      "name": "minio-directpv",
-      "version": "2025.12.16190343",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-directpv",
-      "name": "minio-directpv",
-      "version": "2025.12.17013747",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-directpv",
-      "name": "minio-directpv",
-      "version": "2025.12.18155725",
+      "version": "2026.4.9130438",
       "keywords": [
         "directpv",
         "storage",
@@ -9285,12 +9392,6 @@
         "minio"
       ],
       "description": "",
-      "channel": "stable"
-    },
-    {
-      "package": "minio-directpv",
-      "name": "minio-directpv",
-      "version": "5.0.7",
       "channel": "stable"
     },
     {
@@ -9914,12 +10015,6 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.7.0",
-      "keywords": [
-        "mongodb",
-        "databases",
-        "nosql"
-      ],
-      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
@@ -9937,7 +10032,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.5",
+      "version": "0.0.6",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -9991,18 +10086,6 @@
       "package": "netscaler-adm-agent-operator",
       "name": "netscaler-adm-agent-operator",
       "version": "141.60.57",
-      "keywords": [
-        "Ingress",
-        "NetScaler",
-        "ADC",
-        "Kubernetes",
-        "OpenShift",
-        "Citrix",
-        "Controller",
-        "Observability",
-        "Metrices"
-      ],
-      "description": "This is an operator to deploy container-based NetScaler Console agent to manage NetScaler CPX with NetScaler Console for management and monitoring.",
       "channel": "stable"
     },
     {
@@ -10309,30 +10392,12 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.4.4",
-      "keywords": [
-        "nginx",
-        "ingress-controller",
-        "ingress",
-        "controller",
-        "kubernetes",
-        "openshift"
-      ],
-      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
       "channel": "alpha"
     },
     {
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.5.0",
-      "keywords": [
-        "nginx",
-        "ingress-controller",
-        "ingress",
-        "controller",
-        "kubernetes",
-        "openshift"
-      ],
-      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
       "channel": "alpha"
     },
     {
@@ -10387,6 +10452,12 @@
       "channel": "stable"
     },
     {
+      "package": "nim-operator-certified",
+      "name": "nim-operator-certified",
+      "version": "3.0.2",
+      "channel": "stable"
+    },
+    {
       "package": "nspc-operator",
       "name": "nspc-operator",
       "version": "1.17.3",
@@ -10423,14 +10494,6 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.6.0",
-      "keywords": [
-        "Nutanix",
-        "CSI",
-        "Volumes",
-        "Files",
-        "Storage"
-      ],
-      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
       "channel": "stable-3.x"
     },
     {
@@ -10950,15 +11013,6 @@
       "package": "percona-postgresql-operator-certified",
       "name": "percona-postgresql-operator-certified",
       "version": "2.8.2",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "operator",
-        "percona"
-      ],
-      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
       "channel": "stable"
     },
     {
@@ -10990,6 +11044,21 @@
       ],
       "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
       "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "2.9.0-cw",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable-cw"
     },
     {
       "package": "percona-server-mongodb-operator-certified",
@@ -11960,6 +12029,18 @@
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
       "version": "0.3.1",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.3.3",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.3.4",
       "keywords": [
         "rebellions",
         "ai",
@@ -13123,6 +13204,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.29.6",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -13195,15 +13289,6 @@
       "package": "splunk-operator",
       "name": "splunk-operator",
       "version": "3.0.0",
-      "keywords": [
-        "Splunk",
-        "Enterprise",
-        "Operator",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "The Splunk Operator for Kubernetes enables you to quickly and easily deploy Splunk Enterprise on your choice of private or public cloud provider. The Operator simplifies scaling and management of Splunk Enterprise by automating administrative workflows using Kubernetes best practices.",
       "channel": "stable"
     },
     {
@@ -15188,12 +15273,6 @@
       "package": "vfunction-server-operator",
       "name": "vfunction-server-operator",
       "version": "4.5.1961",
-      "keywords": [
-        "vfunction",
-        "analyzing",
-        "services"
-      ],
-      "description": "vFunction is a cutting-edge code analysis, machine learning, and automation to boost your Java modernization projects.",
       "channel": "stable"
     },
     {
@@ -15212,6 +15291,12 @@
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.68.2",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.3",
       "keywords": [
         "monitoring",
         "prometheus",
@@ -15223,7 +15308,7 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
-      "version": "0.68.3",
+      "version": "0.68.4",
       "keywords": [
         "monitoring",
         "prometheus",
@@ -15372,7 +15457,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1461,
+  "count": 1477,
   "source": "opm",
-  "timestamp": "2026-04-07T06:44:56.115650"
+  "timestamp": "2026-04-10T06:45:20.851566"
 }

@@ -258,6 +258,9 @@
     "cluster.appdynamics.com/v1alpha1/InfraViz": [
       "appdynamics-operator"
     ],
+    "crd.k8s.appian.com/v1beta1/Appian": [
+      "appian-operator"
+    ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
     ],
@@ -311,6 +314,9 @@
     ],
     "cilium.io/v1alpha1/CiliumConfig": [
       "cilium-enterprise"
+    ],
+    "intersight.cisco.com/v1/CiscoIntersight": [
+      "cisco-intersight"
     ],
     "postgresql.k8s.enterprisedb.io/v1/Backup": [
       "cloud-native-postgresql"
@@ -1839,5 +1845,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-07T06:49:52.016846"
+  "timestamp": "2026-04-10T06:49:59.765544"
 }

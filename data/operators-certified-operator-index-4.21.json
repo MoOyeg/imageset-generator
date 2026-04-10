@@ -196,6 +196,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.7.10",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.7.2",
       "channel": "4.7"
     },
@@ -314,7 +337,56 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.8.6",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.0.0",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.1",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -542,6 +614,36 @@
         "AppDynamics K8s Monitoring"
       ],
       "description": "AppDynamics Operator to install AppDynamics Cluster Agent & AppDynamics Machine Agent for K8s Monitoring for various Cloud Providers like EKS, AKS etc.",
+      "channel": "alpha"
+    },
+    {
+      "package": "appian-operator",
+      "name": "appian-operator",
+      "version": "0.171.0",
+      "keywords": [
+        "Appian"
+      ],
+      "description": "The Appian operator facilitates managing instances of Appian on Kubernetes.",
+      "channel": "alpha"
+    },
+    {
+      "package": "appian-operator",
+      "name": "appian-operator",
+      "version": "0.184.0",
+      "keywords": [
+        "Appian"
+      ],
+      "description": "The Appian operator facilitates managing instances of Appian on Kubernetes.",
+      "channel": "alpha"
+    },
+    {
+      "package": "appian-operator",
+      "name": "appian-operator",
+      "version": "0.200.0",
+      "keywords": [
+        "Appian"
+      ],
+      "description": "The Appian operator facilitates managing instances of Appian on Kubernetes.",
       "channel": "alpha"
     },
     {
@@ -1111,6 +1213,19 @@
       "channel": "1.13"
     },
     {
+      "package": "cisco-intersight",
+      "name": "cisco-intersight",
+      "version": "1.0.0",
+      "keywords": [
+        "Cisco",
+        "Intersight",
+        "ConsolePlugin",
+        "UCS"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
       "version": "1.25.0",
@@ -1210,6 +1325,22 @@
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
       "version": "1.25.6",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.25"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.25.7",
       "keywords": [
         "postgresql",
         "postgres",
@@ -1417,6 +1548,22 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.27.4",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.27"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.28.0",
       "keywords": [
         "postgresql",
@@ -1481,6 +1628,38 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.28.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.29.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.29.0-rc1",
       "keywords": [
         "postgresql",
@@ -1513,6 +1692,16 @@
       ],
       "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
       "channel": "alpha"
+    },
+    {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.1.2",
+      "keywords": [
+        "storage"
+      ],
+      "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
+      "channel": "stable"
     },
     {
       "package": "cloudera-streams-messaging-kubernetes-operator",
@@ -2679,6 +2868,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.25.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.3.0",
       "channel": "stable"
     },
@@ -3385,6 +3587,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.10.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.10.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -6488,7 +6704,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.5",
+      "version": "0.0.6",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -6829,7 +7045,7 @@
     {
       "package": "nginx-gateway-fabric",
       "name": "nginx-gateway-fabric",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "keywords": [
         "nginx",
         "gateway",
@@ -7301,6 +7517,21 @@
       ],
       "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
       "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "2.9.0-cw",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable-cw"
     },
     {
       "package": "percona-server-mongodb-operator-certified",
@@ -9166,6 +9397,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.4",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "xspc-operator",
       "name": "xspc-operator",
       "version": "1.17.3",
@@ -9261,7 +9504,7 @@
       "channel": "lts"
     }
   ],
-  "count": 895,
+  "count": 911,
   "source": "opm",
-  "timestamp": "2026-04-07T06:49:51.664452"
+  "timestamp": "2026-04-10T06:49:59.368301"
 }

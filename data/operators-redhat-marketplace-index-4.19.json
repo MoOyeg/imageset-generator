@@ -318,6 +318,104 @@
       "channel": "beta"
     },
     {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.6.4-7",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.6.4"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.7.0-5",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.7.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.7.1-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.7.1"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.8.0-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.8.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.8.0-2",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.8.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.8.1-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.8.1"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.0-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.0"
+    },
+    {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
       "version": "1.0.4",
@@ -542,6 +640,19 @@
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
       "version": "1.24.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
+      "version": "1.25.0",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -3237,7 +3348,7 @@
       "channel": "lts"
     }
   ],
-  "count": 256,
+  "count": 264,
   "source": "opm",
-  "timestamp": "2026-04-07T06:47:35.828659"
+  "timestamp": "2026-04-10T06:47:38.513140"
 }

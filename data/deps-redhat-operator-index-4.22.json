@@ -1164,6 +1164,15 @@
     "servicebinding.io/v1beta1/ServiceBinding": [
       "rh-service-binding-operator"
     ],
+    "platform.stackrox.io/v1alpha1/Central": [
+      "rhacs-operator"
+    ],
+    "platform.stackrox.io/v1alpha1/SecuredCluster": [
+      "rhacs-operator"
+    ],
+    "config.stackrox.io/v1alpha1/SecurityPolicy": [
+      "rhacs-operator"
+    ],
     "keycloak.org/v1alpha1/Keycloak": [
       "rhsso-operator"
     ],
@@ -1486,5 +1495,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-07T06:50:49.236313"
+  "timestamp": "2026-04-10T06:51:06.537708"
 }

@@ -11491,6 +11491,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
       "package": "aerospike-kubernetes-operator",
       "name": "aerospike-kubernetes-operator",
       "version": "2.1.0",
@@ -14481,6 +14487,12 @@
     {
       "package": "datadog-operator",
       "name": "datadog-operator",
+      "version": "1.25.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
       "version": "1.3.0",
       "channel": "stable"
     },
@@ -16651,6 +16663,12 @@
       "channel": "stable"
     },
     {
+      "package": "flux-operator",
+      "name": "flux-operator",
+      "version": "0.46.0",
+      "channel": "stable"
+    },
+    {
       "package": "fossul-operator",
       "name": "fossul-operator",
       "version": "0.1.0",
@@ -16935,6 +16953,12 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.10.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -17140,6 +17164,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.47.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.47.1",
       "channel": "stable"
     },
     {
@@ -18040,6 +18070,12 @@
       "package": "hive-operator",
       "name": "hive-operator",
       "version": "1.2.5151-a6aa930",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
+      "version": "1.2.5177-a325b87",
       "channel": "alpha"
     },
     {
@@ -19756,6 +19792,18 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.5.6",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.5.7",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.6.0",
       "channel": "fast"
     },
     {
@@ -25017,6 +25065,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.15.4",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.16.0",
       "channel": "stable-3.16"
     },
@@ -25042,6 +25096,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.17.0",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.17.1",
       "channel": "stable-3.17"
     },
     {
@@ -26007,24 +26067,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-23",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-24",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-03-25",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-03-26",
       "channel": "1.29-nightly"
     },
@@ -26080,6 +26122,18 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0-nightly-2026-04-07",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-04-08",
+      "channel": "1.29-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.29.0-nightly-2026-04-09",
       "channel": "1.29-nightly"
     },
     {
@@ -28783,6 +28837,12 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.4",
+      "channel": "beta"
+    },
+    {
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "0.0.1",
@@ -29119,7 +29179,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4853,
+  "count": 4863,
   "source": "opm",
-  "timestamp": "2026-04-07T06:41:49.342503"
+  "timestamp": "2026-04-10T06:42:30.220488"
 }

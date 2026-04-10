@@ -1796,6 +1796,17 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1775651671.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -10376,6 +10387,20 @@
     {
       "package": "cluster-logging",
       "name": "cluster-logging",
+      "version": "6.0.14",
+      "keywords": [
+        "logging",
+        "observability",
+        "loki",
+        "vector",
+        "otlp"
+      ],
+      "description": "The Red Hat OpenShift Logging Operator for OCP provides a means for configuring and managing log collection and forwarding.",
+      "channel": "stable-6.0"
+    },
+    {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
       "version": "6.0.2",
       "keywords": [
         "logging",
@@ -11774,6 +11799,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.20",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.3",
       "keywords": [
         "open source",
@@ -12458,6 +12495,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.14.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.15.0",
       "keywords": [
         "open source",
@@ -12567,6 +12616,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.17.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.17.1",
       "keywords": [
         "open source",
         "containers",
@@ -13227,6 +13288,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.9.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.9.20",
       "keywords": [
         "open source",
         "containers",
@@ -19133,6 +19206,18 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1775139554.p",
+      "keywords": [
+        "api",
+        "apicurio",
+        "apicurito"
+      ],
+      "description": "Manages the installation and upgrades of apicurito, a small/minimal version of Apicurio",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "keywords": [
         "api",
@@ -19734,6 +19819,20 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1773829909.p",
+      "keywords": [
+        "Fuse",
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "The Fuse Console eases the discovery and management of Fuse applications deployed on OpenShift.",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1775139556.p",
       "keywords": [
         "Fuse",
         "Hawtio",
@@ -25161,6 +25260,17 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "6.0.13",
+      "keywords": [
+        "logging",
+        "loki"
+      ],
+      "description": "The Loki Operator for OCP provides a means for configuring and managing a Loki stack for cluster logging.\\n## Prerequisites and Requirements\\n### Loki Operator Namespace\\nThe Loki Operator must be deployed to the global operator group namespace `openshift-operators-redhat`.\\n### Memory Considerations\\nLoki is a memory intensive application.  The initial\\nset of OCP nodes may not be large enough to support the Loki stack.  Additional OCP nodes must be added\\nto the OCP cluster if you desire to run with the recommended (or better) memory.\\n",
+      "channel": "stable-6.0"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.0.14",
       "keywords": [
         "logging",
         "loki"
@@ -39044,6 +39154,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.20",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "keywords": [
         "registry",
@@ -39728,6 +39850,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.14.7",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.15.0",
       "keywords": [
         "registry",
@@ -39837,6 +39971,18 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.17.0",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.17.1",
       "keywords": [
         "registry",
         "containers",
@@ -40508,6 +40654,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.20",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "keywords": [
         "registry",
@@ -40737,6 +40895,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.10.20",
       "keywords": [
         "open source",
         "containers",
@@ -41432,6 +41602,18 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.14.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.15.0",
       "keywords": [
         "open source",
@@ -41541,6 +41723,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.17.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.17.1",
       "keywords": [
         "open source",
         "containers",
@@ -42081,6 +42275,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.20",
       "keywords": [
         "open source",
         "containers",
@@ -45647,6 +45853,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.1",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.2.0",
       "keywords": [
         "advanced-cluster-security",
@@ -46844,6 +47071,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.8.10",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.8.2",
       "keywords": [
         "advanced-cluster-security",
@@ -47097,6 +47345,27 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.4",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.9.5",
       "keywords": [
         "advanced-cluster-security",
         "stackrox",
@@ -48299,6 +48568,17 @@
       "package": "rhdh",
       "name": "rhdh",
       "version": "1.9.2",
+      "keywords": [
+        "Backstage",
+        "RHDH"
+      ],
+      "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins and configuration settings, supports use of an external database, and can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
+      "channel": "fast"
+    },
+    {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.9.3",
       "keywords": [
         "Backstage",
         "RHDH"
@@ -55707,6 +55987,21 @@
     {
       "package": "skupper-operator",
       "name": "skupper-operator",
+      "version": "1.9.5-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Operator provides the ability to create a service network",
+      "channel": "stable"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
       "version": "2.0.0-rh-11",
       "keywords": [
         "skupper",
@@ -58160,7 +58455,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4219,
+  "count": 4241,
   "source": "opm",
-  "timestamp": "2026-04-07T06:42:52.921598"
+  "timestamp": "2026-04-10T06:43:30.800812"
 }
