@@ -10350,7 +10350,7 @@
     {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
-      "version": "3.84.0-1",
+      "version": "3.90.3-1",
       "keywords": [
         "repository",
         "sonatype"
@@ -10872,6 +10872,17 @@
       "package": "operator-aims-mobile",
       "name": "operator-aims-mobile",
       "version": "0.0.21",
+      "keywords": [
+        "aims mobile",
+        "aims"
+      ],
+      "description": "Este operador despliega los servicios AIMS Mobile.",
+      "channel": "alpha"
+    },
+    {
+      "package": "operator-aims-mobile",
+      "name": "operator-aims-mobile",
+      "version": "0.0.22",
       "keywords": [
         "aims mobile",
         "aims"
@@ -13217,6 +13228,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.29.7",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -15457,7 +15481,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1477,
+  "count": 1479,
   "source": "opm",
-  "timestamp": "2026-04-10T06:45:20.851566"
+  "timestamp": "2026-04-13T06:44:21.330070"
 }

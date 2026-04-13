@@ -555,6 +555,9 @@
     "fileintegrity.openshift.io/v1alpha1/FileIntegrityNodeStatus": [
       "file-integrity-operator"
     ],
+    "operator.openshift.io/v1/JobSetOperator": [
+      "job-set"
+    ],
     "web.servers.org/v1alpha1/WebServer": [
       "jws-operator"
     ],
@@ -646,6 +649,9 @@
     ],
     "migrations.kubevirt.io/v1alpha1/MigController": [
       "kubevirt-hyperconverged"
+    ],
+    "operator.openshift.io/v1/LeaderWorkerSetOperator": [
+      "leader-worker-set"
     ],
     "ols.openshift.io/v1alpha1/OLSConfig": [
       "lightspeed-operator"
@@ -1495,5 +1501,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-10T06:51:06.537708"
+  "timestamp": "2026-04-13T06:50:46.398878"
 }

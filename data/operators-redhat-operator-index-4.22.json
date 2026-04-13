@@ -5926,6 +5926,17 @@
       "channel": "stable-4.21"
     },
     {
+      "package": "cephcsi-operator",
+      "name": "cephcsi-operator",
+      "version": "4.21.1-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.21"
+    },
+    {
       "package": "cincinnati-operator",
       "name": "cincinnati-operator",
       "version": "4.9.0",
@@ -11361,6 +11372,17 @@
       "channel": "stable"
     },
     {
+      "package": "job-set",
+      "name": "job-set",
+      "version": "1.0.0",
+      "keywords": [
+        "jobset-operator",
+        "jobset"
+      ],
+      "description": "The JobSet Operator provides the ability to deploy a JobSet controller in OpenShift.\\n",
+      "channel": "stable-v1.0"
+    },
+    {
       "package": "jws-operator",
       "name": "jws-operator",
       "version": "2.0.1",
@@ -13071,6 +13093,16 @@
       "channel": "stable"
     },
     {
+      "package": "leader-worker-set",
+      "name": "leader-worker-set",
+      "version": "1.0.0",
+      "keywords": [
+        "leader-worker-set"
+      ],
+      "description": "",
+      "channel": "stable-v1.0"
+    },
+    {
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
       "version": "1.0.10",
@@ -13306,6 +13338,26 @@
       "package": "mcg-operator",
       "name": "mcg-operator",
       "version": "4.21.0-rhodf",
+      "keywords": [
+        "noobaa",
+        "kubernetes",
+        "openshift",
+        "cloud",
+        "hybrid",
+        "multi",
+        "data",
+        "storage",
+        "s3",
+        "tiering",
+        "mirroring"
+      ],
+      "description": "NooBaa is an object data service for hybrid and multi cloud environments.",
+      "channel": "stable-4.21"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.21.1-rhodf",
       "keywords": [
         "noobaa",
         "kubernetes",
@@ -14551,9 +14603,36 @@
       "channel": "stable-4.21"
     },
     {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
+      "version": "4.21.1-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation client operator enables consumption of storage services from a remote centralized OpenShift Data Foundation provider cluster.",
+      "channel": "stable-4.21"
+    },
+    {
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.21.0-rhodf",
+      "keywords": [
+        "storage",
+        "rook",
+        "ceph",
+        "block storage",
+        "shared filesystem",
+        "object storage"
+      ],
+      "description": "Red Hat OpenShift Container Storage provides hyperconverged storage for applications within an OpenShift cluster.",
+      "channel": "stable-4.21"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.21.1-rhodf",
       "keywords": [
         "storage",
         "rook",
@@ -14577,6 +14656,17 @@
       "channel": "stable-4.21"
     },
     {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
+      "version": "4.21.1-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.21"
+    },
+    {
       "package": "odf-external-snapshotter-operator",
       "name": "odf-external-snapshotter-operator",
       "version": "4.21.0-rhodf",
@@ -14588,9 +14678,34 @@
       "channel": "stable-4.21"
     },
     {
+      "package": "odf-external-snapshotter-operator",
+      "name": "odf-external-snapshotter-operator",
+      "version": "4.21.1-rhodf",
+      "keywords": [
+        "csi",
+        "odf-external-snapshotter-operator"
+      ],
+      "description": "",
+      "channel": "stable-4.21"
+    },
+    {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
       "version": "4.21.0-rhodf",
+      "keywords": [
+        "odf",
+        "multicluster",
+        "orchestrator",
+        "storage",
+        "acm"
+      ],
+      "description": "",
+      "channel": "stable-4.21"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
+      "version": "4.21.1-rhodf",
       "keywords": [
         "odf",
         "multicluster",
@@ -14614,9 +14729,35 @@
       "channel": "stable-4.21"
     },
     {
+      "package": "odf-operator",
+      "name": "odf-operator",
+      "version": "4.21.1-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation provides a common control plane for storage solutions on OpenShift Container Platform.",
+      "channel": "stable-4.21"
+    },
+    {
       "package": "odf-prometheus-operator",
       "name": "odf-prometheus-operator",
       "version": "4.21.0-rhodf",
+      "keywords": [
+        "prometheus",
+        "monitoring",
+        "tsdb",
+        "alerting",
+        "observability"
+      ],
+      "description": "Manage the full lifecycle of configuring and managing Prometheus and Alertmanager servers.",
+      "channel": "stable-4.21"
+    },
+    {
+      "package": "odf-prometheus-operator",
+      "name": "odf-prometheus-operator",
+      "version": "4.21.1-rhodf",
       "keywords": [
         "prometheus",
         "monitoring",
@@ -14640,9 +14781,33 @@
       "channel": "stable-4.21"
     },
     {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
+      "version": "4.21.1-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.21"
+    },
+    {
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.21.0-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.21"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.21.1-rhodf",
       "keywords": [
         "Storage",
         "Integration & Delivery",
@@ -19479,6 +19644,16 @@
       "channel": "stable-4.21"
     },
     {
+      "package": "recipe",
+      "name": "recipe",
+      "version": "4.21.1-rhodf",
+      "keywords": [
+        "recipe"
+      ],
+      "description": "",
+      "channel": "stable-4.21"
+    },
+    {
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "1.0.0",
@@ -23699,6 +23874,22 @@
       "channel": "stable-4.21"
     },
     {
+      "package": "rook-ceph-operator",
+      "name": "rook-ceph-operator",
+      "version": "4.21.1-rhodf",
+      "keywords": [
+        "rook",
+        "ceph",
+        "storage",
+        "object storage",
+        "open source",
+        "block storage",
+        "shared filesystem"
+      ],
+      "description": "",
+      "channel": "stable-4.21"
+    },
+    {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
       "version": "1.0.0",
@@ -27548,7 +27739,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1908,
+  "count": 1923,
   "source": "opm",
-  "timestamp": "2026-04-10T06:51:05.292925"
+  "timestamp": "2026-04-13T06:50:45.116816"
 }

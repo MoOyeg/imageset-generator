@@ -9081,6 +9081,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.7",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.7.9",
       "keywords": [
         "rds",
         "aws",
@@ -20331,12 +20337,6 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.5.7",
-      "keywords": [
-        "Keycloak",
-        "Identity",
-        "Access"
-      ],
-      "description": "An Operator for installing and managing Keycloak",
       "channel": "fast"
     },
     {
@@ -24946,12 +24946,6 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.17.0",
-      "keywords": [
-        "open source",
-        "containers",
-        "registry"
-      ],
-      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.17"
     },
     {
@@ -28539,7 +28533,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4128,
+  "count": 4129,
   "source": "opm",
-  "timestamp": "2026-04-10T06:51:58.096218"
+  "timestamp": "2026-04-13T06:51:20.191643"
 }

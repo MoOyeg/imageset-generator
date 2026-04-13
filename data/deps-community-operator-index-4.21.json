@@ -2486,6 +2486,15 @@
     "app.kiegroup.org/v1beta1/KogitoSupportingService": [
       "kogito-operator"
     ],
+    "koku-metrics-cfg.openshift.io/v1alpha1/KokuMetricsConfig": [
+      "koku-metrics-operator"
+    ],
+    "koku-metrics-cfg.openshift.io/v1beta1/KokuMetricsConfig": [
+      "koku-metrics-operator"
+    ],
+    "costmanagement-metrics-cfg.openshift.io/v1beta1/CostManagementMetricsConfig": [
+      "koku-metrics-operator"
+    ],
     "konflux.konflux-ci.dev/v1alpha1/Konflux": [
       "konflux-operator"
     ],
@@ -3608,6 +3617,9 @@
     "sailoperator.io/v1/ZTunnel": [
       "sailoperator"
     ],
+    "extensions.istio.io/v1alpha1/TrafficExtension": [
+      "sailoperator"
+    ],
     "hybris.hybris.org/v1alpha1/HybrisApp": [
       "sap-commerce-operator"
     ],
@@ -4185,5 +4197,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-10T06:50:22.123987"
+  "timestamp": "2026-04-13T06:50:07.185802"
 }
