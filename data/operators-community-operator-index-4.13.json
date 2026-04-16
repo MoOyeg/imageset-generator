@@ -14301,6 +14301,12 @@
     {
       "package": "dapr-kubernetes-operator",
       "name": "dapr-kubernetes-operator",
+      "version": "0.0.13",
+      "channel": "alpha"
+    },
+    {
+      "package": "dapr-kubernetes-operator",
+      "name": "dapr-kubernetes-operator",
       "version": "0.0.3",
       "channel": "alpha"
     },
@@ -16780,6 +16786,12 @@
       "package": "flux-operator",
       "name": "flux-operator",
       "version": "0.46.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
+      "version": "0.47.0",
       "channel": "stable"
     },
     {
@@ -20299,6 +20311,12 @@
       "channel": "fast"
     },
     {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.6.1",
+      "channel": "fast"
+    },
+    {
       "package": "keycloak-permissions-operator",
       "name": "keycloak-permissions-operator",
       "version": "1.2.0",
@@ -21280,6 +21298,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.9.1",
+      "channel": "konveyor-0.9"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.9.2",
       "channel": "konveyor-0.9"
     },
     {
@@ -24969,6 +24993,12 @@
     {
       "package": "patterns-operator",
       "name": "patterns-operator",
+      "version": "0.0.70",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
       "version": "0.0.8",
       "channel": "fast"
     },
@@ -25455,6 +25485,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.10.20",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -25624,6 +25660,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.15",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.12.16",
       "channel": "stable-3.12"
     },
     {
@@ -26224,6 +26266,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.2",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.9.20",
       "channel": "stable-3.9"
     },
     {
@@ -32901,6 +32949,12 @@
     {
       "package": "vault-config-operator",
       "name": "vault-config-operator",
+      "version": "0.8.46",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
       "version": "0.8.5",
       "channel": "alpha"
     },
@@ -33847,7 +33901,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5641,
+  "count": 5650,
   "source": "opm",
-  "timestamp": "2026-04-13T06:30:37.038867"
+  "timestamp": "2026-04-16T06:31:31.348628"
 }

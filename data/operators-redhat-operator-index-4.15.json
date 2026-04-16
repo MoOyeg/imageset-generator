@@ -351,6 +351,12 @@
     {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
+      "version": "2.13.6",
+      "channel": "release-2.13"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
       "version": "2.9.0",
       "channel": "release-2.9"
     },
@@ -1047,7 +1053,19 @@
     {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1775649637.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
       "version": "7.13.4-opr-1+0.1775651671.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1776062112.p",
       "channel": "7.13.x"
     },
     {
@@ -2899,6 +2917,12 @@
       "channel": "3.x"
     },
     {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.1.6-r3",
+      "channel": "3.x"
+    },
+    {
       "package": "authorino-operator",
       "name": "authorino-operator",
       "version": "1.0.1",
@@ -3358,6 +3382,12 @@
       "package": "bamoe-businessautomation-operator",
       "name": "bamoe-businessautomation-operator",
       "version": "8.0.8-1",
+      "channel": "8.x-stable"
+    },
+    {
+      "package": "bamoe-businessautomation-operator",
+      "name": "bamoe-businessautomation-operator",
+      "version": "8.0.9-1",
       "channel": "8.x-stable"
     },
     {
@@ -6451,6 +6481,12 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.1",
+      "channel": "stable"
+    },
+    {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.5",
@@ -7198,6 +7234,12 @@
       "package": "eap",
       "name": "eap",
       "version": "3.2.13",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
+      "version": "3.2.14",
       "channel": "stable"
     },
     {
@@ -7965,6 +8007,18 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1775735859.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
+      "version": "7.13.0+0.1776065698.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "channel": "fuse-apicurito-7.10.x"
     },
@@ -8230,6 +8284,12 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1775139556.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1776065698.p",
       "channel": "7.13.x"
     },
     {
@@ -12904,6 +12964,12 @@
       "package": "multicluster-engine",
       "name": "multicluster-engine",
       "version": "2.8.4",
+      "channel": "stable-2.8"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
+      "version": "2.8.5",
       "channel": "stable-2.8"
     },
     {
@@ -19765,6 +19831,12 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "1.3.1",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.0",
@@ -21922,6 +21994,12 @@
       "package": "rhsso-operator",
       "name": "rhsso-operator",
       "version": "7.6.12-opr-007",
+      "channel": "stable"
+    },
+    {
+      "package": "rhsso-operator",
+      "name": "rhsso-operator",
+      "version": "7.6.12-opr-008",
       "channel": "stable"
     },
     {
@@ -24889,7 +24967,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4148,
+  "count": 4161,
   "source": "opm",
-  "timestamp": "2026-04-13T06:36:04.755518"
+  "timestamp": "2026-04-16T06:36:51.213877"
 }

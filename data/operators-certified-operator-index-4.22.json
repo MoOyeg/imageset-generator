@@ -1379,6 +1379,20 @@
       "channel": "stable"
     },
     {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.13.0-cp3",
+      "keywords": [
+        "Confluent",
+        "Flink",
+        "Kubernetes",
+        "Operator",
+        "FKO"
+      ],
+      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
+      "channel": "stable"
+    },
+    {
       "package": "cte-k8s-operator",
       "name": "cte-k8s-operator",
       "version": "1.7.8",
@@ -2088,6 +2102,17 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.12.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.12.1",
       "keywords": [
         "security",
         "runtime-protection"
@@ -3146,6 +3171,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.10",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -3177,6 +3214,18 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.8",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.9",
       "keywords": [
         "monitoring",
         "APM",
@@ -3408,7 +3457,17 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.2",
+      "version": "8.19.40",
+      "keywords": [
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "mediation-openstack-operator",
+      "name": "mediation-openstack-operator",
+      "version": "8.19.40-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -3848,7 +3907,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -4923,6 +4982,18 @@
       "channel": "release-1.6"
     },
     {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.7.0",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.7"
+    },
+    {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.20.1",
@@ -5462,7 +5533,7 @@
       "channel": "lts"
     }
   ],
-  "count": 632,
+  "count": 638,
   "source": "opm",
-  "timestamp": "2026-04-13T06:51:02.437930"
+  "timestamp": "2026-04-16T06:50:46.536148"
 }

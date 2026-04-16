@@ -12979,6 +12979,20 @@
     {
       "package": "camel-k",
       "name": "camel-k",
+      "version": "2.10.0",
+      "keywords": [
+        "apache",
+        "kamel",
+        "kubernetes",
+        "serverless",
+        "microservices"
+      ],
+      "description": "Apache Camel K is a lightweight integration platform, born on Kubernetes, with serverless superpowers.",
+      "channel": "latest"
+    },
+    {
+      "package": "camel-k",
+      "name": "camel-k",
       "version": "2.2.0",
       "channel": "latest"
     },
@@ -13052,14 +13066,6 @@
       "package": "camel-k",
       "name": "camel-k",
       "version": "2.9.1",
-      "keywords": [
-        "apache",
-        "kamel",
-        "kubernetes",
-        "serverless",
-        "microservices"
-      ],
-      "description": "Apache Camel K is a lightweight integration platform, born on Kubernetes, with serverless superpowers.",
       "channel": "latest"
     },
     {
@@ -14335,6 +14341,12 @@
       "package": "dapr-kubernetes-operator",
       "name": "dapr-kubernetes-operator",
       "version": "0.0.12",
+      "channel": "alpha"
+    },
+    {
+      "package": "dapr-kubernetes-operator",
+      "name": "dapr-kubernetes-operator",
+      "version": "0.0.13",
       "keywords": [
         "dapr"
       ],
@@ -14975,6 +14987,12 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.9.0",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -20352,6 +20370,18 @@
       "channel": "fast"
     },
     {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.6.1",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "fast"
+    },
+    {
       "package": "keycloak-permissions-operator",
       "name": "keycloak-permissions-operator",
       "version": "1.2.0",
@@ -21244,6 +21274,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.9.1",
+      "channel": "konveyor-0.9"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.9.2",
       "keywords": [
         "modernization",
         "migration",
@@ -24508,18 +24544,24 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.19",
-      "keywords": [
-        "open source",
-        "containers",
-        "registry"
-      ],
-      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.2",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.10.20",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
@@ -24700,6 +24742,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.15",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.12.16",
       "keywords": [
         "open source",
         "containers",
@@ -25361,18 +25409,24 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.19",
-      "keywords": [
-        "open source",
-        "containers",
-        "registry"
-      ],
-      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.2",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.9.20",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
@@ -27953,6 +28007,18 @@
       "package": "vault-config-operator",
       "name": "vault-config-operator",
       "version": "0.8.38",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
+      "version": "0.8.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
+      "version": "0.8.46",
       "keywords": [
         "security",
         "secrets",
@@ -27961,12 +28027,6 @@
         "credentials"
       ],
       "description": "This operator provides primitives to declaratively configure Hashicorp Vault.",
-      "channel": "alpha"
-    },
-    {
-      "package": "vault-config-operator",
-      "name": "vault-config-operator",
-      "version": "0.8.4",
       "channel": "alpha"
     },
     {
@@ -28533,7 +28593,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4129,
+  "count": 4138,
   "source": "opm",
-  "timestamp": "2026-04-13T06:51:20.191643"
+  "timestamp": "2026-04-16T06:51:04.734770"
 }

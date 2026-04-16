@@ -389,6 +389,20 @@
     {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
+      "version": "2.13.6",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.13"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
       "version": "2.14.0",
       "keywords": [
         "acm",
@@ -1628,7 +1642,29 @@
     {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1775649637.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
       "version": "7.13.4-opr-1+0.1775651671.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.13.4-opr-1+0.1776062112.p",
       "keywords": [
         "activemqartemis",
         "operator"
@@ -6416,6 +6452,23 @@
       "channel": "3.x"
     },
     {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.1.6-r3",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Red Hat build of Apicurio Registry 3 on OpenShift.",
+      "channel": "3.x"
+    },
+    {
       "package": "authorino-operator",
       "name": "authorino-operator",
       "version": "0.16.0",
@@ -7382,6 +7435,24 @@
       "package": "bamoe-businessautomation-operator",
       "name": "bamoe-businessautomation-operator",
       "version": "8.0.8-1",
+      "keywords": [
+        "kieapp",
+        "pam",
+        "decision",
+        "kie",
+        "cloud",
+        "bpm",
+        "process",
+        "automation",
+        "operator"
+      ],
+      "description": "Deploys and manages IBM Business Automation Manager Open Editions environment.",
+      "channel": "8.x-stable"
+    },
+    {
+      "package": "bamoe-businessautomation-operator",
+      "name": "bamoe-businessautomation-operator",
+      "version": "8.0.9-1",
       "keywords": [
         "kieapp",
         "pam",
@@ -14129,6 +14200,20 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.1",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.5",
@@ -16220,6 +16305,19 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.14",
+      "keywords": [
+        "eap",
+        "java",
+        "open source",
+        "application runtime"
+      ],
+      "description": "Operator that creates and manages Java applications running on JBoss EAP.",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.2",
       "keywords": [
         "eap",
@@ -17774,6 +17872,30 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1775735859.p",
+      "keywords": [
+        "api",
+        "apicurio",
+        "apicurito"
+      ],
+      "description": "Manages the installation and upgrades of apicurito, a small/minimal version of Apicurio",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
+      "version": "7.13.0+0.1776065698.p",
+      "keywords": [
+        "api",
+        "apicurio",
+        "apicurito"
+      ],
+      "description": "Manages the installation and upgrades of apicurito, a small/minimal version of Apicurio",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "keywords": [
         "api",
@@ -18389,6 +18511,20 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1775139556.p",
+      "keywords": [
+        "Fuse",
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "The Fuse Console eases the discovery and management of Fuse applications deployed on OpenShift.",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1776065698.p",
       "keywords": [
         "Fuse",
         "Hawtio",
@@ -22478,6 +22614,23 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.18.32",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.18.4",
       "keywords": [
         "KubeVirt",
@@ -22711,6 +22864,19 @@
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
       "version": "1.0.10",
+      "keywords": [
+        "ai",
+        "assistant",
+        "openshift",
+        "llm"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "lightspeed-operator",
+      "name": "lightspeed-operator",
+      "version": "1.0.11",
       "keywords": [
         "ai",
         "assistant",
@@ -26570,6 +26736,18 @@
       "package": "multicluster-engine",
       "name": "multicluster-engine",
       "version": "2.8.4",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.8"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
+      "version": "2.8.5",
       "keywords": [
         "mce",
         "multicluster-engine",
@@ -40633,6 +40811,19 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "1.3.1",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.15",
@@ -47547,6 +47738,18 @@
     {
       "package": "rhsso-operator",
       "name": "rhsso-operator",
+      "version": "7.6.12-opr-008",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Red Hat Single Sign-On",
+      "channel": "stable"
+    },
+    {
+      "package": "rhsso-operator",
+      "name": "rhsso-operator",
       "version": "7.6.2-opr-001",
       "keywords": [
         "Keycloak",
@@ -53437,6 +53640,32 @@
       "channel": "stable-0.22"
     },
     {
+      "package": "submariner",
+      "name": "submariner",
+      "version": "0.22.1",
+      "keywords": [
+        "multi-cluster",
+        "ipsec",
+        "tunnel",
+        "submariner-operator"
+      ],
+      "description": "Creates and manages Submariner deployments.",
+      "channel": "stable-0.22"
+    },
+    {
+      "package": "submariner",
+      "name": "submariner",
+      "version": "0.23.1",
+      "keywords": [
+        "multi-cluster",
+        "ipsec",
+        "tunnel",
+        "submariner-operator"
+      ],
+      "description": "Creates and manages Submariner deployments.",
+      "channel": "stable-0.23"
+    },
+    {
       "package": "tang-operator",
       "name": "tang-operator",
       "version": "1.0.0",
@@ -53903,6 +54132,18 @@
       "package": "trustee-operator",
       "name": "trustee-operator",
       "version": "1.0.0",
+      "keywords": [
+        "trustee",
+        "Confidential Computing",
+        "Attestation"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "trustee-operator",
+      "name": "trustee-operator",
+      "version": "1.1.0",
       "keywords": [
         "trustee",
         "Confidential Computing",
@@ -55061,7 +55302,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3984,
+  "count": 4002,
   "source": "opm",
-  "timestamp": "2026-04-13T06:43:47.267748"
+  "timestamp": "2026-04-16T06:44:15.133717"
 }

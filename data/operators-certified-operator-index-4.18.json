@@ -3356,6 +3356,20 @@
       "channel": "stable"
     },
     {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.13.0-cp3",
+      "keywords": [
+        "Confluent",
+        "Flink",
+        "Kubernetes",
+        "Operator",
+        "FKO"
+      ],
+      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
+      "channel": "stable"
+    },
+    {
       "package": "cpd-platform-operator",
       "name": "cpd-platform-operator",
       "version": "6.1.3",
@@ -4604,6 +4618,20 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
+      "version": "25.1.10-1",
+      "keywords": [
+        "digitalai-release-operator",
+        "digitalai",
+        "digital.ai",
+        "release",
+        "devops"
+      ],
+      "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
       "version": "25.1.2",
       "channel": "stable-v25.1"
     },
@@ -5247,7 +5275,7 @@
     {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "keywords": [
         "ai",
         "security",
@@ -5327,6 +5355,17 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.12.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.12.1",
       "keywords": [
         "security",
         "runtime-protection"
@@ -6244,6 +6283,18 @@
       "channel": "1.23"
     },
     {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.24.0-1007",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.24"
+    },
+    {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
       "version": "0.3.0",
@@ -6512,6 +6563,18 @@
       "package": "ibm-block-csi-operator",
       "name": "ibm-block-csi-operator",
       "version": "1.13.0",
+      "keywords": [
+        "IBM",
+        "BlockStorage",
+        "CSI"
+      ],
+      "description": "Run IBM block storage CSI driver on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-block-csi-operator",
+      "name": "ibm-block-csi-operator",
+      "version": "1.13.1",
       "keywords": [
         "IBM",
         "BlockStorage",
@@ -7634,6 +7697,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.10",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -7665,6 +7740,18 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.8",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.9",
       "keywords": [
         "monitoring",
         "APM",
@@ -9363,7 +9450,17 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.2",
+      "version": "8.19.40",
+      "keywords": [
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "mediation-openstack-operator",
+      "name": "mediation-openstack-operator",
+      "version": "8.19.40-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -10032,7 +10129,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -12288,6 +12385,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-14.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-2.2",
       "channel": "7.22.0"
     },
@@ -13191,6 +13302,19 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.29.10",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.29.3",
       "keywords": [
         "vertical scaling",
@@ -13231,6 +13355,19 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.29.7",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.29.8",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -14290,6 +14427,18 @@
       "channel": "release-1.6"
     },
     {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.7.0",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.7"
+    },
+    {
       "package": "tigera-operator",
       "name": "tigera-operator",
       "version": "1.20.1",
@@ -14762,16 +14911,6 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2025.11.4-6",
-      "keywords": [
-        "uma-admin-operator"
-      ],
-      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
-      "channel": "alpha"
-    },
-    {
-      "package": "uma-admin-operator",
-      "name": "uma-admin-operator",
       "version": "2025.4.5-5",
       "keywords": [
         "uma-admin-operator"
@@ -14850,6 +14989,16 @@
       "channel": "2026.3"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.4.0-15",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "alpha"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2025.10.1-12",
@@ -14868,16 +15017,6 @@
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "2025.11"
-    },
-    {
-      "package": "uma-operator",
-      "name": "uma-operator",
-      "version": "2025.11.4-3",
-      "keywords": [
-        "uma-operator"
-      ],
-      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
-      "channel": "alpha"
     },
     {
       "package": "uma-operator",
@@ -14960,6 +15099,16 @@
       "channel": "2026.3"
     },
     {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.4.0-15",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "alpha"
+    },
+    {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
       "version": "2025.10.1-12",
@@ -14980,17 +15129,6 @@
       ],
       "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "2025.11"
-    },
-    {
-      "package": "uma-team-operator",
-      "name": "uma-team-operator",
-      "version": "2025.11.4-3",
-      "keywords": [
-        "uma-team-operator",
-        "uma-operator"
-      ],
-      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
-      "channel": "alpha"
     },
     {
       "package": "uma-team-operator",
@@ -15079,6 +15217,16 @@
       ],
       "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "2026.3"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.4.0-15",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "alpha"
     },
     {
       "package": "vast-csi-operator",
@@ -15312,6 +15460,18 @@
       "channel": "stable"
     },
     {
+      "package": "vfunction-server-operator",
+      "name": "vfunction-server-operator",
+      "version": "4.6.2007",
+      "keywords": [
+        "vfunction",
+        "analyzing",
+        "services"
+      ],
+      "description": "vFunction is a cutting-edge code analysis, machine learning, and automation to boost your Java modernization projects.",
+      "channel": "stable"
+    },
+    {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.68.2",
@@ -15481,7 +15641,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1479,
+  "count": 1492,
   "source": "opm",
-  "timestamp": "2026-04-13T06:44:21.330070"
+  "timestamp": "2026-04-16T06:44:36.271698"
 }

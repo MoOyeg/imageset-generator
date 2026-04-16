@@ -607,6 +607,9 @@
     "secscan.quay.redhat.com/v1alpha1/ImageManifestVuln": [
       "container-security-operator"
     ],
+    "costmanagement-metrics-cfg.openshift.io/v1beta1/CostManagementMetricsConfig": [
+      "costmanagement-metrics-operator"
+    ],
     "operator.cryostat.io/v1beta1/Cryostat": [
       "cryostat-operator"
     ],
@@ -1160,6 +1163,15 @@
       "o-cloud-manager"
     ],
     "plugins.clcm.openshift.io/v1alpha1/NodeAllocationRequest": [
+      "o-cloud-manager"
+    ],
+    "ocloud.openshift.io/v1alpha1/Location": [
+      "o-cloud-manager"
+    ],
+    "ocloud.openshift.io/v1alpha1/OCloudSite": [
+      "o-cloud-manager"
+    ],
+    "ocloud.openshift.io/v1alpha1/ResourcePool": [
       "o-cloud-manager"
     ],
     "ocs.openshift.io/v1alpha1/StorageClient": [
@@ -2191,6 +2203,15 @@
     "medik8s.medik8s.io/v1alpha1/StorageBasedRemediationTemplate": [
       "storage-based-remediation"
     ],
+    "submariner.io/v1alpha1/Broker": [
+      "submariner"
+    ],
+    "submariner.io/v1alpha1/ServiceDiscovery": [
+      "submariner"
+    ],
+    "submariner.io/v1alpha1/Submariner": [
+      "submariner"
+    ],
     "operator.openshift.io/v1alpha1/MustGather": [
       "support-log-gather-operator"
     ],
@@ -2211,6 +2232,12 @@
     ],
     "ran.openshift.io/v1alpha1/PreCachingConfig": [
       "topology-aware-lifecycle-manager"
+    ],
+    "confidentialcontainers.org/v1alpha1/KbsConfig": [
+      "trustee-operator"
+    ],
+    "confidentialcontainers.org/v1alpha1/TrusteeConfig": [
+      "trustee-operator"
     ],
     "autoscaling.k8s.io/v1/VerticalPodAutoscaler": [
       "vertical-pod-autoscaler"
@@ -2234,5 +2261,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-13T06:49:16.138128"
+  "timestamp": "2026-04-16T06:48:57.487986"
 }

@@ -2348,6 +2348,15 @@
     "hyperfoil.io/v1alpha2/Hyperfoil": [
       "hyperfoil-bundle"
     ],
+    "csi.ibm.com/v1/HostDefiner": [
+      "ibm-block-csi-operator-community"
+    ],
+    "csi.ibm.com/v1/HostDefinition": [
+      "ibm-block-csi-operator-community"
+    ],
+    "csi.ibm.com/v1/IBMBlockCSI": [
+      "ibm-block-csi-operator-community"
+    ],
     "ibm.com/v1/IBMSecurityVerifyAccess": [
       "ibm-security-verify-access-operator"
     ],
@@ -4082,6 +4091,33 @@
     "redhatcop.redhat.io/v1alpha1/AuditRequestHeader": [
       "vault-config-operator"
     ],
+    "redhatcop.redhat.io/v1alpha1/Entity": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/EntityAlias": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/IdentityOIDCAssignment": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/IdentityOIDCClient": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/IdentityOIDCProvider": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/IdentityOIDCScope": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/IdentityTokenConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/IdentityTokenKey": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/IdentityTokenRole": [
+      "vault-config-operator"
+    ],
     "vertica.com/v1beta1/VerticaAutoscaler": [
       "verticadb-operator"
     ],
@@ -4197,5 +4233,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-13T06:50:07.185802"
+  "timestamp": "2026-04-16T06:49:44.137379"
 }

@@ -859,6 +859,15 @@
     "csi.hitachi.com/v1/HSPC": [
       "hspc-operator"
     ],
+    "csi.ibm.com/v1/HostDefiner": [
+      "ibm-block-csi-operator"
+    ],
+    "csi.ibm.com/v1/HostDefinition": [
+      "ibm-block-csi-operator"
+    ],
+    "csi.ibm.com/v1/IBMBlockCSI": [
+      "ibm-block-csi-operator"
+    ],
     "marketplace.redhat.com/v1alpha1/DataReporterConfig": [
       "ibm-data-reporter-operator"
     ],
@@ -1845,5 +1854,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-13T06:49:47.870198"
+  "timestamp": "2026-04-16T06:49:15.122439"
 }
