@@ -3287,13 +3287,13 @@
     "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
       "percona-server-mongodb-operator"
     ],
-    "pxc.percona.com/v1alpha1/PerconaXtraDBBackup": [
-      "percona-xtradb-cluster-operator"
-    ],
     "pxc.percona.com/v1/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
     ],
-    "pxc.percona.com/v1-1-0/PerconaXtraDBCluster": [
+    "pxc.percona.com/v1-10-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator"
+    ],
+    "pxc.percona.com/v1-11-0/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
     ],
     "pxc.percona.com/v1-2-0/PerconaXtraDBCluster": [
@@ -3320,13 +3320,19 @@
     "pxc.percona.com/v1-9-0/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
     ],
-    "pxc.percona.com/v1alpha1/PerconaXtraDBCluster": [
-      "percona-xtradb-cluster-operator"
-    ],
     "pxc.percona.com/v1/PerconaXtraDBClusterBackup": [
       "percona-xtradb-cluster-operator"
     ],
     "pxc.percona.com/v1/PerconaXtraDBClusterRestore": [
+      "percona-xtradb-cluster-operator"
+    ],
+    "pxc.percona.com/v1alpha1/PerconaXtraDBBackup": [
+      "percona-xtradb-cluster-operator"
+    ],
+    "pxc.percona.com/v1-1-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator"
+    ],
+    "pxc.percona.com/v1alpha1/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
     ],
     "redhatcop.redhat.io/v1alpha1/NodeScalingWatermark": [
@@ -4233,5 +4239,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-16T06:49:44.137379"
+  "timestamp": "2026-04-19T06:49:31.786984"
 }

@@ -11023,6 +11023,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-sqs-controller",
       "name": "ack-sqs-controller",
       "version": "0.0.1",
@@ -11521,6 +11527,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
       "package": "aerospike-kubernetes-operator",
       "name": "aerospike-kubernetes-operator",
       "version": "2.1.0",
@@ -11710,6 +11722,12 @@
       "package": "alloydb-omni-operator",
       "name": "alloydb-omni-operator",
       "version": "1.6.3",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.7.0",
       "channel": "stable"
     },
     {
@@ -17271,6 +17289,12 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.11.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -17482,6 +17506,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.47.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.0",
       "channel": "stable"
     },
     {
@@ -26817,18 +26847,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-01",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-03",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-04-04",
       "channel": "1.29-nightly"
     },
@@ -26902,6 +26920,24 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-04-15",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-16",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-17",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-18",
       "channel": "1.30-nightly"
     },
     {
@@ -30001,7 +30037,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5000,
+  "count": 5006,
   "source": "opm",
-  "timestamp": "2026-04-16T06:38:12.619926"
+  "timestamp": "2026-04-19T06:36:14.623342"
 }

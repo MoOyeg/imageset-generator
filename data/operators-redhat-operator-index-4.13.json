@@ -3133,6 +3133,12 @@
       "channel": "stable"
     },
     {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.13.0-202604080108",
+      "channel": "stable"
+    },
+    {
       "package": "aws-load-balancer-operator",
       "name": "aws-load-balancer-operator",
       "version": "1.0.0",
@@ -4765,6 +4771,12 @@
       "channel": "stable"
     },
     {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.13.0-202604080108",
+      "channel": "stable"
+    },
+    {
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "0.1.32",
@@ -4846,6 +4858,12 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.0",
       "channel": "stable"
     },
     {
@@ -9289,6 +9307,12 @@
       "channel": "preview"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.13.0-202604080108",
+      "channel": "preview"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.13.0-202304190216",
@@ -10093,6 +10117,12 @@
       "channel": "4.13"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.13.0-202604080108",
+      "channel": "4.13"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -10432,6 +10462,12 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202603101317",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202604080108",
       "channel": "stable"
     },
     {
@@ -11602,6 +11638,12 @@
       "package": "metallb-operator",
       "name": "metallb-operator",
       "version": "4.13.0-202602231306",
+      "channel": "stable"
+    },
+    {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.13.0-202604080108",
       "channel": "stable"
     },
     {
@@ -12820,6 +12862,12 @@
       "package": "nfd",
       "name": "nfd",
       "version": "4.13.0-202602231306",
+      "channel": "stable"
+    },
+    {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.13.0-202604080108",
       "channel": "stable"
     },
     {
@@ -15322,6 +15370,12 @@
       "package": "ptp-operator",
       "name": "ptp-operator",
       "version": "4.13.0-202602231306",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.13.0-202604080108",
       "channel": "stable"
     },
     {
@@ -21091,6 +21145,12 @@
       "channel": "4.13"
     },
     {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.13.0-202604080108",
+      "channel": "4.13"
+    },
+    {
       "package": "submariner",
       "name": "submariner",
       "version": "0.14.6",
@@ -21721,6 +21781,12 @@
       "channel": "stable"
     },
     {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.13.0-202604080108",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.10.0",
@@ -22117,7 +22183,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3686,
+  "count": 3697,
   "source": "opm",
-  "timestamp": "2026-04-16T06:30:15.412888"
+  "timestamp": "2026-04-19T06:28:04.701300"
 }

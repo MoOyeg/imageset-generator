@@ -1367,21 +1367,7 @@
     {
       "package": "cp-fko",
       "name": "cp-fko",
-      "version": "1.13.0-cp2",
-      "keywords": [
-        "Confluent",
-        "Flink",
-        "Kubernetes",
-        "Operator",
-        "FKO"
-      ],
-      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
-      "channel": "stable"
-    },
-    {
-      "package": "cp-fko",
-      "name": "cp-fko",
-      "version": "1.13.0-cp3",
+      "version": "1.14.0-cp1",
       "keywords": [
         "Confluent",
         "Flink",
@@ -1853,6 +1839,20 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.8.1",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.9.0",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -5535,5 +5535,5 @@
   ],
   "count": 638,
   "source": "opm",
-  "timestamp": "2026-04-16T06:50:46.536148"
+  "timestamp": "2026-04-19T06:51:09.507826"
 }

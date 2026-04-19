@@ -1081,6 +1081,12 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1",
+      "channel": "7.14.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -5140,6 +5146,12 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.0",
       "channel": "stable"
     },
     {
@@ -10300,6 +10312,12 @@
       "package": "kiali-ossm",
       "name": "kiali-ossm",
       "version": "2.22.1",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
+      "version": "2.22.2",
       "channel": "stable"
     },
     {
@@ -24937,7 +24955,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4156,
+  "count": 4159,
   "source": "opm",
-  "timestamp": "2026-04-16T06:33:27.419606"
+  "timestamp": "2026-04-19T06:31:18.320682"
 }

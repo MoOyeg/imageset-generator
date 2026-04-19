@@ -1352,6 +1352,17 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -8394,6 +8405,19 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.8.2",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.0",
       "keywords": [
         "security",
         "compliance",
@@ -15642,6 +15666,19 @@
     {
       "package": "kiali-ossm",
       "name": "kiali-ossm",
+      "version": "2.22.2",
+      "keywords": [
+        "service-mesh",
+        "observability",
+        "monitoring",
+        "istio"
+      ],
+      "description": "This productized operator provides Kiali and OSSMC. Kiali is the Istio observability and management Console. OSSMC is the OpenShift Service Mesh Console plugin, powered by Kiali.",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
       "version": "2.4.3",
       "keywords": [
         "service-mesh",
@@ -17366,6 +17403,18 @@
       "channel": "tech-preview"
     },
     {
+      "package": "model-validation-operator",
+      "name": "model-validation-operator",
+      "version": "0.1.0",
+      "keywords": [
+        "model signing",
+        "signing",
+        "ai"
+      ],
+      "description": "",
+      "channel": "tech-preview"
+    },
+    {
       "package": "mta-operator",
       "name": "mta-operator",
       "version": "6.0.0",
@@ -18051,6 +18100,19 @@
       "package": "mtv-operator",
       "name": "mtv-operator",
       "version": "2.11.2",
+      "keywords": [
+        "migration",
+        "forklift",
+        "konveyor",
+        "mtv"
+      ],
+      "description": "Facilitates migration of VM workloads to OpenShift Virtualization",
+      "channel": "release-v2.11"
+    },
+    {
+      "package": "mtv-operator",
+      "name": "mtv-operator",
+      "version": "2.11.3",
       "keywords": [
         "migration",
         "forklift",
@@ -22752,6 +22814,20 @@
       ],
       "description": "",
       "channel": "tech-preview"
+    },
+    {
+      "package": "policy-controller-operator",
+      "name": "policy-controller-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust",
+        "admissions controller",
+        "policy controller"
+      ],
+      "description": "",
+      "channel": "stable"
     },
     {
       "package": "power-monitoring-operator",
@@ -33441,6 +33517,44 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
+      "version": "3.3.2",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack",
+        "mlflow"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "stable-3.3"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
       "version": "3.4.0-ea.1",
       "keywords": [
         "Operator",
@@ -34571,6 +34685,18 @@
       "package": "rhtas-operator",
       "name": "rhtas-operator",
       "version": "1.3.3",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "rhtas-operator",
+      "name": "rhtas-operator",
+      "version": "1.4.0",
       "keywords": [
         "security",
         "rhtas",
@@ -39609,7 +39735,7 @@
       "channel": "stable"
     }
   ],
-  "count": 2774,
+  "count": 2782,
   "source": "opm",
-  "timestamp": "2026-04-16T06:48:55.548694"
+  "timestamp": "2026-04-19T06:48:50.431977"
 }

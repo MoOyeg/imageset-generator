@@ -1015,6 +1015,12 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1",
+      "channel": "7.14.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -5260,6 +5266,12 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.0",
       "channel": "stable"
     },
     {
@@ -10875,6 +10887,12 @@
     {
       "package": "kiali-ossm",
       "name": "kiali-ossm",
+      "version": "2.22.2",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
       "version": "2.4.3",
       "channel": "stable"
     },
@@ -13120,6 +13138,12 @@
       "package": "model-validation-operator",
       "name": "model-validation-operator",
       "version": "0.0.3",
+      "channel": "tech-preview"
+    },
+    {
+      "package": "model-validation-operator",
+      "name": "model-validation-operator",
+      "version": "0.1.0",
       "channel": "tech-preview"
     },
     {
@@ -18863,6 +18887,12 @@
       "name": "policy-controller-operator",
       "version": "0.0.2-techpreview",
       "channel": "tech-preview"
+    },
+    {
+      "package": "policy-controller-operator",
+      "name": "policy-controller-operator",
+      "version": "1.0.0",
+      "channel": "stable"
     },
     {
       "package": "power-monitoring-operator",
@@ -27715,7 +27745,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4619,
+  "count": 4624,
   "source": "opm",
-  "timestamp": "2026-04-16T06:40:09.985090"
+  "timestamp": "2026-04-19T06:38:37.151779"
 }

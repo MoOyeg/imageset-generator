@@ -1313,6 +1313,17 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -6404,6 +6415,19 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.8.2",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.0",
       "keywords": [
         "security",
         "compliance",
@@ -12501,6 +12525,19 @@
       "package": "kiali-ossm",
       "name": "kiali-ossm",
       "version": "2.22.1",
+      "keywords": [
+        "service-mesh",
+        "observability",
+        "monitoring",
+        "istio"
+      ],
+      "description": "This productized operator provides Kiali and OSSMC. Kiali is the Istio observability and management Console. OSSMC is the OpenShift Service Mesh Console plugin, powered by Kiali.",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
+      "version": "2.22.2",
       "keywords": [
         "service-mesh",
         "observability",
@@ -28031,7 +28068,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1945,
+  "count": 1948,
   "source": "opm",
-  "timestamp": "2026-04-16T06:50:23.511680"
+  "timestamp": "2026-04-19T06:50:51.813673"
 }

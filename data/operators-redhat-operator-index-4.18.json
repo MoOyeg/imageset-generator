@@ -1673,6 +1673,17 @@
       "channel": "7.13.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -10399,6 +10410,19 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.8.2",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.0",
       "keywords": [
         "security",
         "compliance",
@@ -21320,6 +21344,19 @@
     {
       "package": "kiali-ossm",
       "name": "kiali-ossm",
+      "version": "2.22.2",
+      "keywords": [
+        "service-mesh",
+        "observability",
+        "monitoring",
+        "istio"
+      ],
+      "description": "This productized operator provides Kiali and OSSMC. Kiali is the Istio observability and management Console. OSSMC is the OpenShift Service Mesh Console plugin, powered by Kiali.",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
       "version": "2.4.3",
       "keywords": [
         "service-mesh",
@@ -25149,6 +25186,18 @@
       "package": "model-validation-operator",
       "name": "model-validation-operator",
       "version": "0.0.3",
+      "keywords": [
+        "model signing",
+        "signing",
+        "ai"
+      ],
+      "description": "",
+      "channel": "tech-preview"
+    },
+    {
+      "package": "model-validation-operator",
+      "name": "model-validation-operator",
+      "version": "0.1.0",
       "keywords": [
         "model signing",
         "signing",
@@ -35617,6 +35666,20 @@
       ],
       "description": "",
       "channel": "tech-preview"
+    },
+    {
+      "package": "policy-controller-operator",
+      "name": "policy-controller-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust",
+        "admissions controller",
+        "policy controller"
+      ],
+      "description": "",
+      "channel": "stable"
     },
     {
       "package": "power-monitoring-operator",
@@ -48144,6 +48207,18 @@
       "channel": "stable"
     },
     {
+      "package": "rhtas-operator",
+      "name": "rhtas-operator",
+      "version": "1.4.0",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "rhtpa-operator",
       "name": "rhtpa-operator",
       "version": "1.0.0",
@@ -55302,7 +55377,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4002,
+  "count": 4008,
   "source": "opm",
-  "timestamp": "2026-04-16T06:44:15.133717"
+  "timestamp": "2026-04-19T06:43:50.468412"
 }

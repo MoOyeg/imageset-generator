@@ -513,6 +513,9 @@
     "flink.apache.org/v1beta1/FlinkStateSnapshot": [
       "cp-fko"
     ],
+    "flink.apache.org/v1beta1/FlinkBlueGreenDeployment": [
+      "cp-fko"
+    ],
     "postgres-operator.crunchydata.com/v1beta1/PostgresCluster": [
       "crunchy-postgres-operator",
       "percona-postgresql-operator-certified"
@@ -1415,6 +1418,45 @@
     "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
       "percona-server-mongodb-operator-certified"
     ],
+    "pxc.percona.com/v1/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-10-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-11-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-2-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-3-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-4-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-5-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-6-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-7-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-8-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1-9-0/PerconaXtraDBCluster": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1/PerconaXtraDBClusterBackup": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
+    "pxc.percona.com/v1/PerconaXtraDBClusterRestore": [
+      "percona-xtradb-cluster-operator-certified"
+    ],
     "core.libopenstorage.org/v1/StorageCluster": [
       "portworx-certified"
     ],
@@ -1854,5 +1896,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-16T06:49:15.122439"
+  "timestamp": "2026-04-19T06:49:10.177197"
 }

@@ -3382,21 +3382,7 @@
     {
       "package": "cp-fko",
       "name": "cp-fko",
-      "version": "1.13.0-cp2",
-      "keywords": [
-        "Confluent",
-        "Flink",
-        "Kubernetes",
-        "Operator",
-        "FKO"
-      ],
-      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
-      "channel": "stable"
-    },
-    {
-      "package": "cp-fko",
-      "name": "cp-fko",
-      "version": "1.13.0-cp3",
+      "version": "1.14.0-cp1",
       "keywords": [
         "Confluent",
         "Flink",
@@ -4892,6 +4878,20 @@
       "channel": "alpha"
     },
     {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.9.0",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "eda-k8s-operator",
       "name": "eda-k8s-operator",
       "version": "5.0.0",
@@ -5037,6 +5037,19 @@
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
       "version": "1.3.6",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.3.7",
       "keywords": [
         "Postgres",
         "Database",
@@ -5561,7 +5574,7 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
-      "version": "2.10.2",
+      "version": "2.11.0",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -5638,6 +5651,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.47.1",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.0",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -12519,6 +12546,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-39.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.4-9.0",
       "keywords": [
         "redislabs",
@@ -12580,7 +12621,7 @@
         "cache"
       ],
       "description": "",
-      "channel": "7.8.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -13489,6 +13530,19 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.29.10",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.29.11",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -15474,7 +15528,7 @@
     {
       "package": "vfunction-server-operator",
       "name": "vfunction-server-operator",
-      "version": "4.6.2007",
+      "version": "4.6.2014",
       "keywords": [
         "vfunction",
         "analyzing",
@@ -15634,7 +15688,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1496,
+  "count": 1500,
   "source": "opm",
-  "timestamp": "2026-04-16T06:43:07.890937"
+  "timestamp": "2026-04-19T06:42:16.861980"
 }

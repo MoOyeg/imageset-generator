@@ -2283,21 +2283,7 @@
     {
       "package": "cp-fko",
       "name": "cp-fko",
-      "version": "1.13.0-cp2",
-      "keywords": [
-        "Confluent",
-        "Flink",
-        "Kubernetes",
-        "Operator",
-        "FKO"
-      ],
-      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
-      "channel": "stable"
-    },
-    {
-      "package": "cp-fko",
-      "name": "cp-fko",
-      "version": "1.13.0-cp3",
+      "version": "1.14.0-cp1",
       "keywords": [
         "Confluent",
         "Flink",
@@ -3229,6 +3215,20 @@
       "channel": "alpha"
     },
     {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.9.0",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "eda-k8s-operator",
       "name": "eda-k8s-operator",
       "version": "5.0.0",
@@ -3639,7 +3639,7 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
-      "version": "2.10.2",
+      "version": "2.11.0",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -7645,6 +7645,40 @@
       "channel": "stable"
     },
     {
+      "package": "percona-xtradb-cluster-operator-certified",
+      "name": "percona-xtradb-cluster-operator-certified",
+      "version": "1.19.1",
+      "keywords": [
+        "mysql",
+        "percona",
+        "database",
+        "pxc",
+        "galera",
+        "database",
+        "sql",
+        "operator"
+      ],
+      "description": "Percona Operator for MySQL based on Percona XtraDB Cluster manages the lifecycle of Percona XtraDB cluster instances.",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified",
+      "name": "percona-xtradb-cluster-operator-certified",
+      "version": "1.19.1-cw",
+      "keywords": [
+        "mysql",
+        "percona",
+        "database",
+        "pxc",
+        "galera",
+        "database",
+        "sql",
+        "operator"
+      ],
+      "description": "Percona Operator for MySQL based on Percona XtraDB Cluster manages the lifecycle of Percona XtraDB cluster instances.",
+      "channel": "stable-cw"
+    },
+    {
       "package": "portworx-certified",
       "name": "portworx-certified",
       "version": "1.10.0",
@@ -9613,7 +9647,7 @@
       "channel": "lts"
     }
   ],
-  "count": 920,
+  "count": 922,
   "source": "opm",
-  "timestamp": "2026-04-16T06:49:14.789639"
+  "timestamp": "2026-04-19T06:49:09.833477"
 }
