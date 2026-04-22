@@ -11176,6 +11176,19 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.15",
+      "keywords": [
+        "eap",
+        "java",
+        "open source",
+        "application runtime"
+      ],
+      "description": "Operator that creates and manages Java applications running on JBoss EAP.",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.2",
       "keywords": [
         "eap",
@@ -13225,6 +13238,16 @@
       "channel": "stable"
     },
     {
+      "package": "kueue-operator",
+      "name": "kueue-operator",
+      "version": "1.3.1",
+      "keywords": [
+        "kueue-operator"
+      ],
+      "description": "",
+      "channel": "stable-v1.3"
+    },
+    {
       "package": "leader-worker-set",
       "name": "leader-worker-set",
       "version": "1.0.0",
@@ -15093,6 +15116,23 @@
       ],
       "description": "",
       "channel": "stable-4.21"
+    },
+    {
+      "package": "openshift-cert-manager-operator",
+      "name": "openshift-cert-manager-operator",
+      "version": "1.19.0",
+      "keywords": [
+        "cert-manager",
+        "cert-manager-operator",
+        "cert",
+        "certificates",
+        "security",
+        "TLS",
+        "istio-csr",
+        "trust-manager"
+      ],
+      "description": "",
+      "channel": "stable-v1"
     },
     {
       "package": "openshift-external-secrets-operator",
@@ -17036,6 +17076,21 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.144.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.144.0-2",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -24336,6 +24391,19 @@
       "channel": "stable"
     },
     {
+      "package": "runtimes-inventory-operator",
+      "name": "runtimes-inventory-operator",
+      "version": "1.0.2",
+      "keywords": [
+        "insights",
+        "java",
+        "runtimes",
+        "red hat"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "sandboxed-containers-operator",
       "name": "sandboxed-containers-operator",
       "version": "1.0.2",
@@ -26636,6 +26704,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.0.10",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.0.2",
       "keywords": [
         "istio",
@@ -26816,6 +26896,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.1.7",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.2.0",
       "keywords": [
         "istio",
@@ -26864,6 +26956,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.2.4",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.3.0",
       "keywords": [
         "istio",
@@ -26877,6 +26981,18 @@
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
       "version": "3.3.1",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.3.2",
       "keywords": [
         "istio",
         "servicemesh",
@@ -27491,6 +27607,20 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.20.0-3",
+      "keywords": [
+        "tempo",
+        "tracing",
+        "observability",
+        "monitoring",
+        "database"
+      ],
+      "description": "Create and manage deployments of Tempo, a high-scale distributed tracing backend.",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "keywords": [
         "tracing",
@@ -28068,7 +28198,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1948,
+  "count": 1958,
   "source": "opm",
-  "timestamp": "2026-04-19T06:50:51.813673"
+  "timestamp": "2026-04-22T06:51:30.135365"
 }

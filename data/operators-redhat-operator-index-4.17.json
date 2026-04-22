@@ -17775,6 +17775,19 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.15",
+      "keywords": [
+        "eap",
+        "java",
+        "open source",
+        "application runtime"
+      ],
+      "description": "Operator that creates and manages Java applications running on JBoss EAP.",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.2",
       "keywords": [
         "eap",
@@ -18185,6 +18198,19 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.2.0",
+      "keywords": [
+        "openshift",
+        "dns",
+        "externaldns",
+        "operator"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.2.1",
       "keywords": [
         "openshift",
         "dns",
@@ -19364,6 +19390,18 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1776378942.p",
+      "keywords": [
+        "api",
+        "apicurio",
+        "apicurito"
+      ],
+      "description": "Manages the installation and upgrades of apicurito, a small/minimal version of Apicurio",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "keywords": [
         "api",
@@ -19993,6 +20031,20 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1776065698.p",
+      "keywords": [
+        "Fuse",
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "The Fuse Console eases the discovery and management of Fuse applications deployed on OpenShift.",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1776378943.p",
       "keywords": [
         "Fuse",
         "Hawtio",
@@ -24578,6 +24630,23 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.17.44",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.17.45",
       "keywords": [
         "KubeVirt",
         "Virtualization",
@@ -52664,6 +52733,19 @@
       "channel": "stable"
     },
     {
+      "package": "runtimes-inventory-operator",
+      "name": "runtimes-inventory-operator",
+      "version": "1.0.2",
+      "keywords": [
+        "insights",
+        "java",
+        "runtimes",
+        "red hat"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "sandboxed-containers-operator",
       "name": "sandboxed-containers-operator",
       "version": "1.0.2",
@@ -55632,6 +55714,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.0.10",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.0.2",
       "keywords": [
         "istio",
@@ -55801,6 +55895,18 @@
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
       "version": "3.1.6",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.1.7",
       "keywords": [
         "istio",
         "servicemesh",
@@ -57850,6 +57956,34 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.20.0-2",
+      "keywords": [
+        "tempo",
+        "tracing",
+        "observability",
+        "monitoring",
+        "database"
+      ],
+      "description": "Create and manage deployments of Tempo, a high-scale distributed tracing backend.",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.20.0-3",
+      "keywords": [
+        "tempo",
+        "tracing",
+        "observability",
+        "monitoring",
+        "database"
+      ],
+      "description": "Create and manage deployments of Tempo, a high-scale distributed tracing backend.",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "keywords": [
         "tracing",
@@ -58826,7 +58960,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4266,
+  "count": 4276,
   "source": "opm",
-  "timestamp": "2026-04-19T06:41:47.793735"
+  "timestamp": "2026-04-22T06:43:08.324430"
 }

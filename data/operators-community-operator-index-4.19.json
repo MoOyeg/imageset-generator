@@ -8170,6 +8170,12 @@
       "package": "ack-opensearchservice-controller",
       "name": "ack-opensearchservice-controller",
       "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchservice-controller",
+      "name": "ack-opensearchservice-controller",
+      "version": "1.2.4",
       "keywords": [
         "opensearchservice",
         "aws",
@@ -13579,6 +13585,16 @@
       "channel": "Fast"
     },
     {
+      "package": "aws-neuron-operator",
+      "name": "aws-neuron-operator",
+      "version": "1.1.4",
+      "keywords": [
+        "aws-neuron-operator"
+      ],
+      "description": "",
+      "channel": "Fast"
+    },
+    {
       "package": "awss3-operator-registry",
       "name": "awss3-operator-registry",
       "version": "1.0.1",
@@ -18176,6 +18192,12 @@
       "package": "flux-operator",
       "name": "flux-operator",
       "version": "0.47.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
+      "version": "0.48.0",
       "keywords": [
         "flux",
         "fluxcd",
@@ -18526,6 +18548,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.1",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -35233,7 +35261,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4725,
+  "count": 4729,
   "source": "opm",
-  "timestamp": "2026-04-19T06:46:38.368620"
+  "timestamp": "2026-04-22T06:47:55.293702"
 }

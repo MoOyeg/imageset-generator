@@ -1317,6 +1317,21 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.16.22-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.16"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.10-cee.1",
       "keywords": [
         "Cilium",
@@ -4394,6 +4409,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.1",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -4861,6 +4890,22 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "26.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.1",
       "keywords": [
         "gpu",
         "cuda",
@@ -11137,6 +11182,19 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "4.27.1-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "synaxg-operator",
       "name": "synaxg-operator",
       "version": "1.2.0",
@@ -12040,7 +12098,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1121,
+  "count": 1125,
   "source": "opm",
-  "timestamp": "2026-04-19T06:47:44.370731"
+  "timestamp": "2026-04-22T06:48:59.471705"
 }

@@ -1267,6 +1267,12 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.7",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace-rhmp",
       "name": "kubemq-operator-marketplace-rhmp",
       "version": "1.7.8",
@@ -1801,6 +1807,12 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "4.27.1-0",
+      "channel": "alpha"
+    },
+    {
       "package": "t8c-certified-rhmp",
       "name": "t8c-certified-rhmp",
       "version": "42.2.0",
@@ -1915,7 +1927,7 @@
       "channel": "lts"
     }
   ],
-  "count": 319,
+  "count": 321,
   "source": "opm",
-  "timestamp": "2026-04-19T06:37:04.384114"
+  "timestamp": "2026-04-22T06:39:13.498815"
 }

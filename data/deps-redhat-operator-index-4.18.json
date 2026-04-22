@@ -1385,6 +1385,12 @@
     "operator.openshift.io/v1alpha1/IstioCSR": [
       "openshift-cert-manager-operator"
     ],
+    "operator.openshift.io/v1alpha1/TrustManager": [
+      "openshift-cert-manager-operator"
+    ],
+    "trust.cert-manager.io/v1alpha1/Bundle": [
+      "openshift-cert-manager-operator"
+    ],
     "keda.sh/v1alpha1/ClusterTriggerAuthentication": [
       "openshift-custom-metrics-autoscaler-operator"
     ],
@@ -2316,5 +2322,5 @@
       "watcher-operator"
     ]
   },
-  "timestamp": "2026-04-19T06:43:52.894795"
+  "timestamp": "2026-04-22T06:45:19.540511"
 }

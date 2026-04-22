@@ -8050,6 +8050,12 @@
       "package": "ack-opensearchservice-controller",
       "name": "ack-opensearchservice-controller",
       "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchservice-controller",
+      "name": "ack-opensearchservice-controller",
+      "version": "1.2.4",
       "keywords": [
         "opensearchservice",
         "aws",
@@ -12955,6 +12961,16 @@
       "channel": "Fast"
     },
     {
+      "package": "aws-neuron-operator",
+      "name": "aws-neuron-operator",
+      "version": "1.1.4",
+      "keywords": [
+        "aws-neuron-operator"
+      ],
+      "description": "",
+      "channel": "Fast"
+    },
+    {
       "package": "awss3-operator-registry",
       "name": "awss3-operator-registry",
       "version": "1.0.1",
@@ -17498,6 +17514,12 @@
       "package": "flux-operator",
       "name": "flux-operator",
       "version": "0.47.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
+      "version": "0.48.0",
       "keywords": [
         "flux",
         "fluxcd",
@@ -17758,6 +17780,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.1",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -22507,6 +22535,21 @@
     {
       "package": "konflux-operator",
       "name": "konflux-operator",
+      "version": "0.0.15-rc.7",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
       "version": "0.0.4",
       "keywords": [
         "build",
@@ -22623,6 +22666,21 @@
       ],
       "description": "Cloud native software factory focused on software supply chain security",
       "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.10",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
     },
     {
       "package": "konflux-operator",
@@ -22833,6 +22891,21 @@
       ],
       "description": "Cloud native software factory focused on software supply chain security",
       "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.0-rc.1",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
     },
     {
       "package": "konveyor-operator",
@@ -34721,7 +34794,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4604,
+  "count": 4611,
   "source": "opm",
-  "timestamp": "2026-04-19T06:48:04.140251"
+  "timestamp": "2026-04-22T06:49:18.728366"
 }

@@ -1270,6 +1270,24 @@
     "ramendr.openshift.io/v1alpha1/DRPolicy": [
       "odr-hub-operator"
     ],
+    "openpe.openperouter.github.io/v1alpha1/L2VNI": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/L3Passthrough": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/L3VNI": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/OpenPERouter": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/RawFRRConfig": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/Underlay": [
+      "openperouter-operator"
+    ],
     "operator.openshift.io/v1alpha1/OpenShiftBuild": [
       "openshift-builds-operator"
     ],
@@ -1298,6 +1316,12 @@
       "openshift-cert-manager-operator"
     ],
     "operator.openshift.io/v1alpha1/IstioCSR": [
+      "openshift-cert-manager-operator"
+    ],
+    "operator.openshift.io/v1alpha1/TrustManager": [
+      "openshift-cert-manager-operator"
+    ],
+    "trust.cert-manager.io/v1alpha1/Bundle": [
       "openshift-cert-manager-operator"
     ],
     "keda.sh/v1alpha1/ClusterTriggerAuthentication": [
@@ -2261,5 +2285,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-19T06:48:52.240956"
+  "timestamp": "2026-04-22T06:50:02.851029"
 }

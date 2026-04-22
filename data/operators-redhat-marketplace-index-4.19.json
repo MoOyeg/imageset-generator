@@ -2368,6 +2368,18 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.7",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace-rhmp",
       "name": "kubemq-operator-marketplace-rhmp",
       "version": "1.7.8",
@@ -3151,6 +3163,19 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "4.27.1-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "timemachine-operator-rhmp",
       "name": "timemachine-operator-rhmp",
       "version": "1.0.16",
@@ -3398,7 +3423,7 @@
       "channel": "lts"
     }
   ],
-  "count": 268,
+  "count": 270,
   "source": "opm",
-  "timestamp": "2026-04-19T06:46:57.067579"
+  "timestamp": "2026-04-22T06:48:13.787569"
 }

@@ -650,6 +650,9 @@
     "migrations.kubevirt.io/v1alpha1/MigController": [
       "kubevirt-hyperconverged"
     ],
+    "kueue.openshift.io/v1/Kueue": [
+      "kueue-operator"
+    ],
     "operator.openshift.io/v1/LeaderWorkerSetOperator": [
       "leader-worker-set"
     ],
@@ -941,6 +944,36 @@
     ],
     "ramendr.openshift.io/v1alpha1/DRPolicy": [
       "odr-hub-operator"
+    ],
+    "acme.cert-manager.io/v1/Challenge": [
+      "openshift-cert-manager-operator"
+    ],
+    "acme.cert-manager.io/v1/Order": [
+      "openshift-cert-manager-operator"
+    ],
+    "cert-manager.io/v1/Certificate": [
+      "openshift-cert-manager-operator"
+    ],
+    "cert-manager.io/v1/CertificateRequest": [
+      "openshift-cert-manager-operator"
+    ],
+    "cert-manager.io/v1/ClusterIssuer": [
+      "openshift-cert-manager-operator"
+    ],
+    "cert-manager.io/v1/Issuer": [
+      "openshift-cert-manager-operator"
+    ],
+    "operator.openshift.io/v1alpha1/CertManager": [
+      "openshift-cert-manager-operator"
+    ],
+    "operator.openshift.io/v1alpha1/IstioCSR": [
+      "openshift-cert-manager-operator"
+    ],
+    "operator.openshift.io/v1alpha1/TrustManager": [
+      "openshift-cert-manager-operator"
+    ],
+    "trust.cert-manager.io/v1alpha1/Bundle": [
+      "openshift-cert-manager-operator"
     ],
     "external-secrets.io/v1/ClusterExternalSecret": [
       "openshift-external-secrets-operator"
@@ -1501,5 +1534,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-19T06:50:52.982514"
+  "timestamp": "2026-04-22T06:51:31.347844"
 }

@@ -4131,6 +4131,22 @@
       "channel": "stable"
     },
     {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
       "package": "habana-ai-operator",
       "name": "habana-ai-operator",
       "version": "1.23.0-695",
@@ -8916,6 +8932,19 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "4.27.1-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "synaxg-operator",
       "name": "synaxg-operator",
       "version": "1.2.0",
@@ -9647,7 +9676,7 @@
       "channel": "lts"
     }
   ],
-  "count": 922,
+  "count": 924,
   "source": "opm",
-  "timestamp": "2026-04-19T06:49:09.833477"
+  "timestamp": "2026-04-22T06:50:19.958464"
 }

@@ -1333,6 +1333,12 @@
       "channel": "v6.4"
     },
     {
+      "package": "cpd-platform-operator",
+      "name": "cpd-platform-operator",
+      "version": "6.4.2",
+      "channel": "v6.4"
+    },
+    {
       "package": "crunchy-postgres-operator",
       "name": "crunchy-postgres-operator",
       "version": "5.1.0",
@@ -2524,6 +2530,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.1",
       "channel": "stable"
     },
     {
@@ -7083,6 +7095,12 @@
     {
       "package": "tawon-operator",
       "name": "tawon-operator",
+      "version": "2.40.0",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
       "version": "2.40.0-rc19",
       "channel": "candidate-v2"
     },
@@ -8119,7 +8137,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1353,
+  "count": 1356,
   "source": "opm",
-  "timestamp": "2026-04-19T06:28:39.619889"
+  "timestamp": "2026-04-22T06:31:26.959752"
 }

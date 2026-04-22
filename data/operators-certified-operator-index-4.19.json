@@ -1372,6 +1372,21 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.16.22-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.16"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.10-cee.1",
       "keywords": [
         "Cilium",
@@ -4617,6 +4632,21 @@
       "channel": "stable"
     },
     {
+      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
+      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
+      "version": "8.1.3",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
+      "channel": "stable"
+    },
+    {
       "package": "function-mesh",
       "name": "function-mesh",
       "version": "0.7.0",
@@ -4737,6 +4767,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.1",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -5215,6 +5259,22 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "26.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.1",
       "keywords": [
         "gpu",
         "cuda",
@@ -12279,6 +12339,19 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "4.27.1-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "synaxg-operator",
       "name": "synaxg-operator",
       "version": "1.2.0",
@@ -13388,7 +13461,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1237,
+  "count": 1242,
   "source": "opm",
-  "timestamp": "2026-04-19T06:46:13.234431"
+  "timestamp": "2026-04-22T06:47:36.246049"
 }
