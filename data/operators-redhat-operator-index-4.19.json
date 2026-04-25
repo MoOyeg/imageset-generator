@@ -9091,6 +9091,20 @@
     {
       "package": "cluster-logging",
       "name": "cluster-logging",
+      "version": "6.4.4",
+      "keywords": [
+        "logging",
+        "observability",
+        "loki",
+        "vector",
+        "otlp"
+      ],
+      "description": "The Red Hat OpenShift Logging Operator for OCP provides a means for configuring and managing log collection and forwarding.",
+      "channel": "stable-6.4"
+    },
+    {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
       "version": "6.5.0",
       "keywords": [
         "logging",
@@ -11803,6 +11817,19 @@
       "channel": "stable"
     },
     {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.4.0",
+      "keywords": [
+        "cost",
+        "management",
+        "usage",
+        "monitor"
+      ],
+      "description": "A Golang-based OpenShift Operator that generates and uploads OpenShift usage metrics to cost management.",
+      "channel": "stable"
+    },
+    {
       "package": "cryostat-operator",
       "name": "cryostat-operator",
       "version": "2.1.0",
@@ -13600,6 +13627,16 @@
       "channel": "alpha"
     },
     {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.15",
+      "keywords": [
+        "dvo"
+      ],
+      "description": "The deployment validation operator",
+      "channel": "alpha"
+    },
+    {
       "package": "devspaces",
       "name": "devspaces",
       "version": "3.10.0",
@@ -14002,6 +14039,22 @@
       "package": "devspaces",
       "name": "devspaces",
       "version": "3.27.0",
+      "keywords": [
+        "eclipse che",
+        "workspaces",
+        "devtools",
+        "developer",
+        "ide",
+        "java",
+        "devspaces"
+      ],
+      "description": "Devfile v2 and v1 development solution, 1 instance per cluster, for portable, collaborative k8s workspaces.",
+      "channel": "stable"
+    },
+    {
+      "package": "devspaces",
+      "name": "devspaces",
+      "version": "3.27.1",
       "keywords": [
         "eclipse che",
         "workspaces",
@@ -14762,6 +14815,18 @@
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
       "version": "0.40.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.40.1",
       "keywords": [
         "Devworkspace Operator",
         "DevWorkspaces",
@@ -18544,6 +18609,16 @@
       "channel": "3.20"
     },
     {
+      "package": "gatekeeper-operator-product",
+      "name": "gatekeeper-operator-product",
+      "version": "3.21.0",
+      "keywords": [
+        "Gatekeeper"
+      ],
+      "description": "",
+      "channel": "3.21"
+    },
+    {
       "package": "gcp-filestore-csi-driver-operator",
       "name": "gcp-filestore-csi-driver-operator",
       "version": "4.19.0-202505200051",
@@ -22122,6 +22197,17 @@
     {
       "package": "loki-operator",
       "name": "loki-operator",
+      "version": "6.4.4",
+      "keywords": [
+        "logging",
+        "loki"
+      ],
+      "description": "The Loki Operator for OCP provides a means for configuring and managing a Loki stack for cluster logging.\\n## Prerequisites and Requirements\\n### Loki Operator Namespace\\nThe Loki Operator must be deployed to the global operator group namespace `openshift-operators-redhat`.\\n### Memory Considerations\\nLoki is a memory intensive application.  The initial\\nset of OCP nodes may not be large enough to support the Loki stack.  Additional OCP nodes must be added\\nto the OCP cluster if you desire to run with the recommended (or better) memory.\\n",
+      "channel": "stable-6.4"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
       "version": "6.5.0",
       "keywords": [
         "logging",
@@ -23716,6 +23802,19 @@
       "channel": "stable-v8.1"
     },
     {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.1",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Migration Toolkit for Applications is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
+      "channel": "stable-v8.1"
+    },
+    {
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.7.0",
@@ -24439,6 +24538,19 @@
       "package": "mtv-operator",
       "name": "mtv-operator",
       "version": "2.11.3",
+      "keywords": [
+        "migration",
+        "forklift",
+        "konveyor",
+        "mtv"
+      ],
+      "description": "Facilitates migration of VM workloads to OpenShift Virtualization",
+      "channel": "release-v2.11"
+    },
+    {
+      "package": "mtv-operator",
+      "name": "mtv-operator",
+      "version": "2.11.4",
       "keywords": [
         "migration",
         "forklift",
@@ -30636,6 +30748,18 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.18.5",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.18"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.19.0",
       "keywords": [
         "devtools",
@@ -30672,6 +30796,18 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.19.3",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.20.0",
       "keywords": [
         "devtools",
@@ -30685,6 +30821,18 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.20.1",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.20.2",
       "keywords": [
         "devtools",
         "gitops",
@@ -31459,6 +31607,19 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.20.4",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.21.0",
       "keywords": [
         "tektoncd",
@@ -31473,6 +31634,19 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.21.1",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.0",
       "keywords": [
         "tektoncd",
         "openshift",
@@ -41763,6 +41937,17 @@
     {
       "package": "rhdh",
       "name": "rhdh",
+      "version": "1.8.6",
+      "keywords": [
+        "Backstage",
+        "RHDH"
+      ],
+      "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins and configuration settings, supports use of an external database, and can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
+      "channel": "fast"
+    },
+    {
+      "package": "rhdh",
+      "name": "rhdh",
       "version": "1.9.0",
       "keywords": [
         "Backstage",
@@ -43230,6 +43415,43 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
+      "version": "2.25.5",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
       "version": "2.4.0",
       "keywords": [
         "Operator",
@@ -43652,7 +43874,7 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
-      "version": "3.4.0-ea.1",
+      "version": "3.4.0-ea.2",
       "keywords": [
         "Operator",
         "OpenShift",
@@ -44865,6 +45087,18 @@
     {
       "package": "rhtas-operator",
       "name": "rhtas-operator",
+      "version": "1.3.4",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "rhtas-operator",
+      "name": "rhtas-operator",
       "version": "1.4.0",
       "keywords": [
         "security",
@@ -44944,6 +45178,17 @@
       "package": "rhtpa-operator",
       "name": "rhtpa-operator",
       "version": "1.1.3",
+      "keywords": [
+        "rhtpa",
+        "trusted-profile-analyzer"
+      ],
+      "description": "",
+      "channel": "stable-v1.1"
+    },
+    {
+      "package": "rhtpa-operator",
+      "name": "rhtpa-operator",
+      "version": "1.1.4",
       "keywords": [
         "rhtpa",
         "trusted-profile-analyzer"
@@ -51548,7 +51793,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3698,
+  "count": 3716,
   "source": "opm",
-  "timestamp": "2026-04-22T06:46:52.065053"
+  "timestamp": "2026-04-25T06:45:19.798523"
 }

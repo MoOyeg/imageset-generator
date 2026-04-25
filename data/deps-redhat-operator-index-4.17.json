@@ -1419,6 +1419,15 @@
     "operator.tekton.dev/v1alpha1/TektonPruner": [
       "openshift-pipelines-operator-rh"
     ],
+    "operator.tekton.dev/v1alpha1/SyncerService": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonMulticlusterProxyAAE": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonScheduler": [
+      "openshift-pipelines-operator-rh"
+    ],
     "operator.openshift.io/v1/SecondaryScheduler": [
       "openshift-secondary-scheduler-operator"
     ],
@@ -2122,5 +2131,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-22T06:43:10.786453"
+  "timestamp": "2026-04-25T06:42:22.172286"
 }

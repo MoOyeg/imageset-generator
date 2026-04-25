@@ -5899,6 +5899,12 @@
       "channel": "stable"
     },
     {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.4.0",
+      "channel": "stable"
+    },
+    {
       "package": "cryostat-operator",
       "name": "cryostat-operator",
       "version": "2.1.0",
@@ -6574,6 +6580,12 @@
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.14",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.15",
       "channel": "alpha"
     },
     {
@@ -11818,6 +11830,12 @@
       "package": "mta-operator",
       "name": "mta-operator",
       "version": "8.1.0",
+      "channel": "stable-v8.1"
+    },
+    {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.1",
       "channel": "stable-v8.1"
     },
     {
@@ -22225,7 +22243,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3704,
+  "count": 3707,
   "source": "opm",
-  "timestamp": "2026-04-22T06:30:08.804294"
+  "timestamp": "2026-04-25T06:29:12.475253"
 }

@@ -158,6 +158,16 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.4.0",
+      "keywords": [
+        "Aerospike"
+      ],
+      "description": "The Aerospike Kubernetes Operator automates the deployment and management of Aerospike enterprise clusters on Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "keywords": [
         "Aerospike"
@@ -3572,6 +3582,19 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "4.27.1-1",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "timemachine-operator-rhmp",
       "name": "timemachine-operator-rhmp",
       "version": "1.0.16",
@@ -3819,7 +3842,7 @@
       "channel": "lts"
     }
   ],
-  "count": 298,
+  "count": 300,
   "source": "opm",
-  "timestamp": "2026-04-22T06:44:50.462250"
+  "timestamp": "2026-04-25T06:43:18.889960"
 }

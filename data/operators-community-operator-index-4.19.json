@@ -235,6 +235,12 @@
       "package": "ack-acm-controller",
       "name": "ack-acm-controller",
       "version": "1.3.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-acm-controller",
+      "name": "ack-acm-controller",
+      "version": "1.3.6",
       "keywords": [
         "acm",
         "aws",
@@ -561,6 +567,12 @@
       "package": "ack-apigateway-controller",
       "name": "ack-apigateway-controller",
       "version": "1.4.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigateway-controller",
+      "name": "ack-apigateway-controller",
+      "version": "1.4.3",
       "keywords": [
         "apigateway",
         "aws",
@@ -1109,6 +1121,12 @@
       "package": "ack-applicationautoscaling-controller",
       "name": "ack-applicationautoscaling-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-applicationautoscaling-controller",
+      "name": "ack-applicationautoscaling-controller",
+      "version": "1.2.3",
       "keywords": [
         "applicationautoscaling",
         "aws",
@@ -1236,6 +1254,12 @@
       "package": "ack-athena-controller",
       "name": "ack-athena-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-athena-controller",
+      "name": "ack-athena-controller",
+      "version": "1.2.3",
       "keywords": [
         "athena",
         "aws",
@@ -1243,6 +1267,19 @@
         "ack"
       ],
       "description": "AWS Athena controller is a service controller for managing Athena resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-autoscaling-controller",
+      "name": "ack-autoscaling-controller",
+      "version": "0.1.1",
+      "keywords": [
+        "autoscaling",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS Auto Scaling controller is a service controller for managing EC2 Auto Scaling resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -1279,6 +1316,12 @@
       "package": "ack-bedrock-controller",
       "name": "ack-bedrock-controller",
       "version": "1.1.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrock-controller",
+      "name": "ack-bedrock-controller",
+      "version": "1.1.3",
       "keywords": [
         "bedrock",
         "aws",
@@ -1594,6 +1637,12 @@
       "package": "ack-cloudfront-controller",
       "name": "ack-cloudfront-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudfront-controller",
+      "name": "ack-cloudfront-controller",
+      "version": "1.3.3",
       "keywords": [
         "cloudfront",
         "aws",
@@ -1787,6 +1836,12 @@
       "package": "ack-cloudtrail-controller",
       "name": "ack-cloudtrail-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudtrail-controller",
+      "name": "ack-cloudtrail-controller",
+      "version": "1.2.3",
       "keywords": [
         "cloudtrail",
         "aws",
@@ -2119,6 +2174,18 @@
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatchlogs-controller",
+      "name": "ack-cloudwatchlogs-controller",
+      "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatchlogs-controller",
+      "name": "ack-cloudwatchlogs-controller",
+      "version": "1.2.4",
       "keywords": [
         "cloudwatchlogs",
         "aws",
@@ -2174,6 +2241,12 @@
       "package": "ack-codeartifact-controller",
       "name": "ack-codeartifact-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-codeartifact-controller",
+      "name": "ack-codeartifact-controller",
+      "version": "1.2.3",
       "keywords": [
         "codeartifact",
         "aws",
@@ -2223,6 +2296,12 @@
       "package": "ack-cognitoidentityprovider-controller",
       "name": "ack-cognitoidentityprovider-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cognitoidentityprovider-controller",
+      "name": "ack-cognitoidentityprovider-controller",
+      "version": "1.2.3",
       "keywords": [
         "cognitoidentityprovider",
         "aws",
@@ -2368,6 +2447,12 @@
       "package": "ack-documentdb-controller",
       "name": "ack-documentdb-controller",
       "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-documentdb-controller",
+      "name": "ack-documentdb-controller",
+      "version": "1.3.2",
       "keywords": [
         "documentdb",
         "aws",
@@ -2759,6 +2844,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.7.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.7.3",
       "keywords": [
         "dynamodb",
         "aws",
@@ -2970,6 +3061,12 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.11.1",
       "keywords": [
         "ec2",
         "aws",
@@ -3673,6 +3770,12 @@
       "package": "ack-ecr-controller",
       "name": "ack-ecr-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecr-controller",
+      "name": "ack-ecr-controller",
+      "version": "1.5.3",
       "keywords": [
         "ecr",
         "aws",
@@ -3728,6 +3831,12 @@
       "package": "ack-ecrpublic-controller",
       "name": "ack-ecrpublic-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecrpublic-controller",
+      "name": "ack-ecrpublic-controller",
+      "version": "1.2.3",
       "keywords": [
         "ecrpublic",
         "aws",
@@ -3801,6 +3910,12 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.2.3",
       "keywords": [
         "ecs",
         "aws",
@@ -3976,6 +4091,12 @@
       "package": "ack-efs-controller",
       "name": "ack-efs-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-efs-controller",
+      "name": "ack-efs-controller",
+      "version": "1.2.3",
       "keywords": [
         "efs",
         "aws",
@@ -4229,6 +4350,18 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.12.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.12.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.13.0",
       "keywords": [
         "eks",
         "aws",
@@ -4776,6 +4909,12 @@
       "package": "ack-elasticache-controller",
       "name": "ack-elasticache-controller",
       "version": "1.3.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
+      "version": "1.3.5",
       "keywords": [
         "elasticache",
         "aws",
@@ -4969,6 +5108,12 @@
       "package": "ack-elbv2-controller",
       "name": "ack-elbv2-controller",
       "version": "1.3.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elbv2-controller",
+      "name": "ack-elbv2-controller",
+      "version": "1.3.5",
       "keywords": [
         "elbv2",
         "aws",
@@ -5192,6 +5337,12 @@
       "package": "ack-emrcontainers-controller",
       "name": "ack-emrcontainers-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emrcontainers-controller",
+      "name": "ack-emrcontainers-controller",
+      "version": "1.3.3",
       "keywords": [
         "emrcontainers",
         "aws",
@@ -5199,6 +5350,19 @@
         "ack"
       ],
       "description": "AWS EMR on EKS controller is a service controller for managing EMR on EKS resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emrserverless-controller",
+      "name": "ack-emrserverless-controller",
+      "version": "0.1.1",
+      "keywords": [
+        "emrserverless",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS EMR Serverless controller is a service controller for managing EMR Serverless resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -5403,6 +5567,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.2.3",
       "keywords": [
         "eventbridge",
         "aws",
@@ -5428,6 +5598,12 @@
       "package": "ack-firehose-controller",
       "name": "ack-firehose-controller",
       "version": "0.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-firehose-controller",
+      "name": "ack-firehose-controller",
+      "version": "0.2.3",
       "keywords": [
         "firehose",
         "aws",
@@ -5477,6 +5653,12 @@
       "package": "ack-glue-controller",
       "name": "ack-glue-controller",
       "version": "0.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-glue-controller",
+      "name": "ack-glue-controller",
+      "version": "0.3.3",
       "keywords": [
         "glue",
         "aws",
@@ -6109,6 +6291,12 @@
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.5.1",
       "keywords": [
         "kafka",
         "aws",
@@ -6320,6 +6508,12 @@
       "package": "ack-keyspaces-controller",
       "name": "ack-keyspaces-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-keyspaces-controller",
+      "name": "ack-keyspaces-controller",
+      "version": "1.2.3",
       "keywords": [
         "keyspaces",
         "aws",
@@ -6537,6 +6731,18 @@
       "package": "ack-kinesis-controller",
       "name": "ack-kinesis-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kinesis-controller",
+      "name": "ack-kinesis-controller",
+      "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kinesis-controller",
+      "name": "ack-kinesis-controller",
+      "version": "1.2.4",
       "keywords": [
         "kinesis",
         "aws",
@@ -6874,6 +7080,12 @@
       "package": "ack-kms-controller",
       "name": "ack-kms-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kms-controller",
+      "name": "ack-kms-controller",
+      "version": "1.2.3",
       "keywords": [
         "kms",
         "aws",
@@ -7055,6 +7267,12 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.10.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.12.2",
       "keywords": [
         "lambda",
         "aws",
@@ -7440,6 +7658,12 @@
       "package": "ack-memorydb-controller",
       "name": "ack-memorydb-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-memorydb-controller",
+      "name": "ack-memorydb-controller",
+      "version": "1.2.3",
       "keywords": [
         "memorydb",
         "aws",
@@ -7711,6 +7935,12 @@
       "package": "ack-mq-controller",
       "name": "ack-mq-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-mq-controller",
+      "name": "ack-mq-controller",
+      "version": "1.2.3",
       "keywords": [
         "mq",
         "aws",
@@ -7935,6 +8165,12 @@
       "package": "ack-opensearchserverless-controller",
       "name": "ack-opensearchserverless-controller",
       "version": "0.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchserverless-controller",
+      "name": "ack-opensearchserverless-controller",
+      "version": "0.3.3",
       "keywords": [
         "opensearchserverless",
         "aws",
@@ -8176,6 +8412,18 @@
       "package": "ack-opensearchservice-controller",
       "name": "ack-opensearchservice-controller",
       "version": "1.2.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchservice-controller",
+      "name": "ack-opensearchservice-controller",
+      "version": "1.2.5",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchservice-controller",
+      "name": "ack-opensearchservice-controller",
+      "version": "1.3.0",
       "keywords": [
         "opensearchservice",
         "aws",
@@ -8315,6 +8563,12 @@
       "package": "ack-organizations-controller",
       "name": "ack-organizations-controller",
       "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-organizations-controller",
+      "name": "ack-organizations-controller",
+      "version": "1.2.4",
       "keywords": [
         "organizations",
         "aws",
@@ -8490,6 +8744,12 @@
       "package": "ack-pipes-controller",
       "name": "ack-pipes-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-pipes-controller",
+      "name": "ack-pipes-controller",
+      "version": "1.2.3",
       "keywords": [
         "pipes",
         "aws",
@@ -8713,6 +8973,12 @@
       "package": "ack-prometheusservice-controller",
       "name": "ack-prometheusservice-controller",
       "version": "1.4.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-prometheusservice-controller",
+      "name": "ack-prometheusservice-controller",
+      "version": "1.4.3",
       "keywords": [
         "prometheusservice",
         "aws",
@@ -8732,6 +8998,12 @@
       "package": "ack-quicksight-controller",
       "name": "ack-quicksight-controller",
       "version": "0.1.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-quicksight-controller",
+      "name": "ack-quicksight-controller",
+      "version": "0.2.1",
       "keywords": [
         "quicksight",
         "aws",
@@ -8787,6 +9059,12 @@
       "package": "ack-ram-controller",
       "name": "ack-ram-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ram-controller",
+      "name": "ack-ram-controller",
+      "version": "1.2.3",
       "keywords": [
         "ram",
         "aws",
@@ -9401,6 +9679,12 @@
       "package": "ack-recyclebin-controller",
       "name": "ack-recyclebin-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-recyclebin-controller",
+      "name": "ack-recyclebin-controller",
+      "version": "1.2.3",
       "keywords": [
         "recyclebin",
         "aws",
@@ -9594,6 +9878,12 @@
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
       "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
+      "version": "1.3.2",
       "keywords": [
         "route53",
         "aws",
@@ -9739,6 +10029,12 @@
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
+      "version": "1.2.3",
       "keywords": [
         "route53resolver",
         "aws",
@@ -10136,6 +10432,18 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.3.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.3.4",
       "keywords": [
         "s3",
         "aws",
@@ -10185,6 +10493,12 @@
       "package": "ack-s3control-controller",
       "name": "ack-s3control-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3control-controller",
+      "name": "ack-s3control-controller",
+      "version": "1.2.3",
       "keywords": [
         "s3control",
         "aws",
@@ -10450,6 +10764,12 @@
       "package": "ack-sagemaker-controller",
       "name": "ack-sagemaker-controller",
       "version": "1.7.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sagemaker-controller",
+      "name": "ack-sagemaker-controller",
+      "version": "1.7.4",
       "keywords": [
         "sagemaker",
         "aws",
@@ -10619,6 +10939,12 @@
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-secretsmanager-controller",
+      "name": "ack-secretsmanager-controller",
+      "version": "1.2.3",
       "keywords": [
         "secretsmanager",
         "aws",
@@ -10746,6 +11072,12 @@
       "package": "ack-ses-controller",
       "name": "ack-ses-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ses-controller",
+      "name": "ack-ses-controller",
+      "version": "1.2.3",
       "keywords": [
         "ses",
         "aws",
@@ -11059,6 +11391,12 @@
       "package": "ack-sfn-controller",
       "name": "ack-sfn-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sfn-controller",
+      "name": "ack-sfn-controller",
+      "version": "1.2.3",
       "keywords": [
         "sfn",
         "aws",
@@ -11336,6 +11674,18 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.4.2",
       "keywords": [
         "sns",
         "aws",
@@ -11595,6 +11945,12 @@
       "package": "ack-sqs-controller",
       "name": "ack-sqs-controller",
       "version": "1.4.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sqs-controller",
+      "name": "ack-sqs-controller",
+      "version": "1.4.3",
       "keywords": [
         "sqs",
         "aws",
@@ -11722,6 +12078,12 @@
       "package": "ack-ssm-controller",
       "name": "ack-ssm-controller",
       "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ssm-controller",
+      "name": "ack-ssm-controller",
+      "version": "1.3.2",
       "keywords": [
         "ssm",
         "aws",
@@ -11861,6 +12223,12 @@
       "package": "ack-wafv2-controller",
       "name": "ack-wafv2-controller",
       "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.3.2",
       "keywords": [
         "wafv2",
         "aws",
@@ -12010,6 +12378,12 @@
       "package": "aerospike-kubernetes-operator",
       "name": "aerospike-kubernetes-operator",
       "version": "4.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator",
+      "name": "aerospike-kubernetes-operator",
+      "version": "4.4.0",
       "keywords": [
         "Aerospike"
       ],
@@ -12421,6 +12795,12 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.1",
+      "channel": "3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.2",
       "keywords": [
         "integration",
         "streaming",
@@ -18318,6 +18698,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.11.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.11.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -20076,6 +20462,19 @@
     {
       "package": "hive-operator",
       "name": "hive-operator",
+      "version": "1.2.5181-aa1db74",
+      "keywords": [
+        "kubernetes",
+        "openshift",
+        "multi-cluster",
+        "cluster"
+      ],
+      "description": "OpenShift cluster provisioning and management at scale.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
       "version": "2.3.3039-60b8a9a",
       "keywords": [
         "kubernetes",
@@ -21521,6 +21920,23 @@
       ],
       "description": "Kubernetes operator for validating Jupyter notebooks in MLOps workflows",
       "channel": "alpha"
+    },
+    {
+      "package": "jupyter-notebook-validator-operator",
+      "name": "jupyter-notebook-validator-operator",
+      "version": "1.0.8",
+      "keywords": [
+        "jupyter",
+        "notebook",
+        "validation",
+        "mlops",
+        "machine-learning",
+        "papermill",
+        "tekton",
+        "openshift"
+      ],
+      "description": "Kubernetes operator for validating Jupyter notebooks in MLOps workflows",
+      "channel": "stable"
     },
     {
       "package": "k8gb",
@@ -23822,6 +24238,12 @@
       "package": "kruize-operator",
       "name": "kruize-operator",
       "version": "0.0.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "kruize-operator",
+      "name": "kruize-operator",
+      "version": "0.0.5",
       "keywords": [
         "monitoring",
         "resource optimization",
@@ -24427,6 +24849,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "0.10.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "0.10.1",
       "keywords": [
         "logging",
         "loki"
@@ -27953,6 +28381,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.148.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.149.0",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -31523,66 +31957,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-04",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-05",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-06",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-07",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-08",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.29.0-nightly-2026-04-09",
       "keywords": [
         "istio",
@@ -31704,6 +32078,54 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-04-18",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-19",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-20",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-21",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-24",
       "keywords": [
         "istio",
         "servicemesh",
@@ -34279,6 +34701,12 @@
       "package": "vault-config-operator",
       "name": "vault-config-operator",
       "version": "0.8.46",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
+      "version": "0.8.48",
       "keywords": [
         "security",
         "secrets",
@@ -35261,7 +35689,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4729,
+  "count": 4796,
   "source": "opm",
-  "timestamp": "2026-04-22T06:47:55.293702"
+  "timestamp": "2026-04-25T06:46:00.870555"
 }

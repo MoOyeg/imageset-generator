@@ -1245,6 +1245,12 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.17.15-cee.1",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.4-cee.1",
       "channel": "1.17"
     },
@@ -1306,6 +1312,12 @@
       "package": "clife",
       "name": "clife",
       "version": "1.18.8-cee.2",
+      "channel": "1.18"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.9-cee.1",
       "channel": "1.18"
     },
     {
@@ -2553,6 +2565,12 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
+      "version": "25.1.10",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
       "version": "25.1.10-1",
       "channel": "stable-v25.1"
     },
@@ -2603,6 +2621,12 @@
       "name": "digitalai-release-operator",
       "version": "26.1.0",
       "channel": "beta"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "26.1.1",
+      "channel": "stable-v26.1"
     },
     {
       "package": "dxoperator",
@@ -3070,6 +3094,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.11.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.11.1",
       "channel": "stable"
     },
     {
@@ -5002,12 +5032,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.19.40",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.40-beta.1",
+      "version": "8.19.50-beta.1",
       "channel": "beta"
     },
     {
@@ -5092,12 +5122,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.19.40",
-      "channel": "alpha"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.40-beta.1",
+      "version": "8.19.50-beta.1",
       "channel": "alpha"
     },
     {
@@ -6676,12 +6706,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.19.40",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.40-beta.1",
+      "version": "8.19.50-beta.1",
       "channel": "beta"
     },
     {
@@ -7318,6 +7348,18 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.29.8",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.0",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.1",
       "channel": "stable-v1"
     },
     {
@@ -7963,15 +8005,21 @@
       "channel": "alpha"
     },
     {
-      "package": "t8c-certified",
-      "name": "t8c-certified",
-      "version": "42.102.0",
-      "channel": "beta"
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "4.27.1-1",
+      "channel": "alpha"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.102.0-beta.2",
+      "version": "42.102.0",
+      "channel": "stable"
+    },
+    {
+      "package": "t8c-certified",
+      "name": "t8c-certified",
+      "version": "42.103.0-beta.1",
       "channel": "beta"
     },
     {
@@ -9241,7 +9289,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1540,
+  "count": 1548,
   "source": "opm",
-  "timestamp": "2026-04-22T06:34:50.050914"
+  "timestamp": "2026-04-25T06:33:06.711401"
 }

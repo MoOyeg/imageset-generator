@@ -3055,6 +3055,20 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
+      "version": "25.1.10",
+      "keywords": [
+        "digitalai-release-operator",
+        "digitalai",
+        "digital.ai",
+        "release",
+        "devops"
+      ],
+      "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
       "version": "25.1.10-1",
       "keywords": [
         "digitalai-release-operator",
@@ -3065,6 +3079,20 @@
       ],
       "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
       "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "26.1.1",
+      "keywords": [
+        "digitalai-release-operator",
+        "digitalai",
+        "digital.ai",
+        "release",
+        "devops"
+      ],
+      "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
+      "channel": "stable-v26.1"
     },
     {
       "package": "dxoperator",
@@ -3244,6 +3272,19 @@
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
       "version": "2026.3.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "innovation"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2026.4.1",
       "keywords": [
         "Postgres",
         "Database",
@@ -3640,6 +3681,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.11.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.11.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -6243,12 +6298,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "alpha"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.40-beta.1",
+      "version": "8.19.50-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -8945,6 +9000,19 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "4.27.1-1",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "synaxg-operator",
       "name": "synaxg-operator",
       "version": "1.2.0",
@@ -9676,7 +9744,7 @@
       "channel": "lts"
     }
   ],
-  "count": 924,
+  "count": 929,
   "source": "opm",
-  "timestamp": "2026-04-22T06:50:19.958464"
+  "timestamp": "2026-04-25T06:48:42.913051"
 }

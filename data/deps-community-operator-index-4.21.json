@@ -389,6 +389,9 @@
     "athena.services.k8s.aws/v1alpha1/WorkGroup": [
       "ack-athena-controller"
     ],
+    "autoscaling.services.k8s.aws/v1alpha1/AutoScalingGroup": [
+      "ack-autoscaling-controller"
+    ],
     "bedrock.services.k8s.aws/v1alpha1/InferenceProfile": [
       "ack-bedrock-controller"
     ],
@@ -623,6 +626,9 @@
     "emrcontainers.services.k8s.aws/v1alpha1/VirtualCluster": [
       "ack-emrcontainers-controller"
     ],
+    "emrserverless.services.k8s.aws/v1alpha1/Application": [
+      "ack-emrserverless-controller"
+    ],
     "eventbridge.services.k8s.aws/v1alpha1/Archive": [
       "ack-eventbridge-controller"
     ],
@@ -774,6 +780,9 @@
       "ack-prometheusservice-controller"
     ],
     "quicksight.services.k8s.aws/v1alpha1/DataSource": [
+      "ack-quicksight-controller"
+    ],
+    "quicksight.services.k8s.aws/v1alpha1/DataSet": [
       "ack-quicksight-controller"
     ],
     "ram.services.k8s.aws/v1alpha1/Permission": [
@@ -2417,6 +2426,9 @@
     "operator.jumpstarter.dev/v1alpha1/Jumpstarter": [
       "jumpstarter-operator"
     ],
+    "mlops.mlops.dev/v1alpha1/NotebookValidationJob": [
+      "jupyter-notebook-validator-operator"
+    ],
     "k8gb.absa.oss/v1beta1/Gslb": [
       "k8gb"
     ],
@@ -2581,6 +2593,9 @@
     ],
     "korrel8r.openshift.io/v1alpha1/Korrel8r": [
       "korrel8r"
+    ],
+    "kruize.io/v1alpha1/Kruize": [
+      "kruize-operator"
     ],
     "kuadrant.io/v1beta2/AuthPolicy": [
       "kuadrant-operator"
@@ -4242,5 +4257,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-22T06:50:40.637466"
+  "timestamp": "2026-04-25T06:49:03.150339"
 }

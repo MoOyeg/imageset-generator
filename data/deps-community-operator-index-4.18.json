@@ -438,6 +438,9 @@
     "athena.services.k8s.aws/v1alpha1/WorkGroup": [
       "ack-athena-controller"
     ],
+    "autoscaling.services.k8s.aws/v1alpha1/AutoScalingGroup": [
+      "ack-autoscaling-controller"
+    ],
     "bedrock.services.k8s.aws/v1alpha1/InferenceProfile": [
       "ack-bedrock-controller"
     ],
@@ -672,6 +675,9 @@
     "emrcontainers.services.k8s.aws/v1alpha1/VirtualCluster": [
       "ack-emrcontainers-controller"
     ],
+    "emrserverless.services.k8s.aws/v1alpha1/Application": [
+      "ack-emrserverless-controller"
+    ],
     "eventbridge.services.k8s.aws/v1alpha1/Archive": [
       "ack-eventbridge-controller"
     ],
@@ -823,6 +829,9 @@
       "ack-prometheusservice-controller"
     ],
     "quicksight.services.k8s.aws/v1alpha1/DataSource": [
+      "ack-quicksight-controller"
+    ],
+    "quicksight.services.k8s.aws/v1alpha1/DataSet": [
       "ack-quicksight-controller"
     ],
     "ram.services.k8s.aws/v1alpha1/Permission": [
@@ -4498,5 +4507,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-22T06:46:08.310970"
+  "timestamp": "2026-04-25T06:44:28.319105"
 }

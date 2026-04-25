@@ -5863,6 +5863,12 @@
       "channel": "stable"
     },
     {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.4.0",
+      "channel": "stable"
+    },
+    {
       "package": "cryostat-operator",
       "name": "cryostat-operator",
       "version": "2.1.0",
@@ -6538,6 +6544,12 @@
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.14",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.15",
       "channel": "alpha"
     },
     {
@@ -8801,6 +8813,12 @@
       "name": "gatekeeper-operator-product",
       "version": "3.20.0",
       "channel": "3.20"
+    },
+    {
+      "package": "gatekeeper-operator-product",
+      "name": "gatekeeper-operator-product",
+      "version": "3.21.0",
+      "channel": "3.21"
     },
     {
       "package": "gcp-filestore-csi-driver-operator",
@@ -12277,6 +12295,12 @@
       "channel": "stable-v8.1"
     },
     {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.1",
+      "channel": "stable-v8.1"
+    },
+    {
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.7.0",
@@ -12868,6 +12892,12 @@
       "package": "multicluster-engine",
       "name": "multicluster-engine",
       "version": "2.6.1",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
+      "version": "2.6.10",
       "channel": "stable-2.6"
     },
     {
@@ -16695,6 +16725,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.18.5",
+      "channel": "gitops-1.18"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.19.0",
       "channel": "gitops-1.19"
     },
@@ -16713,6 +16749,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.19.3",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.20.0",
       "channel": "gitops-1.20"
     },
@@ -16720,6 +16762,12 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.20.1",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.20.2",
       "channel": "gitops-1.20"
     },
     {
@@ -25033,7 +25081,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4172,
+  "count": 4180,
   "source": "opm",
-  "timestamp": "2026-04-22T06:37:26.835000"
+  "timestamp": "2026-04-25T06:36:06.256871"
 }

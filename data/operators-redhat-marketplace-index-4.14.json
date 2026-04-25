@@ -99,6 +99,12 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "channel": "alpha"
     },
@@ -1873,6 +1879,12 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "4.27.1-1",
+      "channel": "alpha"
+    },
+    {
       "package": "t8c-certified-rhmp",
       "name": "t8c-certified-rhmp",
       "version": "42.2.0",
@@ -1987,7 +1999,7 @@
       "channel": "lts"
     }
   ],
-  "count": 331,
+  "count": 333,
   "source": "opm",
-  "timestamp": "2026-04-22T06:36:03.981713"
+  "timestamp": "2026-04-25T06:34:35.689861"
 }
