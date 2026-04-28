@@ -2769,6 +2769,9 @@
     "charts.kubecost.com/v1alpha1/CostAnalyzer": [
       "kubecost"
     ],
+    "kubernaut.ai/v1alpha1/Kubernaut": [
+      "kubernaut-operator"
+    ],
     "che.eclipse.org/v1alpha1/KubernetesImagePuller": [
       "kubernetes-imagepuller-operator"
     ],
@@ -3978,6 +3981,21 @@
     "zookeeper.streamnative.io/v1alpha1/ZooKeeperCluster": [
       "sn-operator"
     ],
+    "k8s.streamnative.io/v1alpha1/Connection": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/Coordinator": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/KafkaCluster": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/KafkaRestProxy": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/SnSchemaRegistry": [
+      "sn-operator"
+    ],
     "snapscheduler.backube/v1/SnapshotSchedule": [
       "snapscheduler"
     ],
@@ -4540,5 +4558,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-25T06:47:41.693115"
+  "timestamp": "2026-04-28T06:49:10.139507"
 }

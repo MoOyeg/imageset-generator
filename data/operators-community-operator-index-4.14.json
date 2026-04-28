@@ -427,6 +427,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-acmpca-controller",
+      "name": "ack-acmpca-controller",
+      "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-apigateway-controller",
       "name": "ack-apigateway-controller",
       "version": "0.0.1",
@@ -5917,6 +5923,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-iam-controller",
+      "name": "ack-iam-controller",
+      "version": "1.6.3",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
       "version": "0.0.10",
@@ -7101,6 +7113,12 @@
     {
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
+      "version": "1.12.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
       "version": "1.12.2",
       "channel": "alpha"
     },
@@ -7918,6 +7936,12 @@
       "package": "ack-networkfirewall-controller",
       "name": "ack-networkfirewall-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-networkfirewall-controller",
+      "name": "ack-networkfirewall-controller",
+      "version": "1.2.3",
       "channel": "alpha"
     },
     {
@@ -9262,6 +9286,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.7.10",
       "channel": "alpha"
     },
     {
@@ -12304,6 +12334,12 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.2",
+      "channel": "3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.3",
       "channel": "3.x"
     },
     {
@@ -24687,6 +24723,12 @@
     {
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
+      "version": "0.150.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
       "version": "0.21.0",
       "channel": "alpha"
     },
@@ -27436,37 +27478,13 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.0",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-09",
-      "channel": "1.29-nightly"
+      "channel": "stable"
     },
     {
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.29.1",
       "channel": "stable"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-10",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-11",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-12",
-      "channel": "1.30-nightly"
     },
     {
       "package": "sailoperator",
@@ -27526,6 +27544,24 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-04-24",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-26",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-27",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-28",
       "channel": "1.30-nightly"
     },
     {
@@ -27964,6 +28000,12 @@
       "package": "sn-operator",
       "name": "sn-operator",
       "version": "0.14.8",
+      "channel": "alpha"
+    },
+    {
+      "package": "sn-operator",
+      "name": "sn-operator",
+      "version": "0.17.18",
       "channel": "alpha"
     },
     {
@@ -30631,7 +30673,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5105,
+  "count": 5112,
   "source": "opm",
-  "timestamp": "2026-04-25T06:34:06.548801"
+  "timestamp": "2026-04-28T06:34:51.728989"
 }

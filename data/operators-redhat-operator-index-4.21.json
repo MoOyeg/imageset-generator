@@ -16787,6 +16787,23 @@
       "channel": "candidate"
     },
     {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.21.6",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
       "package": "kueue-operator",
       "name": "kueue-operator",
       "version": "1.2.0",
@@ -30857,6 +30874,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.8.11",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.8.2",
       "keywords": [
         "advanced-cluster-security",
@@ -33612,6 +33650,43 @@
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "2.25.5",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
+      "version": "2.25.6",
       "keywords": [
         "Operator",
         "OpenShift",
@@ -39546,6 +39621,16 @@
       "channel": "4.21"
     },
     {
+      "package": "topology-aware-lifecycle-manager",
+      "name": "topology-aware-lifecycle-manager",
+      "version": "4.21.2",
+      "keywords": [
+        "acm lifecyclemanagement upgrades cluster"
+      ],
+      "description": "The topology aware lifecycle manager is an operator that facilitates platform upgrades of group of clusters",
+      "channel": "4.21"
+    },
+    {
       "package": "trustee-operator",
       "name": "trustee-operator",
       "version": "0.3.0",
@@ -40372,7 +40457,7 @@
       "channel": "stable"
     }
   ],
-  "count": 2833,
+  "count": 2837,
   "source": "opm",
-  "timestamp": "2026-04-25T06:48:23.608517"
+  "timestamp": "2026-04-28T06:49:53.373162"
 }

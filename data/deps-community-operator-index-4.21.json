@@ -2624,6 +2624,9 @@
     "charts.kubecost.com/v1alpha1/CostAnalyzer": [
       "kubecost"
     ],
+    "kubernaut.ai/v1alpha1/Kubernaut": [
+      "kubernaut-operator"
+    ],
     "che.eclipse.org/v1alpha1/KubernetesImagePuller": [
       "kubernetes-imagepuller-operator"
     ],
@@ -3304,6 +3307,15 @@
     ],
     "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
       "percona-server-mongodb-operator"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQL": [
+      "percona-server-mysql-operator"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLBackup": [
+      "percona-server-mysql-operator"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLRestore": [
+      "percona-server-mysql-operator"
     ],
     "pxc.percona.com/v1/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator"
@@ -4257,5 +4269,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-25T06:49:03.150339"
+  "timestamp": "2026-04-28T06:50:32.936648"
 }

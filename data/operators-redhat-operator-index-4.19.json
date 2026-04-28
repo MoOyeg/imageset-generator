@@ -21262,6 +21262,23 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.19.23",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.19.3",
       "keywords": [
         "KubeVirt",
@@ -21502,6 +21519,16 @@
       "package": "lifecycle-agent",
       "name": "lifecycle-agent",
       "version": "4.19.2",
+      "keywords": [
+        "upgrade"
+      ],
+      "description": "The Lifecycle Agent for OpenShift provides local lifecycle management services for Single Node Openshift (SNO) clusters.",
+      "channel": "4.19"
+    },
+    {
+      "package": "lifecycle-agent",
+      "name": "lifecycle-agent",
+      "version": "4.19.3",
       "keywords": [
         "upgrade"
       ],
@@ -40466,6 +40493,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.8.11",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.8.2",
       "keywords": [
         "advanced-cluster-security",
@@ -43416,6 +43464,43 @@
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "2.25.5",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
+      "version": "2.25.6",
       "keywords": [
         "Operator",
         "OpenShift",
@@ -51793,7 +51878,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3716,
+  "count": 3720,
   "source": "opm",
-  "timestamp": "2026-04-25T06:45:19.798523"
+  "timestamp": "2026-04-28T06:46:36.561408"
 }

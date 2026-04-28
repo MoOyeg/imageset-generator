@@ -806,7 +806,13 @@
     "kubernetes.kurrent.io/v1/KurrentDBBackupSchedule": [
       "kurrentdb-operator"
     ],
+    "storage.lightbitslabs.com/v1/CSIDriver": [
+      "lightbits-operator"
+    ],
     "storage.lightbitslabs.com/v1alpha1/CSIDriver": [
+      "lightbits-operator"
+    ],
+    "storage.lightbitslabs.com/v1/Cluster": [
       "lightbits-operator"
     ],
     "storage.lightbitslabs.com/v1alpha1/Cluster": [
@@ -1381,5 +1387,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-25T06:50:34.795386"
+  "timestamp": "2026-04-28T06:51:28.529995"
 }

@@ -23012,6 +23012,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.8.11",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.8.2",
       "keywords": [
         "advanced-cluster-security",
@@ -28316,7 +28337,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1968,
+  "count": 1969,
   "source": "opm",
-  "timestamp": "2026-04-25T06:50:17.079700"
+  "timestamp": "2026-04-28T06:51:11.441816"
 }

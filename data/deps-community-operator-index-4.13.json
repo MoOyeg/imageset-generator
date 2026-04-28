@@ -3852,6 +3852,21 @@
     "pulsar.streamnative.io/v1alpha1/PulsarFunctionsWorker": [
       "sn-operator"
     ],
+    "k8s.streamnative.io/v1alpha1/Connection": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/Coordinator": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/KafkaCluster": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/KafkaRestProxy": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/SnSchemaRegistry": [
+      "sn-operator"
+    ],
     "snapscheduler.backube/v1/SnapshotSchedule": [
       "snapscheduler"
     ],
@@ -4420,5 +4435,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-04-25T06:30:32.254779"
+  "timestamp": "2026-04-28T06:31:30.558486"
 }

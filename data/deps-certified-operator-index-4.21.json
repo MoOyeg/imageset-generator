@@ -1057,7 +1057,13 @@
     "kubernetes.kurrent.io/v1/KurrentDBBackupSchedule": [
       "kurrentdb-operator"
     ],
+    "storage.lightbitslabs.com/v1/CSIDriver": [
+      "lightbits-operator"
+    ],
     "storage.lightbitslabs.com/v1alpha1/CSIDriver": [
+      "lightbits-operator"
+    ],
+    "storage.lightbitslabs.com/v1/Cluster": [
       "lightbits-operator"
     ],
     "storage.lightbitslabs.com/v1alpha1/Cluster": [
@@ -1417,6 +1423,15 @@
     ],
     "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
       "percona-server-mongodb-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQL": [
+      "percona-server-mysql-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLBackup": [
+      "percona-server-mysql-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLRestore": [
+      "percona-server-mysql-operator-certified"
     ],
     "pxc.percona.com/v1/PerconaXtraDBCluster": [
       "percona-xtradb-cluster-operator-certified"
@@ -1896,5 +1911,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-25T06:48:43.258414"
+  "timestamp": "2026-04-28T06:50:12.832453"
 }

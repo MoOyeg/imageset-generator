@@ -440,6 +440,12 @@
       "package": "ack-acmpca-controller",
       "name": "ack-acmpca-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-acmpca-controller",
+      "name": "ack-acmpca-controller",
+      "version": "1.2.3",
       "keywords": [
         "acmpca",
         "aws",
@@ -6116,6 +6122,12 @@
       "package": "ack-iam-controller",
       "name": "ack-iam-controller",
       "version": "1.6.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-iam-controller",
+      "name": "ack-iam-controller",
+      "version": "1.6.3",
       "keywords": [
         "iam",
         "aws",
@@ -7332,6 +7344,12 @@
     {
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
+      "version": "1.12.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
       "version": "1.12.2",
       "keywords": [
         "lambda",
@@ -8164,6 +8182,12 @@
       "package": "ack-networkfirewall-controller",
       "name": "ack-networkfirewall-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-networkfirewall-controller",
+      "name": "ack-networkfirewall-controller",
+      "version": "1.2.3",
       "keywords": [
         "networkfirewall",
         "aws",
@@ -9569,6 +9593,19 @@
     {
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
+      "version": "1.7.10",
+      "keywords": [
+        "rds",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS RDS controller is a service controller for managing RDS resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
       "version": "1.7.2",
       "channel": "alpha"
     },
@@ -9606,13 +9643,6 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.9",
-      "keywords": [
-        "rds",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS RDS controller is a service controller for managing RDS resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -12861,6 +12891,23 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.2",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.3",
       "keywords": [
         "integration",
         "streaming",
@@ -28482,6 +28529,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.149.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.150.0",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -29466,6 +29519,19 @@
       "package": "patterns-operator",
       "name": "patterns-operator",
       "version": "0.0.71",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.72",
       "keywords": [
         "Validated",
         "Pattern",
@@ -32062,19 +32128,7 @@
         "envoy"
       ],
       "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.29.0-nightly-2026-04-09",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.29-nightly"
+      "channel": "stable"
     },
     {
       "package": "sailoperator",
@@ -32087,42 +32141,6 @@
       ],
       "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
       "channel": "stable"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-10",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-11",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-12",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
     },
     {
       "package": "sailoperator",
@@ -32236,6 +32254,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-04-24",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-26",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-27",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-28",
       "keywords": [
         "istio",
         "servicemesh",
@@ -32786,6 +32840,12 @@
       "package": "sn-operator",
       "name": "sn-operator",
       "version": "0.14.8",
+      "channel": "alpha"
+    },
+    {
+      "package": "sn-operator",
+      "name": "sn-operator",
+      "version": "0.17.18",
       "keywords": [
         "streamnative",
         "pulsar"
@@ -36055,7 +36115,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4897,
+  "count": 4905,
   "source": "opm",
-  "timestamp": "2026-04-25T06:43:00.588359"
+  "timestamp": "2026-04-28T06:43:42.713715"
 }

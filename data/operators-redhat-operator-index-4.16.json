@@ -11529,6 +11529,12 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.16.37",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.16.4",
       "channel": "stable"
     },
@@ -11596,6 +11602,12 @@
       "package": "lifecycle-agent",
       "name": "lifecycle-agent",
       "version": "4.16.5",
+      "channel": "4.16"
+    },
+    {
+      "package": "lifecycle-agent",
+      "name": "lifecycle-agent",
+      "version": "4.16.6",
       "channel": "4.16"
     },
     {
@@ -22713,6 +22725,12 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.8.11",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.8.2",
       "channel": "rhacs-4.10"
     },
@@ -23722,6 +23740,12 @@
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "2.25.5",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
+      "version": "2.25.6",
       "channel": "alpha"
     },
     {
@@ -27895,7 +27919,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4649,
+  "count": 4653,
   "source": "opm",
-  "timestamp": "2026-04-25T06:39:49.806666"
+  "timestamp": "2026-04-28T06:40:22.523985"
 }

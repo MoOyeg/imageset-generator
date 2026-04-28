@@ -4519,6 +4519,19 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "25.1.10",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "25.1.2",
       "channel": "stable-v25.1"
     },
@@ -4568,6 +4581,19 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "25.3.5",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable-v25.3"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "26.1.0",
       "keywords": [
         "digitalai",
@@ -4577,6 +4603,19 @@
       ],
       "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
       "channel": "beta"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "26.1.1",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable-v26.1"
     },
     {
       "package": "digitalai-release-operator",
@@ -4793,6 +4832,20 @@
       ],
       "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
       "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
+      "version": "25.3.5",
+      "keywords": [
+        "digitalai-release-operator",
+        "digitalai",
+        "digital.ai",
+        "release",
+        "devops"
+      ],
+      "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
+      "channel": "stable-v25.3"
     },
     {
       "package": "digitalai-release-operator",
@@ -5431,6 +5484,32 @@
     {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
+      "version": "0.0.2",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "release-testing"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.0.3",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "release-testing"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
       "version": "0.4.3",
       "keywords": [
         "ai",
@@ -5444,7 +5523,7 @@
     {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
-      "version": "0.7.1",
+      "version": "0.6.1",
       "keywords": [
         "ai",
         "security",
@@ -5624,6 +5703,21 @@
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
       "version": "8.2.1",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.2.2",
       "keywords": [
         "postgres",
         "postgresql",
@@ -9504,7 +9598,7 @@
     {
       "package": "lightbits-operator",
       "name": "lightbits-operator",
-      "version": "1.2.2",
+      "version": "1.3.0",
       "keywords": [
         "csi",
         "storage",
@@ -15905,7 +15999,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1515,
+  "count": 1522,
   "source": "opm",
-  "timestamp": "2026-04-25T06:42:40.407327"
+  "timestamp": "2026-04-28T06:43:21.183210"
 }
