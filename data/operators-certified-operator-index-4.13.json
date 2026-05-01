@@ -195,7 +195,7 @@
     {
       "package": "appdynamics-operator",
       "name": "appdynamics-operator",
-      "version": "26.3.0-1323",
+      "version": "26.4.0-1345",
       "channel": "stable"
     },
     {
@@ -2511,6 +2511,12 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.11.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.9.2",
       "channel": "stable"
     },
@@ -2889,7 +2895,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "channel": "alpha"
     },
     {
@@ -2939,6 +2945,18 @@
       "name": "hibernation-operator",
       "version": "0.1.103",
       "channel": "release-0.1"
+    },
+    {
+      "package": "hpe-csi-operator",
+      "name": "hpe-csi-operator",
+      "version": "2.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "hpe-csi-operator",
+      "name": "hpe-csi-operator",
+      "version": "2.4.1",
+      "channel": "stable"
     },
     {
       "package": "hpe-csi-operator",
@@ -3027,7 +3045,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.2",
+      "version": "2.24.3",
       "channel": "beta"
     },
     {
@@ -3063,7 +3081,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.2",
+      "version": "2.24.3",
       "channel": "beta"
     },
     {
@@ -4323,8 +4341,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.40",
-      "channel": "stable"
+      "version": "8.19.50",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -4407,8 +4425,8 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.40",
-      "channel": "stable"
+      "version": "8.19.50",
+      "channel": "alpha"
     },
     {
       "package": "mediation-openstack-operator",
@@ -4947,7 +4965,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "channel": "alpha"
     },
     {
@@ -5823,8 +5841,8 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.40",
-      "channel": "stable"
+      "version": "8.19.50",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -6487,6 +6505,18 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.2",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.3",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seldon-operator-certified",
       "name": "seldon-operator-certified",
       "version": "1.16.0-0",
@@ -6867,8 +6897,8 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.102.0",
-      "channel": "stable"
+      "version": "42.103.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
@@ -8191,7 +8221,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1365,
+  "count": 1370,
   "source": "opm",
-  "timestamp": "2026-04-28T06:30:44.699957"
+  "timestamp": "2026-05-01T06:29:41.821790"
 }

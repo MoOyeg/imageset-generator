@@ -1866,7 +1866,7 @@
     {
       "package": "eda-k8s-operator",
       "name": "eda-k8s-operator",
-      "version": "5.0.0",
+      "version": "6.0.0",
       "keywords": [
         "EDA Connect",
         "K8s Controller",
@@ -2207,7 +2207,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "keywords": [
         "gitops",
         "harness",
@@ -2319,7 +2319,7 @@
     {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.18.0",
+      "version": "1.18.1",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -3457,12 +3457,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.40",
+      "version": "8.19.50",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "alpha"
     },
     {
       "package": "mediation-openstack-operator",
@@ -3907,7 +3907,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -4540,7 +4540,7 @@
     {
       "package": "open-liberty-certified",
       "name": "open-liberty-certified",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "Open Liberty",
         "MicroProfile",
@@ -4774,7 +4774,7 @@
     {
       "package": "runtime-component-operator-certified",
       "name": "runtime-component-operator-certified",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "Runtime Component",
         "Application Runtime",
@@ -5213,6 +5213,20 @@
       "channel": "6.1.x"
     },
     {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.0",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.x"
+    },
+    {
       "package": "vast-csi-operator",
       "name": "vast-csi-operator",
       "version": "2.6.4",
@@ -5533,7 +5547,7 @@
       "channel": "lts"
     }
   ],
-  "count": 638,
+  "count": 639,
   "source": "opm",
-  "timestamp": "2026-04-28T06:51:28.322849"
+  "timestamp": "2026-05-01T06:49:14.374269"
 }

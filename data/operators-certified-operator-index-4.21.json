@@ -1215,7 +1215,7 @@
     {
       "package": "cisco-intersight",
       "name": "cisco-intersight",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "keywords": [
         "Cisco",
         "Intersight",
@@ -2105,7 +2105,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.2.1",
+      "version": "3.2.2",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -2265,6 +2265,146 @@
       ],
       "description": "",
       "channel": "preview"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.7.0-5",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.7.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.7.1-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.7.1"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.8.0-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.8.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.8.0-2",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.8.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.8.1-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.8.1"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.8.1-2",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.8.1"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.0-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.0-2",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.0-3",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.1-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.1"
     },
     {
       "package": "cp-fko",
@@ -3312,7 +3452,7 @@
     {
       "package": "eda-k8s-operator",
       "name": "eda-k8s-operator",
-      "version": "5.0.0",
+      "version": "6.0.0",
       "keywords": [
         "EDA Connect",
         "K8s Controller",
@@ -3593,6 +3733,19 @@
       "channel": "stable"
     },
     {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.7.2",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -3774,6 +3927,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.11.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.11.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -4307,7 +4474,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "keywords": [
         "gitops",
         "harness",
@@ -4419,7 +4586,20 @@
     {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.18.0",
+      "version": "1.17.3",
+      "keywords": [
+        "Hitachi",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing Hitachi Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "hspc-operator",
+      "name": "hspc-operator",
+      "version": "1.18.1",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -4456,7 +4636,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.2",
+      "version": "2.24.3",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -4467,7 +4647,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.2",
+      "version": "2.24.3",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -5871,6 +6051,18 @@
       "channel": "5.3.x"
     },
     {
+      "package": "kedify-agent-helm-operator",
+      "name": "kedify-agent-helm-operator",
+      "version": "0.5.4",
+      "keywords": [
+        "autoscaling",
+        "keda",
+        "kedify"
+      ],
+      "description": "Kedify Autoscaler, powered by proven open source technologies and KEDA, is an enterprise-grade service that allows teams to autoscale any workload using various event sources including HTTP events",
+      "channel": "stable"
+    },
+    {
       "package": "kubeblocks",
       "name": "kubeblocks",
       "version": "1.0.1",
@@ -6384,12 +6576,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.40",
+      "version": "8.19.50",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "alpha"
     },
     {
       "package": "mediation-openstack-operator",
@@ -6963,7 +7155,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -7464,6 +7656,17 @@
       "channel": "stable"
     },
     {
+      "package": "nvidia-network-operator",
+      "name": "nvidia-network-operator",
+      "version": "26.1.0",
+      "keywords": [
+        "sriov",
+        "networking"
+      ],
+      "description": "Deploy and manage NVIDIA networking resources in Kubernetes",
+      "channel": "stable"
+    },
+    {
       "package": "nxiq-operator-certified",
       "name": "nxiq-operator-certified",
       "version": "1.197.0-1",
@@ -7607,7 +7810,7 @@
     {
       "package": "open-liberty-certified",
       "name": "open-liberty-certified",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "Open Liberty",
         "MicroProfile",
@@ -8662,7 +8865,7 @@
     {
       "package": "runtime-component-operator-certified",
       "name": "runtime-component-operator-certified",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "Runtime Component",
         "Application Runtime",
@@ -9507,6 +9710,20 @@
       "channel": "6.1.x"
     },
     {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.0",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.x"
+    },
+    {
       "package": "vast-csi-operator",
       "name": "vast-csi-operator",
       "version": "2.6.4",
@@ -9851,7 +10068,7 @@
       "channel": "lts"
     }
   ],
-  "count": 937,
+  "count": 953,
   "source": "opm",
-  "timestamp": "2026-04-28T06:50:12.473898"
+  "timestamp": "2026-05-01T06:47:59.898565"
 }

@@ -504,6 +504,57 @@
     "conjur.cyberark.com/v1/ConjurFollower": [
       "conjur-follower-operator"
     ],
+    "couchbase.com/v2/CouchbaseAutoscaler": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBackup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBackupRestore": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCluster": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCollection": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCollectionGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseEphemeralBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseMemcachedBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseMigrationReplication": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseReplication": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseRoleBinding": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseScope": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseScopeGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseUser": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseEncryptionKey": [
+      "couchbase-enterprise-certified"
+    ],
     "flink.apache.org/v1beta1/FlinkDeployment": [
       "cp-fko"
     ],
@@ -856,10 +907,10 @@
     "ezmeral.hpe.com/v1/HPEEzmeralNFSCSIDriver": [
       "hpe-ezmeral-csi-operator"
     ],
-    "csi.hitachi.com/v1/GadPairAction": [
+    "csi.hitachi.com/v1/HSPC": [
       "hspc-operator"
     ],
-    "csi.hitachi.com/v1/HSPC": [
+    "csi.hitachi.com/v1/GadPairAction": [
       "hspc-operator"
     ],
     "csi.ibm.com/v1/HostDefiner": [
@@ -951,6 +1002,9 @@
     ],
     "triliovault.trilio.io/v1/TrilioVaultManager": [
       "k8s-triliovault"
+    ],
+    "charts.kedify.io/v1alpha1/KedifyAgent": [
+      "kedify-agent-helm-operator"
     ],
     "apps.kubeblocks.io/v1/Cluster": [
       "kubeblocks"
@@ -1911,5 +1965,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-28T06:50:12.832453"
+  "timestamp": "2026-05-01T06:48:00.270012"
 }

@@ -19642,6 +19642,20 @@
       "channel": "stable"
     },
     {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.7",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "integrity-shield-operator",
       "name": "integrity-shield-operator",
       "version": "0.3.0",
@@ -21960,6 +21974,23 @@
       "package": "kubernaut-operator",
       "name": "kubernaut-operator",
       "version": "1.3.3",
+      "keywords": [
+        "kubernaut",
+        "remediation",
+        "ai",
+        "openshift",
+        "kubernetes",
+        "alertmanager",
+        "sre",
+        "aiops"
+      ],
+      "description": "Automated Kubernetes remediation powered by AI \u2014 detects issues, analyzes root causes, and executes verified fixes.",
+      "channel": "candidate-v1"
+    },
+    {
+      "package": "kubernaut-operator",
+      "name": "kubernaut-operator",
+      "version": "1.3.4",
       "keywords": [
         "kubernaut",
         "remediation",
@@ -29120,7 +29151,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4214,
+  "count": 4216,
   "source": "opm",
-  "timestamp": "2026-04-28T06:52:07.987395"
+  "timestamp": "2026-05-01T06:49:32.606312"
 }

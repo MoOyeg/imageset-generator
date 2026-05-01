@@ -19369,6 +19369,18 @@
       "channel": "stable"
     },
     {
+      "package": "ibm-block-csi-operator-community",
+      "name": "ibm-block-csi-operator-community",
+      "version": "1.13.2",
+      "keywords": [
+        "IBM",
+        "BlockStorage",
+        "CSI"
+      ],
+      "description": "Run IBM block storage CSI driver.",
+      "channel": "stable"
+    },
+    {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
       "version": "22.10.0",
@@ -20003,6 +20015,20 @@
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.5.6",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.7",
       "keywords": [
         "infinispan",
         "key value",
@@ -22405,6 +22431,21 @@
     {
       "package": "konflux-operator",
       "name": "konflux-operator",
+      "version": "0.1.11",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
       "version": "0.1.2",
       "keywords": [
         "build",
@@ -22616,6 +22657,21 @@
       "package": "konflux-operator",
       "name": "konflux-operator",
       "version": "0.2.0-rc.1",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.0-rc.2",
       "keywords": [
         "build",
         "release",
@@ -23520,6 +23576,23 @@
       "package": "kubernaut-operator",
       "name": "kubernaut-operator",
       "version": "1.3.3",
+      "keywords": [
+        "kubernaut",
+        "remediation",
+        "ai",
+        "openshift",
+        "kubernetes",
+        "alertmanager",
+        "sre",
+        "aiops"
+      ],
+      "description": "Automated Kubernetes remediation powered by AI \u2014 detects issues, analyzes root causes, and executes verified fixes.",
+      "channel": "candidate-v1"
+    },
+    {
+      "package": "kubernaut-operator",
+      "name": "kubernaut-operator",
+      "version": "1.3.4",
       "keywords": [
         "kubernaut",
         "remediation",
@@ -30704,42 +30777,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-13",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-14",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-15",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-04-16",
       "keywords": [
         "istio",
@@ -30849,6 +30886,30 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-04-28",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-30",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-01",
       "keywords": [
         "istio",
         "servicemesh",
@@ -34025,7 +34086,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4577,
+  "count": 4581,
   "source": "opm",
-  "timestamp": "2026-04-28T06:50:32.181863"
+  "timestamp": "2026-05-01T06:48:19.129593"
 }

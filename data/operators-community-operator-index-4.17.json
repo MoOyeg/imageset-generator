@@ -21781,6 +21781,20 @@
       "channel": "stable"
     },
     {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.7",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "integrity-shield-operator",
       "name": "integrity-shield-operator",
       "version": "0.3.0",
@@ -32145,42 +32159,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-13",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-14",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-15",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-04-16",
       "keywords": [
         "istio",
@@ -32290,6 +32268,30 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-04-28",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-04-30",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-01",
       "keywords": [
         "istio",
         "servicemesh",
@@ -35718,6 +35720,20 @@
       "channel": "beta"
     },
     {
+      "package": "virt-git-sync",
+      "name": "virt-git-sync",
+      "version": "0.1.0",
+      "keywords": [
+        "kubevirt",
+        "virtualmachine",
+        "git",
+        "gitops",
+        "argocd"
+      ],
+      "description": "GitOps for KubeVirt VirtualMachines with ArgoCD integration",
+      "channel": "alpha"
+    },
+    {
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "0.0.1",
@@ -36115,7 +36131,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4905,
+  "count": 4906,
   "source": "opm",
-  "timestamp": "2026-04-28T06:43:42.713715"
+  "timestamp": "2026-05-01T06:42:24.987201"
 }

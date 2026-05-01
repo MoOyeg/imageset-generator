@@ -375,6 +375,12 @@
     "updateservice.operator.openshift.io/v1/UpdateService": [
       "cincinnati-operator"
     ],
+    "config.openshift.io/v1alpha1/Plugin": [
+      "cli-manager"
+    ],
+    "operator.openshift.io/v1/CliManager": [
+      "cli-manager"
+    ],
     "logging.openshift.io/v1alpha1/LogFileMetricExporter": [
       "cluster-logging"
     ],
@@ -1546,5 +1552,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-04-28T06:51:12.648481"
+  "timestamp": "2026-05-01T06:48:58.619362"
 }

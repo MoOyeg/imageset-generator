@@ -1229,7 +1229,7 @@
     {
       "package": "cisco-intersight",
       "name": "cisco-intersight",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "keywords": [
         "Cisco",
         "Intersight",
@@ -2507,7 +2507,7 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.2.1",
+      "version": "3.2.2",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -3951,7 +3951,7 @@
     {
       "package": "eda-k8s-operator",
       "name": "eda-k8s-operator",
-      "version": "5.0.0",
+      "version": "6.0.0",
       "keywords": [
         "EDA Connect",
         "K8s Controller",
@@ -4313,6 +4313,19 @@
       "channel": "stable"
     },
     {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.7.2",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -4449,6 +4462,36 @@
       "channel": "stable"
     },
     {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.2.3",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
+      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
+      "version": "8.1.4",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
+      "channel": "stable"
+    },
+    {
       "package": "function-mesh",
       "name": "function-mesh",
       "version": "0.7.0",
@@ -4493,6 +4536,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.11.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.11.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -5184,7 +5241,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "keywords": [
         "gitops",
         "harness",
@@ -5281,6 +5338,19 @@
     {
       "package": "hpe-csi-operator",
       "name": "hpe-csi-operator",
+      "version": "3.0.2",
+      "keywords": [
+        "HPE",
+        "HPE CSI",
+        "HPE Storage",
+        "CSI"
+      ],
+      "description": "A Container Storage Interface (CSI) driver for HPE storage platforms. The CSI driver allows you to use HPE storage with your preferred container orchestrator.",
+      "channel": "stable"
+    },
+    {
+      "package": "hpe-csi-operator",
+      "name": "hpe-csi-operator",
       "version": "3.1.0",
       "keywords": [
         "HPE",
@@ -5322,7 +5392,20 @@
     {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.18.0",
+      "version": "1.17.3",
+      "keywords": [
+        "Hitachi",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing Hitachi Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "hspc-operator",
+      "name": "hspc-operator",
+      "version": "1.18.1",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -5425,7 +5508,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.2",
+      "version": "2.24.3",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -5436,7 +5519,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.2",
+      "version": "2.24.3",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -6903,6 +6986,18 @@
       "channel": "5.3.x"
     },
     {
+      "package": "kedify-agent-helm-operator",
+      "name": "kedify-agent-helm-operator",
+      "version": "0.5.4",
+      "keywords": [
+        "autoscaling",
+        "keda",
+        "kedify"
+      ],
+      "description": "Kedify Autoscaler, powered by proven open source technologies and KEDA, is an enterprise-grade service that allows teams to autoscale any workload using various event sources including HTTP events",
+      "channel": "stable"
+    },
+    {
       "package": "keysight-loadcore-agents",
       "name": "keysight-loadcore-agents",
       "version": "0.1.21",
@@ -7455,12 +7550,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.40",
+      "version": "8.19.50",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "alpha"
     },
     {
       "package": "mediation-openstack-operator",
@@ -8041,7 +8136,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -8721,7 +8816,7 @@
     {
       "package": "open-liberty-certified",
       "name": "open-liberty-certified",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "Open Liberty",
         "MicroProfile",
@@ -9902,19 +9997,7 @@
     {
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
-      "version": "0.3.1",
-      "channel": "candidate"
-    },
-    {
-      "package": "rbln-npu-operator",
-      "name": "rbln-npu-operator",
-      "version": "0.3.3",
-      "channel": "candidate"
-    },
-    {
-      "package": "rbln-npu-operator",
-      "name": "rbln-npu-operator",
-      "version": "0.3.4",
+      "version": "0.4.0",
       "keywords": [
         "rebellions",
         "ai",
@@ -10152,7 +10235,7 @@
     {
       "package": "runtime-component-operator-certified",
       "name": "runtime-component-operator-certified",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "Runtime Component",
         "Application Runtime",
@@ -10864,6 +10947,32 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.30.1",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.2",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.3",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -11896,6 +12005,20 @@
       "channel": "6.1.x"
     },
     {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.0",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.x"
+    },
+    {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
       "version": "2026.3.1-2",
@@ -12203,6 +12326,12 @@
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.68.2",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
       "channel": "beta"
     },
     {
@@ -12344,7 +12473,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1143,
+  "count": 1151,
   "source": "opm",
-  "timestamp": "2026-04-28T06:48:33.645737"
+  "timestamp": "2026-05-01T06:46:39.041796"
 }

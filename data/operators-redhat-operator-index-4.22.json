@@ -2329,6 +2329,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.3-7",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "keywords": [
         "kafka",
@@ -2743,6 +2760,26 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.3-14",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.3-16",
       "keywords": [
         "kafka",
         "messaging",
@@ -5769,6 +5806,24 @@
     {
       "package": "businessautomation-operator",
       "name": "businessautomation-operator",
+      "version": "7.13.5-21",
+      "keywords": [
+        "kieapp",
+        "pam",
+        "decision",
+        "kie",
+        "cloud",
+        "bpm",
+        "process",
+        "automation",
+        "operator"
+      ],
+      "description": "Deploys and manages Red Hat Process Automation Manager and Red Hat Decision Manager environments.",
+      "channel": "stable"
+    },
+    {
+      "package": "businessautomation-operator",
+      "name": "businessautomation-operator",
       "version": "7.13.5-3",
       "keywords": [
         "kieapp",
@@ -6110,6 +6165,28 @@
       ],
       "description": "Creates and maintains an OpenShift Update Service instance",
       "channel": "v1"
+    },
+    {
+      "package": "cli-manager",
+      "name": "cli-manager",
+      "version": "0.1.1",
+      "keywords": [
+        "cli-manager-operator",
+        "cli-manager"
+      ],
+      "description": "The CLI Manager is a comprehensive tool designed to simplify the management of \\nOpenShift CLI plugins within the OpenShift environment. \\nModeled after the popular krew plugin manager, it offers seamless integration, \\neasy installation, and efficient handling of a wide array of plugins, \\nenhancing your OpenShift command-line experience.\\n",
+      "channel": "tech-preview"
+    },
+    {
+      "package": "cli-manager",
+      "name": "cli-manager",
+      "version": "0.2.0",
+      "keywords": [
+        "cli-manager-operator",
+        "cli-manager"
+      ],
+      "description": "The CLI Manager is a comprehensive tool designed to simplify the management of \\nOpenShift CLI plugins within the OpenShift environment. \\nModeled after the popular krew plugin manager, it offers seamless integration, \\neasy installation, and efficient handling of a wide array of plugins, \\nenhancing your OpenShift command-line experience.\\n",
+      "channel": "tech-preview"
     },
     {
       "package": "cluster-logging",
@@ -13342,6 +13419,19 @@
     {
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
+      "version": "1.0.12",
+      "keywords": [
+        "ai",
+        "assistant",
+        "openshift",
+        "llm"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "lightspeed-operator",
+      "name": "lightspeed-operator",
       "version": "1.0.8",
       "keywords": [
         "ai",
@@ -16048,6 +16138,18 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.20.2",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.20.3",
       "keywords": [
         "devtools",
         "gitops",
@@ -20365,6 +20467,19 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "1.3.1",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "1.3.1+0.1776877589.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -26699,6 +26814,18 @@
     {
       "package": "servicemeshoperator",
       "name": "servicemeshoperator",
+      "version": "2.6.15-0",
+      "keywords": [
+        "istio",
+        "maistra",
+        "servicemesh"
+      ],
+      "description": "The OpenShift Service Mesh 2 Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh 2.6 and earlier releases. OpenShift Service Mesh 2 is based on the open source Istio project.",
+      "channel": "1.0"
+    },
+    {
+      "package": "servicemeshoperator",
+      "name": "servicemeshoperator",
       "version": "2.6.2-0",
       "keywords": [
         "istio",
@@ -27833,6 +27960,21 @@
       "channel": "stable"
     },
     {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.15.1",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "web-terminal",
       "name": "web-terminal",
       "version": "1.10.0",
@@ -28337,7 +28479,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1969,
+  "count": 1979,
   "source": "opm",
-  "timestamp": "2026-04-28T06:51:11.441816"
+  "timestamp": "2026-05-01T06:48:57.403769"
 }

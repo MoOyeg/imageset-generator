@@ -749,46 +749,60 @@
       "falcon-operator"
     ],
     "fep.fujitsu.io/v1/FEPAction": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPAutoscale": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPBackup": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPCert": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v2/FEPCluster": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPConfig": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPExporter": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPLogging": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPPgpool2": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPPgpool2Cert": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPRestore": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPUpgrade": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPUser": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "fep.fujitsu.io/v1/FEPVolume": [
-      "fujitsu-enterprise-postgres-operator"
+      "fujitsu-enterprise-postgres-operator",
+      "fujitsu-enterprise-postgres-operator-with-cg-module"
     ],
     "compute.functionmesh.io/v1alpha1/Function": [
       "function-mesh"
@@ -913,10 +927,10 @@
     "storage.hpe.com/v1/HPEGreenLakeFileCSIDriver": [
       "hpe-filex-csi-operator"
     ],
-    "csi.hitachi.com/v1/GadPairAction": [
+    "csi.hitachi.com/v1/HSPC": [
       "hspc-operator"
     ],
-    "csi.hitachi.com/v1/HSPC": [
+    "csi.hitachi.com/v1/GadPairAction": [
       "hspc-operator"
     ],
     "hulft.saison-technology.com/v1/Hulft": [
@@ -1023,6 +1037,9 @@
     ],
     "triliovault.trilio.io/v1/TrilioVaultManager": [
       "k8s-triliovault"
+    ],
+    "charts.kedify.io/v1alpha1/KedifyAgent": [
+      "kedify-agent-helm-operator"
     ],
     "app.loadcore.keysight.com/v1alpha1/Agents": [
       "keysight-loadcore-agents"
@@ -2226,5 +2243,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-04-28T06:48:34.142485"
+  "timestamp": "2026-05-01T06:46:39.532587"
 }
