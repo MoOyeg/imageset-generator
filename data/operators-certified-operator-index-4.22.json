@@ -4793,6 +4793,42 @@
       "channel": "v1.6"
     },
     {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "0.2.0",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "0.3.0",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
       "package": "sriov-fec",
       "name": "sriov-fec",
       "version": "2.10.0",
@@ -5547,7 +5583,7 @@
       "channel": "lts"
     }
   ],
-  "count": 639,
+  "count": 641,
   "source": "opm",
-  "timestamp": "2026-05-01T06:49:14.374269"
+  "timestamp": "2026-05-04T06:58:46.344886"
 }

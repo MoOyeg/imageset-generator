@@ -3746,6 +3746,32 @@
       "channel": "stable"
     },
     {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.8.0",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.8.1",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -6433,6 +6459,19 @@
       "channel": "stable"
     },
     {
+      "package": "kubedb-installer",
+      "name": "kubedb-installer",
+      "version": "2026.4.27",
+      "keywords": [
+        "kubedb",
+        "dbaas",
+        "openshift",
+        "kubernetes"
+      ],
+      "description": "Database-as-a-Service (DBaaS) Anywhere with Any Storage",
+      "channel": "stable"
+    },
+    {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
       "version": "1.5.0",
@@ -8899,6 +8938,42 @@
       "channel": "alpha"
     },
     {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "0.2.0",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "0.3.0",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
       "package": "spyre-operator",
       "name": "spyre-operator",
       "version": "1.2.1",
@@ -10068,7 +10143,7 @@
       "channel": "lts"
     }
   ],
-  "count": 953,
+  "count": 958,
   "source": "opm",
-  "timestamp": "2026-05-01T06:47:59.898565"
+  "timestamp": "2026-05-04T06:57:28.749946"
 }

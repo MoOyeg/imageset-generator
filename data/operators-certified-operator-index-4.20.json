@@ -4261,6 +4261,21 @@
       "channel": "stable"
     },
     {
+      "package": "exascaler-csi-driver-operator",
+      "name": "exascaler-csi-driver-operator",
+      "version": "2.8.1",
+      "keywords": [
+        "CSI",
+        "Lustre",
+        "EXAScaler",
+        "HPC",
+        "AI",
+        "High-Performance Computing"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
       "version": "0.0.2",
@@ -4316,6 +4331,32 @@
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
       "version": "0.7.2",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.8.0",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.8.1",
       "keywords": [
         "ai",
         "security",
@@ -4648,6 +4689,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.1",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.2",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -7397,6 +7452,19 @@
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
+      "keywords": [
+        "kubedb",
+        "dbaas",
+        "openshift",
+        "kubernetes"
+      ],
+      "description": "Database-as-a-Service (DBaaS) Anywhere with Any Storage",
+      "channel": "stable"
+    },
+    {
+      "package": "kubedb-installer",
+      "name": "kubedb-installer",
+      "version": "2026.4.27",
       "keywords": [
         "kubedb",
         "dbaas",
@@ -11019,6 +11087,42 @@
       "channel": "stable"
     },
     {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "0.2.0",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "0.3.0",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
       "package": "sn-operator",
       "name": "sn-operator",
       "version": "0.14.8",
@@ -12473,7 +12577,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1151,
+  "count": 1158,
   "source": "opm",
-  "timestamp": "2026-05-01T06:46:39.041796"
+  "timestamp": "2026-05-04T06:56:06.741514"
 }

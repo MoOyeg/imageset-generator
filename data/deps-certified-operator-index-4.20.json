@@ -730,6 +730,9 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
+    "charts.ddn.com/v1alpha1/ExaCsi": [
+      "exascaler-csi-driver-operator"
+    ],
     "ai.security.f5.com/v1alpha1/SecurityOperator": [
       "f5-ai-security-operator"
     ],
@@ -1690,6 +1693,36 @@
     "scylla.scylladb.com/v1alpha1/ScyllaOperatorConfig": [
       "scylladb-operator"
     ],
+    "storage.simplyblock.io/v1alpha1/BackupRestore": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/Device": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/Lvol": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/Pool": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/SnapshotReplication": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageBackup": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageCluster": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNode": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/Task": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/BackupPolicy": [
+      "simplyblock-operator"
+    ],
     "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
       "sn-operator"
     ],
@@ -2243,5 +2276,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-01T06:46:39.532587"
+  "timestamp": "2026-05-04T06:56:07.218295"
 }

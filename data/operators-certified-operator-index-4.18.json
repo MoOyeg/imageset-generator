@@ -5433,7 +5433,7 @@
     {
       "package": "exascaler-csi-driver-operator",
       "name": "exascaler-csi-driver-operator",
-      "version": "2.7.0",
+      "version": "2.8.1",
       "keywords": [
         "CSI",
         "Lustre",
@@ -5501,6 +5501,32 @@
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
       "version": "0.7.2",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.8.0",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.8.1",
       "keywords": [
         "ai",
         "security",
@@ -5914,6 +5940,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.1",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.2",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -9540,6 +9580,19 @@
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
+      "keywords": [
+        "kubedb",
+        "dbaas",
+        "openshift",
+        "kubernetes"
+      ],
+      "description": "Database-as-a-Service (DBaaS) Anywhere with Any Storage",
+      "channel": "stable"
+    },
+    {
+      "package": "kubedb-installer",
+      "name": "kubedb-installer",
+      "version": "2026.4.27",
       "keywords": [
         "kubedb",
         "dbaas",
@@ -16210,7 +16263,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1531,
+  "count": 1535,
   "source": "opm",
-  "timestamp": "2026-05-01T06:43:32.897826"
+  "timestamp": "2026-05-04T06:53:15.159532"
 }
