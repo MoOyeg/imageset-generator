@@ -1432,6 +1432,12 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.3.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -3073,6 +3079,12 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.11.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.12.0",
       "keywords": [
         "ec2",
         "aws",
@@ -7969,6 +7981,19 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-mwaa-controller",
+      "name": "ack-mwaa-controller",
+      "version": "0.1.0",
+      "keywords": [
+        "mwaa",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "Amazon Managed Workflows for Apache Airflow controller is a service controller for managing Amazon Managed Workflows for Apache Airflow resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-networkfirewall-controller",
       "name": "ack-networkfirewall-controller",
       "version": "1.1.0",
@@ -8908,6 +8933,12 @@
       "package": "ack-quicksight-controller",
       "name": "ack-quicksight-controller",
       "version": "0.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-quicksight-controller",
+      "name": "ack-quicksight-controller",
+      "version": "0.3.0",
       "keywords": [
         "quicksight",
         "aws",
@@ -12207,17 +12238,6 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.2",
-      "keywords": [
-        "integration",
-        "streaming",
-        "messaging",
-        "api",
-        "schemas",
-        "registry",
-        "apicurio",
-        "apicurio-registry"
-      ],
-      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.x"
     },
     {
@@ -13959,6 +13979,50 @@
       "channel": "stable"
     },
     {
+      "package": "cat-facts-operator",
+      "name": "cat-facts-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "Cats",
+        "Cool"
+      ],
+      "description": "Combining Hybrid-Cloud Technology With Cats",
+      "channel": "stable"
+    },
+    {
+      "package": "cat-facts-operator",
+      "name": "cat-facts-operator",
+      "version": "1.1.0",
+      "keywords": [
+        "Cats",
+        "Cool"
+      ],
+      "description": "Combining Hybrid-Cloud Technology With Cats",
+      "channel": "stable"
+    },
+    {
+      "package": "cat-facts-operator",
+      "name": "cat-facts-operator",
+      "version": "1.1.1",
+      "keywords": [
+        "Cats",
+        "Cool"
+      ],
+      "description": "Combining Hybrid-Cloud Technology With Cats",
+      "channel": "stable"
+    },
+    {
+      "package": "cat-facts-operator",
+      "name": "cat-facts-operator",
+      "version": "1.1.2",
+      "keywords": [
+        "Cats",
+        "Cool"
+      ],
+      "description": "Combining Hybrid-Cloud Technology With Cats",
+      "channel": "stable"
+    },
+    {
       "package": "cert-manager",
       "name": "cert-manager",
       "version": "1.10.0",
@@ -15502,6 +15566,12 @@
       "package": "datadog-operator",
       "name": "datadog-operator",
       "version": "1.25.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
+      "version": "1.26.0",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -16341,6 +16411,12 @@
       "package": "eclipse-che",
       "name": "eclipse-che",
       "version": "7.116.0",
+      "channel": "stable"
+    },
+    {
+      "package": "eclipse-che",
+      "name": "eclipse-che",
+      "version": "7.117.0",
       "keywords": [
         "eclipse che",
         "workspaces",
@@ -18219,6 +18295,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.2",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -20399,7 +20481,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20413,7 +20495,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20427,7 +20509,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20441,7 +20523,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20455,7 +20537,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20469,7 +20551,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20483,7 +20565,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20497,7 +20579,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20511,7 +20593,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20525,7 +20607,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20539,7 +20621,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20553,7 +20635,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20567,7 +20649,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20581,7 +20663,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20595,7 +20677,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20609,7 +20691,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20623,7 +20705,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20637,7 +20719,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20651,7 +20733,7 @@
         "open source"
       ],
       "description": "Create and manage Infinispan clusters.",
-      "channel": "stable"
+      "channel": "2.4.x"
     },
     {
       "package": "infinispan",
@@ -20755,6 +20837,34 @@
       "package": "infinispan",
       "name": "infinispan",
       "version": "2.5.7",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.8",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
+      "version": "2.5.9",
       "keywords": [
         "infinispan",
         "key value",
@@ -23159,6 +23269,51 @@
     {
       "package": "konflux-operator",
       "name": "konflux-operator",
+      "version": "0.1.10",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.11",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.12",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
       "version": "0.1.2",
       "keywords": [
         "build",
@@ -23370,6 +23525,36 @@
       "package": "konflux-operator",
       "name": "konflux-operator",
       "version": "0.2.0-rc.1",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.0-rc.2",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.0-rc.3",
       "keywords": [
         "build",
         "release",
@@ -25290,6 +25475,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.13.2",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.14.0",
       "keywords": [
         "MongoDB",
         "Atlas",
@@ -26399,6 +26590,12 @@
       "package": "neuvector-community-operator",
       "name": "neuvector-community-operator",
       "version": "1.5.8",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-community-operator",
+      "name": "neuvector-community-operator",
+      "version": "1.5.9",
       "keywords": [
         "monitoring",
         "wavefront",
@@ -29476,246 +29673,156 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.0",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230913",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230914",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230915",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230916",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230917",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230918",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230919",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230920",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230921",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230922",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230923",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230925",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230926",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230928",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230929",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20230930",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231002",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231005",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231006",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231007",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231008",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231009",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231010",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231011",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231012",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231013",
-      "channel": "candidate-3.10"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.10.0-nightly.20231014",
       "keywords": [
         "open source",
         "containers",
         "registry"
       ],
       "description": "Opinionated deployment of Quay on Kubernetes.",
-      "channel": "candidate-3.10"
+      "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.11",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.12",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.13",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.14",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.15",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.16",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.17",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.18",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.19",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
@@ -29734,72 +29841,144 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.5",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.8",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.10.9",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.10"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.11",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.12",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
@@ -29818,96 +29997,192 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.5",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.8",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.11.9",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.11"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.11",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.12",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.13",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.14",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.15",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
@@ -29926,66 +30201,132 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.5",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.8",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.9",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.12"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
@@ -30004,84 +30345,168 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.5",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.8",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.13.9",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.13"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.14.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.14"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.14.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.14"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.14.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.14"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.14.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.14"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.14.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.14"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.14.5",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.14"
     },
     {
@@ -30100,24 +30525,48 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.15.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.15"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.15.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.15"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.15.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.15"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.15.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.15"
     },
     {
@@ -30136,18 +30585,36 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.16.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.16"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.16.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.16"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.16.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.16"
     },
     {
@@ -30166,6 +30633,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.17.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.17"
     },
     {
@@ -30197,48 +30670,36 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.7.0",
-      "channel": "preview-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.0-rc.1",
-      "channel": "preview-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.0-rc.2",
-      "channel": "preview-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.0-rc.3",
-      "channel": "preview-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.0-rc.4",
       "keywords": [
         "open source",
         "containers",
         "registry"
       ],
       "description": "Opinionated deployment of Quay on Kubernetes.",
-      "channel": "preview-3.7"
+      "channel": "stable-3.7"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.7.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.7"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.7.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.7"
     },
     {
@@ -30257,126 +30718,156 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.7.2",
-      "channel": "stable-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.3",
-      "channel": "stable-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.4",
-      "channel": "stable-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.5",
-      "channel": "stable-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.6",
-      "channel": "stable-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.7",
-      "channel": "stable-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.8",
-      "channel": "stable-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.7.9",
-      "channel": "stable-3.7"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.0",
-      "channel": "preview-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.0-rc.1",
-      "channel": "preview-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.0-rc.2",
-      "channel": "preview-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.0-rc.3",
-      "channel": "preview-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.0-rc.4",
-      "channel": "preview-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.0-rc.5",
-      "channel": "preview-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.0-rc.6",
-      "channel": "preview-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.0-rc.7",
       "keywords": [
         "open source",
         "containers",
         "registry"
       ],
       "description": "Opinionated deployment of Quay on Kubernetes.",
-      "channel": "preview-3.8"
+      "channel": "stable-3.7"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.7.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.7"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.7.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.7"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.7.5",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.7"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.7.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.7"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.7.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.7"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.7.8",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.7"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.7.9",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.7"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.8.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.8"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.8.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.8"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.8.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.8"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.8.11",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.8"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.8.12",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.8"
     },
     {
@@ -30395,198 +30886,240 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.8.2",
-      "channel": "stable-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.3",
-      "channel": "stable-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.4",
-      "channel": "stable-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.5",
-      "channel": "stable-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.6",
-      "channel": "stable-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.7",
-      "channel": "stable-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.8.8",
-      "channel": "stable-3.8"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230711",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230712",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230714",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230715",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230716",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230717",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230720",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230721",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230722",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230723",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230724",
-      "channel": "candidate-3.9"
-    },
-    {
-      "package": "project-quay",
-      "name": "project-quay",
-      "version": "3.9.0-nightly.20230812",
       "keywords": [
         "open source",
         "containers",
         "registry"
       ],
       "description": "Opinionated deployment of Quay on Kubernetes.",
-      "channel": "candidate-3.9"
+      "channel": "stable-3.8"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.8.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.8"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.8.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.8"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.8.5",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.8"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.8.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.8"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.8.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.8"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.8.8",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.8"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.9.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.10",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.11",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.12",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.13",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.14",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.15",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.16",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.17",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.18",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.19",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
@@ -30605,30 +31138,60 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.5",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.9",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.9"
     },
     {
@@ -31721,38 +32284,14 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-19",
+      "version": "1.29.2",
       "keywords": [
         "istio",
         "servicemesh",
         "envoy"
       ],
       "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-20",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-04-21",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
+      "channel": "stable"
     },
     {
       "package": "sailoperator",
@@ -31854,6 +32393,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-04",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-05",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-06",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-07",
       "keywords": [
         "istio",
         "servicemesh",
@@ -32462,6 +33037,12 @@
       "package": "sn-operator",
       "name": "sn-operator",
       "version": "0.17.18",
+      "channel": "alpha"
+    },
+    {
+      "package": "sn-operator",
+      "name": "sn-operator",
+      "version": "0.18.3",
       "keywords": [
         "streamnative",
         "pulsar"
@@ -34589,6 +35170,12 @@
       "package": "verticadb-operator",
       "name": "verticadb-operator",
       "version": "26.1.2-0",
+      "channel": "v2-stable"
+    },
+    {
+      "package": "verticadb-operator",
+      "name": "verticadb-operator",
+      "version": "26.2.0-0",
       "keywords": [
         "database",
         "vertica"
@@ -34948,6 +35535,12 @@
       "package": "virt-git-sync",
       "name": "virt-git-sync",
       "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "virt-git-sync",
+      "name": "virt-git-sync",
+      "version": "0.1.4",
       "keywords": [
         "kubevirt",
         "virtualmachine",
@@ -35356,7 +35949,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4691,
+  "count": 4665,
   "source": "opm",
-  "timestamp": "2026-05-04T06:56:26.551530"
+  "timestamp": "2026-05-07T06:56:01.402887"
 }

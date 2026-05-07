@@ -1,5 +1,25 @@
 {
   "dependencies": {
+    "alloydb-omni-operator-certified": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "cert-manager.io",
+          "kind": "Certificate",
+          "version": "v1"
+        },
+        {
+          "group": "cert-manager.io",
+          "kind": "ClusterIssuer",
+          "version": "v1"
+        },
+        {
+          "group": "cert-manager.io",
+          "kind": "Issuer",
+          "version": "v1"
+        }
+      ]
+    },
     "app-insights-operator": {
       "requires_packages": [
         {
@@ -304,6 +324,96 @@
     ],
     "charts.alloys.com/v1alpha1/Alloy": [
       "alloy"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Backup": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/BackupPlan": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/DBCluster": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/DBClusterHealth": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/DBInstance": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Failover": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/ImageCatalog": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/ObservabilityConfig": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/PgBouncer": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Replication": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Restore": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Sidecar": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Switchover": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/TdeConfig": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/UserDefinedAuthentication": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/BackupRepository": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/CreateStandbyJob": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/DeleteStandbyJob": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/Failover": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/Instance": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceBackup": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceBackupPlan": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceHealth": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceObservabilityConfig": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceRestore": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceSwitchover": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceUserDefinedAuthentication": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/LROJob": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/ReplicationConfig": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/Sidecar": [
+      "alloydb-omni-operator-certified"
     ],
     "amd.com/v1alpha1/DeviceConfig": [
       "amd-gpu-operator"
@@ -736,6 +846,12 @@
       "datadog-operator-certified"
     ],
     "datadoghq.com/v1alpha1/DatadogAgentInternal": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogCSIDriver": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha2/DatadogPodAutoscalerClusterProfile": [
       "datadog-operator-certified"
     ],
     "datasance.com/v3/ControlPlane": [
@@ -1253,6 +1369,15 @@
     "iomesh.com/v1alpha1/IOMeshCluster": [
       "iomesh-operator"
     ],
+    "charts.iomete.com/v1alpha1/IometeDataPlaneEnterprise": [
+      "iomete-operator"
+    ],
+    "sparkoperator.k8s.io/v1beta2/ScheduledSparkApplication": [
+      "iomete-operator"
+    ],
+    "sparkoperator.k8s.io/v1beta2/SparkApplication": [
+      "iomete-operator"
+    ],
     "ipm.intel.com/v1/CPUPowerProv": [
       "ipm-controller"
     ],
@@ -1554,6 +1679,21 @@
       "mongodb-atlas-kubernetes"
     ],
     "atlas.mongodb.com/v1/AtlasOrgSettings": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/Cluster": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/DatabaseUser": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/FlexCluster": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/Group": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/IPAccessListEntry": [
       "mongodb-atlas-kubernetes"
     ],
     "mongodb.com/v1/MongoDB": [
@@ -1999,10 +2139,28 @@
     "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
       "sn-operator"
     ],
+    "k8s.streamnative.io/v1alpha1/Agent": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/AgentEnvironment": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/AgentFile": [
+      "sn-operator"
+    ],
     "k8s.streamnative.io/v1alpha1/AgentFunction": [
       "sn-operator"
     ],
+    "k8s.streamnative.io/v1alpha1/AgentSkill": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/AgentVault": [
+      "sn-operator"
+    ],
     "k8s.streamnative.io/v1alpha1/ApiKeys": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/Connection": [
       "sn-operator"
     ],
     "k8s.streamnative.io/v1alpha1/ConnectorCatalog": [
@@ -2011,7 +2169,16 @@
     "k8s.streamnative.io/v1alpha1/Console": [
       "sn-operator"
     ],
+    "k8s.streamnative.io/v1alpha1/Coordinator": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/KafkaCluster": [
+      "sn-operator"
+    ],
     "k8s.streamnative.io/v1alpha1/KafkaConnect": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/KafkaRestProxy": [
       "sn-operator"
     ],
     "k8s.streamnative.io/v1alpha1/MqttProxy": [
@@ -2027,6 +2194,9 @@
       "sn-operator"
     ],
     "k8s.streamnative.io/v1alpha1/PulsarCoordinator": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/SnSchemaRegistry": [
       "sn-operator"
     ],
     "k8s.streamnative.io/v1alpha1/StorageCatalog": [
@@ -2582,5 +2752,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-04T06:49:14.577919"
+  "timestamp": "2026-05-07T06:49:15.220044"
 }

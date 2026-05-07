@@ -380,6 +380,15 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/AgentRuntimeEndpoint": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Gateway": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/GatewayTarget": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/WorkloadIdentity": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -501,6 +510,9 @@
       "ack-ec2-controller"
     ],
     "ec2.services.k8s.aws/v1alpha1/VPCEndpointServiceConfiguration": [
+      "ack-ec2-controller"
+    ],
+    "ec2.services.k8s.aws/v1alpha1/EgressOnlyInternetGateway": [
       "ack-ec2-controller"
     ],
     "ecr.services.k8s.aws/v1alpha1/Repository": [
@@ -716,6 +728,9 @@
     "mq.services.k8s.aws/v1alpha1/Broker": [
       "ack-mq-controller"
     ],
+    "mwaa.services.k8s.aws/v1alpha1/Environment": [
+      "ack-mwaa-controller"
+    ],
     "networkfirewall.services.k8s.aws/v1alpha1/Firewall": [
       "ack-networkfirewall-controller"
     ],
@@ -759,6 +774,12 @@
       "ack-quicksight-controller"
     ],
     "quicksight.services.k8s.aws/v1alpha1/DataSource": [
+      "ack-quicksight-controller"
+    ],
+    "quicksight.services.k8s.aws/v1alpha1/Analysis": [
+      "ack-quicksight-controller"
+    ],
+    "quicksight.services.k8s.aws/v1alpha1/Dashboard": [
       "ack-quicksight-controller"
     ],
     "ram.services.k8s.aws/v1alpha1/Permission": [
@@ -1449,6 +1470,9 @@
     "control.k8ssandra.io/v1alpha1/CassandraTask": [
       "cass-operator-community"
     ],
+    "ryanmillerc.github.io/v1alpha1/CatFact": [
+      "cat-facts-operator"
+    ],
     "acme.cert-manager.io/v1/Challenge": [
       "cert-manager"
     ],
@@ -1723,6 +1747,12 @@
       "datadog-operator"
     ],
     "datadoghq.com/v1alpha1/DatadogAgentInternal": [
+      "datadog-operator"
+    ],
+    "datadoghq.com/v1alpha1/DatadogCSIDriver": [
+      "datadog-operator"
+    ],
+    "datadoghq.com/v1alpha2/DatadogPodAutoscalerClusterProfile": [
       "datadog-operator"
     ],
     "datatrucker.datatrucker.io/v1/DatatruckerConfig": [
@@ -2674,6 +2704,21 @@
     "atlas.mongodb.com/v1/AtlasOrgSettings": [
       "mongodb-atlas-kubernetes"
     ],
+    "atlas.generated.mongodb.com/v1/Cluster": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/DatabaseUser": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/FlexCluster": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/Group": [
+      "mongodb-atlas-kubernetes"
+    ],
+    "atlas.generated.mongodb.com/v1/IPAccessListEntry": [
+      "mongodb-atlas-kubernetes"
+    ],
     "opstreelabs.in/v1alpha1/MongoDB": [
       "mongodb-operator"
     ],
@@ -3599,5 +3644,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-04T06:59:48.057441"
+  "timestamp": "2026-05-07T06:59:33.027097"
 }

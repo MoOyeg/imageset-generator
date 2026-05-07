@@ -1,5 +1,25 @@
 {
   "dependencies": {
+    "alloydb-omni-operator-certified": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "cert-manager.io",
+          "kind": "Certificate",
+          "version": "v1"
+        },
+        {
+          "group": "cert-manager.io",
+          "kind": "ClusterIssuer",
+          "version": "v1"
+        },
+        {
+          "group": "cert-manager.io",
+          "kind": "Issuer",
+          "version": "v1"
+        }
+      ]
+    },
     "infoscale-sds-operator": {
       "requires_packages": [
         {
@@ -21,6 +41,26 @@
         }
       ],
       "requires_gvks": []
+    },
+    "linstor-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "PodMonitor",
+          "version": "v1"
+        },
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "PrometheusRule",
+          "version": "v1"
+        },
+        {
+          "group": "monitoring.coreos.com",
+          "kind": "ServiceMonitor",
+          "version": "v1"
+        }
+      ]
     },
     "tenant-operator": {
       "requires_packages": [
@@ -163,6 +203,96 @@
     ],
     "aiu.ibm.com/v2/AiuNodeState": [
       "aiu-operator"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Backup": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/BackupPlan": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/DBCluster": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/DBClusterHealth": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/DBInstance": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Failover": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/ImageCatalog": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/ObservabilityConfig": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/PgBouncer": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Replication": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Restore": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Sidecar": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/Switchover": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/TdeConfig": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.dbadmin.goog/v1/UserDefinedAuthentication": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/BackupRepository": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/CreateStandbyJob": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/DeleteStandbyJob": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/Failover": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/Instance": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceBackup": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceBackupPlan": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceHealth": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceObservabilityConfig": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceRestore": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceSwitchover": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/InstanceUserDefinedAuthentication": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/LROJob": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/ReplicationConfig": [
+      "alloydb-omni-operator-certified"
+    ],
+    "alloydbomni.internal.dbadmin.goog/v1/Sidecar": [
+      "alloydb-omni-operator-certified"
     ],
     "anzo.cambridgesemantics.com/v2/Anzo": [
       "anzo-operator"
@@ -363,6 +493,12 @@
       "datadog-operator-certified"
     ],
     "datadoghq.com/v1alpha1/DatadogAgentInternal": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha1/DatadogCSIDriver": [
+      "datadog-operator-certified"
+    ],
+    "datadoghq.com/v1alpha2/DatadogPodAutoscalerClusterProfile": [
       "datadog-operator-certified"
     ],
     "xld.digital.ai/v1alpha1/DigitalaiDeploy": [
@@ -817,6 +953,18 @@
     ],
     "storage.lightbitslabs.com/v1alpha1/Cluster": [
       "lightbits-operator"
+    ],
+    "piraeus.io/v1/LinstorCluster": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorNodeConnection": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorSatellite": [
+      "linstor-operator"
+    ],
+    "piraeus.io/v1/LinstorSatelliteConfiguration": [
+      "linstor-operator"
     ],
     "enterprise.mariadb.com/v1alpha1/Backup": [
       "mariadb-enterprise-operator"
@@ -1395,6 +1543,9 @@
     "operator.victoriametrics.com/v1/VTSingle": [
       "victoriametrics-operator"
     ],
+    "csi.hpe.com/v1/GadPairAction": [
+      "xspc-operator"
+    ],
     "csi.hpe.com/v1/XSPC": [
       "xspc-operator"
     ],
@@ -1417,5 +1568,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-04T06:58:46.531524"
+  "timestamp": "2026-05-07T06:59:14.323757"
 }

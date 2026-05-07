@@ -526,6 +526,23 @@
       "channel": "alpha"
     },
     {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.7.0",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "AlloyDB Omni for Kubernetes lets you run a powerful, PostgreSQL-compatible database within your own Kubernetes environment. It packages the high-performance AlloyDB for PostgreSQL database into a container, managed by a Kubernetes operator, which simplifies deployment and operations.",
+      "channel": "stable"
+    },
+    {
       "package": "amd-gpu-operator",
       "name": "amd-gpu-operator",
       "version": "1.1.1",
@@ -920,6 +937,19 @@
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
       "version": "2022.4.868",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.874",
       "keywords": [
         "aqua-security",
         "scanning",
@@ -4112,6 +4142,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.26.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.3.0",
       "channel": "stable"
     },
@@ -5478,6 +5521,22 @@
         "logstash"
       ],
       "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server and Logstash on Kubernetes and OpenShift",
+      "channel": "stable"
+    },
+    {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.4.0",
+      "keywords": [
+        "elasticsearch",
+        "kibana",
+        "analytics",
+        "search",
+        "database",
+        "apm",
+        "logstash"
+      ],
+      "description": "Run Elasticsearch, Kibana, APM Server, Beats, Enterprise Search, Elastic Agent, Elastic Maps Server, Logstash, Elastic AutoOps Agent and Elastic Package Registry on Kubernetes and OpenShift",
       "channel": "stable"
     },
     {
@@ -6963,7 +7022,7 @@
     {
       "package": "hpe-ezmeral-csi-operator",
       "name": "hpe-ezmeral-csi-operator",
-      "version": "1.0.19",
+      "version": "1.0.20",
       "keywords": [
         "HPE",
         "HPE Ezmeral",
@@ -7042,6 +7101,18 @@
       "package": "hulft",
       "name": "hulft",
       "version": "10.5.0",
+      "keywords": [
+        "Backup & Recovery",
+        "Storage",
+        "Migration"
+      ],
+      "description": "HULFT10 for Container Platform is file integration middleware that provides transfer functions for the data accumulated in your IT system during the daily operations of your business, such as sales data, customer information, and various logs. File transfer from/to on-premises HULFT is also available.",
+      "channel": "stable"
+    },
+    {
+      "package": "hulft",
+      "name": "hulft",
+      "version": "10.6.0",
       "keywords": [
         "Backup & Recovery",
         "Storage",
@@ -8298,6 +8369,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.11",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -8401,6 +8484,21 @@
       ],
       "description": "",
       "channel": "stable"
+    },
+    {
+      "package": "iomete-operator",
+      "name": "iomete-operator",
+      "version": "0.0.6",
+      "keywords": [
+        "iomete",
+        "lakehouse",
+        "spark",
+        "iceberg",
+        "on-prem",
+        "big data"
+      ],
+      "description": "",
+      "channel": "alpha"
     },
     {
       "package": "ipm-controller",
@@ -8957,7 +9055,7 @@
     {
       "package": "kedify-agent-helm-operator",
       "name": "kedify-agent-helm-operator",
-      "version": "0.5.4",
+      "version": "0.5.5",
       "keywords": [
         "autoscaling",
         "keda",
@@ -9831,6 +9929,16 @@
     {
       "package": "linstor-operator",
       "name": "linstor-operator",
+      "version": "2.10.6",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
       "version": "2.8.1",
       "keywords": [
         "storage"
@@ -10042,6 +10150,16 @@
       ],
       "description": "",
       "channel": "alpha"
+    },
+    {
+      "package": "mediation-openstack-operator",
+      "name": "mediation-openstack-operator",
+      "version": "8.19.60-beta.1",
+      "keywords": [
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "beta"
     },
     {
       "package": "memcached-operator-ogaye",
@@ -10374,6 +10492,20 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.13.2",
+      "keywords": [
+        "MongoDB",
+        "Atlas",
+        "Database",
+        "Replica Set",
+        "Cluster"
+      ],
+      "description": "The MongoDB Atlas Kubernetes Operator enables easy management of Clusters in MongoDB Atlas",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.14.0",
       "keywords": [
         "MongoDB",
         "Atlas",
@@ -11141,30 +11273,76 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.3.4",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
       "channel": "stable-3.x"
     },
     {
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.3.8",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
       "channel": "stable-3.x"
     },
     {
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.3.9",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
       "channel": "stable-3.x"
     },
     {
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.6.0",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
       "channel": "stable-3.x"
     },
     {
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.6.1",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.7.0",
       "keywords": [
         "Nutanix",
         "CSI",
@@ -14114,7 +14292,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.14.8",
+      "version": "0.18.3",
       "keywords": [
         "streamnative",
         "pulsar"
@@ -14878,12 +15056,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.5.0-candidate-20260323111001000",
+      "version": "1.5.1-candidate-20260501180834000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -15565,6 +15743,16 @@
       "channel": "alpha"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.4.1-25",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "2026.4"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2025.10.1-12",
@@ -15673,6 +15861,16 @@
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "alpha"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.4.1-25",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "2026.4"
     },
     {
       "package": "uma-team-operator",
@@ -15795,6 +15993,16 @@
       "channel": "alpha"
     },
     {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.4.1-25",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "2026.4"
+    },
+    {
       "package": "vast-csi-operator",
       "name": "vast-csi-operator",
       "version": "2.6.4",
@@ -15903,6 +16111,18 @@
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.3.0",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.4.0",
       "keywords": [
         "vault",
         "security",
@@ -16194,7 +16414,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1535,
+  "count": 1550,
   "source": "opm",
-  "timestamp": "2026-05-04T06:51:28.439052"
+  "timestamp": "2026-05-07T06:51:21.974531"
 }

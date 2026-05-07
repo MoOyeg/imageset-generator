@@ -381,6 +381,36 @@
     "kafka.strimzi.io/v1beta2/KafkaMirrorMaker": [
       "amq-streams"
     ],
+    "core.strimzi.io/v1/StrimziPodSet": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/Kafka": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/KafkaBridge": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/KafkaConnect": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/KafkaConnector": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/KafkaMirrorMaker2": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/KafkaNodePool": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/KafkaRebalance": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/KafkaTopic": [
+      "amq-streams"
+    ],
+    "kafka.strimzi.io/v1/KafkaUser": [
+      "amq-streams"
+    ],
     "console.streamshub.github.com/v1alpha1/Console": [
       "amq-streams-console"
     ],
@@ -472,6 +502,15 @@
       "ansible-automation-platform-operator"
     ],
     "mcpserver.ansible.com/v1alpha1/AnsibleMCPServer": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsService": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceRestore": [
       "ansible-automation-platform-operator"
     ],
     "platform.ansible.com/v1alpha1/AnsibleAutomationPlatformAwsBilling": [
@@ -2425,5 +2464,5 @@
       "watcher-operator"
     ]
   },
-  "timestamp": "2026-05-04T06:48:39.067740"
+  "timestamp": "2026-05-07T06:48:37.718233"
 }
