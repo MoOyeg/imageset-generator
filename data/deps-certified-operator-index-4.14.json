@@ -1515,6 +1515,12 @@
     "app.joget.com/v1alpha1/JogetDX8": [
       "joget-dx8-operator"
     ],
+    "apik10.kasten.io/v1alpha1/K10": [
+      "k10-kasten-operator-rhmp"
+    ],
+    "apik10.kasten.io/v1alpha1/K10restore": [
+      "k10-kasten-operator-rhmp"
+    ],
     "triliovault.trilio.io/v1/TrilioVaultManager": [
       "k8s-triliovault"
     ],
@@ -2597,45 +2603,6 @@
     "crd.projectcalico.org/v1/BGPPeer": [
       "tigera-operator"
     ],
-    "crd.projectcalico.org/v1/BlockAffinity": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/ClusterInformation": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/FelixConfiguration": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/GlobalNetworkPolicy": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/GlobalNetworkSet": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/HostEndpoint": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPAMBlock": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPAMConfig": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPAMHandle": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPPool": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/KubeControllersConfiguration": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/NetworkPolicy": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/NetworkSet": [
-      "tigera-operator"
-    ],
     "operator.tigera.io/v1/ImageSet": [
       "tigera-operator"
     ],
@@ -2643,15 +2610,6 @@
       "tigera-operator"
     ],
     "operator.tigera.io/v1/TigeraStatus": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/CalicoNodeStatus": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPReservation": [
-      "tigera-operator"
-    ],
-    "operator.tigera.io/v1/APIServer": [
       "tigera-operator"
     ],
     "tm.solution-soft.com/v1alpha1/TimeMachine": [
@@ -2820,5 +2778,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-07T06:42:04.704011"
+  "timestamp": "2026-05-10T06:35:08.245853"
 }

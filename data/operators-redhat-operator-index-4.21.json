@@ -14482,6 +14482,19 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.17",
+      "keywords": [
+        "eap",
+        "java",
+        "open source",
+        "application runtime"
+      ],
+      "description": "Operator that creates and manages Java applications running on JBoss EAP.",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.2",
       "keywords": [
         "eap",
@@ -18992,6 +19005,19 @@
       "package": "mtv-operator",
       "name": "mtv-operator",
       "version": "2.11.4",
+      "keywords": [
+        "migration",
+        "forklift",
+        "konveyor",
+        "mtv"
+      ],
+      "description": "Facilitates migration of VM workloads to OpenShift Virtualization",
+      "channel": "release-v2.11"
+    },
+    {
+      "package": "mtv-operator",
+      "name": "mtv-operator",
+      "version": "2.11.5",
       "keywords": [
         "migration",
         "forklift",
@@ -41690,7 +41716,7 @@
       "channel": "stable"
     }
   ],
-  "count": 2930,
+  "count": 2932,
   "source": "opm",
-  "timestamp": "2026-05-07T06:56:45.746575"
+  "timestamp": "2026-05-10T06:50:40.534637"
 }

@@ -347,6 +347,9 @@
     "amd.com/v1alpha1/DeviceConfig": [
       "amd-gpu-operator"
     ],
+    "amd.com/v1alpha1/RemediationWorkflowStatus": [
+      "amd-gpu-operator"
+    ],
     "anzo.cambridgesemantics.com/v2/Anzo": [
       "anzo-operator"
     ],
@@ -1118,6 +1121,12 @@
     ],
     "deviceplugin.intel.com/v1/DsaDevicePlugin": [
       "intel-device-plugins-operator"
+    ],
+    "apik10.kasten.io/v1alpha1/K10": [
+      "k10-kasten-operator-rhmp"
+    ],
+    "apik10.kasten.io/v1alpha1/K10restore": [
+      "k10-kasten-operator-rhmp"
     ],
     "triliovault.trilio.io/v1/TrilioVaultManager": [
       "k8s-triliovault"
@@ -1909,69 +1918,6 @@
     "tenantoperator.stakater.com/v1beta3/Tenant": [
       "tenant-operator"
     ],
-    "crd.projectcalico.org/v1/BGPConfiguration": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/BGPPeer": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/BlockAffinity": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/ClusterInformation": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/FelixConfiguration": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/GlobalNetworkPolicy": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/GlobalNetworkSet": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/HostEndpoint": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPAMBlock": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPAMConfig": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPAMHandle": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPPool": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/KubeControllersConfiguration": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/NetworkPolicy": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/NetworkSet": [
-      "tigera-operator"
-    ],
-    "operator.tigera.io/v1/ImageSet": [
-      "tigera-operator"
-    ],
-    "operator.tigera.io/v1/Installation": [
-      "tigera-operator"
-    ],
-    "operator.tigera.io/v1/TigeraStatus": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/CalicoNodeStatus": [
-      "tigera-operator"
-    ],
-    "crd.projectcalico.org/v1/IPReservation": [
-      "tigera-operator"
-    ],
-    "operator.tigera.io/v1/APIServer": [
-      "tigera-operator"
-    ],
     "trident.netapp.io/v1/TridentOrchestrator": [
       "trident-operator"
     ],
@@ -2120,5 +2066,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-07T06:57:20.824985"
+  "timestamp": "2026-05-10T06:51:01.008593"
 }

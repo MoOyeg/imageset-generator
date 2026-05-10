@@ -18122,6 +18122,19 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.17",
+      "keywords": [
+        "eap",
+        "java",
+        "open source",
+        "application runtime"
+      ],
+      "description": "Operator that creates and manages Java applications running on JBoss EAP.",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.2",
       "keywords": [
         "eap",
@@ -26230,6 +26243,17 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "6.2.10",
+      "keywords": [
+        "logging",
+        "loki"
+      ],
+      "description": "The Loki Operator for OCP provides a means for configuring and managing a Loki stack for cluster logging.\\n## Prerequisites and Requirements\\n### Loki Operator Namespace\\nThe Loki Operator must be deployed to the global operator group namespace `openshift-operators-redhat`.\\n### Memory Considerations\\nLoki is a memory intensive application.  The initial\\nset of OCP nodes may not be large enough to support the Loki stack.  Additional OCP nodes must be added\\nto the OCP cluster if you desire to run with the recommended (or better) memory.\\n",
+      "channel": "stable-6.2"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.2.11",
       "keywords": [
         "logging",
         "loki"
@@ -60024,7 +60048,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4350,
+  "count": 4352,
   "source": "opm",
-  "timestamp": "2026-05-07T06:50:59.805727"
+  "timestamp": "2026-05-10T06:44:34.658752"
 }

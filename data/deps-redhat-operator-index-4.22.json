@@ -1329,15 +1329,6 @@
     "operator.openshift.io/v1/RunOnceDurationOverride": [
       "run-once-duration-override-operator"
     ],
-    "kataconfiguration.openshift.io/v1/KataConfig": [
-      "sandboxed-containers-operator"
-    ],
-    "confidentialcontainers.org/v1alpha1/PeerPod": [
-      "sandboxed-containers-operator"
-    ],
-    "confidentialcontainers.org/v1alpha1/PeerPodConfig": [
-      "sandboxed-containers-operator"
-    ],
     "security-profiles-operator.x-k8s.io/v1alpha1/AppArmorProfile": [
       "security-profiles-operator"
     ],
@@ -1582,5 +1573,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-05-07T06:58:57.933218"
+  "timestamp": "2026-05-10T06:52:02.375030"
 }
