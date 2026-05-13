@@ -817,6 +817,9 @@
     "logging.openshift.io/v1/Kibana": [
       "elasticsearch-operator"
     ],
+    "exploitiq.openshift.io/v1alpha1/ExploitIQStack": [
+      "exploit-iq-operator"
+    ],
     "externaldns.olm.openshift.io/v1alpha1/ExternalDNS": [
       "external-dns-operator"
     ],
@@ -2370,5 +2373,5 @@
       "watcher-operator"
     ]
   },
-  "timestamp": "2026-05-10T06:46:12.334967"
+  "timestamp": "2026-05-13T06:51:42.591476"
 }

@@ -1765,6 +1765,19 @@
       "channel": "stable"
     },
     {
+      "package": "cisco-intersight",
+      "name": "cisco-intersight",
+      "version": "1.0.2",
+      "keywords": [
+        "Cisco",
+        "Intersight",
+        "ConsolePlugin",
+        "UCS"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "clife",
       "name": "clife",
       "version": "0.0.1",
@@ -2255,6 +2268,22 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.25.8",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.25"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.26.0",
       "keywords": [
         "postgresql",
@@ -2543,6 +2572,22 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.28.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "stable-v1.28"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.29.0",
       "keywords": [
         "postgresql",
@@ -2571,6 +2616,22 @@
       ],
       "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
       "channel": "candidate"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.29.1",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "cloudnativepg",
+        "cloudnative-pg",
+        "cnp"
+      ],
+      "description": "EDB Postgres for Kubernetes is an operator designed to manage highly available PostgreSQL databases with a primary/standby architecture on any supported Kubernetes cluster.",
+      "channel": "fast"
     },
     {
       "package": "cloudbees-ci",
@@ -5718,6 +5779,17 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.13.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -7196,7 +7268,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.3",
+      "version": "2.24.4",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -7288,7 +7360,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.3",
+      "version": "2.24.4",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -10374,6 +10446,23 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.7",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.7 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -11101,6 +11190,20 @@
     {
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
+      "version": "2.14.1",
+      "keywords": [
+        "MongoDB",
+        "Atlas",
+        "Database",
+        "Replica Set",
+        "Cluster"
+      ],
+      "description": "The MongoDB Atlas Kubernetes Operator enables easy management of Clusters in MongoDB Atlas",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -11791,6 +11894,36 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.5.1",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.2",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.3",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -13535,6 +13668,21 @@
       "channel": "candidate"
     },
     {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.4.1",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "6.2.10-34",
@@ -13877,6 +14025,20 @@
       ],
       "description": "",
       "channel": "8.0.16"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "8.0.18-14.2",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.18"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -17047,7 +17209,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1595,
+  "count": 1606,
   "source": "opm",
-  "timestamp": "2026-05-10T06:46:31.367033"
+  "timestamp": "2026-05-13T06:52:02.126482"
 }

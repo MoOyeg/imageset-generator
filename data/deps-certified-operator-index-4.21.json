@@ -115,6 +115,25 @@
       ],
       "requires_gvks": []
     },
+    "pg4k-pgd": {
+      "requires_packages": [
+        {
+          "packageName": "cert-manager",
+          "versionRange": ">1.10.0"
+        },
+        {
+          "packageName": "cloud-native-postgresql",
+          "versionRange": ">=1.22.0 <1.23.0"
+        }
+      ],
+      "requires_gvks": [
+        {
+          "group": "cert-manager.io",
+          "kind": "Certificate",
+          "version": "v1"
+        }
+      ]
+    },
     "tenant-operator": {
       "requires_packages": [
         {
@@ -1035,6 +1054,9 @@
     "hulft.saison-technology.com/v1/Hulft": [
       "hulft"
     ],
+    "itrsgroup.com/v1/IAXPlatform": [
+      "iax-webhook-router"
+    ],
     "csi.ibm.com/v1/HostDefiner": [
       "ibm-block-csi-operator"
     ],
@@ -1657,6 +1679,18 @@
     "pxc.percona.com/v1/PerconaXtraDBClusterRestore": [
       "percona-xtradb-cluster-operator-certified"
     ],
+    "pgd.k8s.enterprisedb.io/v1beta1/PGDGroup": [
+      "pg4k-pgd"
+    ],
+    "pgd.k8s.enterprisedb.io/v1beta1/PGDGroupCleanup": [
+      "pg4k-pgd"
+    ],
+    "pgd.k8s.enterprisedb.io/v1beta1/ClusterImageCatalog": [
+      "pg4k-pgd"
+    ],
+    "pgd.k8s.enterprisedb.io/v1beta1/ImageCatalog": [
+      "pg4k-pgd"
+    ],
     "core.libopenstorage.org/v1/StorageCluster": [
       "portworx-certified"
     ],
@@ -1691,6 +1725,9 @@
       "raftt-operator"
     ],
     "rebellions.ai/v1beta1/RBLNClusterPolicy": [
+      "rbln-npu-operator"
+    ],
+    "rebellions.ai/v1alpha1/RBLNDriver": [
       "rbln-npu-operator"
     ],
     "app.redislabs.com/v1alpha1/RedisEnterpriseActiveActiveDatabase": [
@@ -2066,5 +2103,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-10T06:51:01.008593"
+  "timestamp": "2026-05-13T06:56:21.447370"
 }

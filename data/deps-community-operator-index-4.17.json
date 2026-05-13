@@ -909,6 +909,15 @@
     "s3control.services.k8s.aws/v1alpha1/AccessPoint": [
       "ack-s3control-controller"
     ],
+    "s3files.services.k8s.aws/v1alpha1/AccessPoint": [
+      "ack-s3files-controller"
+    ],
+    "s3files.services.k8s.aws/v1alpha1/FileSystem": [
+      "ack-s3files-controller"
+    ],
+    "s3files.services.k8s.aws/v1alpha1/MountTarget": [
+      "ack-s3files-controller"
+    ],
     "sagemaker.services.k8s.aws/v1alpha1/App": [
       "ack-sagemaker-controller"
     ],
@@ -4491,5 +4500,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-10T06:45:24.451081"
+  "timestamp": "2026-05-13T06:50:53.143013"
 }

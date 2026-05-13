@@ -2775,6 +2775,12 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.13.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -3585,7 +3591,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.3",
+      "version": "2.24.4",
       "channel": "beta"
     },
     {
@@ -3621,7 +3627,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.3",
+      "version": "2.24.4",
       "channel": "beta"
     },
     {
@@ -5341,6 +5347,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.7",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -5710,6 +5722,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.14.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.14.1",
       "channel": "stable"
     },
     {
@@ -6310,6 +6328,18 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.3",
       "channel": "alpha"
     },
     {
@@ -8421,7 +8451,7 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.104.0-beta.1",
+      "version": "42.104.0-beta.2",
       "channel": "beta"
     },
     {
@@ -9301,7 +9331,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1550,
+  "count": 1555,
   "source": "opm",
-  "timestamp": "2026-05-10T06:39:10.096285"
+  "timestamp": "2026-05-13T06:43:28.786576"
 }

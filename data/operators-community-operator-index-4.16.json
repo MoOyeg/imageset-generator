@@ -229,6 +229,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-acm-controller",
+      "name": "ack-acm-controller",
+      "version": "1.3.7",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-acmpca-controller",
       "name": "ack-acmpca-controller",
       "version": "0.0.1",
@@ -5929,6 +5935,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-iam-controller",
+      "name": "ack-iam-controller",
+      "version": "1.6.4",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
       "version": "0.0.10",
@@ -10273,6 +10285,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-s3files-controller",
+      "name": "ack-s3files-controller",
+      "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-sagemaker-controller",
       "name": "ack-sagemaker-controller",
       "version": "0.3.1",
@@ -11425,6 +11443,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.4.3",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-sqs-controller",
       "name": "ack-sqs-controller",
       "version": "0.0.1",
@@ -12352,6 +12376,12 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.3",
+      "channel": "3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.4",
       "channel": "3.x"
     },
     {
@@ -14170,6 +14200,12 @@
       "package": "clickhouse",
       "name": "clickhouse",
       "version": "0.26.2",
+      "channel": "latest"
+    },
+    {
+      "package": "clickhouse",
+      "name": "clickhouse",
+      "version": "0.27.0",
       "channel": "latest"
     },
     {
@@ -17182,6 +17218,12 @@
       "package": "flux-operator",
       "name": "flux-operator",
       "version": "0.48.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
+      "version": "0.49.0",
       "channel": "stable"
     },
     {
@@ -21433,6 +21475,12 @@
       "channel": "alpha"
     },
     {
+      "package": "kruize-operator",
+      "name": "kruize-operator",
+      "version": "0.0.6",
+      "channel": "alpha"
+    },
+    {
       "package": "kuadrant-operator",
       "name": "kuadrant-operator",
       "version": "0.10.0",
@@ -22468,6 +22516,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.14.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.14.1",
       "channel": "stable"
     },
     {
@@ -24298,6 +24352,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.150.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.151.0",
       "channel": "alpha"
     },
     {
@@ -28683,6 +28743,12 @@
     {
       "package": "vault-config-operator",
       "name": "vault-config-operator",
+      "version": "0.8.49",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
       "version": "0.8.5",
       "channel": "alpha"
     },
@@ -29611,7 +29677,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4935,
+  "count": 4946,
   "source": "opm",
-  "timestamp": "2026-05-10T06:43:27.732798"
+  "timestamp": "2026-05-13T06:48:22.619922"
 }

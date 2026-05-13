@@ -349,6 +349,21 @@
     "authorino.kuadrant.io/v1beta3/AuthConfig": [
       "authorino-operator"
     ],
+    "elbv2.k8s.aws/v1beta1/IngressClassParams": [
+      "aws-load-balancer-operator"
+    ],
+    "elbv2.k8s.aws/v1alpha1/TargetGroupBinding": [
+      "aws-load-balancer-operator"
+    ],
+    "elbv2.k8s.aws/v1beta1/TargetGroupBinding": [
+      "aws-load-balancer-operator"
+    ],
+    "networking.olm.openshift.io/v1/AWSLoadBalancerController": [
+      "aws-load-balancer-operator"
+    ],
+    "networking.olm.openshift.io/v1alpha1/AWSLoadBalancerController": [
+      "aws-load-balancer-operator"
+    ],
     "app.kiegroup.org/v2/KieApp": [
       "bamoe-businessautomation-operator",
       "businessautomation-operator"
@@ -578,6 +593,12 @@
     ],
     "wildfly.org/v1alpha1/WildFlyServer": [
       "eap"
+    ],
+    "externaldns.olm.openshift.io/v1alpha1/ExternalDNS": [
+      "external-dns-operator"
+    ],
+    "externaldns.olm.openshift.io/v1beta1/ExternalDNS": [
+      "external-dns-operator"
     ],
     "fence-agents-remediation.medik8s.io/v1alpha1/FenceAgentsRemediation": [
       "fence-agents-remediation"
@@ -1573,5 +1594,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-05-10T06:52:02.375030"
+  "timestamp": "2026-05-13T06:57:23.832931"
 }
