@@ -2557,6 +2557,66 @@
     "tenantoperator.stakater.com/v1beta3/Tenant": [
       "tenant-operator"
     ],
+    "crd.projectcalico.org/v1/BGPConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/BGPPeer": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/BlockAffinity": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/CalicoNodeStatus": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/ClusterInformation": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/FelixConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/GlobalNetworkPolicy": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/GlobalNetworkSet": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/HostEndpoint": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMBlock": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMConfig": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMHandle": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPPool": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPReservation": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/KubeControllersConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/NetworkPolicy": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/NetworkSet": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/ImageSet": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/Installation": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/TigeraStatus": [
+      "tigera-operator"
+    ],
     "tm.solution-soft.com/v1alpha1/TimeMachine": [
       "timemachine-operator"
     ],
@@ -2723,5 +2783,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-13T06:43:30.967046"
+  "timestamp": "2026-05-16T06:38:46.870032"
 }

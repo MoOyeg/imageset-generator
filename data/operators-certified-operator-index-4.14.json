@@ -213,6 +213,12 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.7.11",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.7.2",
       "channel": "4.7"
     },
@@ -2265,6 +2271,12 @@
     {
       "package": "dell-csm-operator-certified",
       "name": "dell-csm-operator-certified",
+      "version": "1.10.2",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
       "version": "1.4.4",
       "channel": "stable"
     },
@@ -3183,6 +3195,12 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
+      "version": "2.11.3",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
       "version": "2.9.2",
       "channel": "stable"
     },
@@ -3609,7 +3627,7 @@
     {
       "package": "hazelcast-platform-operator",
       "name": "hazelcast-platform-operator",
-      "version": "5.16.0",
+      "version": "5.17.0",
       "channel": "alpha"
     },
     {
@@ -5613,8 +5631,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.50",
-      "channel": "stable"
+      "version": "8.19.60",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -5709,14 +5727,14 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.50",
+      "version": "8.19.50-beta.1",
       "channel": "alpha"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.50-beta.1",
-      "channel": "alpha"
+      "version": "8.19.60",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -7329,8 +7347,8 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.50",
-      "channel": "stable"
+      "version": "8.19.60",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -7999,6 +8017,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.8",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -8649,8 +8673,8 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.103.0",
-      "channel": "stable"
+      "version": "42.104.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
@@ -9273,14 +9297,14 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.4.0-15",
-      "channel": "alpha"
+      "version": "2026.4.1-25",
+      "channel": "2026.4"
     },
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.4.1-25",
-      "channel": "2026.4"
+      "version": "2026.5.0-6",
+      "channel": "alpha"
     },
     {
       "package": "uma-operator",
@@ -9405,14 +9429,14 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.4.0-15",
-      "channel": "alpha"
+      "version": "2026.4.1-25",
+      "channel": "2026.4"
     },
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.4.1-25",
-      "channel": "2026.4"
+      "version": "2026.5.0-6",
+      "channel": "alpha"
     },
     {
       "package": "uma-team-operator",
@@ -9537,14 +9561,14 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.4.0-15",
-      "channel": "alpha"
+      "version": "2026.4.1-25",
+      "channel": "2026.4"
     },
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.4.1-25",
-      "channel": "2026.4"
+      "version": "2026.5.0-6",
+      "channel": "alpha"
     },
     {
       "package": "vast-csi-operator",
@@ -9877,7 +9901,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1646,
+  "count": 1650,
   "source": "opm",
-  "timestamp": "2026-05-13T06:39:59.023179"
+  "timestamp": "2026-05-16T06:34:49.354098"
 }

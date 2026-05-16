@@ -11883,6 +11883,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.4",
+      "keywords": [
+        "openshift",
+        "dns",
+        "externaldns",
+        "operator"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
       "package": "fence-agents-remediation",
       "name": "fence-agents-remediation",
       "version": "0.1.0",
@@ -13883,6 +13896,57 @@
       "channel": "stable"
     },
     {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.21.1",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "stable"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.21.3",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "stable"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.21.6",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "stable"
+    },
+    {
       "package": "kueue-operator",
       "name": "kueue-operator",
       "version": "1.3.1",
@@ -15018,6 +15082,23 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.11.1",
+      "keywords": [
+        "netobserv",
+        "ebpf",
+        "ipfix",
+        "netflows",
+        "flows",
+        "topology",
+        "network",
+        "observability"
+      ],
+      "description": "Network flows collector and monitoring solution",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.11.2",
       "keywords": [
         "netobserv",
         "ebpf",
@@ -29248,7 +29329,7 @@
       "channel": "fast"
     }
   ],
-  "count": 2032,
+  "count": 2037,
   "source": "opm",
-  "timestamp": "2026-05-13T06:57:22.521603"
+  "timestamp": "2026-05-16T06:51:29.758198"
 }

@@ -62,6 +62,15 @@
         }
       ]
     },
+    "operator-certification-operator": {
+      "requires_packages": [
+        {
+          "packageName": "openshift-pipelines-operator-rh",
+          "versionRange": ">=1.5.2"
+        }
+      ],
+      "requires_gvks": []
+    },
     "tenant-operator": {
       "requires_packages": [
         {
@@ -1213,6 +1222,9 @@
     "charts.helm.k8s.io/v1/OpenshiftArtifactoryHa": [
       "openshiftartifactoryha-operator"
     ],
+    "certification.redhat.com/v1alpha1/OperatorPipeline": [
+      "operator-certification-operator"
+    ],
     "charts.helm.k8s.io/v1/Prometurbo": [
       "prometurbo-certified"
     ],
@@ -1363,6 +1375,66 @@
     "tenantoperator.stakater.com/v1beta3/Tenant": [
       "tenant-operator"
     ],
+    "crd.projectcalico.org/v1/BGPConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/BGPPeer": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/BlockAffinity": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/CalicoNodeStatus": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/ClusterInformation": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/FelixConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/GlobalNetworkPolicy": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/GlobalNetworkSet": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/HostEndpoint": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMBlock": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMConfig": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPAMHandle": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPPool": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/IPReservation": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/KubeControllersConfiguration": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/NetworkPolicy": [
+      "tigera-operator"
+    ],
+    "crd.projectcalico.org/v1/NetworkSet": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/ImageSet": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/Installation": [
+      "tigera-operator"
+    ],
+    "operator.tigera.io/v1/TigeraStatus": [
+      "tigera-operator"
+    ],
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
@@ -1508,5 +1580,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-13T06:57:40.787763"
+  "timestamp": "2026-05-16T06:51:47.336371"
 }

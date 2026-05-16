@@ -219,6 +219,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.7.11",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.7.2",
       "channel": "4.7"
     },
@@ -360,6 +383,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.8.7",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.0.0",
       "keywords": [
         "Gateway API",
@@ -387,6 +433,32 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "5.0.1",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.2",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -2530,6 +2602,20 @@
       "channel": "2.9.1"
     },
     {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.2-2",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.2"
+    },
+    {
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "0.0.1",
@@ -4141,6 +4227,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.11.3",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -4849,7 +4949,7 @@
     {
       "package": "iax-webhook-router",
       "name": "iax-webhook-router",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "keywords": [
         "iax",
         "webhook",
@@ -7546,7 +7646,7 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.50",
+      "version": "8.19.50-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -7556,12 +7656,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.50-beta.1",
+      "version": "8.19.60",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "alpha"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -7599,6 +7699,17 @@
       "package": "minio-minkms-operator",
       "name": "minio-minkms-operator",
       "version": "2026.3.18173617",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.4.13102716",
       "keywords": [
         "AI Storage",
         "MinIO"
@@ -7692,6 +7803,20 @@
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2026.3.18173617",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.4.13102716",
       "keywords": [
         "AI Storage",
         "S3",
@@ -10007,6 +10132,21 @@
       "channel": "candidate"
     },
     {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.4.2",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "8.0.16-24.4",
@@ -10047,6 +10187,20 @@
       ],
       "description": "",
       "channel": "8.0.18"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "8.0.20-21.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.20"
     },
     {
       "package": "runtime-component-operator-certified",
@@ -10833,6 +10987,19 @@
       "channel": "release-1.8"
     },
     {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.42.0",
+      "keywords": [
+        "tigera-operator",
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.42"
+    },
+    {
       "package": "trident-operator",
       "name": "trident-operator",
       "version": "26.2.0",
@@ -11311,7 +11478,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1042,
+  "count": 1052,
   "source": "opm",
-  "timestamp": "2026-05-13T06:56:21.025233"
+  "timestamp": "2026-05-16T06:50:30.915071"
 }

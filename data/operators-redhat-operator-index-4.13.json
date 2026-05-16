@@ -7987,6 +7987,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.4",
+      "channel": "stable-v1"
+    },
+    {
       "package": "fence-agents-remediation",
       "name": "fence-agents-remediation",
       "version": "0.1.0",
@@ -12001,6 +12007,12 @@
       "channel": "stable-v8.1"
     },
     {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.2",
+      "channel": "stable-v8.1"
+    },
+    {
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.7.0",
@@ -12724,6 +12736,12 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.11.1",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.11.2",
       "channel": "stable"
     },
     {
@@ -22489,7 +22507,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3748,
+  "count": 3751,
   "source": "opm",
-  "timestamp": "2026-05-13T06:35:53.404935"
+  "timestamp": "2026-05-16T06:30:13.108830"
 }

@@ -14840,6 +14840,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.4",
+      "keywords": [
+        "openshift",
+        "dns",
+        "externaldns",
+        "operator"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
       "package": "fence-agents-remediation",
       "name": "fence-agents-remediation",
       "version": "0.6.0",
@@ -18843,6 +18856,19 @@
       "channel": "stable-v8.1"
     },
     {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.2",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Migration Toolkit for Applications is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
+      "channel": "stable-v8.1"
+    },
+    {
       "package": "mtr-operator",
       "name": "mtr-operator",
       "version": "1.0.0",
@@ -19419,6 +19445,23 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.11.1",
+      "keywords": [
+        "netobserv",
+        "ebpf",
+        "ipfix",
+        "netflows",
+        "flows",
+        "topology",
+        "network",
+        "observability"
+      ],
+      "description": "Network flows collector and monitoring solution",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.11.2",
       "keywords": [
         "netobserv",
         "ebpf",
@@ -23741,6 +23784,20 @@
       "package": "openshift-zero-trust-workload-identity-manager",
       "name": "openshift-zero-trust-workload-identity-manager",
       "version": "1.0.0",
+      "keywords": [
+        "zero-trust-workload-identity-manager",
+        "ztwim",
+        "spire",
+        "spiffe-spire",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-zero-trust-workload-identity-manager",
+      "name": "openshift-zero-trust-workload-identity-manager",
+      "version": "1.0.1",
       "keywords": [
         "zero-trust-workload-identity-manager",
         "ztwim",
@@ -35458,6 +35515,45 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
+      "version": "3.4.0",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack",
+        "mlflow",
+        "sparkoperator"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "beta"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
       "version": "3.4.0-ea.2",
       "keywords": [
         "Operator",
@@ -42115,7 +42211,7 @@
       "channel": "stable"
     }
   ],
-  "count": 2962,
+  "count": 2967,
   "source": "opm",
-  "timestamp": "2026-05-13T06:56:00.692210"
+  "timestamp": "2026-05-16T06:50:11.546156"
 }

@@ -2862,6 +2862,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.7.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.8.0",
       "keywords": [
         "dynamodb",
         "aws",
@@ -4380,6 +4386,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.13.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.13.1",
       "keywords": [
         "eks",
         "aws",
@@ -8970,6 +8982,12 @@
       "package": "ack-ram-controller",
       "name": "ack-ram-controller",
       "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ram-controller",
+      "name": "ack-ram-controller",
+      "version": "1.2.4",
       "keywords": [
         "ram",
         "aws",
@@ -9415,6 +9433,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.10",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.7.11",
       "keywords": [
         "rds",
         "aws",
@@ -10354,6 +10378,12 @@
     {
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
       "version": "1.5.0",
       "keywords": [
         "s3",
@@ -10659,6 +10689,12 @@
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-secretsmanager-controller",
+      "name": "ack-secretsmanager-controller",
+      "version": "1.2.4",
       "keywords": [
         "secretsmanager",
         "aws",
@@ -11106,6 +11142,12 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.4.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.4.4",
       "keywords": [
         "sns",
         "aws",
@@ -12309,6 +12351,12 @@
       "package": "arkmq-org-broker-operator",
       "name": "arkmq-org-broker-operator",
       "version": "2.1.4",
+      "channel": "stable"
+    },
+    {
+      "package": "arkmq-org-broker-operator",
+      "name": "arkmq-org-broker-operator",
+      "version": "2.1.6",
       "keywords": [
         "messaging",
         "cloud",
@@ -22170,6 +22218,23 @@
       "channel": "candidate-v1"
     },
     {
+      "package": "kubernaut-operator",
+      "name": "kubernaut-operator",
+      "version": "1.4.1",
+      "keywords": [
+        "kubernaut",
+        "remediation",
+        "ai",
+        "openshift",
+        "kubernetes",
+        "alertmanager",
+        "sre",
+        "aiops"
+      ],
+      "description": "Automated Kubernetes remediation powered by AI \u2014 detects issues, analyzes root causes, and executes verified fixes.",
+      "channel": "candidate-v1"
+    },
+    {
       "package": "kubernetes-imagepuller-operator",
       "name": "kubernetes-imagepuller-operator",
       "version": "1.0.0",
@@ -24368,6 +24433,12 @@
       "package": "ocp-kea-dhcp",
       "name": "ocp-kea-dhcp",
       "version": "0.0.24",
+      "channel": "alpha"
+    },
+    {
+      "package": "ocp-kea-dhcp",
+      "name": "ocp-kea-dhcp",
+      "version": "0.0.25",
       "keywords": [
         "dhcp",
         "kea",
@@ -26504,6 +26575,18 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.20",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.9.21",
       "keywords": [
         "open source",
         "containers",
@@ -29741,7 +29824,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4195,
+  "count": 4206,
   "source": "opm",
-  "timestamp": "2026-05-13T06:57:59.088192"
+  "timestamp": "2026-05-16T06:52:05.792958"
 }

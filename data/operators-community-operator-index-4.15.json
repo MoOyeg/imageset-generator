@@ -2755,6 +2755,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "0.0.10",
@@ -4288,6 +4294,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.13.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.13.1",
       "channel": "alpha"
     },
     {
@@ -8887,6 +8899,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-ram-controller",
+      "name": "ack-ram-controller",
+      "version": "1.2.4",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "0.0.12",
@@ -9322,6 +9340,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.10",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.7.11",
       "channel": "alpha"
     },
     {
@@ -10251,6 +10275,12 @@
     {
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
       "version": "1.5.0",
       "channel": "alpha"
     },
@@ -10738,6 +10768,12 @@
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-secretsmanager-controller",
+      "name": "ack-secretsmanager-controller",
+      "version": "1.2.4",
       "channel": "alpha"
     },
     {
@@ -11464,6 +11500,12 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.4.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.4.4",
       "channel": "alpha"
     },
     {
@@ -12598,6 +12640,12 @@
       "package": "arkmq-org-broker-operator",
       "name": "arkmq-org-broker-operator",
       "version": "2.1.4",
+      "channel": "stable"
+    },
+    {
+      "package": "arkmq-org-broker-operator",
+      "name": "arkmq-org-broker-operator",
+      "version": "2.1.6",
       "channel": "stable"
     },
     {
@@ -15243,6 +15291,12 @@
     {
       "package": "dell-csm-operator",
       "name": "dell-csm-operator",
+      "version": "1.10.2",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator",
+      "name": "dell-csm-operator",
       "version": "1.5.1",
       "channel": "stable"
     },
@@ -17806,6 +17860,18 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.11.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.11.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "2.11.3",
       "channel": "stable"
     },
     {
@@ -26535,6 +26601,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.9.21",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -30397,7 +30469,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5066,
+  "count": 5078,
   "source": "opm",
-  "timestamp": "2026-05-13T06:44:26.712940"
+  "timestamp": "2026-05-16T06:39:36.218261"
 }

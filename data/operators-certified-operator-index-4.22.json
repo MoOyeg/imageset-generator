@@ -249,6 +249,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.7.11",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.7"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.7.2",
       "channel": "4.7"
     },
@@ -390,6 +413,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.8.7",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.0.0",
       "keywords": [
         "Gateway API",
@@ -417,6 +463,32 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "5.0.1",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.2",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -3670,7 +3742,7 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.50",
+      "version": "8.19.50-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -3680,12 +3752,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.50-beta.1",
+      "version": "8.19.60",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "alpha"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -4866,6 +4938,18 @@
       "channel": "alpha"
     },
     {
+      "package": "operator-certification-operator",
+      "name": "operator-certification-operator",
+      "version": "1.5.0",
+      "keywords": [
+        "certification",
+        "pipeline",
+        "openshift"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -4902,6 +4986,21 @@
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
       "version": "0.4.1",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.4.2",
       "keywords": [
         "rebellions",
         "ai",
@@ -5313,6 +5412,19 @@
       "channel": "release-1.8"
     },
     {
+      "package": "tigera-operator",
+      "name": "tigera-operator",
+      "version": "1.42.0",
+      "keywords": [
+        "tigera-operator",
+        "networking",
+        "security",
+        "monitoring"
+      ],
+      "description": "An operator which manages the lifecycle of a Calico or Calico Enterprise installation on Kubernetes or OpenShift.",
+      "channel": "release-v1.42"
+    },
+    {
       "package": "truenas-csi",
       "name": "truenas-csi",
       "version": "0.1.0",
@@ -5710,7 +5822,7 @@
       "channel": "lts"
     }
   ],
-  "count": 651,
+  "count": 657,
   "source": "opm",
-  "timestamp": "2026-05-13T06:57:40.575563"
+  "timestamp": "2026-05-16T06:51:47.121799"
 }
