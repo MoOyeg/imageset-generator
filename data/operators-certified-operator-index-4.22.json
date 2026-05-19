@@ -3685,6 +3685,16 @@
     {
       "package": "linstor-operator",
       "name": "linstor-operator",
+      "version": "2.10.7",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
       "version": "2.8.1",
       "keywords": [
         "storage"
@@ -5822,7 +5832,7 @@
       "channel": "lts"
     }
   ],
-  "count": 657,
+  "count": 658,
   "source": "opm",
-  "timestamp": "2026-05-16T06:51:47.121799"
+  "timestamp": "2026-05-19T06:58:22.038035"
 }

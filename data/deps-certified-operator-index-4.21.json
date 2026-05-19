@@ -40,6 +40,15 @@
         }
       ]
     },
+    "ibm-storage-odf-operator": {
+      "requires_packages": [
+        {
+          "packageName": "ibm-block-csi-operator",
+          "versionRange": ">=1.13.2"
+        }
+      ],
+      "requires_gvks": []
+    },
     "infoscale-sds-operator": {
       "requires_packages": [
         {
@@ -757,6 +766,9 @@
     "datadoghq.com/v1alpha2/DatadogPodAutoscalerClusterProfile": [
       "datadog-operator-certified"
     ],
+    "storage.dell.com/v1/ContainerStorageModule": [
+      "dell-csm-operator-certified"
+    ],
     "xld.digital.ai/v1alpha1/DigitalaiDeploy": [
       "digitalai-deploy-operator"
     ],
@@ -946,6 +958,9 @@
     "apps.gitlab.com/v1beta1/GitLab": [
       "gitlab-operator-kubernetes"
     ],
+    "apps.gitlab.com/v1beta2/Runner": [
+      "gitlab-runner-operator"
+    ],
     "nvidia.com/v1/ClusterPolicy": [
       "gpu-operator-certified"
     ],
@@ -1086,6 +1101,9 @@
     ],
     "ibm.com/v1/IBMSecurityVerifyAccess": [
       "ibm-security-verify-access-operator"
+    ],
+    "odf.ibm.com/v1alpha1/FlashSystemCluster": [
+      "ibm-storage-odf-operator"
     ],
     "csidriver.infinidat.com/v1/Iboxcg": [
       "infinibox-operator-certified"
@@ -2163,5 +2181,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-16T06:50:31.336303"
+  "timestamp": "2026-05-19T06:57:07.231200"
 }

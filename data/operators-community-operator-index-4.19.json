@@ -1444,6 +1444,12 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.4.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -9607,6 +9613,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.11",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.7.12",
       "keywords": [
         "rds",
         "aws",
@@ -14527,6 +14539,20 @@
     {
       "package": "camel-k",
       "name": "camel-k",
+      "version": "2.10.1",
+      "keywords": [
+        "apache",
+        "kamel",
+        "kubernetes",
+        "serverless",
+        "microservices"
+      ],
+      "description": "Apache Camel K is a lightweight integration platform, born on Kubernetes, with serverless superpowers.",
+      "channel": "latest"
+    },
+    {
+      "package": "camel-k",
+      "name": "camel-k",
       "version": "2.2.0",
       "channel": "latest"
     },
@@ -19148,73 +19174,13 @@
     {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
-      "version": "1.42.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.43.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.43.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.43.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.43.3",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.45.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.46.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.47.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.47.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.48.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.48.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
       "version": "1.48.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.3",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -22184,6 +22150,22 @@
       ],
       "description": "Provides tracing, monitoring and troubleshooting for microservices-based distributed systems",
       "channel": "stable"
+    },
+    {
+      "package": "jhipster-online-operator",
+      "name": "jhipster-online-operator",
+      "version": "1.1.2",
+      "keywords": [
+        "java",
+        "spring-boot",
+        "jhipster",
+        "quarkus",
+        "openshift",
+        "kubernetes",
+        "code-generation"
+      ],
+      "description": "Kubernetes operator for JHipster Online 2.41.1 \u2014 web-based code generation platform with JHipster 9, Quarkus, JDL Studio, JDL AI, and optional JHipster 8 / PyHipster / MCP HTTP workers. Deploys on OpenShift 4.12+ or Kubernetes 1.25+.",
+      "channel": "alpha"
     },
     {
       "package": "jumpstarter-operator",
@@ -28482,6 +28464,31 @@
       "channel": "fast-3"
     },
     {
+      "package": "opendatahub-operator",
+      "name": "opendatahub-operator",
+      "version": "3.5.0-ea.1",
+      "keywords": [
+        "odh",
+        "notebooks",
+        "serving",
+        "training",
+        "pipelines",
+        "workbenches",
+        "dashboard",
+        "kserve",
+        "distributed workloads",
+        "trustyai",
+        "modelregistry",
+        "feast",
+        "featurestore",
+        "ogx",
+        "mlflow",
+        "sparkoperator"
+      ],
+      "description": "",
+      "channel": "fast-3"
+    },
+    {
       "package": "openebs",
       "name": "openebs",
       "version": "2.12.2",
@@ -29823,6 +29830,19 @@
       "package": "patterns-operator",
       "name": "patterns-operator",
       "version": "0.0.72",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.73",
       "keywords": [
         "Validated",
         "Pattern",
@@ -32279,6 +32299,24 @@
       "channel": "stable"
     },
     {
+      "package": "rabbitmq-messaging-topology-operator",
+      "name": "rabbitmq-messaging-topology-operator",
+      "version": "1.19.2",
+      "keywords": [
+        "rabbitmq",
+        "messaging",
+        "amqp",
+        "amqp10",
+        "stomp",
+        "mqtt",
+        "mqtt5",
+        "queues",
+        "streaming"
+      ],
+      "description": "Kubernetes operator to allow developers to create and manage RabbitMQ messaging topologies within a RabbitMQ cluster using a declarative Kubernetes API.",
+      "channel": "stable"
+    },
+    {
       "package": "redis-operator",
       "name": "redis-operator",
       "version": "0.13.0",
@@ -32821,42 +32859,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-01",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-02",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-03",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-04",
       "keywords": [
         "istio",
@@ -32990,6 +32992,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-16",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-17",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-18",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-19",
       "keywords": [
         "istio",
         "servicemesh",
@@ -36614,7 +36652,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4811,
+  "count": 4808,
   "source": "opm",
-  "timestamp": "2026-05-16T06:47:53.915293"
+  "timestamp": "2026-05-19T06:54:11.897576"
 }

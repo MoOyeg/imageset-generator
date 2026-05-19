@@ -1438,6 +1438,12 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.4.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -9439,6 +9445,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.11",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.7.12",
       "keywords": [
         "rds",
         "aws",
@@ -13555,6 +13567,20 @@
       "package": "camel-k",
       "name": "camel-k",
       "version": "2.10.0",
+      "keywords": [
+        "apache",
+        "kamel",
+        "kubernetes",
+        "serverless",
+        "microservices"
+      ],
+      "description": "Apache Camel K is a lightweight integration platform, born on Kubernetes, with serverless superpowers.",
+      "channel": "latest"
+    },
+    {
+      "package": "camel-k",
+      "name": "camel-k",
+      "version": "2.10.1",
       "keywords": [
         "apache",
         "kamel",
@@ -20239,6 +20265,22 @@
       ],
       "description": "Provides tracing, monitoring and troubleshooting for microservices-based distributed systems",
       "channel": "stable"
+    },
+    {
+      "package": "jhipster-online-operator",
+      "name": "jhipster-online-operator",
+      "version": "1.1.2",
+      "keywords": [
+        "java",
+        "spring-boot",
+        "jhipster",
+        "quarkus",
+        "openshift",
+        "kubernetes",
+        "code-generation"
+      ],
+      "description": "Kubernetes operator for JHipster Online 2.41.1 \u2014 web-based code generation platform with JHipster 9, Quarkus, JDL Studio, JDL AI, and optional JHipster 8 / PyHipster / MCP HTTP workers. Deploys on OpenShift 4.12+ or Kubernetes 1.25+.",
+      "channel": "alpha"
     },
     {
       "package": "jupyter-notebook-validator-operator",
@@ -29824,7 +29866,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4206,
+  "count": 4210,
   "source": "opm",
-  "timestamp": "2026-05-16T06:52:05.792958"
+  "timestamp": "2026-05-19T06:58:40.300687"
 }

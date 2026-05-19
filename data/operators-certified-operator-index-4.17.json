@@ -6187,105 +6187,21 @@
     {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
-      "version": "1.42.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.43.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.43.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.43.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.43.3",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.45.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.46.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.47.0",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.47.1",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.48.0",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.48.1",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
       "version": "1.48.2",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.3",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -10837,6 +10753,16 @@
       "package": "linstor-operator",
       "name": "linstor-operator",
       "version": "2.10.6",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.7",
       "keywords": [
         "storage"
       ],
@@ -17298,7 +17224,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1615,
+  "count": 1606,
   "source": "opm",
-  "timestamp": "2026-05-16T06:44:36.323225"
+  "timestamp": "2026-05-19T06:50:51.458431"
 }

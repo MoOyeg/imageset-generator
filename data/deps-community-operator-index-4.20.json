@@ -438,6 +438,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/WorkloadIdentity": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/APIKeyCredentialProvider": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -2607,6 +2610,18 @@
     "jaegertracing.io/v1/Jaeger": [
       "jaeger"
     ],
+    "maximilianopizarro.github.io/v1alpha1/Jhipster8Worker": [
+      "jhipster-online-operator"
+    ],
+    "maximilianopizarro.github.io/v1alpha1/JhipsterOnline": [
+      "jhipster-online-operator"
+    ],
+    "maximilianopizarro.github.io/v1alpha1/McpWorker": [
+      "jhipster-online-operator"
+    ],
+    "maximilianopizarro.github.io/v1alpha1/PyhipsterWorker": [
+      "jhipster-online-operator"
+    ],
     "operator.jumpstarter.dev/v1alpha1/Jumpstarter": [
       "jumpstarter-operator"
     ],
@@ -3409,6 +3424,9 @@
       "opendatahub-operator"
     ],
     "infrastructure.opendatahub.io/v1alpha1/CoreWeaveKubernetesEngine": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/OGX": [
       "opendatahub-operator"
     ],
     "openebs.io/v1alpha1/OpenEBSInstallTemplate": [
@@ -4630,5 +4648,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-16T06:49:29.188500"
+  "timestamp": "2026-05-19T06:55:39.792546"
 }

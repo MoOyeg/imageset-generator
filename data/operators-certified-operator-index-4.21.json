@@ -3283,6 +3283,26 @@
       "channel": "stable"
     },
     {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.12.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
       "version": "24.1.10",
@@ -4241,6 +4261,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.48.3",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -5023,6 +5057,20 @@
       ],
       "description": "The IBM Verify Identity Access Operator manages the lifecycle of IBM Verify Identity Access worker containers.",
       "channel": "stable"
+    },
+    {
+      "package": "ibm-storage-odf-operator",
+      "name": "ibm-storage-odf-operator",
+      "version": "1.9.0",
+      "keywords": [
+        "ODF",
+        "storage",
+        "block storage",
+        "flashsystem",
+        "ibm"
+      ],
+      "description": "IBM Storage ODF operator provides basic storage capabilities and extended management functions through OpenShift data foundation framework for applications.",
+      "channel": "stable-v1.9"
     },
     {
       "package": "infinibox-operator-certified",
@@ -7580,6 +7628,16 @@
       "package": "linstor-operator",
       "name": "linstor-operator",
       "version": "2.10.6",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.7",
       "keywords": [
         "storage"
       ],
@@ -11478,7 +11536,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1052,
+  "count": 1056,
   "source": "opm",
-  "timestamp": "2026-05-16T06:50:30.915071"
+  "timestamp": "2026-05-19T06:57:06.775802"
 }

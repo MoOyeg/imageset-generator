@@ -53,6 +53,15 @@
         }
       ]
     },
+    "ibm-storage-odf-operator": {
+      "requires_packages": [
+        {
+          "packageName": "ibm-block-csi-operator",
+          "versionRange": ">=1.13.2"
+        }
+      ],
+      "requires_gvks": []
+    },
     "infoscale-sds-operator": {
       "requires_packages": [
         {
@@ -1093,6 +1102,9 @@
     ],
     "ibm.com/v1/IBMSecurityVerifyAccess": [
       "ibm-security-verify-access-operator"
+    ],
+    "odf.ibm.com/v1alpha1/FlashSystemCluster": [
+      "ibm-storage-odf-operator"
     ],
     "csidriver.infinidat.com/v1/Iboxpromote": [
       "infinibox-operator-certified"
@@ -2434,5 +2446,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-16T06:49:08.512258"
+  "timestamp": "2026-05-19T06:55:18.774715"
 }

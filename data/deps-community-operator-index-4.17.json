@@ -453,6 +453,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/WorkloadIdentity": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/APIKeyCredentialProvider": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -2591,6 +2594,15 @@
     "maximilianopizarro.github.io/v1alpha1/JhipsterOnline": [
       "jhipster-online-operator"
     ],
+    "maximilianopizarro.github.io/v1alpha1/Jhipster8Worker": [
+      "jhipster-online-operator"
+    ],
+    "maximilianopizarro.github.io/v1alpha1/McpWorker": [
+      "jhipster-online-operator"
+    ],
+    "maximilianopizarro.github.io/v1alpha1/PyhipsterWorker": [
+      "jhipster-online-operator"
+    ],
     "k8gb.absa.oss/v1beta1/Gslb": [
       "k8gb"
     ],
@@ -4500,5 +4512,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-16T06:44:58.123828"
+  "timestamp": "2026-05-19T06:51:14.159888"
 }

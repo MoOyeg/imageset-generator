@@ -17710,6 +17710,18 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1778680301.p",
+      "keywords": [
+        "api",
+        "apicurio",
+        "apicurito"
+      ],
+      "description": "Manages the installation and upgrades of apicurito, a small/minimal version of Apicurio",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "keywords": [
         "api",
@@ -18395,6 +18407,20 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1778543891.p",
+      "keywords": [
+        "Fuse",
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "The Fuse Console eases the discovery and management of Fuse applications deployed on OpenShift.",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1778680287.p",
       "keywords": [
         "Fuse",
         "Hawtio",
@@ -20074,6 +20100,17 @@
       "package": "jws-operator",
       "name": "jws-operator",
       "version": "2.3.0",
+      "keywords": [
+        "WebServer",
+        "JBoss"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "jws-operator",
+      "name": "jws-operator",
+      "version": "2.3.1",
       "keywords": [
         "WebServer",
         "JBoss"
@@ -30897,6 +30934,19 @@
       ],
       "description": "Builds for Red Hat OpenShift is a framework for building container images on Kubernetes.",
       "channel": "builds-1.7"
+    },
+    {
+      "package": "openshift-builds-operator",
+      "name": "openshift-builds-operator",
+      "version": "1.8.0",
+      "keywords": [
+        "build",
+        "shipwright",
+        "tekton",
+        "cicd"
+      ],
+      "description": "Builds for Red Hat OpenShift is a framework for building container images on Kubernetes.",
+      "channel": "builds-1.8"
     },
     {
       "package": "openshift-cert-manager-operator",
@@ -53670,7 +53720,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3850,
+  "count": 3854,
   "source": "opm",
-  "timestamp": "2026-05-16T06:47:12.276413"
+  "timestamp": "2026-05-19T06:53:30.630969"
 }
