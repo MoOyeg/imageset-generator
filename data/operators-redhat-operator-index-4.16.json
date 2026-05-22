@@ -865,6 +865,12 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1778766326.p",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -1054,6 +1060,18 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.14.0-opr-1+0.1777966951.p",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1+0.1778662761.p",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1+0.1778764984.p",
       "channel": "7.14.x"
     },
     {
@@ -5931,6 +5949,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.17.0",
       "channel": "stable-3.17"
     },
@@ -8278,6 +8302,12 @@
       "package": "eap",
       "name": "eap",
       "version": "3.2.17",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
+      "version": "3.2.18",
       "channel": "stable"
     },
     {
@@ -11925,6 +11955,12 @@
     {
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
+      "version": "1.0.13",
+      "channel": "alpha"
+    },
+    {
+      "package": "lightspeed-operator",
+      "name": "lightspeed-operator",
       "version": "1.0.8",
       "channel": "alpha"
     },
@@ -11932,6 +11968,12 @@
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
       "version": "1.0.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "lightspeed-operator",
+      "name": "lightspeed-operator",
+      "version": "1.1.0",
       "channel": "alpha"
     },
     {
@@ -12262,6 +12304,12 @@
       "package": "logic-operator",
       "name": "logic-operator",
       "version": "1.37.2",
+      "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.38.0",
       "channel": "stable"
     },
     {
@@ -13041,6 +13089,12 @@
     {
       "package": "mcg-operator",
       "name": "mcg-operator",
+      "version": "4.15.28-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
       "version": "4.15.3-rhodf",
       "channel": "stable-4.15"
     },
@@ -13192,6 +13246,12 @@
       "package": "mcg-operator",
       "name": "mcg-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -14545,6 +14605,12 @@
       "channel": "stable-2.9"
     },
     {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
+      "version": "2.9.4",
+      "channel": "stable-2.9"
+    },
+    {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
       "version": "1.1.0",
@@ -15441,6 +15507,12 @@
     {
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
+      "version": "4.15.28-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
       "version": "4.15.3-rhodf",
       "channel": "stable-4.15"
     },
@@ -15592,6 +15664,12 @@
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -15765,6 +15843,12 @@
     {
       "package": "ocs-operator",
       "name": "ocs-operator",
+      "version": "4.15.28-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
       "version": "4.15.3-rhodf",
       "channel": "stable-4.15"
     },
@@ -15916,6 +16000,12 @@
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -16137,6 +16227,12 @@
     {
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
+      "version": "4.15.28-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
       "version": "4.15.3-rhodf",
       "channel": "stable-4.15"
     },
@@ -16288,6 +16384,12 @@
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -16461,6 +16563,12 @@
     {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
+      "version": "4.15.28-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
       "version": "4.15.3-rhodf",
       "channel": "stable-4.15"
     },
@@ -16612,6 +16720,12 @@
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -16785,6 +16899,12 @@
     {
       "package": "odf-operator",
       "name": "odf-operator",
+      "version": "4.15.28-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
       "version": "4.15.3-rhodf",
       "channel": "stable-4.15"
     },
@@ -16936,6 +17056,12 @@
       "package": "odf-operator",
       "name": "odf-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -17098,6 +17224,12 @@
       "package": "odf-prometheus-operator",
       "name": "odf-prometheus-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odf-prometheus-operator",
+      "name": "odf-prometheus-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -17271,6 +17403,12 @@
     {
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
+      "version": "4.15.28-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
       "version": "4.15.3-rhodf",
       "channel": "stable-4.15"
     },
@@ -17422,6 +17560,12 @@
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -17595,6 +17739,12 @@
     {
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
+      "version": "4.15.28-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
       "version": "4.15.3-rhodf",
       "channel": "stable-4.15"
     },
@@ -17746,6 +17896,12 @@
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -20289,6 +20445,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.17.0",
       "channel": "stable-3.17"
     },
@@ -21189,6 +21351,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.17.0",
       "channel": "stable-3.17"
     },
@@ -21688,6 +21856,12 @@
       "package": "recipe",
       "name": "recipe",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "recipe",
+      "name": "recipe",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -23589,6 +23763,12 @@
     {
       "package": "rhbk-operator",
       "name": "rhbk-operator",
+      "version": "26.2.16-opr.1",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
       "version": "26.2.4-opr.1",
       "channel": "stable-v26"
     },
@@ -23644,6 +23824,12 @@
       "package": "rhbk-operator",
       "name": "rhbk-operator",
       "version": "26.4.11-opr.2",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.4.12-opr.1",
       "channel": "stable-v26"
     },
     {
@@ -25066,6 +25252,12 @@
       "package": "rook-ceph-operator",
       "name": "rook-ceph-operator",
       "version": "4.16.26-rhodf",
+      "channel": "stable-4.16"
+    },
+    {
+      "package": "rook-ceph-operator",
+      "name": "rook-ceph-operator",
+      "version": "4.16.27-rhodf",
       "channel": "stable-4.16"
     },
     {
@@ -28573,7 +28765,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4762,
+  "count": 4794,
   "source": "opm",
-  "timestamp": "2026-05-19T06:46:26.070091"
+  "timestamp": "2026-05-22T06:47:58.460465"
 }

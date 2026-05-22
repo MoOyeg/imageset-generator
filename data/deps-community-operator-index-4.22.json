@@ -368,6 +368,15 @@
     "autoscaling.services.k8s.aws/v1alpha1/AutoScalingGroup": [
       "ack-autoscaling-controller"
     ],
+    "backup.services.k8s.aws/v1alpha1/BackupPlan": [
+      "ack-backup-controller"
+    ],
+    "backup.services.k8s.aws/v1alpha1/BackupSelection": [
+      "ack-backup-controller"
+    ],
+    "backup.services.k8s.aws/v1alpha1/BackupVault": [
+      "ack-backup-controller"
+    ],
     "bedrock.services.k8s.aws/v1alpha1/InferenceProfile": [
       "ack-bedrock-controller"
     ],
@@ -3668,5 +3677,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-19T06:58:40.938036"
+  "timestamp": "2026-05-22T06:59:13.187289"
 }

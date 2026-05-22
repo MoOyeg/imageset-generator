@@ -913,6 +913,12 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1778766326.p",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -5445,6 +5451,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.17.0",
       "channel": "stable-3.17"
     },
@@ -7474,6 +7486,12 @@
       "package": "eap",
       "name": "eap",
       "version": "3.2.17",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
+      "version": "3.2.18",
       "channel": "stable"
     },
     {
@@ -10708,6 +10726,12 @@
       "package": "logic-operator",
       "name": "logic-operator",
       "version": "1.37.2",
+      "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.38.0",
       "channel": "stable"
     },
     {
@@ -16131,6 +16155,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.17.0",
       "channel": "stable-3.17"
     },
@@ -17026,6 +17056,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.16.3",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.16.4",
       "channel": "stable-3.16"
     },
     {
@@ -22525,7 +22561,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3754,
+  "count": 3760,
   "source": "opm",
-  "timestamp": "2026-05-19T06:35:12.541465"
+  "timestamp": "2026-05-22T06:37:14.115317"
 }

@@ -278,6 +278,48 @@
     "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
       "percona-server-mongodb-operator-certified-rhmp"
     ],
+    "stackgres.io/v1/SGBackup": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGCluster": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGConfig": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGDbOps": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGDistributedLogs": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGInstanceProfile": [
+      "stackgres"
+    ],
+    "stackgres.io/v1beta1/SGObjectStorage": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGPoolingConfig": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGPostgresConfig": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGScript": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGShardedBackup": [
+      "stackgres"
+    ],
+    "stackgres.io/v1alpha1/SGShardedCluster": [
+      "stackgres"
+    ],
+    "stackgres.io/v1/SGShardedDbOps": [
+      "stackgres"
+    ],
+    "stackgres.io/v1alpha1/SGStream": [
+      "stackgres"
+    ],
     "helm-operator.sumologic.com/v1alpha1/SumologicCollection": [
       "sumologic-kubernetes-collection-helm-operator-rhmp"
     ],
@@ -300,5 +342,5 @@
       "zabbix-operator-certified-rhmp"
     ]
   },
-  "timestamp": "2026-05-19T06:57:43.354552"
+  "timestamp": "2026-05-22T06:58:13.959440"
 }

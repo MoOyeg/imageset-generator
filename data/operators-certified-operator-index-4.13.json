@@ -1195,6 +1195,12 @@
       "channel": "preview"
     },
     {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.8.3",
+      "channel": "preview"
+    },
+    {
       "package": "coroot-operator",
       "name": "coroot-operator",
       "version": "1.1.5",
@@ -1869,7 +1875,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.5",
+      "version": "25.3.6",
       "channel": "stable-v25.3"
     },
     {
@@ -1881,7 +1887,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.1",
+      "version": "26.1.2",
       "channel": "stable-v26.1"
     },
     {
@@ -2007,7 +2013,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.1.10-1",
+      "version": "25.1.11",
       "channel": "stable-v25.1"
     },
     {
@@ -2055,7 +2061,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.3.5",
+      "version": "25.3.6",
       "channel": "stable-v25.3"
     },
     {
@@ -2067,7 +2073,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.1",
+      "version": "26.1.2",
       "channel": "stable-v26.1"
     },
     {
@@ -2548,6 +2554,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.9.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.0.0",
       "channel": "stable"
     },
     {
@@ -3751,6 +3763,12 @@
       "channel": "stable"
     },
     {
+      "package": "ipm-controller",
+      "name": "ipm-controller",
+      "version": "26.5.0",
+      "channel": "stable"
+    },
+    {
       "package": "jenkins2tekton-operator",
       "name": "jenkins2tekton-operator",
       "version": "0.1.0",
@@ -4303,6 +4321,12 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.9",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -4762,12 +4786,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.19.60",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.60-beta.1",
+      "version": "8.20.0-beta.1",
       "channel": "beta"
     },
     {
@@ -4864,12 +4888,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.19.60",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.60-beta.1",
+      "version": "8.20.0-beta.1",
       "channel": "beta"
     },
     {
@@ -5410,6 +5434,12 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.8.1",
       "channel": "stable"
     },
     {
@@ -6304,12 +6334,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.19.60",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.60-beta.1",
+      "version": "8.20.0-beta.1",
       "channel": "beta"
     },
     {
@@ -6562,6 +6592,12 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-14.0",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-15.0",
       "channel": "7.8.6"
     },
     {
@@ -6969,6 +7005,12 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.10",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "channel": "stable-v1"
     },
@@ -7287,42 +7329,6 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.17.0",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.17.1",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.17.2",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.17.3",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.17.4",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.0",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
       "version": "1.18.1",
       "channel": "candidate"
     },
@@ -7357,6 +7363,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.7",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.17.1-0",
@@ -7365,14 +7377,14 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.104.0",
+      "version": "42.104.0-beta.2",
       "channel": "beta"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.104.0-beta.2",
-      "channel": "beta"
+      "version": "42.105.0",
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -8539,6 +8551,12 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.70.1",
+      "channel": "beta"
+    },
+    {
       "package": "webotx-operator",
       "name": "webotx-operator",
       "version": "11.11.0",
@@ -8635,7 +8653,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1439,
+  "count": 1442,
   "source": "opm",
-  "timestamp": "2026-05-19T06:35:50.171263"
+  "timestamp": "2026-05-22T06:37:51.238565"
 }

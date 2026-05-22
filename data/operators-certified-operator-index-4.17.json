@@ -548,6 +548,32 @@
       "channel": "5.0"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.3",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -1937,6 +1963,21 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.16.23-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.16"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.10-cee.1",
       "keywords": [
         "Cilium",
@@ -2027,6 +2068,21 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.17.16-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.4-cee.1",
       "keywords": [
         "Cilium",
@@ -2098,6 +2154,21 @@
       ],
       "description": "",
       "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.10-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.18"
     },
     {
       "package": "clife",
@@ -3410,6 +3481,26 @@
       "package": "conjur-follower-operator",
       "name": "conjur-follower-operator",
       "version": "2.8.2",
+      "keywords": [
+        "credential",
+        "cyber",
+        "cyberark",
+        "conjur",
+        "enterprise",
+        "management",
+        "password",
+        "secret",
+        "secrets management",
+        "security",
+        "vault"
+      ],
+      "description": "",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.8.3",
       "keywords": [
         "credential",
         "cyber",
@@ -4823,7 +4914,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.5",
+      "version": "25.3.6",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -4849,7 +4940,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.1",
+      "version": "26.1.2",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -5014,7 +5105,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.1.10-1",
+      "version": "25.1.11",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -5078,7 +5169,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.3.5",
+      "version": "25.3.6",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -5106,7 +5197,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.1",
+      "version": "26.1.2",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -5539,6 +5630,19 @@
       "channel": "innovation"
     },
     {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2026.5.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "innovation"
+    },
+    {
       "package": "eginnovations-operator",
       "name": "eginnovations-operator",
       "version": "0.0.11",
@@ -5834,6 +5938,19 @@
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
       "version": "0.8.1",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.8.2",
       "keywords": [
         "ai",
         "security",
@@ -6182,6 +6299,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.9.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.0.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
@@ -8685,6 +8816,20 @@
       "channel": "stable"
     },
     {
+      "package": "ipm-controller",
+      "name": "ipm-controller",
+      "version": "26.5.0",
+      "keywords": [
+        "intel",
+        "infrastructure",
+        "power",
+        "manager",
+        "management"
+      ],
+      "description": "IPM Controller manages resources via REST API interactions.",
+      "channel": "stable"
+    },
+    {
       "package": "jenkins2tekton-operator",
       "name": "jenkins2tekton-operator",
       "version": "0.1.0",
@@ -9472,6 +9617,18 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "8.5.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.9",
       "keywords": [
         "kubernetes",
         "storage",
@@ -10877,6 +11034,21 @@
     {
       "package": "mariadb-enterprise-operator",
       "name": "mariadb-enterprise-operator",
+      "version": "25.10.5",
+      "keywords": [
+        "mariadb",
+        "mysql",
+        "database",
+        "operator",
+        "mariadb-enterprise-operator",
+        "database"
+      ],
+      "description": "",
+      "channel": "stable-v25.10"
+    },
+    {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
       "version": "25.8.0",
       "keywords": [
         "mariadb",
@@ -10950,6 +11122,21 @@
       "channel": "stable"
     },
     {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "26.3.3",
+      "keywords": [
+        "mariadb",
+        "mysql",
+        "database",
+        "operator",
+        "mariadb-enterprise-operator",
+        "database"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "marketplace-games-operator",
       "name": "marketplace-games-operator",
       "version": "1.0.0",
@@ -10982,12 +11169,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.60-beta.1",
+      "version": "8.20.0-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -11698,6 +11885,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.8.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.8.1",
       "keywords": [
         "mongodb",
         "databases",
@@ -14144,6 +14343,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-15.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-2.2",
       "channel": "7.22.0"
     },
@@ -15164,6 +15377,19 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.10",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "keywords": [
         "vertical scaling",
@@ -15862,42 +16088,6 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.17.0",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.17.1",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.17.2",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.17.3",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.17.4",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.0",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
       "version": "1.18.1",
       "channel": "candidate"
     },
@@ -15929,6 +16119,22 @@
       "package": "stackgres-certified",
       "name": "stackgres-certified",
       "version": "1.18.6",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.7",
       "keywords": [
         "postgresql",
         "postgres",
@@ -17104,6 +17310,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.70.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "webotx-operator",
       "name": "webotx-operator",
       "version": "11.11.0",
@@ -17224,7 +17442,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1606,
+  "count": 1617,
   "source": "opm",
-  "timestamp": "2026-05-19T06:50:51.458431"
+  "timestamp": "2026-05-22T06:51:07.052824"
 }

@@ -919,6 +919,12 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1778766326.p",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -1108,6 +1114,18 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.14.0-opr-1+0.1777966951.p",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1+0.1778662761.p",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.0-opr-1+0.1778764984.p",
       "channel": "7.14.x"
     },
     {
@@ -5439,6 +5457,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.17.0",
       "channel": "stable-3.17"
     },
@@ -7420,6 +7444,12 @@
       "package": "eap",
       "name": "eap",
       "version": "3.2.17",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
+      "version": "3.2.18",
       "channel": "stable"
     },
     {
@@ -11107,6 +11137,12 @@
       "channel": "stable"
     },
     {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.38.0",
+      "channel": "stable"
+    },
+    {
       "package": "logic-operator-rhel8",
       "name": "logic-operator-rhel8",
       "version": "1.33.0",
@@ -11859,6 +11895,12 @@
     {
       "package": "mcg-operator",
       "name": "mcg-operator",
+      "version": "4.14.32-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -12016,6 +12058,12 @@
       "package": "mcg-operator",
       "name": "mcg-operator",
       "version": "4.15.27-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.15.28-rhodf",
       "channel": "stable-4.15"
     },
     {
@@ -14187,6 +14235,12 @@
     {
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
+      "version": "4.14.32-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -14344,6 +14398,12 @@
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
       "version": "4.15.27-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
+      "version": "4.15.28-rhodf",
       "channel": "stable-4.15"
     },
     {
@@ -14517,6 +14577,12 @@
     {
       "package": "ocs-operator",
       "name": "ocs-operator",
+      "version": "4.14.32-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -14674,6 +14740,12 @@
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.15.27-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.15.28-rhodf",
       "channel": "stable-4.15"
     },
     {
@@ -14853,6 +14925,12 @@
     {
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
+      "version": "4.14.32-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -15010,6 +15088,12 @@
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
       "version": "4.15.27-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
+      "version": "4.15.28-rhodf",
       "channel": "stable-4.15"
     },
     {
@@ -15183,6 +15267,12 @@
     {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
+      "version": "4.14.32-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -15340,6 +15430,12 @@
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
       "version": "4.15.27-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
+      "version": "4.15.28-rhodf",
       "channel": "stable-4.15"
     },
     {
@@ -15513,6 +15609,12 @@
     {
       "package": "odf-operator",
       "name": "odf-operator",
+      "version": "4.14.32-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -15670,6 +15772,12 @@
       "package": "odf-operator",
       "name": "odf-operator",
       "version": "4.15.27-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
+      "version": "4.15.28-rhodf",
       "channel": "stable-4.15"
     },
     {
@@ -15843,6 +15951,12 @@
     {
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
+      "version": "4.14.32-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -16000,6 +16114,12 @@
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
       "version": "4.15.27-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
+      "version": "4.15.28-rhodf",
       "channel": "stable-4.15"
     },
     {
@@ -16173,6 +16293,12 @@
     {
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
+      "version": "4.14.32-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -16330,6 +16456,12 @@
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.15.27-rhodf",
+      "channel": "stable-4.15"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.15.28-rhodf",
       "channel": "stable-4.15"
     },
     {
@@ -18537,6 +18669,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.17.0",
       "channel": "stable-3.17"
     },
@@ -19432,6 +19570,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.16.3",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.16.4",
       "channel": "stable-3.16"
     },
     {
@@ -25507,7 +25651,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4251,
+  "count": 4275,
   "source": "opm",
-  "timestamp": "2026-05-19T06:42:24.539220"
+  "timestamp": "2026-05-22T06:44:20.707049"
 }

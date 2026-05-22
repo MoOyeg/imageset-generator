@@ -432,6 +432,15 @@
     "autoscaling.services.k8s.aws/v1alpha1/AutoScalingGroup": [
       "ack-autoscaling-controller"
     ],
+    "backup.services.k8s.aws/v1alpha1/BackupPlan": [
+      "ack-backup-controller"
+    ],
+    "backup.services.k8s.aws/v1alpha1/BackupSelection": [
+      "ack-backup-controller"
+    ],
+    "backup.services.k8s.aws/v1alpha1/BackupVault": [
+      "ack-backup-controller"
+    ],
     "bedrock.services.k8s.aws/v1alpha1/InferenceProfile": [
       "ack-bedrock-controller"
     ],
@@ -4493,6 +4502,9 @@
     "operator.victoriametrics.com/v1alpha1/VMDistributed": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1/VMAnomalyConfig": [
+      "victoriametrics-operator"
+    ],
     "virt.mathianasj.github.com/v1alpha1/VirtGitSync": [
       "virt-git-sync"
     ],
@@ -4512,5 +4524,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-19T06:51:14.159888"
+  "timestamp": "2026-05-22T06:51:29.358926"
 }

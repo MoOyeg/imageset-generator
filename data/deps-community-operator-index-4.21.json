@@ -392,6 +392,15 @@
     "autoscaling.services.k8s.aws/v1alpha1/AutoScalingGroup": [
       "ack-autoscaling-controller"
     ],
+    "backup.services.k8s.aws/v1alpha1/BackupPlan": [
+      "ack-backup-controller"
+    ],
+    "backup.services.k8s.aws/v1alpha1/BackupSelection": [
+      "ack-backup-controller"
+    ],
+    "backup.services.k8s.aws/v1alpha1/BackupVault": [
+      "ack-backup-controller"
+    ],
     "bedrock.services.k8s.aws/v1alpha1/InferenceProfile": [
       "ack-bedrock-controller"
     ],
@@ -2236,6 +2245,18 @@
     "source.toolkit.fluxcd.io/v1/HelmRepository": [
       "flux"
     ],
+    "fluxcd.controlplane.io/v1/FluxInstance": [
+      "flux-operator"
+    ],
+    "fluxcd.controlplane.io/v1/FluxReport": [
+      "flux-operator"
+    ],
+    "fluxcd.controlplane.io/v1/ResourceSet": [
+      "flux-operator"
+    ],
+    "fluxcd.controlplane.io/v1/ResourceSetInputProvider": [
+      "flux-operator"
+    ],
     "fossul.io/v1/Backup": [
       "fossul-operator"
     ],
@@ -3890,6 +3911,48 @@
     "sro.openshift.io/v1beta1/SpecialResource": [
       "special-resource-operator"
     ],
+    "stackgres.io/v1/SGBackup": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGCluster": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGConfig": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGDbOps": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGDistributedLogs": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGInstanceProfile": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1beta1/SGObjectStorage": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGPoolingConfig": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGPostgresConfig": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGScript": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGShardedBackup": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1alpha1/SGShardedCluster": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGShardedDbOps": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1alpha1/SGStream": [
+      "stackgres-community"
+    ],
     "kafka.strimzi.io/v1beta2/Kafka": [
       "strimzi-kafka-operator"
     ],
@@ -4328,6 +4391,9 @@
     "operator.victoriametrics.com/v1alpha1/VMDistributed": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1/VMAnomalyConfig": [
+      "victoriametrics-operator"
+    ],
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
       "visionone-containersecurity"
     ],
@@ -4344,5 +4410,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-19T06:57:26.865957"
+  "timestamp": "2026-05-22T06:57:43.643600"
 }

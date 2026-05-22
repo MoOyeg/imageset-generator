@@ -482,6 +482,32 @@
       "channel": "5.0"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.3",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -2462,6 +2488,26 @@
       "channel": "preview"
     },
     {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.8.3",
+      "keywords": [
+        "credential",
+        "cyber",
+        "cyberark",
+        "conjur",
+        "enterprise",
+        "management",
+        "password",
+        "secret",
+        "secrets management",
+        "security",
+        "vault"
+      ],
+      "description": "",
+      "channel": "preview"
+    },
+    {
       "package": "couchbase-enterprise-certified",
       "name": "couchbase-enterprise-certified",
       "version": "2.7.0-5",
@@ -3382,7 +3428,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.5",
+      "version": "25.3.6",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -3395,7 +3441,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.1",
+      "version": "26.1.2",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -3490,7 +3536,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.1.10-1",
+      "version": "25.1.11",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -3504,7 +3550,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.3.5",
+      "version": "25.3.6",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -3518,7 +3564,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.1",
+      "version": "26.1.2",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -3720,6 +3766,19 @@
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
       "version": "2026.4.1",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "innovation"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2026.5.0",
       "keywords": [
         "Postgres",
         "Database",
@@ -4030,6 +4089,19 @@
       "channel": "stable"
     },
     {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.8.2",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -4250,6 +4322,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "2.11.3",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.0.0",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -4923,6 +5009,19 @@
       "package": "hspc-operator",
       "name": "hspc-operator",
       "version": "1.18.1",
+      "keywords": [
+        "Hitachi",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing Hitachi Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "hspc-operator",
+      "name": "hspc-operator",
+      "version": "1.18.2",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -6115,6 +6214,20 @@
       "channel": "stable"
     },
     {
+      "package": "ipm-controller",
+      "name": "ipm-controller",
+      "version": "26.5.0",
+      "keywords": [
+        "intel",
+        "infrastructure",
+        "power",
+        "manager",
+        "management"
+      ],
+      "description": "IPM Controller manages resources via REST API interactions.",
+      "channel": "stable"
+    },
+    {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "6.5.10",
@@ -6742,6 +6855,18 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "8.5.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.9",
       "keywords": [
         "kubernetes",
         "storage",
@@ -7719,12 +7844,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.60-beta.1",
+      "version": "8.20.0-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -8316,6 +8441,18 @@
       "channel": "stable"
     },
     {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.8.1",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
       "version": "0.0.8",
@@ -8659,7 +8796,7 @@
     {
       "package": "nginx-gateway-fabric",
       "name": "nginx-gateway-fabric",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "keywords": [
         "nginx",
         "gateway",
@@ -10462,6 +10599,42 @@
       "channel": "alpha"
     },
     {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "26.2.0-rc1",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "26.2.4",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
       "package": "spyre-operator",
       "name": "spyre-operator",
       "version": "1.2.1",
@@ -10845,6 +11018,22 @@
       ],
       "description": "Stackable Operator for Apache ZooKeeper",
       "channel": "26.3"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.7",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
     },
     {
       "package": "sumologic-kubernetes-collection-helm-operator",
@@ -11441,6 +11630,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.70.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "xspc-operator",
       "name": "xspc-operator",
       "version": "1.18.1",
@@ -11536,7 +11737,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1056,
+  "count": 1069,
   "source": "opm",
-  "timestamp": "2026-05-19T06:57:06.775802"
+  "timestamp": "2026-05-22T06:57:23.428932"
 }
