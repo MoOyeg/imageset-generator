@@ -19412,6 +19412,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.49.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
       "package": "gitops-primer",
       "name": "gitops-primer",
       "version": "0.0.1",
@@ -33035,30 +33049,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-07",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-08",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-09",
       "keywords": [
         "istio",
@@ -33192,6 +33182,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-22",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-23",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-24",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-25",
       "keywords": [
         "istio",
         "servicemesh",
@@ -36923,7 +36949,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4884,
+  "count": 4886,
   "source": "opm",
-  "timestamp": "2026-05-22T06:53:21.539558"
+  "timestamp": "2026-05-25T06:50:39.405842"
 }

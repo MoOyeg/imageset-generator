@@ -4727,6 +4727,21 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.4",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -5568,7 +5583,7 @@
     {
       "package": "tvo-operator",
       "name": "tvo-operator",
-      "version": "6.1.12",
+      "version": "6.1.13",
       "keywords": [
         "OpenStack",
         "Backup",
@@ -5962,7 +5977,7 @@
       "channel": "lts"
     }
   ],
-  "count": 666,
+  "count": 667,
   "source": "opm",
-  "timestamp": "2026-05-22T06:58:53.981648"
+  "timestamp": "2026-05-25T06:57:46.810767"
 }

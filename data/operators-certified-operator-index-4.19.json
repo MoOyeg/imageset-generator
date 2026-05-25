@@ -5429,6 +5429,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.49.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -6086,7 +6100,7 @@
     {
       "package": "hazelcast-platform-operator",
       "name": "hazelcast-platform-operator",
-      "version": "5.15.0",
+      "version": "5.18.0",
       "keywords": [
         "hazelcast",
         "keyvalue",
@@ -9050,6 +9064,23 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.8",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.8 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -10368,7 +10399,7 @@
     {
       "package": "nginx-gateway-fabric",
       "name": "nginx-gateway-fabric",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "keywords": [
         "nginx",
         "gateway",
@@ -10454,6 +10485,21 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.5.3",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.4",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -14627,7 +14673,7 @@
     {
       "package": "tvo-operator",
       "name": "tvo-operator",
-      "version": "6.1.12",
+      "version": "6.1.13",
       "keywords": [
         "OpenStack",
         "Backup",
@@ -15300,7 +15346,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1364,
+  "count": 1367,
   "source": "opm",
-  "timestamp": "2026-05-22T06:54:30.372240"
+  "timestamp": "2026-05-25T06:52:31.948911"
 }

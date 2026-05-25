@@ -2575,6 +2575,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.49.0",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -2889,7 +2895,7 @@
     {
       "package": "hazelcast-platform-operator",
       "name": "hazelcast-platform-operator",
-      "version": "5.17.0",
+      "version": "5.18.0",
       "channel": "alpha"
     },
     {
@@ -4759,6 +4765,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.8",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace",
       "name": "kubemq-operator-marketplace",
       "version": "1.8.5",
@@ -5746,6 +5758,12 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.5.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.5.4",
       "channel": "alpha"
     },
     {
@@ -8653,7 +8671,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1442,
+  "count": 1445,
   "source": "opm",
-  "timestamp": "2026-05-22T06:37:51.238565"
+  "timestamp": "2026-05-25T06:34:29.726768"
 }
