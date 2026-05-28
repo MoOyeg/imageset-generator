@@ -1557,6 +1557,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "3.2.0-13",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.2.0-8",
       "channel": "amq-streams-3.2.x"
     },
@@ -1737,6 +1743,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-10",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "channel": "amq-streams-3.2.x"
     },
@@ -1798,6 +1810,12 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.2.0-2",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.0-8",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -2827,6 +2845,18 @@
       "channel": "stable-2.6"
     },
     {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1779173639",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1779173658",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
       "package": "ansible-cloud-addons-operator",
       "name": "ansible-cloud-addons-operator",
       "version": "2.4.0+0.1708974547",
@@ -3292,6 +3322,12 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6-r3",
+      "channel": "3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.4-r1",
       "channel": "3.x"
     },
     {
@@ -5757,6 +5793,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.14.8",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.15.0",
       "channel": "stable-3.15"
     },
@@ -6724,6 +6766,12 @@
       "package": "cryostat-operator",
       "name": "cryostat-operator",
       "version": "4.1.1+4",
+      "channel": "stable"
+    },
+    {
+      "package": "cryostat-operator",
+      "name": "cryostat-operator",
+      "version": "4.2.0",
       "channel": "stable"
     },
     {
@@ -7809,6 +7857,12 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.19",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.2",
       "channel": "stable"
     },
@@ -8158,6 +8212,12 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.3.4",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.5",
       "channel": "stable-v1"
     },
     {
@@ -10659,6 +10719,12 @@
     {
       "package": "kiali-ossm",
       "name": "kiali-ossm",
+      "version": "2.22.4",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
       "version": "2.4.3",
       "channel": "stable"
     },
@@ -11104,6 +11170,12 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.14.18",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.14.19",
       "channel": "candidate"
     },
     {
@@ -16755,6 +16827,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.18.6",
+      "channel": "gitops-1.18"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.19.0",
       "channel": "gitops-1.19"
     },
@@ -16779,6 +16857,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.19.4",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.20.0",
       "channel": "gitops-1.20"
     },
@@ -16798,6 +16882,12 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.20.3",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.20.4",
       "channel": "gitops-1.20"
     },
     {
@@ -18243,6 +18333,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.14.8",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.15.0",
       "channel": "stable-3.15"
     },
@@ -19144,6 +19240,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.14.7",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.14.8",
       "channel": "stable-3.14"
     },
     {
@@ -20071,6 +20173,12 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "1.3.1+0.1779241702.p",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.0",
@@ -20841,6 +20949,12 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.3",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.2.0",
       "channel": "rhacs-4.10"
     },
@@ -21280,6 +21394,12 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.6",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.9.7",
       "channel": "rhacs-4.10"
     },
     {
@@ -23889,6 +24009,12 @@
     {
       "package": "servicemeshoperator",
       "name": "servicemeshoperator",
+      "version": "2.6.16-0",
+      "channel": "1.0"
+    },
+    {
+      "package": "servicemeshoperator",
+      "name": "servicemeshoperator",
       "version": "2.6.2-0",
       "channel": "1.0"
     },
@@ -25669,7 +25795,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4278,
+  "count": 4299,
   "source": "opm",
-  "timestamp": "2026-05-25T06:37:53.351457"
+  "timestamp": "2026-05-28T06:38:28.575944"
 }

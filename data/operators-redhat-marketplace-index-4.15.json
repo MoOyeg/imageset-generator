@@ -105,6 +105,12 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.4.1",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "channel": "alpha"
     },
@@ -1789,6 +1795,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.18.8",
+      "channel": "candidate"
+    },
+    {
       "package": "starburst-enterprise-helm-operator-paygo-rhmp",
       "name": "starburst-enterprise-helm-operator-paygo-rhmp",
       "version": "402.1.0",
@@ -1933,7 +1945,7 @@
       "channel": "lts"
     }
   ],
-  "count": 322,
+  "count": 324,
   "source": "opm",
-  "timestamp": "2026-05-25T06:43:45.770857"
+  "timestamp": "2026-05-28T06:44:12.726003"
 }

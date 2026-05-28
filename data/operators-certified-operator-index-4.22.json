@@ -2538,13 +2538,18 @@
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "24.12.0",
+      "version": "25.4.0",
+      "keywords": [
+        "identity and access",
+        "security"
+      ],
+      "description": "The IBM Verify Identity Access Operator manages the lifecycle of IBM Verify Identity Access worker containers.",
       "channel": "stable"
     },
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "25.4.0",
+      "version": "26.5.0",
       "keywords": [
         "identity and access",
         "security"
@@ -3808,12 +3813,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.60",
+      "version": "8.20.0",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -5872,6 +5877,18 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
+      "version": "0.68.5",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
       "version": "0.70.1",
       "keywords": [
         "monitoring",
@@ -5977,7 +5994,7 @@
       "channel": "lts"
     }
   ],
-  "count": 667,
+  "count": 668,
   "source": "opm",
-  "timestamp": "2026-05-25T06:57:46.810767"
+  "timestamp": "2026-05-28T06:56:43.398094"
 }

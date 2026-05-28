@@ -4957,6 +4957,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-elbv2-controller",
       "name": "ack-elbv2-controller",
       "version": "0.0.10",
@@ -12397,6 +12403,12 @@
       "channel": "stable"
     },
     {
+      "package": "aerospike-kubernetes-operator",
+      "name": "aerospike-kubernetes-operator",
+      "version": "4.4.1",
+      "channel": "stable"
+    },
+    {
       "package": "airflow-helm-operator",
       "name": "airflow-helm-operator",
       "version": "0.0.1",
@@ -13907,6 +13919,12 @@
       "name": "camel-karavan-operator",
       "version": "3.20.1",
       "channel": "alpha"
+    },
+    {
+      "package": "camel-monitor-operator",
+      "name": "camel-monitor-operator",
+      "version": "0.2.0",
+      "channel": "latest"
     },
     {
       "package": "cass-operator-community",
@@ -18319,6 +18337,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.0.1",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -22591,6 +22615,12 @@
       "channel": "alpha"
     },
     {
+      "package": "logicmonitor-openshift-operator",
+      "name": "logicmonitor-openshift-operator",
+      "version": "0.3.3",
+      "channel": "alpha"
+    },
+    {
       "package": "loki-helm-operator",
       "name": "loki-helm-operator",
       "version": "0.0.1",
@@ -25078,6 +25108,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.151.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.152.0",
       "channel": "alpha"
     },
     {
@@ -32713,6 +32749,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-community",
+      "name": "stackgres-community",
+      "version": "1.18.8",
+      "channel": "candidate"
+    },
+    {
       "package": "stolostron",
       "name": "stolostron",
       "version": "0.2.1",
@@ -34861,7 +34903,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5810,
+  "count": 5817,
   "source": "opm",
-  "timestamp": "2026-05-25T06:35:17.212548"
+  "timestamp": "2026-05-28T06:36:22.850012"
 }

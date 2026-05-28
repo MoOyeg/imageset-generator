@@ -5126,6 +5126,12 @@
       "package": "ack-elasticache-controller",
       "name": "ack-elasticache-controller",
       "version": "1.3.5",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
+      "version": "1.4.0",
       "keywords": [
         "elasticache",
         "aws",
@@ -12807,6 +12813,12 @@
       "package": "aerospike-kubernetes-operator",
       "name": "aerospike-kubernetes-operator",
       "version": "4.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator",
+      "name": "aerospike-kubernetes-operator",
+      "version": "4.4.1",
       "keywords": [
         "Aerospike"
       ],
@@ -14807,6 +14819,23 @@
       "channel": "alpha"
     },
     {
+      "package": "camel-monitor-operator",
+      "name": "camel-monitor-operator",
+      "version": "0.2.0",
+      "keywords": [
+        "apache",
+        "camel",
+        "dashboard",
+        "kubernetes",
+        "monitoring",
+        "microservices",
+        "integration",
+        "observability"
+      ],
+      "description": "Camel Monitor Operator is the monitoring tool for your Apache Camel applications running on cloud.",
+      "channel": "latest"
+    },
+    {
       "package": "cass-operator-community",
       "name": "cass-operator-community",
       "version": "1.10.1",
@@ -15642,6 +15671,16 @@
       "package": "clusterpulse",
       "name": "clusterpulse",
       "version": "1.0.1",
+      "keywords": [
+        "clusterpulse"
+      ],
+      "description": "Provides OpenShift cluster health monitoring",
+      "channel": "fast-v1"
+    },
+    {
+      "package": "clusterpulse",
+      "name": "clusterpulse",
+      "version": "1.0.2",
       "keywords": [
         "clusterpulse"
       ],
@@ -19381,6 +19420,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.0.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -19401,14 +19446,6 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.3",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
       "channel": "stable"
     },
     {
@@ -25522,6 +25559,12 @@
       "package": "logicmonitor-openshift-operator",
       "name": "logicmonitor-openshift-operator",
       "version": "0.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "logicmonitor-openshift-operator",
+      "name": "logicmonitor-openshift-operator",
+      "version": "0.3.3",
       "keywords": [
         "monitoring",
         "observability",
@@ -29038,6 +29081,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.151.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.152.0",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -30216,6 +30265,12 @@
       "package": "percona-postgresql-operator",
       "name": "percona-postgresql-operator",
       "version": "2.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator",
+      "name": "percona-postgresql-operator",
+      "version": "3.0.0",
       "keywords": [
         "postgres",
         "postgresql",
@@ -30951,6 +31006,18 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.12.16",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.12.17",
       "keywords": [
         "open source",
         "containers",
@@ -33049,31 +33116,7 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-09",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-10",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-11",
+      "version": "1.30.0",
       "keywords": [
         "istio",
         "servicemesh",
@@ -33218,6 +33261,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-25",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-26",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-27",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-28",
       "keywords": [
         "istio",
         "servicemesh",
@@ -34229,6 +34308,12 @@
       "package": "stackgres-community",
       "name": "stackgres-community",
       "version": "1.18.7",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-community",
+      "name": "stackgres-community",
+      "version": "1.18.8",
       "keywords": [
         "postgresql",
         "postgres",
@@ -36522,6 +36607,18 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
+      "version": "0.68.5",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
       "version": "0.70.1",
       "keywords": [
         "monitoring",
@@ -36949,7 +37046,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4886,
+  "count": 4898,
   "source": "opm",
-  "timestamp": "2026-05-25T06:50:39.405842"
+  "timestamp": "2026-05-28T06:50:56.526216"
 }

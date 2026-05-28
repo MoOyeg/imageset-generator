@@ -1833,6 +1833,12 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "25.1.11",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "25.1.2",
       "channel": "stable-v25.1"
     },
@@ -3099,13 +3105,13 @@
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "24.12.0",
+      "version": "25.4.0",
       "channel": "stable"
     },
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "25.4.0",
+      "version": "26.5.0",
       "channel": "stable"
     },
     {
@@ -4797,8 +4803,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.60",
-      "channel": "stable"
+      "version": "8.20.0",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -4899,8 +4905,8 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.60",
-      "channel": "stable"
+      "version": "8.20.0",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -6351,8 +6357,8 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.60",
-      "channel": "stable"
+      "version": "8.20.0",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -7029,6 +7035,12 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.11",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "channel": "stable-v1"
     },
@@ -7042,6 +7054,12 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.30.8",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.9",
       "channel": "stable-v1"
     },
     {
@@ -7387,6 +7405,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.8",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.17.1-0",
@@ -7695,7 +7719,19 @@
     {
       "package": "tawon-operator",
       "name": "tawon-operator",
-      "version": "3.0.0-rc3",
+      "version": "3.0.0-rc4",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc5",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc6",
       "channel": "candidate-v3"
     },
     {
@@ -8571,6 +8607,12 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
+      "version": "0.68.5",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
       "version": "0.70.1",
       "channel": "beta"
     },
@@ -8671,7 +8713,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1445,
+  "count": 1452,
   "source": "opm",
-  "timestamp": "2026-05-25T06:34:29.726768"
+  "timestamp": "2026-05-28T06:35:38.315719"
 }

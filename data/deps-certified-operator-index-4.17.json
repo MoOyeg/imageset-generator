@@ -1195,6 +1195,9 @@
     "hulft.saison-technology.com/v1/Hulft": [
       "hulft"
     ],
+    "itrsgroup.com/v1/IAXPlatform": [
+      "iax-webhook-router"
+    ],
     "ibm.com/v1/IBMApplicationGateway": [
       "ibm-application-gateway-operator"
     ],
@@ -2550,6 +2553,21 @@
     "tawon.mantisnet.com/v1alpha1/TopologyAggregator": [
       "tawon-operator"
     ],
+    "tawon.mantisnet.com/v1alpha1/ClusterDirective": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/Dashboard": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/Stream": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/StreamStore": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/DirectiveBinding": [
+      "tawon-operator"
+    ],
     "templates.stakater.com/v1alpha1/ClusterTemplateInstance": [
       "template-operator"
     ],
@@ -2821,5 +2839,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-25T06:48:35.918308"
+  "timestamp": "2026-05-28T06:49:05.811610"
 }

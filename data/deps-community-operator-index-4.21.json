@@ -1540,6 +1540,9 @@
     "camel.apache.org/v1/Karavan": [
       "camel-karavan-operator"
     ],
+    "camel.apache.org/v1alpha1/CamelMonitor": [
+      "camel-monitor-operator"
+    ],
     "cassandra.datastax.com/v1beta1/CassandraDatacenter": [
       "cass-operator-community"
     ],
@@ -3362,6 +3365,18 @@
     "postgres-operator.crunchydata.com/v1beta1/PostgresCluster": [
       "percona-postgresql-operator"
     ],
+    "upstream.pgv2.percona.com/v1beta1/CrunchyBridgeCluster": [
+      "percona-postgresql-operator"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PGAdmin": [
+      "percona-postgresql-operator"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PGUpgrade": [
+      "percona-postgresql-operator"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PostgresCluster": [
+      "percona-postgresql-operator"
+    ],
     "psmdb.percona.com/v1/PerconaServerMongoDB": [
       "percona-server-mongodb-operator"
     ],
@@ -4410,5 +4425,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-25T06:56:08.735629"
+  "timestamp": "2026-05-28T06:55:44.997163"
 }

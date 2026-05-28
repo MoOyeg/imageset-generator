@@ -3428,6 +3428,19 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "25.1.11",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "25.3.6",
       "keywords": [
         "digitalai",
@@ -5096,7 +5109,7 @@
     {
       "package": "iax-webhook-router",
       "name": "iax-webhook-router",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "keywords": [
         "iax",
         "webhook",
@@ -5157,13 +5170,18 @@
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "24.12.0",
+      "version": "25.4.0",
+      "keywords": [
+        "identity and access",
+        "security"
+      ],
+      "description": "The IBM Verify Identity Access Operator manages the lifecycle of IBM Verify Identity Access worker containers.",
       "channel": "stable"
     },
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "25.4.0",
+      "version": "26.5.0",
       "keywords": [
         "identity and access",
         "security"
@@ -7870,12 +7888,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.60",
+      "version": "8.20.0",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -11082,6 +11100,46 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.8",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "strategy-operator",
+      "name": "strategy-operator",
+      "version": "26.5.0",
+      "keywords": [
+        "AI",
+        "BI",
+        "Strategy"
+      ],
+      "description": "Operator for Strategy Customer Managed Cloud (CMC)",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "strategy-operator",
+      "name": "strategy-operator",
+      "version": "26.5.1",
+      "keywords": [
+        "AI",
+        "BI",
+        "Strategy"
+      ],
+      "description": "Operator for Strategy Customer Managed Cloud (CMC)",
+      "channel": "stable-v1"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -11678,6 +11736,18 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
+      "version": "0.68.5",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
       "version": "0.70.1",
       "keywords": [
         "monitoring",
@@ -11783,7 +11853,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1072,
+  "count": 1077,
   "source": "opm",
-  "timestamp": "2026-05-25T06:55:48.615687"
+  "timestamp": "2026-05-28T06:55:24.596610"
 }

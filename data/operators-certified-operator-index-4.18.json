@@ -4848,6 +4848,19 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "25.1.11",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "25.1.2",
       "channel": "stable-v25.1"
     },
@@ -7304,6 +7317,20 @@
       "channel": "stable"
     },
     {
+      "package": "iax-webhook-router",
+      "name": "iax-webhook-router",
+      "version": "0.1.5",
+      "keywords": [
+        "iax",
+        "webhook",
+        "admission",
+        "kubernetes",
+        "itrsgroup"
+      ],
+      "description": "Proxies validating admission requests for IAXPlatform custom resources to the iax-operator webhook server.",
+      "channel": "stable"
+    },
+    {
       "package": "ibm-application-gateway-operator",
       "name": "ibm-application-gateway-operator",
       "version": "24.4.0",
@@ -7607,13 +7634,18 @@
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "24.12.0",
+      "version": "25.4.0",
+      "keywords": [
+        "identity and access",
+        "security"
+      ],
+      "description": "The IBM Verify Identity Access Operator manages the lifecycle of IBM Verify Identity Access worker containers.",
       "channel": "stable"
     },
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "25.4.0",
+      "version": "26.5.0",
       "keywords": [
         "identity and access",
         "security"
@@ -11125,12 +11157,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.60",
+      "version": "8.20.0",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -15387,6 +15419,19 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.11",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "keywords": [
         "vertical scaling",
@@ -15414,6 +15459,19 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.30.8",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.9",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -16305,6 +16363,46 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.8",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "strategy-operator",
+      "name": "strategy-operator",
+      "version": "26.5.0",
+      "keywords": [
+        "AI",
+        "BI",
+        "Strategy"
+      ],
+      "description": "Operator for Strategy Customer Managed Cloud (CMC)",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "strategy-operator",
+      "name": "strategy-operator",
+      "version": "26.5.1",
+      "keywords": [
+        "AI",
+        "BI",
+        "Strategy"
+      ],
+      "description": "Operator for Strategy Customer Managed Cloud (CMC)",
+      "channel": "stable-v1"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -16389,6 +16487,45 @@
       ],
       "description": "",
       "channel": "alpha"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc4",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc5",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc6",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
     },
     {
       "package": "template-operator",
@@ -17483,6 +17620,18 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
+      "version": "0.68.5",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
       "version": "0.70.1",
       "keywords": [
         "monitoring",
@@ -17632,7 +17781,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1625,
+  "count": 1636,
   "source": "opm",
-  "timestamp": "2026-05-25T06:50:06.582789"
+  "timestamp": "2026-05-28T06:50:35.869593"
 }

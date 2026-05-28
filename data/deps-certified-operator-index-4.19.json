@@ -2271,6 +2271,9 @@
     "stackgres.io/v1alpha1/SGStream": [
       "stackgres-certified"
     ],
+    "cloud.microstrategy.com/v1/MstrManagementService": [
+      "strategy-operator"
+    ],
     "helm-operator.sumologic.com/v1alpha1/SumologicCollection": [
       "sumologic-kubernetes-collection-helm-operator"
     ],
@@ -2296,6 +2299,21 @@
       "tawon-operator"
     ],
     "tawon.mantisnet.com/v1alpha1/TopologyAggregator": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/ClusterDirective": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/Dashboard": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/Stream": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/StreamStore": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/DirectiveBinding": [
       "tawon-operator"
     ],
     "templates.stakater.com/v1alpha1/ClusterTemplateInstance": [
@@ -2566,5 +2584,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-25T06:52:32.631434"
+  "timestamp": "2026-05-28T06:52:08.687334"
 }

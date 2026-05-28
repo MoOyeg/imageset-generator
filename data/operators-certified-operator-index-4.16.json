@@ -2679,6 +2679,12 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "25.1.11",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "25.1.2",
       "channel": "stable-v25.1"
     },
@@ -3955,6 +3961,12 @@
       "channel": "stable"
     },
     {
+      "package": "iax-webhook-router",
+      "name": "iax-webhook-router",
+      "version": "0.1.5",
+      "channel": "stable"
+    },
+    {
       "package": "ibm-application-gateway-operator",
       "name": "ibm-application-gateway-operator",
       "version": "24.4.0",
@@ -4101,13 +4113,13 @@
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "24.12.0",
+      "version": "25.4.0",
       "channel": "stable"
     },
     {
       "package": "ibm-security-verify-access-operator",
       "name": "ibm-security-verify-access-operator",
-      "version": "25.4.0",
+      "version": "26.5.0",
       "channel": "stable"
     },
     {
@@ -5895,8 +5907,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.19.60",
-      "channel": "stable"
+      "version": "8.20.0",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -6069,8 +6081,8 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.19.60",
-      "channel": "stable"
+      "version": "8.20.0",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -7827,8 +7839,8 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.19.60",
-      "channel": "stable"
+      "version": "8.20.0",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -8547,6 +8559,12 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.11",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "channel": "stable-v1"
     },
@@ -8560,6 +8578,12 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.30.8",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.9",
       "channel": "stable-v1"
     },
     {
@@ -9115,6 +9139,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.8",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -9257,6 +9287,24 @@
       "name": "tawon-operator",
       "version": "2.40.0-rc20",
       "channel": "candidate-v2"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc4",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc5",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc6",
+      "channel": "candidate-v3"
     },
     {
       "package": "template-operator",
@@ -9939,6 +9987,12 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
+      "version": "0.68.5",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
       "version": "0.70.1",
       "channel": "beta"
     },
@@ -10033,7 +10087,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1672,
+  "count": 1681,
   "source": "opm",
-  "timestamp": "2026-05-25T06:46:22.173809"
+  "timestamp": "2026-05-28T06:46:40.936834"
 }
