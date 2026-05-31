@@ -668,6 +668,57 @@
     "coroot.com/v1/Coroot": [
       "coroot-operator"
     ],
+    "couchbase.com/v2/CouchbaseAutoscaler": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBackup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBackupRestore": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCluster": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCollection": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseCollectionGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseEphemeralBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseMemcachedBucket": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseMigrationReplication": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseReplication": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseRoleBinding": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseScope": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseScopeGroup": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseUser": [
+      "couchbase-enterprise-certified"
+    ],
+    "couchbase.com/v2/CouchbaseEncryptionKey": [
+      "couchbase-enterprise-certified"
+    ],
     "flink.apache.org/v1beta1/FlinkDeployment": [
       "cp-fko"
     ],
@@ -1626,6 +1677,18 @@
     "pgv2.percona.com/v2/PerconaPGUpgrade": [
       "percona-postgresql-operator-certified"
     ],
+    "upstream.pgv2.percona.com/v1beta1/CrunchyBridgeCluster": [
+      "percona-postgresql-operator-certified"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PGAdmin": [
+      "percona-postgresql-operator-certified"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PGUpgrade": [
+      "percona-postgresql-operator-certified"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PostgresCluster": [
+      "percona-postgresql-operator-certified"
+    ],
     "psmdb.percona.com/v1/PerconaServerMongoDB": [
       "percona-server-mongodb-operator-certified"
     ],
@@ -2467,5 +2530,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-05-28T06:53:57.040953"
+  "timestamp": "2026-05-31T06:50:25.758964"
 }

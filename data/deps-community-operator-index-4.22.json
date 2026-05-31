@@ -401,6 +401,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/APIKeyCredentialProvider": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Memory": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -3667,6 +3670,78 @@
     "vertica.com/v1/VerticaRestorePointsQuery": [
       "verticadb-operator"
     ],
+    "operator.victoriametrics.com/v1beta1/VLogs": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAgent": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAlert": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAlertmanager": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAlertmanagerConfig": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMAuth": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMCluster": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMNodeScrape": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMPodScrape": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMProbe": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMRule": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMScrapeConfig": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMServiceScrape": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMSingle": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMStaticScrape": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1beta1/VMUser": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VLCluster": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VLSingle": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VMAnomaly": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VLAgent": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VTCluster": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VTSingle": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1alpha1/VMDistributed": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VMAnomalyConfig": [
+      "victoriametrics-operator"
+    ],
     "apps.wandb.com/v1/WeightsAndBiases": [
       "wandb-operator"
     ],
@@ -3680,5 +3755,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-05-28T06:57:06.973956"
+  "timestamp": "2026-05-31T06:53:38.493079"
 }

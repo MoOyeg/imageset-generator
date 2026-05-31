@@ -2485,6 +2485,12 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.87",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -3184,6 +3190,12 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "26.3.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.2",
       "channel": "stable"
     },
     {
@@ -6379,6 +6391,12 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.0",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -7147,6 +7165,12 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.2.0",
+      "channel": "alpha"
+    },
+    {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.20.0",
@@ -7270,6 +7294,12 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.22.2-39.0",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-40.0",
       "channel": "7.22.2"
     },
     {
@@ -7402,7 +7432,7 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-15.0",
-      "channel": "7.8.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -7845,6 +7875,18 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.12",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.13",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "channel": "stable-v1"
     },
@@ -7893,7 +7935,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.18.3",
+      "version": "0.18.12",
       "channel": "alpha"
     },
     {
@@ -9421,7 +9463,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1570,
+  "count": 1577,
   "source": "opm",
-  "timestamp": "2026-05-28T06:42:56.430215"
+  "timestamp": "2026-05-31T06:39:31.181262"
 }

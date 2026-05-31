@@ -2743,6 +2743,12 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.87",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -3442,6 +3448,12 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "26.3.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.2",
       "channel": "stable"
     },
     {
@@ -6607,6 +6619,12 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.0",
+      "channel": "alpha"
+    },
+    {
       "package": "nspc-operator",
       "name": "nspc-operator",
       "version": "1.13.1",
@@ -7363,6 +7381,12 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.2.0",
+      "channel": "alpha"
+    },
+    {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.20.0",
@@ -8043,6 +8067,18 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.12",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.13",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "channel": "stable-v1"
     },
@@ -8091,7 +8127,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.18.3",
+      "version": "0.18.12",
       "channel": "alpha"
     },
     {
@@ -9943,7 +9979,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1657,
+  "count": 1663,
   "source": "opm",
-  "timestamp": "2026-05-28T06:39:11.138185"
+  "timestamp": "2026-05-31T06:35:47.435240"
 }

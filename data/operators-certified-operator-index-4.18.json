@@ -5261,6 +5261,20 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.87",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -6837,6 +6851,22 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "26.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.2",
       "keywords": [
         "gpu",
         "cuda",
@@ -11042,6 +11072,21 @@
     {
       "package": "mariadb-enterprise-operator",
       "name": "mariadb-enterprise-operator",
+      "version": "25.10.6",
+      "keywords": [
+        "mariadb",
+        "mysql",
+        "database",
+        "operator",
+        "mariadb-enterprise-operator",
+        "database"
+      ],
+      "description": "",
+      "channel": "stable-v25.10"
+    },
+    {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
       "version": "25.8.0",
       "keywords": [
         "mariadb",
@@ -12330,6 +12375,21 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.0",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -13029,7 +13089,22 @@
         "percona"
       ],
       "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
-      "channel": "stable-cw"
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "3.0.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable"
     },
     {
       "package": "percona-server-mongodb-operator-certified",
@@ -14014,6 +14089,20 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.2.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -14080,6 +14169,21 @@
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
       "version": "0.4.2",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.4.3",
       "keywords": [
         "rebellions",
         "ai",
@@ -14278,6 +14382,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-40.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.4-9.0",
       "keywords": [
         "redislabs",
@@ -14353,7 +14471,7 @@
         "cache"
       ],
       "description": "",
-      "channel": "7.8.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -14691,6 +14809,21 @@
       "package": "runtime-fabric-operator",
       "name": "runtime-fabric-operator",
       "version": "3.0.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "runtime-fabric-operator",
+      "name": "runtime-fabric-operator",
+      "version": "3.0.102",
+      "keywords": [
+        "operator",
+        "agent",
+        "rtf",
+        "runtime",
+        "fabric",
+        "mulesoft"
+      ],
+      "description": "Runtime Fabric Operator Application from Mulesoft",
       "channel": "alpha"
     },
     {
@@ -15432,6 +15565,32 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.12",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.13",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "keywords": [
         "vertical scaling",
@@ -15518,7 +15677,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.18.3",
+      "version": "0.18.12",
       "keywords": [
         "streamnative",
         "pulsar"
@@ -17781,7 +17940,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1636,
+  "count": 1647,
   "source": "opm",
-  "timestamp": "2026-05-28T06:50:35.869593"
+  "timestamp": "2026-05-31T06:47:29.771048"
 }

@@ -1423,6 +1423,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cloudfront-controller",
       "name": "ack-cloudfront-controller",
       "version": "0.0.1",
@@ -9559,6 +9565,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-recyclebin-controller",
       "name": "ack-recyclebin-controller",
       "version": "0.0.1",
@@ -12778,6 +12790,12 @@
       "package": "argocd-operator",
       "name": "argocd-operator",
       "version": "0.17.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "argocd-operator",
+      "name": "argocd-operator",
+      "version": "0.18.0",
       "channel": "alpha"
     },
     {
@@ -21661,6 +21679,12 @@
       "channel": "alpha"
     },
     {
+      "package": "koku-metrics-operator",
+      "name": "koku-metrics-operator",
+      "version": "4.4.1",
+      "channel": "alpha"
+    },
+    {
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.1.0",
@@ -28023,6 +28047,12 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
+      "version": "0.18.12",
+      "channel": "alpha"
+    },
+    {
+      "package": "sn-operator",
+      "name": "sn-operator",
       "version": "0.18.3",
       "channel": "alpha"
     },
@@ -30375,6 +30405,12 @@
     {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
+      "version": "0.68.5",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
       "version": "0.70.1",
       "channel": "beta"
     },
@@ -30739,7 +30775,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5123,
+  "count": 5129,
   "source": "opm",
-  "timestamp": "2026-05-28T06:43:43.689104"
+  "timestamp": "2026-05-31T06:40:24.441253"
 }

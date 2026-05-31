@@ -16617,6 +16617,38 @@
     {
       "package": "devspaces",
       "name": "devspaces",
+      "version": "3.28.0",
+      "keywords": [
+        "eclipse che",
+        "workspaces",
+        "devtools",
+        "developer",
+        "ide",
+        "java",
+        "devspaces"
+      ],
+      "description": "Devfile v2 and v1 development solution, 1 instance per cluster, for portable, collaborative k8s workspaces.",
+      "channel": "stable"
+    },
+    {
+      "package": "devspaces",
+      "name": "devspaces",
+      "version": "3.28.1",
+      "keywords": [
+        "eclipse che",
+        "workspaces",
+        "devtools",
+        "developer",
+        "ide",
+        "java",
+        "devspaces"
+      ],
+      "description": "Devfile v2 and v1 development solution, 1 instance per cluster, for portable, collaborative k8s workspaces.",
+      "channel": "stable"
+    },
+    {
+      "package": "devspaces",
+      "name": "devspaces",
       "version": "3.3.0",
       "keywords": [
         "eclipse che",
@@ -31010,6 +31042,17 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.5.5",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.0",
       "keywords": [
         "multicluster-global-hub",
@@ -40241,6 +40284,19 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.20.5",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.21.0",
       "keywords": [
         "tektoncd",
@@ -40268,6 +40324,32 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.22.0",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.1",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.2",
       "keywords": [
         "tektoncd",
         "openshift",
@@ -61906,7 +61988,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4492,
+  "count": 4498,
   "source": "opm",
-  "timestamp": "2026-05-28T06:48:41.539387"
+  "timestamp": "2026-05-31T06:45:18.611991"
 }

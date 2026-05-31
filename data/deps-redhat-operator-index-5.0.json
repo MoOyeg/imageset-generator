@@ -355,6 +355,54 @@
     "web.servers.org/v1alpha1/WebServer": [
       "jws-operator"
     ],
+    "cdi.kubevirt.io/v1alpha1/CDI": [
+      "kubevirt-hyperconverged"
+    ],
+    "cdi.kubevirt.io/v1beta1/CDI": [
+      "kubevirt-hyperconverged"
+    ],
+    "hco.kubevirt.io/v1beta1/HyperConverged": [
+      "kubevirt-hyperconverged"
+    ],
+    "hostpathprovisioner.kubevirt.io/v1alpha1/HostPathProvisioner": [
+      "kubevirt-hyperconverged"
+    ],
+    "hostpathprovisioner.kubevirt.io/v1beta1/HostPathProvisioner": [
+      "kubevirt-hyperconverged"
+    ],
+    "kubevirt.io/v1/KubeVirt": [
+      "kubevirt-hyperconverged"
+    ],
+    "kubevirt.io/v1alpha3/KubeVirt": [
+      "kubevirt-hyperconverged"
+    ],
+    "networkaddonsoperator.network.kubevirt.io/v1/NetworkAddonsConfig": [
+      "kubevirt-hyperconverged"
+    ],
+    "networkaddonsoperator.network.kubevirt.io/v1alpha1/NetworkAddonsConfig": [
+      "kubevirt-hyperconverged"
+    ],
+    "ssp.kubevirt.io/v1beta1/SSP": [
+      "kubevirt-hyperconverged"
+    ],
+    "tektontasks.kubevirt.io/v1alpha1/TektonTasks": [
+      "kubevirt-hyperconverged"
+    ],
+    "mtq.kubevirt.io/v1alpha1/MTQ": [
+      "kubevirt-hyperconverged"
+    ],
+    "ssp.kubevirt.io/v1beta2/SSP": [
+      "kubevirt-hyperconverged"
+    ],
+    "aaq.kubevirt.io/v1alpha1/AAQ": [
+      "kubevirt-hyperconverged"
+    ],
+    "ssp.kubevirt.io/v1beta3/SSP": [
+      "kubevirt-hyperconverged"
+    ],
+    "migrations.kubevirt.io/v1alpha1/MigController": [
+      "kubevirt-hyperconverged"
+    ],
     "sonataflow.org/v1alpha08/SonataFlow": [
       "logic-operator",
       "logic-operator-rhel8"
@@ -451,6 +499,51 @@
     ],
     "nodeobservability.olm.openshift.io/v1alpha2/NodeObservabilityRun": [
       "node-observability-operator"
+    ],
+    "operator.tekton.dev/v1alpha1/OpenShiftPipelinesAsCode": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonAddon": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonChain": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonConfig": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonHub": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonInstallerSet": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonPipeline": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonResult": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonTrigger": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonDashboard": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonPruner": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/SyncerService": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonMulticlusterProxyAAE": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonScheduler": [
+      "openshift-pipelines-operator-rh"
     ],
     "operator.openshift.io/v1/SecondaryScheduler": [
       "openshift-secondary-scheduler-operator"
@@ -570,5 +663,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-05-28T06:57:25.016974"
+  "timestamp": "2026-05-31T06:53:56.420255"
 }

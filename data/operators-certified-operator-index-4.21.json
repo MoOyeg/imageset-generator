@@ -3645,6 +3645,20 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.87",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -4871,6 +4885,22 @@
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "26.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.2",
       "keywords": [
         "gpu",
         "cuda",
@@ -6236,6 +6266,19 @@
       "package": "intel-device-plugins-operator",
       "name": "intel-device-plugins-operator",
       "version": "0.35.0",
+      "keywords": [
+        "qat",
+        "sgx",
+        "gpu",
+        "dsa"
+      ],
+      "description": "This operator is a Kubernetes custom controller whose goal is to serve the installation and lifecycle management of Intel device plugins for Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "intel-device-plugins-operator",
+      "name": "intel-device-plugins-operator",
+      "version": "0.36.0",
       "keywords": [
         "qat",
         "sgx",
@@ -8845,7 +8888,7 @@
     {
       "package": "nginx-gateway-fabric",
       "name": "nginx-gateway-fabric",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "keywords": [
         "nginx",
         "gateway",
@@ -8964,6 +9007,21 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.5.4",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.0",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -9471,7 +9529,22 @@
         "percona"
       ],
       "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
-      "channel": "stable-cw"
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "3.0.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable"
     },
     {
       "package": "percona-server-mongodb-operator-certified",
@@ -10343,6 +10416,20 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.2.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -10394,6 +10481,21 @@
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
       "version": "0.4.2",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.4.3",
       "keywords": [
         "rebellions",
         "ai",
@@ -10596,6 +10698,21 @@
     {
       "package": "runtime-fabric-operator",
       "name": "runtime-fabric-operator",
+      "version": "3.0.102",
+      "keywords": [
+        "operator",
+        "agent",
+        "rtf",
+        "runtime",
+        "fabric",
+        "mulesoft"
+      ],
+      "description": "Runtime Fabric Operator Application from Mulesoft",
+      "channel": "alpha"
+    },
+    {
+      "package": "runtime-fabric-operator",
+      "name": "runtime-fabric-operator",
       "version": "3.0.43",
       "keywords": [
         "operator",
@@ -10684,6 +10801,24 @@
       "package": "simplyblock-operator",
       "name": "simplyblock-operator",
       "version": "26.2.4",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "26.2.5",
       "keywords": [
         "simplyblock",
         "storage",
@@ -11853,7 +11988,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1077,
+  "count": 1086,
   "source": "opm",
-  "timestamp": "2026-05-28T06:55:24.596610"
+  "timestamp": "2026-05-31T06:52:01.696296"
 }

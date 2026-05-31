@@ -1493,6 +1493,12 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.6.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -9614,13 +9620,6 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.12",
-      "keywords": [
-        "rds",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS RDS controller is a service controller for managing RDS resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -9663,6 +9662,19 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.8.1",
+      "keywords": [
+        "rds",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS RDS controller is a service controller for managing RDS resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -12491,6 +12503,12 @@
       "package": "argocd-operator",
       "name": "argocd-operator",
       "version": "0.17.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "argocd-operator",
+      "name": "argocd-operator",
+      "version": "0.18.0",
       "keywords": [
         "gitops",
         "kubernetes"
@@ -24746,6 +24764,12 @@
       "package": "ocp-kea-dhcp",
       "name": "ocp-kea-dhcp",
       "version": "0.0.25",
+      "channel": "alpha"
+    },
+    {
+      "package": "ocp-kea-dhcp",
+      "name": "ocp-kea-dhcp",
+      "version": "0.0.26",
       "keywords": [
         "dhcp",
         "kea",
@@ -29812,6 +29836,378 @@
       "channel": "v2-stable"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.52.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilites for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.53.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilites for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.54.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilites for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.55.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.56.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.57.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.58.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.58.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.59.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.59.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.59.2",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.60.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.60.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.60.2",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.61.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.61.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.61.2",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.62.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.63.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.64.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.64.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.65.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.66.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.66.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.67.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.2",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.3",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.4",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.68.5",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "stable"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.70.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "volume-expander-operator",
       "name": "volume-expander-operator",
       "version": "0.1.0",
@@ -30149,7 +30545,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4252,
+  "count": 4287,
   "source": "opm",
-  "timestamp": "2026-05-28T06:57:06.306760"
+  "timestamp": "2026-05-31T06:53:37.823575"
 }

@@ -1499,6 +1499,12 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.6.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -9842,13 +9848,6 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.12",
-      "keywords": [
-        "rds",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS RDS controller is a service controller for managing RDS resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -9891,6 +9890,19 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.7.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.8.1",
+      "keywords": [
+        "rds",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS RDS controller is a service controller for managing RDS resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -13400,6 +13412,12 @@
       "package": "argocd-operator",
       "name": "argocd-operator",
       "version": "0.17.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "argocd-operator",
+      "name": "argocd-operator",
+      "version": "0.18.0",
       "keywords": [
         "gitops",
         "kubernetes"
@@ -24417,6 +24435,19 @@
       "channel": "alpha"
     },
     {
+      "package": "koku-metrics-operator",
+      "name": "koku-metrics-operator",
+      "version": "4.4.1",
+      "keywords": [
+        "cost",
+        "management",
+        "usage",
+        "monitor"
+      ],
+      "description": "A Golang-based OpenShift Operator that generates and uploads OpenShift usage metrics to cost management.",
+      "channel": "alpha"
+    },
+    {
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.1.0",
@@ -33138,42 +33169,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-13",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-14",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-15",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-16",
       "keywords": [
         "istio",
@@ -33307,6 +33302,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-28",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-29",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-30",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-05-31",
       "keywords": [
         "istio",
         "servicemesh",
@@ -33868,12 +33899,18 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.18.3",
+      "version": "0.18.12",
       "keywords": [
         "streamnative",
         "pulsar"
       ],
       "description": "The StreamNative Operator is a commercial operator built for managing StreamNative Private Cloud commercial components and enterprise features.",
+      "channel": "alpha"
+    },
+    {
+      "package": "sn-operator",
+      "name": "sn-operator",
+      "version": "0.18.3",
       "channel": "alpha"
     },
     {
@@ -37223,7 +37260,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4951,
+  "count": 4956,
   "source": "opm",
-  "timestamp": "2026-05-28T06:49:26.501493"
+  "timestamp": "2026-05-31T06:46:21.050890"
 }
