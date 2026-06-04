@@ -22,16 +22,6 @@
       ],
       "requires_gvks": []
     },
-    "node-healthcheck-operator": {
-      "requires_packages": [],
-      "requires_gvks": [
-        {
-          "group": "self-node-remediation.medik8s.io",
-          "kind": "SelfNodeRemediation",
-          "version": "v1alpha1"
-        }
-      ]
-    },
     "ocs-client-operator": {
       "requires_packages": [
         {
@@ -464,6 +454,21 @@
     "rhpam.kiegroup.org/v1/KogitoSupportingService": [
       "bamoe-kogito-operator",
       "rhpam-kogito-operator"
+    ],
+    "bpfman.io/v1alpha1/BpfApplication": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/BpfApplicationState": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/ClusterBpfApplication": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/ClusterBpfApplicationState": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/Config": [
+      "bpfman-operator"
     ],
     "app.kiegroup.org/v1/KieApp": [
       "businessautomation-operator"
@@ -1680,6 +1685,15 @@
     "skupper.io/v2alpha1/Site": [
       "skupper-operator"
     ],
+    "submariner.io/v1alpha1/Broker": [
+      "submariner"
+    ],
+    "submariner.io/v1alpha1/ServiceDiscovery": [
+      "submariner"
+    ],
+    "submariner.io/v1alpha1/Submariner": [
+      "submariner"
+    ],
     "daemons.redhat.com/v1alpha1/TangServer": [
       "tang-operator"
     ],
@@ -1696,5 +1710,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-06-01T06:55:57.997897"
+  "timestamp": "2026-06-04T06:58:39.337776"
 }

@@ -1933,6 +1933,20 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.88",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -2048,7 +2062,19 @@
         "EDA K8s Controller Operator"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "6.0"
+    },
+    {
+      "package": "eda-k8s-operator",
+      "name": "eda-k8s-operator",
+      "version": "6.0.1",
+      "keywords": [
+        "EDA Connect",
+        "K8s Controller",
+        "EDA K8s Controller Operator"
+      ],
+      "description": "",
+      "channel": "6.0"
     },
     {
       "package": "eginnovations-operator",
@@ -2534,13 +2560,7 @@
     {
       "package": "ibm-application-gateway-operator",
       "name": "ibm-application-gateway-operator",
-      "version": "24.4.0",
-      "channel": "stable"
-    },
-    {
-      "package": "ibm-application-gateway-operator",
-      "name": "ibm-application-gateway-operator",
-      "version": "25.2.0",
+      "version": "26.6.0",
       "keywords": [
         "IBM",
         "Security",
@@ -3433,6 +3453,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.13",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -3669,6 +3701,18 @@
     {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
+      "version": "1.4.3",
+      "keywords": [
+        "kurrent",
+        "event sourcing",
+        "database"
+      ],
+      "description": "An operator to seamlessly deploy and manage KurrentDB clusters and backups.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "kurrentdb-operator",
+      "name": "kurrentdb-operator",
       "version": "1.5.0",
       "keywords": [
         "kurrent",
@@ -3676,7 +3720,7 @@
         "database"
       ],
       "description": "An operator to seamlessly deploy and manage KurrentDB clusters and backups.",
-      "channel": "stable"
+      "channel": "stable-v1"
     },
     {
       "package": "lightbits-operator",
@@ -3845,12 +3889,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.0-beta.1",
+      "version": "8.20.10-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -4854,7 +4898,7 @@
     {
       "package": "nxiq-operator-certified",
       "name": "nxiq-operator-certified",
-      "version": "1.197.0-1",
+      "version": "1.204.0-1",
       "keywords": [
         "security",
         "sonatype",
@@ -6069,7 +6113,7 @@
       "channel": "lts"
     }
   ],
-  "count": 673,
+  "count": 676,
   "source": "opm",
-  "timestamp": "2026-06-01T06:56:14.649729"
+  "timestamp": "2026-06-04T06:58:56.264525"
 }

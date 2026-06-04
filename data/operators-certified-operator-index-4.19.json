@@ -4444,6 +4444,20 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.88",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -4559,7 +4573,19 @@
         "EDA K8s Controller Operator"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "6.0"
+    },
+    {
+      "package": "eda-k8s-operator",
+      "name": "eda-k8s-operator",
+      "version": "6.0.1",
+      "keywords": [
+        "EDA Connect",
+        "K8s Controller",
+        "EDA K8s Controller Operator"
+      ],
+      "description": "",
+      "channel": "6.0"
     },
     {
       "package": "edb-hcp-operator",
@@ -4720,6 +4746,19 @@
     {
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
+      "version": "1.3.9",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
       "version": "2025.11.0",
       "keywords": [
         "Postgres",
@@ -4799,6 +4838,19 @@
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
       "version": "2026.5.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "innovation"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2026.5.1",
       "keywords": [
         "Postgres",
         "Database",
@@ -5459,6 +5511,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.49.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.49.1",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -6379,7 +6445,7 @@
     {
       "package": "iax-webhook-router",
       "name": "iax-webhook-router",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "keywords": [
         "iax",
         "webhook",
@@ -6393,13 +6459,7 @@
     {
       "package": "ibm-application-gateway-operator",
       "name": "ibm-application-gateway-operator",
-      "version": "24.4.0",
-      "channel": "stable"
-    },
-    {
-      "package": "ibm-application-gateway-operator",
-      "name": "ibm-application-gateway-operator",
-      "version": "25.2.0",
+      "version": "26.6.0",
       "keywords": [
         "IBM",
         "Security",
@@ -7430,6 +7490,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.13",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -8228,6 +8300,18 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.11",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
       "version": "8.5.2",
       "keywords": [
         "kubernetes",
@@ -8702,7 +8786,7 @@
     {
       "package": "kedify-agent-helm-operator",
       "name": "kedify-agent-helm-operator",
-      "version": "0.5.5",
+      "version": "0.5.7",
       "keywords": [
         "autoscaling",
         "keda",
@@ -9142,6 +9226,23 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.2.0 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -9184,6 +9285,18 @@
     {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
+      "version": "1.4.3",
+      "keywords": [
+        "kurrent",
+        "event sourcing",
+        "database"
+      ],
+      "description": "An operator to seamlessly deploy and manage KurrentDB clusters and backups.",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "kurrentdb-operator",
+      "name": "kurrentdb-operator",
       "version": "1.5.0",
       "keywords": [
         "kurrent",
@@ -9191,7 +9304,7 @@
         "database"
       ],
       "description": "An operator to seamlessly deploy and manage KurrentDB clusters and backups.",
-      "channel": "stable"
+      "channel": "stable-v1"
     },
     {
       "package": "lightbits-operator",
@@ -9528,12 +9641,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.0-beta.1",
+      "version": "8.20.10-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -10791,7 +10904,7 @@
     {
       "package": "nxiq-operator-certified",
       "name": "nxiq-operator-certified",
-      "version": "1.197.0-1",
+      "version": "1.204.0-1",
       "keywords": [
         "security",
         "sonatype",
@@ -13449,6 +13562,19 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.16",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "keywords": [
         "vertical scaling",
@@ -14518,6 +14644,18 @@
       "channel": "stable-v1"
     },
     {
+      "package": "strategy-operator",
+      "name": "strategy-operator",
+      "version": "26.5.2",
+      "keywords": [
+        "AI",
+        "BI",
+        "Strategy"
+      ],
+      "description": "Operator for Strategy Customer Managed Cloud (CMC)",
+      "channel": "stable-v1"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -14633,6 +14771,19 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "3.0.0-rc6",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc7",
       "keywords": [
         "monitoring",
         "networking",
@@ -15095,6 +15246,16 @@
       "channel": "alpha"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.5.1-11",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "2026.5"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2025.10.1-12",
@@ -15163,6 +15324,16 @@
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "alpha"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.5.1-11",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "2026.5"
     },
     {
       "package": "uma-team-operator",
@@ -15238,6 +15409,16 @@
       ],
       "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "alpha"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.5.1-11",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "2026.5"
     },
     {
       "package": "vast-csi-operator",
@@ -15684,7 +15865,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1391,
+  "count": 1405,
   "source": "opm",
-  "timestamp": "2026-06-01T06:52:02.884675"
+  "timestamp": "2026-06-04T06:53:32.127316"
 }

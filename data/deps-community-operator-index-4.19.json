@@ -510,6 +510,9 @@
     "documentdb.services.k8s.aws/v1alpha1/DBSubnetGroup": [
       "ack-documentdb-controller"
     ],
+    "dsql.services.k8s.aws/v1alpha1/Cluster": [
+      "ack-dsql-controller"
+    ],
     "dynamodb.services.k8s.aws/v1alpha1/Backup": [
       "ack-dynamodb-controller"
     ],
@@ -901,6 +904,9 @@
       "ack-route53resolver-controller"
     ],
     "route53resolver.services.k8s.aws/v1alpha1/ResolverRule": [
+      "ack-route53resolver-controller"
+    ],
+    "route53resolver.services.k8s.aws/v1alpha1/ResolverRuleAssociation": [
       "ack-route53resolver-controller"
     ],
     "s3.services.k8s.aws/v1alpha1/Bucket": [
@@ -1332,6 +1338,15 @@
     ],
     "agent-install.openshift.io/v1beta1/HypershiftAgentServiceConfig": [
       "assisted-service-operator"
+    ],
+    "attune.io/v1alpha1/AttuneDefaults": [
+      "attune"
+    ],
+    "attune.io/v1alpha1/AttuneNamespaceDefaults": [
+      "attune"
+    ],
+    "attune.io/v1alpha1/AttunePolicy": [
+      "attune"
     ],
     "authorino.3scale.net/v1beta1/AuthConfig": [
       "authorino-operator"
@@ -2645,6 +2660,18 @@
     ],
     "k8gb.absa.oss/v1beta1/Gslb": [
       "k8gb"
+    ],
+    "kairos.maximilianopizarro.github.io/v1alpha1/KairosAgent": [
+      "kairos-operator"
+    ],
+    "kairos.maximilianopizarro.github.io/v1alpha1/KairosConsole": [
+      "kairos-operator"
+    ],
+    "kairos.maximilianopizarro.github.io/v1alpha1/KairosEvent": [
+      "kairos-operator"
+    ],
+    "kairos.maximilianopizarro.github.io/v1alpha1/SmartScalingPolicy": [
+      "kairos-operator"
     ],
     "keda.sh/v1alpha1/KedaController": [
       "keda"
@@ -4636,5 +4663,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-01T06:52:23.718150"
+  "timestamp": "2026-06-04T06:54:29.418226"
 }

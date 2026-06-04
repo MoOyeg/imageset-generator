@@ -417,6 +417,20 @@
     {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
+      "version": "2.13.8",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.13"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
       "version": "2.14.0",
       "keywords": [
         "acm",
@@ -6943,6 +6957,23 @@
       "channel": "3.x"
     },
     {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.4-r2",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Red Hat build of Apicurio Registry 3 on OpenShift.",
+      "channel": "3.x"
+    },
+    {
       "package": "authorino-operator",
       "name": "authorino-operator",
       "version": "0.16.0",
@@ -7108,6 +7139,20 @@
         "Authentication"
       ],
       "description": "Enables authentication and authorization for Gateways and applications in a Gateway API network.",
+      "channel": "stable"
+    },
+    {
+      "package": "authorino-operator",
+      "name": "authorino-operator",
+      "version": "1.3.1",
+      "keywords": [
+        "Authorino",
+        "Authorino Operator",
+        "Kuadrant",
+        "Authorization",
+        "Authentication"
+      ],
+      "description": "",
       "channel": "stable"
     },
     {
@@ -7488,6 +7533,17 @@
       "package": "aws-efs-csi-driver-operator",
       "name": "aws-efs-csi-driver-operator",
       "version": "4.18.0-202605112259",
+      "keywords": [
+        "storage",
+        "efs"
+      ],
+      "description": "Install and configure AWS EFS CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.18.0-202605270514",
       "keywords": [
         "storage",
         "efs"
@@ -9501,6 +9557,17 @@
     {
       "package": "cephcsi-operator",
       "name": "cephcsi-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "cephcsi-operator",
+      "name": "cephcsi-operator",
       "version": "4.17.9-rhodf",
       "keywords": [
         "storage",
@@ -9645,6 +9712,17 @@
       "package": "cephcsi-operator",
       "name": "cephcsi-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "cephcsi-operator",
+      "name": "cephcsi-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "storage",
         "csi"
@@ -10428,6 +10506,20 @@
       "channel": "stable-6.4"
     },
     {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
+      "version": "6.4.5",
+      "keywords": [
+        "logging",
+        "observability",
+        "loki",
+        "vector",
+        "otlp"
+      ],
+      "description": "The Red Hat OpenShift Logging Operator for OCP provides a means for configuring and managing log collection and forwarding.",
+      "channel": "stable-6.4"
+    },
+    {
       "package": "cluster-observability-operator",
       "name": "cluster-observability-operator",
       "version": "1.0.0",
@@ -10912,6 +11004,19 @@
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.18.0-202604232011",
+      "keywords": [
+        "deschedule",
+        "scale",
+        "binpack",
+        "efficiency"
+      ],
+      "description": "An operator to manage the OpenShift ClusterResourceOverride Mutating Admission Webhook Server",
+      "channel": "stable"
+    },
+    {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.18.0-202605260501",
       "keywords": [
         "deschedule",
         "scale",
@@ -11671,6 +11776,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.12.18",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.12.2",
       "keywords": [
         "open source",
@@ -12152,6 +12269,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.17.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.17.2",
       "keywords": [
         "open source",
         "containers",
@@ -15045,6 +15174,20 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.3",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.5",
@@ -16424,6 +16567,17 @@
       "channel": "stable"
     },
     {
+      "package": "dns-operator",
+      "name": "dns-operator",
+      "version": "1.3.1",
+      "keywords": [
+        "dns",
+        "kuadrant"
+      ],
+      "description": "A Kubernetes Operator to manage the lifecycle of DNS resources",
+      "channel": "stable"
+    },
+    {
       "package": "dpu-network-operator",
       "name": "dpu-network-operator",
       "version": "4.13.0-202309181427",
@@ -16750,6 +16904,18 @@
       "package": "dpu-operator",
       "name": "dpu-operator",
       "version": "4.18.0-202604232011",
+      "keywords": [
+        "dpu",
+        "dpu-operator",
+        "ipu"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "dpu-operator",
+      "name": "dpu-operator",
+      "version": "4.18.0-202605260501",
       "keywords": [
         "dpu",
         "dpu-operator",
@@ -18097,6 +18263,17 @@
       "channel": "stable"
     },
     {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.4.0",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
       "version": "7.10.0",
@@ -19023,6 +19200,18 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1779967101.p",
+      "keywords": [
+        "api",
+        "apicurio",
+        "apicurito"
+      ],
+      "description": "Manages the installation and upgrades of apicurito, a small/minimal version of Apicurio",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "keywords": [
         "api",
@@ -19722,6 +19911,20 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1778680287.p",
+      "keywords": [
+        "Fuse",
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "The Fuse Console eases the discovery and management of Fuse applications deployed on OpenShift.",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1779967100.p",
       "keywords": [
         "Fuse",
         "Hawtio",
@@ -20996,6 +21199,17 @@
       "channel": "stable"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.18.0-202605271328",
+      "keywords": [
+        "storage",
+        "filestore"
+      ],
+      "description": "Install and configure GCP Filestore CSI driver.",
+      "channel": "stable"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.18.0-202501230001",
@@ -21259,6 +21473,16 @@
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.18.0-202604232011",
+      "keywords": [
+        "ingressnodefirewall"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "ingress-node-firewall",
+      "name": "ingress-node-firewall",
+      "version": "4.18.0-202605260501",
       "keywords": [
         "ingressnodefirewall"
       ],
@@ -21794,6 +22018,17 @@
       "package": "jws-operator",
       "name": "jws-operator",
       "version": "2.3.1",
+      "keywords": [
+        "WebServer",
+        "JBoss"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "jws-operator",
+      "name": "jws-operator",
+      "version": "2.3.2",
       "keywords": [
         "WebServer",
         "JBoss"
@@ -23114,6 +23349,18 @@
       "channel": "stable"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.18.0-202605270908",
+      "keywords": [
+        "nmstate",
+        "networking",
+        "NetworkManager"
+      ],
+      "description": "Kubernetes NMState is a declaritive means of configuring NetworkManager.\\n",
+      "channel": "stable"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -24423,6 +24670,18 @@
       "channel": "stable"
     },
     {
+      "package": "limitador-operator",
+      "name": "limitador-operator",
+      "version": "1.3.1",
+      "keywords": [
+        "api",
+        "rate-limit",
+        "kuadrant"
+      ],
+      "description": "The Limitador operator installs and maintains limitador instances",
+      "channel": "stable"
+    },
+    {
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202502040032",
@@ -24745,6 +25004,17 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202604232011",
+      "keywords": [
+        "storage",
+        "local storage"
+      ],
+      "description": "Configure and use local storage volumes.",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202605260501",
       "keywords": [
         "storage",
         "local storage"
@@ -25223,6 +25493,17 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "6.4.4",
+      "keywords": [
+        "logging",
+        "loki"
+      ],
+      "description": "The Loki Operator for OCP provides a means for configuring and managing a Loki stack for cluster logging.\\n## Prerequisites and Requirements\\n### Loki Operator Namespace\\nThe Loki Operator must be deployed to the global operator group namespace `openshift-operators-redhat`.\\n### Memory Considerations\\nLoki is a memory intensive application.  The initial\\nset of OCP nodes may not be large enough to support the Loki stack.  Additional OCP nodes must be added\\nto the OCP cluster if you desire to run with the recommended (or better) memory.\\n",
+      "channel": "stable-6.4"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.4.5",
       "keywords": [
         "logging",
         "loki"
@@ -25875,6 +26156,26 @@
     {
       "package": "mcg-operator",
       "name": "mcg-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "noobaa",
+        "kubernetes",
+        "openshift",
+        "cloud",
+        "hybrid",
+        "multi",
+        "data",
+        "storage",
+        "s3",
+        "tiering",
+        "mirroring"
+      ],
+      "description": "NooBaa is an object data service for hybrid and multi cloud environments.",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "noobaa",
@@ -26316,6 +26617,26 @@
       "package": "mcg-operator",
       "name": "mcg-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "noobaa",
+        "kubernetes",
+        "openshift",
+        "cloud",
+        "hybrid",
+        "multi",
+        "data",
+        "storage",
+        "s3",
+        "tiering",
+        "mirroring"
+      ],
+      "description": "NooBaa is an object data service for hybrid and multi cloud environments.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "noobaa",
         "kubernetes",
@@ -26796,6 +27117,16 @@
       "package": "metallb-operator",
       "name": "metallb-operator",
       "version": "4.18.0-202605061103",
+      "keywords": [
+        "metallb-operator"
+      ],
+      "description": "An operator for deploying MetalLB on a kubernetes cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.18.0-202605260501",
       "keywords": [
         "metallb-operator"
       ],
@@ -28552,6 +28883,18 @@
     {
       "package": "multicluster-engine",
       "name": "multicluster-engine",
+      "version": "2.8.7",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.8"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
       "version": "2.9.0",
       "keywords": [
         "mce",
@@ -28678,6 +29021,17 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.4.6",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.4"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.0",
       "keywords": [
         "multicluster-global-hub",
@@ -28723,17 +29077,6 @@
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.4",
-      "keywords": [
-        "multicluster-global-hub",
-        "multiple-hubs"
-      ],
-      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
-      "channel": "release-1.5"
-    },
-    {
-      "package": "multicluster-global-hub-operator-rh",
-      "name": "multicluster-global-hub-operator-rh",
-      "version": "1.5.5",
       "keywords": [
         "multicluster-global-hub",
         "multiple-hubs"
@@ -29567,6 +29910,18 @@
       "channel": "stable"
     },
     {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.18.0-202605260501",
+      "keywords": [
+        "feature-discovery",
+        "feature-detection",
+        "node-labels"
+      ],
+      "description": "The Node Feature Discovery Operator manages the detection of hardware features and configuration in a Kubernetes cluster by labeling the nodes with hardware-specific information. The Node Feature Discovery (NFD) will label the host with node-specific attributes, like PCI cards, kernel, or OS version, and many more.\\n\\nNFD consists  of the following software components:\\n\\nThe NFD Operator is based on the Operator Framework an open source toolkit to manage Kubernetes native applications, called Operators, in an effective, automated, and scalable way.\\n\\n##NFD-Master\\nNFD-Master is the daemon responsible for communication towards the Kubernetes API. That is, it receives labeling requests from the worker and modifies node objects accordingly.\\n\\n##NFD-Worker\\nNFD-Worker is a daemon responsible for feature detection. It then communicates the information to nfd-master which does the actual node labeling. One instance of nfd-worker is supposed to be running on each node of the cluster.\\n\\n##NFD-Topology-Updater\\nNFD-Topology-Updater is a daemon responsible for examining allocated resources on a worker node to account for resources available to be allocated to new pod on a per-zone basis (where a zone can be a NUMA node). It then communicates the information to nfd-master which does the NodeResourceTopology CR creation corresponding to all the nodes in the cluster. One instance of nfd-topology-updater is supposed to be running on each node of the cluster.",
+      "channel": "stable"
+    },
+    {
       "package": "node-healthcheck-operator",
       "name": "node-healthcheck-operator",
       "version": "0.10.0",
@@ -30107,6 +30462,18 @@
     {
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation client operator enables consumption of storage services from a remote centralized OpenShift Data Foundation provider cluster.",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "operator",
@@ -30372,6 +30739,18 @@
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation client operator enables consumption of storage services from a remote centralized OpenShift Data Foundation provider cluster.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "operator",
         "data",
@@ -30767,6 +31146,21 @@
     {
       "package": "ocs-operator",
       "name": "ocs-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "storage",
+        "rook",
+        "ceph",
+        "block storage",
+        "shared filesystem",
+        "object storage"
+      ],
+      "description": "Red Hat OpenShift Container Storage provides hyperconverged storage for applications within an OpenShift cluster.",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "storage",
@@ -31098,6 +31492,21 @@
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "storage",
+        "rook",
+        "ceph",
+        "block storage",
+        "shared filesystem",
+        "object storage"
+      ],
+      "description": "Red Hat OpenShift Container Storage provides hyperconverged storage for applications within an OpenShift cluster.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "storage",
         "rook",
@@ -31437,6 +31846,17 @@
     {
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "storage",
@@ -31680,6 +32100,17 @@
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "storage",
         "csi"
@@ -32047,6 +32478,20 @@
     {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "odf",
+        "multicluster",
+        "orchestrator",
+        "storage",
+        "acm"
+      ],
+      "description": "",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "odf",
@@ -32356,6 +32801,20 @@
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "odf",
+        "multicluster",
+        "orchestrator",
+        "storage",
+        "acm"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "odf",
         "multicluster",
@@ -32707,6 +33166,18 @@
     {
       "package": "odf-operator",
       "name": "odf-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation provides a common control plane for storage solutions on OpenShift Container Platform.",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "operator",
@@ -32972,6 +33443,18 @@
       "package": "odf-operator",
       "name": "odf-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation provides a common control plane for storage solutions on OpenShift Container Platform.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "operator",
         "data",
@@ -33347,6 +33830,20 @@
     {
       "package": "odf-prometheus-operator",
       "name": "odf-prometheus-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "prometheus",
+        "monitoring",
+        "tsdb",
+        "alerting",
+        "observability"
+      ],
+      "description": "Manage the full lifecycle of configuring and managing Prometheus and Alertmanager servers.",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "odf-prometheus-operator",
+      "name": "odf-prometheus-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "prometheus",
@@ -33656,6 +34153,20 @@
       "package": "odf-prometheus-operator",
       "name": "odf-prometheus-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "prometheus",
+        "monitoring",
+        "tsdb",
+        "alerting",
+        "observability"
+      ],
+      "description": "Manage the full lifecycle of configuring and managing Prometheus and Alertmanager servers.",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odf-prometheus-operator",
+      "name": "odf-prometheus-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "prometheus",
         "monitoring",
@@ -34007,6 +34518,18 @@
     {
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "Storage",
@@ -34272,6 +34795,18 @@
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "Storage",
         "Integration & Delivery",
@@ -34607,6 +35142,18 @@
     {
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "Storage",
@@ -34872,6 +35419,18 @@
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "Storage",
         "Integration & Delivery",
@@ -38378,6 +38937,18 @@
       "channel": "stable"
     },
     {
+      "package": "pf-status-relay-operator",
+      "name": "pf-status-relay-operator",
+      "version": "4.18.0-202605260501",
+      "keywords": [
+        "pf-status-relay",
+        "sriov",
+        "lacp"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "policy-controller-operator",
       "name": "policy-controller-operator",
       "version": "0.0.1-techpreview",
@@ -38798,6 +39369,16 @@
       "package": "ptp-operator",
       "name": "ptp-operator",
       "version": "4.18.0-202605051544",
+      "keywords": [
+        "ptp"
+      ],
+      "description": "This software enables configuration of Precision Time Protocol(PTP) on Kubernetes. It detects hardware capable PTP devices on each node, and configures linuxptp processes such as ptp4l, phc2sys and timemaster.",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.18.0-202605270111",
       "keywords": [
         "ptp"
       ],
@@ -39359,6 +39940,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.12.18",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.12.2",
       "keywords": [
         "registry",
@@ -39840,6 +40433,18 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.17.1",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.17.2",
       "keywords": [
         "registry",
         "containers",
@@ -41183,6 +41788,18 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.12.18",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.12.2",
       "keywords": [
         "open source",
@@ -41664,6 +42281,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.17.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.17.2",
       "keywords": [
         "open source",
         "containers",
@@ -42535,6 +43164,16 @@
     {
       "package": "recipe",
       "name": "recipe",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "recipe"
+      ],
+      "description": "",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "recipe",
+      "name": "recipe",
       "version": "4.17.3-rhodf",
       "keywords": [
         "recipe"
@@ -42756,6 +43395,16 @@
       "package": "recipe",
       "name": "recipe",
       "version": "4.18.22-rhodf",
+      "keywords": [
+        "recipe"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "recipe",
+      "name": "recipe",
+      "version": "4.18.23-rhodf",
       "keywords": [
         "recipe"
       ],
@@ -48076,6 +48725,18 @@
       "channel": "stable-v26"
     },
     {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.6.2-opr.1",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "stable-v26"
+    },
+    {
       "package": "rhcl-operator",
       "name": "rhcl-operator",
       "version": "1.0.2",
@@ -48163,6 +48824,24 @@
         "authorization"
       ],
       "description": "Red Hat Connectivity Link enables you to secure, protect, and connect your APIs and applications in multicluster, multicloud, and hybrid cloud environments",
+      "channel": "stable"
+    },
+    {
+      "package": "rhcl-operator",
+      "name": "rhcl-operator",
+      "version": "1.3.4",
+      "keywords": [
+        "api",
+        "api-management",
+        "Kuadrant",
+        "kubernetes",
+        "openshift",
+        "cloud-service-protection",
+        "rate-limiting",
+        "authentication",
+        "authorization"
+      ],
+      "description": "A Kubernetes Operator to manage the lifecycle of the Kuadrant system",
       "channel": "stable"
     },
     {
@@ -51938,6 +52617,22 @@
     {
       "package": "rook-ceph-operator",
       "name": "rook-ceph-operator",
+      "version": "4.17.27-rhodf",
+      "keywords": [
+        "rook",
+        "ceph",
+        "storage",
+        "object storage",
+        "open source",
+        "block storage",
+        "shared filesystem"
+      ],
+      "description": "",
+      "channel": "stable-4.17"
+    },
+    {
+      "package": "rook-ceph-operator",
+      "name": "rook-ceph-operator",
       "version": "4.17.3-rhodf",
       "keywords": [
         "rook",
@@ -52306,6 +53001,22 @@
     {
       "package": "rook-ceph-operator",
       "name": "rook-ceph-operator",
+      "version": "4.18.23-rhodf",
+      "keywords": [
+        "rook",
+        "ceph",
+        "storage",
+        "object storage",
+        "open source",
+        "block storage",
+        "shared filesystem"
+      ],
+      "description": "",
+      "channel": "stable-4.18"
+    },
+    {
+      "package": "rook-ceph-operator",
+      "name": "rook-ceph-operator",
       "version": "4.18.3-rhodf",
       "keywords": [
         "rook",
@@ -52575,6 +53286,19 @@
       "package": "runtimes-inventory-operator",
       "name": "runtimes-inventory-operator",
       "version": "1.0.2",
+      "keywords": [
+        "insights",
+        "java",
+        "runtimes",
+        "red hat"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "runtimes-inventory-operator",
+      "name": "runtimes-inventory-operator",
+      "version": "1.0.3",
       "keywords": [
         "insights",
         "java",
@@ -53095,6 +53819,16 @@
       "package": "secrets-store-csi-driver-operator",
       "name": "secrets-store-csi-driver-operator",
       "version": "4.18.0-202604232011",
+      "keywords": [
+        "storage"
+      ],
+      "description": "Install and configure Secrets Store CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.18.0-202605260501",
       "keywords": [
         "storage"
       ],
@@ -56930,6 +57664,18 @@
       "channel": "stable"
     },
     {
+      "package": "smb-csi-driver-operator",
+      "name": "smb-csi-driver-operator",
+      "version": "4.18.0-202605260501",
+      "keywords": [
+        "storage",
+        "smb",
+        "cifs"
+      ],
+      "description": "Install and configure CIFS/SMB CSI driver.",
+      "channel": "stable"
+    },
+    {
       "package": "sriov-network-operator",
       "name": "sriov-network-operator",
       "version": "4.18.0-202501230001",
@@ -57293,6 +58039,18 @@
       "package": "sriov-network-operator",
       "name": "sriov-network-operator",
       "version": "4.18.0-202604232011",
+      "keywords": [
+        "network",
+        "sr-iov",
+        "sriov"
+      ],
+      "description": "An operator for configuring SR-IOV components and initializing SRIOV network devices in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.18.0-202605260501",
       "keywords": [
         "network",
         "sr-iov",
@@ -58320,6 +59078,19 @@
       "channel": "stable"
     },
     {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.18.0-202605260501",
+      "keywords": [
+        "verticalpodautoscaler",
+        "vpa",
+        "autoscaling",
+        "scaling"
+      ],
+      "description": "An operator to run the OpenShift Vertical Pod Autoscaler. Vertical Pod Autoscaler (VPA) can be configured to monitor a workload's resource utilization, and then adjust its CPU and memory limits by updating the pod (future) or restarting the pod with updated limits.",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.11.0",
@@ -59174,7 +59945,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4291,
+  "count": 4352,
   "source": "opm",
-  "timestamp": "2026-06-01T06:49:55.215757"
+  "timestamp": "2026-06-04T06:51:40.794332"
 }

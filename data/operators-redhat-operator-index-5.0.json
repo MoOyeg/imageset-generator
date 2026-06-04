@@ -4470,6 +4470,23 @@
       "channel": "3.x"
     },
     {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.4-r2",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Red Hat build of Apicurio Registry 3 on OpenShift.",
+      "channel": "3.x"
+    },
+    {
       "package": "authorino-operator",
       "name": "authorino-operator",
       "version": "1.0.2",
@@ -8170,6 +8187,20 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.3",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
       "version": "0.10.0",
@@ -9650,6 +9681,17 @@
       "package": "jws-operator",
       "name": "jws-operator",
       "version": "2.3.1",
+      "keywords": [
+        "WebServer",
+        "JBoss"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "jws-operator",
+      "name": "jws-operator",
+      "version": "2.3.2",
       "keywords": [
         "WebServer",
         "JBoss"
@@ -16021,7 +16063,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1082,
+  "count": 1085,
   "source": "opm",
-  "timestamp": "2026-06-01T06:56:53.813655"
+  "timestamp": "2026-06-04T06:59:32.926884"
 }

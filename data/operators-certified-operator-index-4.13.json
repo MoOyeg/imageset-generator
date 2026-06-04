@@ -1357,6 +1357,12 @@
       "channel": "v6.4"
     },
     {
+      "package": "cpd-platform-operator",
+      "name": "cpd-platform-operator",
+      "version": "6.4.4",
+      "channel": "v6.4"
+    },
+    {
       "package": "crunchy-postgres-operator",
       "name": "crunchy-postgres-operator",
       "version": "5.1.0",
@@ -2113,6 +2119,12 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.88",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.4.0",
@@ -2593,6 +2605,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.49.1",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -3009,13 +3027,7 @@
     {
       "package": "ibm-application-gateway-operator",
       "name": "ibm-application-gateway-operator",
-      "version": "24.4.0",
-      "channel": "stable"
-    },
-    {
-      "package": "ibm-application-gateway-operator",
-      "name": "ibm-application-gateway-operator",
-      "version": "25.2.0",
+      "version": "26.6.0",
       "channel": "stable"
     },
     {
@@ -3693,6 +3705,12 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.13",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -4299,6 +4317,12 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.11",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
       "version": "8.5.2",
       "channel": "stable"
     },
@@ -4783,6 +4807,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.0",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace",
       "name": "kubemq-operator-marketplace",
       "version": "1.8.5",
@@ -4810,12 +4840,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.20.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.0-beta.1",
+      "version": "8.20.10-beta.1",
       "channel": "beta"
     },
     {
@@ -4912,12 +4942,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.20.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.0-beta.1",
+      "version": "8.20.10-beta.1",
       "channel": "beta"
     },
     {
@@ -5859,7 +5889,7 @@
     {
       "package": "nxiq-operator-certified",
       "name": "nxiq-operator-certified",
-      "version": "1.197.0-1",
+      "version": "1.204.0-1",
       "channel": "stable"
     },
     {
@@ -6376,12 +6406,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.20.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.0-beta.1",
+      "version": "8.20.10-beta.2",
       "channel": "beta"
     },
     {
@@ -7072,6 +7102,12 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.30.14",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.16",
       "channel": "stable-v1"
     },
     {
@@ -7771,6 +7807,12 @@
       "channel": "candidate-v3"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.0-rc7",
+      "channel": "candidate-v3"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -8107,6 +8149,12 @@
       "channel": "alpha"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.5.1-11",
+      "channel": "2026.5"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2023.10.1-7",
@@ -8263,6 +8311,12 @@
       "channel": "alpha"
     },
     {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.5.1-11",
+      "channel": "2026.5"
+    },
+    {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
       "version": "2023.10.1-7",
@@ -8417,6 +8471,12 @@
       "name": "uma-team-operator",
       "version": "2026.5.0-6",
       "channel": "alpha"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.5.1-11",
+      "channel": "2026.5"
     },
     {
       "package": "vault-secrets-operator",
@@ -8749,7 +8809,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1458,
+  "count": 1468,
   "source": "opm",
-  "timestamp": "2026-06-01T06:34:56.271457"
+  "timestamp": "2026-06-04T06:37:27.777513"
 }

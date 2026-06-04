@@ -528,6 +528,9 @@
     "documentdb.services.k8s.aws/v1alpha1/DBSubnetGroup": [
       "ack-documentdb-controller"
     ],
+    "dsql.services.k8s.aws/v1alpha1/Cluster": [
+      "ack-dsql-controller"
+    ],
     "dynamodb.services.k8s.aws/v1alpha1/Backup": [
       "ack-dynamodb-controller"
     ],
@@ -919,6 +922,9 @@
       "ack-route53resolver-controller"
     ],
     "route53resolver.services.k8s.aws/v1alpha1/ResolverRule": [
+      "ack-route53resolver-controller"
+    ],
+    "route53resolver.services.k8s.aws/v1alpha1/ResolverRuleAssociation": [
       "ack-route53resolver-controller"
     ],
     "s3.services.k8s.aws/v1alpha1/Bucket": [
@@ -2666,6 +2672,18 @@
     ],
     "k8gb.absa.oss/v1beta1/Gslb": [
       "k8gb"
+    ],
+    "kairos.maximilianopizarro.github.io/v1alpha1/KairosAgent": [
+      "kairos-operator"
+    ],
+    "kairos.maximilianopizarro.github.io/v1alpha1/KairosConsole": [
+      "kairos-operator"
+    ],
+    "kairos.maximilianopizarro.github.io/v1alpha1/KairosEvent": [
+      "kairos-operator"
+    ],
+    "kairos.maximilianopizarro.github.io/v1alpha1/SmartScalingPolicy": [
+      "kairos-operator"
     ],
     "designer.kaoto.io/v1alpha1/Kaoto": [
       "kaoto-operator"
@@ -4555,5 +4573,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-01T06:39:29.682834"
+  "timestamp": "2026-06-04T06:41:52.624093"
 }

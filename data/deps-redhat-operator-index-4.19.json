@@ -1842,6 +1842,12 @@
     "k8s.keycloak.org/v2alpha1/KeycloakRealmImport": [
       "rhbk-operator"
     ],
+    "k8s.keycloak.org/v2beta1/Keycloak": [
+      "rhbk-operator"
+    ],
+    "k8s.keycloak.org/v2beta1/KeycloakRealmImport": [
+      "rhbk-operator"
+    ],
     "kuadrant.io/v1/AuthPolicy": [
       "rhcl-operator"
     ],
@@ -1857,12 +1863,6 @@
     "kuadrant.io/v1/TLSPolicy": [
       "rhcl-operator"
     ],
-    "devportal.kuadrant.io/v1alpha1/APIKey": [
-      "rhcl-operator"
-    ],
-    "devportal.kuadrant.io/v1alpha1/APIProduct": [
-      "rhcl-operator"
-    ],
     "extensions.kuadrant.io/v1alpha1/OIDCPolicy": [
       "rhcl-operator"
     ],
@@ -1873,6 +1873,12 @@
       "rhcl-operator"
     ],
     "kuadrant.io/v1alpha1/TokenRateLimitPolicy": [
+      "rhcl-operator"
+    ],
+    "devportal.kuadrant.io/v1alpha1/APIKey": [
+      "rhcl-operator"
+    ],
+    "devportal.kuadrant.io/v1alpha1/APIProduct": [
       "rhcl-operator"
     ],
     "rhdh.redhat.com/v1alpha1/Backstage": [
@@ -2401,5 +2407,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-06-01T06:51:39.256836"
+  "timestamp": "2026-06-04T06:53:12.205795"
 }

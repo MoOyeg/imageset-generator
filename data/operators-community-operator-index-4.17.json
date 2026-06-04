@@ -2566,6 +2566,19 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-dsql-controller",
+      "name": "ack-dsql-controller",
+      "version": "0.1.0",
+      "keywords": [
+        "dsql",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS Aurora DSQL controller is a service controller for managing Aurora DSQL resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "0.0.10",
@@ -4579,6 +4592,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.13.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.14.1",
       "keywords": [
         "eks",
         "aws",
@@ -5337,6 +5356,12 @@
       "package": "ack-elbv2-controller",
       "name": "ack-elbv2-controller",
       "version": "1.3.5",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elbv2-controller",
+      "name": "ack-elbv2-controller",
+      "version": "1.5.0",
       "keywords": [
         "elbv2",
         "aws",
@@ -9896,6 +9921,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.9.1",
       "keywords": [
         "rds",
         "aws",
@@ -10397,6 +10428,12 @@
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
+      "version": "1.4.0",
       "keywords": [
         "route53resolver",
         "aws",
@@ -12670,6 +12707,12 @@
       "package": "ack-wafv2-controller",
       "name": "ack-wafv2-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.4.0",
       "keywords": [
         "wafv2",
         "aws",
@@ -13005,6 +13048,23 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.7.1",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "AlloyDB Omni for Kubernetes lets you run a powerful, PostgreSQL-compatible database within your own Kubernetes environment. It packages the high-performance AlloyDB for PostgreSQL database into a container, managed by a Kubernetes operator, which simplifies deployment and operations.",
+      "channel": "stable"
+    },
+    {
       "package": "alvearie-imaging-ingestion",
       "name": "alvearie-imaging-ingestion",
       "version": "0.0.1",
@@ -13164,97 +13224,97 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.12",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.14",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.15",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.7",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.8",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.0",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.3",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.4",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.7",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.0",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.2",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.3",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
@@ -13271,7 +13331,24 @@
         "apicurio-registry"
       ],
       "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
-      "channel": "3.x"
+      "channel": "3.2.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.5",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.2.x"
     },
     {
       "package": "apicurito",
@@ -14830,6 +14907,12 @@
       "package": "camel-monitor-operator",
       "name": "camel-monitor-operator",
       "version": "0.2.0",
+      "channel": "latest"
+    },
+    {
+      "package": "camel-monitor-operator",
+      "name": "camel-monitor-operator",
+      "version": "0.2.1",
       "keywords": [
         "apache",
         "camel",
@@ -19628,6 +19711,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.49.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.49.1",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -22180,6 +22269,20 @@
     {
       "package": "infinispan",
       "name": "infinispan",
+      "version": "2.5.11",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
       "version": "2.5.2",
       "keywords": [
         "infinispan",
@@ -22697,6 +22800,25 @@
       ],
       "description": "A cloud native Kubernetes Global Balancer",
       "channel": "alpha"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.0.1",
+      "keywords": [
+        "kubernetes",
+        "autoscaling",
+        "ai",
+        "resource-management",
+        "openshift",
+        "machine-learning",
+        "cost-optimization",
+        "gitops",
+        "ssa",
+        "argocd"
+      ],
+      "description": "AI-powered Kubernetes resource optimizer with SSA, ArgoCD-safe, multi-cluster governance",
+      "channel": "candidate-v2"
     },
     {
       "package": "kaoto-operator",
@@ -27483,6 +27605,12 @@
       "package": "neuvector-community-operator",
       "name": "neuvector-community-operator",
       "version": "1.5.9",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-community-operator",
+      "name": "neuvector-community-operator",
+      "version": "1.6.0",
       "keywords": [
         "monitoring",
         "wavefront",
@@ -30136,6 +30264,19 @@
     {
       "package": "patterns-operator",
       "name": "patterns-operator",
+      "version": "0.0.74",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
       "version": "0.0.8",
       "keywords": [
         "Validated",
@@ -31394,6 +31535,30 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.14.7",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.14.8",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.14"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.15.0",
       "keywords": [
         "open source",
@@ -31502,6 +31667,18 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.16.4",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.17.0",
       "keywords": [
         "open source",
@@ -31515,6 +31692,18 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.17.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.17.2",
       "keywords": [
         "open source",
         "containers",
@@ -32903,6 +33092,20 @@
       "channel": "alpha"
     },
     {
+      "package": "rsct-operator",
+      "name": "rsct-operator",
+      "version": "0.0.1-alpha4",
+      "keywords": [
+        "rsct",
+        "powervs",
+        "ibm",
+        "rmc",
+        "power"
+      ],
+      "description": "Deploys the RSCT DaemonSet on all ppc64le architecture nodes of Kubernetes and OpenShift clusters.",
+      "channel": "alpha"
+    },
+    {
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "0.1.0",
@@ -33169,42 +33372,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-17",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-18",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-19",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-21",
       "keywords": [
         "istio",
@@ -33338,6 +33505,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-06-01",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-02",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-03",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-04",
       "keywords": [
         "istio",
         "servicemesh",
@@ -37260,7 +37463,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4956,
+  "count": 4975,
   "source": "opm",
-  "timestamp": "2026-06-01T06:49:02.206240"
+  "timestamp": "2026-06-04T06:50:53.219785"
 }
