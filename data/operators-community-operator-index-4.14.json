@@ -1429,6 +1429,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.7.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cloudfront-controller",
       "name": "ack-cloudfront-controller",
       "version": "0.0.1",
@@ -4420,6 +4426,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.14.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.15.0",
       "channel": "alpha"
     },
     {
@@ -9607,6 +9619,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.9.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-recyclebin-controller",
       "name": "ack-recyclebin-controller",
       "version": "0.0.1",
@@ -9934,6 +9952,12 @@
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
       "version": "1.3.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
+      "version": "1.4.1",
       "channel": "alpha"
     },
     {
@@ -14629,6 +14653,12 @@
       "channel": "latest"
     },
     {
+      "package": "clickhouse",
+      "name": "clickhouse",
+      "version": "0.27.1",
+      "channel": "latest"
+    },
+    {
       "package": "cluster-aas-operator",
       "name": "cluster-aas-operator",
       "version": "0.0.1",
@@ -15442,6 +15472,12 @@
       "package": "datadog-operator",
       "name": "datadog-operator",
       "version": "1.26.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
+      "version": "1.27.0",
       "channel": "stable"
     },
     {
@@ -19569,6 +19605,12 @@
     {
       "package": "hive-operator",
       "name": "hive-operator",
+      "version": "1.2.5230-ab4b249",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
       "version": "2.3.3039-60b8a9a",
       "channel": "ocm-2.3"
     },
@@ -21367,6 +21409,12 @@
       "channel": "fast"
     },
     {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.6.3",
+      "channel": "fast"
+    },
+    {
       "package": "keycloak-permissions-operator",
       "name": "keycloak-permissions-operator",
       "version": "1.2.0",
@@ -21947,6 +21995,12 @@
       "name": "konveyor-operator",
       "version": "0.1.2",
       "channel": "konveyor-0.1"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.10.0-alpha.1",
+      "channel": "alpha"
     },
     {
       "package": "konveyor-operator",
@@ -23248,6 +23302,12 @@
       "package": "mariadb-operator",
       "name": "mariadb-operator",
       "version": "26.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "mariadb-operator",
+      "name": "mariadb-operator",
+      "version": "26.6.0",
       "channel": "alpha"
     },
     {
@@ -26667,6 +26727,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.12.18",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.12.2",
       "channel": "stable-3.12"
     },
@@ -27160,6 +27226,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.21",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.9.22",
       "channel": "stable-3.9"
     },
     {
@@ -31057,7 +31129,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5176,
+  "count": 5188,
   "source": "opm",
-  "timestamp": "2026-06-04T06:41:48.958934"
+  "timestamp": "2026-06-07T06:39:36.283059"
 }

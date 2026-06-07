@@ -1052,6 +1052,39 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780479670.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780491649.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780501200.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -2618,7 +2651,7 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
-      "version": "3.2.0-13",
+      "version": "3.2.0-16",
       "keywords": [
         "kafka",
         "messaging",
@@ -3252,6 +3285,26 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-12",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "keywords": [
         "kafka",
@@ -3404,6 +3457,22 @@
     {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
+      "version": "3.2.0-10",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
       "version": "3.2.0-2",
       "keywords": [
         "kafka",
@@ -3454,6 +3523,40 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173658",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1780540119",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1780540580",
       "keywords": [
         "ansible",
         "automation",
@@ -6278,6 +6381,24 @@
       "package": "businessautomation-operator",
       "name": "businessautomation-operator",
       "version": "7.13.5-22",
+      "keywords": [
+        "kieapp",
+        "pam",
+        "decision",
+        "kie",
+        "cloud",
+        "bpm",
+        "process",
+        "automation",
+        "operator"
+      ],
+      "description": "Deploys and manages Red Hat Process Automation Manager and Red Hat Decision Manager environments.",
+      "channel": "stable"
+    },
+    {
+      "package": "businessautomation-operator",
+      "name": "businessautomation-operator",
+      "version": "7.13.5-23",
       "keywords": [
         "kieapp",
         "pam",
@@ -12358,6 +12479,19 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.2.1",
+      "keywords": [
+        "openshift",
+        "dns",
+        "externaldns",
+        "operator"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.2.2",
       "keywords": [
         "openshift",
         "dns",
@@ -22671,6 +22805,47 @@
       "channel": "latest"
     },
     {
+      "package": "redhat-oadp-operator",
+      "name": "redhat-oadp-operator",
+      "version": "1.6.0",
+      "keywords": [
+        "disaster backup",
+        "disaster recovery",
+        "disaster restore",
+        "disaster",
+        "backup",
+        "restore",
+        "backup automation",
+        "recovery",
+        "data protection",
+        "data management",
+        "data",
+        "protection",
+        "management",
+        "application resilience",
+        "resilience",
+        "velero",
+        "openshift",
+        "oadp",
+        "cloud-native",
+        "replication",
+        "kopia",
+        "restic",
+        "network file system",
+        "nfs",
+        "simple cloud storage",
+        "s3",
+        "minio",
+        "cloud storage",
+        "data foundation",
+        "ceph",
+        "csi",
+        "container storage interface"
+      ],
+      "description": "OADP (OpenShift API for Data Protection) operator sets up and installs Data Protection Applications on the OpenShift platform.",
+      "channel": "stable"
+    },
+    {
       "package": "rh-service-binding-operator",
       "name": "rh-service-binding-operator",
       "version": "0.10.0",
@@ -30901,7 +31076,7 @@
       "channel": "stable"
     }
   ],
-  "count": 2161,
+  "count": 2171,
   "source": "opm",
-  "timestamp": "2026-06-04T06:58:37.833020"
+  "timestamp": "2026-06-07T06:55:36.992614"
 }

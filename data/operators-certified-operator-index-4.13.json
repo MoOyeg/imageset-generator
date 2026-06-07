@@ -103,6 +103,12 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.7.1",
+      "channel": "stable"
+    },
+    {
       "package": "anchore-engine",
       "name": "anchore-engine",
       "version": "1.0.1",
@@ -1648,6 +1654,12 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.26.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.27.0",
       "channel": "stable"
     },
     {
@@ -7113,6 +7125,18 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.30.17",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.30.18",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.30.2",
       "channel": "stable-v1"
     },
@@ -7491,14 +7515,14 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.104.0-beta.2",
-      "channel": "beta"
+      "version": "42.105.0",
+      "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.105.0",
-      "channel": "stable"
+      "version": "42.106.0-beta.1",
+      "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -8713,6 +8737,18 @@
       "channel": "beta"
     },
     {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.3.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.3.9-operator.1",
+      "channel": "alpha"
+    },
+    {
       "package": "webotx-operator",
       "name": "webotx-operator",
       "version": "11.11.0",
@@ -8809,7 +8845,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1468,
+  "count": 1474,
   "source": "opm",
-  "timestamp": "2026-06-04T06:37:27.777513"
+  "timestamp": "2026-06-07T06:35:02.190329"
 }

@@ -1024,6 +1024,39 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780479670.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780491649.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780501200.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -2590,7 +2623,7 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
-      "version": "3.2.0-13",
+      "version": "3.2.0-16",
       "keywords": [
         "kafka",
         "messaging",
@@ -3224,6 +3257,26 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-12",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "keywords": [
         "kafka",
@@ -3372,6 +3425,22 @@
       ],
       "description": "",
       "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.0-10",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.2.x"
     },
     {
       "package": "amq-streams-proxy",
@@ -6094,6 +6163,24 @@
       "package": "businessautomation-operator",
       "name": "businessautomation-operator",
       "version": "7.13.5-22",
+      "keywords": [
+        "kieapp",
+        "pam",
+        "decision",
+        "kie",
+        "cloud",
+        "bpm",
+        "process",
+        "automation",
+        "operator"
+      ],
+      "description": "Deploys and manages Red Hat Process Automation Manager and Red Hat Decision Manager environments.",
+      "channel": "stable"
+    },
+    {
+      "package": "businessautomation-operator",
+      "name": "businessautomation-operator",
+      "version": "7.13.5-23",
       "keywords": [
         "kieapp",
         "pam",
@@ -16063,7 +16150,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1085,
+  "count": 1091,
   "source": "opm",
-  "timestamp": "2026-06-04T06:59:32.926884"
+  "timestamp": "2026-06-07T06:56:39.275039"
 }

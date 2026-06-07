@@ -436,6 +436,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.8.8",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.0.0",
       "keywords": [
         "Gateway API",
@@ -538,6 +561,32 @@
       "channel": "5.0"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.0.4",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -552,6 +601,23 @@
       "package": "alloydb-omni-operator-certified",
       "name": "alloydb-omni-operator-certified",
       "version": "1.7.0",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "AlloyDB Omni for Kubernetes lets you run a powerful, PostgreSQL-compatible database within your own Kubernetes environment. It packages the high-performance AlloyDB for PostgreSQL database into a container, managed by a Kubernetes operator, which simplifies deployment and operations.",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.7.1",
       "keywords": [
         "database",
         "sql",
@@ -1679,6 +1745,19 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.26.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.27.0",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -6113,7 +6192,7 @@
       "channel": "lts"
     }
   ],
-  "count": 676,
+  "count": 680,
   "source": "opm",
-  "timestamp": "2026-06-04T06:58:56.264525"
+  "timestamp": "2026-06-07T06:55:55.903497"
 }

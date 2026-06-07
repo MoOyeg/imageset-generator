@@ -1454,6 +1454,39 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780479670.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780491649.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780501200.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 8 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -3020,7 +3053,7 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
-      "version": "3.2.0-13",
+      "version": "3.2.0-16",
       "keywords": [
         "kafka",
         "messaging",
@@ -3654,6 +3687,26 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-12",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "keywords": [
         "kafka",
@@ -3802,6 +3855,22 @@
       ],
       "description": "",
       "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.0-10",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.2.x"
     },
     {
       "package": "amq-streams-proxy",
@@ -5760,6 +5829,40 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173658",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1780540119",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1780540580",
       "keywords": [
         "ansible",
         "automation",
@@ -9154,6 +9257,24 @@
     {
       "package": "businessautomation-operator",
       "name": "businessautomation-operator",
+      "version": "7.13.5-23",
+      "keywords": [
+        "kieapp",
+        "pam",
+        "decision",
+        "kie",
+        "cloud",
+        "bpm",
+        "process",
+        "automation",
+        "operator"
+      ],
+      "description": "Deploys and manages Red Hat Process Automation Manager and Red Hat Decision Manager environments.",
+      "channel": "stable"
+    },
+    {
+      "package": "businessautomation-operator",
+      "name": "businessautomation-operator",
       "version": "7.13.5-3",
       "keywords": [
         "kieapp",
@@ -11404,6 +11525,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.22",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.3",
       "keywords": [
         "open source",
@@ -12977,6 +13110,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.9.21",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.9.22",
       "keywords": [
         "open source",
         "containers",
@@ -17924,6 +18069,19 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.2.1",
+      "keywords": [
+        "openshift",
+        "dns",
+        "externaldns",
+        "operator"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.2.2",
       "keywords": [
         "openshift",
         "dns",
@@ -29021,17 +29179,6 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
-      "version": "1.4.6",
-      "keywords": [
-        "multicluster-global-hub",
-        "multiple-hubs"
-      ],
-      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
-      "channel": "release-1.4"
-    },
-    {
-      "package": "multicluster-global-hub-operator-rh",
-      "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.0",
       "keywords": [
         "multicluster-global-hub",
@@ -29087,6 +29234,17 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.5.5",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.0",
       "keywords": [
         "multicluster-global-hub",
@@ -29110,6 +29268,17 @@
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.2",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.6"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.6.3",
       "keywords": [
         "multicluster-global-hub",
         "multiple-hubs"
@@ -39568,6 +39737,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.22",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "keywords": [
         "registry",
@@ -41152,6 +41333,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.22",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "keywords": [
         "registry",
@@ -41405,6 +41598,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.21",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.10.22",
       "keywords": [
         "open source",
         "containers",
@@ -42869,6 +43074,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.21",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.22",
       "keywords": [
         "open source",
         "containers",
@@ -59945,7 +60162,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4352,
+  "count": 4368,
   "source": "opm",
-  "timestamp": "2026-06-04T06:51:40.794332"
+  "timestamp": "2026-06-07T06:49:37.838741"
 }

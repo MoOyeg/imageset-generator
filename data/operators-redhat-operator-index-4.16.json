@@ -877,6 +877,24 @@
       "channel": "7.12.x"
     },
     {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780479670.p",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780491649.p",
+      "channel": "7.12.x"
+    },
+    {
+      "package": "amq-broker-rhel8",
+      "name": "amq-broker-rhel8",
+      "version": "7.12.7-opr-1+0.1780501200.p",
+      "channel": "7.12.x"
+    },
+    {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.13.0-opr-1",
@@ -1503,7 +1521,7 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
-      "version": "3.2.0-13",
+      "version": "3.2.0-16",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -1695,6 +1713,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-12",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "channel": "amq-streams-3.2.x"
     },
@@ -1751,6 +1775,12 @@
       "name": "amq-streams-proxy",
       "version": "3.1.0-7",
       "channel": "amq-streams-3.1.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.0-10",
+      "channel": "amq-streams-3.2.x"
     },
     {
       "package": "amq-streams-proxy",
@@ -2800,6 +2830,18 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173658",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1780540119",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1780540580",
       "channel": "stable-2.7-cluster-scoped"
     },
     {
@@ -4293,6 +4335,12 @@
     {
       "package": "businessautomation-operator",
       "name": "businessautomation-operator",
+      "version": "7.13.5-23",
+      "channel": "stable"
+    },
+    {
+      "package": "businessautomation-operator",
+      "name": "businessautomation-operator",
       "version": "7.13.5-3",
       "channel": "stable"
     },
@@ -5601,6 +5649,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.22",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -6388,6 +6442,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.9.21",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.9.22",
       "channel": "stable-3.9"
     },
     {
@@ -8662,6 +8722,12 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.2.1",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.2.2",
       "channel": "stable-v1"
     },
     {
@@ -14925,12 +14991,6 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
-      "version": "1.4.6",
-      "channel": "release-1.4"
-    },
-    {
-      "package": "multicluster-global-hub-operator-rh",
-      "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.0",
       "channel": "release-1.5"
     },
@@ -14961,6 +15021,12 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.5.5",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.0",
       "channel": "release-1.6"
     },
@@ -14974,6 +15040,12 @@
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.2",
+      "channel": "release-1.6"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.6.3",
       "channel": "release-1.6"
     },
     {
@@ -20439,6 +20511,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.22",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -21231,6 +21309,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.22",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -21358,6 +21442,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.21",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.10.22",
       "channel": "stable-3.10"
     },
     {
@@ -22090,6 +22180,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.21",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.22",
       "channel": "stable-3.9"
     },
     {
@@ -29293,7 +29389,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4882,
+  "count": 4898,
   "source": "opm",
-  "timestamp": "2026-06-04T06:47:28.503929"
+  "timestamp": "2026-06-07T06:45:13.163072"
 }

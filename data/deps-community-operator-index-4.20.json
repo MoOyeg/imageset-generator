@@ -453,6 +453,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Memory": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/CodeInterpreter": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -1988,6 +1991,9 @@
     "datadoghq.com/v1alpha2/DatadogPodAutoscalerClusterProfile": [
       "datadog-operator"
     ],
+    "datadoghq.com/v1alpha1/DatadogInstrumentation": [
+      "datadog-operator"
+    ],
     "datatrucker.datatrucker.io/v1/DatatruckerConfig": [
       "datatrucker-operator"
     ],
@@ -2814,6 +2820,18 @@
     "tackle.konveyor.io/v1alpha1/Extension": [
       "konveyor-operator"
     ],
+    "tackle.konveyor.io/v1alpha1/IdentityProvider": [
+      "konveyor-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/IdpClient": [
+      "konveyor-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/LdapProvider": [
+      "konveyor-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/Schema": [
+      "konveyor-operator"
+    ],
     "tackle.konveyor.io/v1alpha1/Task": [
       "konveyor-operator"
     ],
@@ -2827,9 +2845,6 @@
       "konveyor-operator"
     ],
     "tackle.konveyor.io/v1alpha2/Task": [
-      "konveyor-operator"
-    ],
-    "tackle.konveyor.io/v1alpha1/Schema": [
       "konveyor-operator"
     ],
     "korrel8r.openshift.io/v1alpha1/Korrel8r": [
@@ -4705,5 +4720,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-04T06:56:34.794474"
+  "timestamp": "2026-06-07T06:53:29.491830"
 }

@@ -789,6 +789,9 @@
     "datadoghq.com/v1alpha2/DatadogPodAutoscalerClusterProfile": [
       "datadog-operator-certified"
     ],
+    "datadoghq.com/v1alpha1/DatadogInstrumentation": [
+      "datadog-operator-certified"
+    ],
     "storage.dell.com/v1/ContainerStorageModule": [
       "dell-csm-operator-certified"
     ],
@@ -2502,6 +2505,9 @@
     "operator.victoriametrics.com/v1/VMAnomalyConfig": [
       "victoriametrics-operator"
     ],
+    "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
+      "visionone-containersecurity"
+    ],
     "example.com/v1alpha1/WebServer": [
       "webserver-operator"
     ],
@@ -2530,5 +2536,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-04T06:55:38.656753"
+  "timestamp": "2026-06-07T06:53:13.488114"
 }

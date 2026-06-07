@@ -1337,6 +1337,75 @@
     "hawt.io/v2/Hawtio": [
       "red-hat-hawtio-operator"
     ],
+    "oadp.openshift.io/v1alpha1/CloudStorage": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/DataProtectionApplication": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/DataProtectionTest": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/NonAdminBackup": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/NonAdminBackupStorageLocation": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/NonAdminBackupStorageLocationRequest": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/NonAdminDownloadRequest": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/NonAdminRestore": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/VirtualMachineBackupsDiscovery": [
+      "redhat-oadp-operator"
+    ],
+    "oadp.openshift.io/v1alpha1/VirtualMachineFileRestore": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/Backup": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/BackupRepository": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/BackupStorageLocation": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v2alpha1/DataDownload": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v2alpha1/DataUpload": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/DeleteBackupRequest": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/DownloadRequest": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/PodVolumeBackup": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/PodVolumeRestore": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/Restore": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/Schedule": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/ServerStatusRequest": [
+      "redhat-oadp-operator"
+    ],
+    "velero.io/v1/VolumeSnapshotLocation": [
+      "redhat-oadp-operator"
+    ],
     "binding.operators.coreos.com/v1alpha1/ServiceBinding": [
       "rh-service-binding-operator"
     ],
@@ -1710,5 +1779,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-06-04T06:58:39.337776"
+  "timestamp": "2026-06-07T06:55:38.409505"
 }
