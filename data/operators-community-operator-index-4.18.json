@@ -6587,6 +6587,12 @@
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.6.1",
       "keywords": [
         "kafka",
         "aws",
@@ -12737,6 +12743,12 @@
       "package": "ack-wafv2-controller",
       "name": "ack-wafv2-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.4.1",
       "keywords": [
         "wafv2",
         "aws",
@@ -19227,6 +19239,12 @@
       "package": "flux-operator",
       "name": "flux-operator",
       "version": "0.50.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
+      "version": "0.51.0",
       "keywords": [
         "flux",
         "fluxcd",
@@ -19841,6 +19859,12 @@
       "package": "grafana-operator",
       "name": "grafana-operator",
       "version": "5.22.2",
+      "channel": "v5"
+    },
+    {
+      "package": "grafana-operator",
+      "name": "grafana-operator",
+      "version": "5.24.0",
       "keywords": [
         "Grafana",
         "Metrics",
@@ -22174,6 +22198,20 @@
     {
       "package": "infinispan",
       "name": "infinispan",
+      "version": "2.5.12",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
       "version": "2.5.2",
       "keywords": [
         "infinispan",
@@ -22774,7 +22812,7 @@
         "argocd"
       ],
       "description": "AI-powered Kubernetes resource optimizer with SSA, ArgoCD-safe, multi-cluster governance",
-      "channel": "candidate-v2"
+      "channel": "alpha"
     },
     {
       "package": "kaoto-operator",
@@ -24582,6 +24620,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.10.0-alpha.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.10.0-alpha.2",
       "keywords": [
         "modernization",
         "migration",
@@ -25820,6 +25864,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "0.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "0.10.2",
       "keywords": [
         "logging",
         "loki"
@@ -30354,6 +30404,19 @@
     {
       "package": "patterns-operator",
       "name": "patterns-operator",
+      "version": "0.0.75",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
       "version": "0.0.8",
       "keywords": [
         "Validated",
@@ -33459,42 +33522,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-23",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-24",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-25",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-05-26",
       "keywords": [
         "istio",
@@ -33640,6 +33667,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-06-07",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-08",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-09",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-10",
       "keywords": [
         "istio",
         "servicemesh",
@@ -37395,7 +37458,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4936,
+  "count": 4944,
   "source": "opm",
-  "timestamp": "2026-06-07T06:50:26.238760"
+  "timestamp": "2026-06-10T06:52:32.194965"
 }

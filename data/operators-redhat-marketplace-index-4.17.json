@@ -1762,6 +1762,18 @@
     {
       "package": "instana-agent-operator-rhmp",
       "name": "instana-agent-operator-rhmp",
+      "version": "2.2.14",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
       "version": "2.2.2",
       "keywords": [
         "monitoring",
@@ -3890,7 +3902,7 @@
       "channel": "lts"
     }
   ],
-  "count": 305,
+  "count": 306,
   "source": "opm",
-  "timestamp": "2026-06-07T06:49:09.006438"
+  "timestamp": "2026-06-10T06:51:18.048204"
 }

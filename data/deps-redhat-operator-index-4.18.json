@@ -1,15 +1,5 @@
 {
   "dependencies": {
-    "bpfman-operator": {
-      "requires_packages": [],
-      "requires_gvks": [
-        {
-          "group": "security-profiles-operator.x-k8s.io",
-          "kind": "SelinuxProfile",
-          "version": "v1alpha2"
-        }
-      ]
-    },
     "devspaces": {
       "requires_packages": [
         {
@@ -550,49 +540,16 @@
     "bpfman.io/v1alpha1/BpfApplication": [
       "bpfman-operator"
     ],
-    "bpfman.io/v1alpha1/BpfNsApplication": [
+    "bpfman.io/v1alpha1/BpfApplicationState": [
       "bpfman-operator"
     ],
-    "bpfman.io/v1alpha1/BpfNsProgram": [
+    "bpfman.io/v1alpha1/ClusterBpfApplication": [
       "bpfman-operator"
     ],
-    "bpfman.io/v1alpha1/BpfProgram": [
+    "bpfman.io/v1alpha1/ClusterBpfApplicationState": [
       "bpfman-operator"
     ],
-    "bpfman.io/v1alpha1/FentryProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/FexitProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/KprobeProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/TcNsProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/TcProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/TcxNsProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/TcxProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/TracepointProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/UprobeNsProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/UprobeProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/XdpNsProgram": [
-      "bpfman-operator"
-    ],
-    "bpfman.io/v1alpha1/XdpProgram": [
+    "bpfman.io/v1alpha1/Config": [
       "bpfman-operator"
     ],
     "app.kiegroup.org/v1/KieApp": [
@@ -2397,5 +2354,5 @@
       "watcher-operator"
     ]
   },
-  "timestamp": "2026-06-07T06:49:40.493732"
+  "timestamp": "2026-06-10T06:51:50.310337"
 }

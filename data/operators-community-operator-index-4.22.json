@@ -6509,6 +6509,12 @@
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.6.1",
       "keywords": [
         "kafka",
         "aws",
@@ -11981,6 +11987,12 @@
       "package": "ack-wafv2-controller",
       "name": "ack-wafv2-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.4.1",
       "keywords": [
         "wafv2",
         "aws",
@@ -13322,6 +13334,12 @@
       "package": "attune",
       "name": "attune",
       "version": "0.1.14",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.15",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -17974,6 +17992,12 @@
       "package": "grafana-operator",
       "name": "grafana-operator",
       "version": "5.22.0",
+      "channel": "v5"
+    },
+    {
+      "package": "grafana-operator",
+      "name": "grafana-operator",
+      "version": "5.24.0",
       "keywords": [
         "Grafana",
         "Metrics",
@@ -20211,6 +20235,20 @@
     {
       "package": "infinispan",
       "name": "infinispan",
+      "version": "2.5.12",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
       "version": "2.5.2",
       "keywords": [
         "infinispan",
@@ -20757,7 +20795,7 @@
         "argocd"
       ],
       "description": "AI-powered Kubernetes resource optimizer with SSA, ArgoCD-safe, multi-cluster governance",
-      "channel": "candidate-v2"
+      "channel": "alpha"
     },
     {
       "package": "keda",
@@ -21990,6 +22028,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.10.0-alpha.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.10.0-alpha.2",
       "keywords": [
         "modernization",
         "migration",
@@ -22999,6 +23043,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "0.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "0.10.2",
       "keywords": [
         "logging",
         "loki"
@@ -25442,6 +25492,981 @@
       "name": "patch-operator",
       "version": "0.1.9",
       "channel": "alpha"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.1",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.10",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.11",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.12",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.13",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.14",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.15",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.16",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.17",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.18",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.19",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.2",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.20",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.21",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.22",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.23",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.24",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.25",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.26",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.27",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.28",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.29",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.3",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.30",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.31",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.32",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.33",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.34",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.35",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.36",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.37",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.38",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.39",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.4",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.40",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.41",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.42",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.43",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.44",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.45",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.46",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.47",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.48",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.49",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.5",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.50",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.51",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.52",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.53",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.54",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.55",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.56",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.57",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.58",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.59",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.6",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.60",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.61",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.62",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.63",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.64",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.65",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.66",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.67",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.68",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.69",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.7",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.70",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.71",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.72",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.73",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.74",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.75",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.8",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.9",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://hybrid-cloud-patterns.io",
+      "channel": "fast"
     },
     {
       "package": "pcc-operator",
@@ -30815,7 +31840,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4316,
+  "count": 4398,
   "source": "opm",
-  "timestamp": "2026-06-07T06:56:18.163408"
+  "timestamp": "2026-06-10T06:57:32.131327"
 }

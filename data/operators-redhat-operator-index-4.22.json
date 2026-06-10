@@ -3505,6 +3505,40 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1780320900",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1780320904",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173639",
       "keywords": [
         "ansible",
@@ -4750,6 +4784,17 @@
       "channel": "stable"
     },
     {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.22.0-202605222050",
+      "keywords": [
+        "storage",
+        "efs"
+      ],
+      "description": "Install and configure AWS EFS CSI driver.",
+      "channel": "stable"
+    },
+    {
       "package": "aws-load-balancer-operator",
       "name": "aws-load-balancer-operator",
       "version": "1.0.0",
@@ -5450,39 +5495,6 @@
       ],
       "description": "IBM BAMOE Kogito Operator for deployment and management of Kogito services.",
       "channel": "8.x"
-    },
-    {
-      "package": "bpfman-operator",
-      "name": "bpfman-operator",
-      "version": "0.5.10",
-      "keywords": [
-        "ebpf",
-        "kubernetes"
-      ],
-      "description": "The eBPF manager Operator is designed to manage eBPF programs for applications.",
-      "channel": "stable"
-    },
-    {
-      "package": "bpfman-operator",
-      "name": "bpfman-operator",
-      "version": "0.5.8",
-      "keywords": [
-        "ebpf",
-        "kubernetes"
-      ],
-      "description": "The eBPF manager Operator is designed to manage eBPF programs for applications.",
-      "channel": "stable"
-    },
-    {
-      "package": "bpfman-operator",
-      "name": "bpfman-operator",
-      "version": "0.5.9",
-      "keywords": [
-        "ebpf",
-        "kubernetes"
-      ],
-      "description": "The eBPF manager Operator is designed to manage eBPF programs for applications.",
-      "channel": "stable"
     },
     {
       "package": "bpfman-operator",
@@ -6967,6 +6979,19 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "stable"
+    },
+    {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.22.0-202605210944",
+      "keywords": [
+        "deschedule",
+        "scale",
+        "binpack",
+        "efficiency"
+      ],
+      "description": "An operator to manage the OpenShift ClusterResourceOverride Mutating Admission Webhook Server",
       "channel": "stable"
     },
     {
@@ -11714,6 +11739,126 @@
     {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
+      "version": "0.33.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.34.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.35.1",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.36.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.37.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.38.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.39.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.40.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.40.1",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
+      "version": "0.41.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
       "version": "0.9.0",
       "keywords": [
         "Devworkspace Operator",
@@ -11732,6 +11877,18 @@
         "network"
       ],
       "description": "The operator is responsible for the life-cycle management of the ovn-kube components and the necessary host network initialization on DPU cards.",
+      "channel": "stable"
+    },
+    {
+      "package": "dpu-operator",
+      "name": "dpu-operator",
+      "version": "4.21.0",
+      "keywords": [
+        "dpu",
+        "dpu-operator",
+        "ipu"
+      ],
+      "description": "",
       "channel": "stable"
     },
     {
@@ -12766,6 +12923,27 @@
       ],
       "description": "",
       "channel": "3.21"
+    },
+    {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.22.0-202605210944",
+      "keywords": [
+        "storage",
+        "filestore"
+      ],
+      "description": "Install and configure GCP Filestore CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "ingress-node-firewall",
+      "name": "ingress-node-firewall",
+      "version": "4.21.0",
+      "keywords": [
+        "ingressnodefirewall"
+      ],
+      "description": "",
+      "channel": "stable"
     },
     {
       "package": "job-set",
@@ -13938,6 +14116,18 @@
       "channel": "stable"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.22.0-202606021252",
+      "keywords": [
+        "nmstate",
+        "networking",
+        "NetworkManager"
+      ],
+      "description": "Kubernetes NMState is a declaritive means of configuring NetworkManager.\\n",
+      "channel": "stable"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -14638,6 +14828,16 @@
       "channel": "stable-v1.0"
     },
     {
+      "package": "lifecycle-agent",
+      "name": "lifecycle-agent",
+      "version": "4.22.0",
+      "keywords": [
+        "upgrade"
+      ],
+      "description": "The Lifecycle Agent for OpenShift provides local lifecycle management services for Single Node Openshift (SNO) clusters.",
+      "channel": "4.22"
+    },
+    {
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
       "version": "1.0.10",
@@ -14727,6 +14927,17 @@
       ],
       "description": "",
       "channel": "alpha"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.22.0-202605222050",
+      "keywords": [
+        "storage",
+        "local storage"
+      ],
+      "description": "Configure and use local storage volumes.",
+      "channel": "stable"
     },
     {
       "package": "logic-operator",
@@ -15043,6 +15254,16 @@
       ],
       "description": "NooBaa is an object data service for hybrid and multi cloud environments.",
       "channel": "stable-4.21"
+    },
+    {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.22.0-202606021252",
+      "keywords": [
+        "metallb-operator"
+      ],
+      "description": "An operator for deploying MetalLB on a kubernetes cluster.",
+      "channel": "stable"
     },
     {
       "package": "mta-operator",
@@ -15677,7 +15898,7 @@
     {
       "package": "mtv-operator",
       "name": "mtv-operator",
-      "version": "2.7.2",
+      "version": "2.11.7",
       "keywords": [
         "migration",
         "forklift",
@@ -15685,20 +15906,7 @@
         "mtv"
       ],
       "description": "Facilitates migration of VM workloads to OpenShift Virtualization",
-      "channel": "release-v2.7"
-    },
-    {
-      "package": "mtv-operator",
-      "name": "mtv-operator",
-      "version": "2.8.5",
-      "keywords": [
-        "migration",
-        "forklift",
-        "konveyor",
-        "mtv"
-      ],
-      "description": "Facilitates migration of VM workloads to OpenShift Virtualization",
-      "channel": "release-v2.8"
+      "channel": "release-v2.11"
     },
     {
       "package": "multicluster-engine",
@@ -15828,6 +16036,23 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.11.2",
+      "keywords": [
+        "netobserv",
+        "ebpf",
+        "ipfix",
+        "netflows",
+        "flows",
+        "topology",
+        "network",
+        "observability"
+      ],
+      "description": "Network flows collector and monitoring solution",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.12.0",
       "keywords": [
         "netobserv",
         "ebpf",
@@ -16108,6 +16333,18 @@
       "channel": "stable"
     },
     {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.22.0-202605210944",
+      "keywords": [
+        "feature-discovery",
+        "feature-detection",
+        "node-labels"
+      ],
+      "description": "The Node Feature Discovery Operator manages the detection of hardware features and configuration in a Kubernetes cluster by labeling the nodes with hardware-specific information. The Node Feature Discovery (NFD) will label the host with node-specific attributes, like PCI cards, kernel, or OS version, and many more.\\n\\nNFD consists  of the following software components:\\n\\nThe NFD Operator is based on the Operator Framework an open source toolkit to manage Kubernetes native applications, called Operators, in an effective, automated, and scalable way.\\n\\n##NFD-Master\\nNFD-Master is the daemon responsible for communication towards the Kubernetes API. That is, it receives labeling requests from the worker and modifies node objects accordingly.\\n\\n##NFD-Worker\\nNFD-Worker is a daemon responsible for feature detection. It then communicates the information to nfd-master which does the actual node labeling. One instance of nfd-worker is supposed to be running on each node of the cluster.\\n\\n##NFD-Topology-Updater\\nNFD-Topology-Updater is a daemon responsible for examining allocated resources on a worker node to account for resources available to be allocated to new pod on a per-zone basis (where a zone can be a NUMA node). It then communicates the information to nfd-master which does the NodeResourceTopology CR creation corresponding to all the nodes in the cluster. One instance of nfd-topology-updater is supposed to be running on each node of the cluster.",
+      "channel": "stable"
+    },
+    {
       "package": "node-healthcheck-operator",
       "name": "node-healthcheck-operator",
       "version": "0.10.3",
@@ -16172,6 +16409,28 @@
       ],
       "description": "",
       "channel": "alpha"
+    },
+    {
+      "package": "numaresources-operator",
+      "name": "numaresources-operator",
+      "version": "4.22.0",
+      "keywords": [
+        "RTE",
+        "NUMA"
+      ],
+      "description": "",
+      "channel": "4.22"
+    },
+    {
+      "package": "o-cloud-manager",
+      "name": "o-cloud-manager",
+      "version": "4.22.0",
+      "keywords": [
+        "ORAN",
+        "O2IMS"
+      ],
+      "description": "The O-Cloud Manager operator provides an implementation of the O-RAN O2 IMS API on top of OpenShift and ACM.",
+      "channel": "4.22"
     },
     {
       "package": "ocs-client-operator",
@@ -19239,6 +19498,28 @@
         "rhosdt"
       ],
       "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "pf-status-relay-operator",
+      "name": "pf-status-relay-operator",
+      "version": "4.21.0",
+      "keywords": [
+        "pf-status-relay",
+        "sriov",
+        "lacp"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.22.0-202605222050",
+      "keywords": [
+        "ptp"
+      ],
+      "description": "This software enables configuration of Precision Time Protocol(PTP) on Kubernetes. It detects hardware capable PTP devices on each node, and configures linuxptp processes such as ptp4l, phc2sys and timemaster.",
       "channel": "stable"
     },
     {
@@ -26658,6 +26939,18 @@
     {
       "package": "rhsso-operator",
       "name": "rhsso-operator",
+      "version": "7.6.12-opr-010",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Red Hat Single Sign-On",
+      "channel": "stable"
+    },
+    {
+      "package": "rhsso-operator",
+      "name": "rhsso-operator",
       "version": "7.6.2-opr-001",
       "keywords": [
         "Keycloak",
@@ -27196,6 +27489,16 @@
         "red hat"
       ],
       "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.22.0-202605222050",
+      "keywords": [
+        "storage"
+      ],
+      "description": "Install and configure Secrets Store CSI driver.",
       "channel": "stable"
     },
     {
@@ -30142,6 +30445,30 @@
       "channel": "stable-2"
     },
     {
+      "package": "smb-csi-driver-operator",
+      "name": "smb-csi-driver-operator",
+      "version": "4.22.0-202605210944",
+      "keywords": [
+        "storage",
+        "smb",
+        "cifs"
+      ],
+      "description": "Install and configure CIFS/SMB CSI driver.",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.22.0-202605210944",
+      "keywords": [
+        "network",
+        "sr-iov",
+        "sriov"
+      ],
+      "description": "An operator for configuring SR-IOV components and initializing SRIOV network devices in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
       "package": "submariner",
       "name": "submariner",
       "version": "0.24.0",
@@ -30153,6 +30480,21 @@
       ],
       "description": "Creates and manages Submariner deployments.",
       "channel": "stable-0.24"
+    },
+    {
+      "package": "support-log-gather-operator",
+      "name": "support-log-gather-operator",
+      "version": "4.22.0-202605222050",
+      "keywords": [
+        "kubernetes",
+        "openshift",
+        "monitoring",
+        "diagnostics",
+        "must-gather",
+        "support"
+      ],
+      "description": "Operator to enable CEE to collect must-gathers from OSDv4 clusters",
+      "channel": "tech-preview"
     },
     {
       "package": "tang-operator",
@@ -30532,6 +30874,29 @@
       "channel": "stable"
     },
     {
+      "package": "topology-aware-lifecycle-manager",
+      "name": "topology-aware-lifecycle-manager",
+      "version": "4.22.0",
+      "keywords": [
+        "acm lifecyclemanagement upgrades cluster"
+      ],
+      "description": "The topology aware lifecycle manager is an operator that facilitates platform upgrades of group of clusters",
+      "channel": "4.22"
+    },
+    {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.22.0-202605210944",
+      "keywords": [
+        "verticalpodautoscaler",
+        "vpa",
+        "autoscaling",
+        "scaling"
+      ],
+      "description": "An operator to run the OpenShift Vertical Pod Autoscaler. Vertical Pod Autoscaler (VPA) can be configured to monitor a workload's resource utilization, and then adjust its CPU and memory limits by updating the pod (future) or restarting the pod with updated limits.",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.15.0",
@@ -30550,6 +30915,21 @@
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.15.1",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.16.0",
       "keywords": [
         "backup",
         "csi",
@@ -31076,7 +31456,7 @@
       "channel": "stable"
     }
   ],
-  "count": 2171,
+  "count": 2202,
   "source": "opm",
-  "timestamp": "2026-06-07T06:55:36.992614"
+  "timestamp": "2026-06-10T06:57:04.542918"
 }

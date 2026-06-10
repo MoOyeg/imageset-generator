@@ -986,6 +986,9 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
+    "eqube.operator/v1/EQProduct": [
+      "eqube-operator"
+    ],
     "charts.ddn.com/v1alpha1/ExaCsi": [
       "exascaler-csi-driver-operator"
     ],
@@ -2562,13 +2565,13 @@
     "tawon.mantisnet.com/v1alpha1/Dashboard": [
       "tawon-operator"
     ],
+    "tawon.mantisnet.com/v1alpha1/DirectiveBinding": [
+      "tawon-operator"
+    ],
     "tawon.mantisnet.com/v1alpha1/Stream": [
       "tawon-operator"
     ],
     "tawon.mantisnet.com/v1alpha1/StreamStore": [
-      "tawon-operator"
-    ],
-    "tawon.mantisnet.com/v1alpha1/DirectiveBinding": [
       "tawon-operator"
     ],
     "templates.stakater.com/v1alpha1/ClusterTemplateInstance": [
@@ -2845,5 +2848,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-07T06:48:21.501584"
+  "timestamp": "2026-06-10T06:50:37.586967"
 }

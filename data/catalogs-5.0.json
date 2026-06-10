@@ -5,6 +5,18 @@
       "url": "registry.redhat.io/redhat/redhat-operator-index",
       "description": "Official Red Hat certified operators",
       "default": true
+    },
+    {
+      "name": "Certified Operators",
+      "url": "registry.redhat.io/redhat/certified-operator-index",
+      "description": "Third-party certified operators",
+      "default": false
+    },
+    {
+      "name": "Community Operators",
+      "url": "registry.redhat.io/redhat/community-operator-index",
+      "description": "Community-maintained operators",
+      "default": false
     }
   ]
 }

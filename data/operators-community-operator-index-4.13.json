@@ -6373,6 +6373,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-keyspaces-controller",
       "name": "ack-keyspaces-controller",
       "version": "0.0.1",
@@ -12331,6 +12337,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
       "package": "aerospike-kubernetes-operator",
       "name": "aerospike-kubernetes-operator",
       "version": "2.1.0",
@@ -17727,6 +17739,12 @@
     {
       "package": "flux-operator",
       "name": "flux-operator",
+      "version": "0.51.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
       "version": "0.8.0",
       "channel": "stable"
     },
@@ -18826,6 +18844,12 @@
       "package": "grafana-operator",
       "name": "grafana-operator",
       "version": "5.22.2",
+      "channel": "v5"
+    },
+    {
+      "package": "grafana-operator",
+      "name": "grafana-operator",
+      "version": "5.24.0",
       "channel": "v5"
     },
     {
@@ -19983,6 +20007,12 @@
     {
       "package": "infinispan",
       "name": "infinispan",
+      "version": "2.5.12",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
       "version": "2.5.2",
       "channel": "stable"
     },
@@ -20386,7 +20416,7 @@
       "package": "kairos-operator",
       "name": "kairos-operator",
       "version": "2.0.1",
-      "channel": "candidate-v2"
+      "channel": "alpha"
     },
     {
       "package": "kaoto-operator",
@@ -21915,6 +21945,12 @@
     {
       "package": "konveyor-operator",
       "name": "konveyor-operator",
+      "version": "0.10.0-alpha.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
       "version": "0.2.0",
       "channel": "alpha"
     },
@@ -22797,6 +22833,12 @@
     {
       "package": "loki-operator",
       "name": "loki-operator",
+      "version": "0.10.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
       "version": "0.2.0",
       "channel": "alpha"
     },
@@ -23434,6 +23476,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.14.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.15.0",
       "channel": "stable"
     },
     {
@@ -35077,7 +35125,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5846,
+  "count": 5854,
   "source": "opm",
-  "timestamp": "2026-06-07T06:35:52.249582"
+  "timestamp": "2026-06-10T06:38:04.528914"
 }
