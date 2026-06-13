@@ -875,6 +875,19 @@
       "channel": "2022.4"
     },
     {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.880",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -1770,6 +1783,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.27.1",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.3.0",
       "channel": "stable"
     },
@@ -2512,6 +2538,532 @@
       "channel": "alpha"
     },
     {
+      "package": "google-cloud-cluster-services-for-openshift-telemetry",
+      "name": "google-cloud-cluster-services-for-openshift-telemetry",
+      "version": "0.0.1",
+      "keywords": [
+        "google",
+        "cloud",
+        "workloadmanager",
+        "workload",
+        "manager"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "1.10.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "1.10.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "1.11.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "1.11.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "22.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "22.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "22.9.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.3.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.6.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.6.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "23.9.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.6.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.6.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.6.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.9.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.9.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "24.9.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.10.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.10.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.3",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "25.3.4",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.1",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.3.2",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
       "version": "0.4.0",
@@ -2606,6 +3158,32 @@
         "NAS"
       ],
       "description": "An operator for managing Hitachi NAS CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "hpe-csi-operator",
+      "name": "hpe-csi-operator",
+      "version": "3.1.0",
+      "keywords": [
+        "HPE",
+        "HPE CSI",
+        "HPE Storage",
+        "CSI"
+      ],
+      "description": "A Container Storage Interface (CSI) driver for HPE storage platforms. The CSI driver allows you to use HPE storage with your preferred container orchestrator.",
+      "channel": "stable"
+    },
+    {
+      "package": "hpe-csi-operator",
+      "name": "hpe-csi-operator",
+      "version": "3.2.0",
+      "keywords": [
+        "HPE",
+        "HPE CSI",
+        "HPE Storage",
+        "CSI"
+      ],
+      "description": "A Container Storage Interface (CSI) driver for HPE storage platforms. The CSI driver allows you to use HPE storage with your preferred container orchestrator.",
       "channel": "stable"
     },
     {
@@ -3746,7 +4324,7 @@
     {
       "package": "kubearmor-operator-certified",
       "name": "kubearmor-operator-certified",
-      "version": "1.5.2",
+      "version": "1.7.3",
       "keywords": [
         "monitoring",
         "security",
@@ -3987,12 +4565,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.0",
+      "version": "8.20.10",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -4449,7 +5027,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -5766,7 +6344,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "keywords": [
         "tenant",
         "stakater",
@@ -5778,7 +6356,7 @@
     {
       "package": "tigera-operator",
       "name": "tigera-operator",
-      "version": "1.42.0",
+      "version": "1.42.2",
       "keywords": [
         "tigera-operator",
         "networking",
@@ -6234,7 +6812,7 @@
       "channel": "lts"
     }
   ],
-  "count": 683,
+  "count": 720,
   "source": "opm",
-  "timestamp": "2026-06-10T06:57:18.137131"
+  "timestamp": "2026-06-13T06:54:52.239296"
 }

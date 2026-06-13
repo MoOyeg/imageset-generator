@@ -454,7 +454,8 @@
       "cfm-operator"
     ],
     "cilium.io/v1alpha1/CiliumConfig": [
-      "cilium-enterprise"
+      "cilium-enterprise",
+      "clife"
     ],
     "intersight.cisco.com/v1/CiscoIntersight": [
       "cisco-intersight"
@@ -967,6 +968,9 @@
     "apps.gitlab.com/v1beta2/Runner": [
       "gitlab-runner-operator"
     ],
+    "cluster-services-openshift.cloud.google.com/v1alpha1/TelemetryConfig": [
+      "google-cloud-cluster-services-for-openshift-telemetry"
+    ],
     "nvidia.com/v1/ClusterPolicy": [
       "gpu-operator-certified"
     ],
@@ -1056,6 +1060,9 @@
     ],
     "charts.csi.hitachi.com/v1/HNAS": [
       "hnas-csi-operator"
+    ],
+    "storage.hpe.com/v1/HPECSIDriver": [
+      "hpe-csi-operator"
     ],
     "ezmeral.hpe.com/v1/HPEEzmeralCSIDriver": [
       "hpe-ezmeral-csi-operator"
@@ -1182,6 +1189,9 @@
     ],
     "charts.kedify.io/v1alpha1/KedifyAgent": [
       "kedify-agent-helm-operator"
+    ],
+    "operator.kubearmor.com/v1/KubeArmorConfig": [
+      "kubearmor-operator-certified"
     ],
     "apps.kubeblocks.io/v1/Cluster": [
       "kubeblocks"
@@ -2253,5 +2263,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-10T06:56:15.003187"
+  "timestamp": "2026-06-13T06:53:49.712931"
 }

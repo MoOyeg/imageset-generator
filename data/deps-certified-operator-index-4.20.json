@@ -1010,6 +1010,9 @@
     "apps.gitlab.com/v1beta2/Runner": [
       "gitlab-runner-operator"
     ],
+    "cluster-services-openshift.cloud.google.com/v1alpha1/TelemetryConfig": [
+      "google-cloud-cluster-services-for-openshift-telemetry"
+    ],
     "nvidia.com/v1/ClusterPolicy": [
       "gpu-operator-certified"
     ],
@@ -2536,5 +2539,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-10T06:55:04.542527"
+  "timestamp": "2026-06-13T06:52:38.927706"
 }

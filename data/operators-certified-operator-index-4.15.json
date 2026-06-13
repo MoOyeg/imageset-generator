@@ -535,6 +535,12 @@
       "channel": "2022.4"
     },
     {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.880",
+      "channel": "2022.4"
+    },
+    {
       "package": "bookkeeper-operator",
       "name": "bookkeeper-operator",
       "version": "0.17.10",
@@ -1635,6 +1641,12 @@
     {
       "package": "couchbase-enterprise-certified",
       "name": "couchbase-enterprise-certified",
+      "version": "2.8.2-1",
+      "channel": "2.8.2"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
       "version": "2.9.0-1",
       "channel": "2.9.0"
     },
@@ -1996,6 +2008,12 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.27.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.27.1",
       "channel": "stable"
     },
     {
@@ -3025,6 +3043,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.0.2",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -3047,6 +3071,12 @@
       "name": "gitlab-runner-operator",
       "version": "1.49.1",
       "channel": "stable"
+    },
+    {
+      "package": "google-cloud-cluster-services-for-openshift-telemetry",
+      "name": "google-cloud-cluster-services-for-openshift-telemetry",
+      "version": "0.0.1",
+      "channel": "alpha"
     },
     {
       "package": "gpu-operator-certified",
@@ -5301,7 +5331,7 @@
     {
       "package": "kubearmor-operator-certified",
       "name": "kubearmor-operator-certified",
-      "version": "1.5.2",
+      "version": "1.7.3",
       "channel": "stable"
     },
     {
@@ -5443,6 +5473,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.1",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -5481,8 +5517,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.0",
-      "channel": "stable"
+      "version": "8.20.10",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -5583,8 +5619,8 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.0",
-      "channel": "stable"
+      "version": "8.20.10",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -6147,7 +6183,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "channel": "alpha"
     },
     {
@@ -7243,10 +7279,16 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.2.1",
+      "channel": "alpha"
+    },
+    {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.0",
-      "channel": "stable"
+      "version": "8.20.10",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -8011,6 +8053,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.31.1",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -8637,8 +8685,8 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.105.0",
-      "channel": "stable"
+      "version": "42.106.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
@@ -8871,7 +8919,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "channel": "release-1.8"
     },
     {
@@ -9039,12 +9087,6 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.2.0-10",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-admin-operator",
-      "name": "uma-admin-operator",
       "version": "2026.3.1-2",
       "channel": "2026.3"
     },
@@ -9057,14 +9099,20 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.5.0-6",
+      "version": "2026.5.1-11",
+      "channel": "2026.5"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.5.2-49",
       "channel": "alpha"
     },
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.5.1-11",
-      "channel": "2026.5"
+      "version": "2026.6.0-24",
+      "channel": "beta"
     },
     {
       "package": "uma-operator",
@@ -9135,12 +9183,6 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.2.0-10",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-operator",
-      "name": "uma-operator",
       "version": "2026.3.1-2",
       "channel": "2026.3"
     },
@@ -9153,14 +9195,20 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.5.0-6",
+      "version": "2026.5.1-11",
+      "channel": "2026.5"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.5.2-49",
       "channel": "alpha"
     },
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.5.1-11",
-      "channel": "2026.5"
+      "version": "2026.6.0-24",
+      "channel": "beta"
     },
     {
       "package": "uma-team-operator",
@@ -9231,12 +9279,6 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.2.0-10",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-team-operator",
-      "name": "uma-team-operator",
       "version": "2026.3.1-2",
       "channel": "2026.3"
     },
@@ -9249,14 +9291,20 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.5.0-6",
+      "version": "2026.5.1-11",
+      "channel": "2026.5"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.5.2-49",
       "channel": "alpha"
     },
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.5.1-11",
-      "channel": "2026.5"
+      "version": "2026.6.0-24",
+      "channel": "beta"
     },
     {
       "package": "vast-csi-operator",
@@ -9523,6 +9571,12 @@
       "channel": "alpha"
     },
     {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.4.0",
+      "channel": "alpha"
+    },
+    {
       "package": "webotx-operator",
       "name": "webotx-operator",
       "version": "11.11.0",
@@ -9619,7 +9673,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1603,
+  "count": 1612,
   "source": "opm",
-  "timestamp": "2026-06-10T06:44:37.346147"
+  "timestamp": "2026-06-13T06:41:45.047381"
 }

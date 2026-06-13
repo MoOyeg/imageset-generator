@@ -474,6 +474,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/CodeInterpreter": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Browser": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -622,6 +625,9 @@
       "ack-ecs-controller"
     ],
     "ecs.services.k8s.aws/v1alpha1/TaskDefinition": [
+      "ack-ecs-controller"
+    ],
+    "ecs.services.k8s.aws/v1alpha1/CapacityProvider": [
       "ack-ecs-controller"
     ],
     "efs.services.k8s.aws/v1alpha1/AccessPoint": [
@@ -4567,5 +4573,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-10T06:38:07.689831"
+  "timestamp": "2026-06-13T06:35:27.098904"
 }

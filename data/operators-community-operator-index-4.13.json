@@ -1435,6 +1435,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cloudfront-controller",
       "name": "ack-cloudfront-controller",
       "version": "0.0.1",
@@ -3982,6 +3988,12 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.4.0",
       "channel": "alpha"
     },
     {
@@ -9634,6 +9646,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.9.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.9.3",
       "channel": "alpha"
     },
     {
@@ -15393,6 +15411,12 @@
     {
       "package": "datadog-operator",
       "name": "datadog-operator",
+      "version": "1.27.1",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
       "version": "1.3.0",
       "channel": "stable"
     },
@@ -17745,6 +17769,12 @@
     {
       "package": "flux-operator",
       "name": "flux-operator",
+      "version": "0.52.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
       "version": "0.8.0",
       "channel": "stable"
     },
@@ -18466,6 +18496,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.0.2",
       "channel": "stable"
     },
     {
@@ -35125,7 +35161,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5854,
+  "count": 5860,
   "source": "opm",
-  "timestamp": "2026-06-10T06:38:04.528914"
+  "timestamp": "2026-06-13T06:35:23.929941"
 }

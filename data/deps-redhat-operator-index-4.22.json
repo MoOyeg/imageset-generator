@@ -9,6 +9,15 @@
       ],
       "requires_gvks": []
     },
+    "mcp-gateway": {
+      "requires_packages": [
+        {
+          "packageName": "rhcl-operator",
+          "versionRange": ">=1.3.2"
+        }
+      ],
+      "requires_gvks": []
+    },
     "mta-operator": {
       "requires_packages": [
         {
@@ -89,6 +98,23 @@
         {
           "packageName": "odr-hub-operator",
           "versionRange": "<=4.21.0"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "rhcl-operator": {
+      "requires_packages": [
+        {
+          "packageName": "authorino-operator",
+          "versionRange": "1.4.0"
+        },
+        {
+          "packageName": "dns-operator",
+          "versionRange": "1.4.0"
+        },
+        {
+          "packageName": "limitador-operator",
+          "versionRange": "1.4.0"
         }
       ],
       "requires_gvks": []
@@ -512,6 +538,9 @@
     "operator.openshift.io/v1/CliManager": [
       "cli-manager"
     ],
+    "operator.openshift.io/v1/KubeDescheduler": [
+      "cluster-kube-descheduler-operator"
+    ],
     "logging.openshift.io/v1alpha1/LogFileMetricExporter": [
       "cluster-logging"
     ],
@@ -676,6 +705,12 @@
     ],
     "workspace.devfile.io/v1alpha2/DevWorkspaceTemplate": [
       "devworkspace-operator"
+    ],
+    "kuadrant.io/v1alpha1/DNSHealthCheckProbe": [
+      "dns-operator"
+    ],
+    "kuadrant.io/v1alpha1/DNSRecord": [
+      "dns-operator"
     ],
     "dpu.openshift.io/v1alpha1/OVNKubeConfig": [
       "dpu-network-operator"
@@ -844,6 +879,9 @@
     "ols.openshift.io/v1alpha1/OLSConfig": [
       "lightspeed-operator"
     ],
+    "limitador.kuadrant.io/v1alpha1/Limitador": [
+      "limitador-operator"
+    ],
     "local.storage.openshift.io/v1/LocalVolume": [
       "local-storage-operator"
     ],
@@ -955,6 +993,15 @@
     ],
     "postgresql.cnpg.noobaa.io/v1/Subscription": [
       "mcg-operator"
+    ],
+    "mcp.kuadrant.io/v1alpha1/MCPGatewayExtension": [
+      "mcp-gateway"
+    ],
+    "mcp.kuadrant.io/v1alpha1/MCPServerRegistration": [
+      "mcp-gateway"
+    ],
+    "mcp.kuadrant.io/v1alpha1/MCPVirtualServer": [
+      "mcp-gateway"
     ],
     "frrk8s.metallb.io/v1beta1/FRRConfiguration": [
       "metallb-operator"
@@ -1607,6 +1654,45 @@
     "config.stackrox.io/v1alpha1/SecurityPolicy": [
       "rhacs-operator"
     ],
+    "devportal.kuadrant.io/v1alpha1/APIKey": [
+      "rhcl-operator"
+    ],
+    "devportal.kuadrant.io/v1alpha1/APIKeyApproval": [
+      "rhcl-operator"
+    ],
+    "devportal.kuadrant.io/v1alpha1/APIKeyRequest": [
+      "rhcl-operator"
+    ],
+    "devportal.kuadrant.io/v1alpha1/APIProduct": [
+      "rhcl-operator"
+    ],
+    "extensions.kuadrant.io/v1alpha1/OIDCPolicy": [
+      "rhcl-operator"
+    ],
+    "extensions.kuadrant.io/v1alpha1/PlanPolicy": [
+      "rhcl-operator"
+    ],
+    "extensions.kuadrant.io/v1alpha1/TelemetryPolicy": [
+      "rhcl-operator"
+    ],
+    "kuadrant.io/v1/AuthPolicy": [
+      "rhcl-operator"
+    ],
+    "kuadrant.io/v1/DNSPolicy": [
+      "rhcl-operator"
+    ],
+    "kuadrant.io/v1beta1/Kuadrant": [
+      "rhcl-operator"
+    ],
+    "kuadrant.io/v1/RateLimitPolicy": [
+      "rhcl-operator"
+    ],
+    "kuadrant.io/v1/TLSPolicy": [
+      "rhcl-operator"
+    ],
+    "kuadrant.io/v1alpha1/TokenRateLimitPolicy": [
+      "rhcl-operator"
+    ],
     "keycloak.org/v1alpha1/Keycloak": [
       "rhsso-operator"
     ],
@@ -2010,5 +2096,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-06-10T06:57:06.008529"
+  "timestamp": "2026-06-13T06:54:38.889062"
 }

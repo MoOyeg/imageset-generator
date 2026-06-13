@@ -16866,6 +16866,22 @@
     {
       "package": "devspaces",
       "name": "devspaces",
+      "version": "3.28.2",
+      "keywords": [
+        "eclipse che",
+        "workspaces",
+        "devtools",
+        "developer",
+        "ide",
+        "java",
+        "devspaces"
+      ],
+      "description": "Devfile v2 and v1 development solution, 1 instance per cluster, for portable, collaborative k8s workspaces.",
+      "channel": "stable"
+    },
+    {
+      "package": "devspaces",
+      "name": "devspaces",
       "version": "3.3.0",
       "keywords": [
         "eclipse che",
@@ -29984,6 +30000,16 @@
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.8.14",
+      "keywords": [
+        "migration"
+      ],
+      "description": "Facilitates migration of container workloads from OpenShift 3.x to OpenShift 4.x",
+      "channel": "release-v1.8"
+    },
+    {
+      "package": "mtc-operator",
+      "name": "mtc-operator",
+      "version": "1.8.15",
       "keywords": [
         "migration"
       ],
@@ -47557,6 +47583,19 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.15",
@@ -51745,6 +51784,18 @@
       "channel": "stable-v26"
     },
     {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.6.3-opr.1",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "stable-v26"
+    },
+    {
       "package": "rhcl-operator",
       "name": "rhcl-operator",
       "version": "1.0.0",
@@ -53785,6 +53836,43 @@
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "2.25.6",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
+      "version": "2.25.7",
       "keywords": [
         "Operator",
         "OpenShift",
@@ -61499,6 +61587,19 @@
     {
       "package": "submariner",
       "name": "submariner",
+      "version": "0.21.3",
+      "keywords": [
+        "multi-cluster",
+        "ipsec",
+        "tunnel",
+        "submariner-operator"
+      ],
+      "description": "Creates and manages Submariner deployments.",
+      "channel": "stable-0.21"
+    },
+    {
+      "package": "submariner",
+      "name": "submariner",
       "version": "0.22.0",
       "keywords": [
         "multi-cluster",
@@ -61508,6 +61609,45 @@
       ],
       "description": "Creates and manages Submariner deployments.",
       "channel": "stable-0.22"
+    },
+    {
+      "package": "submariner",
+      "name": "submariner",
+      "version": "0.22.1",
+      "keywords": [
+        "multi-cluster",
+        "ipsec",
+        "tunnel",
+        "submariner-operator"
+      ],
+      "description": "Creates and manages Submariner deployments.",
+      "channel": "stable-0.22"
+    },
+    {
+      "package": "submariner",
+      "name": "submariner",
+      "version": "0.23.1",
+      "keywords": [
+        "multi-cluster",
+        "ipsec",
+        "tunnel",
+        "submariner-operator"
+      ],
+      "description": "Creates and manages Submariner deployments.",
+      "channel": "stable-0.23"
+    },
+    {
+      "package": "submariner",
+      "name": "submariner",
+      "version": "0.24.0",
+      "keywords": [
+        "multi-cluster",
+        "ipsec",
+        "tunnel",
+        "submariner-operator"
+      ],
+      "description": "Creates and manages Submariner deployments.",
+      "channel": "stable-0.24"
     },
     {
       "package": "tang-operator",
@@ -62850,7 +62990,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4564,
+  "count": 4573,
   "source": "opm",
-  "timestamp": "2026-06-10T06:50:10.674394"
+  "timestamp": "2026-06-13T06:47:35.937428"
 }

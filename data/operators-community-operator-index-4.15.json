@@ -1435,6 +1435,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cloudfront-controller",
       "name": "ack-cloudfront-controller",
       "version": "0.0.1",
@@ -3976,6 +3982,12 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.4.0",
       "channel": "alpha"
     },
     {
@@ -9616,6 +9628,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.9.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.9.3",
       "channel": "alpha"
     },
     {
@@ -15477,6 +15495,12 @@
     {
       "package": "datadog-operator",
       "name": "datadog-operator",
+      "version": "1.27.1",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
       "version": "1.3.0",
       "channel": "stable"
     },
@@ -17829,6 +17853,12 @@
     {
       "package": "flux-operator",
       "name": "flux-operator",
+      "version": "0.52.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
       "version": "0.8.0",
       "channel": "stable"
     },
@@ -18424,6 +18454,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.0.2",
       "channel": "stable"
     },
     {
@@ -23385,6 +23421,12 @@
     {
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
+      "version": "2.15.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -26403,6 +26445,18 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.10.21",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.10.22",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -26799,6 +26853,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.15.5",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.16.0",
       "channel": "stable-3.16"
     },
@@ -26842,6 +26902,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.17.2",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.17.3",
       "channel": "stable-3.17"
     },
     {
@@ -30991,7 +31057,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5165,
+  "count": 5176,
   "source": "opm",
-  "timestamp": "2026-06-10T06:45:24.853747"
+  "timestamp": "2026-06-13T06:42:45.738938"
 }

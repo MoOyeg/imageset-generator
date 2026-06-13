@@ -555,6 +555,20 @@
       "channel": "release-2.16"
     },
     {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
+      "version": "2.16.2",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.16"
+    },
+    {
       "package": "amq-broker-rhel8",
       "name": "amq-broker-rhel8",
       "version": "7.10.0-opr-1",
@@ -15972,6 +15986,22 @@
     {
       "package": "devspaces",
       "name": "devspaces",
+      "version": "3.28.2",
+      "keywords": [
+        "eclipse che",
+        "workspaces",
+        "devtools",
+        "developer",
+        "ide",
+        "java",
+        "devspaces"
+      ],
+      "description": "Devfile v2 and v1 development solution, 1 instance per cluster, for portable, collaborative k8s workspaces.",
+      "channel": "stable"
+    },
+    {
+      "package": "devspaces",
+      "name": "devspaces",
       "version": "3.3.0",
       "keywords": [
         "eclipse che",
@@ -28152,6 +28182,16 @@
     {
       "package": "mtc-operator",
       "name": "mtc-operator",
+      "version": "1.8.15",
+      "keywords": [
+        "migration"
+      ],
+      "description": "Facilitates migration of container workloads from OpenShift 3.x to OpenShift 4.x",
+      "channel": "release-v1.8"
+    },
+    {
+      "package": "mtc-operator",
+      "name": "mtc-operator",
       "version": "1.8.3",
       "keywords": [
         "migration",
@@ -28937,6 +28977,18 @@
       "package": "multicluster-engine",
       "name": "multicluster-engine",
       "version": "2.11.1",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.11"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
+      "version": "2.11.2",
       "keywords": [
         "mce",
         "multicluster-engine",
@@ -44954,6 +45006,19 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.15",
@@ -49142,6 +49207,18 @@
       "channel": "stable-v26"
     },
     {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.6.3-opr.1",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "stable-v26"
+    },
+    {
       "package": "rhcl-operator",
       "name": "rhcl-operator",
       "version": "1.0.2",
@@ -49314,6 +49391,28 @@
       ],
       "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins, configuration settings, and deployment mechanisms, which can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
       "channel": "fast-1.1"
+    },
+    {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.10.0",
+      "keywords": [
+        "Backstage",
+        "RHDH"
+      ],
+      "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins and configuration settings, supports use of an external database, and can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
+      "channel": "fast"
+    },
+    {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.10.1",
+      "keywords": [
+        "Backstage",
+        "RHDH"
+      ],
+      "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins and configuration settings, supports use of an external database, and can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
+      "channel": "fast"
     },
     {
       "package": "rhdh",
@@ -51175,6 +51274,43 @@
       "package": "rhods-operator",
       "name": "rhods-operator",
       "version": "2.25.6",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
+      "version": "2.25.7",
       "keywords": [
         "Operator",
         "OpenShift",
@@ -58608,6 +58744,19 @@
     {
       "package": "submariner",
       "name": "submariner",
+      "version": "0.21.3",
+      "keywords": [
+        "multi-cluster",
+        "ipsec",
+        "tunnel",
+        "submariner-operator"
+      ],
+      "description": "Creates and manages Submariner deployments.",
+      "channel": "stable-0.21"
+    },
+    {
+      "package": "submariner",
+      "name": "submariner",
       "version": "0.22.0",
       "keywords": [
         "multi-cluster",
@@ -58643,6 +58792,19 @@
       ],
       "description": "Creates and manages Submariner deployments.",
       "channel": "stable-0.23"
+    },
+    {
+      "package": "submariner",
+      "name": "submariner",
+      "version": "0.24.0",
+      "keywords": [
+        "multi-cluster",
+        "ipsec",
+        "tunnel",
+        "submariner-operator"
+      ],
+      "description": "Creates and manages Submariner deployments.",
+      "channel": "stable-0.24"
     },
     {
       "package": "tang-operator",
@@ -60399,7 +60561,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4385,
+  "count": 4396,
   "source": "opm",
-  "timestamp": "2026-06-10T06:51:47.543253"
+  "timestamp": "2026-06-13T06:49:11.627034"
 }

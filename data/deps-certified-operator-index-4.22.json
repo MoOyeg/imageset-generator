@@ -687,6 +687,15 @@
     "compute.functionmesh.io/v1alpha1/Source": [
       "function-mesh"
     ],
+    "cluster-services-openshift.cloud.google.com/v1alpha1/TelemetryConfig": [
+      "google-cloud-cluster-services-for-openshift-telemetry"
+    ],
+    "nvidia.com/v1/ClusterPolicy": [
+      "gpu-operator-certified"
+    ],
+    "nvidia.com/v1alpha1/NVIDIADriver": [
+      "gpu-operator-certified"
+    ],
     "gitops.harness.io/v1alpha1/GitopsAgent": [
       "harness-gitops-operator"
     ],
@@ -770,6 +779,9 @@
     ],
     "charts.csi.hitachi.com/v1/HNAS": [
       "hnas-csi-operator"
+    ],
+    "storage.hpe.com/v1/HPECSIDriver": [
+      "hpe-csi-operator"
     ],
     "ezmeral.hpe.com/v1/HPEEzmeralCSIDriver": [
       "hpe-ezmeral-csi-operator"
@@ -1586,5 +1598,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-10T06:57:18.382957"
+  "timestamp": "2026-06-13T06:54:52.512391"
 }

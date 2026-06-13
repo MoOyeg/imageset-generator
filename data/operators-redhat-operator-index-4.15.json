@@ -3397,6 +3397,12 @@
       "channel": "stable"
     },
     {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
       "package": "aws-load-balancer-operator",
       "name": "aws-load-balancer-operator",
       "version": "1.0.0",
@@ -4936,6 +4942,12 @@
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.15.0-202604300229",
+      "channel": "stable"
+    },
+    {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.15.0-202605272019",
       "channel": "stable"
     },
     {
@@ -9511,6 +9523,12 @@
       "channel": "stable"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.15.0-202401290854",
@@ -9802,6 +9820,12 @@
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.15.0-202605051413",
+      "channel": "stable"
+    },
+    {
+      "package": "ingress-node-firewall",
+      "name": "ingress-node-firewall",
+      "version": "4.15.0-202605272019",
       "channel": "stable"
     },
     {
@@ -10765,6 +10789,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.15.0-202605291851",
+      "channel": "stable"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -11284,6 +11314,12 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202605060218",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202606030314",
       "channel": "stable"
     },
     {
@@ -12601,6 +12637,12 @@
       "channel": "stable"
     },
     {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
       "package": "mta-operator",
       "name": "mta-operator",
       "version": "6.0.0",
@@ -12946,6 +12988,12 @@
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.8.14",
+      "channel": "release-v1.8"
+    },
+    {
+      "package": "mtc-operator",
+      "name": "mtc-operator",
+      "version": "1.8.15",
       "channel": "release-v1.8"
     },
     {
@@ -14146,6 +14194,12 @@
       "package": "nfd",
       "name": "nfd",
       "version": "4.15.0-202605051413",
+      "channel": "stable"
+    },
+    {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.15.0-202605272019",
       "channel": "stable"
     },
     {
@@ -18469,6 +18523,12 @@
       "channel": "stable"
     },
     {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.10.0",
@@ -20818,6 +20878,12 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "1.3.1+0.1779241702.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0",
       "channel": "latest"
     },
     {
@@ -23557,6 +23623,12 @@
       "channel": "preview"
     },
     {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.15.0-202605272019",
+      "channel": "preview"
+    },
+    {
       "package": "security-profiles-operator",
       "name": "security-profiles-operator",
       "version": "0.10.0",
@@ -25081,6 +25153,12 @@
       "channel": "stable"
     },
     {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
       "package": "submariner",
       "name": "submariner",
       "version": "0.16.0",
@@ -25681,6 +25759,12 @@
       "channel": "stable"
     },
     {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.15.0-202605280412",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.10.0",
@@ -26041,7 +26125,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4340,
+  "count": 4354,
   "source": "opm",
-  "timestamp": "2026-06-10T06:43:55.223593"
+  "timestamp": "2026-06-13T06:41:04.202542"
 }

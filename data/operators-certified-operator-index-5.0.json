@@ -841,6 +841,19 @@
       "channel": "2022.4"
     },
     {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.880",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -1724,6 +1737,19 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.27.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.27.1",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -3503,7 +3529,7 @@
     {
       "package": "kubearmor-operator-certified",
       "name": "kubearmor-operator-certified",
-      "version": "1.5.2",
+      "version": "1.7.3",
       "keywords": [
         "monitoring",
         "security",
@@ -4050,7 +4076,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -5310,7 +5336,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "keywords": [
         "tenant",
         "stakater",
@@ -5705,7 +5731,7 @@
       "channel": "lts"
     }
   ],
-  "count": 641,
+  "count": 643,
   "source": "opm",
-  "timestamp": "2026-06-10T06:58:03.824659"
+  "timestamp": "2026-06-13T06:55:42.230556"
 }

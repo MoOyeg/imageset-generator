@@ -431,6 +431,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/CodeInterpreter": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Browser": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -579,6 +582,9 @@
       "ack-ecs-controller"
     ],
     "ecs.services.k8s.aws/v1alpha1/TaskDefinition": [
+      "ack-ecs-controller"
+    ],
+    "ecs.services.k8s.aws/v1alpha1/CapacityProvider": [
       "ack-ecs-controller"
     ],
     "efs.services.k8s.aws/v1alpha1/AccessPoint": [
@@ -3338,6 +3344,9 @@
     "openebs.io/v1alpha1/OpenEBSInstallTemplate": [
       "openebs"
     ],
+    "platform.io/v1alpha1/IntegrationFlow": [
+      "openshift-integration-operator"
+    ],
     "openshift-optional.skrzypek.io/v1alpha1/MutexRule": [
       "openshift-node-upgrade-mutex-operator"
     ],
@@ -4470,5 +4479,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-10T06:56:32.743873"
+  "timestamp": "2026-06-13T06:54:06.293862"
 }
