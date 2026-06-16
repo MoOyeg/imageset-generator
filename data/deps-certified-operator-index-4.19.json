@@ -295,6 +295,9 @@
     "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
+    "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
+      "airlock-microgateway"
+    ],
     "aiu.ibm.com/v2/AiuClusterPolicy": [
       "aiu-operator"
     ],
@@ -947,6 +950,9 @@
     ],
     "ai.security.f5.com/v1alpha1/SecurityOperator": [
       "f5-ai-security-operator"
+    ],
+    "cis.f5.com/v1/F5BigIpCtlr": [
+      "f5-bigip-ctlr-operator"
     ],
     "falcon.crowdstrike.com/v1alpha1/FalconAdmission": [
       "falcon-operator"
@@ -1675,6 +1681,9 @@
       "nvidia-network-operator"
     ],
     "mellanox.com/v1alpha1/NicClusterPolicy": [
+      "nvidia-network-operator"
+    ],
+    "mellanox.com/v1alpha1/NicNodePolicy": [
       "nvidia-network-operator"
     ],
     "sonatype.com/v1alpha1/NexusIQ": [
@@ -2605,5 +2614,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-13T06:51:11.034294"
+  "timestamp": "2026-06-16T06:59:54.090857"
 }

@@ -5973,6 +5973,40 @@
       "channel": "stable-2.7-cluster-scoped"
     },
     {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1781122780",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1781122804",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
+    },
+    {
       "package": "ansible-cloud-addons-operator",
       "name": "ansible-cloud-addons-operator",
       "version": "2.5.0+0.1727240231",
@@ -10747,7 +10781,7 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
     },
     {
       "package": "cluster-observability-operator",
@@ -10760,7 +10794,7 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
     },
     {
       "package": "cluster-observability-operator",
@@ -10773,7 +10807,7 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
     },
     {
       "package": "cluster-observability-operator",
@@ -10786,7 +10820,7 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
     },
     {
       "package": "cluster-observability-operator",
@@ -10799,7 +10833,7 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
     },
     {
       "package": "cluster-observability-operator",
@@ -10812,7 +10846,7 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
     },
     {
       "package": "cluster-observability-operator",
@@ -10825,7 +10859,7 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
     },
     {
       "package": "cluster-observability-operator",
@@ -10838,7 +10872,7 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
     },
     {
       "package": "cluster-observability-operator",
@@ -10851,7 +10885,20 @@
         "thanos"
       ],
       "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
-      "channel": "stable"
+      "channel": "fast"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.5.0",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "fast"
     },
     {
       "package": "clusterresourceoverride",
@@ -24580,6 +24627,23 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.18.38",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.18.4",
       "keywords": [
         "KubeVirt",
@@ -24911,6 +24975,19 @@
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
       "version": "1.1.0",
+      "keywords": [
+        "ai",
+        "assistant",
+        "openshift",
+        "llm"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "lightspeed-operator",
+      "name": "lightspeed-operator",
+      "version": "1.1.1",
       "keywords": [
         "ai",
         "assistant",
@@ -46926,6 +47003,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.11.0",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.11"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.2.0",
       "keywords": [
         "advanced-cluster-security",
@@ -60561,7 +60659,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4396,
+  "count": 4402,
   "source": "opm",
-  "timestamp": "2026-06-13T06:49:11.627034"
+  "timestamp": "2026-06-16T06:57:47.280473"
 }

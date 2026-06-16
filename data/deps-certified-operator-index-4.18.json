@@ -313,6 +313,9 @@
     "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
+    "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
+      "airlock-microgateway"
+    ],
     "aiu.ibm.com/v2/AiuClusterPolicy": [
       "aiu-operator"
     ],
@@ -1980,6 +1983,9 @@
     "mellanox.com/v1alpha1/NicClusterPolicy": [
       "nvidia-network-operator"
     ],
+    "mellanox.com/v1alpha1/NicNodePolicy": [
+      "nvidia-network-operator"
+    ],
     "sonatype.com/v1alpha1/NexusIQ": [
       "nxiq-operator-certified"
     ],
@@ -2887,5 +2893,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-13T06:49:37.649094"
+  "timestamp": "2026-06-16T06:58:11.078544"
 }

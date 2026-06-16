@@ -2809,6 +2809,12 @@
       "channel": "stable"
     },
     {
+      "package": "eqube-operator",
+      "name": "eqube-operator",
+      "version": "1.0.1",
+      "channel": "stable"
+    },
+    {
       "package": "exascaler-csi-driver-operator",
       "name": "exascaler-csi-driver-operator",
       "version": "2.8.1",
@@ -2817,7 +2823,7 @@
     {
       "package": "f5-bigip-ctlr-operator",
       "name": "f5-bigip-ctlr-operator",
-      "version": "1.21.0",
+      "version": "1.23.0",
       "channel": "alpha"
     },
     {
@@ -3075,7 +3081,7 @@
     {
       "package": "google-cloud-cluster-services-for-openshift-telemetry",
       "name": "google-cloud-cluster-services-for-openshift-telemetry",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "channel": "alpha"
     },
     {
@@ -4959,6 +4965,12 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.12",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
       "version": "8.5.2",
       "channel": "stable"
     },
@@ -6610,6 +6622,12 @@
       "package": "nvidia-maintenance-operator",
       "name": "nvidia-maintenance-operator",
       "version": "0.2.3",
+      "channel": "v0.2"
+    },
+    {
+      "package": "nvidia-maintenance-operator",
+      "name": "nvidia-maintenance-operator",
+      "version": "26.4.0",
       "channel": "stable"
     },
     {
@@ -8703,7 +8721,7 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.5.1-candidate-20260501180834000",
+      "version": "1.6.0-candidate-20260602144140000",
       "channel": "candidate"
     },
     {
@@ -9673,7 +9691,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1612,
+  "count": 1615,
   "source": "opm",
-  "timestamp": "2026-06-13T06:41:45.047381"
+  "timestamp": "2026-06-16T06:49:52.167569"
 }

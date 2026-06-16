@@ -12477,6 +12477,12 @@
       "package": "ack-sqs-controller",
       "name": "ack-sqs-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sqs-controller",
+      "name": "ack-sqs-controller",
+      "version": "1.5.1",
       "keywords": [
         "sqs",
         "aws",
@@ -13374,17 +13380,6 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.4",
-      "keywords": [
-        "integration",
-        "streaming",
-        "messaging",
-        "api",
-        "schemas",
-        "registry",
-        "apicurio",
-        "apicurio-registry"
-      ],
-      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.2.x"
     },
     {
@@ -13403,6 +13398,23 @@
       ],
       "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.2.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.0",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.3.x"
     },
     {
       "package": "apicurito",
@@ -22959,6 +22971,12 @@
       "package": "kaoto-operator",
       "name": "kaoto-operator",
       "version": "2.10.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "kaoto-operator",
+      "name": "kaoto-operator",
+      "version": "2.11.0",
       "keywords": [
         "integration",
         "kaoto",
@@ -25746,9 +25764,18 @@
       "package": "lbconfig-operator",
       "name": "lbconfig-operator",
       "version": "0.5.1",
+      "channel": "beta"
+    },
+    {
+      "package": "lbconfig-operator",
+      "name": "lbconfig-operator",
+      "version": "0.6.0",
       "keywords": [
-        "load-balance ",
-        "infrastructure"
+        "load-balancer",
+        "infrastructure",
+        "lbconfig",
+        "F5",
+        "Citrix"
       ],
       "description": "Manage External Load Balancers allowing creation/update for VIPs and Servers dynamically via API.",
       "channel": "beta"
@@ -30449,6 +30476,19 @@
     {
       "package": "patterns-operator",
       "name": "patterns-operator",
+      "version": "0.0.76",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
       "version": "0.0.8",
       "keywords": [
         "Validated",
@@ -33634,42 +33674,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-29",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-30",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-05-31",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-06-01",
       "keywords": [
         "istio",
@@ -33815,6 +33819,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-06-13",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-14",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-15",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-06-16",
       "keywords": [
         "istio",
         "servicemesh",
@@ -37737,7 +37777,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5008,
+  "count": 5013,
   "source": "opm",
-  "timestamp": "2026-06-13T06:48:21.860044"
+  "timestamp": "2026-06-16T06:56:59.729360"
 }
