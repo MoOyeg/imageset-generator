@@ -1626,6 +1626,12 @@
     "eventing.keda.sh/v1alpha1/ClusterCloudEventSource": [
       "openshift-custom-metrics-autoscaler-operator"
     ],
+    "http.keda.sh/v1alpha1/HTTPScaledObject": [
+      "openshift-custom-metrics-autoscaler-operator"
+    ],
+    "http.keda.sh/v1beta1/InterceptorRoute": [
+      "openshift-custom-metrics-autoscaler-operator"
+    ],
     "argoproj.io/v1alpha1/AnalysisRun": [
       "openshift-gitops-operator"
     ],
@@ -1671,6 +1677,9 @@
     "argocd-image-updater.argoproj.io/v1alpha1/ImageUpdater": [
       "openshift-gitops-operator"
     ],
+    "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
+      "openshift-pipelines-operator-rh"
+    ],
     "operator.tekton.dev/v1alpha1/OpenShiftPipelinesAsCode": [
       "openshift-pipelines-operator-rh"
     ],
@@ -1696,9 +1705,6 @@
       "openshift-pipelines-operator-rh"
     ],
     "operator.tekton.dev/v1alpha1/TektonTrigger": [
-      "openshift-pipelines-operator-rh"
-    ],
-    "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
       "openshift-pipelines-operator-rh"
     ],
     "operator.tekton.dev/v1alpha1/TektonDashboard": [
@@ -2473,5 +2479,5 @@
       "watcher-operator"
     ]
   },
-  "timestamp": "2026-06-16T06:52:58.021746"
+  "timestamp": "2026-06-19T06:58:55.472978"
 }

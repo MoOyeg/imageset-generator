@@ -399,7 +399,7 @@
     {
       "package": "app-insights-operator",
       "name": "app-insights-operator",
-      "version": "1.19.0-1",
+      "version": "1.20.0-1",
       "channel": "stable"
     },
     {
@@ -3229,15 +3229,21 @@
       "channel": "stable"
     },
     {
-      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "version": "8.1.3",
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.3.0",
       "channel": "stable"
     },
     {
       "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
       "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
       "version": "8.1.4",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
+      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
+      "version": "8.1.5",
       "channel": "stable"
     },
     {
@@ -3334,6 +3340,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.49.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.50.0",
       "channel": "stable"
     },
     {
@@ -5199,12 +5211,6 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
-      "version": "8.5.12",
-      "channel": "stable"
-    },
-    {
-      "package": "k10-kasten-operator-rhmp",
-      "name": "k10-kasten-operator-rhmp",
       "version": "8.5.2",
       "channel": "stable"
     },
@@ -5746,12 +5752,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.20.10",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.10-beta.1",
+      "version": "8.20.20-beta.1",
       "channel": "beta"
     },
     {
@@ -5854,12 +5860,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.20.10",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.10-beta.1",
+      "version": "8.20.20-beta.1",
       "channel": "beta"
     },
     {
@@ -6739,6 +6745,12 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.1",
+      "channel": "alpha"
+    },
+    {
       "package": "nspc-operator",
       "name": "nspc-operator",
       "version": "1.13.1",
@@ -6784,6 +6796,12 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.7.0",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.7.1",
       "channel": "stable-3.x"
     },
     {
@@ -7516,12 +7534,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.20.10",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.10-beta.2",
+      "version": "8.20.20-beta.1",
       "channel": "beta"
     },
     {
@@ -8263,6 +8281,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.31.2",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -8887,22 +8911,28 @@
       "channel": "alpha"
     },
     {
-      "package": "t8c-certified",
-      "name": "t8c-certified",
-      "version": "42.106.0",
-      "channel": "beta"
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "5.1.1-0",
+      "channel": "alpha"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.106.0-beta.1",
+      "version": "42.106.0",
+      "channel": "stable"
+    },
+    {
+      "package": "t8c-certified",
+      "name": "t8c-certified",
+      "version": "42.108.0-beta.1",
       "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.5.0",
-      "channel": "stable"
+      "version": "1.6.0",
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -10201,7 +10231,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1700,
+  "count": 1705,
   "source": "opm",
-  "timestamp": "2026-06-16T06:46:20.300929"
+  "timestamp": "2026-06-19T06:52:04.793195"
 }

@@ -2462,6 +2462,15 @@
     "hedvig.io/v1/HedvigDeploy": [
       "hedvig-operator"
     ],
+    "hermes.agent/v1/HermesClusterDefaults": [
+      "hermes-operator"
+    ],
+    "hermes.agent/v1/HermesInstance": [
+      "hermes-operator"
+    ],
+    "hermes.agent/v1/HermesSelfConfig": [
+      "hermes-operator"
+    ],
     "hive.openshift.io/v1/Checkpoint": [
       "hive-operator"
     ],
@@ -3260,6 +3269,15 @@
     "odoo-community.org/v1alpha1/Odoo": [
       "odoo-operator"
     ],
+    "openclaw.rocks/v1alpha1/OpenClawClusterDefaults": [
+      "openclaw-operator"
+    ],
+    "openclaw.rocks/v1alpha1/OpenClawInstance": [
+      "openclaw-operator"
+    ],
+    "openclaw.rocks/v1alpha1/OpenClawSelfConfig": [
+      "openclaw-operator"
+    ],
     "kfdef.apps.kubeflow.org/v1/KfDef": [
       "opendatahub-operator"
     ],
@@ -3373,6 +3391,15 @@
     ],
     "opentelemetry.io/v1alpha1/TargetAllocator": [
       "opentelemetry-operator"
+    ],
+    "paperclip.inc/v1alpha1/Instance": [
+      "paperclip-operator"
+    ],
+    "paperclip.inc/v1alpha1/PaperclipClusterDefaults": [
+      "paperclip-operator"
+    ],
+    "paperclip.inc/v1alpha1/PaperclipSelfConfig": [
+      "paperclip-operator"
     ],
     "redhatcop.redhat.io/v1alpha1/Patch": [
       "patch-operator"
@@ -4530,5 +4557,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-16T06:54:24.390448"
+  "timestamp": "2026-06-19T07:00:24.704422"
 }

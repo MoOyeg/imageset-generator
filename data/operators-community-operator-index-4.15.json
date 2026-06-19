@@ -3081,6 +3081,12 @@
     {
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
+      "version": "1.14.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -3784,6 +3790,12 @@
       "package": "ack-ecr-controller",
       "name": "ack-ecr-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecr-controller",
+      "name": "ack-ecr-controller",
+      "version": "1.6.1",
       "channel": "alpha"
     },
     {
@@ -6136,6 +6148,12 @@
       "package": "ack-iam-controller",
       "name": "ack-iam-controller",
       "version": "1.7.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-iam-controller",
+      "name": "ack-iam-controller",
+      "version": "1.7.1",
       "channel": "alpha"
     },
     {
@@ -9973,6 +9991,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
+      "version": "1.4.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
       "version": "0.0.10",
@@ -12070,6 +12094,12 @@
       "package": "ack-sqs-controller",
       "name": "ack-sqs-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sqs-controller",
+      "name": "ack-sqs-controller",
+      "version": "1.5.2",
       "channel": "alpha"
     },
     {
@@ -16149,6 +16179,12 @@
     {
       "package": "eclipse-che",
       "name": "eclipse-che",
+      "version": "7.119.0",
+      "channel": "stable"
+    },
+    {
+      "package": "eclipse-che",
+      "name": "eclipse-che",
       "version": "7.40.1",
       "channel": "stable"
     },
@@ -18499,6 +18535,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.50.0",
+      "channel": "stable"
+    },
+    {
       "package": "gitops-primer",
       "name": "gitops-primer",
       "version": "0.0.1",
@@ -19051,6 +19093,12 @@
       "channel": "stable"
     },
     {
+      "package": "hermes-operator",
+      "name": "hermes-operator",
+      "version": "0.1.17",
+      "channel": "stable"
+    },
+    {
       "package": "hive-operator",
       "name": "hive-operator",
       "version": "1.1.10",
@@ -19546,6 +19594,12 @@
       "package": "hive-operator",
       "name": "hive-operator",
       "version": "1.2.5230-ab4b249",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
+      "version": "1.2.5250-7c2c258",
       "channel": "alpha"
     },
     {
@@ -21916,6 +21970,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.10.0-alpha.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.10.0-alpha.4",
       "channel": "alpha"
     },
     {
@@ -24655,6 +24715,12 @@
       "channel": "alpha"
     },
     {
+      "package": "openclaw-operator",
+      "name": "openclaw-operator",
+      "version": "0.36.4",
+      "channel": "stable"
+    },
+    {
       "package": "opendatahub-operator",
       "name": "opendatahub-operator",
       "version": "1.1.1",
@@ -25293,6 +25359,12 @@
     {
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
+      "version": "0.153.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
       "version": "0.21.0",
       "channel": "alpha"
     },
@@ -25613,6 +25685,12 @@
       "name": "opentelemetry-operator",
       "version": "0.99.0",
       "channel": "alpha"
+    },
+    {
+      "package": "paperclip-operator",
+      "name": "paperclip-operator",
+      "version": "0.17.2",
+      "channel": "stable"
     },
     {
       "package": "patch-operator",
@@ -29299,6 +29377,12 @@
       "channel": "strimzi-1.0.x"
     },
     {
+      "package": "strimzi-kafka-operator",
+      "name": "strimzi-kafka-operator",
+      "version": "1.0.1",
+      "channel": "strimzi-1.0.x"
+    },
+    {
       "package": "susql-operator",
       "name": "susql-operator",
       "version": "0.0.27",
@@ -30361,6 +30445,12 @@
       "channel": "v2-stable"
     },
     {
+      "package": "verticadb-operator",
+      "name": "verticadb-operator",
+      "version": "26.2.1-0",
+      "channel": "v2-stable"
+    },
+    {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.18.0",
@@ -31093,7 +31183,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5182,
+  "count": 5197,
   "source": "opm",
-  "timestamp": "2026-06-16T06:50:38.176266"
+  "timestamp": "2026-06-19T06:56:34.686831"
 }

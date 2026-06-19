@@ -3004,91 +3004,97 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.15-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.6-beta",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.6-beta.r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.6-beta.r1+0.1740495889.p",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.7-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.7-r2",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9-r2",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9-r3",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.0-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6-r2",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6-r3",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.4-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.4-r2",
-      "channel": "3.x"
+      "channel": "3.2.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.5-r1",
+      "channel": "3.2.x"
     },
     {
       "package": "authorino-operator",
@@ -4545,6 +4551,12 @@
     {
       "package": "cluster-logging",
       "name": "cluster-logging",
+      "version": "6.0.15",
+      "channel": "stable-6.0"
+    },
+    {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
       "version": "6.0.2",
       "channel": "stable-6.0"
     },
@@ -5044,6 +5056,12 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.1",
       "channel": "stable"
     },
     {
@@ -5590,6 +5608,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.17.2",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.17.3",
       "channel": "stable-3.17"
     },
     {
@@ -7605,6 +7629,12 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.20",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.3",
       "channel": "stable"
     },
@@ -7864,6 +7894,12 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.3.5",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.6",
       "channel": "stable-v1"
     },
     {
@@ -8445,6 +8481,12 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1781635285.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "channel": "fuse-apicurito-7.10.x"
     },
@@ -8752,6 +8794,12 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1779967100.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1781635284.p",
       "channel": "7.13.x"
     },
     {
@@ -11662,6 +11710,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "6.0.14",
+      "channel": "stable-6.0"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.0.15",
       "channel": "stable-6.0"
     },
     {
@@ -17113,6 +17167,12 @@
       "channel": "stable"
     },
     {
+      "package": "openshift-custom-metrics-autoscaler-operator",
+      "name": "openshift-custom-metrics-autoscaler-operator",
+      "version": "2.19.0-1",
+      "channel": "stable"
+    },
+    {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.10.0",
@@ -18076,6 +18136,12 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.144.0-3",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.152.0-1",
       "channel": "stable"
     },
     {
@@ -19083,6 +19149,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.17.3",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.4.7",
       "channel": "quay-v3.4"
     },
@@ -20025,6 +20097,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.17.3",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.4.7",
       "channel": "quay-v3.4"
     },
@@ -20890,6 +20968,12 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1781555104.p",
       "channel": "latest"
     },
     {
@@ -25467,6 +25551,12 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.21.0-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "channel": "stable"
     },
@@ -26131,7 +26221,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4355,
+  "count": 4370,
   "source": "opm",
-  "timestamp": "2026-06-16T06:49:08.360553"
+  "timestamp": "2026-06-19T06:55:06.191698"
 }

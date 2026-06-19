@@ -1266,6 +1266,12 @@
     "eventing.keda.sh/v1alpha1/ClusterCloudEventSource": [
       "openshift-custom-metrics-autoscaler-operator"
     ],
+    "http.keda.sh/v1alpha1/HTTPScaledObject": [
+      "openshift-custom-metrics-autoscaler-operator"
+    ],
+    "http.keda.sh/v1beta1/InterceptorRoute": [
+      "openshift-custom-metrics-autoscaler-operator"
+    ],
     "argoproj.io/v1alpha1/AnalysisRun": [
       "openshift-gitops-operator"
     ],
@@ -1945,5 +1951,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-06-16T06:49:17.418282"
+  "timestamp": "2026-06-19T06:55:15.265043"
 }

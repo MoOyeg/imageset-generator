@@ -3328,91 +3328,97 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.15-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.6-beta",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.6-beta.r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.6-beta.r1+0.1740495889.p",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.7-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.7-r2",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9-r2",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9-r3",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.0-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6-r2",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6-r3",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.4-r1",
-      "channel": "3.x"
+      "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.4-r2",
-      "channel": "3.x"
+      "channel": "3.2.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.5-r1",
+      "channel": "3.2.x"
     },
     {
       "package": "authorino-operator",
@@ -4989,6 +4995,12 @@
     {
       "package": "cluster-logging",
       "name": "cluster-logging",
+      "version": "6.0.15",
+      "channel": "stable-6.0"
+    },
+    {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
       "version": "6.0.2",
       "channel": "stable-6.0"
     },
@@ -5440,6 +5452,12 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.9.0",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.1",
       "channel": "stable"
     },
     {
@@ -5986,6 +6004,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.17.2",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.17.3",
       "channel": "stable-3.17"
     },
     {
@@ -8001,6 +8025,12 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.20",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.3",
       "channel": "stable"
     },
@@ -8356,6 +8386,12 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.3.5",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.6",
       "channel": "stable-v1"
     },
     {
@@ -8937,6 +8973,12 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1781635285.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "channel": "fuse-apicurito-7.10.x"
     },
@@ -9244,6 +9286,12 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1779967100.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1781635284.p",
       "channel": "7.13.x"
     },
     {
@@ -10887,6 +10935,12 @@
     {
       "package": "kiali-ossm",
       "name": "kiali-ossm",
+      "version": "2.22.5",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
       "version": "2.4.3",
       "channel": "stable"
     },
@@ -12171,6 +12225,12 @@
     {
       "package": "loki-operator",
       "name": "loki-operator",
+      "version": "6.0.15",
+      "channel": "stable-6.0"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
       "version": "6.0.2",
       "channel": "stable-6.0"
     },
@@ -12634,6 +12694,12 @@
       "package": "mcg-operator",
       "name": "mcg-operator",
       "version": "4.14.33-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.14.34-rhodf",
       "channel": "stable-4.14"
     },
     {
@@ -14841,6 +14907,12 @@
     {
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
+      "version": "4.14.34-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -15088,6 +15160,12 @@
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.14.33-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.14.34-rhodf",
       "channel": "stable-4.14"
     },
     {
@@ -15351,6 +15429,12 @@
     {
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
+      "version": "4.14.34-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -15603,6 +15687,12 @@
     {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
+      "version": "4.14.34-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -15855,6 +15945,12 @@
     {
       "package": "odf-operator",
       "name": "odf-operator",
+      "version": "4.14.34-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -16107,6 +16203,12 @@
     {
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
+      "version": "4.14.34-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -16354,6 +16456,12 @@
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.14.33-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.14.34-rhodf",
       "channel": "stable-4.14"
     },
     {
@@ -16690,6 +16798,12 @@
       "package": "openshift-custom-metrics-autoscaler-operator",
       "name": "openshift-custom-metrics-autoscaler-operator",
       "version": "2.18.1-2",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-custom-metrics-autoscaler-operator",
+      "name": "openshift-custom-metrics-autoscaler-operator",
+      "version": "2.19.0-1",
       "channel": "stable"
     },
     {
@@ -17529,6 +17643,12 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.21.2",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.22.0",
       "channel": "latest"
     },
@@ -17542,6 +17662,12 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.22.2",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.3",
       "channel": "latest"
     },
     {
@@ -17698,6 +17824,12 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.144.0-3",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.152.0-1",
       "channel": "stable"
     },
     {
@@ -18699,6 +18831,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.17.3",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.4.7",
       "channel": "quay-v3.4"
     },
@@ -19641,6 +19779,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.17.3",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.4.7",
       "channel": "quay-v3.4"
     },
@@ -20509,6 +20653,12 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1781555104.p",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.0",
@@ -21285,6 +21435,12 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.4",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.11.0",
       "channel": "rhacs-4.11"
     },
@@ -21736,6 +21892,12 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.7",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.9.8",
       "channel": "rhacs-4.10"
     },
     {
@@ -24375,6 +24537,12 @@
     {
       "package": "servicemeshoperator",
       "name": "servicemeshoperator",
+      "version": "2.6.17-0",
+      "channel": "1.0"
+    },
+    {
+      "package": "servicemeshoperator",
+      "name": "servicemeshoperator",
       "version": "2.6.2-0",
       "channel": "1.0"
     },
@@ -24454,6 +24622,12 @@
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
       "version": "3.0.11",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.0.12",
       "channel": "stable"
     },
     {
@@ -25437,6 +25611,12 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.21.0-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "channel": "stable"
     },
@@ -26161,7 +26341,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4360,
+  "count": 4390,
   "source": "opm",
-  "timestamp": "2026-06-16T06:45:36.755852"
+  "timestamp": "2026-06-19T06:51:19.817367"
 }
