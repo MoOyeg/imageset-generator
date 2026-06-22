@@ -1879,6 +1879,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "cloudnative-pg",
+      "name": "cloudnative-pg",
+      "version": "1.30.0-rc1",
+      "channel": "candidate"
+    },
+    {
       "package": "cnfv-operator",
       "name": "cnfv-operator",
       "version": "0.0.1",
@@ -3553,6 +3559,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.1.0",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -4173,7 +4185,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.4",
+      "version": "2.24.5",
       "channel": "beta"
     },
     {
@@ -4209,7 +4221,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.4",
+      "version": "2.24.5",
       "channel": "beta"
     },
     {
@@ -8875,6 +8887,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.31.4",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -10447,7 +10465,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1741,
+  "count": 1744,
   "source": "opm",
-  "timestamp": "2026-06-19T06:59:32.351324"
+  "timestamp": "2026-06-22T06:56:54.593104"
 }

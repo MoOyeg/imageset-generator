@@ -1573,6 +1573,9 @@
     "beegfs.csi.netapp.com/v1/BeegfsDriver": [
       "beegfs-csi-driver-operator"
     ],
+    "bpfman.io/v1alpha1/BpfApplication": [
+      "bpfman-operator"
+    ],
     "bpfman.io/v1alpha1/BpfProgram": [
       "bpfman-operator"
     ],
@@ -1597,9 +1600,6 @@
     "bpfman.io/v1alpha1/XdpProgram": [
       "bpfman-operator"
     ],
-    "bpfman.io/v1alpha1/BpfApplication": [
-      "bpfman-operator"
-    ],
     "bpfman.io/v1alpha1/BpfNsApplication": [
       "bpfman-operator"
     ],
@@ -1619,6 +1619,18 @@
       "bpfman-operator"
     ],
     "bpfman.io/v1alpha1/XdpNsProgram": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/BpfApplicationState": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/ClusterBpfApplication": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/ClusterBpfApplicationState": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/Config": [
       "bpfman-operator"
     ],
     "camel.apache.org/v1/Build": [
@@ -1767,6 +1779,21 @@
     ],
     "operator.open-cluster-management.io/v1/ClusterManager": [
       "cluster-manager"
+    ],
+    "charts.clusterpulse.io/v1alpha1/ClusterPulse": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/ClusterConnection": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/MonitorAccessPolicy": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/RegistryConnection": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/MetricSource": [
+      "clusterpulse"
     ],
     "charts.operatorhub.io/v1alpha1/Cockroachdb": [
       "cockroachdb"
@@ -2026,13 +2053,13 @@
     "dynatrace.com/v1beta2/DynaKube": [
       "dynatrace-operator"
     ],
+    "dynatrace.com/v1beta3/DynaKube": [
+      "dynatrace-operator"
+    ],
     "dynatrace.com/v1alpha1/EdgeConnect": [
       "dynatrace-operator"
     ],
     "dynatrace.com/v1alpha2/EdgeConnect": [
-      "dynatrace-operator"
-    ],
-    "dynatrace.com/v1beta3/DynaKube": [
       "dynatrace-operator"
     ],
     "dynatrace.com/v1beta4/DynaKube": [
@@ -2441,9 +2468,6 @@
     "grafana.integreatly.org/v1beta1/GrafanaNotificationPolicy": [
       "grafana-operator"
     ],
-    "grafana.integreatly.org/v1beta1/GrafanaNotificationTemplate": [
-      "grafana-operator"
-    ],
     "grafana.integreatly.org/v1beta1/GrafanaLibraryPanel": [
       "grafana-operator"
     ],
@@ -2451,6 +2475,9 @@
       "grafana-operator"
     ],
     "grafana.integreatly.org/v1beta1/GrafanaNotificationPolicyRoute": [
+      "grafana-operator"
+    ],
+    "grafana.integreatly.org/v1beta1/GrafanaNotificationTemplate": [
       "grafana-operator"
     ],
     "grafana.integreatly.org/v1beta1/GrafanaServiceAccount": [
@@ -2806,6 +2833,9 @@
     ],
     "charts.helm.k8s.io/v1alpha1/Kubeturbo": [
       "kubeturbo"
+    ],
+    "wol.pillon.org/v1beta1/WolConfig": [
+      "kubevirt-wol"
     ],
     "pets.bestie.com/v1/Bestie": [
       "l5-operator"
@@ -3383,9 +3413,6 @@
     "qiskit.ibm.com/v1alpha1/QiskitPlayground": [
       "openshift-qiskit-operator"
     ],
-    "lightspeed.openstack.org/v1beta1/OpenStackLightspeed": [
-      "openstack-lightspeed-operator"
-    ],
     "opentelemetry.io/v1alpha1/Instrumentation": [
       "opentelemetry-operator"
     ],
@@ -3599,6 +3626,15 @@
     "pubsubplus.solace.com/v1beta1/PubSubPlusEventBroker": [
       "pubsubplus-eventbroker-operator"
     ],
+    "repo-manager.pulpproject.org/v1/Pulp": [
+      "pulp-operator"
+    ],
+    "repo-manager.pulpproject.org/v1/PulpBackup": [
+      "pulp-operator"
+    ],
+    "repo-manager.pulpproject.org/v1/PulpRestore": [
+      "pulp-operator"
+    ],
     "repo-manager.pulpproject.org/v1alpha1/Pulp": [
       "pulp-operator"
     ],
@@ -3625,6 +3661,9 @@
     ],
     "repo-manager.pulpproject.org/v1beta2/PulpRestore": [
       "pulp-operator"
+    ],
+    "rabbitmq.com/v1beta1/RabbitmqCluster": [
+      "rabbitmq-cluster-operator"
     ],
     "rabbitmq.com/v1beta1/Binding": [
       "rabbitmq-messaging-topology-operator"
@@ -3719,8 +3758,8 @@
     "ripsaw.cloudbulldozer.io/v1alpha1/Benchmark": [
       "ripsaw"
     ],
-    "ruptura.io/v1alpha1/RupturaInstance": [
-      "ruptura-operator"
+    "rsct.ibm.com/v1alpha1/RSCT": [
+      "rsct-operator"
     ],
     "extensions.istio.io/v1alpha1/WasmPlugin": [
       "sailoperator"
@@ -4475,6 +4514,9 @@
     "vertica.com/v1/VerticaRestorePointsQuery": [
       "verticadb-operator"
     ],
+    "operator.victoriametrics.com/v1beta1/VLogs": [
+      "victoriametrics-operator"
+    ],
     "operator.victoriametrics.com/v1beta1/VMAgent": [
       "victoriametrics-operator"
     ],
@@ -4505,6 +4547,9 @@
     "operator.victoriametrics.com/v1beta1/VMRule": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1beta1/VMScrapeConfig": [
+      "victoriametrics-operator"
+    ],
     "operator.victoriametrics.com/v1beta1/VMServiceScrape": [
       "victoriametrics-operator"
     ],
@@ -4515,12 +4560,6 @@
       "victoriametrics-operator"
     ],
     "operator.victoriametrics.com/v1beta1/VMUser": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VMScrapeConfig": [
-      "victoriametrics-operator"
-    ],
-    "operator.victoriametrics.com/v1beta1/VLogs": [
       "victoriametrics-operator"
     ],
     "operator.victoriametrics.com/v1/VLCluster": [
@@ -4566,5 +4605,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-22T06:57:56.091426"
+  "timestamp": "2026-06-22T06:59:46.238143"
 }

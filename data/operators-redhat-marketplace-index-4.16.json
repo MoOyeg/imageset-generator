@@ -135,7 +135,31 @@
     {
       "package": "aikit-operator-rhmp",
       "name": "aikit-operator-rhmp",
-      "version": "2024.1.52023",
+      "version": "2021.2.100410",
+      "channel": "alpha"
+    },
+    {
+      "package": "aikit-operator-rhmp",
+      "name": "aikit-operator-rhmp",
+      "version": "2021.2.102120",
+      "channel": "alpha"
+    },
+    {
+      "package": "aikit-operator-rhmp",
+      "name": "aikit-operator-rhmp",
+      "version": "2021.2.92808-dev-a60e5ba",
+      "channel": "alpha"
+    },
+    {
+      "package": "aikit-operator-rhmp",
+      "name": "aikit-operator-rhmp",
+      "version": "2021.2.92814",
+      "channel": "alpha"
+    },
+    {
+      "package": "aikit-operator-rhmp",
+      "name": "aikit-operator-rhmp",
+      "version": "2021.2.92911",
       "channel": "alpha"
     },
     {
@@ -177,84 +201,6 @@
     {
       "package": "couchbase-enterprise-certified-rhmp",
       "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.5.0-1",
-      "channel": "2.5.0"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.5.0-2",
-      "channel": "2.5.0"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.5.1-1",
-      "channel": "2.5.1"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.5.1-2",
-      "channel": "2.5.1"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.5.2-1",
-      "channel": "2.5.2"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.5.2-2",
-      "channel": "2.5.2"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.6.0-1",
-      "channel": "2.6.0"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.6.0-2",
-      "channel": "2.6.0"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.6.1-1",
-      "channel": "2.6.1"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.6.1-2",
-      "channel": "2.6.1"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.6.2-1",
-      "channel": "2.6.2"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.6.2-2",
-      "channel": "2.6.2"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
-      "version": "2.6.2-3",
-      "channel": "2.6.2"
-    },
-    {
-      "package": "couchbase-enterprise-certified-rhmp",
-      "name": "couchbase-enterprise-certified-rhmp",
       "version": "2.6.4-6",
       "channel": "2.6.4"
     },
@@ -269,6 +215,12 @@
       "name": "couchbase-enterprise-certified-rhmp",
       "version": "2.7.0-5",
       "channel": "2.7.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.7.1-1",
+      "channel": "2.7.1"
     },
     {
       "package": "couchbase-enterprise-certified-rhmp",
@@ -293,6 +245,24 @@
       "name": "couchbase-enterprise-certified-rhmp",
       "version": "2.8.2-1",
       "channel": "2.8.2"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.0-1",
+      "channel": "2.9.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.1-1",
+      "channel": "2.9.1"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.2-2",
+      "channel": "2.9.2"
     },
     {
       "package": "datadog-operator-certified-rhmp",
@@ -553,10 +523,10 @@
       "channel": "alpha"
     },
     {
-      "package": "eamli-operator-rhmp",
-      "name": "eamli-operator-rhmp",
-      "version": "3.3.0",
-      "channel": "stable"
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.9.0",
+      "channel": "alpha"
     },
     {
       "package": "entando-k8s-operator-rhmp",
@@ -568,18 +538,6 @@
       "package": "entando-k8s-operator-rhmp",
       "name": "entando-k8s-operator-rhmp",
       "version": "6.3.2-pr3",
-      "channel": "alpha"
-    },
-    {
-      "package": "falcon-operator-rhmp",
-      "name": "falcon-operator-rhmp",
-      "version": "0.8.2",
-      "channel": "certified-0.8"
-    },
-    {
-      "package": "falcon-operator-rhmp",
-      "name": "falcon-operator-rhmp",
-      "version": "0.9.6",
       "channel": "alpha"
     },
     {
@@ -1497,18 +1455,6 @@
     {
       "package": "percona-postgresql-operator-certified-rhmp",
       "name": "percona-postgresql-operator-certified-rhmp",
-      "version": "2.3.1",
-      "channel": "preview"
-    },
-    {
-      "package": "percona-postgresql-operator-certified-rhmp",
-      "name": "percona-postgresql-operator-certified-rhmp",
-      "version": "2.4.0",
-      "channel": "stable"
-    },
-    {
-      "package": "percona-postgresql-operator-certified-rhmp",
-      "name": "percona-postgresql-operator-certified-rhmp",
       "version": "2.5.0",
       "channel": "stable"
     },
@@ -1516,6 +1462,78 @@
       "package": "percona-postgresql-operator-certified-rhmp",
       "name": "percona-postgresql-operator-certified-rhmp",
       "version": "2.5.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.6.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.6.1-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.7.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.1-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.2-cw",
       "channel": "stable-cw"
     },
     {
@@ -1527,7 +1545,37 @@
     {
       "package": "percona-server-mongodb-operator-certified-rhmp",
       "name": "percona-server-mongodb-operator-certified-rhmp",
-      "version": "1.18.0",
+      "version": "1.19.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.19.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.20.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.20.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.21.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.21.2",
       "channel": "stable"
     },
     {
@@ -1549,6 +1597,54 @@
       "channel": "stable"
     },
     {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.16.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.16.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.16.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.16.1-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.17.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.17.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.18.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified-rhmp",
+      "name": "percona-xtradb-cluster-operator-certified-rhmp",
+      "version": "1.18.0-cw",
+      "channel": "stable-cw"
+    },
+    {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "6.2.10-34",
@@ -1563,212 +1659,182 @@
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-12.0",
-      "channel": "7.2.4"
+      "version": "7.22.0-11.2",
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-12.11",
-      "channel": "7.2.4"
+      "version": "7.22.0-11.3",
+      "channel": "7.22.0-11.3"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-12.21",
-      "channel": "7.2.4"
+      "version": "7.22.0-15.0",
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-12.22",
-      "channel": "7.2.4"
+      "version": "7.22.0-16.0",
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-12.33",
-      "channel": "7.2.4"
+      "version": "7.22.0-17.0",
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-12.35",
-      "channel": "7.2.4"
+      "version": "7.22.0-7.0",
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-12.39",
-      "channel": "7.2.4"
+      "version": "7.22.2-21.1",
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-12.6",
-      "channel": "7.2.4"
+      "version": "7.22.2-22.0",
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-15.1",
-      "channel": "7.2.4"
-    },
-    {
-      "package": "redis-enterprise-operator-cert-rhmp",
-      "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-15.41",
-      "channel": "7.2.4"
-    },
-    {
-      "package": "redis-enterprise-operator-cert-rhmp",
-      "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-2.0",
-      "channel": "7.2.4"
-    },
-    {
-      "package": "redis-enterprise-operator-cert-rhmp",
-      "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.2.4-7.0",
-      "channel": "7.2.4"
-    },
-    {
-      "package": "redis-enterprise-operator-cert-rhmp",
-      "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.4.2-12.0",
-      "channel": "7.4.2"
-    },
-    {
-      "package": "redis-enterprise-operator-cert-rhmp",
-      "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.4.2-2.0",
-      "channel": "7.4.2"
-    },
-    {
-      "package": "redis-enterprise-operator-cert-rhmp",
-      "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.4.2-2.6",
-      "channel": "7.4.2"
+      "version": "7.22.2-31.1",
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-2.0",
-      "channel": "7.4.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-2.3",
-      "channel": "7.4.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-2.4",
-      "channel": "7.4.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-2.8",
-      "channel": "7.4.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-6.1",
-      "channel": "7.4.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-6.3",
-      "channel": "7.4.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-6.4",
-      "channel": "7.4.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-7.2",
-      "channel": "7.4.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.2-6.3",
-      "channel": "7.8.2"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.2-6.8",
-      "channel": "7.8.2"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.4-8.0",
-      "channel": "7.8.4"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.4-9.0",
-      "channel": "7.8.4"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.6-1.0",
-      "channel": "7.8.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.6-1.1",
-      "channel": "7.8.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.6-1.2",
-      "channel": "7.8.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.6-2.2",
-      "channel": "7.8.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.6-3.2",
-      "channel": "7.8.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.6-5.1",
-      "channel": "7.8.6"
+      "channel": "7.22.0"
     },
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.6-8.1",
-      "channel": "7.8.6"
+      "channel": "7.22.2"
     },
     {
-      "package": "sbr-operator-rhmp",
-      "name": "sbr-operator-rhmp",
-      "version": "6.0.0-19.24",
-      "channel": "alpha"
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "8.0.2-2.9",
+      "channel": "8.0.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "8.0.2-6.1",
+      "channel": "8.0.2"
     },
     {
       "package": "seldon-deploy-operator-rhmp",
@@ -1851,7 +1917,25 @@
     {
       "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
       "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
-      "version": "4.17.1-0",
+      "version": "4.21.0-0",
+      "channel": "alpha"
+    },
+    {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "4.27.1-0",
+      "channel": "alpha"
+    },
+    {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "4.27.1-1",
+      "channel": "alpha"
+    },
+    {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "5.1.1-0",
       "channel": "alpha"
     },
     {
@@ -1969,7 +2053,7 @@
       "channel": "lts"
     }
   ],
-  "count": 328,
+  "count": 342,
   "source": "opm",
-  "timestamp": "2026-06-22T06:46:38.911621"
+  "timestamp": "2026-06-22T06:58:26.059751"
 }

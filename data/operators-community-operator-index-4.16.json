@@ -3081,6 +3081,12 @@
     {
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
+      "version": "1.15.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -10141,6 +10147,18 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
+      "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
+      "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "0.0.10",
@@ -11515,6 +11533,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-sfn-controller",
+      "name": "ack-sfn-controller",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "0.0.10",
@@ -11806,6 +11830,12 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.4.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.5.1",
       "channel": "alpha"
     },
     {
@@ -12208,6 +12238,12 @@
       "package": "ack-ssm-controller",
       "name": "ack-ssm-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ssm-controller",
+      "name": "ack-ssm-controller",
+      "version": "1.4.1",
       "channel": "alpha"
     },
     {
@@ -18229,6 +18265,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.1.0",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -18694,6 +18736,12 @@
       "package": "hermes-operator",
       "name": "hermes-operator",
       "version": "0.1.17",
+      "channel": "stable"
+    },
+    {
+      "package": "hermes-operator",
+      "name": "hermes-operator",
+      "version": "0.1.18",
       "channel": "stable"
     },
     {
@@ -24388,6 +24436,12 @@
       "package": "openclaw-operator",
       "name": "openclaw-operator",
       "version": "0.36.4",
+      "channel": "stable"
+    },
+    {
+      "package": "openclaw-operator",
+      "name": "openclaw-operator",
+      "version": "0.36.5",
       "channel": "stable"
     },
     {
@@ -30487,7 +30541,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5081,
+  "count": 5090,
   "source": "opm",
-  "timestamp": "2026-06-19T07:00:21.180472"
+  "timestamp": "2026-06-22T06:57:52.636027"
 }

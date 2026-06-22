@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "bpfman-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "security-profiles-operator.x-k8s.io",
+          "kind": "SelinuxProfile",
+          "version": "v1alpha2"
+        }
+      ]
+    },
     "devspaces": {
       "requires_packages": [
         {
@@ -45,7 +55,15 @@
       "requires_packages": [
         {
           "packageName": "odf-csi-addons-operator",
-          "versionRange": ">=4.9.0 <=4.15.0"
+          "versionRange": ">=4.9.0 <=4.16.0"
+        },
+        {
+          "packageName": "cephcsi-operator",
+          "versionRange": ">=4.9.0 <=4.17.0"
+        },
+        {
+          "packageName": "mcg-operator",
+          "versionRange": ">=4.9.0 <=4.17.0"
         }
       ],
       "requires_gvks": []
@@ -63,7 +81,7 @@
       "requires_packages": [
         {
           "packageName": "odr-hub-operator",
-          "versionRange": "<=4.15.0"
+          "versionRange": "<=4.16.0"
         }
       ],
       "requires_gvks": []
@@ -72,18 +90,18 @@
       "requires_packages": [
         {
           "packageName": "mcg-operator",
-          "versionRange": ">=4.9.0 <=4.15.0"
-        },
-        {
-          "packageName": "ocs-operator",
-          "versionRange": ">=4.9.0 <=4.15.0"
-        },
-        {
-          "packageName": "odf-csi-addons-operator",
-          "versionRange": ">=4.9.0 <=4.15.0"
+          "versionRange": ">=4.9.0 <=4.16.0"
         },
         {
           "packageName": "ocs-client-operator",
+          "versionRange": ">=4.9.0 <=4.16.0"
+        },
+        {
+          "packageName": "ocs-operator",
+          "versionRange": ">=4.9.0 <=4.16.0"
+        },
+        {
+          "packageName": "odf-csi-addons-operator",
           "versionRange": ">=4.9.0 <=4.16.0"
         },
         {
@@ -93,6 +111,14 @@
         {
           "packageName": "recipe",
           "versionRange": ">=4.9.0 <=4.16.0"
+        },
+        {
+          "packageName": "cephcsi-operator",
+          "versionRange": ">=4.9.0 <=4.17.0"
+        },
+        {
+          "packageName": "rook-ceph-operator",
+          "versionRange": ">=4.9.0 <=4.17.0"
         }
       ],
       "requires_gvks": []
@@ -106,95 +132,6 @@
           "version": "v1alpha1"
         }
       ]
-    },
-    "openstack-operator": {
-      "requires_packages": [
-        {
-          "packageName": "barbican-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "cinder-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "designate-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "glance-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "heat-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "horizon-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "infra-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "ironic-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "keystone-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "manila-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "mariadb-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "neutron-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "nova-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "octavia-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "openstack-ansibleee-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "openstack-baremetal-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "ovn-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "placement-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "rabbitmq-cluster-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "swift-operator",
-          "versionRange": ">=0.0.0"
-        },
-        {
-          "packageName": "telemetry-operator",
-          "versionRange": ">=0.0.0"
-        }
-      ],
-      "requires_gvks": []
     },
     "rhcl-operator": {
       "requires_packages": [
@@ -459,6 +396,9 @@
     "eda.ansible.com/v1alpha1/EDARestore": [
       "ansible-automation-platform-operator"
     ],
+    "lightspeed.ansible.com/v1alpha1/AnsibleLightspeed": [
+      "ansible-automation-platform-operator"
+    ],
     "tower.ansible.com/v1alpha1/AnsibleCredential": [
       "ansible-automation-platform-operator"
     ],
@@ -486,9 +426,6 @@
     "tower.ansible.com/v1alpha1/WorkflowTemplate": [
       "ansible-automation-platform-operator"
     ],
-    "lightspeed.ansible.com/v1alpha1/AnsibleLightspeed": [
-      "ansible-automation-platform-operator"
-    ],
     "aap.ansible.com/v1alpha1/AnsibleAutomationPlatform": [
       "ansible-automation-platform-operator"
     ],
@@ -502,15 +439,6 @@
       "ansible-automation-platform-operator"
     ],
     "mcpserver.ansible.com/v1alpha1/AnsibleMCPServer": [
-      "ansible-automation-platform-operator"
-    ],
-    "automationmetricsservice.ansible.com/v1alpha1/MetricsService": [
-      "ansible-automation-platform-operator"
-    ],
-    "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceBackup": [
-      "ansible-automation-platform-operator"
-    ],
-    "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceRestore": [
       "ansible-automation-platform-operator"
     ],
     "platform.ansible.com/v1alpha1/AnsibleAutomationPlatformAwsBilling": [
@@ -578,41 +506,53 @@
       "bamoe-kogito-operator",
       "rhpam-kogito-operator"
     ],
-    "barbican.openstack.org/v1beta1/Barbican": [
-      "barbican-operator"
+    "bpfman.io/v1alpha1/BpfApplication": [
+      "bpfman-operator"
     ],
-    "barbican.openstack.org/v1beta1/BarbicanAPI": [
-      "barbican-operator"
+    "bpfman.io/v1alpha1/BpfProgram": [
+      "bpfman-operator"
     ],
-    "barbican.openstack.org/v1beta1/BarbicanKeystoneListener": [
-      "barbican-operator"
+    "bpfman.io/v1alpha1/FentryProgram": [
+      "bpfman-operator"
     ],
-    "barbican.openstack.org/v1beta1/BarbicanWorker": [
-      "barbican-operator"
+    "bpfman.io/v1alpha1/FexitProgram": [
+      "bpfman-operator"
     ],
-    "event.redhat-cne.org/v1alpha1/HardwareEvent": [
-      "bare-metal-event-relay"
+    "bpfman.io/v1alpha1/KprobeProgram": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/TcProgram": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/TracepointProgram": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/UprobeProgram": [
+      "bpfman-operator"
+    ],
+    "bpfman.io/v1alpha1/XdpProgram": [
+      "bpfman-operator"
     ],
     "app.kiegroup.org/v1/KieApp": [
       "businessautomation-operator"
     ],
+    "csi.ceph.io/v1alpha1/CephConnection": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/ClientProfile": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/ClientProfileMapping": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/Driver": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/OperatorConfig": [
+      "cephcsi-operator"
+    ],
     "updateservice.operator.openshift.io/v1/UpdateService": [
       "cincinnati-operator"
-    ],
-    "cinder.openstack.org/v1beta1/Cinder": [
-      "cinder-operator"
-    ],
-    "cinder.openstack.org/v1beta1/CinderAPI": [
-      "cinder-operator"
-    ],
-    "cinder.openstack.org/v1beta1/CinderBackup": [
-      "cinder-operator"
-    ],
-    "cinder.openstack.org/v1beta1/CinderScheduler": [
-      "cinder-operator"
-    ],
-    "cinder.openstack.org/v1beta1/CinderVolume": [
-      "cinder-operator"
     ],
     "config.openshift.io/v1alpha1/Plugin": [
       "cli-manager"
@@ -773,30 +713,6 @@
     "infinispan.org/v2alpha1/Restore": [
       "datagrid"
     ],
-    "designate.openstack.org/v1beta1/Designate": [
-      "designate-operator"
-    ],
-    "designate.openstack.org/v1beta1/DesignateAPI": [
-      "designate-operator"
-    ],
-    "designate.openstack.org/v1beta1/DesignateBackendbind9": [
-      "designate-operator"
-    ],
-    "designate.openstack.org/v1beta1/DesignateCentral": [
-      "designate-operator"
-    ],
-    "designate.openstack.org/v1beta1/DesignateMdns": [
-      "designate-operator"
-    ],
-    "designate.openstack.org/v1beta1/DesignateProducer": [
-      "designate-operator"
-    ],
-    "designate.openstack.org/v1beta1/DesignateUnbound": [
-      "designate-operator"
-    ],
-    "designate.openstack.org/v1beta1/DesignateWorker": [
-      "designate-operator"
-    ],
     "org.eclipse.che/v1/CheCluster": [
       "devspaces"
     ],
@@ -831,6 +747,9 @@
       "dpu-network-operator"
     ],
     "config.openshift.io/v1/DpuOperatorConfig": [
+      "dpu-operator"
+    ],
+    "config.openshift.io/v1/ServiceFunctionChain": [
       "dpu-operator"
     ],
     "wildfly.org/v1alpha1/WildFlyServer": [
@@ -888,54 +807,6 @@
     "operator.gatekeeper.sh/v1alpha1/Gatekeeper": [
       "gatekeeper-operator-product"
     ],
-    "glance.openstack.org/v1beta1/Glance": [
-      "glance-operator"
-    ],
-    "glance.openstack.org/v1beta1/GlanceAPI": [
-      "glance-operator"
-    ],
-    "heat.openstack.org/v1beta1/Heat": [
-      "heat-operator"
-    ],
-    "heat.openstack.org/v1beta1/HeatAPI": [
-      "heat-operator"
-    ],
-    "heat.openstack.org/v1beta1/HeatCfnAPI": [
-      "heat-operator"
-    ],
-    "heat.openstack.org/v1beta1/HeatEngine": [
-      "heat-operator"
-    ],
-    "horizon.openstack.org/v1beta1/Horizon": [
-      "horizon-operator"
-    ],
-    "memcached.openstack.org/v1beta1/Memcached": [
-      "infra-operator"
-    ],
-    "network.openstack.org/v1beta1/DNSData": [
-      "infra-operator"
-    ],
-    "network.openstack.org/v1beta1/DNSMasq": [
-      "infra-operator"
-    ],
-    "network.openstack.org/v1beta1/IPSet": [
-      "infra-operator"
-    ],
-    "network.openstack.org/v1beta1/NetConfig": [
-      "infra-operator"
-    ],
-    "network.openstack.org/v1beta1/Reservation": [
-      "infra-operator"
-    ],
-    "rabbitmq.openstack.org/v1beta1/TransportURL": [
-      "infra-operator"
-    ],
-    "instanceha.openstack.org/v1beta1/InstanceHa": [
-      "infra-operator"
-    ],
-    "redis.openstack.org/v1beta1/Redis": [
-      "infra-operator"
-    ],
     "ingressnodefirewall.openshift.io/v1alpha1/IngressNodeFirewall": [
       "ingress-node-firewall"
     ],
@@ -944,21 +815,6 @@
     ],
     "ingressnodefirewall.openshift.io/v1alpha1/IngressNodeFirewallNodeState": [
       "ingress-node-firewall"
-    ],
-    "ironic.openstack.org/v1beta1/Ironic": [
-      "ironic-operator"
-    ],
-    "ironic.openstack.org/v1beta1/IronicAPI": [
-      "ironic-operator"
-    ],
-    "ironic.openstack.org/v1beta1/IronicConductor": [
-      "ironic-operator"
-    ],
-    "ironic.openstack.org/v1beta1/IronicInspector": [
-      "ironic-operator"
-    ],
-    "ironic.openstack.org/v1beta1/IronicNeutronAgent": [
-      "ironic-operator"
     ],
     "jaegertracing.io/v1/Jaeger": [
       "jaeger-product"
@@ -997,15 +853,6 @@
     ],
     "hub.kmm.sigs.x-k8s.io/v1beta1/ManagedClusterModule": [
       "kernel-module-management-hub"
-    ],
-    "keystone.openstack.org/v1beta1/KeystoneAPI": [
-      "keystone-operator"
-    ],
-    "keystone.openstack.org/v1beta1/KeystoneEndpoint": [
-      "keystone-operator"
-    ],
-    "keystone.openstack.org/v1beta1/KeystoneService": [
-      "keystone-operator"
     ],
     "kiali.io/v1alpha1/Kiali": [
       "kiali-ossm"
@@ -1146,27 +993,6 @@
     "machine-deletion-remediation.medik8s.io/v1alpha1/MachineDeletionRemediationTemplate": [
       "machine-deletion-remediation"
     ],
-    "manila.openstack.org/v1beta1/Manila": [
-      "manila-operator"
-    ],
-    "manila.openstack.org/v1beta1/ManilaAPI": [
-      "manila-operator"
-    ],
-    "manila.openstack.org/v1beta1/ManilaScheduler": [
-      "manila-operator"
-    ],
-    "manila.openstack.org/v1beta1/ManilaShare": [
-      "manila-operator"
-    ],
-    "mariadb.openstack.org/v1beta1/Galera": [
-      "mariadb-operator"
-    ],
-    "mariadb.openstack.org/v1beta1/MariaDBAccount": [
-      "mariadb-operator"
-    ],
-    "mariadb.openstack.org/v1beta1/MariaDBDatabase": [
-      "mariadb-operator"
-    ],
     "noobaa.io/v1alpha1/BackingStore": [
       "mcg-operator"
     ],
@@ -1216,6 +1042,9 @@
       "metallb-operator"
     ],
     "metallb.io/v1beta1/MetalLB": [
+      "metallb-operator"
+    ],
+    "metallb.io/v1beta1/ServiceL2Status": [
       "metallb-operator"
     ],
     "ml.sigstore.dev/v1alpha1/ModelValidation": [
@@ -1287,22 +1116,19 @@
     "forklift.konveyor.io/v1beta1/NetworkMap": [
       "mtv-operator"
     ],
+    "forklift.konveyor.io/v1beta1/OpenstackVolumePopulator": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/OvirtVolumePopulator": [
+      "mtv-operator"
+    ],
     "forklift.konveyor.io/v1beta1/Plan": [
       "mtv-operator"
     ],
     "forklift.konveyor.io/v1beta1/Provider": [
       "mtv-operator"
     ],
-    "forklift.konveyor.io/v1beta1/Provisioner": [
-      "mtv-operator"
-    ],
     "forklift.konveyor.io/v1beta1/StorageMap": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/OpenstackVolumePopulator": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/OvirtVolumePopulator": [
       "mtv-operator"
     ],
     "forklift.konveyor.io/v1beta1/VSphereXcopyVolumePopulator": [
@@ -1323,14 +1149,17 @@
     "multicluster.openshift.io/v1/MultiClusterEngine": [
       "multicluster-engine"
     ],
-    "operator.open-cluster-management.io/v1alpha4/MulticlusterGlobalHub": [
+    "global-hub.open-cluster-management.io/v1alpha1/ManagedClusterMigration": [
       "multicluster-global-hub-operator-rh"
     ],
-    "global-hub.open-cluster-management.io/v1alpha1/ManagedClusterMigration": [
+    "operator.open-cluster-management.io/v1alpha4/MulticlusterGlobalHub": [
       "multicluster-global-hub-operator-rh"
     ],
     "operator.open-cluster-management.io/v1alpha1/MulticlusterGlobalHubAgent": [
       "multicluster-global-hub-operator-rh"
+    ],
+    "nbde.openshift.io/v1alpha1/TangServer": [
+      "nbde-tang-server"
     ],
     "flows.netobserv.io/v1alpha1/FlowCollector": [
       "netobserv-operator"
@@ -1347,13 +1176,13 @@
     "flows.netobserv.io/v1beta1/FlowCollector": [
       "netobserv-operator"
     ],
-    "neutron.openstack.org/v1beta1/NeutronAPI": [
-      "neutron-operator"
-    ],
     "nfd.openshift.io/v1alpha1/NodeFeature": [
       "nfd"
     ],
     "nfd.openshift.io/v1/NodeFeatureDiscovery": [
+      "nfd"
+    ],
+    "nfd.openshift.io/v1alpha1/NodeFeatureGroup": [
       "nfd"
     ],
     "nfd.openshift.io/v1alpha1/NodeFeatureRule": [
@@ -1389,30 +1218,6 @@
     "nodeobservability.olm.openshift.io/v1alpha2/NodeObservabilityRun": [
       "node-observability-operator"
     ],
-    "nova.openstack.org/v1beta1/Nova": [
-      "nova-operator"
-    ],
-    "nova.openstack.org/v1beta1/NovaAPI": [
-      "nova-operator"
-    ],
-    "nova.openstack.org/v1beta1/NovaCell": [
-      "nova-operator"
-    ],
-    "nova.openstack.org/v1beta1/NovaCompute": [
-      "nova-operator"
-    ],
-    "nova.openstack.org/v1beta1/NovaConductor": [
-      "nova-operator"
-    ],
-    "nova.openstack.org/v1beta1/NovaMetadata": [
-      "nova-operator"
-    ],
-    "nova.openstack.org/v1beta1/NovaNoVNCProxy": [
-      "nova-operator"
-    ],
-    "nova.openstack.org/v1beta1/NovaScheduler": [
-      "nova-operator"
-    ],
     "nodetopology.openshift.io/v1/NUMAResourcesOperator": [
       "numaresources-operator"
     ],
@@ -1425,87 +1230,13 @@
     "nodetopology.openshift.io/v1alpha1/NUMAResourcesScheduler": [
       "numaresources-operator"
     ],
-    "ocs.openshift.io/v1alpha1/StorageClassClaim": [
+    "ocs.openshift.io/v1alpha1/StorageClaim": [
       "ocs-client-operator"
     ],
     "ocs.openshift.io/v1alpha1/StorageClient": [
       "ocs-client-operator"
     ],
-    "ocs.openshift.io/v1alpha1/StorageClaim": [
-      "ocs-client-operator"
-    ],
-    "ceph.rook.io/v1/CephBlockPool": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephBlockPoolRadosNamespace": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephBucketNotification": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephBucketTopic": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephCOSIDriver": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephClient": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephCluster": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephFilesystem": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephFilesystemMirror": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephFilesystemSubVolumeGroup": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephNFS": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephObjectRealm": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephObjectStore": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephObjectStoreUser": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephObjectZone": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephObjectZoneGroup": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
-    "ceph.rook.io/v1/CephRBDMirror": [
-      "ocs-operator",
-      "rook-ceph-operator"
-    ],
     "ocs.openshift.io/v1/OCSInitialization": [
-      "ocs-operator"
-    ],
-    "ocs.openshift.io/v1alpha1/StorageClassRequest": [
       "ocs-operator"
     ],
     "ocs.openshift.io/v1/StorageCluster": [
@@ -1520,21 +1251,8 @@
     "ocs.openshift.io/v1alpha1/StorageRequest": [
       "ocs-operator"
     ],
-    "octavia.openstack.org/v1beta1/Octavia": [
-      "octavia-operator"
-    ],
-    "octavia.openstack.org/v1beta1/OctaviaAPI": [
-      "octavia-operator"
-    ],
-    "octavia.openstack.org/v1beta1/OctaviaAmphoraController": [
-      "octavia-operator"
-    ],
-    "octavia.openstack.org/v1beta1/OctaviaRsyslog": [
-      "octavia-operator"
-    ],
-    "multicluster.odf.openshift.io/v1alpha1/MirrorPeer": [
-      "odf-compose-operator",
-      "odf-multicluster-orchestrator"
+    "ocs.openshift.io/v1/StorageClusterPeer": [
+      "ocs-operator"
     ],
     "csiaddons.openshift.io/v1alpha1/CSIAddonsNode": [
       "odf-csi-addons-operator"
@@ -1554,6 +1272,24 @@
     "replication.storage.openshift.io/v1alpha1/VolumeReplicationClass": [
       "odf-csi-addons-operator"
     ],
+    "csiaddons.openshift.io/v1alpha1/EncryptionKeyRotationCronJob": [
+      "odf-csi-addons-operator"
+    ],
+    "csiaddons.openshift.io/v1alpha1/EncryptionKeyRotationJob": [
+      "odf-csi-addons-operator"
+    ],
+    "replication.storage.openshift.io/v1alpha1/VolumeGroupReplication": [
+      "odf-csi-addons-operator"
+    ],
+    "replication.storage.openshift.io/v1alpha1/VolumeGroupReplicationClass": [
+      "odf-csi-addons-operator"
+    ],
+    "replication.storage.openshift.io/v1alpha1/VolumeGroupReplicationContent": [
+      "odf-csi-addons-operator"
+    ],
+    "multicluster.odf.openshift.io/v1alpha1/MirrorPeer": [
+      "odf-multicluster-orchestrator"
+    ],
     "odf.openshift.io/v1alpha1/StorageSystem": [
       "odf-operator"
     ],
@@ -1566,6 +1302,15 @@
     "ramendr.openshift.io/v1alpha1/VolumeReplicationGroup": [
       "odr-cluster-operator"
     ],
+    "ramendr.openshift.io/v1alpha1/DRClusterConfig": [
+      "odr-cluster-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/ReplicationGroupDestination": [
+      "odr-cluster-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/ReplicationGroupSource": [
+      "odr-cluster-operator"
+    ],
     "ramendr.openshift.io/v1alpha1/DRCluster": [
       "odr-hub-operator"
     ],
@@ -1575,10 +1320,10 @@
     "ramendr.openshift.io/v1alpha1/DRPolicy": [
       "odr-hub-operator"
     ],
-    "operator.shipwright.io/v1alpha1/ShipwrightBuild": [
+    "operator.openshift.io/v1alpha1/OpenShiftBuild": [
       "openshift-builds-operator"
     ],
-    "operator.openshift.io/v1alpha1/OpenShiftBuild": [
+    "operator.shipwright.io/v1alpha1/ShipwrightBuild": [
       "openshift-builds-operator"
     ],
     "acme.cert-manager.io/v1/Challenge": [
@@ -1725,36 +1470,6 @@
     "operator.openshift.io/v1/SecondaryScheduler": [
       "openshift-secondary-scheduler-operator"
     ],
-    "ansibleee.openstack.org/v1beta1/OpenStackAnsibleEE": [
-      "openstack-ansibleee-operator"
-    ],
-    "baremetal.openstack.org/v1beta1/OpenStackBaremetalSet": [
-      "openstack-baremetal-operator"
-    ],
-    "baremetal.openstack.org/v1beta1/OpenStackProvisionServer": [
-      "openstack-baremetal-operator"
-    ],
-    "client.openstack.org/v1beta1/OpenStackClient": [
-      "openstack-operator"
-    ],
-    "core.openstack.org/v1beta1/OpenStackControlPlane": [
-      "openstack-operator"
-    ],
-    "core.openstack.org/v1beta1/OpenStackVersion": [
-      "openstack-operator"
-    ],
-    "dataplane.openstack.org/v1beta1/OpenStackDataPlaneDeployment": [
-      "openstack-operator"
-    ],
-    "dataplane.openstack.org/v1beta1/OpenStackDataPlaneNodeSet": [
-      "openstack-operator"
-    ],
-    "dataplane.openstack.org/v1beta1/OpenStackDataPlaneService": [
-      "openstack-operator"
-    ],
-    "operator.openstack.org/v1beta1/OpenStack": [
-      "openstack-operator"
-    ],
     "opentelemetry.io/v1alpha1/Instrumentation": [
       "opentelemetry-product"
     ],
@@ -1770,26 +1485,11 @@
     "opentelemetry.io/v1alpha1/TargetAllocator": [
       "opentelemetry-product"
     ],
-    "rhdh.redhat.com/v1alpha1/Orchestrator": [
-      "orchestrator-operator"
-    ],
     "rhdh.redhat.com/v1alpha2/Orchestrator": [
       "orchestrator-operator"
     ],
     "rhdh.redhat.com/v1alpha3/Orchestrator": [
       "orchestrator-operator"
-    ],
-    "ovn.openstack.org/v1beta1/OVNController": [
-      "ovn-operator"
-    ],
-    "ovn.openstack.org/v1beta1/OVNDBCluster": [
-      "ovn-operator"
-    ],
-    "ovn.openstack.org/v1beta1/OVNNorthd": [
-      "ovn-operator"
-    ],
-    "placement.openstack.org/v1beta1/PlacementAPI": [
-      "placement-operator"
     ],
     "policy.sigstore.dev/v1alpha1/ClusterImagePolicy": [
       "policy-controller-operator"
@@ -1807,6 +1507,12 @@
       "power-monitoring-operator"
     ],
     "kepler.system.sustainable.computing.io/v1alpha1/KeplerInternal": [
+      "power-monitoring-operator"
+    ],
+    "kepler.system.sustainable.computing.io/v1alpha1/PowerMonitor": [
+      "power-monitoring-operator"
+    ],
+    "kepler.system.sustainable.computing.io/v1alpha1/PowerMonitorInternal": [
       "power-monitoring-operator"
     ],
     "ptp.openshift.io/v1/NodePtpDevice": [
@@ -1829,9 +1535,6 @@
     ],
     "redhatcop.redhat.io/v1alpha1/QuayEcosystem": [
       "quay-operator"
-    ],
-    "rabbitmq.com/v1beta1/RabbitmqCluster": [
-      "rabbitmq-cluster-operator"
     ],
     "ramendr.openshift.io/v1alpha1/Recipe": [
       "recipe"
@@ -1968,18 +1671,6 @@
     "kuadrant.io/v1/TLSPolicy": [
       "rhcl-operator"
     ],
-    "extensions.kuadrant.io/v1alpha1/OIDCPolicy": [
-      "rhcl-operator"
-    ],
-    "extensions.kuadrant.io/v1alpha1/PlanPolicy": [
-      "rhcl-operator"
-    ],
-    "extensions.kuadrant.io/v1alpha1/TelemetryPolicy": [
-      "rhcl-operator"
-    ],
-    "kuadrant.io/v1alpha1/TokenRateLimitPolicy": [
-      "rhcl-operator"
-    ],
     "rhdh.redhat.com/v1alpha1/Backstage": [
       "rhdh"
     ],
@@ -2102,6 +1793,57 @@
     ],
     "rhtpa.io/v1/TrustedProfileAnalyzer": [
       "rhtpa-operator"
+    ],
+    "ceph.rook.io/v1/CephBlockPool": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephBlockPoolRadosNamespace": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephBucketNotification": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephBucketTopic": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephCOSIDriver": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephClient": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephCluster": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephFilesystem": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephFilesystemMirror": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephFilesystemSubVolumeGroup": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephNFS": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectRealm": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectStore": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectStoreUser": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectZone": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectZoneGroup": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephRBDMirror": [
+      "rook-ceph-operator"
     ],
     "operator.openshift.io/v1/RunOnceDurationOverride": [
       "run-once-duration-override-operator"
@@ -2358,6 +2100,9 @@
     "smartgateway.infra.watch/v2/SmartGateway": [
       "smart-gateway-operator"
     ],
+    "sriovnetwork.openshift.io/v1/OVSNetwork": [
+      "sriov-network-operator"
+    ],
     "sriovnetwork.openshift.io/v1/SriovIBNetwork": [
       "sriov-network-operator"
     ],
@@ -2385,35 +2130,8 @@
     "submariner.io/v1alpha1/Submariner": [
       "submariner"
     ],
-    "swift.openstack.org/v1beta1/Swift": [
-      "swift-operator"
-    ],
-    "swift.openstack.org/v1beta1/SwiftProxy": [
-      "swift-operator"
-    ],
-    "swift.openstack.org/v1beta1/SwiftRing": [
-      "swift-operator"
-    ],
-    "swift.openstack.org/v1beta1/SwiftStorage": [
-      "swift-operator"
-    ],
     "daemons.redhat.com/v1alpha1/TangServer": [
       "tang-operator"
-    ],
-    "telemetry.openstack.org/v1beta1/Autoscaling": [
-      "telemetry-operator"
-    ],
-    "telemetry.openstack.org/v1beta1/Ceilometer": [
-      "telemetry-operator"
-    ],
-    "telemetry.openstack.org/v1beta1/Logging": [
-      "telemetry-operator"
-    ],
-    "telemetry.openstack.org/v1beta1/MetricStorage": [
-      "telemetry-operator"
-    ],
-    "telemetry.openstack.org/v1beta1/Telemetry": [
-      "telemetry-operator"
     ],
     "tempo.grafana.com/v1alpha1/TempoStack": [
       "tempo-product"
@@ -2421,17 +2139,8 @@
     "tempo.grafana.com/v1alpha1/TempoMonolithic": [
       "tempo-product"
     ],
-    "test.openstack.org/v1beta1/AnsibleTest": [
-      "test-operator"
-    ],
-    "test.openstack.org/v1beta1/HorizonTest": [
-      "test-operator"
-    ],
-    "test.openstack.org/v1beta1/Tempest": [
-      "test-operator"
-    ],
-    "test.openstack.org/v1beta1/Tobiko": [
-      "test-operator"
+    "lcm.openshift.io/v1alpha1/ImageBasedGroupUpgrade": [
+      "topology-aware-lifecycle-manager"
     ],
     "ran.openshift.io/v1alpha1/ClusterGroupUpgrade": [
       "topology-aware-lifecycle-manager"
@@ -2439,10 +2148,10 @@
     "ran.openshift.io/v1alpha1/PreCachingConfig": [
       "topology-aware-lifecycle-manager"
     ],
-    "lcm.openshift.io/v1alpha1/ImageBasedGroupUpgrade": [
-      "topology-aware-lifecycle-manager"
-    ],
     "confidentialcontainers.org/v1alpha1/KbsConfig": [
+      "trustee-operator"
+    ],
+    "confidentialcontainers.org/v1alpha1/TrusteeConfig": [
       "trustee-operator"
     ],
     "autoscaling.k8s.io/v1/VerticalPodAutoscaler": [
@@ -2465,19 +2174,7 @@
     ],
     "volsync.backube/v1alpha1/ReplicationSource": [
       "volsync-product"
-    ],
-    "watcher.openstack.org/v1beta1/Watcher": [
-      "watcher-operator"
-    ],
-    "watcher.openstack.org/v1beta1/WatcherAPI": [
-      "watcher-operator"
-    ],
-    "watcher.openstack.org/v1beta1/WatcherApplier": [
-      "watcher-operator"
-    ],
-    "watcher.openstack.org/v1beta1/WatcherDecisionEngine": [
-      "watcher-operator"
     ]
   },
-  "timestamp": "2026-06-22T06:56:18.590572"
+  "timestamp": "2026-06-22T06:59:02.457053"
 }

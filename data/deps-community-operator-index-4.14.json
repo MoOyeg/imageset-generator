@@ -936,6 +936,9 @@
     "route53resolver.services.k8s.aws/v1alpha1/ResolverRuleAssociation": [
       "ack-route53resolver-controller"
     ],
+    "route53resolver.services.k8s.aws/v1alpha1/ResolverQueryLogConfig": [
+      "ack-route53resolver-controller"
+    ],
     "s3.services.k8s.aws/v1alpha1/Bucket": [
       "ack-s3-controller"
     ],
@@ -1039,6 +1042,9 @@
       "ack-sfn-controller"
     ],
     "sfn.services.k8s.aws/v1alpha1/StateMachine": [
+      "ack-sfn-controller"
+    ],
+    "sfn.services.k8s.aws/v1alpha1/StateMachineAlias": [
       "ack-sfn-controller"
     ],
     "sns.services.k8s.aws/v1alpha1/PlatformApplication": [
@@ -4597,5 +4603,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-19T06:52:58.415225"
+  "timestamp": "2026-06-22T06:50:05.394117"
 }

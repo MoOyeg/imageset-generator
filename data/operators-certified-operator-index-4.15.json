@@ -3061,6 +3061,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.1.0",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -3687,7 +3693,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.4",
+      "version": "2.24.5",
       "channel": "beta"
     },
     {
@@ -3723,7 +3729,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.4",
+      "version": "2.24.5",
       "channel": "beta"
     },
     {
@@ -8101,6 +8107,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.31.4",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -9721,7 +9733,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1620,
+  "count": 1622,
   "source": "opm",
-  "timestamp": "2026-06-19T06:55:48.346051"
+  "timestamp": "2026-06-22T06:53:00.045366"
 }
