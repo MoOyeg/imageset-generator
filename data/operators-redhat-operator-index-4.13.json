@@ -1539,6 +1539,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "3.2.0-24",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.2.0-8",
       "channel": "amq-streams-3.2.x"
     },
@@ -1731,6 +1737,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-20",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "channel": "amq-streams-3.2.x"
     },
@@ -1791,7 +1803,7 @@
     {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
-      "version": "3.2.0-10",
+      "version": "3.2.0-13",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -5955,6 +5967,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.9.23",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -6148,6 +6166,12 @@
       "package": "costmanagement-metrics-operator",
       "name": "costmanagement-metrics-operator",
       "version": "4.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.4.1",
       "channel": "stable"
     },
     {
@@ -6511,6 +6535,12 @@
       "channel": "stable"
     },
     {
+      "package": "cryostat-operator",
+      "name": "cryostat-operator",
+      "version": "4.2.0+8",
+      "channel": "stable"
+    },
+    {
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.2.4",
@@ -6808,6 +6838,12 @@
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.6.3",
+      "channel": "stable"
+    },
+    {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.4",
       "channel": "stable"
     },
     {
@@ -7660,6 +7696,12 @@
       "package": "eap",
       "name": "eap",
       "version": "3.2.20",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
+      "version": "3.2.21",
       "channel": "stable"
     },
     {
@@ -16851,6 +16893,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.23",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -17739,6 +17787,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.9.23",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -18316,6 +18370,12 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0+0.1781555104.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1782121085.p",
       "channel": "latest"
     },
     {
@@ -21589,6 +21649,12 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.1-rh-1",
+      "channel": "stable-2"
+    },
+    {
       "package": "smart-gateway-operator",
       "name": "smart-gateway-operator",
       "version": "5.0.1701113940",
@@ -22981,7 +23047,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3830,
+  "count": 3841,
   "source": "opm",
-  "timestamp": "2026-06-22T06:44:49.032577"
+  "timestamp": "2026-06-25T06:53:40.743750"
 }

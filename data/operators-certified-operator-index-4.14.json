@@ -1611,13 +1611,13 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.10.5",
+      "version": "2.10.6",
       "channel": "2.10"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.11.5",
+      "version": "2.11.6",
       "channel": "2.11"
     },
     {
@@ -1635,25 +1635,25 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "2.9.9",
+      "version": "2.9.10",
       "channel": "2.9"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.0.4",
+      "version": "3.0.5",
       "channel": "3.0"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.1.2",
+      "version": "3.1.3",
       "channel": "3.1"
     },
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
-      "version": "3.2.2",
+      "version": "3.2.3",
       "channel": "3.2"
     },
     {
@@ -3067,6 +3067,12 @@
       "channel": "stable"
     },
     {
+      "package": "elasticsearch-eck-operator-certified",
+      "name": "elasticsearch-eck-operator-certified",
+      "version": "3.4.1",
+      "channel": "stable"
+    },
+    {
       "package": "eqube-operator",
       "name": "eqube-operator",
       "version": "1.0.0",
@@ -3076,6 +3082,12 @@
       "package": "eqube-operator",
       "name": "eqube-operator",
       "version": "1.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "eqube-operator",
+      "name": "eqube-operator",
+      "version": "1.0.2",
       "channel": "stable"
     },
     {
@@ -3241,15 +3253,21 @@
       "channel": "stable"
     },
     {
-      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "version": "8.1.4",
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.3.1",
       "channel": "stable"
     },
     {
       "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
       "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
       "version": "8.1.5",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
+      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
+      "version": "8.1.6",
       "channel": "stable"
     },
     {
@@ -3328,6 +3346,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.1.1",
       "channel": "stable"
     },
     {
@@ -5218,6 +5242,12 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "8.5.11",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.12",
       "channel": "stable"
     },
     {
@@ -8305,6 +8335,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.31.5",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -8911,6 +8947,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.0-rc1",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -8943,7 +8985,7 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.108.0-beta.1",
+      "version": "42.108.0-beta.2",
       "channel": "beta"
     },
     {
@@ -9607,6 +9649,12 @@
       "channel": "beta"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.6.1-26",
+      "channel": "2026.6"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2024.10.2-12",
@@ -9745,6 +9793,12 @@
       "channel": "beta"
     },
     {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.6.1-26",
+      "channel": "2026.6"
+    },
+    {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
       "version": "2024.10.2-12",
@@ -9881,6 +9935,12 @@
       "name": "uma-team-operator",
       "version": "2026.6.0-24",
       "channel": "beta"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.6.1-26",
+      "channel": "2026.6"
     },
     {
       "package": "vast-csi-operator",
@@ -10153,6 +10213,12 @@
       "channel": "alpha"
     },
     {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.4.1",
+      "channel": "alpha"
+    },
+    {
       "package": "webotx-operator",
       "name": "webotx-operator",
       "version": "11.11.0",
@@ -10243,13 +10309,19 @@
       "channel": "lts"
     },
     {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.46",
+      "channel": "lts"
+    },
+    {
       "package": "zookeeper-operator",
       "name": "zookeeper-operator",
       "version": "0.17.10",
       "channel": "alpha"
     }
   ],
-  "count": 1708,
+  "count": 1720,
   "source": "opm",
-  "timestamp": "2026-06-22T06:49:14.270743"
+  "timestamp": "2026-06-25T06:58:01.357897"
 }

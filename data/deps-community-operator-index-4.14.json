@@ -477,6 +477,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Browser": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/BrowserProfile": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -937,6 +940,9 @@
       "ack-route53resolver-controller"
     ],
     "route53resolver.services.k8s.aws/v1alpha1/ResolverQueryLogConfig": [
+      "ack-route53resolver-controller"
+    ],
+    "route53resolver.services.k8s.aws/v1alpha1/ResolverQueryLogConfigAssociation": [
       "ack-route53resolver-controller"
     ],
     "s3.services.k8s.aws/v1alpha1/Bucket": [
@@ -4603,5 +4609,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-06-22T06:50:05.394117"
+  "timestamp": "2026-06-25T06:58:51.368951"
 }
