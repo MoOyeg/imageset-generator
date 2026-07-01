@@ -601,6 +601,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-apigateway-controller",
+      "name": "ack-apigateway-controller",
+      "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-apigatewayv2-controller",
       "name": "ack-apigatewayv2-controller",
       "version": "0.0.10",
@@ -868,6 +874,12 @@
       "package": "ack-apigatewayv2-controller",
       "name": "ack-apigatewayv2-controller",
       "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigatewayv2-controller",
+      "name": "ack-apigatewayv2-controller",
+      "version": "1.3.2",
       "channel": "alpha"
     },
     {
@@ -1309,9 +1321,27 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-autoscaling-controller",
+      "name": "ack-autoscaling-controller",
+      "version": "0.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-autoscaling-controller",
+      "name": "ack-autoscaling-controller",
+      "version": "1.0.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-backup-controller",
       "name": "ack-backup-controller",
       "version": "0.2.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-backup-controller",
+      "name": "ack-backup-controller",
+      "version": "0.3.0",
       "channel": "alpha"
     },
     {
@@ -1705,6 +1735,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-cloudfront-controller",
+      "name": "ack-cloudfront-controller",
+      "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cloudtrail-controller",
       "name": "ack-cloudtrail-controller",
       "version": "0.1.1",
@@ -2077,6 +2113,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-cloudwatch-controller",
+      "name": "ack-cloudwatch-controller",
+      "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
       "version": "0.0.10",
@@ -2311,6 +2353,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-codeartifact-controller",
+      "name": "ack-codeartifact-controller",
+      "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cognitoidentityprovider-controller",
       "name": "ack-cognitoidentityprovider-controller",
       "version": "1.0.12",
@@ -2515,9 +2563,21 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-documentdb-controller",
+      "name": "ack-documentdb-controller",
+      "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-dsql-controller",
       "name": "ack-dsql-controller",
       "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dsql-controller",
+      "name": "ack-dsql-controller",
+      "version": "0.1.1",
       "channel": "alpha"
     },
     {
@@ -3883,6 +3943,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-ecr-controller",
+      "name": "ack-ecr-controller",
+      "version": "1.6.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-ecrpublic-controller",
       "name": "ack-ecrpublic-controller",
       "version": "1.0.12",
@@ -4090,6 +4156,12 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.4.1",
       "channel": "alpha"
     },
     {
@@ -4546,6 +4618,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.15.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.15.1",
       "channel": "alpha"
     },
     {
@@ -5107,6 +5185,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
+      "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-elbv2-controller",
       "name": "ack-elbv2-controller",
       "version": "0.0.10",
@@ -5545,9 +5629,21 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-emrcontainers-controller",
+      "name": "ack-emrcontainers-controller",
+      "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-emrserverless-controller",
       "name": "ack-emrserverless-controller",
       "version": "0.1.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emrserverless-controller",
+      "name": "ack-emrserverless-controller",
+      "version": "0.2.1",
       "channel": "alpha"
     },
     {
@@ -5767,6 +5863,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-firehose-controller",
       "name": "ack-firehose-controller",
       "version": "0.1.0",
@@ -5794,6 +5896,12 @@
       "package": "ack-firehose-controller",
       "name": "ack-firehose-controller",
       "version": "0.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-firehose-controller",
+      "name": "ack-firehose-controller",
+      "version": "0.3.1",
       "channel": "alpha"
     },
     {
@@ -5842,6 +5950,18 @@
       "package": "ack-glue-controller",
       "name": "ack-glue-controller",
       "version": "0.3.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-glue-controller",
+      "name": "ack-glue-controller",
+      "version": "0.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-glue-controller",
+      "name": "ack-glue-controller",
+      "version": "1.0.0",
       "channel": "alpha"
     },
     {
@@ -6733,6 +6853,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-keyspaces-controller",
+      "name": "ack-keyspaces-controller",
+      "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-kinesis-controller",
       "name": "ack-kinesis-controller",
       "version": "0.0.10",
@@ -6958,6 +7084,12 @@
       "package": "ack-kinesis-controller",
       "name": "ack-kinesis-controller",
       "version": "1.2.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kinesis-controller",
+      "name": "ack-kinesis-controller",
+      "version": "1.3.1",
       "channel": "alpha"
     },
     {
@@ -7497,6 +7629,18 @@
     {
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
+      "version": "1.13.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.14.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -7897,6 +8041,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-memorydb-controller",
+      "name": "ack-memorydb-controller",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-mq-controller",
       "name": "ack-mq-controller",
       "version": "0.0.10",
@@ -8179,6 +8329,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-mwaa-controller",
+      "name": "ack-mwaa-controller",
+      "version": "1.0.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-networkfirewall-controller",
       "name": "ack-networkfirewall-controller",
       "version": "0.0.1",
@@ -8422,6 +8578,12 @@
       "package": "ack-opensearchserverless-controller",
       "name": "ack-opensearchserverless-controller",
       "version": "0.4.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchserverless-controller",
+      "name": "ack-opensearchserverless-controller",
+      "version": "0.4.3",
       "channel": "alpha"
     },
     {
@@ -8671,6 +8833,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-opensearchservice-controller",
+      "name": "ack-opensearchservice-controller",
+      "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-organizations-controller",
       "name": "ack-organizations-controller",
       "version": "0.0.10",
@@ -8812,6 +8980,12 @@
       "package": "ack-organizations-controller",
       "name": "ack-organizations-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-organizations-controller",
+      "name": "ack-organizations-controller",
+      "version": "1.3.1",
       "channel": "alpha"
     },
     {
@@ -8992,6 +9166,12 @@
       "package": "ack-pipes-controller",
       "name": "ack-pipes-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-pipes-controller",
+      "name": "ack-pipes-controller",
+      "version": "1.3.1",
       "channel": "alpha"
     },
     {
@@ -9217,6 +9397,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-prometheusservice-controller",
+      "name": "ack-prometheusservice-controller",
+      "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-quicksight-controller",
       "name": "ack-quicksight-controller",
       "version": "0.1.0",
@@ -9316,6 +9502,12 @@
       "package": "ack-ram-controller",
       "name": "ack-ram-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ram-controller",
+      "name": "ack-ram-controller",
+      "version": "1.3.1",
       "channel": "alpha"
     },
     {
@@ -9526,6 +9718,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.1.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.10.0",
       "channel": "alpha"
     },
     {
@@ -9979,6 +10177,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-recyclebin-controller",
+      "name": "ack-recyclebin-controller",
+      "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
       "version": "0.0.13",
@@ -10366,6 +10570,12 @@
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
+      "version": "1.6.1",
       "channel": "alpha"
     },
     {
@@ -10795,6 +11005,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.7.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-s3control-controller",
       "name": "ack-s3control-controller",
       "version": "1.0.10",
@@ -10843,6 +11059,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-s3control-controller",
+      "name": "ack-s3control-controller",
+      "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-s3files-controller",
       "name": "ack-s3files-controller",
       "version": "0.1.0",
@@ -10852,6 +11074,18 @@
       "package": "ack-s3files-controller",
       "name": "ack-s3files-controller",
       "version": "0.2.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3files-controller",
+      "name": "ack-s3files-controller",
+      "version": "0.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3files-controller",
+      "name": "ack-s3files-controller",
+      "version": "1.0.0",
       "channel": "alpha"
     },
     {
@@ -11434,6 +11668,12 @@
       "package": "ack-ses-controller",
       "name": "ack-ses-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ses-controller",
+      "name": "ack-ses-controller",
+      "version": "1.3.1",
       "channel": "alpha"
     },
     {
@@ -12487,6 +12727,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-ssm-controller",
+      "name": "ack-ssm-controller",
+      "version": "1.4.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-wafv2-controller",
       "name": "ack-wafv2-controller",
       "version": "0.0.1",
@@ -12787,6 +13033,12 @@
       "channel": "stable"
     },
     {
+      "package": "aerospike-kubernetes-operator",
+      "name": "aerospike-kubernetes-operator",
+      "version": "4.5.0",
+      "channel": "stable"
+    },
+    {
       "package": "airflow-helm-operator",
       "name": "airflow-helm-operator",
       "version": "0.0.1",
@@ -12964,73 +13216,73 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.12",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.14",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.15",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.7",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.8",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.0",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.1",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.3",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.4",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.7",
-      "channel": "3.2.x"
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
@@ -18177,6 +18429,12 @@
     {
       "package": "flux-operator",
       "name": "flux-operator",
+      "version": "0.53.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
       "version": "0.8.0",
       "channel": "stable"
     },
@@ -18928,6 +19186,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.50.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.50.1",
       "channel": "stable"
     },
     {
@@ -21802,6 +22066,12 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.6.3",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.6.4",
       "channel": "fast"
     },
     {
@@ -24889,6 +25159,12 @@
       "channel": "beta"
     },
     {
+      "package": "neuvector-community-operator",
+      "name": "neuvector-community-operator",
+      "version": "1.6.1",
+      "channel": "beta"
+    },
+    {
       "package": "nexus-operator",
       "name": "nexus-operator",
       "version": "3.0.0",
@@ -27177,6 +27453,12 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.12.19",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.12.2",
       "channel": "stable-3.12"
     },
@@ -27688,6 +27970,12 @@
       "package": "project-quay",
       "name": "project-quay",
       "version": "3.9.22",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
+      "version": "3.9.23",
       "channel": "stable-3.9"
     },
     {
@@ -28843,6 +29131,12 @@
       "channel": "alpha"
     },
     {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "1.9.6",
+      "channel": "alpha"
+    },
+    {
       "package": "sn-operator",
       "name": "sn-operator",
       "version": "0.10.0",
@@ -29783,6 +30077,12 @@
       "name": "strimzi-kafka-operator",
       "version": "1.0.1",
       "channel": "strimzi-1.0.x"
+    },
+    {
+      "package": "strimzi-kafka-operator",
+      "name": "strimzi-kafka-operator",
+      "version": "1.1.0",
+      "channel": "strimzi-1.1.x"
     },
     {
       "package": "susql-operator",
@@ -31609,7 +31909,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5268,
+  "count": 5318,
   "source": "opm",
-  "timestamp": "2026-06-25T06:58:48.051425"
+  "timestamp": "2026-07-01T07:00:21.505719"
 }

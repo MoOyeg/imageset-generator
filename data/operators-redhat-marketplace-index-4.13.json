@@ -111,6 +111,12 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "channel": "alpha"
     },
@@ -928,6 +934,12 @@
       "package": "instana-agent-operator-rhmp",
       "name": "instana-agent-operator-rhmp",
       "version": "2.2.14",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
+      "version": "2.2.15",
       "channel": "stable"
     },
     {
@@ -2047,9 +2059,15 @@
       "name": "zabbix-operator-certified-rhmp",
       "version": "6.0.44",
       "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified-rhmp",
+      "name": "zabbix-operator-certified-rhmp",
+      "version": "6.0.46",
+      "channel": "lts"
     }
   ],
-  "count": 328,
+  "count": 331,
   "source": "opm",
-  "timestamp": "2026-06-25T06:55:29.401957"
+  "timestamp": "2026-07-01T06:57:12.674975"
 }

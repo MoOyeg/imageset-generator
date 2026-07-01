@@ -656,6 +656,9 @@
     "operator.aquasec.com/v1alpha1/AquaServer": [
       "aqua-operator-certified"
     ],
+    "platform.axerasecurity.com/v1alpha1/Axera": [
+      "axera-operator"
+    ],
     "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
       "bookkeeper-operator",
       "sn-operator"
@@ -1223,6 +1226,9 @@
     ],
     "habanalabs.habana.ai/v1/ClusterPolicy": [
       "habana-ai-operator"
+    ],
+    "hammu.ai/v1alpha1/HammuPlatform": [
+      "hammu-platform"
     ],
     "gitops.harness.io/v1alpha1/GitopsAgent": [
       "harness-gitops-operator"
@@ -1849,6 +1855,9 @@
     "mongodb.com/v1/ClusterMongoDBRole": [
       "mongodb-kubernetes"
     ],
+    "ai.mongodb.com/v1/VoyageAI": [
+      "mongodb-kubernetes"
+    ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Dex": [
       "mto-dependencies-operator"
     ],
@@ -2254,7 +2263,16 @@
     "k8s.streamnative.io/v1alpha1/AgentFunction": [
       "sn-operator"
     ],
+    "k8s.streamnative.io/v1alpha1/AgentMemoryStore": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/AgentSession": [
+      "sn-operator"
+    ],
     "k8s.streamnative.io/v1alpha1/AgentSkill": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/AgentTrigger": [
       "sn-operator"
     ],
     "k8s.streamnative.io/v1alpha1/AgentVault": [
@@ -2799,5 +2817,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-25T06:58:04.185663"
+  "timestamp": "2026-07-01T06:59:37.002366"
 }

@@ -331,6 +331,12 @@
       "channel": "2022.4"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
       "package": "bonree-operator",
       "name": "bonree-operator",
       "version": "1.1.0",
@@ -1381,6 +1387,12 @@
       "channel": "v6.4"
     },
     {
+      "package": "cpd-platform-operator",
+      "name": "cpd-platform-operator",
+      "version": "6.4.7",
+      "channel": "v6.4"
+    },
+    {
       "package": "crunchy-postgres-operator",
       "name": "crunchy-postgres-operator",
       "version": "5.1.0",
@@ -1875,6 +1887,12 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "25.1.12",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "25.1.2",
       "channel": "stable-v25.1"
     },
@@ -1917,7 +1935,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.6",
+      "version": "25.3.7",
       "channel": "stable-v25.3"
     },
     {
@@ -1929,7 +1947,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.2",
+      "version": "26.1.3",
       "channel": "stable-v26.1"
     },
     {
@@ -2061,6 +2079,12 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
+      "version": "25.1.12",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-release-operator",
+      "name": "digitalai-release-operator",
       "version": "25.1.2",
       "channel": "stable-v25.1"
     },
@@ -2103,7 +2127,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.3.6",
+      "version": "25.3.7",
       "channel": "stable-v25.3"
     },
     {
@@ -2115,7 +2139,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.2",
+      "version": "26.1.3",
       "channel": "stable-v26.1"
     },
     {
@@ -2689,6 +2713,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.50.1",
+      "channel": "stable"
+    },
+    {
       "package": "gpu-operator-certified",
       "name": "gpu-operator-certified",
       "version": "1.10.0",
@@ -2997,7 +3027,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "channel": "alpha"
     },
     {
@@ -3795,6 +3825,12 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.15",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -4413,6 +4449,12 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.13",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
       "version": "8.5.2",
       "channel": "stable"
     },
@@ -4935,8 +4977,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.10",
-      "channel": "stable"
+      "version": "8.20.20",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -5037,8 +5079,8 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.10",
-      "channel": "stable"
+      "version": "8.20.20",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -5599,6 +5641,12 @@
       "channel": "stable"
     },
     {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.9.0",
+      "channel": "stable"
+    },
+    {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
       "version": "0.0.10",
@@ -5845,6 +5893,12 @@
       "channel": "beta"
     },
     {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.6",
+      "channel": "beta"
+    },
+    {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
       "version": "3.90.3-1",
@@ -5926,6 +5980,12 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.2",
       "channel": "alpha"
     },
     {
@@ -6525,13 +6585,13 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.10",
+      "version": "8.20.20",
       "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.20-beta.1",
+      "version": "8.20.30-beta.1",
       "channel": "beta"
     },
     {
@@ -7297,6 +7357,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.32.2",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seldon-operator-certified",
       "name": "seldon-operator-certified",
       "version": "1.16.0-0",
@@ -7329,7 +7395,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.18.12",
+      "version": "0.19.4",
       "channel": "alpha"
     },
     {
@@ -7659,25 +7725,25 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.106.0",
+      "version": "42.108.0",
       "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.108.0-beta.2",
+      "version": "42.109.0-beta.1",
       "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
       "version": "1.6.0",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.6.0-candidate-20260602144140000",
+      "version": "1.7.0-candidate-20260626125049000",
       "channel": "candidate"
     },
     {
@@ -8941,6 +9007,12 @@
       "channel": "alpha"
     },
     {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.4.2",
+      "channel": "alpha"
+    },
+    {
       "package": "webotx-operator",
       "name": "webotx-operator",
       "version": "11.11.0",
@@ -9043,7 +9115,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1507,
+  "count": 1519,
   "source": "opm",
-  "timestamp": "2026-06-25T06:54:19.922758"
+  "timestamp": "2026-07-01T06:56:01.865959"
 }

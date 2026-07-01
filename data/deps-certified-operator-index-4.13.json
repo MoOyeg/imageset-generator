@@ -553,6 +553,9 @@
     "operator.aquasec.com/v1alpha1/AquaServer": [
       "aqua-operator-certified"
     ],
+    "platform.axerasecurity.com/v1alpha1/Axera": [
+      "axera-operator"
+    ],
     "bonree.com/v1alpha1/SmartKube": [
       "bonree-operator"
     ],
@@ -1661,6 +1664,9 @@
     "mongodb.com/v1/ClusterMongoDBRole": [
       "mongodb-kubernetes"
     ],
+    "ai.mongodb.com/v1/VoyageAI": [
+      "mongodb-kubernetes"
+    ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Dex": [
       "mto-dependencies-operator"
     ],
@@ -2030,7 +2036,16 @@
     "k8s.streamnative.io/v1alpha1/AgentFunction": [
       "sn-operator"
     ],
+    "k8s.streamnative.io/v1alpha1/AgentMemoryStore": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/AgentSession": [
+      "sn-operator"
+    ],
     "k8s.streamnative.io/v1alpha1/AgentSkill": [
+      "sn-operator"
+    ],
+    "k8s.streamnative.io/v1alpha1/AgentTrigger": [
       "sn-operator"
     ],
     "k8s.streamnative.io/v1alpha1/AgentVault": [
@@ -2611,5 +2626,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-06-25T06:54:22.180443"
+  "timestamp": "2026-07-01T06:56:04.131579"
 }
