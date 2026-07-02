@@ -138,6 +138,17 @@ if [ "$RESET_STATUS" == "error" ]; then
     exit 1
 fi
 
+# Validate the freshly generated data BEFORE committing/pushing. This guards
+# against pushing empty/incomplete data when a refresh silently fails (e.g. the
+# container has no pull secret, or opm/oc-mirror times out).
+log "Validating generated data..."
+if ! python3 "${SCRIPT_DIR}/validate-data.py" "${DATA_DIR}" 2>&1 | tee -a "$LOG_FILE"; then
+    log "ERROR: Data validation failed — refusing to commit/push empty or incomplete data."
+    log "The existing committed data is untouched. Inspect ${DATA_DIR} and the log above, then re-run."
+    exit 1
+fi
+log "Data validation passed."
+
 # Stop the container
 log "Stopping container..."
 podman stop "$CONTAINER_NAME" 2>/dev/null || true
