@@ -2955,6 +2955,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1782771205",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1782771219",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173639",
       "channel": "stable-2.7"
     },
@@ -3811,16 +3823,10 @@
       "channel": "stable"
     },
     {
-      "package": "aws-load-balancer-operator",
-      "name": "aws-load-balancer-operator",
-      "version": "1.0.0",
-      "channel": "stable-v1.0"
-    },
-    {
-      "package": "aws-load-balancer-operator",
-      "name": "aws-load-balancer-operator",
-      "version": "1.0.1",
-      "channel": "stable-v1.0"
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.14.0-202606181945",
+      "channel": "stable"
     },
     {
       "package": "aws-load-balancer-operator",
@@ -5179,6 +5185,12 @@
       "channel": "fast"
     },
     {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.5.1",
+      "channel": "fast"
+    },
+    {
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.14.0-202310201027",
@@ -5434,6 +5446,12 @@
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.14.0-202605051430",
+      "channel": "stable"
+    },
+    {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.14.0-202606181945",
       "channel": "stable"
     },
     {
@@ -10195,6 +10213,12 @@
       "channel": "stable"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.14.0-202606181945",
+      "channel": "stable"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.14.0-202310201027",
@@ -10468,6 +10492,12 @@
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.14.0-202605051430",
+      "channel": "stable"
+    },
+    {
+      "package": "ingress-node-firewall",
+      "name": "ingress-node-firewall",
+      "version": "4.14.0-202606231109",
       "channel": "stable"
     },
     {
@@ -11419,6 +11449,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.14.0-202606231109",
+      "channel": "stable"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -11950,6 +11986,12 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202605051430",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202606230317",
       "channel": "stable"
     },
     {
@@ -13210,6 +13252,12 @@
       "package": "metallb-operator",
       "name": "metallb-operator",
       "version": "4.14.0-202605051430",
+      "channel": "stable"
+    },
+    {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.14.0-202606231109",
       "channel": "stable"
     },
     {
@@ -14680,6 +14728,12 @@
       "package": "nfd",
       "name": "nfd",
       "version": "4.14.0-202605051430",
+      "channel": "stable"
+    },
+    {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.14.0-202606181945",
       "channel": "stable"
     },
     {
@@ -17839,6 +17893,12 @@
       "channel": "latest"
     },
     {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.4",
+      "channel": "latest"
+    },
+    {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
       "version": "1.1.2",
@@ -18448,6 +18508,12 @@
       "package": "ptp-operator",
       "name": "ptp-operator",
       "version": "4.14.0-202605051430",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.14.0-202606231109",
       "channel": "stable"
     },
     {
@@ -23887,6 +23953,12 @@
       "channel": "preview"
     },
     {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.14.0-202606181945",
+      "channel": "preview"
+    },
+    {
       "package": "security-profiles-operator",
       "name": "security-profiles-operator",
       "version": "0.10.0",
@@ -25537,6 +25609,12 @@
       "channel": "stable"
     },
     {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.14.0-202606231109",
+      "channel": "stable"
+    },
+    {
       "package": "submariner",
       "name": "submariner",
       "version": "0.15.2",
@@ -26221,6 +26299,12 @@
       "channel": "stable"
     },
     {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.14.0-202606181945",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.10.0",
@@ -26599,7 +26683,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4433,
+  "count": 4447,
   "source": "opm",
-  "timestamp": "2026-07-01T06:58:48.422206"
+  "timestamp": "2026-07-01T20:58:54.554841"
 }
