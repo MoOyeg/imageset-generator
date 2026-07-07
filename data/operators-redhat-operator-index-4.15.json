@@ -1473,55 +1473,7 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
-      "version": "2.9.3-0",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-1",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-2",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-3",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-4",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-5",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-6",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-7",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-8",
+      "version": "2.9.4-0",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -1594,6 +1546,12 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.0-25",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.0-26",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -1725,6 +1683,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "2.9.4-3",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.0.0-10",
       "channel": "alpha"
     },
@@ -1803,6 +1767,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-22",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "channel": "amq-streams-3.2.x"
     },
@@ -1870,6 +1840,12 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.2.0-17",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.0-18",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -3445,6 +3421,12 @@
       "channel": "stable"
     },
     {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.15.0-202606181908",
+      "channel": "stable"
+    },
+    {
       "package": "aws-load-balancer-operator",
       "name": "aws-load-balancer-operator",
       "version": "1.1.0",
@@ -5002,6 +4984,12 @@
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.15.0-202606200234",
       "channel": "stable"
     },
     {
@@ -9685,6 +9673,12 @@
       "channel": "stable"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.15.0-202606200234",
+      "channel": "stable"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.15.0-202401290854",
@@ -9982,6 +9976,12 @@
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
+      "package": "ingress-node-firewall",
+      "name": "ingress-node-firewall",
+      "version": "4.15.0-202606200234",
       "channel": "stable"
     },
     {
@@ -10323,7 +10323,19 @@
     {
       "package": "kernel-module-management",
       "name": "kernel-module-management",
+      "version": "2.5.2",
+      "channel": "release-2.5"
+    },
+    {
+      "package": "kernel-module-management",
+      "name": "kernel-module-management",
       "version": "2.6.0",
+      "channel": "release-2.6"
+    },
+    {
+      "package": "kernel-module-management",
+      "name": "kernel-module-management",
+      "version": "2.6.1",
       "channel": "release-2.6"
     },
     {
@@ -10401,7 +10413,19 @@
     {
       "package": "kernel-module-management-hub",
       "name": "kernel-module-management-hub",
+      "version": "2.5.2",
+      "channel": "release-2.5"
+    },
+    {
+      "package": "kernel-module-management-hub",
+      "name": "kernel-module-management-hub",
       "version": "2.6.0",
+      "channel": "release-2.6"
+    },
+    {
+      "package": "kernel-module-management-hub",
+      "name": "kernel-module-management-hub",
+      "version": "2.6.1",
       "channel": "release-2.6"
     },
     {
@@ -10951,6 +10975,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.15.0-202606221844",
+      "channel": "stable"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -11476,6 +11506,12 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202606030314",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202606221034",
       "channel": "stable"
     },
     {
@@ -12802,6 +12838,12 @@
       "package": "metallb-operator",
       "name": "metallb-operator",
       "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.15.0-202606200234",
       "channel": "stable"
     },
     {
@@ -14368,6 +14410,12 @@
       "package": "nfd",
       "name": "nfd",
       "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.15.0-202606200234",
       "channel": "stable"
     },
     {
@@ -17697,6 +17745,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.19.5",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.20.0",
       "channel": "gitops-1.20"
     },
@@ -17727,7 +17781,19 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.20.5",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.21.0",
+      "channel": "gitops-1.21"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.21.1",
       "channel": "gitops-1.21"
     },
     {
@@ -18712,6 +18778,12 @@
       "package": "ptp-operator",
       "name": "ptp-operator",
       "version": "4.15.0-202605272019",
+      "channel": "stable"
+    },
+    {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.15.0-202606200234",
       "channel": "stable"
     },
     {
@@ -23325,6 +23397,12 @@
     {
       "package": "rhsso-operator",
       "name": "rhsso-operator",
+      "version": "7.6.12-opr-011",
+      "channel": "stable"
+    },
+    {
+      "package": "rhsso-operator",
+      "name": "rhsso-operator",
       "version": "7.6.2-opr-001",
       "channel": "stable"
     },
@@ -23884,6 +23962,12 @@
       "package": "secrets-store-csi-driver-operator",
       "name": "secrets-store-csi-driver-operator",
       "version": "4.15.0-202605272019",
+      "channel": "preview"
+    },
+    {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.15.0-202606181908",
       "channel": "preview"
     },
     {
@@ -25423,6 +25507,12 @@
       "channel": "stable"
     },
     {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.15.0-202606200234",
+      "channel": "stable"
+    },
+    {
       "package": "submariner",
       "name": "submariner",
       "version": "0.16.0",
@@ -26041,6 +26131,12 @@
       "channel": "stable"
     },
     {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.15.0-202606200234",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.10.0",
@@ -26401,7 +26497,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4400,
+  "count": 4416,
   "source": "opm",
-  "timestamp": "2026-07-01T21:02:31.829232"
+  "timestamp": "2026-07-07T06:42:39.975868"
 }

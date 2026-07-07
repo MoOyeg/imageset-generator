@@ -56,9 +56,6 @@
     "cloud.abinitio.com/v1/CoOperatingSystemRuntimeTemplate": [
       "abinitio-runtime-operator"
     ],
-    "operator.accuknox.com/v1/AccuknoxConfig": [
-      "accuknox-operator-certified"
-    ],
     "aci.ctrl/v1alpha1/AciContainersOperator": [
       "aci-containers-operator"
     ],
@@ -161,12 +158,6 @@
     "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
       "airlock-microgateway"
     ],
-    "aiu.ibm.com/v2/AiuClusterPolicy": [
-      "aiu-operator"
-    ],
-    "aiu.ibm.com/v2/AiuNodeState": [
-      "aiu-operator"
-    ],
     "anzo.cambridgesemantics.com/v2/Anzo": [
       "anzo-operator"
     ],
@@ -181,27 +172,6 @@
     ],
     "apelocal.csi.apecloud.com/v1alpha1/HostPathDefinition": [
       "apelocal-csi"
-    ],
-    "cluster.appdynamics.com/v1alpha1/Clustermon": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/Containermon": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/DbCollector": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/DbConfig": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/Inframon": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/LogCollector": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/Servermon": [
-      "appdynamics-cloud-operator"
     ],
     "cluster.appdynamics.com/v1alpha1/Clusteragent": [
       "appdynamics-operator"
@@ -247,12 +217,6 @@
     ],
     "platform.axerasecurity.com/v1alpha1/Axera": [
       "axera-operator"
-    ],
-    "cassandra.datastax.com/v1beta1/CassandraDatacenter": [
-      "cass-operator"
-    ],
-    "control.k8ssandra.io/v1alpha1/CassandraTask": [
-      "cass-operator"
     ],
     "cfm.cloudera.com/v1alpha1/Nifi": [
       "cfm-operator"
@@ -319,9 +283,6 @@
     ],
     "conjur.cyberark.com/v1/ConjurFollower": [
       "conjur-follower-operator"
-    ],
-    "coroot.com/v1/Coroot": [
-      "coroot-operator"
     ],
     "flink.apache.org/v1beta1/FlinkDeployment": [
       "cp-fko"
@@ -671,9 +632,6 @@
     "instana.io/v1/InstanaAgentRemote": [
       "instana-agent-operator"
     ],
-    "app.loadcore.keysight.com/v1alpha1/Agents": [
-      "keysight-loadcore-agents"
-    ],
     "operator.kubearmor.com/v1/KubeArmorConfig": [
       "kubearmor-operator-certified"
     ],
@@ -757,24 +715,6 @@
     ],
     "workloads.kubeblocks.io/v1/InstanceSet": [
       "kubeblocks"
-    ],
-    "core.k8s.kubemq.io/v1alpha1/KubemqCluster": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1beta1/KubemqCluster": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1alpha1/KubemqConnector": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1beta1/KubemqConnector": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1alpha1/KubemqDashboard": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1beta1/KubemqDashboard": [
-      "kubemq-operator-marketplace"
     ],
     "charts.helm.k8s.io/v1/Kubeturbo": [
       "kubeturbo-certified"
@@ -879,22 +819,15 @@
       "mongodb-atlas-kubernetes"
     ],
     "mongodb.com/v1/MongoDB": [
-      "mongodb-enterprise",
-      "mongodb-kubernetes"
-    ],
-    "mongodb.com/v1/MongoDBMulti": [
-      "mongodb-enterprise"
-    ],
-    "mongodb.com/v1/MongoDBOpsManager": [
-      "mongodb-enterprise",
-      "mongodb-kubernetes"
-    ],
-    "mongodb.com/v1/MongoDBUser": [
-      "mongodb-enterprise",
       "mongodb-kubernetes"
     ],
     "mongodb.com/v1/MongoDBMultiCluster": [
-      "mongodb-enterprise",
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDBOpsManager": [
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDBUser": [
       "mongodb-kubernetes"
     ],
     "mongodbcommunity.mongodb.com/v1/MongoDBCommunity": [
@@ -1044,9 +977,6 @@
     "apps.openliberty.io/v1/OpenLibertyPerformanceData": [
       "open-liberty-certified"
     ],
-    "charts.helm.k8s.io/v1/OpenshiftArtifactoryHa": [
-      "openshiftartifactoryha-operator"
-    ],
     "charts.helm.k8s.io/v1/Prometurbo": [
       "prometurbo-certified"
     ],
@@ -1061,9 +991,6 @@
     ],
     "pubsubplus.solace.com/v1beta1/PubSubPlusEventBroker": [
       "pubsubplus-eventbroker-operator"
-    ],
-    "raftt.io/v1beta1/Raftt": [
-      "raftt-operator"
     ],
     "rc.app.stacks/v1beta2/RuntimeComponent": [
       "runtime-component-operator-certified"
@@ -1270,5 +1197,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-01T21:20:29.302461"
+  "timestamp": "2026-07-07T06:57:23.036891"
 }

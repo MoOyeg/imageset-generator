@@ -125,9 +125,6 @@
     "cloud.abinitio.com/v1/CoOperatingSystemRuntimeTemplate": [
       "abinitio-runtime-operator"
     ],
-    "operator.accuknox.com/v1/AccuknoxConfig": [
-      "accuknox-operator-certified"
-    ],
     "aci.ctrl/v1alpha1/AciContainersOperator": [
       "aci-containers-operator"
     ],
@@ -230,12 +227,6 @@
     "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
       "airlock-microgateway"
     ],
-    "aiu.ibm.com/v2/AiuClusterPolicy": [
-      "aiu-operator"
-    ],
-    "aiu.ibm.com/v2/AiuNodeState": [
-      "aiu-operator"
-    ],
     "alloydbomni.dbadmin.goog/v1/Backup": [
       "alloydb-omni-operator-certified"
     ],
@@ -326,6 +317,12 @@
     "alloydbomni.internal.dbadmin.goog/v1/Sidecar": [
       "alloydb-omni-operator-certified"
     ],
+    "amd.com/v1alpha1/DeviceConfig": [
+      "amd-gpu-operator"
+    ],
+    "amd.com/v1alpha1/RemediationWorkflowStatus": [
+      "amd-gpu-operator"
+    ],
     "anzo.cambridgesemantics.com/v2/Anzo": [
       "anzo-operator"
     ],
@@ -340,27 +337,6 @@
     ],
     "apelocal.csi.apecloud.com/v1alpha1/HostPathDefinition": [
       "apelocal-csi"
-    ],
-    "cluster.appdynamics.com/v1alpha1/Clustermon": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/Containermon": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/DbCollector": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/DbConfig": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/Inframon": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/LogCollector": [
-      "appdynamics-cloud-operator"
-    ],
-    "cluster.appdynamics.com/v1alpha1/Servermon": [
-      "appdynamics-cloud-operator"
     ],
     "cluster.appdynamics.com/v1alpha1/Clusteragent": [
       "appdynamics-operator"
@@ -407,12 +383,6 @@
     "platform.axerasecurity.com/v1alpha1/Axera": [
       "axera-operator"
     ],
-    "cassandra.datastax.com/v1beta1/CassandraDatacenter": [
-      "cass-operator"
-    ],
-    "control.k8ssandra.io/v1alpha1/CassandraTask": [
-      "cass-operator"
-    ],
     "cfm.cloudera.com/v1alpha1/Nifi": [
       "cfm-operator"
     ],
@@ -424,6 +394,42 @@
     ],
     "cilium.io/v1alpha1/CiliumConfig": [
       "cilium-enterprise"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Backup": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Cluster": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/ClusterImageCatalog": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Database": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/ImageCatalog": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Pooler": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Publication": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/ScheduledBackup": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/Subscription": [
+      "cloud-native-postgresql"
+    ],
+    "barmancloud.cnpg.io/v1/ObjectStore": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/FailoverQuorum": [
+      "cloud-native-postgresql"
+    ],
+    "postgresql.k8s.enterprisedb.io/v1/DatabaseRole": [
+      "cloud-native-postgresql"
     ],
     "core.strimzi.io/v1beta2/StrimziPodSet": [
       "cloudera-streams-messaging-kubernetes-operator"
@@ -469,6 +475,39 @@
     ],
     "kafka.strimzi.io/v1beta2/KafkaUser": [
       "cloudera-streams-messaging-kubernetes-operator"
+    ],
+    "postgresql.cnpg.io/v1/Backup": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Cluster": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/ClusterImageCatalog": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/ImageCatalog": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Pooler": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/ScheduledBackup": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Database": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Publication": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/Subscription": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/FailoverQuorum": [
+      "cloudnative-pg"
+    ],
+    "postgresql.cnpg.io/v1/DatabaseRole": [
+      "cloudnative-pg"
     ],
     "coherence.oracle.com/v1/Coherence": [
       "coherence-operator"
@@ -544,9 +583,6 @@
     ],
     "conjur.cyberark.com/v1/ConjurFollower": [
       "conjur-follower-operator"
-    ],
-    "coroot.com/v1/Coroot": [
-      "coroot-operator"
     ],
     "flink.apache.org/v1beta1/FlinkDeployment": [
       "cp-fko"
@@ -986,9 +1022,6 @@
     "trustedservices.intel.com/v1/TdxQuoteGenerationService": [
       "intel-tdx-dcap-operator"
     ],
-    "app.loadcore.keysight.com/v1alpha1/Agents": [
-      "keysight-loadcore-agents"
-    ],
     "operator.kubearmor.com/v1/KubeArmorConfig": [
       "kubearmor-operator-certified"
     ],
@@ -1072,24 +1105,6 @@
     ],
     "workloads.kubeblocks.io/v1/InstanceSet": [
       "kubeblocks"
-    ],
-    "core.k8s.kubemq.io/v1alpha1/KubemqCluster": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1beta1/KubemqCluster": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1alpha1/KubemqConnector": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1beta1/KubemqConnector": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1alpha1/KubemqDashboard": [
-      "kubemq-operator-marketplace"
-    ],
-    "core.k8s.kubemq.io/v1beta1/KubemqDashboard": [
-      "kubemq-operator-marketplace"
     ],
     "charts.helm.k8s.io/v1/Kubeturbo": [
       "kubeturbo-certified"
@@ -1215,22 +1230,15 @@
       "mongodb-atlas-kubernetes"
     ],
     "mongodb.com/v1/MongoDB": [
-      "mongodb-enterprise",
-      "mongodb-kubernetes"
-    ],
-    "mongodb.com/v1/MongoDBMulti": [
-      "mongodb-enterprise"
-    ],
-    "mongodb.com/v1/MongoDBOpsManager": [
-      "mongodb-enterprise",
-      "mongodb-kubernetes"
-    ],
-    "mongodb.com/v1/MongoDBUser": [
-      "mongodb-enterprise",
       "mongodb-kubernetes"
     ],
     "mongodb.com/v1/MongoDBMultiCluster": [
-      "mongodb-enterprise",
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDBOpsManager": [
+      "mongodb-kubernetes"
+    ],
+    "mongodb.com/v1/MongoDBUser": [
       "mongodb-kubernetes"
     ],
     "mongodbcommunity.mongodb.com/v1/MongoDBCommunity": [
@@ -1383,9 +1391,6 @@
     "apps.openliberty.io/v1/OpenLibertyPerformanceData": [
       "open-liberty-certified"
     ],
-    "charts.helm.k8s.io/v1/OpenshiftArtifactoryHa": [
-      "openshiftartifactoryha-operator"
-    ],
     "certification.redhat.com/v1alpha1/OperatorPipeline": [
       "operator-certification-operator"
     ],
@@ -1418,9 +1423,6 @@
     ],
     "pubsubplus.solace.com/v1beta1/PubSubPlusEventBroker": [
       "pubsubplus-eventbroker-operator"
-    ],
-    "raftt.io/v1beta1/Raftt": [
-      "raftt-operator"
     ],
     "rebellions.ai/v1beta1/RBLNClusterPolicy": [
       "rbln-npu-operator"
@@ -1771,5 +1773,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-01T21:19:33.438728"
+  "timestamp": "2026-07-07T06:56:29.127645"
 }

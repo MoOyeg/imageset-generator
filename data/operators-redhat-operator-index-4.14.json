@@ -1467,55 +1467,7 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
-      "version": "2.9.3-0",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-1",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-2",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-3",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-4",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-5",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-6",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-7",
-      "channel": "amq-streams-2.9.x"
-    },
-    {
-      "package": "amq-streams",
-      "name": "amq-streams",
-      "version": "2.9.3-8",
+      "version": "2.9.4-0",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -1588,6 +1540,12 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.0-25",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.0-26",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -1719,6 +1677,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "2.9.4-3",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.0.0-10",
       "channel": "alpha"
     },
@@ -1797,6 +1761,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-22",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "channel": "amq-streams-3.2.x"
     },
@@ -1864,6 +1834,12 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.2.0-17",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.0-18",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -2963,6 +2939,18 @@
       "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1782771219",
       "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1783030319",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1783030326",
+      "channel": "stable-2.6"
     },
     {
       "package": "ansible-automation-platform-operator",
@@ -10839,7 +10827,19 @@
     {
       "package": "kernel-module-management",
       "name": "kernel-module-management",
+      "version": "2.5.2",
+      "channel": "release-2.5"
+    },
+    {
+      "package": "kernel-module-management",
+      "name": "kernel-module-management",
       "version": "2.6.0",
+      "channel": "release-2.6"
+    },
+    {
+      "package": "kernel-module-management",
+      "name": "kernel-module-management",
+      "version": "2.6.1",
       "channel": "release-2.6"
     },
     {
@@ -10917,7 +10917,19 @@
     {
       "package": "kernel-module-management-hub",
       "name": "kernel-module-management-hub",
+      "version": "2.5.2",
+      "channel": "release-2.5"
+    },
+    {
+      "package": "kernel-module-management-hub",
+      "name": "kernel-module-management-hub",
       "version": "2.6.0",
+      "channel": "release-2.6"
+    },
+    {
+      "package": "kernel-module-management-hub",
+      "name": "kernel-module-management-hub",
+      "version": "2.6.1",
       "channel": "release-2.6"
     },
     {
@@ -17439,6 +17451,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.19.5",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.20.0",
       "channel": "gitops-1.20"
     },
@@ -17469,7 +17487,19 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.20.5",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.21.0",
+      "channel": "gitops-1.21"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.21.1",
       "channel": "gitops-1.21"
     },
     {
@@ -23409,6 +23439,12 @@
     {
       "package": "rhsso-operator",
       "name": "rhsso-operator",
+      "version": "7.6.12-opr-011",
+      "channel": "stable"
+    },
+    {
+      "package": "rhsso-operator",
+      "name": "rhsso-operator",
       "version": "7.6.2-opr-001",
       "channel": "stable"
     },
@@ -26683,7 +26719,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4447,
+  "count": 4453,
   "source": "opm",
-  "timestamp": "2026-07-01T20:58:54.554841"
+  "timestamp": "2026-07-07T06:38:46.861134"
 }

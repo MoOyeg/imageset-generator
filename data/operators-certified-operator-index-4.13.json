@@ -337,6 +337,42 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.2.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.6.1",
+      "channel": "alpha"
+    },
+    {
       "package": "bonree-operator",
       "name": "bonree-operator",
       "version": "1.1.0",
@@ -4978,12 +5014,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.20.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.20-beta.1",
+      "version": "8.20.30-beta.1",
       "channel": "beta"
     },
     {
@@ -5080,12 +5116,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.20.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.20-beta.1",
+      "version": "8.20.30-beta.1",
       "channel": "beta"
     },
     {
@@ -5649,7 +5685,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.10",
+      "version": "0.0.11",
       "channel": "alpha"
     },
     {
@@ -6855,6 +6891,12 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-16.0",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-2.2",
       "channel": "7.8.6"
     },
@@ -7363,6 +7405,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.32.5",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seldon-operator-certified",
       "name": "seldon-operator-certified",
       "version": "1.16.0-0",
@@ -7717,6 +7765,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.0-rc2",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.17.1-0",
@@ -7731,14 +7785,14 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.109.0-beta.1",
+      "version": "42.109.0-beta.2",
       "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.6.0",
-      "channel": "stable"
+      "version": "1.7.0",
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -8187,7 +8241,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.8.2",
+      "version": "1.8.3",
       "channel": "release-1.8"
     },
     {
@@ -9115,7 +9169,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1519,
+  "count": 1528,
   "source": "opm",
-  "timestamp": "2026-07-01T20:56:07.907317"
+  "timestamp": "2026-07-07T06:35:55.377974"
 }

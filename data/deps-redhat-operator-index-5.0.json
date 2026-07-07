@@ -536,6 +536,36 @@
     "nodeobservability.olm.openshift.io/v1alpha2/NodeObservabilityRun": [
       "node-observability-operator"
     ],
+    "acme.cert-manager.io/v1/Challenge": [
+      "openshift-cert-manager-operator"
+    ],
+    "acme.cert-manager.io/v1/Order": [
+      "openshift-cert-manager-operator"
+    ],
+    "cert-manager.io/v1/Certificate": [
+      "openshift-cert-manager-operator"
+    ],
+    "cert-manager.io/v1/CertificateRequest": [
+      "openshift-cert-manager-operator"
+    ],
+    "cert-manager.io/v1/ClusterIssuer": [
+      "openshift-cert-manager-operator"
+    ],
+    "cert-manager.io/v1/Issuer": [
+      "openshift-cert-manager-operator"
+    ],
+    "operator.openshift.io/v1alpha1/CertManager": [
+      "openshift-cert-manager-operator"
+    ],
+    "operator.openshift.io/v1alpha1/IstioCSR": [
+      "openshift-cert-manager-operator"
+    ],
+    "operator.openshift.io/v1alpha1/TrustManager": [
+      "openshift-cert-manager-operator"
+    ],
+    "trust.cert-manager.io/v1alpha1/Bundle": [
+      "openshift-cert-manager-operator"
+    ],
     "keda.sh/v1alpha1/ClusterTriggerAuthentication": [
       "openshift-custom-metrics-autoscaler-operator"
     ],
@@ -563,7 +593,13 @@
     "http.keda.sh/v1beta1/InterceptorRoute": [
       "openshift-custom-metrics-autoscaler-operator"
     ],
+    "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
+      "openshift-pipelines-operator-rh"
+    ],
     "operator.tekton.dev/v1alpha1/OpenShiftPipelinesAsCode": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/SyncerService": [
       "openshift-pipelines-operator-rh"
     ],
     "operator.tekton.dev/v1alpha1/TektonAddon": [
@@ -581,31 +617,22 @@
     "operator.tekton.dev/v1alpha1/TektonInstallerSet": [
       "openshift-pipelines-operator-rh"
     ],
+    "operator.tekton.dev/v1alpha1/TektonMulticlusterProxyAAE": [
+      "openshift-pipelines-operator-rh"
+    ],
     "operator.tekton.dev/v1alpha1/TektonPipeline": [
-      "openshift-pipelines-operator-rh"
-    ],
-    "operator.tekton.dev/v1alpha1/TektonResult": [
-      "openshift-pipelines-operator-rh"
-    ],
-    "operator.tekton.dev/v1alpha1/TektonTrigger": [
-      "openshift-pipelines-operator-rh"
-    ],
-    "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
-      "openshift-pipelines-operator-rh"
-    ],
-    "operator.tekton.dev/v1alpha1/TektonDashboard": [
       "openshift-pipelines-operator-rh"
     ],
     "operator.tekton.dev/v1alpha1/TektonPruner": [
       "openshift-pipelines-operator-rh"
     ],
-    "operator.tekton.dev/v1alpha1/SyncerService": [
-      "openshift-pipelines-operator-rh"
-    ],
-    "operator.tekton.dev/v1alpha1/TektonMulticlusterProxyAAE": [
+    "operator.tekton.dev/v1alpha1/TektonResult": [
       "openshift-pipelines-operator-rh"
     ],
     "operator.tekton.dev/v1alpha1/TektonScheduler": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonTrigger": [
       "openshift-pipelines-operator-rh"
     ],
     "operator.openshift.io/v1/SecondaryScheduler": [
@@ -870,5 +897,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-07-01T21:20:15.892679"
+  "timestamp": "2026-07-07T06:57:08.259364"
 }

@@ -721,6 +721,42 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.2.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.6.1",
+      "channel": "alpha"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -1593,6 +1629,12 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.25.9",
+      "channel": "stable-v1.25"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.26.0",
       "channel": "candidate"
     },
@@ -1707,6 +1749,12 @@
     {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
+      "version": "1.28.4",
+      "channel": "stable-v1.28"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
       "version": "1.29.0",
       "channel": "candidate"
     },
@@ -1721,6 +1769,18 @@
       "name": "cloud-native-postgresql",
       "version": "1.29.1",
       "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.29.2",
+      "channel": "fast"
+    },
+    {
+      "package": "cloud-native-postgresql",
+      "name": "cloud-native-postgresql",
+      "version": "1.30.0",
+      "channel": "candidate"
     },
     {
       "package": "cloud-native-postgresql",
@@ -3184,7 +3244,13 @@
       "package": "eda-k8s-operator",
       "name": "eda-k8s-operator",
       "version": "5.0.0",
-      "channel": "stable"
+      "channel": "5.0"
+    },
+    {
+      "package": "eda-k8s-operator",
+      "name": "eda-k8s-operator",
+      "version": "5.0.1",
+      "channel": "5.0"
     },
     {
       "package": "edb-hcp-operator",
@@ -3699,7 +3765,7 @@
     {
       "package": "google-cloud-cluster-services-for-openshift-telemetry",
       "name": "google-cloud-cluster-services-for-openshift-telemetry",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "channel": "alpha"
     },
     {
@@ -6214,12 +6280,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.20.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.20-beta.1",
+      "version": "8.20.30-beta.1",
       "channel": "beta"
     },
     {
@@ -6412,12 +6478,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.20.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.20-beta.1",
+      "version": "8.20.30-beta.1",
       "channel": "beta"
     },
     {
@@ -6502,6 +6568,12 @@
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2026.4.13102716",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.6.10050221",
       "channel": "stable"
     },
     {
@@ -7005,7 +7077,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.10",
+      "version": "0.0.11",
       "channel": "alpha"
     },
     {
@@ -8529,6 +8601,12 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-16.0",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-2.2",
       "channel": "7.22.0"
     },
@@ -9082,6 +9160,12 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.32.2",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.32.5",
       "channel": "stable-v1"
     },
     {
@@ -9667,6 +9751,12 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.0-rc2",
+      "channel": "candidate"
+    },
+    {
       "package": "strategy-operator",
       "name": "strategy-operator",
       "version": "26.5.5",
@@ -9711,14 +9801,14 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.109.0-beta.1",
+      "version": "42.109.0-beta.2",
       "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.6.0",
-      "channel": "stable"
+      "version": "1.7.0",
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -9927,7 +10017,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.8.2",
+      "version": "1.8.3",
       "channel": "release-1.8"
     },
     {
@@ -10717,7 +10807,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1786,
+  "count": 1801,
   "source": "opm",
-  "timestamp": "2026-07-01T21:08:17.459327"
+  "timestamp": "2026-07-07T06:47:10.923120"
 }
