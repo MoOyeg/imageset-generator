@@ -659,6 +659,15 @@
     "platform.axerasecurity.com/v1alpha1/Axera": [
       "axera-operator"
     ],
+    "platform.axerasecurity.com/v1alpha1/AxeraFlow": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraForce": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraProcess": [
+      "axera-operator"
+    ],
     "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
       "bookkeeper-operator",
       "sn-operator"
@@ -2789,6 +2798,51 @@
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
       "visionone-containersecurity"
     ],
+    "wavek8s.com/v1alpha1/Wave": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAlert": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAlertChannel": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotPolicy": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotPreset": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotSchedule": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveDiagnosisConfig": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveFlowPolicy": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveKarpenterNodeWarmup": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveKarpenterSpotPlacement": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveLabelGroup": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveNetfunnelConnection": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveNetfunnelMapping": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WavePvcAutoExpansion": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveSmartSizingPolicy": [
+      "wave"
+    ],
     "webotx.nec.com/v3/ApplicationServer": [
       "webotx-operator"
     ],
@@ -2817,5 +2871,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-07T06:39:37.531753"
+  "timestamp": "2026-07-26T03:44:55.582990"
 }

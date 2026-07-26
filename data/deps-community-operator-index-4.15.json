@@ -432,6 +432,9 @@
     "athena.services.k8s.aws/v1alpha1/WorkGroup": [
       "ack-athena-controller"
     ],
+    "athena.services.k8s.aws/v1alpha1/DataCatalog": [
+      "ack-athena-controller"
+    ],
     "autoscaling.services.k8s.aws/v1alpha1/AutoScalingGroup": [
       "ack-autoscaling-controller"
     ],
@@ -456,28 +459,31 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/AgentRuntimeEndpoint": [
       "ack-bedrockagentcorecontrol-controller"
     ],
-    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Gateway": [
-      "ack-bedrockagentcorecontrol-controller"
-    ],
-    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/GatewayTarget": [
-      "ack-bedrockagentcorecontrol-controller"
-    ],
-    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/WorkloadIdentity": [
-      "ack-bedrockagentcorecontrol-controller"
-    ],
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/APIKeyCredentialProvider": [
-      "ack-bedrockagentcorecontrol-controller"
-    ],
-    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Memory": [
-      "ack-bedrockagentcorecontrol-controller"
-    ],
-    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/CodeInterpreter": [
       "ack-bedrockagentcorecontrol-controller"
     ],
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Browser": [
       "ack-bedrockagentcorecontrol-controller"
     ],
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/BrowserProfile": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/CodeInterpreter": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Gateway": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/GatewayTarget": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Memory": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/PolicyEngine": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/WorkloadIdentity": [
       "ack-bedrockagentcorecontrol-controller"
     ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
@@ -499,6 +505,12 @@
       "ack-cloudfront-controller"
     ],
     "cloudfront.services.k8s.aws/v1alpha1/VPCOrigin": [
+      "ack-cloudfront-controller"
+    ],
+    "cloudfront.services.k8s.aws/v1alpha1/ConnectionGroup": [
+      "ack-cloudfront-controller"
+    ],
+    "cloudfront.services.k8s.aws/v1alpha1/DistributionTenant": [
       "ack-cloudfront-controller"
     ],
     "cloudtrail.services.k8s.aws/v1alpha1/EventDataStore": [
@@ -804,6 +816,12 @@
     "lambda.services.k8s.aws/v1alpha1/Version": [
       "ack-lambda-controller"
     ],
+    "lambdamicrovms.services.k8s.aws/v1alpha1/Microvm": [
+      "ack-lambdamicrovms-controller"
+    ],
+    "lambdamicrovms.services.k8s.aws/v1alpha1/MicrovmImage": [
+      "ack-lambdamicrovms-controller"
+    ],
     "memorydb.services.k8s.aws/v1alpha1/ACL": [
       "ack-memorydb-controller"
     ],
@@ -960,6 +978,21 @@
     "s3files.services.k8s.aws/v1alpha1/MountTarget": [
       "ack-s3files-controller"
     ],
+    "s3tables.services.k8s.aws/v1alpha1/Namespace": [
+      "ack-s3tables-controller"
+    ],
+    "s3tables.services.k8s.aws/v1alpha1/Table": [
+      "ack-s3tables-controller"
+    ],
+    "s3tables.services.k8s.aws/v1alpha1/TableBucket": [
+      "ack-s3tables-controller"
+    ],
+    "s3vectors.services.k8s.aws/v1alpha1/Index": [
+      "ack-s3vectors-controller"
+    ],
+    "s3vectors.services.k8s.aws/v1alpha1/VectorBucket": [
+      "ack-s3vectors-controller"
+    ],
     "sagemaker.services.k8s.aws/v1alpha1/App": [
       "ack-sagemaker-controller"
     ],
@@ -1104,8 +1137,14 @@
     "asdb.aerospike.com/v1beta1/AerospikeRestore": [
       "aerospike-kubernetes-operator"
     ],
+    "migration.lightwell.co.jp/v1alpha1/AHVMigration": [
+      "ahv-to-ove-operator"
+    ],
     "workflow.apache.org/v1alpha1/AirFlow": [
       "airflow-helm-operator"
+    ],
+    "csi.alibabacloud.com/v1alpha1/AlibabaCloudCSIDriver": [
+      "alibaba-cloud-csi-operator"
     ],
     "alloydbomni.dbadmin.goog/v1/Backup": [
       "alloydb-omni-operator"
@@ -2054,15 +2093,6 @@
     "dynatrace.com/v1alpha1/EdgeConnect": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta2/DynaKube": [
-      "dynatrace-operator"
-    ],
-    "dynatrace.com/v1alpha2/EdgeConnect": [
-      "dynatrace-operator"
-    ],
-    "dynatrace.com/v1beta3/DynaKube": [
-      "dynatrace-operator"
-    ],
     "dynatrace.com/v1beta4/DynaKube": [
       "dynatrace-operator"
     ],
@@ -2070,6 +2100,15 @@
       "dynatrace-operator"
     ],
     "dynatrace.com/v1beta6/DynaKube": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1alpha2/EdgeConnect": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1beta2/DynaKube": [
+      "dynatrace-operator"
+    ],
+    "dynatrace.com/v1beta3/DynaKube": [
       "dynatrace-operator"
     ],
     "eclipse.org/v1alpha1/Amlen": [
@@ -2767,6 +2806,12 @@
       "keycloak-operator"
     ],
     "k8s.keycloak.org/v2beta1/KeycloakRealmImport": [
+      "keycloak-operator"
+    ],
+    "k8s.keycloak.org/v2alpha1/KeycloakOIDCClient": [
+      "keycloak-operator"
+    ],
+    "k8s.keycloak.org/v2alpha1/KeycloakSAMLClient": [
       "keycloak-operator"
     ],
     "keycloak.nerc.mghpcc.org/v1/KeycloakAuthorization": [
@@ -4642,5 +4687,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-07-07T06:44:13.181923"
+  "timestamp": "2026-07-26T03:49:42.454033"
 }

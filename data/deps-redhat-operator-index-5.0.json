@@ -593,6 +593,90 @@
     "http.keda.sh/v1beta1/InterceptorRoute": [
       "openshift-custom-metrics-autoscaler-operator"
     ],
+    "external-secrets.io/v1/ClusterExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1beta1/ClusterExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1alpha1/ClusterPushSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/ClusterSecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1beta1/ClusterSecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/ExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1beta1/ExternalSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1alpha1/PushSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1/SecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "external-secrets.io/v1beta1/SecretStore": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/ACRAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/CloudsmithAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/ClusterGenerator": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/ECRAuthorizationToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/GCRAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/GeneratorState": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/GithubAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/Grafana": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/MFA": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/Password": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/QuayAccessToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/SSHKey": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/STSSessionToken": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/UUID": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/VaultDynamicSecret": [
+      "openshift-external-secrets-operator"
+    ],
+    "generators.external-secrets.io/v1alpha1/Webhook": [
+      "openshift-external-secrets-operator"
+    ],
+    "operator.openshift.io/v1alpha1/ExternalSecretsConfig": [
+      "openshift-external-secrets-operator"
+    ],
+    "operator.openshift.io/v1alpha1/ExternalSecretsManager": [
+      "openshift-external-secrets-operator"
+    ],
     "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
       "openshift-pipelines-operator-rh"
     ],
@@ -854,6 +938,9 @@
     "sailoperator.io/v1/ZTunnel": [
       "servicemeshoperator3"
     ],
+    "extensions.istio.io/v1alpha1/TrafficExtension": [
+      "servicemeshoperator3"
+    ],
     "observability.skupper.io/v2alpha1/NetworkObserver": [
       "skupper-netobs-operator"
     ],
@@ -897,5 +984,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-07-07T06:57:08.259364"
+  "timestamp": "2026-07-26T04:02:57.488776"
 }

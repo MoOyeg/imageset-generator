@@ -145,6 +145,12 @@
       "channel": "threescale-2.16"
     },
     {
+      "package": "3scale-operator",
+      "name": "3scale-operator",
+      "version": "0.13.4",
+      "channel": "threescale-2.16"
+    },
+    {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
       "version": "2.10.0",
@@ -214,6 +220,12 @@
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
       "version": "2.11.1",
+      "channel": "release-2.11"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
+      "version": "2.11.10",
       "channel": "release-2.11"
     },
     {
@@ -1473,6 +1485,18 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-1",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "2.9.4-2",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "channel": "amq-streams-3.0.x"
     },
@@ -1546,6 +1570,18 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.0-26",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.0-27",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.0-29",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -1683,6 +1719,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "2.9.4-5",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.0.0-10",
       "channel": "alpha"
     },
@@ -1767,6 +1809,18 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-24",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.0-25",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "channel": "amq-streams-3.2.x"
     },
@@ -1845,7 +1899,19 @@
     {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
+      "version": "3.2.0-19",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
       "version": "3.2.0-2",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.0-21",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -2367,6 +2433,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.4.0+0.1784071413",
+      "channel": "stable-2.4"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.4.0+0.1784076997",
+      "channel": "stable-2.4-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.5.0+0.1727240614",
       "channel": "stable-2.5"
     },
@@ -2763,6 +2841,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1784067919",
+      "channel": "stable-2.5"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1784067933",
+      "channel": "stable-2.5-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1758684783",
       "channel": "stable-2.6"
     },
@@ -2955,6 +3045,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1783986120",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1783986130",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173639",
       "channel": "stable-2.7"
     },
@@ -2998,6 +3100,18 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1781768244",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1783928748",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1783928796",
       "channel": "stable-2.7-cluster-scoped"
     },
     {
@@ -3303,6 +3417,12 @@
     {
       "package": "apicast-operator",
       "name": "apicast-operator",
+      "version": "0.13.4",
+      "channel": "threescale-2.16"
+    },
+    {
+      "package": "apicast-operator",
+      "name": "apicast-operator",
       "version": "0.6.0-mas",
       "channel": "threescale-mas"
     },
@@ -3487,6 +3607,12 @@
       "channel": "3.2.x"
     },
     {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.6-r1",
+      "channel": "3.2.x"
+    },
+    {
       "package": "authorino-operator",
       "name": "authorino-operator",
       "version": "1.0.1",
@@ -3533,6 +3659,18 @@
       "name": "authorino-operator",
       "version": "1.2.2",
       "channel": "stable"
+    },
+    {
+      "package": "automation-orchestrator-operator",
+      "name": "automation-orchestrator-operator",
+      "version": "2026.9.1784614912",
+      "channel": "candidate"
+    },
+    {
+      "package": "automation-orchestrator-operator",
+      "name": "automation-orchestrator-operator",
+      "version": "2026.9.1784677103",
+      "channel": "early-access"
     },
     {
       "package": "aws-efs-csi-driver-operator",
@@ -3814,6 +3952,12 @@
       "package": "aws-efs-csi-driver-operator",
       "name": "aws-efs-csi-driver-operator",
       "version": "4.14.0-202606181945",
+      "channel": "stable"
+    },
+    {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.14.0-202607011043",
       "channel": "stable"
     },
     {
@@ -5443,6 +5587,12 @@
       "channel": "stable"
     },
     {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.14.0-202607011043",
+      "channel": "stable"
+    },
+    {
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "0.1.32",
@@ -5638,6 +5788,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.10.23",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.10.24",
       "channel": "stable-3.10"
     },
     {
@@ -5847,6 +6003,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.12.20",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.12.3",
       "channel": "stable-3.12"
     },
@@ -6051,6 +6213,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.15.6",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.16.0",
       "channel": "stable-3.16"
     },
@@ -6076,6 +6244,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.16.5",
       "channel": "stable-3.16"
     },
     {
@@ -6465,6 +6639,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.9.24",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -6664,6 +6844,12 @@
       "package": "costmanagement-metrics-operator",
       "name": "costmanagement-metrics-operator",
       "version": "4.4.1",
+      "channel": "stable"
+    },
+    {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.4.2",
       "channel": "stable"
     },
     {
@@ -7339,6 +7525,12 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.5",
+      "channel": "stable"
+    },
+    {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.5",
@@ -7384,6 +7576,12 @@
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.15",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.16",
       "channel": "alpha"
     },
     {
@@ -9123,6 +9321,12 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1783537023.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "channel": "fuse-apicurito-7.10.x"
     },
@@ -9436,6 +9640,12 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1781635284.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1783537018.p",
       "channel": "7.13.x"
     },
     {
@@ -10207,6 +10417,12 @@
       "channel": "stable"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.14.0-202607011043",
+      "channel": "stable"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.14.0-202310201027",
@@ -10486,6 +10702,12 @@
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.14.0-202606231109",
+      "channel": "stable"
+    },
+    {
+      "package": "ingress-node-firewall",
+      "name": "ingress-node-firewall",
+      "version": "4.14.0-202607011043",
       "channel": "stable"
     },
     {
@@ -11127,6 +11349,12 @@
     {
       "package": "kiali-ossm",
       "name": "kiali-ossm",
+      "version": "2.27.1",
+      "channel": "stable"
+    },
+    {
+      "package": "kiali-ossm",
+      "name": "kiali-ossm",
       "version": "2.4.3",
       "channel": "stable"
     },
@@ -11467,6 +11695,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubernetes-nmstate-operator",
+      "name": "kubernetes-nmstate-operator",
+      "version": "4.14.0-202607011950",
+      "channel": "stable"
+    },
+    {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.12.0",
@@ -11614,6 +11848,24 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.14.23",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.14.24",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.14.25",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.14.26",
       "channel": "candidate"
     },
     {
@@ -12004,6 +12256,12 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202606230317",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202607051859",
       "channel": "stable"
     },
     {
@@ -12921,6 +13179,18 @@
     {
       "package": "mcg-operator",
       "name": "mcg-operator",
+      "version": "4.14.35-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.14.36-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -13273,6 +13543,12 @@
       "channel": "stable"
     },
     {
+      "package": "metallb-operator",
+      "name": "metallb-operator",
+      "version": "4.14.0-202607011043",
+      "channel": "stable"
+    },
+    {
       "package": "mta-operator",
       "name": "mta-operator",
       "version": "6.1.0",
@@ -13433,6 +13709,12 @@
       "name": "mta-operator",
       "version": "8.1.2",
       "channel": "stable-v8.1"
+    },
+    {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.2.0",
+      "channel": "stable-v8.2"
     },
     {
       "package": "mtc-operator",
@@ -13600,6 +13882,12 @@
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.8.15",
+      "channel": "release-v1.8"
+    },
+    {
+      "package": "mtc-operator",
+      "name": "mtc-operator",
+      "version": "1.8.16",
       "channel": "release-v1.8"
     },
     {
@@ -14079,6 +14367,12 @@
     {
       "package": "multicluster-engine",
       "name": "multicluster-engine",
+      "version": "2.6.12",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
       "version": "2.6.2",
       "channel": "stable-2.6"
     },
@@ -14323,6 +14617,12 @@
       "channel": "release-1.4"
     },
     {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.4.7",
+      "channel": "release-1.4"
+    },
+    {
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.0.0",
@@ -14368,6 +14668,12 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.12.0",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.12.1",
       "channel": "stable"
     },
     {
@@ -14746,6 +15052,12 @@
       "package": "nfd",
       "name": "nfd",
       "version": "4.14.0-202606181945",
+      "channel": "stable"
+    },
+    {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.14.0-202607011043",
       "channel": "stable"
     },
     {
@@ -15141,6 +15453,18 @@
     {
       "package": "ocs-client-operator",
       "name": "ocs-client-operator",
+      "version": "4.14.35-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
+      "version": "4.14.36-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -15394,6 +15718,18 @@
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.14.34-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.14.35-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.14.36-rhodf",
       "channel": "stable-4.14"
     },
     {
@@ -15663,6 +15999,18 @@
     {
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
+      "version": "4.14.35-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
+      "version": "4.14.36-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -15921,6 +16269,18 @@
     {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
+      "version": "4.14.35-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
+      "version": "4.14.36-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -16179,6 +16539,18 @@
     {
       "package": "odf-operator",
       "name": "odf-operator",
+      "version": "4.14.35-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
+      "version": "4.14.36-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odf-operator",
+      "name": "odf-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -16437,6 +16809,18 @@
     {
       "package": "odr-cluster-operator",
       "name": "odr-cluster-operator",
+      "version": "4.14.35-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
+      "version": "4.14.36-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
       "version": "4.14.4-rhodf",
       "channel": "stable-4.14"
     },
@@ -16690,6 +17074,18 @@
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.14.34-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.14.35-rhodf",
+      "channel": "stable-4.14"
+    },
+    {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.14.36-rhodf",
       "channel": "stable-4.14"
     },
     {
@@ -17032,6 +17428,12 @@
       "package": "openshift-custom-metrics-autoscaler-operator",
       "name": "openshift-custom-metrics-autoscaler-operator",
       "version": "2.19.0-1",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-custom-metrics-autoscaler-operator",
+      "name": "openshift-custom-metrics-autoscaler-operator",
+      "version": "2.19.0-2",
       "channel": "stable"
     },
     {
@@ -17901,6 +18303,12 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.21.3",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.22.0",
       "channel": "latest"
     },
@@ -17926,6 +18334,12 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.22.4",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.23.0",
       "channel": "latest"
     },
     {
@@ -18547,6 +18961,12 @@
       "channel": "stable"
     },
     {
+      "package": "ptp-operator",
+      "name": "ptp-operator",
+      "version": "4.14.0-202607011043",
+      "channel": "stable"
+    },
+    {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.10.0",
@@ -18646,6 +19066,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.10.23",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.10.24",
       "channel": "stable-3.10"
     },
     {
@@ -18855,6 +19281,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.12.20",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.12.3",
       "channel": "stable-3.12"
     },
@@ -19059,6 +19491,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.15.6",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.16.0",
       "channel": "stable-3.16"
     },
@@ -19084,6 +19522,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.16.5",
       "channel": "stable-3.16"
     },
     {
@@ -19473,6 +19917,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.24",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -19612,6 +20062,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.23",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.10.24",
       "channel": "stable-3.10"
     },
     {
@@ -19821,6 +20277,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.12.20",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.12.3",
       "channel": "stable-3.12"
     },
@@ -20025,6 +20487,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.15.6",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.16.0",
       "channel": "stable-3.16"
     },
@@ -20050,6 +20518,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.16.5",
       "channel": "stable-3.16"
     },
     {
@@ -20374,6 +20848,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.23",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.24",
       "channel": "stable-3.9"
     },
     {
@@ -21759,7 +22239,19 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.5",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.11.0",
+      "channel": "rhacs-4.11"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.11.1",
       "channel": "rhacs-4.11"
     },
     {
@@ -22216,6 +22708,12 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.8",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.9.9",
       "channel": "rhacs-4.10"
     },
     {
@@ -23995,6 +24493,12 @@
       "channel": "preview"
     },
     {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.14.0-202607011043",
+      "channel": "preview"
+    },
+    {
       "package": "security-profiles-operator",
       "name": "security-profiles-operator",
       "version": "0.10.0",
@@ -25651,6 +26155,12 @@
       "channel": "stable"
     },
     {
+      "package": "sriov-network-operator",
+      "name": "sriov-network-operator",
+      "version": "4.14.0-202607011043",
+      "channel": "stable"
+    },
+    {
       "package": "submariner",
       "name": "submariner",
       "version": "0.15.2",
@@ -25984,6 +26494,12 @@
       "package": "tempo-product",
       "name": "tempo-product",
       "version": "0.21.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.21.0-3",
       "channel": "stable"
     },
     {
@@ -26338,6 +26854,12 @@
       "package": "vertical-pod-autoscaler",
       "name": "vertical-pod-autoscaler",
       "version": "4.14.0-202606181945",
+      "channel": "stable"
+    },
+    {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.14.0-202607011043",
       "channel": "stable"
     },
     {
@@ -26719,7 +27241,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4453,
+  "count": 4540,
   "source": "opm",
-  "timestamp": "2026-07-07T06:38:46.861134"
+  "timestamp": "2026-07-26T03:44:01.969792"
 }

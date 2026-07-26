@@ -131,19 +131,19 @@
     "microgateway.airlock.com/v1alpha1/APIProtection": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/AccessControl": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/AccessControlPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/CSRFProtection": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/ContentSecurity": [
+    "microgateway.airlock.com/v1alpha1/ContentSecurityPolicy": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/ContentSecurityPolicy": [
+    "microgateway.airlock.com/v1alpha1/CustomResponse": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/CustomResponsePolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/DenyRules": [
@@ -153,6 +153,9 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/EnvoyConfiguration": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/EnvoyHTTPFilter": [
@@ -171,6 +174,9 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/JWKS": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/JWT": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/Limits": [
@@ -194,25 +200,10 @@
     "microgateway.airlock.com/v1alpha1/SessionHandling": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/SidecarGateway": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/Telemetry": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/JWT": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/TokenExchange": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/CustomResponse": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/CustomResponsePolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
@@ -344,6 +335,9 @@
     "cluster.appdynamics.com/v1alpha1/InfraViz": [
       "appdynamics-operator"
     ],
+    "crd.k8s.appian.com/v1beta1/Appian": [
+      "appian-operator"
+    ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
     ],
@@ -381,6 +375,15 @@
       "aqua-operator-certified"
     ],
     "platform.axerasecurity.com/v1alpha1/Axera": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraFlow": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraForce": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraProcess": [
       "axera-operator"
     ],
     "cfm.cloudera.com/v1alpha1/Nifi": [
@@ -839,6 +842,9 @@
     "compute.functionmesh.io/v1alpha1/Source": [
       "function-mesh"
     ],
+    "apps.gitlab.com/v1beta1/GitLab": [
+      "gitlab-operator-kubernetes"
+    ],
     "cluster-services-openshift.cloud.google.com/v1alpha1/TelemetryConfig": [
       "google-cloud-cluster-services-for-openshift-telemetry"
     ],
@@ -1178,6 +1184,30 @@
     "mediation.turbonomic.ibm.com/v1alpha1/OpenstackProbe": [
       "mediation-openstack-operator"
     ],
+    "minkms.min.io/v1alpha1/MinKMS": [
+      "minio-minkms-operator"
+    ],
+    "minkms.min.io/v1alpha1/MinKMSEnclave": [
+      "minio-minkms-operator"
+    ],
+    "minkms.min.io/v1alpha1/MinKMSIdentity": [
+      "minio-minkms-operator"
+    ],
+    "minkms.min.io/v1alpha1/MinKMSKey": [
+      "minio-minkms-operator"
+    ],
+    "aistor.min.io/v1alpha1/AdminJob": [
+      "minio-object-store-operator"
+    ],
+    "aistor.min.io/v1/ObjectStore": [
+      "minio-object-store-operator"
+    ],
+    "sts.min.io/v1alpha1/PolicyBinding": [
+      "minio-object-store-operator"
+    ],
+    "sts.min.io/v1beta1/PolicyBinding": [
+      "minio-object-store-operator"
+    ],
     "atlas.mongodb.com/v1/AtlasBackupPolicy": [
       "mongodb-atlas-kubernetes"
     ],
@@ -1361,11 +1391,23 @@
     "maintenance.nvidia.com/v1alpha1/NodeMaintenance": [
       "nvidia-maintenance-operator"
     ],
+    "mellanox.com/v1alpha1/HostDeviceNetwork": [
+      "nvidia-network-operator"
+    ],
+    "mellanox.com/v1alpha1/IPoIBNetwork": [
+      "nvidia-network-operator"
+    ],
+    "mellanox.com/v1alpha1/MacvlanNetwork": [
+      "nvidia-network-operator"
+    ],
+    "mellanox.com/v1alpha1/NicClusterPolicy": [
+      "nvidia-network-operator"
+    ],
+    "mellanox.com/v1alpha1/NicNodePolicy": [
+      "nvidia-network-operator"
+    ],
     "sonatype.com/v1alpha1/NexusIQ": [
       "nxiq-operator-certified"
-    ],
-    "capi.openshift.io/v1alpha1/OCIClusterAutoscaler": [
-      "oci-capi-autoscaling-operator"
     ],
     "operator.odigos.io/v1alpha1/Odigos": [
       "odigos-operator"
@@ -1393,6 +1435,18 @@
     ],
     "certification.redhat.com/v1alpha1/OperatorPipeline": [
       "operator-certification-operator"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQL": [
+      "percona-server-mysql-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLBackup": [
+      "percona-server-mysql-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLClusterSet": [
+      "percona-server-mysql-operator-certified"
+    ],
+    "ps.percona.com/v1/PerconaServerMySQLRestore": [
+      "percona-server-mysql-operator-certified"
     ],
     "core.libopenstorage.org/v1/StorageCluster": [
       "portworx-certified"
@@ -1429,6 +1483,39 @@
     ],
     "rebellions.ai/v1alpha1/RBLNDriver": [
       "rbln-npu-operator"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseACL": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseActiveActiveDatabase": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1/RedisEnterpriseCluster": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseCluster": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseClusterRole": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseClusterRoleBinding": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseDatabase": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseRemoteCluster": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseRole": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseRoleBinding": [
+      "redis-enterprise-operator-cert"
+    ],
+    "app.redislabs.com/v1alpha1/RedisEnterpriseUser": [
+      "redis-enterprise-operator-cert"
     ],
     "rc.app.stacks/v1beta2/RuntimeComponent": [
       "runtime-component-operator-certified"
@@ -1748,6 +1835,51 @@
     "operator.victoriametrics.com/v1/VMAnomalyConfig": [
       "victoriametrics-operator"
     ],
+    "wavek8s.com/v1alpha1/Wave": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAlert": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAlertChannel": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotPolicy": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotPreset": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotSchedule": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveDiagnosisConfig": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveFlowPolicy": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveKarpenterNodeWarmup": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveKarpenterSpotPlacement": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveLabelGroup": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveNetfunnelConnection": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveNetfunnelMapping": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WavePvcAutoExpansion": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveSmartSizingPolicy": [
+      "wave"
+    ],
     "csi.hpe.com/v1/GadPairAction": [
       "xspc-operator"
     ],
@@ -1773,5 +1905,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-07T06:56:29.127645"
+  "timestamp": "2026-07-26T04:02:20.111974"
 }

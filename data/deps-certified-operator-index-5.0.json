@@ -218,6 +218,15 @@
     "platform.axerasecurity.com/v1alpha1/Axera": [
       "axera-operator"
     ],
+    "platform.axerasecurity.com/v1alpha1/AxeraFlow": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraForce": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraProcess": [
+      "axera-operator"
+    ],
     "cfm.cloudera.com/v1alpha1/Nifi": [
       "cfm-operator"
     ],
@@ -950,9 +959,6 @@
     "sonatype.com/v1alpha1/NexusIQ": [
       "nxiq-operator-certified"
     ],
-    "capi.openshift.io/v1alpha1/OCIClusterAutoscaler": [
-      "oci-capi-autoscaling-operator"
-    ],
     "operator.odigos.io/v1alpha1/Odigos": [
       "odigos-operator"
     ],
@@ -1172,6 +1178,51 @@
     "installer.venafi.com/v1alpha1/VenafiInstall": [
       "vcp-operator"
     ],
+    "wavek8s.com/v1alpha1/Wave": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAlert": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAlertChannel": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotPolicy": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotPreset": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotSchedule": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveDiagnosisConfig": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveFlowPolicy": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveKarpenterNodeWarmup": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveKarpenterSpotPlacement": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveLabelGroup": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveNetfunnelConnection": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveNetfunnelMapping": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WavePvcAutoExpansion": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveSmartSizingPolicy": [
+      "wave"
+    ],
     "csi.hpe.com/v1/GadPairAction": [
       "xspc-operator"
     ],
@@ -1197,5 +1248,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-07T06:57:23.036891"
+  "timestamp": "2026-07-26T04:03:10.931675"
 }

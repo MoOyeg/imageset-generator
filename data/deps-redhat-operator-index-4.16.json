@@ -513,6 +513,12 @@
     "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceRestore": [
       "ansible-automation-platform-operator"
     ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServerBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServerRestore": [
+      "ansible-automation-platform-operator"
+    ],
     "platform.ansible.com/v1alpha1/AnsibleAutomationPlatformAwsBilling": [
       "ansible-cloud-addons-operator"
     ],
@@ -542,6 +548,9 @@
     ],
     "authorino.kuadrant.io/v1beta1/AuthConfig": [
       "authorino-operator"
+    ],
+    "aap.ansible.com/v1alpha1/AutomationOrchestrator": [
+      "automation-orchestrator-operator"
     ],
     "elbv2.k8s.aws/v1beta1/IngressClassParams": [
       "aws-load-balancer-operator"
@@ -1234,6 +1243,15 @@
       "mta-operator"
     ],
     "tackle.konveyor.io/v1alpha1/Schema": [
+      "mta-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/IdentityProvider": [
+      "mta-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/IdpClient": [
+      "mta-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/LdapProvider": [
       "mta-operator"
     ],
     "migration.openshift.io/v1alpha1/DirectImageMigration": [
@@ -2482,5 +2500,5 @@
       "watcher-operator"
     ]
   },
-  "timestamp": "2026-07-07T06:46:32.620114"
+  "timestamp": "2026-07-26T03:52:10.710443"
 }

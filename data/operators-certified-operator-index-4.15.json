@@ -313,6 +313,12 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.8.0",
+      "channel": "stable"
+    },
+    {
       "package": "anchore-engine",
       "name": "anchore-engine",
       "version": "1.0.1",
@@ -417,20 +423,8 @@
     {
       "package": "appdynamics-operator",
       "name": "appdynamics-operator",
-      "version": "26.4.0-1345",
+      "version": "26.7.0-1390",
       "channel": "stable"
-    },
-    {
-      "package": "appian-operator",
-      "name": "appian-operator",
-      "version": "0.171.0",
-      "channel": "alpha"
-    },
-    {
-      "package": "appian-operator",
-      "name": "appian-operator",
-      "version": "0.184.0",
-      "channel": "alpha"
     },
     {
       "package": "aqua-operator-certified",
@@ -580,6 +574,60 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.6.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.7.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.7.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.7.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.7.5",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.7.6",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.7.7",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.7.8",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.8.0",
       "channel": "alpha"
     },
     {
@@ -1329,6 +1377,12 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.17.17-cee.1",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.4-cee.1",
       "channel": "1.17"
     },
@@ -1360,6 +1414,12 @@
       "package": "clife",
       "name": "clife",
       "version": "1.18.10-cee.1",
+      "channel": "1.18"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.11-cee.1",
       "channel": "1.18"
     },
     {
@@ -1719,7 +1779,25 @@
     {
       "package": "cp-fko",
       "name": "cp-fko",
+      "version": "1.13.0-cp4",
+      "channel": "stable-v1.13"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
       "version": "1.14.0-cp1",
+      "channel": "stable-v1.14"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.14.0-cp3",
+      "channel": "stable-v1.14"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.15.0-cp2",
       "channel": "stable"
     },
     {
@@ -2074,6 +2152,12 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.27.1",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.28.0",
       "channel": "stable"
     },
     {
@@ -2565,7 +2649,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.3",
+      "version": "26.1.4",
       "channel": "stable-v26.1"
     },
     {
@@ -2899,15 +2983,21 @@
       "channel": "stable"
     },
     {
+      "package": "eqube-operator",
+      "name": "eqube-operator",
+      "version": "1.0.3",
+      "channel": "stable"
+    },
+    {
       "package": "exascaler-csi-driver-operator",
       "name": "exascaler-csi-driver-operator",
-      "version": "2.8.1",
+      "version": "2.9.0",
       "channel": "alpha"
     },
     {
       "package": "f5-bigip-ctlr-operator",
       "name": "f5-bigip-ctlr-operator",
-      "version": "1.23.0",
+      "version": "1.23.1",
       "channel": "alpha"
     },
     {
@@ -3073,6 +3163,12 @@
       "channel": "stable"
     },
     {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.3.3",
+      "channel": "stable"
+    },
+    {
       "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
       "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
       "version": "8.1.5",
@@ -3099,73 +3195,7 @@
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
-      "version": "2.10.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.10.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.11.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.11.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.11.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.11.3",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "2.9.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "3.0.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "3.0.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "3.0.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "3.1.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-operator-kubernetes",
-      "name": "gitlab-operator-kubernetes",
-      "version": "3.1.1",
+      "version": "3.2.0",
       "channel": "stable"
     },
     {
@@ -3205,10 +3235,22 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.51.0",
+      "channel": "stable"
+    },
+    {
       "package": "google-cloud-cluster-services-for-openshift-telemetry",
       "name": "google-cloud-cluster-services-for-openshift-telemetry",
-      "version": "0.0.4",
+      "version": "0.0.6",
       "channel": "alpha"
+    },
+    {
+      "package": "google-cloud-cluster-services-for-openshift-telemetry",
+      "name": "google-cloud-cluster-services-for-openshift-telemetry",
+      "version": "0.0.7",
+      "channel": "stable"
     },
     {
       "package": "gpu-operator-certified",
@@ -3813,7 +3855,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.5",
+      "version": "2.24.6",
       "channel": "beta"
     },
     {
@@ -3849,7 +3891,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.5",
+      "version": "2.24.6",
       "channel": "beta"
     },
     {
@@ -4492,6 +4534,12 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.15",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.16",
       "channel": "stable"
     },
     {
@@ -5167,6 +5215,12 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.1",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -5653,6 +5707,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubedb-installer",
+      "name": "kubedb-installer",
+      "version": "2026.6.19",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace",
       "name": "kubemq-operator-marketplace",
       "version": "1.8.5",
@@ -5679,13 +5739,13 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.20",
-      "channel": "stable"
+      "version": "8.20.40",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.30-beta.1",
+      "version": "8.20.40-beta.1",
       "channel": "beta"
     },
     {
@@ -5745,6 +5805,12 @@
     {
       "package": "linstor-operator",
       "name": "linstor-operator",
+      "version": "2.10.8",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
       "version": "2.8.1",
       "channel": "stable-v2"
     },
@@ -5781,13 +5847,13 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.20",
-      "channel": "stable"
+      "version": "8.20.40",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.30-beta.1",
+      "version": "8.20.40-beta.1",
       "channel": "beta"
     },
     {
@@ -6028,6 +6094,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.15.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.15.1",
       "channel": "stable"
     },
     {
@@ -6349,9 +6421,15 @@
       "channel": "stable"
     },
     {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.9.1",
+      "channel": "stable"
+    },
+    {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.11",
+      "version": "0.0.12",
       "channel": "alpha"
     },
     {
@@ -6601,6 +6679,12 @@
       "channel": "beta"
     },
     {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.7",
+      "channel": "beta"
+    },
+    {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
       "version": "3.90.3-1",
@@ -6688,6 +6772,24 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.6.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.6.5",
       "channel": "alpha"
     },
     {
@@ -6796,6 +6898,12 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.7.1",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.7.2",
       "channel": "stable-3.x"
     },
     {
@@ -7485,13 +7593,13 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.20",
-      "channel": "stable"
+      "version": "8.20.40",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.30-beta.1",
+      "version": "8.20.40-beta.1",
       "channel": "beta"
     },
     {
@@ -7612,6 +7720,12 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.22.2-40.0",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-42.0",
       "channel": "7.22.2"
     },
     {
@@ -7750,7 +7864,7 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-16.0",
-      "channel": "7.8.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -8290,6 +8404,24 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.32.5",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.32.6",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.32.7",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.32.8",
       "channel": "stable-v1"
     },
     {
@@ -8911,6 +9043,24 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.0-rc3",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.0-rc4",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.0-rc5",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -8937,25 +9087,25 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.108.0",
-      "channel": "stable"
+      "version": "42.111.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.109.0-beta.2",
+      "version": "42.111.0-beta.1",
       "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.0",
+      "version": "1.7.1",
       "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.0-candidate-20260626125049000",
+      "version": "1.7.1-candidate-20260713095709000",
       "channel": "candidate"
     },
     {
@@ -9091,6 +9241,24 @@
       "channel": "candidate-v3"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.1",
+      "channel": "fast-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.0.2",
+      "channel": "fast-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc1",
+      "channel": "candidate-v3"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -9173,6 +9341,12 @@
       "name": "tenant-operator",
       "version": "1.8.3",
       "channel": "release-1.8"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.9.0",
+      "channel": "release-1.9"
     },
     {
       "package": "tigera-operator",
@@ -9363,14 +9537,20 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.6.0-24",
-      "channel": "beta"
+      "version": "2026.6.1-26",
+      "channel": "2026.6"
     },
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.6.1-26",
-      "channel": "2026.6"
+      "version": "2026.7.1-18",
+      "channel": "2026.7"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.8.0-17",
+      "channel": "beta"
     },
     {
       "package": "uma-operator",
@@ -9465,14 +9645,20 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.6.0-24",
+      "version": "2026.6.1-26",
+      "channel": "2026.6"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.7.0-17",
       "channel": "beta"
     },
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.6.1-26",
-      "channel": "2026.6"
+      "version": "2026.7.1-18",
+      "channel": "2026.7"
     },
     {
       "package": "uma-team-operator",
@@ -9567,14 +9753,20 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.6.0-24",
+      "version": "2026.6.1-26",
+      "channel": "2026.6"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.7.0-17",
       "channel": "beta"
     },
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.6.1-26",
-      "channel": "2026.6"
+      "version": "2026.7.1-18",
+      "channel": "2026.7"
     },
     {
       "package": "vast-csi-operator",
@@ -9691,6 +9883,18 @@
       "channel": "stable"
     },
     {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.4.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.5.0",
+      "channel": "stable"
+    },
+    {
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.0.0",
@@ -9793,6 +9997,12 @@
       "channel": "stable"
     },
     {
+      "package": "vfunction-server-operator",
+      "name": "vfunction-server-operator",
+      "version": "4.7.2072",
+      "channel": "stable"
+    },
+    {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.68.2",
@@ -9820,6 +10030,12 @@
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.70.1",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.73.1",
       "channel": "beta"
     },
     {
@@ -9857,6 +10073,12 @@
       "name": "visionone-containersecurity",
       "version": "3.4.2",
       "channel": "alpha"
+    },
+    {
+      "package": "wave",
+      "name": "wave",
+      "version": "3.4.6",
+      "channel": "stable"
     },
     {
       "package": "webotx-operator",
@@ -9961,7 +10183,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1660,
+  "count": 1697,
   "source": "opm",
-  "timestamp": "2026-07-07T06:43:22.972981"
+  "timestamp": "2026-07-26T03:48:41.976313"
 }

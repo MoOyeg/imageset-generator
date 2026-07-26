@@ -220,19 +220,19 @@
     "microgateway.airlock.com/v1alpha1/APIProtection": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/AccessControl": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/AccessControlPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/CSRFProtection": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/ContentSecurity": [
+    "microgateway.airlock.com/v1alpha1/ContentSecurityPolicy": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/ContentSecurityPolicy": [
+    "microgateway.airlock.com/v1alpha1/CustomResponse": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/CustomResponsePolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/DenyRules": [
@@ -242,6 +242,9 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/EnvoyConfiguration": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/EnvoyHTTPFilter": [
@@ -260,6 +263,9 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/JWKS": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/JWT": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/Limits": [
@@ -283,25 +289,10 @@
     "microgateway.airlock.com/v1alpha1/SessionHandling": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/SidecarGateway": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/Telemetry": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/JWT": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/TokenExchange": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/CustomResponse": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/CustomResponsePolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
@@ -311,9 +302,6 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
       "airlock-microgateway"
     ],
     "aiu.ibm.com/v2/AiuClusterPolicy": [
@@ -515,6 +503,15 @@
       "aqua-operator-certified"
     ],
     "platform.axerasecurity.com/v1alpha1/Axera": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraFlow": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraForce": [
+      "axera-operator"
+    ],
+    "platform.axerasecurity.com/v1alpha1/AxeraProcess": [
       "axera-operator"
     ],
     "cassandra.datastax.com/v1beta1/CassandraDatacenter": [
@@ -2862,6 +2859,51 @@
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
       "visionone-containersecurity"
     ],
+    "wavek8s.com/v1alpha1/Wave": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAlert": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAlertChannel": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotPolicy": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotPreset": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveAutopilotSchedule": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveDiagnosisConfig": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveFlowPolicy": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveKarpenterNodeWarmup": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveKarpenterSpotPlacement": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveLabelGroup": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveNetfunnelConnection": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveNetfunnelMapping": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WavePvcAutoExpansion": [
+      "wave"
+    ],
+    "wavek8s.com/v1alpha1/WaveSmartSizingPolicy": [
+      "wave"
+    ],
     "webotx.nec.com/v3/ApplicationServer": [
       "webotx-operator"
     ],
@@ -2890,5 +2932,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-07T06:49:31.395787"
+  "timestamp": "2026-07-26T03:55:21.306288"
 }

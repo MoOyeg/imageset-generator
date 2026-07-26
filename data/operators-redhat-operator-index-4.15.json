@@ -139,6 +139,12 @@
       "channel": "threescale-2.16"
     },
     {
+      "package": "3scale-operator",
+      "name": "3scale-operator",
+      "version": "0.13.4",
+      "channel": "threescale-2.16"
+    },
+    {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
       "version": "2.10.0",
@@ -208,6 +214,12 @@
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
       "version": "2.11.1",
+      "channel": "release-2.11"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
+      "version": "2.11.10",
       "channel": "release-2.11"
     },
     {
@@ -1479,6 +1491,18 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-1",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "2.9.4-2",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "channel": "amq-streams-3.0.x"
     },
@@ -1552,6 +1576,18 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.0-26",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.0-27",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.0-29",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -1689,6 +1725,12 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "2.9.4-5",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.0.0-10",
       "channel": "alpha"
     },
@@ -1773,6 +1815,18 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "3.2.0-24",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.0-25",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.2.0-4",
       "channel": "amq-streams-3.2.x"
     },
@@ -1851,7 +1905,19 @@
     {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
+      "version": "3.2.0-19",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
       "version": "3.2.0-2",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.0-21",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -2925,6 +2991,12 @@
     {
       "package": "apicast-operator",
       "name": "apicast-operator",
+      "version": "0.13.4",
+      "channel": "threescale-2.16"
+    },
+    {
+      "package": "apicast-operator",
+      "name": "apicast-operator",
       "version": "0.6.0-mas",
       "channel": "threescale-mas"
     },
@@ -3106,6 +3178,12 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.5-r1",
+      "channel": "3.2.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.6-r1",
       "channel": "3.2.x"
     },
     {
@@ -5193,6 +5271,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.24",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -5392,6 +5476,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.12.2",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.12.20",
       "channel": "stable-3.12"
     },
     {
@@ -5601,6 +5691,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.15.6",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.16.0",
       "channel": "stable-3.16"
     },
@@ -5626,6 +5722,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.16.5",
       "channel": "stable-3.16"
     },
     {
@@ -6015,6 +6117,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.9.24",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -6214,6 +6322,12 @@
       "package": "costmanagement-metrics-operator",
       "name": "costmanagement-metrics-operator",
       "version": "4.4.1",
+      "channel": "stable"
+    },
+    {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.4.2",
       "channel": "stable"
     },
     {
@@ -6889,6 +7003,12 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.5",
+      "channel": "stable"
+    },
+    {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.5",
@@ -6934,6 +7054,12 @@
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.15",
+      "channel": "alpha"
+    },
+    {
+      "package": "deployment-validation-operator",
+      "name": "deployment-validation-operator",
+      "version": "0.7.16",
       "channel": "alpha"
     },
     {
@@ -8577,6 +8703,12 @@
     {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
+      "version": "7.13.0+0.1783537023.p",
+      "channel": "fuse-apicurito-7.13.x"
+    },
+    {
+      "package": "fuse-apicurito",
+      "name": "fuse-apicurito",
       "version": "7.9.3",
       "channel": "fuse-apicurito-7.10.x"
     },
@@ -8890,6 +9022,12 @@
       "package": "fuse-console",
       "name": "fuse-console",
       "version": "7.13.0+0.1781635284.p",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "fuse-console",
+      "name": "fuse-console",
+      "version": "7.13.0+0.1783537018.p",
       "channel": "7.13.x"
     },
     {
@@ -11103,6 +11241,12 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.15.16",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.15.2",
       "channel": "stable"
     },
@@ -13033,6 +13177,12 @@
       "channel": "stable-v8.1"
     },
     {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.2.0",
+      "channel": "stable-v8.2"
+    },
+    {
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.7.0",
@@ -13198,6 +13348,12 @@
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.8.15",
+      "channel": "release-v1.8"
+    },
+    {
+      "package": "mtc-operator",
+      "name": "mtc-operator",
+      "version": "1.8.16",
       "channel": "release-v1.8"
     },
     {
@@ -13647,6 +13803,12 @@
     {
       "package": "multicluster-engine",
       "name": "multicluster-engine",
+      "version": "2.6.12",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
       "version": "2.6.2",
       "channel": "stable-2.6"
     },
@@ -13941,6 +14103,12 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.4.7",
+      "channel": "release-1.4"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.0",
       "channel": "release-1.5"
     },
@@ -13966,6 +14134,18 @@
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.4",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.5.5",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.5.6",
       "channel": "release-1.5"
     },
     {
@@ -14014,6 +14194,12 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.12.0",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.12.1",
       "channel": "stable"
     },
     {
@@ -17329,6 +17515,12 @@
       "channel": "stable"
     },
     {
+      "package": "openshift-custom-metrics-autoscaler-operator",
+      "name": "openshift-custom-metrics-autoscaler-operator",
+      "version": "2.19.0-2",
+      "channel": "stable"
+    },
+    {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.10.0",
@@ -18891,6 +19083,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.24",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -19090,6 +19288,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.12.2",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.12.20",
       "channel": "stable-3.12"
     },
     {
@@ -19299,6 +19503,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.15.6",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.16.0",
       "channel": "stable-3.16"
     },
@@ -19324,6 +19534,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.16.5",
       "channel": "stable-3.16"
     },
     {
@@ -19713,6 +19929,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.24",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -19852,6 +20074,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.23",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.10.24",
       "channel": "stable-3.10"
     },
     {
@@ -20061,6 +20289,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.12.20",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.12.3",
       "channel": "stable-3.12"
     },
@@ -20265,6 +20499,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.15.6",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.16.0",
       "channel": "stable-3.16"
     },
@@ -20290,6 +20530,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.16.4",
+      "channel": "stable-3.16"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.16.5",
       "channel": "stable-3.16"
     },
     {
@@ -20614,6 +20860,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.23",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.24",
       "channel": "stable-3.9"
     },
     {
@@ -25827,6 +26079,12 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.21.0-3",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "channel": "stable"
     },
@@ -26497,7 +26755,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4416,
+  "count": 4459,
   "source": "opm",
-  "timestamp": "2026-07-07T06:42:39.975868"
+  "timestamp": "2026-07-26T03:47:54.640718"
 }

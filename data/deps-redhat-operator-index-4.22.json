@@ -89,6 +89,10 @@
         {
           "packageName": "rook-ceph-operator",
           "versionRange": "4.21.0-rhodf"
+        },
+        {
+          "packageName": "ocs-tls-profiles",
+          "versionRange": "4.22.0-rhodf"
         }
       ],
       "requires_gvks": []
@@ -101,6 +105,21 @@
         }
       ],
       "requires_gvks": []
+    },
+    "odr-volsync-plugin-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "volsync.backube",
+          "kind": "ReplicationDestination",
+          "version": "v1alpha1"
+        },
+        {
+          "group": "volsync.backube",
+          "kind": "ReplicationSource",
+          "version": "v1alpha1"
+        }
+      ]
     },
     "rhcl-operator": {
       "requires_packages": [
@@ -178,6 +197,9 @@
       "3scale-operator"
     ],
     "capabilities.3scale.net/v1beta1/Application": [
+      "3scale-operator"
+    ],
+    "capabilities.3scale.net/v1beta1/ApplicationAuth": [
       "3scale-operator"
     ],
     "operator.open-cluster-management.io/v1/MultiClusterHub": [
@@ -428,6 +450,12 @@
     "tower.ansible.com/v1alpha1/WorkflowTemplate": [
       "ansible-automation-platform-operator"
     ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServerBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServerRestore": [
+      "ansible-automation-platform-operator"
+    ],
     "platform.ansible.com/v1alpha1/AnsibleAutomationPlatformAwsBilling": [
       "ansible-cloud-addons-operator"
     ],
@@ -457,6 +485,9 @@
     ],
     "authorino.kuadrant.io/v1beta3/AuthConfig": [
       "authorino-operator"
+    ],
+    "aap.ansible.com/v1alpha1/AutomationOrchestrator": [
+      "automation-orchestrator-operator"
     ],
     "elbv2.k8s.aws/v1beta1/IngressClassParams": [
       "aws-load-balancer-operator"
@@ -660,6 +691,9 @@
     ],
     "compliance.openshift.io/v1alpha1/CustomRule": [
       "compliance-operator"
+    ],
+    "secrets-management.openshift.io/v1alpha1/SecretsManagementConfig": [
+      "console-plugin-operator"
     ],
     "secscan.quay.redhat.com/v1alpha1/ImageManifestVuln": [
       "container-security-operator"
@@ -1072,6 +1106,9 @@
     "metallb.io/v1beta1/ServiceL2Status": [
       "metallb-operator"
     ],
+    "ml.sigstore.dev/v1alpha1/ModelValidation": [
+      "model-validation-operator"
+    ],
     "tackle.konveyor.io/v1alpha1/Addon": [
       "mta-operator"
     ],
@@ -1270,6 +1307,9 @@
     "ocs.openshift.io/v1alpha1/StorageConsumer": [
       "ocs-operator"
     ],
+    "ocs.openshift.io/v1/TLSProfile": [
+      "ocs-tls-profiles"
+    ],
     "csiaddons.openshift.io/v1alpha1/CSIAddonsNode": [
       "odf-csi-addons-operator"
     ],
@@ -1347,6 +1387,27 @@
     ],
     "ramendr.openshift.io/v1alpha1/DRPolicy": [
       "odr-hub-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/L2VNI": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/L3Passthrough": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/L3VNI": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/OpenPERouter": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/RawFRRConfig": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/RouterNodeConfigurationStatus": [
+      "openperouter-operator"
+    ],
+    "openpe.openperouter.github.io/v1alpha1/Underlay": [
+      "openperouter-operator"
     ],
     "operator.openshift.io/v1alpha1/OpenShiftBuild": [
       "openshift-builds-operator"
@@ -1627,6 +1688,18 @@
     "pfstatusrelay.openshift.io/v1alpha1/PFLACPMonitor": [
       "pf-status-relay-operator"
     ],
+    "policy.sigstore.dev/v1alpha1/ClusterImagePolicy": [
+      "policy-controller-operator"
+    ],
+    "policy.sigstore.dev/v1beta1/ClusterImagePolicy": [
+      "policy-controller-operator"
+    ],
+    "policy.sigstore.dev/v1alpha1/TrustRoot": [
+      "policy-controller-operator"
+    ],
+    "rhtas.charts.redhat.com/v1alpha1/PolicyController": [
+      "policy-controller-operator"
+    ],
     "ptp.openshift.io/v2alpha1/HardwareConfig": [
       "ptp-operator"
     ],
@@ -1813,6 +1886,21 @@
     "kuadrant.io/v1alpha1/TokenRateLimitPolicy": [
       "rhcl-operator"
     ],
+    "rhdh.redhat.com/v1alpha1/Backstage": [
+      "rhdh"
+    ],
+    "rhdh.redhat.com/v1alpha2/Backstage": [
+      "rhdh"
+    ],
+    "rhdh.redhat.com/v1alpha3/Backstage": [
+      "rhdh"
+    ],
+    "rhdh.redhat.com/v1alpha4/Backstage": [
+      "rhdh"
+    ],
+    "rhdh.redhat.com/v1alpha5/Backstage": [
+      "rhdh"
+    ],
     "kfdef.apps.kubeflow.org/v1/KfDef": [
       "rhods-operator"
     ],
@@ -1906,6 +1994,9 @@
     "components.platform.opendatahub.io/v1alpha1/OGX": [
       "rhods-operator"
     ],
+    "config.opendatahub.io/v1alpha1/Platform": [
+      "rhods-operator"
+    ],
     "keycloak.org/v1alpha1/Keycloak": [
       "rhsso-operator"
     ],
@@ -1941,6 +2032,9 @@
     ],
     "rhtas.redhat.com/v1alpha1/Tuf": [
       "rhtas-operator"
+    ],
+    "rhtpa.io/v1/TrustedProfileAnalyzer": [
+      "rhtpa-operator"
     ],
     "ceph.rook.io/v1/CephBlockPool": [
       "rook-ceph-operator"
@@ -1991,6 +2085,12 @@
       "rook-ceph-operator"
     ],
     "ceph.rook.io/v1/CephRBDMirror": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephNVMeOFGateway": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectStoreAccount": [
       "rook-ceph-operator"
     ],
     "operator.openshift.io/v1/RunOnceDurationOverride": [
@@ -2209,6 +2309,9 @@
     "sailoperator.io/v1/ZTunnel": [
       "servicemeshoperator3"
     ],
+    "extensions.istio.io/v1alpha1/TrafficExtension": [
+      "servicemeshoperator3"
+    ],
     "observability.skupper.io/v2alpha1/NetworkObserver": [
       "skupper-netobs-operator"
     ],
@@ -2336,5 +2439,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-07-07T06:56:15.123503"
+  "timestamp": "2026-07-26T04:02:07.390286"
 }
