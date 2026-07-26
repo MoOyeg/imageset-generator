@@ -129,12 +129,20 @@ while IFS= read -r line; do
 
         SSE_EVENT=""
     fi
-done < <(curl -sf -N -X POST http://127.0.0.1:5000/api/reset --max-time 3600 2>&1)
+done < <(curl -sf -N -X POST http://127.0.0.1:5000/api/reset --max-time 14400 2>&1)
 
 log "Data reset finished with status: ${RESET_STATUS}"
 
-if [ "$RESET_STATUS" == "error" ]; then
-    log "ERROR: Data reset failed. Check logs for details."
+if [ "$RESET_STATUS" != "success" ]; then
+    log "ERROR: Data reset did not complete successfully (status: ${RESET_STATUS})."
+    if [ "$RESET_STATUS" == "unknown" ]; then
+        # No 'complete' event arrived, so the SSE stream was cut short rather than
+        # the reset reporting a failure -- usually the curl --max-time budget or a
+        # container that died mid-refresh.
+        log "No completion event received: the reset stream was cut short before finishing."
+        log "Last 50 lines of container output:"
+        podman logs --tail 50 "$CONTAINER_NAME" >> "$LOG_FILE" 2>&1 || true
+    fi
     exit 1
 fi
 
