@@ -2393,6 +2393,9 @@
     "hawt.io/v1/Hawtio": [
       "hawtio-operator"
     ],
+    "headscale.jicoyne.io/v1alpha1/Headscale": [
+      "headscale-operator"
+    ],
     "hedvig.io/v1/HedvigDeploy": [
       "hedvig-operator"
     ],
@@ -2581,6 +2584,18 @@
     ],
     "redhatcop.redhat.io/v1alpha1/KeepalivedGroup": [
       "keepalived-operator"
+    ],
+    "kepler.system.sustainable.computing.io/v1alpha1/Kepler": [
+      "kepler-operator"
+    ],
+    "kepler.system.sustainable.computing.io/v1alpha1/KeplerInternal": [
+      "kepler-operator"
+    ],
+    "kepler.system.sustainable.computing.io/v1alpha1/PowerMonitor": [
+      "kepler-operator"
+    ],
+    "kepler.system.sustainable.computing.io/v1alpha1/PowerMonitorInternal": [
+      "kepler-operator"
     ],
     "keycloak.org/v1alpha1/Keycloak": [
       "keycloak-operator"
@@ -2959,6 +2974,15 @@
     ],
     "move2kube.konveyor.io/v1alpha1/Move2Kube": [
       "move2kube-operator"
+    ],
+    "global-hub.open-cluster-management.io/v1alpha1/ManagedClusterMigration": [
+      "multicluster-global-hub-operator"
+    ],
+    "operator.open-cluster-management.io/v1alpha4/MulticlusterGlobalHub": [
+      "multicluster-global-hub-operator"
+    ],
+    "operator.open-cluster-management.io/v1alpha1/MulticlusterGlobalHubAgent": [
+      "multicluster-global-hub-operator"
     ],
     "app.k8s.io/v1beta1/Application": [
       "multicluster-operators-subscription"
@@ -4176,5 +4200,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-07-26T04:02:37.023258"
+  "timestamp": "2026-07-28T07:00:04.641160"
 }

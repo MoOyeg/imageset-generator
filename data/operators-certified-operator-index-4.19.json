@@ -2883,6 +2883,16 @@
       "channel": "stable"
     },
     {
+      "package": "cloudcasa-operator",
+      "name": "cloudcasa-operator",
+      "version": "4.1.3",
+      "keywords": [
+        "storage"
+      ],
+      "description": "CloudCasa is a backup, restore, disaster recovery, and migration service for Red Hat OpenShift, OpenShift Virtualization, and all Kubernetes platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "cloudera-streams-messaging-kubernetes-operator",
       "name": "cloudera-streams-messaging-kubernetes-operator",
       "version": "1.4.0-b199",
@@ -17335,22 +17345,22 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.7.0-17",
-      "keywords": [
-        "uma-operator"
-      ],
-      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-operator",
-      "name": "uma-operator",
       "version": "2026.7.1-18",
       "keywords": [
         "uma-operator"
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "2026.7"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.8.0-17",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "beta"
     },
     {
       "package": "uma-team-operator",
@@ -17439,22 +17449,22 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.7.0-17",
-      "keywords": [
-        "uma-team-operator"
-      ],
-      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-team-operator",
-      "name": "uma-team-operator",
       "version": "2026.7.1-18",
       "keywords": [
         "uma-team-operator"
       ],
       "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "2026.7"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.8.0-17",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "beta"
     },
     {
       "package": "vast-csi-operator",
@@ -18051,7 +18061,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1526,
+  "count": 1527,
   "source": "opm",
-  "timestamp": "2026-07-26T03:58:17.273386"
+  "timestamp": "2026-07-28T06:55:52.703504"
 }

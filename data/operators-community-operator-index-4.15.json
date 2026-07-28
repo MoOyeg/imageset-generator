@@ -11599,6 +11599,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-s3control-controller",
+      "name": "ack-s3control-controller",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-s3files-controller",
       "name": "ack-s3files-controller",
       "version": "0.1.0",
@@ -15919,6 +15925,12 @@
       "channel": "latest"
     },
     {
+      "package": "clickhouse",
+      "name": "clickhouse",
+      "version": "0.27.2",
+      "channel": "latest"
+    },
+    {
       "package": "cluster-aas-operator",
       "name": "cluster-aas-operator",
       "version": "0.0.1",
@@ -19161,6 +19173,12 @@
     {
       "package": "flux-operator",
       "name": "flux-operator",
+      "version": "0.57.0",
+      "channel": "stable"
+    },
+    {
+      "package": "flux-operator",
+      "name": "flux-operator",
       "version": "0.8.0",
       "channel": "stable"
     },
@@ -20375,6 +20393,18 @@
       "name": "hawtio-operator",
       "version": "1.2.0",
       "channel": "latest"
+    },
+    {
+      "package": "headscale-operator",
+      "name": "headscale-operator",
+      "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "headscale-operator",
+      "name": "headscale-operator",
+      "version": "0.1.1",
+      "channel": "alpha"
     },
     {
       "package": "hedvig-operator",
@@ -33141,7 +33171,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5450,
+  "count": 5455,
   "source": "opm",
-  "timestamp": "2026-07-26T03:49:38.051712"
+  "timestamp": "2026-07-28T06:47:25.717299"
 }

@@ -26902,6 +26902,23 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.17.56",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.17.6",
       "keywords": [
         "KubeVirt",
@@ -64887,7 +64904,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4706,
+  "count": 4707,
   "source": "opm",
-  "timestamp": "2026-07-26T03:54:55.280772"
+  "timestamp": "2026-07-28T06:52:32.956708"
 }

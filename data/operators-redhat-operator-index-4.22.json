@@ -3913,6 +3913,40 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1784907167",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1784907182",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173639",
       "keywords": [
         "ansible",
@@ -4067,6 +4101,40 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1783928796",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1784907685",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1784907698",
       "keywords": [
         "ansible",
         "automation",
@@ -16901,6 +16969,23 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.22.4",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.22.5",
       "keywords": [
         "KubeVirt",
         "Virtualization",
@@ -34929,6 +35014,17 @@
     {
       "package": "sandboxed-containers-operator",
       "name": "sandboxed-containers-operator",
+      "version": "1.13.1",
+      "keywords": [
+        "sandboxed-containers",
+        "kata"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "sandboxed-containers-operator",
+      "name": "sandboxed-containers-operator",
       "version": "1.2.2",
       "keywords": [
         "sandboxed-containers",
@@ -39671,7 +39767,7 @@
       "channel": "stable"
     }
   ],
-  "count": 2758,
+  "count": 2764,
   "source": "opm",
-  "timestamp": "2026-07-26T04:02:05.573136"
+  "timestamp": "2026-07-28T06:59:35.923644"
 }

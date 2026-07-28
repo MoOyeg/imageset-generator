@@ -1028,6 +1028,9 @@
     "trustedservices.intel.com/v1/TdxQuoteGenerationService": [
       "intel-tdx-dcap-operator"
     ],
+    "triliovault.trilio.io/v1/TrilioVaultManager": [
+      "k8s-triliovault"
+    ],
     "operator.kubearmor.com/v1/KubeArmorConfig": [
       "kubearmor-operator-certified"
     ],
@@ -1586,6 +1589,78 @@
     "sriovvrb.intel.com/v1/SriovVrbNodeConfig": [
       "sriov-fec"
     ],
+    "airflow.stackable.tech/v1alpha1/AirflowCluster": [
+      "stackable-airflow-operator"
+    ],
+    "authentication.stackable.tech/v1alpha1/AuthenticationClass": [
+      "stackable-commons-operator"
+    ],
+    "s3.stackable.tech/v1alpha1/S3Bucket": [
+      "stackable-commons-operator"
+    ],
+    "s3.stackable.tech/v1alpha1/S3Connection": [
+      "stackable-commons-operator"
+    ],
+    "druid.stackable.tech/v1alpha1/DruidCluster": [
+      "stackable-druid-operator"
+    ],
+    "hbase.stackable.tech/v1alpha1/HbaseCluster": [
+      "stackable-hbase-operator"
+    ],
+    "hdfs.stackable.tech/v1alpha1/HdfsCluster": [
+      "stackable-hdfs-operator"
+    ],
+    "hive.stackable.tech/v1alpha1/HiveCluster": [
+      "stackable-hive-operator"
+    ],
+    "kafka.stackable.tech/v1alpha1/KafkaCluster": [
+      "stackable-kafka-operator"
+    ],
+    "listeners.stackable.tech/v1alpha1/Listener": [
+      "stackable-listener-operator"
+    ],
+    "listeners.stackable.tech/v1alpha1/ListenerClass": [
+      "stackable-listener-operator"
+    ],
+    "listeners.stackable.tech/v1alpha1/PodListeners": [
+      "stackable-listener-operator"
+    ],
+    "nifi.stackable.tech/v1alpha1/NifiCluster": [
+      "stackable-nifi-operator"
+    ],
+    "opa.stackable.tech/v1alpha1/OpaCluster": [
+      "stackable-opa-operator"
+    ],
+    "opensearch.stackable.tech/v1alpha1/OpenSearchCluster": [
+      "stackable-opensearch-operator"
+    ],
+    "spark.stackable.tech/v1alpha1/SparkApplication": [
+      "stackable-spark-operator"
+    ],
+    "spark.stackable.tech/v1alpha1/SparkConnectServer": [
+      "stackable-spark-operator"
+    ],
+    "spark.stackable.tech/v1alpha1/SparkHistoryServer": [
+      "stackable-spark-operator"
+    ],
+    "superset.stackable.tech/v1alpha1/DruidConnection": [
+      "stackable-superset-operator"
+    ],
+    "superset.stackable.tech/v1alpha1/SupersetCluster": [
+      "stackable-superset-operator"
+    ],
+    "trino.stackable.tech/v1alpha1/TrinoCatalog": [
+      "stackable-trino-operator"
+    ],
+    "trino.stackable.tech/v1alpha1/TrinoCluster": [
+      "stackable-trino-operator"
+    ],
+    "zookeeper.stackable.tech/v1alpha1/ZookeeperCluster": [
+      "stackable-zookeeper-operator"
+    ],
+    "zookeeper.stackable.tech/v1alpha1/ZookeeperZnode": [
+      "stackable-zookeeper-operator"
+    ],
     "card.synaxg.app.com/v1/SG3Reset": [
       "synaxg-operator"
     ],
@@ -1905,5 +1980,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-26T04:02:20.111974"
+  "timestamp": "2026-07-28T06:59:50.320618"
 }

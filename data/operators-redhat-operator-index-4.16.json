@@ -3015,6 +3015,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1784907167",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1784907182",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173639",
       "channel": "stable-2.7"
     },
@@ -3070,6 +3082,18 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1783928796",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1784907685",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1784907698",
       "channel": "stable-2.7-cluster-scoped"
     },
     {
@@ -12700,6 +12724,12 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.16.41",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.16.42",
       "channel": "candidate"
     },
     {
@@ -30835,7 +30865,7 @@
       "channel": "preview"
     }
   ],
-  "count": 5139,
+  "count": 5144,
   "source": "opm",
-  "timestamp": "2026-07-26T03:51:59.025188"
+  "timestamp": "2026-07-28T06:49:45.996492"
 }
