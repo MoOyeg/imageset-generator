@@ -358,6 +358,9 @@
     "fence-agents-remediation.medik8s.io/v1alpha1/FenceAgentsRemediationTemplate": [
       "fence-agents-remediation"
     ],
+    "operator.openshift.io/v1/JobSetOperator": [
+      "job-set"
+    ],
     "web.servers.org/v1alpha1/WebServer": [
       "jws-operator"
     ],
@@ -420,6 +423,12 @@
     ],
     "hco.kubevirt.io/v1/HyperConverged": [
       "kubevirt-hyperconverged"
+    ],
+    "kueue.openshift.io/v1/Kueue": [
+      "kueue-operator"
+    ],
+    "operator.openshift.io/v1/LeaderWorkerSetOperator": [
+      "leader-worker-set"
     ],
     "sonataflow.org/v1alpha08/SonataFlow": [
       "logic-operator",
@@ -764,6 +773,15 @@
     "servicebinding.io/v1beta1/ServiceBinding": [
       "rh-service-binding-operator"
     ],
+    "platform.stackrox.io/v1alpha1/Central": [
+      "rhacs-operator"
+    ],
+    "platform.stackrox.io/v1alpha1/SecuredCluster": [
+      "rhacs-operator"
+    ],
+    "config.stackrox.io/v1alpha1/SecurityPolicy": [
+      "rhacs-operator"
+    ],
     "keycloak.org/v1alpha1/Keycloak": [
       "rhsso-operator"
     ],
@@ -984,5 +1002,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-07-28T07:00:22.476464"
+  "timestamp": "2026-07-31T07:01:28.358631"
 }

@@ -2657,6 +2657,54 @@
     "costmanagement-metrics-cfg.openshift.io/v1beta1/CostManagementMetricsConfig": [
       "koku-metrics-operator"
     ],
+    "konflux.konflux-ci.dev/v1alpha1/Konflux": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxApplicationAPI": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxBuildService": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxCertManager": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxDefaultTenant": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxEnterpriseContract": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxImageController": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxInfo": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxIntegrationService": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxInternalRegistry": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxNamespaceLister": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxRBAC": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxReleaseService": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxUI": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxSegmentBridge": [
+      "konflux-operator"
+    ],
+    "konflux.konflux-ci.dev/v1alpha1/KonfluxCLI": [
+      "konflux-operator"
+    ],
     "tackle.konveyor.io/v1alpha1/Addon": [
       "konveyor-operator"
     ],
@@ -2752,6 +2800,9 @@
     ],
     "lb.lbconfig.carlosedp.com/v1/ExternalLoadBalancer": [
       "lbconfig-operator"
+    ],
+    "studio.libredb.org/v1alpha1/LibreDBStudio": [
+      "libredb-studio-operator"
     ],
     "limitador.kuadrant.io/v1alpha1/Limitador": [
       "limitador-operator"
@@ -3262,6 +3313,51 @@
     ],
     "charts.pelorus.dora-metrics.io/v1alpha1/Pelorus": [
       "pelorus-operator"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-10-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-11-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-12-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-2-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-3-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-4-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-5-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-6-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-7-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-8-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1-9-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBBackup": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBClusterSync": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
+      "percona-server-mongodb-operator"
     ],
     "ps.percona.com/v1/PerconaServerMySQL": [
       "percona-server-mysql-operator"
@@ -4187,6 +4283,9 @@
     "operator.victoriametrics.com/v1/VMAnomalyConfig": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1alpha1/VLDistributed": [
+      "victoriametrics-operator"
+    ],
     "apps.wandb.com/v1/WeightsAndBiases": [
       "wandb-operator"
     ],
@@ -4200,5 +4299,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-07-28T07:00:04.641160"
+  "timestamp": "2026-07-31T07:01:09.269760"
 }

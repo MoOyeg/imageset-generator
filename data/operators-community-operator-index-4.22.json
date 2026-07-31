@@ -10318,6 +10318,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.10.2",
       "keywords": [
         "rds",
         "aws",
@@ -19330,6 +19336,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -19839,6 +19851,12 @@
       "package": "hermes-operator",
       "name": "hermes-operator",
       "version": "0.1.18",
+      "channel": "stable"
+    },
+    {
+      "package": "hermes-operator",
+      "name": "hermes-operator",
+      "version": "0.1.19",
       "keywords": [
         "ai",
         "agent",
@@ -20956,6 +20974,19 @@
       "package": "hive-operator",
       "name": "hive-operator",
       "version": "1.2.5258-3a29cc3",
+      "keywords": [
+        "kubernetes",
+        "openshift",
+        "multi-cluster",
+        "cluster"
+      ],
+      "description": "OpenShift cluster provisioning and management at scale.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
+      "version": "1.2.5274-c04833d",
       "keywords": [
         "kubernetes",
         "openshift",
@@ -22534,6 +22565,44 @@
       "package": "kairos-operator",
       "name": "kairos-operator",
       "version": "2.1.0",
+      "keywords": [
+        "kubernetes",
+        "autoscaling",
+        "ai",
+        "resource-management",
+        "openshift",
+        "machine-learning",
+        "cost-optimization",
+        "gitops",
+        "ssa",
+        "argocd"
+      ],
+      "description": "AI-powered Kubernetes resource optimizer with SSA, ArgoCD-safe, multi-cluster governance",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.1.1",
+      "keywords": [
+        "kubernetes",
+        "autoscaling",
+        "ai",
+        "resource-management",
+        "openshift",
+        "machine-learning",
+        "cost-optimization",
+        "gitops",
+        "ssa",
+        "argocd"
+      ],
+      "description": "AI-powered Kubernetes resource optimizer with SSA, ArgoCD-safe, multi-cluster governance",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.2.0",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -24284,6 +24353,726 @@
       "channel": "alpha"
     },
     {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.11",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.12",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.13",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.14",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.15-rc.1",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.15-rc.3",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.15-rc.7",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.4",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Konflux is a Cloud native software factory focused on software supply chain security.",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.5",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "## Welcome to Konflux\\n\\nKonflux is a **cloud-native software factory** focused on software supply chain security. It provides an enterprise-grade platform for building, testing, and releasing software with built-in security and compliance features.\\n\\n## Key Features\\n\\n- **Automated Container Builds**: Build container images from source code using Tekton pipelines with minimal configuration\\n- **Integration Testing**: Run comprehensive tests and validations before releasing your software\\n- **Managed Releases**: Streamlined release workflows with approval gates and automated promotions\\n- **Supply Chain Security**: Built-in SLSA compliance, artifact signing, and attestation generation\\n- **Policy Enforcement**: Conforma policies ensure your software meets security and compliance requirements\\n- **Web UI**: Intuitive interface for managing applications, viewing pipelines, and monitoring builds\\n\\n## Installation\\n\\nAfter installing the Konflux Operator, create a `Konflux` custom resource to deploy the platform.\\n\\n### Example: Minimal Konflux CR\\n\\n```yaml\\napiVersion: konflux.konflux-ci.dev/v1alpha1\\nkind: Konflux\\nmetadata:\\n  name: konflux\\n  namespace: konflux\\nspec: {}\\n```\\n\\n## Default Configuration\\n\\nWhen deployed with an empty spec:\\n\\n- **Ingress**: Automatically configured using the cluster's default ingress domain\\n- **Authentication**: OpenShift OAuth login is enabled by default on OpenShift clusters\\n\\nFor detailed configuration options, refer to the [documentation](https://konflux-ci.dev/konflux-ci).\\n",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.6",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.8",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.0.9",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.0"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.0-rc.5",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.1-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.10",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.11",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.12",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.13",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.13-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.2",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.2-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.3",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.3-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.4",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.4-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.5",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.5-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.6-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.7",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.8",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.8-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.9",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.1.9-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.1"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.0-rc.1",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.0-rc.2",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.0-rc.3",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.1",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.1-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.2-rc.0",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.2-rc.1",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.2-rc.2",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.2-rc.4",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.2-rc.5",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.2-rc.6",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.2-rc.7",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
+      "package": "konflux-operator",
+      "name": "konflux-operator",
+      "version": "0.2.2-rc.9",
+      "keywords": [
+        "build",
+        "release",
+        "secure-supply-chain",
+        "pipeline",
+        "scc",
+        "factory"
+      ],
+      "description": "Cloud native software factory focused on software supply chain security",
+      "channel": "candidate-v0.2"
+    },
+    {
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.1.0",
@@ -25293,6 +26082,26 @@
         "s3"
       ],
       "description": "Library for the dynamic provisioning of object store buckets to be used by object store providers.",
+      "channel": "alpha"
+    },
+    {
+      "package": "libredb-studio-operator",
+      "name": "libredb-studio-operator",
+      "version": "0.9.59",
+      "keywords": [
+        "sql",
+        "database",
+        "ide",
+        "sql-editor",
+        "postgresql",
+        "mysql",
+        "mongodb",
+        "redis",
+        "oracle",
+        "sql-server",
+        "sqlite"
+      ],
+      "description": "Open-source web-based SQL IDE for PostgreSQL, MySQL, Oracle, SQL Server, SQLite, MongoDB and Redis, with AI-powered query assistance.",
       "channel": "alpha"
     },
     {
@@ -27536,6 +28345,18 @@
       "package": "openclaw-operator",
       "name": "openclaw-operator",
       "version": "0.38.1",
+      "channel": "stable"
+    },
+    {
+      "package": "openclaw-operator",
+      "name": "openclaw-operator",
+      "version": "0.38.2",
+      "channel": "stable"
+    },
+    {
+      "package": "openclaw-operator",
+      "name": "openclaw-operator",
+      "version": "0.38.3",
       "keywords": [
         "ai",
         "agent",
@@ -27996,6 +28817,12 @@
       "package": "paperclip-operator",
       "name": "paperclip-operator",
       "version": "0.18.1",
+      "channel": "stable"
+    },
+    {
+      "package": "paperclip-operator",
+      "name": "paperclip-operator",
+      "version": "0.19.0",
       "keywords": [
         "paperclip",
         "ai",
@@ -29082,6 +29909,19 @@
     {
       "package": "patterns-operator",
       "name": "patterns-operator",
+      "version": "0.0.79",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
       "version": "0.0.8",
       "keywords": [
         "Validated",
@@ -29203,6 +30043,20 @@
       ],
       "description": "Tool that helps IT organizations measure their impact on the overall performance of their organization\\n",
       "channel": "alpha"
+    },
+    {
+      "package": "percona-server-mongodb-operator",
+      "name": "percona-server-mongodb-operator",
+      "version": "1.23.0",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
     },
     {
       "package": "percona-server-mysql-operator",
@@ -32346,42 +33200,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-13",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-14",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-15",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-16",
       "keywords": [
         "istio",
@@ -32503,6 +33321,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-28",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-29",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-30",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-31",
       "keywords": [
         "istio",
         "servicemesh",
@@ -35361,6 +36215,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.74.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "volume-expander-operator",
       "name": "volume-expander-operator",
       "version": "0.1.0",
@@ -35698,7 +36564,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4824,
+  "count": 4885,
   "source": "opm",
-  "timestamp": "2026-07-28T07:00:03.874388"
+  "timestamp": "2026-07-31T07:01:08.473183"
 }

@@ -440,6 +440,9 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
+    "kalybr.ai/v1alpha1/EnterpriseSmall": [
+      "ent-small-operator"
+    ],
     "falcon.crowdstrike.com/v1alpha1/FalconAdmission": [
       "falcon-operator"
     ],
@@ -845,10 +848,10 @@
     "mongodb.com/v1/MongoDBSearch": [
       "mongodb-kubernetes"
     ],
-    "mongodb.com/v1/ClusterMongoDBRole": [
+    "ai.mongodb.com/v1/VoyageAI": [
       "mongodb-kubernetes"
     ],
-    "ai.mongodb.com/v1/VoyageAI": [
+    "mongodb.com/v1/ClusterMongoDBRole": [
       "mongodb-kubernetes"
     ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Dex": [
@@ -1248,5 +1251,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-28T07:00:34.771983"
+  "timestamp": "2026-07-31T07:01:43.781972"
 }

@@ -461,6 +461,32 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "5.0.7",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.1.1",
       "keywords": [
         "Gateway API",
@@ -991,6 +1017,19 @@
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
       "version": "2022.4.880",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.893",
       "keywords": [
         "aqua-security",
         "scanning",
@@ -4274,6 +4313,18 @@
       "channel": "stable"
     },
     {
+      "package": "ent-small-operator",
+      "name": "ent-small-operator",
+      "version": "0.1.0",
+      "keywords": [
+        "kalybr",
+        "ent-small",
+        "agents"
+      ],
+      "description": "Installs and manages the Enterprise Small co-located single-pod Kalybr appliance (ent-small-svc, ent-small-db, ent-public-web, ent-admin-web) with backup/restore, migration-on-upgrade, and capacity scaling.",
+      "channel": "alpha"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -4424,6 +4475,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.2.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -5160,6 +5225,18 @@
       "package": "ibm-application-gateway-operator",
       "name": "ibm-application-gateway-operator",
       "version": "26.6.0",
+      "keywords": [
+        "IBM",
+        "Security",
+        "Identity and Access"
+      ],
+      "description": "The IBM Application Gateway operator manages the lifecycle of IBM Application Gateway containers.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-application-gateway-operator",
+      "name": "ibm-application-gateway-operator",
+      "version": "26.7.1",
       "keywords": [
         "IBM",
         "Security",
@@ -6777,6 +6854,414 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.5.4",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.5.4 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.7.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.7.1 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.7.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.7.2 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.8.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.8.0 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.8.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.8.1 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "2.8.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 2.8.2 via the Helm chart.",
+      "channel": "alpha"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.0 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.1 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.2 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.3",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.3 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.4",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.4 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.5",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.5 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.0.6",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.0.6 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.0 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.1 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.2",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.2 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.3",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.3 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.4",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.4 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.5",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.5 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.6",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.6 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.7",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.7 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.1.8",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.1.8 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.0",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.2.0 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.2.1 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
       "version": "1.4.3",
@@ -7029,6 +7514,20 @@
     {
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
+      "version": "2026.7.21224148",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
       "version": "2026.7.9050221",
       "keywords": [
         "AI Storage",
@@ -7264,6 +7763,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.10.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
@@ -8341,6 +8852,20 @@
       "channel": "alpha"
     },
     {
+      "package": "percona-server-mongodb-operator-certified",
+      "name": "percona-server-mongodb-operator-certified",
+      "version": "1.23.0",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
+    },
+    {
       "package": "percona-server-mysql-operator-certified",
       "name": "percona-server-mysql-operator-certified",
       "version": "1.2.0",
@@ -9001,6 +9526,20 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.3.0",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -9226,6 +9765,21 @@
       ],
       "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
       "channel": "v1.6"
+    },
+    {
+      "package": "runtime-fabric-operator",
+      "name": "runtime-fabric-operator",
+      "version": "3.0.277",
+      "keywords": [
+        "operator",
+        "agent",
+        "rtf",
+        "runtime",
+        "fabric",
+        "mulesoft"
+      ],
+      "description": "Runtime Fabric Operator Application from Mulesoft",
+      "channel": "alpha"
     },
     {
       "package": "seawise-backup-operator",
@@ -9463,6 +10017,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-airflow-operator",
+      "name": "stackable-airflow-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "airflow"
+      ],
+      "description": "Stackable Operator for Apache Airflow",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-commons-operator",
       "name": "stackable-commons-operator",
       "version": "25.11.0",
@@ -9483,6 +10047,16 @@
       "channel": "25.3"
     },
     {
+      "package": "stackable-commons-operator",
+      "name": "stackable-commons-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "commons"
+      ],
+      "description": "Stackable Commons Operator",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-druid-operator",
       "name": "stackable-druid-operator",
       "version": "25.11.0",
@@ -9501,6 +10075,16 @@
       ],
       "description": "Stackable Operator for Apache Druid",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-druid-operator",
+      "name": "stackable-druid-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "druid"
+      ],
+      "description": "Stackable Operator for Apache Druid",
+      "channel": "26.7"
     },
     {
       "package": "stackable-hbase-operator",
@@ -9523,6 +10107,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-hbase-operator",
+      "name": "stackable-hbase-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "hbase"
+      ],
+      "description": "Stackable Operator for Apache HBase",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-hdfs-operator",
       "name": "stackable-hdfs-operator",
       "version": "25.11.0",
@@ -9541,6 +10135,16 @@
       ],
       "description": "Stackable Operator for Apache Hadoop HDFS",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-hdfs-operator",
+      "name": "stackable-hdfs-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "hdfs"
+      ],
+      "description": "Stackable Operator for Apache Hadoop HDFS",
+      "channel": "26.7"
     },
     {
       "package": "stackable-hive-operator",
@@ -9563,6 +10167,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-hive-operator",
+      "name": "stackable-hive-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "hive"
+      ],
+      "description": "Stackable Operator for Apache Hive",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-kafka-operator",
       "name": "stackable-kafka-operator",
       "version": "25.11.0",
@@ -9581,6 +10195,16 @@
       ],
       "description": "Stackable Operator for Apache Kafka",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-kafka-operator",
+      "name": "stackable-kafka-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "kafka"
+      ],
+      "description": "Stackable Operator for Apache Kafka",
+      "channel": "26.7"
     },
     {
       "package": "stackable-listener-operator",
@@ -9603,6 +10227,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-listener-operator",
+      "name": "stackable-listener-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "listener"
+      ],
+      "description": "Stackable Listener Operator",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-nifi-operator",
       "name": "stackable-nifi-operator",
       "version": "25.11.0",
@@ -9621,6 +10255,16 @@
       ],
       "description": "Stackable Operator for Apache NiFi",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-nifi-operator",
+      "name": "stackable-nifi-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "nifi"
+      ],
+      "description": "Stackable Operator for Apache NiFi",
+      "channel": "26.7"
     },
     {
       "package": "stackable-opa-operator",
@@ -9643,6 +10287,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-opa-operator",
+      "name": "stackable-opa-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "opa"
+      ],
+      "description": "Stackable Operator for the Open Policy Agent",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-opensearch-operator",
       "name": "stackable-opensearch-operator",
       "version": "25.11.0",
@@ -9661,6 +10315,16 @@
       ],
       "description": "Stackable Operator for OpenSearch",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-opensearch-operator",
+      "name": "stackable-opensearch-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "opensearch"
+      ],
+      "description": "Stackable Operator for OpenSearch",
+      "channel": "26.7"
     },
     {
       "package": "stackable-secret-operator",
@@ -9683,6 +10347,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-secret-operator",
+      "name": "stackable-secret-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "secret"
+      ],
+      "description": "Stackable Secret Operator",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-spark-operator",
       "name": "stackable-spark-operator",
       "version": "25.11.0",
@@ -9701,6 +10375,16 @@
       ],
       "description": "Stackable Operator for Apache Spark",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-spark-operator",
+      "name": "stackable-spark-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "spark-k8s"
+      ],
+      "description": "Stackable Operator for Apache Spark",
+      "channel": "26.7"
     },
     {
       "package": "stackable-superset-operator",
@@ -9723,6 +10407,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-superset-operator",
+      "name": "stackable-superset-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "superset"
+      ],
+      "description": "Stackable Operator for Apache Superset",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-trino-operator",
       "name": "stackable-trino-operator",
       "version": "25.11.0",
@@ -9743,6 +10437,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-trino-operator",
+      "name": "stackable-trino-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "trino"
+      ],
+      "description": "Stackable Operator for Trino",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-zookeeper-operator",
       "name": "stackable-zookeeper-operator",
       "version": "25.11.0",
@@ -9761,6 +10465,16 @@
       ],
       "description": "Stackable Operator for Apache ZooKeeper",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-zookeeper-operator",
+      "name": "stackable-zookeeper-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "zookeeper"
+      ],
+      "description": "Stackable Operator for Apache ZooKeeper",
+      "channel": "26.7"
     },
     {
       "package": "synaxg-operator",
@@ -9783,12 +10497,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.1-candidate-20260713095709000",
+      "version": "1.7.2-candidate-20260728001913000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -10367,6 +11081,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.74.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "wave",
       "name": "wave",
       "version": "3.4.6",
@@ -10492,7 +11218,7 @@
       "channel": "lts"
     }
   ],
-  "count": 937,
+  "count": 988,
   "source": "opm",
-  "timestamp": "2026-07-28T06:59:49.944990"
+  "timestamp": "2026-07-31T07:00:44.212293"
 }

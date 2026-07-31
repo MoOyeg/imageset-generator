@@ -1667,10 +1667,10 @@
     "mongodb.com/v1/MongoDBSearch": [
       "mongodb-kubernetes"
     ],
-    "mongodb.com/v1/ClusterMongoDBRole": [
+    "ai.mongodb.com/v1/VoyageAI": [
       "mongodb-kubernetes"
     ],
-    "ai.mongodb.com/v1/VoyageAI": [
+    "mongodb.com/v1/ClusterMongoDBRole": [
       "mongodb-kubernetes"
     ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Dex": [
@@ -2601,6 +2601,9 @@
     "operator.victoriametrics.com/v1/VMAnomalyConfig": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1alpha1/VLDistributed": [
+      "victoriametrics-operator"
+    ],
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
       "visionone-containersecurity"
     ],
@@ -2677,5 +2680,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-28T06:38:56.573510"
+  "timestamp": "2026-07-31T06:39:07.981788"
 }

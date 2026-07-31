@@ -10378,6 +10378,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.10.2",
       "keywords": [
         "rds",
         "aws",
@@ -14005,6 +14011,23 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.3.0",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.1",
       "keywords": [
         "integration",
         "streaming",
@@ -19857,6 +19880,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.2.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -20416,6 +20445,12 @@
       "package": "hermes-operator",
       "name": "hermes-operator",
       "version": "0.1.18",
+      "channel": "stable"
+    },
+    {
+      "package": "hermes-operator",
+      "name": "hermes-operator",
+      "version": "0.1.19",
       "keywords": [
         "ai",
         "agent",
@@ -21533,6 +21568,19 @@
       "package": "hive-operator",
       "name": "hive-operator",
       "version": "1.2.5258-3a29cc3",
+      "keywords": [
+        "kubernetes",
+        "openshift",
+        "multi-cluster",
+        "cluster"
+      ],
+      "description": "OpenShift cluster provisioning and management at scale.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
+      "version": "1.2.5274-c04833d",
       "keywords": [
         "kubernetes",
         "openshift",
@@ -23135,6 +23183,44 @@
       "package": "kairos-operator",
       "name": "kairos-operator",
       "version": "2.1.0",
+      "keywords": [
+        "kubernetes",
+        "autoscaling",
+        "ai",
+        "resource-management",
+        "openshift",
+        "machine-learning",
+        "cost-optimization",
+        "gitops",
+        "ssa",
+        "argocd"
+      ],
+      "description": "AI-powered Kubernetes resource optimizer with SSA, ArgoCD-safe, multi-cluster governance",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.1.1",
+      "keywords": [
+        "kubernetes",
+        "autoscaling",
+        "ai",
+        "resource-management",
+        "openshift",
+        "machine-learning",
+        "cost-optimization",
+        "gitops",
+        "ssa",
+        "argocd"
+      ],
+      "description": "AI-powered Kubernetes resource optimizer with SSA, ArgoCD-safe, multi-cluster governance",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.2.0",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -26812,6 +26898,26 @@
       "channel": "alpha"
     },
     {
+      "package": "libredb-studio-operator",
+      "name": "libredb-studio-operator",
+      "version": "0.9.59",
+      "keywords": [
+        "sql",
+        "database",
+        "ide",
+        "sql-editor",
+        "postgresql",
+        "mysql",
+        "mongodb",
+        "redis",
+        "oracle",
+        "sql-server",
+        "sqlite"
+      ],
+      "description": "Open-source web-based SQL IDE for PostgreSQL, MySQL, Oracle, SQL Server, SQLite, MongoDB and Redis, with AI-powered query assistance.",
+      "channel": "alpha"
+    },
+    {
       "package": "limitador-operator",
       "name": "limitador-operator",
       "version": "0.10.0",
@@ -29040,6 +29146,18 @@
       "package": "openclaw-operator",
       "name": "openclaw-operator",
       "version": "0.38.1",
+      "channel": "stable"
+    },
+    {
+      "package": "openclaw-operator",
+      "name": "openclaw-operator",
+      "version": "0.38.2",
+      "channel": "stable"
+    },
+    {
+      "package": "openclaw-operator",
+      "name": "openclaw-operator",
+      "version": "0.38.3",
       "keywords": [
         "ai",
         "agent",
@@ -30570,6 +30688,12 @@
       "package": "paperclip-operator",
       "name": "paperclip-operator",
       "version": "0.18.1",
+      "channel": "stable"
+    },
+    {
+      "package": "paperclip-operator",
+      "name": "paperclip-operator",
+      "version": "0.19.0",
       "keywords": [
         "paperclip",
         "ai",
@@ -31656,6 +31780,19 @@
     {
       "package": "patterns-operator",
       "name": "patterns-operator",
+      "version": "0.0.79",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
       "version": "0.0.8",
       "keywords": [
         "Validated",
@@ -31803,6 +31940,12 @@
       "package": "percona-server-mongodb-operator",
       "name": "percona-server-mongodb-operator",
       "version": "1.22.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator",
+      "name": "percona-server-mongodb-operator",
+      "version": "1.23.0",
       "keywords": [
         "mongodb",
         "percona",
@@ -34976,42 +35119,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-13",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-14",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-15",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-16",
       "keywords": [
         "istio",
@@ -35133,6 +35240,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-28",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-29",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-30",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-31",
       "keywords": [
         "istio",
         "servicemesh",
@@ -38089,6 +38232,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.74.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "0.0.1",
@@ -38486,7 +38641,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5015,
+  "count": 5029,
   "source": "opm",
-  "timestamp": "2026-07-28T06:59:05.314166"
+  "timestamp": "2026-07-31T06:59:56.580848"
 }

@@ -902,6 +902,9 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
+    "kalybr.ai/v1alpha1/EnterpriseSmall": [
+      "ent-small-operator"
+    ],
     "charts.ddn.com/v1alpha1/ExaCsi": [
       "exascaler-csi-driver-operator"
     ],
@@ -1479,10 +1482,10 @@
     "mongodb.com/v1/MongoDBSearch": [
       "mongodb-kubernetes"
     ],
-    "mongodb.com/v1/ClusterMongoDBRole": [
+    "ai.mongodb.com/v1/VoyageAI": [
       "mongodb-kubernetes"
     ],
-    "ai.mongodb.com/v1/VoyageAI": [
+    "mongodb.com/v1/ClusterMongoDBRole": [
       "mongodb-kubernetes"
     ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Dex": [
@@ -1717,6 +1720,9 @@
       "percona-server-mongodb-operator-certified"
     ],
     "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBClusterSync": [
       "percona-server-mongodb-operator-certified"
     ],
     "ps.percona.com/v1/PerconaServerMySQL": [
@@ -2301,6 +2307,9 @@
     "operator.victoriametrics.com/v1/VMAnomalyConfig": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1alpha1/VLDistributed": [
+      "victoriametrics-operator"
+    ],
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
       "visionone-containersecurity"
     ],
@@ -2374,5 +2383,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-28T06:58:50.546933"
+  "timestamp": "2026-07-31T06:59:21.160868"
 }

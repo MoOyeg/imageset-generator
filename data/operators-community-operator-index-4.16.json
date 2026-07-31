@@ -10209,6 +10209,12 @@
     {
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
+      "version": "1.10.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -14002,6 +14008,12 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.3.0",
+      "channel": "3.3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.1",
       "channel": "3.3.x"
     },
     {
@@ -19525,6 +19537,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.1",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -20020,6 +20038,12 @@
       "package": "hermes-operator",
       "name": "hermes-operator",
       "version": "0.1.18",
+      "channel": "stable"
+    },
+    {
+      "package": "hermes-operator",
+      "name": "hermes-operator",
+      "version": "0.1.19",
       "channel": "stable"
     },
     {
@@ -20530,6 +20554,12 @@
       "package": "hive-operator",
       "name": "hive-operator",
       "version": "1.2.5258-3a29cc3",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
+      "version": "1.2.5274-c04833d",
       "channel": "alpha"
     },
     {
@@ -21448,6 +21478,18 @@
       "package": "kairos-operator",
       "name": "kairos-operator",
       "version": "2.1.0",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.1.1",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.2.0",
       "channel": "candidate-v2"
     },
     {
@@ -23791,6 +23833,12 @@
       "channel": "alpha"
     },
     {
+      "package": "libredb-studio-operator",
+      "name": "libredb-studio-operator",
+      "version": "0.9.59",
+      "channel": "alpha"
+    },
+    {
       "package": "limitador-operator",
       "name": "limitador-operator",
       "version": "0.10.0",
@@ -25831,6 +25879,18 @@
       "channel": "stable"
     },
     {
+      "package": "openclaw-operator",
+      "name": "openclaw-operator",
+      "version": "0.38.2",
+      "channel": "stable"
+    },
+    {
+      "package": "openclaw-operator",
+      "name": "openclaw-operator",
+      "version": "0.38.3",
+      "channel": "stable"
+    },
+    {
       "package": "opendatahub-operator",
       "name": "opendatahub-operator",
       "version": "1.1.1",
@@ -26491,6 +26551,12 @@
       "channel": "stable"
     },
     {
+      "package": "paperclip-operator",
+      "name": "paperclip-operator",
+      "version": "0.19.0",
+      "channel": "stable"
+    },
+    {
       "package": "patch-operator",
       "name": "patch-operator",
       "version": "0.0.1",
@@ -27022,6 +27088,12 @@
       "package": "patterns-operator",
       "name": "patterns-operator",
       "version": "0.0.78",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
+      "version": "0.0.79",
       "channel": "fast"
     },
     {
@@ -32135,6 +32207,12 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.74.0",
+      "channel": "beta"
+    },
+    {
       "package": "virt-git-sync",
       "name": "virt-git-sync",
       "version": "0.1.0",
@@ -32483,7 +32561,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5342,
+  "count": 5355,
   "source": "opm",
-  "timestamp": "2026-07-28T06:51:28.883673"
+  "timestamp": "2026-07-31T06:51:36.092008"
 }

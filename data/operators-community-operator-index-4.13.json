@@ -10245,6 +10245,12 @@
     {
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
+      "version": "1.10.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -14014,6 +14020,12 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.3.0",
+      "channel": "3.3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.1",
       "channel": "3.3.x"
     },
     {
@@ -19825,6 +19837,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.1",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -20943,6 +20961,12 @@
     {
       "package": "hive-operator",
       "name": "hive-operator",
+      "version": "1.2.5274-c04833d",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
       "version": "2.3.3039-60b8a9a",
       "channel": "ocm-2.3"
     },
@@ -21826,6 +21850,18 @@
       "package": "kairos-operator",
       "name": "kairos-operator",
       "version": "2.1.0",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.1.1",
+      "channel": "candidate-v2"
+    },
+    {
+      "package": "kairos-operator",
+      "name": "kairos-operator",
+      "version": "2.2.0",
       "channel": "candidate-v2"
     },
     {
@@ -36747,6 +36783,12 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.74.0",
+      "channel": "beta"
+    },
+    {
       "package": "virt-git-sync",
       "name": "virt-git-sync",
       "version": "0.1.0",
@@ -37131,7 +37173,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 6115,
+  "count": 6122,
   "source": "opm",
-  "timestamp": "2026-07-28T06:39:41.212904"
+  "timestamp": "2026-07-31T06:39:55.876717"
 }

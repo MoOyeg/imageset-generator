@@ -2952,6 +2952,9 @@
     "lb.lbconfig.carlosedp.com/v1/ExternalLoadBalancer": [
       "lbconfig-operator"
     ],
+    "studio.libredb.org/v1alpha1/LibreDBStudio": [
+      "libredb-studio-operator"
+    ],
     "limitador.kuadrant.io/v1alpha1/Limitador": [
       "limitador-operator"
     ],
@@ -3673,6 +3676,9 @@
       "percona-server-mongodb-operator"
     ],
     "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
+      "percona-server-mongodb-operator"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBClusterSync": [
       "percona-server-mongodb-operator"
     ],
     "ps.percona.com/v1/PerconaServerMySQL": [
@@ -4770,6 +4776,9 @@
     "operator.victoriametrics.com/v1/VMAnomalyConfig": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1alpha1/VLDistributed": [
+      "victoriametrics-operator"
+    ],
     "virt.mathianasj.github.com/v1alpha1/VirtGitSync": [
       "virt-git-sync"
     ],
@@ -4789,5 +4798,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-07-28T06:56:14.798877"
+  "timestamp": "2026-07-31T06:56:36.173966"
 }

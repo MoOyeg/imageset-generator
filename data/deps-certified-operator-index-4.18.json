@@ -992,6 +992,9 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
+    "kalybr.ai/v1alpha1/EnterpriseSmall": [
+      "ent-small-operator"
+    ],
     "eqube.operator/v1/EQProduct": [
       "eqube-operator"
     ],
@@ -1895,10 +1898,10 @@
     "mongodb.com/v1/MongoDBSearch": [
       "mongodb-kubernetes"
     ],
-    "mongodb.com/v1/ClusterMongoDBRole": [
+    "ai.mongodb.com/v1/VoyageAI": [
       "mongodb-kubernetes"
     ],
-    "ai.mongodb.com/v1/VoyageAI": [
+    "mongodb.com/v1/ClusterMongoDBRole": [
       "mongodb-kubernetes"
     ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Dex": [
@@ -2149,6 +2152,9 @@
       "percona-server-mongodb-operator-certified"
     ],
     "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBClusterSync": [
       "percona-server-mongodb-operator-certified"
     ],
     "ps.percona.com/v1/PerconaServerMySQL": [
@@ -2913,6 +2919,9 @@
     "operator.victoriametrics.com/v1/VMAnomalyConfig": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1alpha1/VLDistributed": [
+      "victoriametrics-operator"
+    ],
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
       "visionone-containersecurity"
     ],
@@ -2992,5 +3001,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-28T06:54:33.292573"
+  "timestamp": "2026-07-31T06:54:23.660183"
 }

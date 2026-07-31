@@ -773,6 +773,9 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
+    "kalybr.ai/v1alpha1/EnterpriseSmall": [
+      "ent-small-operator"
+    ],
     "falcon.crowdstrike.com/v1alpha1/FalconAdmission": [
       "falcon-operator"
     ],
@@ -1115,6 +1118,12 @@
     "workloads.kubeblocks.io/v1/InstanceSet": [
       "kubeblocks"
     ],
+    "charts.kubecost.com/v1alpha1/CostAnalyzer": [
+      "kubecost-operator"
+    ],
+    "charts.kubecost.com/v1/Kubecost": [
+      "kubecost-operator"
+    ],
     "charts.helm.k8s.io/v1/Kubeturbo": [
       "kubeturbo-certified"
     ],
@@ -1280,10 +1289,10 @@
     "mongodb.com/v1/MongoDBSearch": [
       "mongodb-kubernetes"
     ],
-    "mongodb.com/v1/ClusterMongoDBRole": [
+    "ai.mongodb.com/v1/VoyageAI": [
       "mongodb-kubernetes"
     ],
-    "ai.mongodb.com/v1/VoyageAI": [
+    "mongodb.com/v1/ClusterMongoDBRole": [
       "mongodb-kubernetes"
     ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Dex": [
@@ -1439,6 +1448,51 @@
     "certification.redhat.com/v1alpha1/OperatorPipeline": [
       "operator-certification-operator"
     ],
+    "psmdb.percona.com/v1/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-10-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-11-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-12-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-2-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-3-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-4-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-5-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-6-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-7-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-8-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1-9-0/PerconaServerMongoDB": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBBackup": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBClusterSync": [
+      "percona-server-mongodb-operator-certified"
+    ],
+    "psmdb.percona.com/v1/PerconaServerMongoDBRestore": [
+      "percona-server-mongodb-operator-certified"
+    ],
     "ps.percona.com/v1/PerconaServerMySQL": [
       "percona-server-mysql-operator-certified"
     ],
@@ -1531,6 +1585,9 @@
     ],
     "rc.app.stacks/v1/RuntimeOperation": [
       "runtime-component-operator-certified"
+    ],
+    "rtf.operators.mulesoft.com/v1/RuntimeFabric": [
+      "runtime-fabric-operator"
     ],
     "backup.seawise.cloud/v1alpha1/Seawise": [
       "seawise-backup-operator"
@@ -1910,6 +1967,9 @@
     "operator.victoriametrics.com/v1/VMAnomalyConfig": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1alpha1/VLDistributed": [
+      "victoriametrics-operator"
+    ],
     "wavek8s.com/v1alpha1/Wave": [
       "wave"
     ],
@@ -1980,5 +2040,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-07-28T06:59:50.320618"
+  "timestamp": "2026-07-31T07:00:44.619797"
 }

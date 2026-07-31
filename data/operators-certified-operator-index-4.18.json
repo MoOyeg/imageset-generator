@@ -547,6 +547,32 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "5.0.7",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.1.1",
       "keywords": [
         "Gateway API",
@@ -1181,6 +1207,19 @@
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
       "version": "2022.4.880",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.893",
       "keywords": [
         "aqua-security",
         "scanning",
@@ -5662,6 +5701,19 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
+      "version": "25.1.13",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "stable-v25.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
       "version": "25.1.2",
       "channel": "stable-v25.1"
     },
@@ -5711,7 +5763,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.7",
+      "version": "25.3.8",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -5737,7 +5789,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.3",
+      "version": "26.1.4",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -6779,6 +6831,18 @@
       "channel": "stable"
     },
     {
+      "package": "ent-small-operator",
+      "name": "ent-small-operator",
+      "version": "0.1.0",
+      "keywords": [
+        "kalybr",
+        "ent-small",
+        "agents"
+      ],
+      "description": "Installs and manages the Enterprise Small co-located single-pod Kalybr appliance (ent-small-svc, ent-small-db, ent-public-web, ent-admin-web) with backup/restore, migration-on-upgrade, and capacity scaling.",
+      "channel": "alpha"
+    },
+    {
       "package": "eqube-operator",
       "name": "eqube-operator",
       "version": "1.0.0",
@@ -6880,6 +6944,19 @@
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
       "version": "0.11.2",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.11.3",
       "keywords": [
         "ai",
         "security",
@@ -7311,6 +7388,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.2.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -8487,6 +8578,18 @@
       "package": "ibm-application-gateway-operator",
       "name": "ibm-application-gateway-operator",
       "version": "26.6.0",
+      "keywords": [
+        "IBM",
+        "Security",
+        "Identity and Access"
+      ],
+      "description": "The IBM Application Gateway operator manages the lifecycle of IBM Application Gateway containers.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-application-gateway-operator",
+      "name": "ibm-application-gateway-operator",
+      "version": "26.7.1",
       "keywords": [
         "IBM",
         "Security",
@@ -10945,6 +11048,18 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.2",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -12804,6 +12919,20 @@
     {
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
+      "version": "2026.7.21224148",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
       "version": "2026.7.9050221",
       "keywords": [
         "AI Storage",
@@ -13321,6 +13450,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.10.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
@@ -14800,6 +14941,20 @@
       "channel": "stable"
     },
     {
+      "package": "percona-server-mongodb-operator-certified",
+      "name": "percona-server-mongodb-operator-certified",
+      "version": "1.23.0",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
+    },
+    {
       "package": "percona-server-mysql-operator-certified",
       "name": "percona-server-mysql-operator-certified",
       "version": "1.0.0",
@@ -15847,6 +16002,20 @@
       "package": "portworx-certified",
       "name": "portworx-certified",
       "version": "26.2.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.3.0",
       "keywords": [
         "portworx",
         "persistent storage",
@@ -17586,6 +17755,19 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.32.13",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.32.2",
       "keywords": [
         "vertical scaling",
@@ -17639,6 +17821,58 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.32.8",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.33.0",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.33.1",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.33.2",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.33.3",
       "keywords": [
         "vertical scaling",
         "horizontal scaling",
@@ -17941,6 +18175,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-airflow-operator",
+      "name": "stackable-airflow-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "airflow"
+      ],
+      "description": "Stackable Operator for Apache Airflow",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-commons-operator",
       "name": "stackable-commons-operator",
       "version": "25.11.0",
@@ -17981,6 +18225,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-commons-operator",
+      "name": "stackable-commons-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "commons"
+      ],
+      "description": "Stackable Commons Operator",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-druid-operator",
       "name": "stackable-druid-operator",
       "version": "25.11.0",
@@ -18019,6 +18273,16 @@
       ],
       "description": "Stackable Operator for Apache Druid",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-druid-operator",
+      "name": "stackable-druid-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "druid"
+      ],
+      "description": "Stackable Operator for Apache Druid",
+      "channel": "26.7"
     },
     {
       "package": "stackable-hbase-operator",
@@ -18061,6 +18325,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-hbase-operator",
+      "name": "stackable-hbase-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "hbase"
+      ],
+      "description": "Stackable Operator for Apache HBase",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-hdfs-operator",
       "name": "stackable-hdfs-operator",
       "version": "25.11.0",
@@ -18099,6 +18373,16 @@
       ],
       "description": "Stackable Operator for Apache Hadoop HDFS",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-hdfs-operator",
+      "name": "stackable-hdfs-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "hdfs"
+      ],
+      "description": "Stackable Operator for Apache Hadoop HDFS",
+      "channel": "26.7"
     },
     {
       "package": "stackable-hive-operator",
@@ -18141,6 +18425,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-hive-operator",
+      "name": "stackable-hive-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "hive"
+      ],
+      "description": "Stackable Operator for Apache Hive",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-kafka-operator",
       "name": "stackable-kafka-operator",
       "version": "25.11.0",
@@ -18179,6 +18473,16 @@
       ],
       "description": "Stackable Operator for Apache Kafka",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-kafka-operator",
+      "name": "stackable-kafka-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "kafka"
+      ],
+      "description": "Stackable Operator for Apache Kafka",
+      "channel": "26.7"
     },
     {
       "package": "stackable-listener-operator",
@@ -18221,6 +18525,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-listener-operator",
+      "name": "stackable-listener-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "listener"
+      ],
+      "description": "Stackable Listener Operator",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-nifi-operator",
       "name": "stackable-nifi-operator",
       "version": "25.11.0",
@@ -18261,6 +18575,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-nifi-operator",
+      "name": "stackable-nifi-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "nifi"
+      ],
+      "description": "Stackable Operator for Apache NiFi",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-opa-operator",
       "name": "stackable-opa-operator",
       "version": "25.11.0",
@@ -18299,6 +18623,16 @@
       ],
       "description": "Stackable Operator for the Open Policy Agent",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-opa-operator",
+      "name": "stackable-opa-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "opa"
+      ],
+      "description": "Stackable Operator for the Open Policy Agent",
+      "channel": "26.7"
     },
     {
       "package": "stackable-opensearch-operator",
@@ -18319,6 +18653,16 @@
       ],
       "description": "Stackable Operator for OpenSearch",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-opensearch-operator",
+      "name": "stackable-opensearch-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "opensearch"
+      ],
+      "description": "Stackable Operator for OpenSearch",
+      "channel": "26.7"
     },
     {
       "package": "stackable-secret-operator",
@@ -18361,6 +18705,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-secret-operator",
+      "name": "stackable-secret-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "secret"
+      ],
+      "description": "Stackable Secret Operator",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-spark-operator",
       "name": "stackable-spark-operator",
       "version": "25.11.0",
@@ -18399,6 +18753,16 @@
       ],
       "description": "Stackable Operator for Apache Spark",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-spark-operator",
+      "name": "stackable-spark-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "spark-k8s"
+      ],
+      "description": "Stackable Operator for Apache Spark",
+      "channel": "26.7"
     },
     {
       "package": "stackable-superset-operator",
@@ -18441,6 +18805,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-superset-operator",
+      "name": "stackable-superset-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "superset"
+      ],
+      "description": "Stackable Operator for Apache Superset",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-trino-operator",
       "name": "stackable-trino-operator",
       "version": "25.11.0",
@@ -18481,6 +18855,16 @@
       "channel": "26.3"
     },
     {
+      "package": "stackable-trino-operator",
+      "name": "stackable-trino-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "trino"
+      ],
+      "description": "Stackable Operator for Trino",
+      "channel": "26.7"
+    },
+    {
       "package": "stackable-zookeeper-operator",
       "name": "stackable-zookeeper-operator",
       "version": "25.11.0",
@@ -18519,6 +18903,16 @@
       ],
       "description": "Stackable Operator for Apache ZooKeeper",
       "channel": "26.3"
+    },
+    {
+      "package": "stackable-zookeeper-operator",
+      "name": "stackable-zookeeper-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "zookeeper"
+      ],
+      "description": "Stackable Operator for Apache ZooKeeper",
+      "channel": "26.7"
     },
     {
       "package": "stackgres-certified",
@@ -18813,12 +19207,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.1-candidate-20260713095709000",
+      "version": "1.7.2-candidate-20260728001913000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -18850,72 +19244,7 @@
         "ebpf"
       ],
       "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "candidate-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.0-rc4",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "candidate-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.0-rc5",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "candidate-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.0-rc6",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "candidate-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.0-rc7",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "candidate-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.0-rc8",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "candidate-v3"
+      "channel": "fast-v3"
     },
     {
       "package": "tawon-operator",
@@ -18942,6 +19271,19 @@
       ],
       "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
       "channel": "fast-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc4",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
     },
     {
       "package": "template-operator",
@@ -20207,6 +20549,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.74.0",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "3.3.9",
@@ -20270,6 +20624,18 @@
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "3.4.2",
+      "keywords": [
+        "trendai",
+        "visionone",
+        "container-security"
+      ],
+      "description": "Operator for deploying the TrendAI Vision One Container Security components in Kubernetes clusters",
+      "channel": "alpha"
+    },
+    {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.5.0",
       "keywords": [
         "trendai",
         "visionone",
@@ -20448,7 +20814,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1794,
+  "count": 1825,
   "source": "opm",
-  "timestamp": "2026-07-28T06:54:32.300106"
+  "timestamp": "2026-07-31T06:54:22.665454"
 }

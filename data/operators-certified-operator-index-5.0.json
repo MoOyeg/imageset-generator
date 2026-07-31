@@ -1004,6 +1004,19 @@
       "channel": "2022.4"
     },
     {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.893",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.1.0",
@@ -2698,6 +2711,18 @@
       "channel": "stable"
     },
     {
+      "package": "ent-small-operator",
+      "name": "ent-small-operator",
+      "version": "0.1.0",
+      "keywords": [
+        "kalybr",
+        "ent-small",
+        "agents"
+      ],
+      "description": "Installs and manages the Enterprise Small co-located single-pod Kalybr appliance (ent-small-svc, ent-small-db, ent-public-web, ent-admin-web) with backup/restore, migration-on-upgrade, and capacity scaling.",
+      "channel": "alpha"
+    },
+    {
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.0.0",
@@ -2975,6 +3000,18 @@
       "package": "ibm-application-gateway-operator",
       "name": "ibm-application-gateway-operator",
       "version": "26.6.0",
+      "keywords": [
+        "IBM",
+        "Security",
+        "Identity and Access"
+      ],
+      "description": "The IBM Application Gateway operator manages the lifecycle of IBM Application Gateway containers.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-application-gateway-operator",
+      "name": "ibm-application-gateway-operator",
+      "version": "26.7.1",
       "keywords": [
         "IBM",
         "Security",
@@ -4354,6 +4391,18 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.10.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -5668,12 +5717,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.1-candidate-20260713095709000",
+      "version": "1.7.2-candidate-20260728001913000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -6292,7 +6341,7 @@
       "channel": "lts"
     }
   ],
-  "count": 662,
+  "count": 666,
   "source": "opm",
-  "timestamp": "2026-07-28T07:00:34.545219"
+  "timestamp": "2026-07-31T07:01:43.553590"
 }
