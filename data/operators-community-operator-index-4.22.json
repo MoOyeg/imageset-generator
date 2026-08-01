@@ -277,6 +277,12 @@
       "package": "ack-acm-controller",
       "name": "ack-acm-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-acm-controller",
+      "name": "ack-acm-controller",
+      "version": "1.7.0",
       "keywords": [
         "acm",
         "aws",
@@ -8199,6 +8205,12 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.14.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.14.2",
       "keywords": [
         "lambda",
         "aws",
@@ -29935,6 +29947,19 @@
     {
       "package": "patterns-operator",
       "name": "patterns-operator",
+      "version": "0.0.80",
+      "keywords": [
+        "Validated",
+        "Pattern",
+        "Blueprint",
+        "Architecture"
+      ],
+      "description": "An operator to deploy and manage architecture patterns from https://validatedpatterns.io. \\nThis operator collects some Analytics like cluster version, cloud type, etc. To disable this\\nadd \"ANALYTICS: false\" to the environment variables in the subscription.",
+      "channel": "fast"
+    },
+    {
+      "package": "patterns-operator",
+      "name": "patterns-operator",
       "version": "0.0.9",
       "keywords": [
         "Validated",
@@ -33200,18 +33225,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-16",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-17",
       "keywords": [
         "istio",
@@ -33357,6 +33370,18 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-31",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-08-01",
       "keywords": [
         "istio",
         "servicemesh",
@@ -36564,7 +36589,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4885,
+  "count": 4888,
   "source": "opm",
-  "timestamp": "2026-07-31T07:01:08.473183"
+  "timestamp": "2026-08-01T07:01:14.495661"
 }

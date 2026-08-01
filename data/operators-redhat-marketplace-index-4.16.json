@@ -141,7 +141,31 @@
     {
       "package": "aikit-operator-rhmp",
       "name": "aikit-operator-rhmp",
-      "version": "2024.1.52023",
+      "version": "2021.2.100410",
+      "channel": "alpha"
+    },
+    {
+      "package": "aikit-operator-rhmp",
+      "name": "aikit-operator-rhmp",
+      "version": "2021.2.102120",
+      "channel": "alpha"
+    },
+    {
+      "package": "aikit-operator-rhmp",
+      "name": "aikit-operator-rhmp",
+      "version": "2021.2.92808-dev-a60e5ba",
+      "channel": "alpha"
+    },
+    {
+      "package": "aikit-operator-rhmp",
+      "name": "aikit-operator-rhmp",
+      "version": "2021.2.92814",
+      "channel": "alpha"
+    },
+    {
+      "package": "aikit-operator-rhmp",
+      "name": "aikit-operator-rhmp",
+      "version": "2021.2.92911",
       "channel": "alpha"
     },
     {
@@ -233,6 +257,24 @@
       "name": "couchbase-enterprise-certified-rhmp",
       "version": "2.9.0-1",
       "channel": "2.9.0"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.1-1",
+      "channel": "2.9.1"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.2-2",
+      "channel": "2.9.2"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.2-3",
+      "channel": "2.9.2"
     },
     {
       "package": "datadog-operator-certified-rhmp",
@@ -514,18 +556,6 @@
       "package": "entando-k8s-operator-rhmp",
       "name": "entando-k8s-operator-rhmp",
       "version": "6.3.2-pr3",
-      "channel": "alpha"
-    },
-    {
-      "package": "falcon-operator-rhmp",
-      "name": "falcon-operator-rhmp",
-      "version": "0.8.2",
-      "channel": "certified-0.8"
-    },
-    {
-      "package": "falcon-operator-rhmp",
-      "name": "falcon-operator-rhmp",
-      "version": "0.9.6",
       "channel": "alpha"
     },
     {
@@ -1455,12 +1485,6 @@
     {
       "package": "percona-postgresql-operator-certified-rhmp",
       "name": "percona-postgresql-operator-certified-rhmp",
-      "version": "2.4.0",
-      "channel": "stable"
-    },
-    {
-      "package": "percona-postgresql-operator-certified-rhmp",
-      "name": "percona-postgresql-operator-certified-rhmp",
       "version": "2.5.0",
       "channel": "stable"
     },
@@ -1507,6 +1531,42 @@
       "channel": "stable-cw"
     },
     {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.1-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.2",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified-rhmp",
+      "name": "percona-postgresql-operator-certified-rhmp",
+      "version": "2.8.2-cw",
+      "channel": "stable-cw"
+    },
+    {
       "package": "percona-server-mongodb-operator-certified-rhmp",
       "name": "percona-server-mongodb-operator-certified-rhmp",
       "version": "1.17.0",
@@ -1534,6 +1594,18 @@
       "package": "percona-server-mongodb-operator-certified-rhmp",
       "name": "percona-server-mongodb-operator-certified-rhmp",
       "version": "1.20.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.21.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified-rhmp",
+      "name": "percona-server-mongodb-operator-certified-rhmp",
+      "version": "1.21.2",
       "channel": "stable"
     },
     {
@@ -1671,12 +1743,6 @@
     {
       "package": "redis-enterprise-operator-cert-rhmp",
       "name": "redis-enterprise-operator-cert-rhmp",
-      "version": "7.4.2-12.0",
-      "channel": "7.22.0"
-    },
-    {
-      "package": "redis-enterprise-operator-cert-rhmp",
-      "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.4.6-2.0",
       "channel": "7.22.0"
     },
@@ -1787,6 +1853,18 @@
       "name": "redis-enterprise-operator-cert-rhmp",
       "version": "7.8.6-8.1",
       "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "8.0.2-2.9",
+      "channel": "8.0.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert-rhmp",
+      "name": "redis-enterprise-operator-cert-rhmp",
+      "version": "8.0.2-6.1",
+      "channel": "8.0.2"
     },
     {
       "package": "seldon-deploy-operator-rhmp",
@@ -2029,7 +2107,7 @@
       "channel": "lts"
     }
   ],
-  "count": 338,
+  "count": 351,
   "source": "opm",
-  "timestamp": "2026-08-01T06:49:14.509622"
+  "timestamp": "2026-08-01T06:53:14.265676"
 }

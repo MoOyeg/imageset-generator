@@ -105,6 +105,12 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.8.11",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.8.2",
       "channel": "4.8"
     },
@@ -1483,6 +1489,12 @@
       "channel": "1.18"
     },
     {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.19.5-cee.1",
+      "channel": "1.19"
+    },
+    {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
       "version": "1.25.0",
@@ -2176,6 +2188,12 @@
       "package": "couchbase-enterprise-certified",
       "name": "couchbase-enterprise-certified",
       "version": "2.9.2-2",
+      "channel": "2.9.2"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.2-3",
       "channel": "2.9.2"
     },
     {
@@ -6238,12 +6256,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.20.40",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.40-beta.1",
+      "version": "8.20.50-beta.1",
       "channel": "beta"
     },
     {
@@ -6427,6 +6445,12 @@
       "channel": "stable"
     },
     {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "26.6.1",
+      "channel": "stable"
+    },
+    {
       "package": "marketplace-games-operator",
       "name": "marketplace-games-operator",
       "version": "1.0.0",
@@ -6442,12 +6466,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.20.40",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.40-beta.1",
+      "version": "8.20.50-beta.1",
       "channel": "beta"
     },
     {
@@ -8338,12 +8362,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.20.40",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.40-beta.1",
+      "version": "8.20.50-beta.1",
       "channel": "beta"
     },
     {
@@ -8386,6 +8410,12 @@
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
       "version": "0.4.4",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.4.5",
       "channel": "candidate"
     },
     {
@@ -9886,12 +9916,12 @@
       "package": "t8c-certified",
       "name": "t8c-certified",
       "version": "42.111.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.111.0-beta.1",
+      "version": "42.112.0-beta.1",
       "channel": "beta"
     },
     {
@@ -10951,7 +10981,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1825,
+  "count": 1830,
   "source": "opm",
-  "timestamp": "2026-07-31T06:50:41.439021"
+  "timestamp": "2026-08-01T06:51:49.842828"
 }

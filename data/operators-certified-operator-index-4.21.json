@@ -95,6 +95,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.8.11",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.8.2",
       "keywords": [
         "Gateway API",
@@ -2245,6 +2268,21 @@
       "channel": "1.18"
     },
     {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.19.5-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.19"
+    },
+    {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
       "version": "1.25.0",
@@ -3681,6 +3719,20 @@
       "package": "couchbase-enterprise-certified",
       "name": "couchbase-enterprise-certified",
       "version": "2.9.2-2",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.2"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.2-3",
       "keywords": [
         "couchbase",
         "database",
@@ -9865,12 +9917,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.40-beta.1",
+      "version": "8.20.50-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -12854,6 +12906,21 @@
       "channel": "candidate"
     },
     {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.4.5",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "8.0.16-24.4",
@@ -14906,7 +14973,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1263,
+  "count": 1267,
   "source": "opm",
-  "timestamp": "2026-07-31T06:59:20.530317"
+  "timestamp": "2026-08-01T06:59:57.023529"
 }

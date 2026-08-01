@@ -181,6 +181,29 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "4.8.11",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "4.8.2",
       "keywords": [
         "Gateway API",
@@ -2744,6 +2767,21 @@
       "channel": "1.18"
     },
     {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.19.5-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.19"
+    },
+    {
       "package": "cloud-native-postgresql",
       "name": "cloud-native-postgresql",
       "version": "1.25.0",
@@ -4307,6 +4345,20 @@
       "package": "couchbase-enterprise-certified",
       "name": "couchbase-enterprise-certified",
       "version": "2.9.2-2",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.2"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.2-3",
       "keywords": [
         "couchbase",
         "database",
@@ -12669,6 +12721,21 @@
       "channel": "stable"
     },
     {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "26.6.1",
+      "keywords": [
+        "mariadb",
+        "mysql",
+        "database",
+        "operator",
+        "mariadb-enterprise-operator",
+        "database"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "marketplace-games-operator",
       "name": "marketplace-games-operator",
       "version": "1.0.0",
@@ -12701,12 +12768,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.40-beta.1",
+      "version": "8.20.50-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -16123,6 +16190,21 @@
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
       "version": "0.4.4",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.4.5",
       "keywords": [
         "rebellions",
         "ai",
@@ -20814,7 +20896,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1825,
+  "count": 1830,
   "source": "opm",
-  "timestamp": "2026-07-31T06:54:22.665454"
+  "timestamp": "2026-08-01T06:55:56.174326"
 }

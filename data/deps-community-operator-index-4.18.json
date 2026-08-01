@@ -348,6 +348,12 @@
     "acm.services.k8s.aws/v1alpha1/Certificate": [
       "ack-acm-controller"
     ],
+    "acm.services.k8s.aws/v1alpha1/AcmeDomainValidation": [
+      "ack-acm-controller"
+    ],
+    "acm.services.k8s.aws/v1alpha1/AcmeEndpoint": [
+      "ack-acm-controller"
+    ],
     "acmpca.services.k8s.aws/v1alpha1/CertificateAuthority": [
       "ack-acmpca-controller"
     ],
@@ -4783,5 +4789,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-07-31T06:55:15.402250"
+  "timestamp": "2026-08-01T06:56:16.585690"
 }
