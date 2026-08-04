@@ -842,6 +842,12 @@
     "edbpgai.edb.com/v1alpha1/Preflight": [
       "edb-hcp-operator"
     ],
+    "edbpgai.edb.com/v1alpha1/HMFederationPairing": [
+      "edb-hcp-operator"
+    ],
+    "edbpgai.edb.com/v1alpha1/HMFederationToken": [
+      "edb-hcp-operator"
+    ],
     "eginnovations.com/v1beta1/EgUniversalAgent": [
       "eginnovations-operator"
     ],
@@ -1803,6 +1809,21 @@
     "core.libopenstorage.org/v1/ComponentK8sConfig": [
       "portworx-certified"
     ],
+    "multicluster.portworx.com/v1alpha1/Cluster": [
+      "portworx-multi-cluster-certified"
+    ],
+    "multicluster.portworx.com/v1alpha1/DisasterRecoveryAction": [
+      "portworx-multi-cluster-certified"
+    ],
+    "multicluster.portworx.com/v1alpha1/DisasterRecoveryPair": [
+      "portworx-multi-cluster-certified"
+    ],
+    "multicluster.portworx.com/v1alpha1/ProtectionGroup": [
+      "portworx-multi-cluster-certified"
+    ],
+    "multicluster.portworx.com/v1alpha1/ReverseProtectionGroup": [
+      "portworx-multi-cluster-certified"
+    ],
     "charts.helm.k8s.io/v1/Prometurbo": [
       "prometurbo-certified"
     ],
@@ -2383,5 +2404,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-01T06:59:57.715353"
+  "timestamp": "2026-08-04T07:01:52.993549"
 }

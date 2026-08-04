@@ -586,6 +586,32 @@
       "channel": "5.1"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.1.4",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.1"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -5251,6 +5277,19 @@
     {
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
+      "version": "2.1.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
       "version": "2026.3.0",
       "keywords": [
         "Postgres",
@@ -6736,7 +6775,7 @@
     {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.18.1",
+      "version": "1.18.2",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -6749,7 +6788,7 @@
     {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.18.2",
+      "version": "1.18.3",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -12813,6 +12852,22 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-multi-cluster-certified",
+      "name": "portworx-multi-cluster-certified",
+      "version": "26.1.0",
+      "keywords": [
+        "portworx",
+        "storage",
+        "disaster recovery",
+        "multi-cluster",
+        "backup",
+        "replication",
+        "cloud native"
+      ],
+      "description": "Multi-cluster disaster recovery and management for Portworx Enterprise",
+      "channel": "stable"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -14973,7 +15028,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1267,
+  "count": 1270,
   "source": "opm",
-  "timestamp": "2026-08-01T06:59:57.023529"
+  "timestamp": "2026-08-04T07:01:52.360827"
 }

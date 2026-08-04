@@ -608,6 +608,32 @@
       "channel": "5.1"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.1.4",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.1"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -5498,6 +5524,19 @@
     {
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
+      "version": "2.1.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
       "version": "2026.1.0",
       "keywords": [
         "Postgres",
@@ -7231,7 +7270,7 @@
     {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.18.1",
+      "version": "1.18.2",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -7244,7 +7283,7 @@
     {
       "package": "hspc-operator",
       "name": "hspc-operator",
-      "version": "1.18.2",
+      "version": "1.18.3",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -13492,6 +13531,22 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-multi-cluster-certified",
+      "name": "portworx-multi-cluster-certified",
+      "version": "26.1.0",
+      "keywords": [
+        "portworx",
+        "storage",
+        "disaster recovery",
+        "multi-cluster",
+        "backup",
+        "replication",
+        "cloud native"
+      ],
+      "description": "Multi-cluster disaster recovery and management for Portworx Enterprise",
+      "channel": "stable"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -16615,6 +16670,16 @@
       "channel": "beta"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.8.1-23",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "2026.8"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2026.3.1-2",
@@ -16683,6 +16748,16 @@
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "beta"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.8.1-23",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "2026.8"
     },
     {
       "package": "uma-team-operator",
@@ -16754,6 +16829,16 @@
       ],
       "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "beta"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.8.1-23",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "2026.8"
     },
     {
       "package": "vast-csi-operator",
@@ -17374,7 +17459,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1467,
+  "count": 1473,
   "source": "opm",
-  "timestamp": "2026-08-01T06:58:39.984599"
+  "timestamp": "2026-08-04T07:00:32.877573"
 }

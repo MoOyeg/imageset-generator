@@ -5072,6 +5072,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.16.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.17.0",
       "keywords": [
         "eks",
         "aws",
@@ -18972,6 +18978,34 @@
       "channel": "stable-v0"
     },
     {
+      "package": "dotvirt-operator",
+      "name": "dotvirt-operator",
+      "version": "0.0.29",
+      "keywords": [
+        "kubevirt",
+        "gitops",
+        "argocd",
+        "virtualization",
+        "openshift"
+      ],
+      "description": "Installs dotvirt, a GitOps web console for KubeVirt with a point-and-click workflow familiar to vSphere admins, plus its platform/tenant tier.",
+      "channel": "stable-v0"
+    },
+    {
+      "package": "dotvirt-operator",
+      "name": "dotvirt-operator",
+      "version": "0.0.32",
+      "keywords": [
+        "kubevirt",
+        "gitops",
+        "argocd",
+        "virtualization",
+        "openshift"
+      ],
+      "description": "Installs dotvirt, a GitOps web console for KubeVirt with a point-and-click workflow familiar to vSphere admins, plus its platform/tenant tier.",
+      "channel": "stable-v0"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "0.5.0",
@@ -18999,6 +19033,12 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.10.2",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -36232,30 +36272,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-17",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-18",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-20",
       "keywords": [
         "istio",
@@ -36389,6 +36405,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-08-01",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-08-02",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-08-03",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-08-04",
       "keywords": [
         "istio",
         "servicemesh",
@@ -37003,17 +37055,23 @@
       "package": "sn-operator",
       "name": "sn-operator",
       "version": "0.18.12",
-      "keywords": [
-        "streamnative",
-        "pulsar"
-      ],
-      "description": "The StreamNative Operator is a commercial operator built for managing StreamNative Private Cloud commercial components and enterprise features.",
       "channel": "alpha"
     },
     {
       "package": "sn-operator",
       "name": "sn-operator",
       "version": "0.18.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "sn-operator",
+      "name": "sn-operator",
+      "version": "0.19.7",
+      "keywords": [
+        "streamnative",
+        "pulsar"
+      ],
+      "description": "The StreamNative Operator is a commercial operator built for managing StreamNative Private Cloud commercial components and enterprise features.",
       "channel": "alpha"
     },
     {
@@ -40333,7 +40391,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5241,
+  "count": 5247,
   "source": "opm",
-  "timestamp": "2026-08-01T06:57:38.039511"
+  "timestamp": "2026-08-04T06:59:01.816128"
 }

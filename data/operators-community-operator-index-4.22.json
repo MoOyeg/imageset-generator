@@ -5054,6 +5054,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.16.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.17.0",
       "keywords": [
         "eks",
         "aws",
@@ -17420,6 +17426,34 @@
       "channel": "stable-v0"
     },
     {
+      "package": "dotvirt-operator",
+      "name": "dotvirt-operator",
+      "version": "0.0.29",
+      "keywords": [
+        "kubevirt",
+        "gitops",
+        "argocd",
+        "virtualization",
+        "openshift"
+      ],
+      "description": "Installs dotvirt, a GitOps web console for KubeVirt with a point-and-click workflow familiar to vSphere admins, plus its platform/tenant tier.",
+      "channel": "stable-v0"
+    },
+    {
+      "package": "dotvirt-operator",
+      "name": "dotvirt-operator",
+      "version": "0.0.32",
+      "keywords": [
+        "kubevirt",
+        "gitops",
+        "argocd",
+        "virtualization",
+        "openshift"
+      ],
+      "description": "Installs dotvirt, a GitOps web console for KubeVirt with a point-and-click workflow familiar to vSphere admins, plus its platform/tenant tier.",
+      "channel": "stable-v0"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "0.5.0",
@@ -17447,6 +17481,12 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.10.2",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -33225,30 +33265,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-17",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-18",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-20",
       "keywords": [
         "istio",
@@ -33382,6 +33398,42 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-08-01",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-08-02",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-08-03",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-08-04",
       "keywords": [
         "istio",
         "servicemesh",
@@ -36589,7 +36641,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4888,
+  "count": 4893,
   "source": "opm",
-  "timestamp": "2026-08-01T07:01:14.495661"
+  "timestamp": "2026-08-04T07:03:11.056501"
 }

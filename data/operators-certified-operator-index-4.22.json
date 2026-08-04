@@ -586,6 +586,32 @@
       "channel": "5.1"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.1.4",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.1"
+    },
+    {
       "package": "alloydb-omni-operator-certified",
       "name": "alloydb-omni-operator-certified",
       "version": "1.7.0",
@@ -4111,6 +4137,19 @@
       "channel": "stable"
     },
     {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2.1.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "stable"
+    },
+    {
       "package": "eginnovations-operator",
       "name": "eginnovations-operator",
       "version": "0.0.11",
@@ -5235,6 +5274,19 @@
       "package": "hspc-operator",
       "name": "hspc-operator",
       "version": "1.18.2",
+      "keywords": [
+        "Hitachi",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing Hitachi Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "hspc-operator",
+      "name": "hspc-operator",
+      "version": "1.18.3",
       "keywords": [
         "Hitachi",
         "Storage",
@@ -9563,6 +9615,22 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-multi-cluster-certified",
+      "name": "portworx-multi-cluster-certified",
+      "version": "26.1.0",
+      "keywords": [
+        "portworx",
+        "storage",
+        "disaster recovery",
+        "multi-cluster",
+        "backup",
+        "replication",
+        "cloud native"
+      ],
+      "description": "Multi-cluster disaster recovery and management for Portworx Enterprise",
+      "channel": "stable"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
@@ -11256,7 +11324,7 @@
       "channel": "lts"
     }
   ],
-  "count": 990,
+  "count": 994,
   "source": "opm",
-  "timestamp": "2026-08-01T07:00:59.379101"
+  "timestamp": "2026-08-04T07:02:56.241386"
 }
