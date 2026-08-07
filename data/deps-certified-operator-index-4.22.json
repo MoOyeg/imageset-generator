@@ -396,7 +396,8 @@
       "cfm-operator"
     ],
     "cilium.io/v1alpha1/CiliumConfig": [
-      "cilium-enterprise"
+      "cilium-enterprise",
+      "clife"
     ],
     "postgresql.k8s.enterprisedb.io/v1/Backup": [
       "cloud-native-postgresql"
@@ -668,13 +669,13 @@
     "dh2i.com/v1/DxSqlAg": [
       "dxoperator-v2"
     ],
-    "dynatrace.com/v1beta1/DynaKube": [
+    "dynatrace.com/v1beta4/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta2/DynaKube": [
+    "dynatrace.com/v1beta5/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta3/DynaKube": [
+    "dynatrace.com/v1beta6/DynaKube": [
       "dynatrace-operator"
     ],
     "dynatrace.com/v1alpha1/EdgeConnect": [
@@ -683,13 +684,13 @@
     "dynatrace.com/v1alpha2/EdgeConnect": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta4/DynaKube": [
+    "dynatrace.com/v1beta1/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta5/DynaKube": [
+    "dynatrace.com/v1beta2/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta6/DynaKube": [
+    "dynatrace.com/v1beta3/DynaKube": [
       "dynatrace-operator"
     ],
     "config.eda.nokia.com/v1/ConnectControllerConfig": [
@@ -988,6 +989,18 @@
     ],
     "ibm.com/v1/IBMSecurityVerifyAccess": [
       "ibm-security-verify-access-operator"
+    ],
+    "csidriver.infinidat.com/v1/Iboxcg": [
+      "infinibox-operator-certified"
+    ],
+    "csidriver.infinidat.com/v1/Iboxpromote": [
+      "infinibox-operator-certified"
+    ],
+    "csidriver.infinidat.com/v1/Iboxreplica": [
+      "infinibox-operator-certified"
+    ],
+    "csidriver.infinidat.com/v1alpha1/InfiniboxCsiDriver": [
+      "infinibox-operator-certified"
     ],
     "infoscale.veritas.com/v1/DNS": [
       "infoscale-dr-manager"
@@ -1865,6 +1878,9 @@
     "operator.tigera.io/v1/TigeraStatus": [
       "tigera-operator"
     ],
+    "trident.netapp.io/v1/TridentOrchestrator": [
+      "trident-operator"
+    ],
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
@@ -2061,5 +2077,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-04T07:02:56.665629"
+  "timestamp": "2026-08-07T06:59:46.446871"
 }

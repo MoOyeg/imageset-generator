@@ -440,6 +440,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/WorkloadIdentity": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Policy": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -3839,6 +3842,48 @@
     "sro.openshift.io/v1beta1/SpecialResource": [
       "special-resource-operator"
     ],
+    "stackgres.io/v1/SGBackup": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGCluster": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGConfig": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGDbOps": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGDistributedLogs": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGInstanceProfile": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1beta1/SGObjectStorage": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGPoolingConfig": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGPostgresConfig": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGScript": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGShardedBackup": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1alpha1/SGShardedCluster": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1/SGShardedDbOps": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1alpha1/SGStream": [
+      "stackgres-community"
+    ],
     "storage-based-remediation.medik8s.io/v1alpha1/StorageBasedRemediation": [
       "storage-based-remediation"
     ],
@@ -4305,5 +4350,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-08-04T07:03:11.884484"
+  "timestamp": "2026-08-07T07:00:01.984573"
 }

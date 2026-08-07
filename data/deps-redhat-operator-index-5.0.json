@@ -731,6 +731,21 @@
     "operator.openshift.io/v1/SecondaryScheduler": [
       "openshift-secondary-scheduler-operator"
     ],
+    "opentelemetry.io/v1alpha1/Instrumentation": [
+      "opentelemetry-product"
+    ],
+    "opentelemetry.io/v1alpha1/OpAMPBridge": [
+      "opentelemetry-product"
+    ],
+    "opentelemetry.io/v1alpha1/OpenTelemetryCollector": [
+      "opentelemetry-product"
+    ],
+    "opentelemetry.io/v1beta1/OpenTelemetryCollector": [
+      "opentelemetry-product"
+    ],
+    "opentelemetry.io/v1alpha1/TargetAllocator": [
+      "opentelemetry-product"
+    ],
     "quay.redhat.com/v1/QuayIntegration": [
       "quay-bridge-operator"
     ],
@@ -1002,5 +1017,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-08-04T07:03:30.786219"
+  "timestamp": "2026-08-07T07:00:21.869871"
 }

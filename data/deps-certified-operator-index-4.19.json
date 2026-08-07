@@ -849,13 +849,13 @@
     "dh2i.com/v1/DxSqlAg": [
       "dxoperator-v2"
     ],
-    "dynatrace.com/v1beta1/DynaKube": [
+    "dynatrace.com/v1beta4/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta2/DynaKube": [
+    "dynatrace.com/v1beta5/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta3/DynaKube": [
+    "dynatrace.com/v1beta6/DynaKube": [
       "dynatrace-operator"
     ],
     "dynatrace.com/v1alpha1/EdgeConnect": [
@@ -864,13 +864,13 @@
     "dynatrace.com/v1alpha2/EdgeConnect": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta4/DynaKube": [
+    "dynatrace.com/v1beta1/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta5/DynaKube": [
+    "dynatrace.com/v1beta2/DynaKube": [
       "dynatrace-operator"
     ],
-    "dynatrace.com/v1beta6/DynaKube": [
+    "dynatrace.com/v1beta3/DynaKube": [
       "dynatrace-operator"
     ],
     "config.eda.nokia.com/v1/ConnectControllerConfig": [
@@ -1229,6 +1229,9 @@
     "odf.ibm.com/v1alpha1/FlashSystemCluster": [
       "ibm-storage-odf-operator"
     ],
+    "csidriver.infinidat.com/v1/Iboxcg": [
+      "infinibox-operator-certified"
+    ],
     "csidriver.infinidat.com/v1/Iboxpromote": [
       "infinibox-operator-certified"
     ],
@@ -1236,9 +1239,6 @@
       "infinibox-operator-certified"
     ],
     "csidriver.infinidat.com/v1alpha1/InfiniboxCsiDriver": [
-      "infinibox-operator-certified"
-    ],
-    "csidriver.infinidat.com/v1/Iboxcg": [
       "infinibox-operator-certified"
     ],
     "infoscale.veritas.com/v1/DNS": [
@@ -2764,5 +2764,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-04T06:58:09.708099"
+  "timestamp": "2026-08-07T06:55:01.429310"
 }

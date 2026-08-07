@@ -2439,6 +2439,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.4.0+0.1785427615",
+      "channel": "stable-2.4"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.4.0+0.1785432057",
+      "channel": "stable-2.4-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.5.0+0.1727240614",
       "channel": "stable-2.5"
     },
@@ -2847,6 +2859,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1785458863",
+      "channel": "stable-2.5-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1785458922",
+      "channel": "stable-2.5"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1758684783",
       "channel": "stable-2.6"
     },
@@ -3063,6 +3087,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1785788355",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1785788621",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173639",
       "channel": "stable-2.7"
     },
@@ -3130,6 +3166,18 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1784907698",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1785438985",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1785438991",
       "channel": "stable-2.7-cluster-scoped"
     },
     {
@@ -5313,6 +5361,12 @@
     {
       "package": "cluster-logging",
       "name": "cluster-logging",
+      "version": "6.0.16",
+      "channel": "stable-6.0"
+    },
+    {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
       "version": "6.0.2",
       "channel": "stable-6.0"
     },
@@ -6910,6 +6964,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.9.24",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.9.25",
       "channel": "stable-3.9"
     },
     {
@@ -9358,6 +9418,12 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.3.7",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.8",
       "channel": "stable-v1"
     },
     {
@@ -12967,6 +13033,12 @@
       "channel": "alpha"
     },
     {
+      "package": "lightspeed-operator",
+      "name": "lightspeed-operator",
+      "version": "1.1.2",
+      "channel": "alpha"
+    },
+    {
       "package": "limitador-operator",
       "name": "limitador-operator",
       "version": "0.12.1",
@@ -13327,6 +13399,12 @@
       "channel": "stable"
     },
     {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.38.1",
+      "channel": "stable"
+    },
+    {
       "package": "logic-operator-rhel8",
       "name": "logic-operator-rhel8",
       "version": "1.33.0",
@@ -13504,6 +13582,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "6.0.15",
+      "channel": "stable-6.0"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.0.16",
       "channel": "stable-6.0"
     },
     {
@@ -14713,6 +14797,12 @@
       "channel": "tech-preview"
     },
     {
+      "package": "model-validation-operator",
+      "name": "model-validation-operator",
+      "version": "0.1.2",
+      "channel": "tech-preview"
+    },
+    {
       "package": "mta-operator",
       "name": "mta-operator",
       "version": "6.0.0",
@@ -14896,6 +14986,12 @@
       "package": "mta-operator",
       "name": "mta-operator",
       "version": "8.1.2",
+      "channel": "stable-v8.1"
+    },
+    {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.1.3",
       "channel": "stable-v8.1"
     },
     {
@@ -20685,6 +20781,12 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.5",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.23.0",
       "channel": "latest"
     },
@@ -21063,6 +21165,12 @@
     {
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
+      "version": "0.152.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
       "version": "0.56.0-1",
       "channel": "stable"
     },
@@ -21262,6 +21370,12 @@
       "package": "policy-controller-operator",
       "name": "policy-controller-operator",
       "version": "1.0.1",
+      "channel": "stable"
+    },
+    {
+      "package": "policy-controller-operator",
+      "name": "policy-controller-operator",
+      "version": "1.0.2",
       "channel": "stable"
     },
     {
@@ -22581,6 +22695,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.25",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -23529,6 +23649,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.9.25",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -24376,6 +24502,18 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0+0.1785145776.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1785778899.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1785889782.p",
       "channel": "latest"
     },
     {
@@ -25869,6 +26007,12 @@
     {
       "package": "rhbk-operator",
       "name": "rhbk-operator",
+      "version": "26.4.14-opr.1",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
       "version": "26.4.2-opr.1",
       "channel": "stable-v26"
     },
@@ -25924,6 +26068,12 @@
       "package": "rhbk-operator",
       "name": "rhbk-operator",
       "version": "26.6.4-opr.1",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.6.5-opr.1",
       "channel": "stable-v26"
     },
     {
@@ -31135,7 +31285,7 @@
       "channel": "preview"
     }
   ],
-  "count": 5189,
+  "count": 5214,
   "source": "opm",
-  "timestamp": "2026-08-04T06:51:29.449394"
+  "timestamp": "2026-08-07T06:48:01.275432"
 }

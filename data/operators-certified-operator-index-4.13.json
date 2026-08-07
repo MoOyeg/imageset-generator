@@ -427,6 +427,12 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.0",
+      "channel": "alpha"
+    },
+    {
       "package": "bonree-operator",
       "name": "bonree-operator",
       "version": "1.1.0",
@@ -1816,6 +1822,12 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.28.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.29.0",
       "channel": "stable"
     },
     {
@@ -3267,7 +3279,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.6",
+      "version": "2.24.7",
       "channel": "beta"
     },
     {
@@ -3303,7 +3315,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.6",
+      "version": "2.24.7",
       "channel": "beta"
     },
     {
@@ -5085,8 +5097,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.40",
-      "channel": "stable"
+      "version": "8.20.50",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -5163,6 +5175,12 @@
     {
       "package": "linstor-operator",
       "name": "linstor-operator",
+      "version": "2.11.0",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
       "version": "2.8.1",
       "channel": "stable-v2"
     },
@@ -5193,8 +5211,8 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.40",
-      "channel": "stable"
+      "version": "8.20.50",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -6747,8 +6765,8 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.40",
-      "channel": "stable"
+      "version": "8.20.50",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -7585,6 +7603,18 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.33.4",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.33.5",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seldon-operator-certified",
       "name": "seldon-operator-certified",
       "version": "1.16.0-0",
@@ -7617,7 +7647,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.19.4",
+      "version": "0.19.7",
       "channel": "alpha"
     },
     {
@@ -7935,6 +7965,12 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
+      "version": "1.19.0",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
       "version": "1.19.0-rc1",
       "channel": "candidate"
     },
@@ -7971,8 +8007,8 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.111.0",
-      "channel": "stable"
+      "version": "42.112.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
@@ -7983,8 +8019,8 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.1",
-      "channel": "stable"
+      "version": "1.7.2",
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -9283,6 +9319,12 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.74.1",
+      "channel": "beta"
+    },
+    {
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "3.3.9",
@@ -9322,6 +9364,12 @@
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "3.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.5.1",
       "channel": "alpha"
     },
     {
@@ -9433,7 +9481,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1572,
+  "count": 1580,
   "source": "opm",
-  "timestamp": "2026-08-04T06:40:43.006494"
+  "timestamp": "2026-08-07T06:37:31.312103"
 }

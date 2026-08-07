@@ -506,6 +506,12 @@
       "package": "ack-acmpca-controller",
       "name": "ack-acmpca-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-acmpca-controller",
+      "name": "ack-acmpca-controller",
+      "version": "1.4.0",
       "keywords": [
         "acmpca",
         "aws",
@@ -952,6 +958,12 @@
       "package": "ack-apigatewayv2-controller",
       "name": "ack-apigatewayv2-controller",
       "version": "1.3.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigatewayv2-controller",
+      "name": "ack-apigatewayv2-controller",
+      "version": "1.4.0",
       "keywords": [
         "apigatewayv2",
         "aws",
@@ -1259,6 +1271,12 @@
       "package": "ack-applicationautoscaling-controller",
       "name": "ack-applicationautoscaling-controller",
       "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-applicationautoscaling-controller",
+      "name": "ack-applicationautoscaling-controller",
+      "version": "1.5.0",
       "keywords": [
         "applicationautoscaling",
         "aws",
@@ -1410,6 +1428,12 @@
       "package": "ack-athena-controller",
       "name": "ack-athena-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-athena-controller",
+      "name": "ack-athena-controller",
+      "version": "1.6.0",
       "keywords": [
         "athena",
         "aws",
@@ -1453,6 +1477,12 @@
       "package": "ack-autoscaling-controller",
       "name": "ack-autoscaling-controller",
       "version": "1.0.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-autoscaling-controller",
+      "name": "ack-autoscaling-controller",
+      "version": "1.1.0",
       "keywords": [
         "autoscaling",
         "aws",
@@ -1557,6 +1587,12 @@
       "package": "ack-bedrock-controller",
       "name": "ack-bedrock-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrock-controller",
+      "name": "ack-bedrock-controller",
+      "version": "1.3.0",
       "keywords": [
         "bedrock",
         "aws",
@@ -1636,6 +1672,12 @@
       "package": "ack-bedrockagent-controller",
       "name": "ack-bedrockagent-controller",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagent-controller",
+      "name": "ack-bedrockagent-controller",
+      "version": "1.3.0",
       "keywords": [
         "bedrockagent",
         "aws",
@@ -1673,6 +1715,12 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.12.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -1956,6 +2004,12 @@
       "package": "ack-cloudfront-controller",
       "name": "ack-cloudfront-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudfront-controller",
+      "name": "ack-cloudfront-controller",
+      "version": "1.7.0",
       "keywords": [
         "cloudfront",
         "aws",
@@ -2161,6 +2215,12 @@
       "package": "ack-cloudtrail-controller",
       "name": "ack-cloudtrail-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudtrail-controller",
+      "name": "ack-cloudtrail-controller",
+      "version": "1.4.0",
       "keywords": [
         "cloudtrail",
         "aws",
@@ -2868,6 +2928,12 @@
       "package": "ack-documentdb-controller",
       "name": "ack-documentdb-controller",
       "version": "1.4.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-documentdb-controller",
+      "name": "ack-documentdb-controller",
+      "version": "1.5.0",
       "keywords": [
         "documentdb",
         "aws",
@@ -2911,6 +2977,12 @@
       "package": "ack-dsql-controller",
       "name": "ack-dsql-controller",
       "version": "1.0.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dsql-controller",
+      "name": "ack-dsql-controller",
+      "version": "1.1.0",
       "keywords": [
         "dsql",
         "aws",
@@ -3092,6 +3164,19 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.1.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "dynamodb",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS DynamoDB controller is a service controller for managing DynamoDB resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -3326,13 +3411,6 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.9.2",
-      "keywords": [
-        "dynamodb",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS DynamoDB controller is a service controller for managing DynamoDB resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -3621,6 +3699,12 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.18.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.19.0",
       "keywords": [
         "ec2",
         "aws",
@@ -4433,6 +4517,12 @@
       "package": "ack-ecrpublic-controller",
       "name": "ack-ecrpublic-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecrpublic-controller",
+      "name": "ack-ecrpublic-controller",
+      "version": "1.4.0",
       "keywords": [
         "ecrpublic",
         "aws",
@@ -4741,6 +4831,12 @@
       "package": "ack-efs-controller",
       "name": "ack-efs-controller",
       "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-efs-controller",
+      "name": "ack-efs-controller",
+      "version": "1.5.0",
       "keywords": [
         "efs",
         "aws",
@@ -5060,6 +5156,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.17.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.18.0",
       "keywords": [
         "eks",
         "aws",
@@ -5860,6 +5962,12 @@
       "package": "ack-elbv2-controller",
       "name": "ack-elbv2-controller",
       "version": "1.5.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elbv2-controller",
+      "name": "ack-elbv2-controller",
+      "version": "1.6.0",
       "keywords": [
         "elbv2",
         "aws",
@@ -6113,6 +6221,12 @@
       "package": "ack-emrcontainers-controller",
       "name": "ack-emrcontainers-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emrcontainers-controller",
+      "name": "ack-emrcontainers-controller",
+      "version": "1.6.0",
       "keywords": [
         "emrcontainers",
         "aws",
@@ -6138,6 +6252,12 @@
       "package": "ack-emrserverless-controller",
       "name": "ack-emrserverless-controller",
       "version": "1.0.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emrserverless-controller",
+      "name": "ack-emrserverless-controller",
+      "version": "1.1.0",
       "keywords": [
         "emrserverless",
         "aws",
@@ -6373,6 +6493,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.5.0",
       "keywords": [
         "eventbridge",
         "aws",
@@ -6416,6 +6542,12 @@
       "package": "ack-firehose-controller",
       "name": "ack-firehose-controller",
       "version": "0.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-firehose-controller",
+      "name": "ack-firehose-controller",
+      "version": "0.4.0",
       "keywords": [
         "firehose",
         "aws",
@@ -6489,6 +6621,12 @@
       "package": "ack-glue-controller",
       "name": "ack-glue-controller",
       "version": "1.0.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-glue-controller",
+      "name": "ack-glue-controller",
+      "version": "1.1.0",
       "keywords": [
         "glue",
         "aws",
@@ -6922,6 +7060,12 @@
       "package": "ack-iam-controller",
       "name": "ack-iam-controller",
       "version": "1.7.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-iam-controller",
+      "name": "ack-iam-controller",
+      "version": "1.8.0",
       "keywords": [
         "iam",
         "aws",
@@ -7651,6 +7795,12 @@
       "package": "ack-kinesis-controller",
       "name": "ack-kinesis-controller",
       "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kinesis-controller",
+      "name": "ack-kinesis-controller",
+      "version": "1.4.0",
       "keywords": [
         "kinesis",
         "aws",
@@ -8000,6 +8150,12 @@
       "package": "ack-kms-controller",
       "name": "ack-kms-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kms-controller",
+      "name": "ack-kms-controller",
+      "version": "1.4.0",
       "keywords": [
         "kms",
         "aws",
@@ -8217,6 +8373,12 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.14.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.15.0",
       "keywords": [
         "lambda",
         "aws",
@@ -8422,6 +8584,12 @@
       "package": "ack-lambdamicrovms-controller",
       "name": "ack-lambdamicrovms-controller",
       "version": "0.1.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambdamicrovms-controller",
+      "name": "ack-lambdamicrovms-controller",
+      "version": "0.2.0",
       "keywords": [
         "lambdamicrovms",
         "aws",
@@ -8639,6 +8807,12 @@
       "package": "ack-memorydb-controller",
       "name": "ack-memorydb-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-memorydb-controller",
+      "name": "ack-memorydb-controller",
+      "version": "1.5.0",
       "keywords": [
         "memorydb",
         "aws",
@@ -9002,6 +9176,12 @@
       "package": "ack-networkfirewall-controller",
       "name": "ack-networkfirewall-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-networkfirewall-controller",
+      "name": "ack-networkfirewall-controller",
+      "version": "1.4.0",
       "keywords": [
         "networkfirewall",
         "aws",
@@ -9539,6 +9719,12 @@
       "package": "ack-organizations-controller",
       "name": "ack-organizations-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-organizations-controller",
+      "name": "ack-organizations-controller",
+      "version": "1.4.0",
       "keywords": [
         "organizations",
         "aws",
@@ -9738,6 +9924,12 @@
       "package": "ack-pipes-controller",
       "name": "ack-pipes-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-pipes-controller",
+      "name": "ack-pipes-controller",
+      "version": "1.4.0",
       "keywords": [
         "pipes",
         "aws",
@@ -9979,6 +10171,12 @@
       "package": "ack-prometheusservice-controller",
       "name": "ack-prometheusservice-controller",
       "version": "1.5.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-prometheusservice-controller",
+      "name": "ack-prometheusservice-controller",
+      "version": "1.6.0",
       "keywords": [
         "prometheusservice",
         "aws",
@@ -10022,6 +10220,12 @@
       "package": "ack-quicksight-controller",
       "name": "ack-quicksight-controller",
       "version": "1.0.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-quicksight-controller",
+      "name": "ack-quicksight-controller",
+      "version": "1.1.0",
       "keywords": [
         "quicksight",
         "aws",
@@ -10342,6 +10546,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.10.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.11.0",
       "keywords": [
         "rds",
         "aws",
@@ -11022,6 +11232,12 @@
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
       "version": "1.4.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
+      "version": "1.5.0",
       "keywords": [
         "route53",
         "aws",
@@ -11209,6 +11425,12 @@
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
       "version": "1.7.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
+      "version": "1.8.0",
       "keywords": [
         "route53resolver",
         "aws",
@@ -11666,6 +11888,12 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.9.0",
       "keywords": [
         "s3",
         "aws",
@@ -11739,6 +11967,12 @@
       "package": "ack-s3control-controller",
       "name": "ack-s3control-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3control-controller",
+      "name": "ack-s3control-controller",
+      "version": "1.5.0",
       "keywords": [
         "s3control",
         "aws",
@@ -11770,6 +12004,12 @@
       "package": "ack-s3files-controller",
       "name": "ack-s3files-controller",
       "version": "1.0.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3files-controller",
+      "name": "ack-s3files-controller",
+      "version": "1.1.0",
       "keywords": [
         "s3files",
         "aws",
@@ -11820,6 +12060,12 @@
       "package": "ack-s3vectors-controller",
       "name": "ack-s3vectors-controller",
       "version": "1.0.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3vectors-controller",
+      "name": "ack-s3vectors-controller",
+      "version": "1.1.0",
       "keywords": [
         "s3vectors",
         "aws",
@@ -11911,6 +12157,12 @@
       "package": "ack-sagemaker-controller",
       "name": "ack-sagemaker-controller",
       "version": "1.8.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sagemaker-controller",
+      "name": "ack-sagemaker-controller",
+      "version": "1.9.0",
       "keywords": [
         "sagemaker",
         "aws",
@@ -12098,6 +12350,12 @@
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-secretsmanager-controller",
+      "name": "ack-secretsmanager-controller",
+      "version": "1.4.0",
       "keywords": [
         "secretsmanager",
         "aws",
@@ -12514,6 +12772,12 @@
       "package": "ack-sfn-controller",
       "name": "ack-sfn-controller",
       "version": "1.4.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sfn-controller",
+      "name": "ack-sfn-controller",
+      "version": "1.5.0",
       "keywords": [
         "sfn",
         "aws",
@@ -12629,6 +12893,12 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.8.0",
       "keywords": [
         "sns",
         "aws",
@@ -12924,6 +13194,12 @@
       "package": "ack-sqs-controller",
       "name": "ack-sqs-controller",
       "version": "1.5.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sqs-controller",
+      "name": "ack-sqs-controller",
+      "version": "1.6.0",
       "keywords": [
         "sqs",
         "aws",
@@ -13238,6 +13514,12 @@
       "package": "ack-wafv2-controller",
       "name": "ack-wafv2-controller",
       "version": "1.4.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.5.0",
       "keywords": [
         "wafv2",
         "aws",
@@ -13622,108 +13904,312 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.12",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.14",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.15",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.7",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.8",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.0.9",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.0",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.1",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.3",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.4",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.6",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.1.7",
-      "channel": "3.2.x"
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.0",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.1",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.2",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.3",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.4",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
       "channel": "3.2.x"
     },
     {
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.2.5",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.2.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.2.6",
       "keywords": [
         "integration",
         "streaming",
@@ -14658,6 +15144,12 @@
       "package": "attune",
       "name": "attune",
       "version": "0.1.20",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.21",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -18927,6 +19419,26 @@
       "channel": "stable"
     },
     {
+      "package": "file-integrity-console-plugin",
+      "name": "file-integrity-console-plugin",
+      "version": "0.3.1",
+      "channel": "stable-4.22"
+    },
+    {
+      "package": "file-integrity-console-plugin",
+      "name": "file-integrity-console-plugin",
+      "version": "0.4.0",
+      "keywords": [
+        "file integrity",
+        "aide",
+        "security",
+        "compliance",
+        "console plugin"
+      ],
+      "description": "Node-by-node view of Red Hat File Integrity Operator (AIDE) scan results in the OpenShift console.",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "flink-kubernetes-operator",
       "name": "flink-kubernetes-operator",
       "version": "1.11.0",
@@ -19909,6 +20421,12 @@
       "package": "hermes-operator",
       "name": "hermes-operator",
       "version": "0.1.19",
+      "channel": "stable"
+    },
+    {
+      "package": "hermes-operator",
+      "name": "hermes-operator",
+      "version": "0.1.20",
       "keywords": [
         "ai",
         "agent",
@@ -23563,6 +24081,18 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.7.0",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.7.1",
       "keywords": [
         "Keycloak",
         "Identity",
@@ -33265,6 +33795,54 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-15",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-16",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-17",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.30.0-nightly-2026-07-18",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.30-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-20",
       "keywords": [
         "istio",
@@ -33362,78 +33940,6 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.30.0-nightly-2026-07-29",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-30",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-07-31",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-08-01",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-08-02",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-08-03",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.30-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.30.0-nightly-2026-08-04",
       "keywords": [
         "istio",
         "servicemesh",
@@ -34259,6 +34765,38 @@
       ],
       "description": "The special resource operator is an orchestrator for resources in a cluster required to deploy special hardware and software. Examples include hardware accelerators or software defined storage, where extra management or kernel modules are needed.",
       "channel": "alpha"
+    },
+    {
+      "package": "stackgres-community",
+      "name": "stackgres-community",
+      "version": "1.18.7",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-community",
+      "name": "stackgres-community",
+      "version": "1.18.8",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
     },
     {
       "package": "storage-based-remediation",
@@ -36304,6 +36842,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.74.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "volume-expander-operator",
       "name": "volume-expander-operator",
       "version": "0.1.0",
@@ -36641,7 +37191,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4893,
+  "count": 4947,
   "source": "opm",
-  "timestamp": "2026-08-04T07:03:11.056501"
+  "timestamp": "2026-08-07T07:00:01.144583"
 }

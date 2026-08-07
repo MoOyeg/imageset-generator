@@ -13291,6 +13291,20 @@
       "channel": "stable"
     },
     {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.38.1",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable"
+    },
+    {
       "package": "logic-operator-rhel8",
       "name": "logic-operator-rhel8",
       "version": "1.33.0",
@@ -14987,6 +15001,19 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.5",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.23.0",
       "keywords": [
         "tektoncd",
@@ -15092,6 +15119,444 @@
         "workload"
       ],
       "description": "Runs a secondary scheduler in an OpenShift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.100.1-3",
+      "keywords": [
+        "rhosdt",
+        "metrics",
+        "monitoring",
+        "logging",
+        "observability",
+        "troubleshooting",
+        "tracing",
+        "opentelemetry"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.102.0-2",
+      "keywords": [
+        "monitoring",
+        "troubleshooting",
+        "rhosdt",
+        "opentelemetry",
+        "metrics",
+        "observability",
+        "tracing",
+        "logging"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.102.0-3",
+      "keywords": [
+        "rhosdt",
+        "troubleshooting",
+        "observability",
+        "metrics",
+        "monitoring",
+        "logging",
+        "tracing",
+        "opentelemetry"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.107.0-4",
+      "keywords": [
+        "logging",
+        "monitoring",
+        "tracing",
+        "metrics",
+        "observability",
+        "troubleshooting",
+        "opentelemetry",
+        "rhosdt"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.107.0-4+0.1727168137.p",
+      "keywords": [
+        "logging",
+        "monitoring",
+        "tracing",
+        "metrics",
+        "observability",
+        "troubleshooting",
+        "opentelemetry",
+        "rhosdt"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.107.0-5",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.113.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.113.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.119.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.119.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.127.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.127.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.135.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.140.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.140.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.144.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.144.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.144.0-3",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.152.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.152.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.56.0-1",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.60.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.74.0-5",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.74.0-5+0.1687199949.p",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.81.1-5",
+      "keywords": [
+        "observability",
+        "troubleshooting",
+        "metrics",
+        "tracing",
+        "monitoring",
+        "opentelemetry",
+        "rhosdt",
+        "logging"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.89.0-3",
+      "keywords": [
+        "tracing",
+        "rhosdt",
+        "logging",
+        "troubleshooting",
+        "monitoring",
+        "metrics",
+        "opentelemetry",
+        "observability"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.93.0-2",
+      "keywords": [
+        "opentelemetry",
+        "troubleshooting",
+        "tracing",
+        "rhosdt",
+        "logging",
+        "metrics",
+        "observability",
+        "monitoring"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.93.0-3",
+      "keywords": [
+        "metrics",
+        "troubleshooting",
+        "logging",
+        "monitoring",
+        "observability",
+        "opentelemetry",
+        "tracing",
+        "rhosdt"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
       "channel": "stable"
     },
     {
@@ -18813,6 +19278,32 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0+0.1785145776.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1785778899.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1785889782.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -26274,7 +26765,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1800,
+  "count": 1832,
   "source": "opm",
-  "timestamp": "2026-08-04T07:03:29.563930"
+  "timestamp": "2026-08-07T07:00:20.694457"
 }
