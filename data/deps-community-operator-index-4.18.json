@@ -789,6 +789,9 @@
     "kafka.services.k8s.aws/v1alpha1/ServerlessCluster": [
       "ack-kafka-controller"
     ],
+    "kafka.services.k8s.aws/v1alpha1/VPCConnection": [
+      "ack-kafka-controller"
+    ],
     "keyspaces.services.k8s.aws/v1alpha1/Keyspace": [
       "ack-keyspaces-controller"
     ],
@@ -877,6 +880,9 @@
       "ack-opensearchserverless-controller"
     ],
     "opensearchservice.services.k8s.aws/v1alpha1/Domain": [
+      "ack-opensearchservice-controller"
+    ],
+    "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpoint": [
       "ack-opensearchservice-controller"
     ],
     "organizations.services.k8s.aws/v1alpha1/OrganizationalUnit": [
@@ -1987,6 +1993,9 @@
     ],
     "trivy-operator.devopstales.io/v1/VulnerabilityReport": [
       "community-trivy-operator"
+    ],
+    "commvault.com/v1/CommvaultConfig": [
+      "commvault-operator"
     ],
     "customized-user-remediation.medik8s.io/v1alpha1/CustomizedUserRemediation": [
       "customized-user-remediation"
@@ -4801,5 +4810,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-08-07T06:53:58.440006"
+  "timestamp": "2026-08-10T07:00:42.063456"
 }

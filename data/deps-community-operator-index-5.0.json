@@ -695,6 +695,9 @@
     "kafka.services.k8s.aws/v1alpha1/ServerlessCluster": [
       "ack-kafka-controller"
     ],
+    "kafka.services.k8s.aws/v1alpha1/VPCConnection": [
+      "ack-kafka-controller"
+    ],
     "keyspaces.services.k8s.aws/v1alpha1/Keyspace": [
       "ack-keyspaces-controller"
     ],
@@ -783,6 +786,9 @@
       "ack-opensearchserverless-controller"
     ],
     "opensearchservice.services.k8s.aws/v1alpha1/Domain": [
+      "ack-opensearchservice-controller"
+    ],
+    "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpoint": [
       "ack-opensearchservice-controller"
     ],
     "organizations.services.k8s.aws/v1alpha1/OrganizationalUnit": [
@@ -3707,5 +3713,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-08-07T07:00:48.744936"
+  "timestamp": "2026-08-10T07:07:48.910403"
 }
