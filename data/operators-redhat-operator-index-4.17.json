@@ -792,6 +792,20 @@
       "channel": "release-2.15"
     },
     {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
+      "version": "2.15.5",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.15"
+    },
+    {
       "package": "amq-broker-rhel8",
       "name": "amq-broker-rhel8",
       "version": "7.10.0-opr-1",
@@ -3066,6 +3080,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-4",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "keywords": [
         "kafka",
@@ -3339,6 +3370,23 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.0-8",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.1-8",
       "keywords": [
         "kafka",
         "messaging",
@@ -3815,6 +3863,26 @@
     {
       "package": "amq-streams-console",
       "name": "amq-streams-console",
+      "version": "2.9.4-8",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
       "version": "3.0.0-10",
       "keywords": [
         "kafka",
@@ -4173,6 +4241,26 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.1-3",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.0.0-5",
@@ -4420,6 +4508,22 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.2.0-8",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.1-3",
       "keywords": [
         "kafka",
         "messaging",
@@ -13516,6 +13620,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.12.21",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.12.3",
       "keywords": [
         "open source",
@@ -14057,6 +14173,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.17.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.17.4",
       "keywords": [
         "open source",
         "containers",
@@ -20485,6 +20613,17 @@
       "channel": "stable"
     },
     {
+      "package": "file-integrity-operator",
+      "name": "file-integrity-operator",
+      "version": "1.4.1",
+      "keywords": [
+        "Integrity",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "fuse-apicurito",
       "name": "fuse-apicurito",
       "version": "7.10.0",
@@ -24692,6 +24831,21 @@
       "channel": "release-2.6"
     },
     {
+      "package": "kernel-module-management",
+      "name": "kernel-module-management",
+      "version": "2.7.0",
+      "keywords": [
+        "kernel",
+        "kmm",
+        "module",
+        "modules",
+        "oot",
+        "out-of-tree"
+      ],
+      "description": "",
+      "channel": "release-2.7"
+    },
+    {
       "package": "kernel-module-management-hub",
       "name": "kernel-module-management-hub",
       "version": "2.0.0",
@@ -24942,6 +25096,23 @@
       ],
       "description": "",
       "channel": "release-2.6"
+    },
+    {
+      "package": "kernel-module-management-hub",
+      "name": "kernel-module-management-hub",
+      "version": "2.7.0",
+      "keywords": [
+        "hub",
+        "kernel",
+        "kmm",
+        "kmm-hub",
+        "module",
+        "modules",
+        "oot",
+        "out-of-tree"
+      ],
+      "description": "",
+      "channel": "release-2.7"
     },
     {
       "package": "kiali-ossm",
@@ -27202,6 +27373,23 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.17.56",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.17.57",
       "keywords": [
         "KubeVirt",
         "Virtualization",
@@ -32282,6 +32470,18 @@
     {
       "package": "multicluster-engine",
       "name": "multicluster-engine",
+      "version": "2.10.5",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.10"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
       "version": "2.6.0",
       "keywords": [
         "mce",
@@ -33040,6 +33240,17 @@
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.4",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.6"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
+      "version": "1.6.5",
       "keywords": [
         "multicluster-global-hub",
         "multiple-hubs"
@@ -41760,6 +41971,18 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.19.6",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.20.0",
       "keywords": [
         "devtools",
@@ -41832,6 +42055,18 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.20.6",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.21.0",
       "keywords": [
         "devtools",
@@ -41845,6 +42080,18 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.21.1",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.21"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.21.2",
       "keywords": [
         "devtools",
         "gitops",
@@ -44519,6 +44766,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.12.21",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.12.3",
       "keywords": [
         "registry",
@@ -45060,6 +45319,18 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.17.3",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.17.4",
       "keywords": [
         "registry",
         "containers",
@@ -46535,6 +46806,18 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.12.21",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.12.3",
       "keywords": [
         "open source",
@@ -47076,6 +47359,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.17.3",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.17.4",
       "keywords": [
         "open source",
         "containers",
@@ -49687,6 +49982,19 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0+0.1785889782.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1786404626.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -56078,6 +56386,43 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
+      "version": "2.25.10",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
       "version": "2.25.2",
       "keywords": [
         "Operator",
@@ -57358,6 +57703,18 @@
       "package": "rhsso-operator",
       "name": "rhsso-operator",
       "version": "7.6.12-opr-011",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Red Hat Single Sign-On",
+      "channel": "stable"
+    },
+    {
+      "package": "rhsso-operator",
+      "name": "rhsso-operator",
+      "version": "7.6.12-opr-012",
       "keywords": [
         "Keycloak",
         "Identity",
@@ -59057,6 +59414,19 @@
       "package": "runtimes-inventory-operator",
       "name": "runtimes-inventory-operator",
       "version": "1.0.3",
+      "keywords": [
+        "insights",
+        "java",
+        "runtimes",
+        "red hat"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "runtimes-inventory-operator",
+      "name": "runtimes-inventory-operator",
+      "version": "1.0.4",
       "keywords": [
         "insights",
         "java",
@@ -65131,6 +65501,21 @@
     {
       "package": "volsync-product",
       "name": "volsync-product",
+      "version": "0.15.2",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "volsync-product",
+      "name": "volsync-product",
       "version": "0.16.0",
       "keywords": [
         "backup",
@@ -65678,7 +66063,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4765,
+  "count": 4791,
   "source": "opm",
-  "timestamp": "2026-08-10T06:58:12.001048"
+  "timestamp": "2026-08-13T06:58:59.462695"
 }

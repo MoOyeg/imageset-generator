@@ -1720,6 +1720,21 @@
     "operator.open-cluster-management.io/v1/ClusterManager": [
       "cluster-manager"
     ],
+    "charts.clusterpulse.io/v1alpha1/ClusterPulse": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/ClusterConnection": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/MonitorAccessPolicy": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/RegistryConnection": [
+      "clusterpulse"
+    ],
+    "clusterpulse.io/v1alpha1/MetricSource": [
+      "clusterpulse"
+    ],
     "charts.operatorhub.io/v1alpha1/Cockroachdb": [
       "cockroachdb"
     ],
@@ -4241,6 +4256,9 @@
     "redhatcop.redhat.io/v1alpha1/IdentityTokenRole": [
       "vault-config-operator"
     ],
+    "redhatcop.redhat.io/v1alpha1/Namespace": [
+      "vault-config-operator"
+    ],
     "vertica.com/v1beta1/VerticaAutoscaler": [
       "verticadb-operator"
     ],
@@ -4359,5 +4377,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-08-10T07:06:22.500480"
+  "timestamp": "2026-08-13T07:06:50.484391"
 }

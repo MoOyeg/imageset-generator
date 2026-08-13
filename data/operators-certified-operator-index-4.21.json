@@ -1418,6 +1418,22 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.3",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -3619,6 +3635,26 @@
       "package": "conjur-follower-operator",
       "name": "conjur-follower-operator",
       "version": "2.9.1",
+      "keywords": [
+        "credential",
+        "cyber",
+        "cyberark",
+        "conjur",
+        "enterprise",
+        "management",
+        "password",
+        "secret",
+        "secrets management",
+        "security",
+        "vault"
+      ],
+      "description": "",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.9.2",
       "keywords": [
         "credential",
         "cyber",
@@ -6047,6 +6083,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.2",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.3",
@@ -8066,6 +8116,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.17",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -8955,6 +9017,18 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "9.0.2",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.3",
       "keywords": [
         "kubernetes",
         "storage",
@@ -10055,12 +10129,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.50-beta.1",
+      "version": "8.20.60-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -12951,6 +13025,20 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.3.1",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "portworx-multi-cluster-certified",
       "name": "portworx-multi-cluster-certified",
       "version": "26.1.0",
@@ -12969,7 +13057,7 @@
     {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
-      "version": "1.4.0",
+      "version": "1.4.2",
       "keywords": [
         "solace",
         "pubsubplus",
@@ -13148,6 +13236,20 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "8.0.20-25.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.0.20"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "8.0.20-26.2",
       "keywords": [
         "redislabs",
         "redis",
@@ -14421,7 +14523,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.9.0",
+      "version": "1.9.1",
       "keywords": [
         "tenant",
         "stakater",
@@ -14619,6 +14721,20 @@
       "channel": "6.2.x"
     },
     {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.6.6",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.0.x"
+    },
+    {
       "package": "vast-csi-operator",
       "name": "vast-csi-operator",
       "version": "2.6.4",
@@ -14778,6 +14894,18 @@
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.5.0",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.5.1",
       "keywords": [
         "vault",
         "security",
@@ -15093,6 +15221,36 @@
     {
       "package": "xspc-operator",
       "name": "xspc-operator",
+      "version": "1.16.1",
+      "keywords": [
+        "XP7",
+        "XP8",
+        "HPE",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing HPE XP Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "xspc-operator",
+      "name": "xspc-operator",
+      "version": "1.17.3",
+      "keywords": [
+        "XP7",
+        "XP8",
+        "HPE",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing HPE XP Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "xspc-operator",
+      "name": "xspc-operator",
       "version": "1.18.1",
       "keywords": [
         "XP7",
@@ -15200,7 +15358,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1282,
+  "count": 1293,
   "source": "opm",
-  "timestamp": "2026-08-10T07:04:51.781613"
+  "timestamp": "2026-08-13T07:05:24.550181"
 }

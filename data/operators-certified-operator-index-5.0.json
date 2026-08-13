@@ -1321,6 +1321,22 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.3",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cfm-operator",
       "name": "cfm-operator",
       "version": "2.11.0-b57",
@@ -1966,6 +1982,26 @@
       "package": "conjur-follower-operator",
       "name": "conjur-follower-operator",
       "version": "2.9.1",
+      "keywords": [
+        "credential",
+        "cyber",
+        "cyberark",
+        "conjur",
+        "enterprise",
+        "management",
+        "password",
+        "secret",
+        "secrets management",
+        "security",
+        "vault"
+      ],
+      "description": "",
+      "channel": "preview"
+    },
+    {
+      "package": "conjur-follower-operator",
+      "name": "conjur-follower-operator",
+      "version": "2.9.2",
       "keywords": [
         "credential",
         "cyber",
@@ -4098,6 +4134,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.17",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -5433,7 +5481,7 @@
     {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
-      "version": "1.4.0",
+      "version": "1.4.2",
       "keywords": [
         "solace",
         "pubsubplus",
@@ -5949,7 +5997,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.9.0",
+      "version": "1.9.1",
       "keywords": [
         "tenant",
         "stakater",
@@ -6056,6 +6104,20 @@
       ],
       "description": "Cloud-Native Data Protection for OpenStack",
       "channel": "6.2.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.6.6",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.0.x"
     },
     {
       "package": "vast-csi-operator",
@@ -6211,6 +6273,18 @@
       "channel": "stable"
     },
     {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.5.1",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.0.0",
@@ -6323,21 +6397,6 @@
       "channel": "stable"
     },
     {
-      "package": "xspc-operator",
-      "name": "xspc-operator",
-      "version": "1.18.1",
-      "keywords": [
-        "XP7",
-        "XP8",
-        "HPE",
-        "Storage",
-        "Container Storage Interface",
-        "CSI"
-      ],
-      "description": "An operator for managing HPE XP Storage Plug-in for Containers CSI driver",
-      "channel": "stable"
-    },
-    {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.13",
@@ -6432,7 +6491,7 @@
       "channel": "lts"
     }
   ],
-  "count": 672,
+  "count": 676,
   "source": "opm",
-  "timestamp": "2026-08-10T07:06:53.429695"
+  "timestamp": "2026-08-13T07:07:21.073741"
 }

@@ -295,6 +295,12 @@
     "updateservice.operator.openshift.io/v1/UpdateService": [
       "cincinnati-operator"
     ],
+    "config.openshift.io/v1alpha1/Plugin": [
+      "cli-manager"
+    ],
+    "operator.openshift.io/v1/CliManager": [
+      "cli-manager"
+    ],
     "secscan.quay.redhat.com/v1alpha1/ImageManifestVuln": [
       "container-security-operator"
     ],
@@ -1017,5 +1023,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-08-10T07:06:41.295052"
+  "timestamp": "2026-08-13T07:07:09.034380"
 }

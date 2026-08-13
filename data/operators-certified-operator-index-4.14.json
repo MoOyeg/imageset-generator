@@ -679,6 +679,12 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.3",
+      "channel": "alpha"
+    },
+    {
       "package": "bookkeeper-operator",
       "name": "bookkeeper-operator",
       "version": "0.17.10",
@@ -3559,6 +3565,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.2",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -4887,6 +4899,12 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.17",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -5563,6 +5581,12 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.3",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -6058,12 +6082,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.20.50",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.50-beta.1",
+      "version": "8.20.60-beta.1",
       "channel": "beta"
     },
     {
@@ -6178,12 +6202,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.20.50",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.50-beta.1",
+      "version": "8.20.60-beta.1",
       "channel": "beta"
     },
     {
@@ -7921,21 +7945,27 @@
       "channel": "alpha"
     },
     {
-      "package": "prometurbo-certified",
-      "name": "prometurbo-certified",
-      "version": "8.20.50",
-      "channel": "beta"
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.3.1",
+      "channel": "alpha"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.50-beta.1",
+      "version": "8.20.50",
+      "channel": "stable"
+    },
+    {
+      "package": "prometurbo-certified",
+      "name": "prometurbo-certified",
+      "version": "8.20.60-beta.1",
       "channel": "beta"
     },
     {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
-      "version": "1.4.0",
+      "version": "1.4.2",
       "channel": "stable"
     },
     {
@@ -8767,6 +8797,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.33.6",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -9436,12 +9472,12 @@
       "package": "t8c-certified",
       "name": "t8c-certified",
       "version": "42.112.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.112.0-beta.1",
+      "version": "42.113.0-beta.1",
       "channel": "beta"
     },
     {
@@ -9867,7 +9903,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.9.0",
+      "version": "1.9.1",
       "channel": "release-1.9"
     },
     {
@@ -9965,6 +10001,12 @@
       "name": "tvo-operator",
       "version": "6.2.0",
       "channel": "6.2.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.6.6",
+      "channel": "6.0.x"
     },
     {
       "package": "uma-admin-operator",
@@ -10561,6 +10603,12 @@
       "channel": "stable"
     },
     {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.5.1",
+      "channel": "stable"
+    },
+    {
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.0.0",
@@ -10873,7 +10921,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1812,
+  "count": 1820,
   "source": "opm",
-  "timestamp": "2026-08-10T06:48:19.806985"
+  "timestamp": "2026-08-13T06:48:32.431444"
 }
