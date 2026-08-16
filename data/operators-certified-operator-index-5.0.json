@@ -1337,6 +1337,22 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.4",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cfm-operator",
       "name": "cfm-operator",
       "version": "2.11.0-b57",
@@ -3014,7 +3030,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "keywords": [
         "gitops",
         "harness",
@@ -5008,6 +5024,18 @@
       "channel": "beta"
     },
     {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.8",
+      "keywords": [
+        "Monitoring",
+        "Networking",
+        "Security"
+      ],
+      "description": "NeuVector delivers the only cloud-native Kubernetes security platform with uncompromising end-to-end protection from DevOps vulnerability protection to automated run-time security, and featuring a true Layer 7 container firewall.",
+      "channel": "beta"
+    },
+    {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
       "version": "3.90.3-1",
@@ -6491,7 +6519,7 @@
       "channel": "lts"
     }
   ],
-  "count": 676,
+  "count": 678,
   "source": "opm",
-  "timestamp": "2026-08-13T07:07:21.073741"
+  "timestamp": "2026-08-16T07:04:56.792503"
 }

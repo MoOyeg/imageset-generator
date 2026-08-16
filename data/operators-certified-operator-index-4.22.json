@@ -1409,6 +1409,22 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.4",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cfm-operator",
       "name": "cfm-operator",
       "version": "2.11.0-b57",
@@ -5153,6 +5169,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.3",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "google-cloud-cluster-services-for-openshift-telemetry",
       "name": "google-cloud-cluster-services-for-openshift-telemetry",
       "version": "0.0.6",
@@ -5726,7 +5756,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "keywords": [
         "gitops",
         "harness",
@@ -7955,6 +7985,23 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.3",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.2.3 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
       "version": "1.4.3",
@@ -8940,6 +8987,18 @@
       "package": "neuvector-certified-operator",
       "name": "neuvector-certified-operator",
       "version": "1.5.7",
+      "keywords": [
+        "Monitoring",
+        "Networking",
+        "Security"
+      ],
+      "description": "NeuVector delivers the only cloud-native Kubernetes security platform with uncompromising end-to-end protection from DevOps vulnerability protection to automated run-time security, and featuring a true Layer 7 container firewall.",
+      "channel": "beta"
+    },
+    {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.8",
       "keywords": [
         "Monitoring",
         "Networking",
@@ -12010,7 +12069,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1040,
+  "count": 1044,
   "source": "opm",
-  "timestamp": "2026-08-13T07:06:34.541753"
+  "timestamp": "2026-08-16T07:04:08.539837"
 }

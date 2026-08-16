@@ -4981,6 +4981,18 @@
       "channel": "stable"
     },
     {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "4.14.3",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "4.14.4",
+      "channel": "stable"
+    },
+    {
       "package": "cluster-logging",
       "name": "cluster-logging",
       "version": "5.7.0",
@@ -5860,6 +5872,12 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.9.1",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.2",
       "channel": "stable"
     },
     {
@@ -18321,6 +18339,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.21.3",
+      "channel": "gitops-1.21"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.5.2",
       "channel": "gitops-1.10"
     },
@@ -18934,6 +18958,12 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.152.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.152.0-3",
       "channel": "stable"
     },
     {
@@ -27877,7 +27907,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4646,
+  "count": 4651,
   "source": "opm",
-  "timestamp": "2026-08-13T06:47:43.871943"
+  "timestamp": "2026-08-16T06:45:29.416936"
 }

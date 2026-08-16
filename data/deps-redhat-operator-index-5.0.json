@@ -13,16 +13,6 @@
       ],
       "requires_gvks": []
     },
-    "node-healthcheck-operator": {
-      "requires_packages": [],
-      "requires_gvks": [
-        {
-          "group": "self-node-remediation.medik8s.io",
-          "kind": "SelfNodeRemediation",
-          "version": "v1alpha1"
-        }
-      ]
-    },
     "web-terminal": {
       "requires_packages": [
         {
@@ -1019,9 +1009,18 @@
     "skupper.io/v2alpha1/MultiKeyListener": [
       "skupper-operator"
     ],
+    "storage-based-remediation.medik8s.io/v1alpha1/StorageBasedRemediation": [
+      "storage-based-remediation"
+    ],
+    "storage-based-remediation.medik8s.io/v1alpha1/StorageBasedRemediationConfig": [
+      "storage-based-remediation"
+    ],
+    "storage-based-remediation.medik8s.io/v1alpha1/StorageBasedRemediationTemplate": [
+      "storage-based-remediation"
+    ],
     "daemons.redhat.com/v1alpha1/TangServer": [
       "tang-operator"
     ]
   },
-  "timestamp": "2026-08-13T07:07:09.034380"
+  "timestamp": "2026-08-16T07:04:44.023423"
 }

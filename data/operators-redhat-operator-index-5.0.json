@@ -11868,45 +11868,7 @@
     {
       "package": "fence-agents-remediation",
       "name": "fence-agents-remediation",
-      "version": "0.1.0",
-      "keywords": [
-        "medik8s",
-        "fencing",
-        "auto-healing",
-        "recovery",
-        "high-availability",
-        "fence-agents",
-        "fence-agents-remediation",
-        "remediation",
-        "far",
-        "baremetal"
-      ],
-      "description": "Fence Agents Remediation Operator for remediating nodes using upstream fence-agents.",
-      "channel": "candidate"
-    },
-    {
-      "package": "fence-agents-remediation",
-      "name": "fence-agents-remediation",
-      "version": "0.2.1",
-      "keywords": [
-        "medik8s",
-        "fencing",
-        "auto-healing",
-        "recovery",
-        "high-availability",
-        "fence-agents",
-        "fence-agents-remediation",
-        "remediation",
-        "far",
-        "baremetal"
-      ],
-      "description": "Fence Agents Remediation Operator for remediating nodes using upstream fence-agents.",
-      "channel": "4.14-eus"
-    },
-    {
-      "package": "fence-agents-remediation",
-      "name": "fence-agents-remediation",
-      "version": "0.3.0",
+      "version": "0.8.0",
       "keywords": [
         "medik8s",
         "fencing",
@@ -11920,12 +11882,12 @@
         "baremetal"
       ],
       "description": "Fence Agents Remediation Operator uses well-known agents to fence and remediate unhealthy nodes. The remediation includes rebooting the unhealthy node using a fence agent, and then evicting workloads from the unhealthy node.",
-      "channel": "4.16-eus"
+      "channel": "stable"
     },
     {
       "package": "fence-agents-remediation",
       "name": "fence-agents-remediation",
-      "version": "0.4.0",
+      "version": "0.8.1",
       "keywords": [
         "medik8s",
         "fencing",
@@ -11939,45 +11901,7 @@
         "baremetal"
       ],
       "description": "Fence Agents Remediation Operator uses well-known agents to fence and remediate unhealthy nodes. The remediation includes rebooting the unhealthy node using a fence agent, and then evicting workloads from the unhealthy node.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "fence-agents-remediation",
-      "name": "fence-agents-remediation",
-      "version": "0.4.1",
-      "keywords": [
-        "medik8s",
-        "fencing",
-        "auto-healing",
-        "recovery",
-        "high-availability",
-        "fence-agents",
-        "fence-agents-remediation",
-        "remediation",
-        "far",
-        "baremetal"
-      ],
-      "description": "Fence Agents Remediation Operator uses well-known agents to fence and remediate unhealthy nodes. The remediation includes rebooting the unhealthy node using a fence agent, and then evicting workloads from the unhealthy node.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "fence-agents-remediation",
-      "name": "fence-agents-remediation",
-      "version": "0.5.0",
-      "keywords": [
-        "medik8s",
-        "fencing",
-        "auto-healing",
-        "recovery",
-        "high-availability",
-        "fence-agents",
-        "fence-agents-remediation",
-        "remediation",
-        "far",
-        "baremetal"
-      ],
-      "description": "Fence Agents Remediation Operator uses well-known agents to fence and remediate unhealthy nodes. The remediation includes rebooting the unhealthy node using a fence agent, and then evicting workloads from the unhealthy node.",
-      "channel": "4.18-eus"
+      "channel": "stable"
     },
     {
       "package": "job-set",
@@ -13667,7 +13591,7 @@
     {
       "package": "machine-deletion-remediation",
       "name": "machine-deletion-remediation",
-      "version": "0.1.0",
+      "version": "0.7.0",
       "keywords": [
         "medik8s",
         "machine",
@@ -13676,12 +13600,12 @@
         "mdr"
       ],
       "description": "Machine Deletion Remediation operator for reprovisioning unhealthy nodes using the Machine API.",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "machine-deletion-remediation",
       "name": "machine-deletion-remediation",
-      "version": "0.2.1",
+      "version": "0.7.1",
       "keywords": [
         "medik8s",
         "machine",
@@ -13690,49 +13614,7 @@
         "mdr"
       ],
       "description": "Machine Deletion Remediation operator for reprovisioning unhealthy nodes using the Machine API.",
-      "channel": "4.14-eus"
-    },
-    {
-      "package": "machine-deletion-remediation",
-      "name": "machine-deletion-remediation",
-      "version": "0.3.0",
-      "keywords": [
-        "medik8s",
-        "machine",
-        "deletion",
-        "remediation",
-        "mdr"
-      ],
-      "description": "Machine Deletion Remediation operator for reprovisioning unhealthy nodes using the Machine API.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "machine-deletion-remediation",
-      "name": "machine-deletion-remediation",
-      "version": "0.3.1",
-      "keywords": [
-        "medik8s",
-        "machine",
-        "deletion",
-        "remediation",
-        "mdr"
-      ],
-      "description": "Machine Deletion Remediation operator for reprovisioning unhealthy nodes using the Machine API.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "machine-deletion-remediation",
-      "name": "machine-deletion-remediation",
-      "version": "0.4.0",
-      "keywords": [
-        "medik8s",
-        "machine",
-        "deletion",
-        "remediation",
-        "mdr"
-      ],
-      "description": "Machine Deletion Remediation operator for reprovisioning unhealthy nodes using the Machine API.",
-      "channel": "4.18-eus"
+      "channel": "stable"
     },
     {
       "package": "mta-operator",
@@ -14834,103 +14716,7 @@
     {
       "package": "node-healthcheck-operator",
       "name": "node-healthcheck-operator",
-      "version": "0.3.1",
-      "keywords": [
-        "NHC",
-        "Self Node Remediation",
-        "SNR",
-        "Remediation",
-        "Fencing",
-        "medik8s",
-        "k8s"
-      ],
-      "description": "Detect failed Nodes and trigger remediation with e.g. Self Node Remediation.",
-      "channel": "candidate"
-    },
-    {
-      "package": "node-healthcheck-operator",
-      "name": "node-healthcheck-operator",
-      "version": "0.4.1",
-      "keywords": [
-        "NHC",
-        "Self Node Remediation",
-        "SNR",
-        "Remediation",
-        "Fencing",
-        "medik8s",
-        "k8s"
-      ],
-      "description": "Detect failed Nodes and trigger remediation with e.g. Self Node Remediation.",
-      "channel": "4.12-eus"
-    },
-    {
-      "package": "node-healthcheck-operator",
-      "name": "node-healthcheck-operator",
-      "version": "0.6.1",
-      "keywords": [
-        "NHC",
-        "Self Node Remediation",
-        "SNR",
-        "Remediation",
-        "Fencing",
-        "medik8s",
-        "k8s"
-      ],
-      "description": "Detect failed Nodes and trigger remediation with e.g. Self Node Remediation.",
-      "channel": "4.14-eus"
-    },
-    {
-      "package": "node-healthcheck-operator",
-      "name": "node-healthcheck-operator",
-      "version": "0.7.0",
-      "keywords": [
-        "NHC",
-        "Self Node Remediation",
-        "SNR",
-        "Remediation",
-        "Fencing",
-        "medik8s",
-        "k8s"
-      ],
-      "description": "Detect failed Nodes and trigger remediation with e.g. Self Node Remediation.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "node-healthcheck-operator",
-      "name": "node-healthcheck-operator",
-      "version": "0.8.1",
-      "keywords": [
-        "NHC",
-        "Self Node Remediation",
-        "SNR",
-        "Remediation",
-        "Fencing",
-        "medik8s",
-        "k8s"
-      ],
-      "description": "Detect failed Nodes and trigger remediation with e.g. Self Node Remediation.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "node-healthcheck-operator",
-      "name": "node-healthcheck-operator",
-      "version": "0.8.2",
-      "keywords": [
-        "NHC",
-        "Self Node Remediation",
-        "SNR",
-        "Remediation",
-        "Fencing",
-        "medik8s",
-        "k8s"
-      ],
-      "description": "Detect failed Nodes and trigger remediation with e.g. Self Node Remediation.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "node-healthcheck-operator",
-      "name": "node-healthcheck-operator",
-      "version": "0.9.0",
+      "version": "0.12.0",
       "keywords": [
         "NHC",
         "Self Node Remediation",
@@ -14941,67 +14727,47 @@
         "k8s"
       ],
       "description": "Detect failed Nodes and trigger remediation with a remediation operator.",
-      "channel": "4.18-eus"
+      "channel": "stable"
+    },
+    {
+      "package": "node-healthcheck-operator",
+      "name": "node-healthcheck-operator",
+      "version": "0.12.1",
+      "keywords": [
+        "NHC",
+        "Self Node Remediation",
+        "SNR",
+        "Remediation",
+        "Fencing",
+        "medik8s",
+        "k8s"
+      ],
+      "description": "Detect failed Nodes and trigger remediation with a remediation operator.",
+      "channel": "stable"
     },
     {
       "package": "node-maintenance-operator",
       "name": "node-maintenance-operator",
-      "version": "5.0.1",
+      "version": "5.7.0",
       "keywords": [
         "medik8s",
         "Node-maintenance",
         "nmo"
       ],
       "description": "Node Maintenance Operator for cordoning and draining nodes.",
-      "channel": "4.12-eus"
+      "channel": "stable"
     },
     {
       "package": "node-maintenance-operator",
       "name": "node-maintenance-operator",
-      "version": "5.2.1",
+      "version": "5.7.1",
       "keywords": [
         "medik8s",
         "Node-maintenance",
         "nmo"
       ],
       "description": "Node Maintenance Operator for cordoning and draining nodes.",
-      "channel": "4.14-eus"
-    },
-    {
-      "package": "node-maintenance-operator",
-      "name": "node-maintenance-operator",
-      "version": "5.3.0",
-      "keywords": [
-        "medik8s",
-        "Node-maintenance",
-        "nmo"
-      ],
-      "description": "Node Maintenance Operator for cordoning and draining nodes.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "node-maintenance-operator",
-      "name": "node-maintenance-operator",
-      "version": "5.3.1",
-      "keywords": [
-        "medik8s",
-        "Node-maintenance",
-        "nmo"
-      ],
-      "description": "Node Maintenance Operator for cordoning and draining nodes.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "node-maintenance-operator",
-      "name": "node-maintenance-operator",
-      "version": "5.4.0",
-      "keywords": [
-        "medik8s",
-        "Node-maintenance",
-        "nmo"
-      ],
-      "description": "Node Maintenance Operator for cordoning and draining nodes.",
-      "channel": "4.18-eus"
+      "channel": "stable"
     },
     {
       "package": "node-observability-operator",
@@ -15710,6 +15476,21 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.152.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.152.0-3",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -24357,7 +24138,7 @@
     {
       "package": "self-node-remediation",
       "name": "self-node-remediation",
-      "version": "0.10.0",
+      "version": "0.13.0",
       "keywords": [
         "fencing",
         "remediation",
@@ -24368,12 +24149,12 @@
         "SNR"
       ],
       "description": "Self Node Remediation Operator for remediate itself in case of a failure.",
-      "channel": "4.18-eus"
+      "channel": "stable"
     },
     {
       "package": "self-node-remediation",
       "name": "self-node-remediation",
-      "version": "0.5.1",
+      "version": "0.13.1",
       "keywords": [
         "fencing",
         "remediation",
@@ -24384,55 +24165,7 @@
         "SNR"
       ],
       "description": "Self Node Remediation Operator for remediate itself in case of a failure.",
-      "channel": "4.12-eus"
-    },
-    {
-      "package": "self-node-remediation",
-      "name": "self-node-remediation",
-      "version": "0.7.1",
-      "keywords": [
-        "fencing",
-        "remediation",
-        "auto-healing",
-        "recovery",
-        "high-availability",
-        "baremetal",
-        "SNR"
-      ],
-      "description": "Self Node Remediation Operator for remediate itself in case of a failure.",
-      "channel": "4.14-eus"
-    },
-    {
-      "package": "self-node-remediation",
-      "name": "self-node-remediation",
-      "version": "0.8.0",
-      "keywords": [
-        "fencing",
-        "remediation",
-        "auto-healing",
-        "recovery",
-        "high-availability",
-        "baremetal",
-        "SNR"
-      ],
-      "description": "Self Node Remediation Operator for remediate itself in case of a failure.",
-      "channel": "4.16-eus"
-    },
-    {
-      "package": "self-node-remediation",
-      "name": "self-node-remediation",
-      "version": "0.9.0",
-      "keywords": [
-        "fencing",
-        "remediation",
-        "auto-healing",
-        "recovery",
-        "high-availability",
-        "baremetal",
-        "SNR"
-      ],
-      "description": "Self Node Remediation Operator for remediate itself in case of a failure.",
-      "channel": "4.16-eus"
+      "channel": "stable"
     },
     {
       "package": "serverless-operator",
@@ -26890,6 +26623,30 @@
       "channel": "stable-2"
     },
     {
+      "package": "storage-based-remediation",
+      "name": "storage-based-remediation",
+      "version": "0.3.0",
+      "keywords": [
+        "sbr",
+        "storage",
+        "remediation"
+      ],
+      "description": "Storage-Based Remediation Operator for remediating nodes using storage-based fencing (SBD/STONITH).",
+      "channel": "stable"
+    },
+    {
+      "package": "storage-based-remediation",
+      "name": "storage-based-remediation",
+      "version": "0.3.1",
+      "keywords": [
+        "sbr",
+        "storage",
+        "remediation"
+      ],
+      "description": "Storage-Based Remediation Operator for remediating nodes using storage-based fencing (SBD/STONITH).",
+      "channel": "stable"
+    },
+    {
       "package": "tang-operator",
       "name": "tang-operator",
       "version": "1.0.0",
@@ -27416,7 +27173,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1884,
+  "count": 1869,
   "source": "opm",
-  "timestamp": "2026-08-13T07:07:07.894521"
+  "timestamp": "2026-08-16T07:04:42.883473"
 }

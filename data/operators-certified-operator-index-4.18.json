@@ -1599,6 +1599,22 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.4",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -5938,7 +5954,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.8",
+      "version": "25.3.9",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -5964,7 +5980,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.4",
+      "version": "26.1.5",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -6207,7 +6223,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.3.7",
+      "version": "25.3.9",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -6235,7 +6251,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.4",
+      "version": "26.1.5",
       "keywords": [
         "digitalai-release-operator",
         "digitalai",
@@ -7658,6 +7674,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.3",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -7745,6 +7775,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.51.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.51.2",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -8545,7 +8589,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "keywords": [
         "gitops",
         "harness",
@@ -12522,6 +12566,23 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.3",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.2.3 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -14235,6 +14296,18 @@
       "channel": "beta"
     },
     {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.8",
+      "keywords": [
+        "Monitoring",
+        "Networking",
+        "Security"
+      ],
+      "description": "NeuVector delivers the only cloud-native Kubernetes security platform with uncompromising end-to-end protection from DevOps vulnerability protection to automated run-time security, and featuring a true Layer 7 container firewall.",
+      "channel": "beta"
+    },
+    {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
       "version": "3.90.3-1",
@@ -15013,6 +15086,17 @@
       "package": "operator-aims-mobile",
       "name": "operator-aims-mobile",
       "version": "0.0.23",
+      "keywords": [
+        "aims mobile",
+        "aims"
+      ],
+      "description": "Este operador despliega los servicios AIMS Mobile.",
+      "channel": "alpha"
+    },
+    {
+      "package": "operator-aims-mobile",
+      "name": "operator-aims-mobile",
+      "version": "0.0.24",
       "keywords": [
         "aims mobile",
         "aims"
@@ -16714,6 +16798,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-43.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.4-9.0",
       "keywords": [
         "redislabs",
@@ -16795,6 +16893,20 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-16.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-19.0",
       "keywords": [
         "redislabs",
         "redis",
@@ -21391,7 +21503,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1865,
+  "count": 1873,
   "source": "opm",
-  "timestamp": "2026-08-13T07:01:16.015853"
+  "timestamp": "2026-08-16T06:58:10.159480"
 }

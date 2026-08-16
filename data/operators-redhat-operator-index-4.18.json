@@ -11460,6 +11460,42 @@
     {
       "package": "cluster-kube-descheduler-operator",
       "name": "cluster-kube-descheduler-operator",
+      "version": "5.0.4",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.0.5",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.0.6",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
       "version": "5.1.0",
       "keywords": [
         "scheduling",
@@ -11509,6 +11545,30 @@
       "package": "cluster-kube-descheduler-operator",
       "name": "cluster-kube-descheduler-operator",
       "version": "5.1.4",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.1.5",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.1.6",
       "keywords": [
         "scheduling",
         "descheduler",
@@ -12843,6 +12903,19 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.9.1",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.2",
       "keywords": [
         "security",
         "compliance",
@@ -32524,6 +32597,17 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.5.7",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.5"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.6.0",
       "keywords": [
         "multicluster-global-hub",
@@ -39894,6 +39978,23 @@
       "channel": "stable-v1"
     },
     {
+      "package": "openshift-cert-manager-operator",
+      "name": "openshift-cert-manager-operator",
+      "version": "1.19.1",
+      "keywords": [
+        "cert-manager",
+        "cert-manager-operator",
+        "cert",
+        "certificates",
+        "security",
+        "TLS",
+        "istio-csr",
+        "trust-manager"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
       "package": "openshift-custom-metrics-autoscaler-operator",
       "name": "openshift-custom-metrics-autoscaler-operator",
       "version": "2.10.1-267",
@@ -40077,6 +40178,19 @@
       "package": "openshift-external-secrets-operator",
       "name": "openshift-external-secrets-operator",
       "version": "1.1.0",
+      "keywords": [
+        "security",
+        "secrets",
+        "external-secrets",
+        "external-secrets-operator"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-external-secrets-operator",
+      "name": "openshift-external-secrets-operator",
+      "version": "1.1.1",
       "keywords": [
         "security",
         "secrets",
@@ -41050,6 +41164,18 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.21.2",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.21"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.21.3",
       "keywords": [
         "devtools",
         "gitops",
@@ -42591,6 +42717,21 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.152.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.152.0-3",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -66315,7 +66456,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4823,
+  "count": 4834,
   "source": "opm",
-  "timestamp": "2026-08-13T07:00:54.677881"
+  "timestamp": "2026-08-16T06:57:48.775685"
 }

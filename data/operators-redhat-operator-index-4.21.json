@@ -9810,6 +9810,30 @@
     {
       "package": "cluster-kube-descheduler-operator",
       "name": "cluster-kube-descheduler-operator",
+      "version": "5.1.5",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.1.6",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
       "version": "5.2.0",
       "keywords": [
         "scheduling",
@@ -9823,6 +9847,30 @@
       "package": "cluster-kube-descheduler-operator",
       "name": "cluster-kube-descheduler-operator",
       "version": "5.2.1",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.2.2",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.2.3",
       "keywords": [
         "scheduling",
         "descheduler",
@@ -9859,6 +9907,30 @@
       "package": "cluster-kube-descheduler-operator",
       "name": "cluster-kube-descheduler-operator",
       "version": "5.3.2",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.3.3",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.3.4",
       "keywords": [
         "scheduling",
         "descheduler",
@@ -10635,6 +10707,19 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.9.1",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.9.2",
       "keywords": [
         "security",
         "compliance",
@@ -17089,19 +17174,6 @@
       ],
       "description": "Operator that creates and manages Java applications running on JBoss EAP.",
       "channel": "stable"
-    },
-    {
-      "package": "exploit-iq-operator",
-      "name": "exploit-iq-operator",
-      "version": "0.0.2",
-      "keywords": [
-        "cve",
-        "vulnerability",
-        "security",
-        "ai"
-      ],
-      "description": "",
-      "channel": "pre-ga"
     },
     {
       "package": "external-dns-operator",
@@ -27828,6 +27900,23 @@
     {
       "package": "openshift-cert-manager-operator",
       "name": "openshift-cert-manager-operator",
+      "version": "1.19.1",
+      "keywords": [
+        "cert-manager",
+        "cert-manager-operator",
+        "cert",
+        "certificates",
+        "security",
+        "TLS",
+        "istio-csr",
+        "trust-manager"
+      ],
+      "description": "",
+      "channel": "stable-v1.19"
+    },
+    {
+      "package": "openshift-cert-manager-operator",
+      "name": "openshift-cert-manager-operator",
       "version": "1.20.0",
       "keywords": [
         "cert-manager",
@@ -28060,6 +28149,19 @@
       ],
       "description": "",
       "channel": "stable-v1"
+    },
+    {
+      "package": "openshift-external-secrets-operator",
+      "name": "openshift-external-secrets-operator",
+      "version": "1.1.1",
+      "keywords": [
+        "security",
+        "secrets",
+        "external-secrets",
+        "external-secrets-operator"
+      ],
+      "description": "",
+      "channel": "stable-v1.1"
     },
     {
       "package": "openshift-external-secrets-operator",
@@ -29038,6 +29140,18 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.21.2",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.21"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.21.3",
       "keywords": [
         "devtools",
         "gitops",
@@ -30289,6 +30403,21 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.152.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.152.0-3",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -51883,7 +52012,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3680,
+  "count": 3690,
   "source": "opm",
-  "timestamp": "2026-08-13T07:05:07.932659"
+  "timestamp": "2026-08-16T07:02:34.095839"
 }

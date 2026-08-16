@@ -685,6 +685,12 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.4",
+      "channel": "alpha"
+    },
+    {
       "package": "bookkeeper-operator",
       "name": "bookkeeper-operator",
       "version": "0.17.10",
@@ -2787,7 +2793,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.8",
+      "version": "25.3.9",
       "channel": "stable-v25.3"
     },
     {
@@ -2799,7 +2805,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.4",
+      "version": "26.1.5",
       "channel": "stable-v26.1"
     },
     {
@@ -2979,7 +2985,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "25.3.7",
+      "version": "25.3.9",
       "channel": "stable-v25.3"
     },
     {
@@ -2991,7 +2997,7 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.4",
+      "version": "26.1.5",
       "channel": "stable-v26.1"
     },
     {
@@ -3571,6 +3577,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.3",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -3610,6 +3622,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.51.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.51.2",
       "channel": "stable"
     },
     {
@@ -3975,7 +3993,7 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "channel": "alpha"
     },
     {
@@ -6055,6 +6073,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.3",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace",
       "name": "kubemq-operator-marketplace",
       "version": "1.8.5",
@@ -7045,6 +7069,12 @@
       "channel": "beta"
     },
     {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.8",
+      "channel": "beta"
+    },
+    {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
       "version": "3.90.3-1",
@@ -7426,6 +7456,12 @@
       "package": "operator-aims-mobile",
       "name": "operator-aims-mobile",
       "version": "0.0.23",
+      "channel": "alpha"
+    },
+    {
+      "package": "operator-aims-mobile",
+      "name": "operator-aims-mobile",
+      "version": "0.0.24",
       "channel": "alpha"
     },
     {
@@ -8212,6 +8248,12 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-16.0",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-19.0",
       "channel": "7.8.6"
     },
     {
@@ -10921,7 +10963,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1820,
+  "count": 1827,
   "source": "opm",
-  "timestamp": "2026-08-13T06:48:32.431444"
+  "timestamp": "2026-08-16T06:46:17.619673"
 }
