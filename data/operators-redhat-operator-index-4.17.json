@@ -17303,6 +17303,20 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.6",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.5",
@@ -18666,6 +18680,18 @@
     {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
+      "version": "0.43.0",
+      "keywords": [
+        "Devworkspace Operator",
+        "DevWorkspaces",
+        "Devfile"
+      ],
+      "description": "",
+      "channel": "fast"
+    },
+    {
+      "package": "devworkspace-operator",
+      "name": "devworkspace-operator",
       "version": "0.9.0",
       "keywords": [
         "Devworkspace Operator",
@@ -19835,6 +19861,19 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.24",
+      "keywords": [
+        "eap",
+        "java",
+        "open source",
+        "application runtime"
+      ],
+      "description": "Operator that creates and manages Java applications running on JBoss EAP.",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.3",
       "keywords": [
         "eap",
@@ -20179,7 +20218,7 @@
     {
       "package": "exploit-iq-operator",
       "name": "exploit-iq-operator",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "keywords": [
         "cve",
         "vulnerability",
@@ -20187,7 +20226,7 @@
         "ai"
       ],
       "description": "",
-      "channel": "pre-ga"
+      "channel": "stable"
     },
     {
       "package": "external-dns-operator",
@@ -24670,6 +24709,17 @@
       "package": "jws-operator",
       "name": "jws-operator",
       "version": "2.3.2",
+      "keywords": [
+        "WebServer",
+        "JBoss"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "jws-operator",
+      "name": "jws-operator",
+      "version": "2.3.3",
       "keywords": [
         "WebServer",
         "JBoss"
@@ -31397,6 +31447,19 @@
       "channel": "stable-v8.2"
     },
     {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.2.1",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Migration Toolkit for Applications is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
+      "channel": "stable-v8.2"
+    },
+    {
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.7.0",
@@ -33191,6 +33254,17 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.4.8",
+      "keywords": [
+        "multicluster-global-hub",
+        "multiple-hubs"
+      ],
+      "description": "Manages the installation and upgrade of the Multicluster Global Hub.",
+      "channel": "release-1.4"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.0",
       "keywords": [
         "multicluster-global-hub",
@@ -33528,6 +33602,23 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.12.1",
+      "keywords": [
+        "netobserv",
+        "ebpf",
+        "ipfix",
+        "netflows",
+        "flows",
+        "topology",
+        "network",
+        "observability"
+      ],
+      "description": "Network flows collector and monitoring solution",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.12.2",
       "keywords": [
         "netobserv",
         "ebpf",
@@ -50116,6 +50207,19 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1786930629.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.15",
@@ -54476,6 +54580,18 @@
     {
       "package": "rhbk-operator",
       "name": "rhbk-operator",
+      "version": "26.4.15-opr.1",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
       "version": "26.4.2-opr.1",
       "keywords": [
         "Keycloak",
@@ -54597,6 +54713,18 @@
       "package": "rhbk-operator",
       "name": "rhbk-operator",
       "version": "26.6.5-opr.1",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Keycloak",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.6.6-opr.1",
       "keywords": [
         "Keycloak",
         "Identity",
@@ -65640,6 +65768,21 @@
       "channel": "stable"
     },
     {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.16.1",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "web-terminal",
       "name": "web-terminal",
       "version": "1.10.0",
@@ -66174,7 +66317,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4800,
+  "count": 4811,
   "source": "opm",
-  "timestamp": "2026-08-16T06:56:06.705052"
+  "timestamp": "2026-08-22T06:57:34.702477"
 }

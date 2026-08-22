@@ -15,7 +15,7 @@
     {
       "package": "aci-containers-operator",
       "name": "aci-containers-operator",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "keywords": [
         "cisco",
         "aci"
@@ -118,6 +118,29 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "4.8.11",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "4.8"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "4.8.12",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -532,6 +555,32 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "5.0.8",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.1.1",
       "keywords": [
         "Gateway API",
@@ -611,6 +660,32 @@
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "5.1.4",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.1"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.1.5",
       "keywords": [
         "Gateway API",
         "WAF",
@@ -1438,6 +1513,38 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
+      "version": "0.9.10",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.11",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
       "version": "0.9.2",
       "keywords": [
         "microsegmentation",
@@ -1471,6 +1578,86 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.9.4",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.5",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.6",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.7",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.8",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.9",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -6252,6 +6439,17 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.14.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -6510,6 +6708,34 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.4",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -6611,6 +6837,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.51.2",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.52.0",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -7178,6 +7418,22 @@
       "channel": "stable"
     },
     {
+      "package": "gpu-operator-certified",
+      "name": "gpu-operator-certified",
+      "version": "26.7.0",
+      "keywords": [
+        "gpu",
+        "cuda",
+        "compute",
+        "operator",
+        "deep learning",
+        "monitoring",
+        "tesla"
+      ],
+      "description": "Automate the management and monitoring of NVIDIA GPUs.",
+      "channel": "stable"
+    },
+    {
       "package": "habana-ai-operator",
       "name": "habana-ai-operator",
       "version": "1.22.1-6-2",
@@ -7294,7 +7550,7 @@
     {
       "package": "hazelcast-platform-operator",
       "name": "hazelcast-platform-operator",
-      "version": "5.18.0",
+      "version": "5.19.0",
       "keywords": [
         "hazelcast",
         "keyvalue",
@@ -7892,6 +8148,27 @@
       "channel": "fast"
     },
     {
+      "package": "infoscale-dr-manager",
+      "name": "infoscale-dr-manager",
+      "version": "9.2.1",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software",
+        "Defined Storage",
+        "Clustered storage",
+        "CFS",
+        "DR",
+        "Disaster Recovery"
+      ],
+      "description": "InfoScale\u2122 DR Manager manages the Disaster Recovery operations of InfoScale\u2122 for container environment",
+      "channel": "fast"
+    },
+    {
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "8.0.100",
@@ -8045,6 +8322,22 @@
       "package": "infoscale-licensing-operator",
       "name": "infoscale-licensing-operator",
       "version": "9.2.0",
+      "keywords": [
+        "InfoScale",
+        "Licensing",
+        "VLIC",
+        "Storage",
+        "Data Storage",
+        "SDS",
+        "Software Defined Storage"
+      ],
+      "description": "InfoScale\u2122 Licensing Operator manages the lifecycle of the Licensing for InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-licensing-operator",
+      "name": "infoscale-licensing-operator",
+      "version": "9.2.1",
       "keywords": [
         "InfoScale",
         "Licensing",
@@ -8242,6 +8535,24 @@
       "package": "infoscale-sds-operator",
       "name": "infoscale-sds-operator",
       "version": "9.2.0",
+      "keywords": [
+        "Infoscale",
+        "Storage foundation",
+        "Data storage",
+        "Storage",
+        "Data",
+        "SDS",
+        "Software Defined Storage",
+        "Clustered storage",
+        "CFS"
+      ],
+      "description": "InfoScale\u2122 SDS Operator manages the lifecycle of the InfoScale\u2122 cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "infoscale-sds-operator",
+      "name": "infoscale-sds-operator",
+      "version": "9.2.1",
       "keywords": [
         "Infoscale",
         "Storage foundation",
@@ -10033,6 +10344,24 @@
       "channel": "5.3.x"
     },
     {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.4.0",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.4.x"
+    },
+    {
       "package": "kedify-agent-helm-operator",
       "name": "kedify-agent-helm-operator",
       "version": "0.5.7",
@@ -10526,6 +10855,23 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.4",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.2.4 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -10782,7 +11128,7 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.50",
+      "version": "8.20.60",
       "keywords": [
         "monitoring"
       ],
@@ -10792,7 +11138,7 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.60-beta.1",
+      "version": "8.21.0-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -11660,6 +12006,26 @@
       "channel": "stable"
     },
     {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.6.0",
+      "keywords": [
+        "GatewayAPI",
+        "Gateway",
+        "Ingress",
+        "NetScaler",
+        "ADC",
+        "Kubernetes",
+        "OpenShift",
+        "Citrix",
+        "Controller",
+        "Observability",
+        "Metrices"
+      ],
+      "description": "This is an operator to install Cloud Native portfolio provided by NetScaler",
+      "channel": "stable"
+    },
+    {
       "package": "neuvector-certified-operator",
       "name": "neuvector-certified-operator",
       "version": "1.2.9",
@@ -12249,6 +12615,34 @@
       "channel": "stable-3.x"
     },
     {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.8.0",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.8.1",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
+      "channel": "stable-3.x"
+    },
+    {
       "package": "nvidia-maintenance-operator",
       "name": "nvidia-maintenance-operator",
       "version": "0.2.3",
@@ -12612,6 +13006,28 @@
         "yum"
       ],
       "description": "JFrog Artifactory Enterprise deploys Artifactory in a high availability environment across multiple pods",
+      "channel": "alpha"
+    },
+    {
+      "package": "operator-aims-mobile",
+      "name": "operator-aims-mobile",
+      "version": "0.0.26",
+      "keywords": [
+        "aims mobile",
+        "aims"
+      ],
+      "description": "Este operador despliega los servicios AIMS Mobile.",
+      "channel": "alpha"
+    },
+    {
+      "package": "operator-aims-mobile",
+      "name": "operator-aims-mobile",
+      "version": "0.0.27",
+      "keywords": [
+        "aims mobile",
+        "aims"
+      ],
+      "description": "Este operador despliega los servicios AIMS Mobile.",
       "channel": "alpha"
     },
     {
@@ -15668,7 +16084,7 @@
     {
       "package": "spyre-operator",
       "name": "spyre-operator",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "keywords": [
         "app",
         "operator"
@@ -16935,62 +17351,6 @@
       "channel": "stable"
     },
     {
-      "package": "tvo-operator",
-      "name": "tvo-operator",
-      "version": "6.1.1",
-      "keywords": [
-        "OpenStack",
-        "Backup",
-        "Recovery",
-        "RHOSO Backup",
-        "Disaster Recovery"
-      ],
-      "description": "Cloud-Native Data Protection for OpenStack",
-      "channel": "6.0.x"
-    },
-    {
-      "package": "tvo-operator",
-      "name": "tvo-operator",
-      "version": "6.1.13",
-      "keywords": [
-        "OpenStack",
-        "Backup",
-        "Recovery",
-        "RHOSO Backup",
-        "Disaster Recovery"
-      ],
-      "description": "Cloud-Native Data Protection for OpenStack",
-      "channel": "6.1.x"
-    },
-    {
-      "package": "tvo-operator",
-      "name": "tvo-operator",
-      "version": "6.2.0",
-      "keywords": [
-        "OpenStack",
-        "Backup",
-        "Recovery",
-        "RHOSO Backup",
-        "Disaster Recovery"
-      ],
-      "description": "Cloud-Native Data Protection for OpenStack",
-      "channel": "6.2.x"
-    },
-    {
-      "package": "tvo-operator",
-      "name": "tvo-operator",
-      "version": "6.6.6",
-      "keywords": [
-        "OpenStack",
-        "Backup",
-        "Recovery",
-        "RHOSO Backup",
-        "Disaster Recovery"
-      ],
-      "description": "Cloud-Native Data Protection for OpenStack",
-      "channel": "6.0.x"
-    },
-    {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
       "version": "2026.3.1-2",
@@ -17049,16 +17409,6 @@
       ],
       "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
       "channel": "2026.7"
-    },
-    {
-      "package": "uma-admin-operator",
-      "name": "uma-admin-operator",
-      "version": "2026.8.0-17",
-      "keywords": [
-        "uma-admin-operator"
-      ],
-      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
-      "channel": "beta"
     },
     {
       "package": "uma-admin-operator",
@@ -17071,6 +17421,16 @@
       "channel": "2026.8"
     },
     {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.8.3-12",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "beta"
+    },
+    {
       "package": "uma-operator",
       "name": "uma-operator",
       "version": "2026.3.1-2",
@@ -17133,22 +17493,22 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.8.0-17",
-      "keywords": [
-        "uma-operator"
-      ],
-      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-operator",
-      "name": "uma-operator",
       "version": "2026.8.1-23",
       "keywords": [
         "uma-operator"
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "2026.8"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.8.3-12",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "beta"
     },
     {
       "package": "uma-team-operator",
@@ -17214,22 +17574,22 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.8.0-17",
-      "keywords": [
-        "uma-team-operator"
-      ],
-      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-team-operator",
-      "name": "uma-team-operator",
       "version": "2026.8.1-23",
       "keywords": [
         "uma-team-operator"
       ],
       "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "2026.8"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.8.3-12",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "beta"
     },
     {
       "package": "vast-csi-operator",
@@ -17744,7 +18104,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.6",
+      "version": "3.4.7",
       "keywords": [
         "autoscaling",
         "kubernetes",
@@ -17779,21 +18139,6 @@
     {
       "package": "xspc-operator",
       "name": "xspc-operator",
-      "version": "1.16.1",
-      "keywords": [
-        "XP7",
-        "XP8",
-        "HPE",
-        "Storage",
-        "Container Storage Interface",
-        "CSI"
-      ],
-      "description": "An operator for managing HPE XP Storage Plug-in for Containers CSI driver",
-      "channel": "stable"
-    },
-    {
-      "package": "xspc-operator",
-      "name": "xspc-operator",
       "version": "1.17.3",
       "keywords": [
         "XP7",
@@ -17810,6 +18155,21 @@
       "package": "xspc-operator",
       "name": "xspc-operator",
       "version": "1.18.1",
+      "keywords": [
+        "XP7",
+        "XP8",
+        "HPE",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing HPE XP Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
+    },
+    {
+      "package": "xspc-operator",
+      "name": "xspc-operator",
+      "version": "1.18.3",
       "keywords": [
         "XP7",
         "XP8",
@@ -17916,7 +18276,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1504,
+  "count": 1525,
   "source": "opm",
-  "timestamp": "2026-08-16T07:01:41.387455"
+  "timestamp": "2026-08-22T07:02:45.002947"
 }

@@ -864,6 +864,15 @@
     "nvidia.com/v1alpha1/NVIDIADriver": [
       "gpu-operator-certified"
     ],
+    "nvidia.com/v1alpha1/GPUCluster": [
+      "gpu-operator-certified"
+    ],
+    "resource.nvidia.com/v1beta1/ComputeDomain": [
+      "gpu-operator-certified"
+    ],
+    "resource.nvidia.com/v1beta1/ComputeDomainClique": [
+      "gpu-operator-certified"
+    ],
     "hammu.ai/v1alpha1/HammuPlatform": [
       "hammu-platform"
     ],
@@ -874,9 +883,6 @@
       "hazelcast-platform-operator"
     ],
     "hazelcast.com/v1alpha1/CronHotBackup": [
-      "hazelcast-platform-operator"
-    ],
-    "hazelcast.com/v1alpha1/Flow": [
       "hazelcast-platform-operator"
     ],
     "hazelcast.com/v1alpha1/Hazelcast": [
@@ -1464,6 +1470,9 @@
     "apps.openliberty.io/v1/OpenLibertyPerformanceData": [
       "open-liberty-certified"
     ],
+    "cache.microsafe.com.mx/v1/AimsMobile": [
+      "operator-aims-mobile"
+    ],
     "certification.redhat.com/v1alpha1/OperatorPipeline": [
       "operator-certification-operator"
     ],
@@ -1884,12 +1893,6 @@
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
-    "tvo.trilio.io/v1/TVOBackupTarget": [
-      "tvo-operator"
-    ],
-    "tvo.trilio.io/v1/TVOControlPlane": [
-      "tvo-operator"
-    ],
     "storage.vastdata.com/v1/VastCSIDriver": [
       "vast-csi-operator"
     ],
@@ -2052,6 +2055,12 @@
     "wavek8s.com/v1alpha1/WaveSmartSizingPolicy": [
       "wave"
     ],
+    "csi.hpe.com/v1/GadPairAction": [
+      "xspc-operator"
+    ],
+    "csi.hpe.com/v1/XSPC": [
+      "xspc-operator"
+    ],
     "kubernetes.zabbix.com/v1alpha1/ZabbixAgent": [
       "zabbix-operator-certified"
     ],
@@ -2071,5 +2080,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-16T07:04:08.982080"
+  "timestamp": "2026-08-22T07:05:00.369242"
 }

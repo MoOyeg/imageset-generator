@@ -10708,6 +10708,20 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.6",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
       "version": "0.10.0",
@@ -11777,6 +11791,19 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.24",
+      "keywords": [
+        "eap",
+        "java",
+        "open source",
+        "application runtime"
+      ],
+      "description": "Operator that creates and manages Java applications running on JBoss EAP.",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.3",
       "keywords": [
         "eap",
@@ -12186,6 +12213,17 @@
       "package": "jws-operator",
       "name": "jws-operator",
       "version": "2.3.2",
+      "keywords": [
+        "WebServer",
+        "JBoss"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "jws-operator",
+      "name": "jws-operator",
+      "version": "2.3.3",
       "keywords": [
         "WebServer",
         "JBoss"
@@ -14434,6 +14472,23 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.12.1",
+      "keywords": [
+        "netobserv",
+        "ebpf",
+        "ipfix",
+        "netflows",
+        "flows",
+        "topology",
+        "network",
+        "observability"
+      ],
+      "description": "Network flows collector and monitoring solution",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.12.2",
       "keywords": [
         "netobserv",
         "ebpf",
@@ -19724,6 +19779,19 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0+0.1786404626.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1786930629.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -27173,7 +27241,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1869,
+  "count": 1874,
   "source": "opm",
-  "timestamp": "2026-08-16T07:04:42.883473"
+  "timestamp": "2026-08-22T07:06:06.890793"
 }

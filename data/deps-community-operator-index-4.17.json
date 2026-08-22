@@ -492,6 +492,12 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Policy": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/Harness": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/HarnessEndpoint": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -545,6 +551,24 @@
     ],
     "cognitoidentityprovider.services.k8s.aws/v1alpha1/UserPool": [
       "ack-cognitoidentityprovider-controller"
+    ],
+    "dms.services.k8s.aws/v1alpha1/Certificate": [
+      "ack-dms-controller"
+    ],
+    "dms.services.k8s.aws/v1alpha1/Endpoint": [
+      "ack-dms-controller"
+    ],
+    "dms.services.k8s.aws/v1alpha1/EventSubscription": [
+      "ack-dms-controller"
+    ],
+    "dms.services.k8s.aws/v1alpha1/ReplicationInstance": [
+      "ack-dms-controller"
+    ],
+    "dms.services.k8s.aws/v1alpha1/ReplicationSubnetGroup": [
+      "ack-dms-controller"
+    ],
+    "dms.services.k8s.aws/v1alpha1/ReplicationTask": [
+      "ack-dms-controller"
     ],
     "documentdb.services.k8s.aws/v1alpha1/DBCluster": [
       "ack-documentdb-controller"
@@ -2897,12 +2921,6 @@
     "che.eclipse.org/v1alpha1/KubernetesImagePuller": [
       "kubernetes-imagepuller-operator"
     ],
-    "charts.helm.k8s.io/v1/Kubeturbo": [
-      "kubeturbo"
-    ],
-    "charts.helm.k8s.io/v1alpha1/Kubeturbo": [
-      "kubeturbo"
-    ],
     "wol.pillon.org/v1beta1/WolConfig": [
       "kubevirt-wol"
     ],
@@ -3695,12 +3713,6 @@
     "monitoring.3scale.net/v1alpha1/PrometheusExporter": [
       "prometheus-exporter-operator"
     ],
-    "charts.helm.k8s.io/v1/Prometurbo": [
-      "prometurbo"
-    ],
-    "charts.helm.k8s.io/v1alpha1/Prometurbo": [
-      "prometurbo"
-    ],
     "pubsubplus.solace.com/v1beta1/PubSubPlusEventBroker": [
       "pubsubplus-eventbroker-operator"
     ],
@@ -3807,6 +3819,12 @@
       "redis-operator"
     ],
     "redkey.inditex.dev/v1/RedkeyCluster": [
+      "redkey-operator"
+    ],
+    "redkey.inditex.dev/v1beta1/Redkey": [
+      "redkey-operator"
+    ],
+    "redkey.inditex.dev/v1beta1/RedkeyConfig": [
       "redkey-operator"
     ],
     "rp5.reportportal.io/v1/ReportPortal": [
@@ -4698,5 +4716,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-08-16T06:57:04.828654"
+  "timestamp": "2026-08-22T06:58:24.697063"
 }

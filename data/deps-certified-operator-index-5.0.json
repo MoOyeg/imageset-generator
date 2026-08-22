@@ -22,6 +22,15 @@
       ],
       "requires_gvks": []
     },
+    "operator-certification-operator": {
+      "requires_packages": [
+        {
+          "packageName": "openshift-pipelines-operator-rh",
+          "versionRange": ">=1.5.2"
+        }
+      ],
+      "requires_gvks": []
+    },
     "tenant-operator": {
       "requires_packages": [
         {
@@ -986,6 +995,12 @@
     "apps.openliberty.io/v1/OpenLibertyPerformanceData": [
       "open-liberty-certified"
     ],
+    "cache.microsafe.com.mx/v1/AimsMobile": [
+      "operator-aims-mobile"
+    ],
+    "certification.redhat.com/v1alpha1/OperatorPipeline": [
+      "operator-certification-operator"
+    ],
     "charts.helm.k8s.io/v1/Prometurbo": [
       "prometurbo-certified"
     ],
@@ -1133,12 +1148,6 @@
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
-    "tvo.trilio.io/v1/TVOBackupTarget": [
-      "tvo-operator"
-    ],
-    "tvo.trilio.io/v1/TVOControlPlane": [
-      "tvo-operator"
-    ],
     "storage.vastdata.com/v1/VastCSIDriver": [
       "vast-csi-operator"
     ],
@@ -1245,5 +1254,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-16T07:04:57.025534"
+  "timestamp": "2026-08-22T07:06:21.062806"
 }

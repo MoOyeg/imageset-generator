@@ -1043,6 +1043,15 @@
     "nvidia.com/v1alpha1/NVIDIADriver": [
       "gpu-operator-certified"
     ],
+    "nvidia.com/v1alpha1/GPUCluster": [
+      "gpu-operator-certified"
+    ],
+    "resource.nvidia.com/v1beta1/ComputeDomain": [
+      "gpu-operator-certified"
+    ],
+    "resource.nvidia.com/v1beta1/ComputeDomainClique": [
+      "gpu-operator-certified"
+    ],
     "habanalabs.habana.ai/v1/ClusterPolicy": [
       "habana-ai-operator"
     ],
@@ -1724,6 +1733,9 @@
     ],
     "charts.helm.k8s.io/v1/OpenshiftArtifactoryHa": [
       "openshiftartifactoryha-operator"
+    ],
+    "cache.microsafe.com.mx/v1/AimsMobile": [
+      "operator-aims-mobile"
     ],
     "certification.redhat.com/v1alpha1/OperatorPipeline": [
       "operator-certification-operator"
@@ -2487,12 +2499,6 @@
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
-    "tvo.trilio.io/v1/TVOBackupTarget": [
-      "tvo-operator"
-    ],
-    "tvo.trilio.io/v1/TVOControlPlane": [
-      "tvo-operator"
-    ],
     "ca.broadcom.com/v1alpha1/UniversalMonitoringAgentsAdmin": [
       "uma-admin-operator"
     ],
@@ -2698,5 +2704,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-16T07:01:42.189281"
+  "timestamp": "2026-08-22T07:02:45.860953"
 }

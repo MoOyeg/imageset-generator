@@ -1117,6 +1117,15 @@
     "nvidia.com/v1alpha1/NVIDIADriver": [
       "gpu-operator-certified"
     ],
+    "nvidia.com/v1alpha1/GPUCluster": [
+      "gpu-operator-certified"
+    ],
+    "resource.nvidia.com/v1beta1/ComputeDomain": [
+      "gpu-operator-certified"
+    ],
+    "resource.nvidia.com/v1beta1/ComputeDomainClique": [
+      "gpu-operator-certified"
+    ],
     "habanalabs.habana.ai/v1/ClusterPolicy": [
       "habana-ai-operator"
     ],
@@ -2811,12 +2820,6 @@
     "trident.netapp.io/v1/TridentConfigurator": [
       "trident-operator"
     ],
-    "tvo.trilio.io/v1/TVOBackupTarget": [
-      "tvo-operator"
-    ],
-    "tvo.trilio.io/v1/TVOControlPlane": [
-      "tvo-operator"
-    ],
     "ca.broadcom.com/v1alpha1/UniversalMonitoringAgentsAdmin": [
       "uma-admin-operator"
     ],
@@ -3028,5 +3031,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-16T06:58:11.173379"
+  "timestamp": "2026-08-22T06:59:31.611534"
 }

@@ -7171,6 +7171,12 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.6",
+      "channel": "stable"
+    },
+    {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.5",
@@ -7996,6 +8002,12 @@
       "package": "eap",
       "name": "eap",
       "version": "3.2.23",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
+      "version": "3.2.24",
       "channel": "stable"
     },
     {
@@ -10570,6 +10582,12 @@
       "package": "jws-operator",
       "name": "jws-operator",
       "version": "2.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "jws-operator",
+      "name": "jws-operator",
+      "version": "2.3.3",
       "channel": "alpha"
     },
     {
@@ -13423,6 +13441,12 @@
       "channel": "stable-v8.2"
     },
     {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.2.1",
+      "channel": "stable-v8.2"
+    },
+    {
       "package": "mtc-operator",
       "name": "mtc-operator",
       "version": "1.7.0",
@@ -14361,6 +14385,12 @@
     {
       "package": "multicluster-global-hub-operator-rh",
       "name": "multicluster-global-hub-operator-rh",
+      "version": "1.4.8",
+      "channel": "release-1.4"
+    },
+    {
+      "package": "multicluster-global-hub-operator-rh",
+      "name": "multicluster-global-hub-operator-rh",
       "version": "1.5.0",
       "channel": "release-1.5"
     },
@@ -14458,6 +14488,12 @@
       "package": "netobserv-operator",
       "name": "netobserv-operator",
       "version": "1.12.1",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "1.12.2",
       "channel": "stable"
     },
     {
@@ -21865,6 +21901,12 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1786930629.p",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.0",
@@ -27199,7 +27241,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4533,
+  "count": 4540,
   "source": "opm",
-  "timestamp": "2026-08-16T06:49:15.640043"
+  "timestamp": "2026-08-22T06:50:40.499501"
 }

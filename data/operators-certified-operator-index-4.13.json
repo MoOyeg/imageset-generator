@@ -39,7 +39,7 @@
     {
       "package": "aci-containers-operator",
       "name": "aci-containers-operator",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "channel": "stable"
     },
     {
@@ -441,6 +441,18 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
+      "version": "0.9.10",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.11",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
       "version": "0.9.2",
       "channel": "alpha"
     },
@@ -454,6 +466,36 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.9.4",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.5",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.6",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.7",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.8",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.9",
       "channel": "alpha"
     },
     {
@@ -1516,6 +1558,12 @@
       "package": "cpd-platform-operator",
       "name": "cpd-platform-operator",
       "version": "6.4.0",
+      "channel": "v6.4"
+    },
+    {
+      "package": "cpd-platform-operator",
+      "name": "cpd-platform-operator",
+      "version": "6.4.11",
       "channel": "v6.4"
     },
     {
@@ -2679,6 +2727,12 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.14.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -2809,6 +2863,18 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.2.4",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.0",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -2854,6 +2920,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.51.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.52.0",
       "channel": "stable"
     },
     {
@@ -3171,7 +3243,7 @@
     {
       "package": "hazelcast-platform-operator",
       "name": "hazelcast-platform-operator",
-      "version": "5.18.0",
+      "version": "5.19.0",
       "channel": "alpha"
     },
     {
@@ -4801,6 +4873,12 @@
       "channel": "5.3.x"
     },
     {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.4.0",
+      "channel": "5.4.x"
+    },
+    {
       "package": "keysight-ati-updates",
       "name": "keysight-ati-updates",
       "version": "0.1.21",
@@ -5131,6 +5209,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.2.4",
+      "channel": "stable"
+    },
+    {
       "package": "kubemq-operator-marketplace",
       "name": "kubemq-operator-marketplace",
       "version": "1.8.5",
@@ -5157,13 +5241,13 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.50",
+      "version": "8.20.60",
       "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.60-beta.1",
+      "version": "8.21.0-beta.1",
       "channel": "beta"
     },
     {
@@ -5271,13 +5355,13 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.50",
+      "version": "8.20.60",
       "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.60-beta.1",
+      "version": "8.21.0-beta.1",
       "channel": "beta"
     },
     {
@@ -5524,6 +5608,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.15.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.16.0",
       "channel": "stable"
     },
     {
@@ -5938,6 +6028,12 @@
       "package": "netscaler-operator",
       "name": "netscaler-operator",
       "version": "3.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "netscaler-operator",
+      "name": "netscaler-operator",
+      "version": "3.6.0",
       "channel": "stable"
     },
     {
@@ -6843,13 +6939,13 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.50",
+      "version": "8.20.60",
       "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.60-beta.1",
+      "version": "8.21.0-beta.1",
       "channel": "beta"
     },
     {
@@ -8097,13 +8193,13 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.112.0",
+      "version": "42.113.0",
       "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.113.0-beta.1",
+      "version": "42.114.0-beta.1",
       "channel": "beta"
     },
     {
@@ -8775,14 +8871,14 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.8.0-17",
-      "channel": "beta"
+      "version": "2026.8.1-23",
+      "channel": "2026.8"
     },
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.8.1-23",
-      "channel": "2026.8"
+      "version": "2026.8.3-12",
+      "channel": "beta"
     },
     {
       "package": "uma-operator",
@@ -8955,14 +9051,14 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.8.0-17",
-      "channel": "beta"
+      "version": "2026.8.1-23",
+      "channel": "2026.8"
     },
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.8.1-23",
-      "channel": "2026.8"
+      "version": "2026.8.3-12",
+      "channel": "beta"
     },
     {
       "package": "uma-team-operator",
@@ -9135,14 +9231,14 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.8.0-17",
-      "channel": "beta"
+      "version": "2026.8.1-23",
+      "channel": "2026.8"
     },
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.8.1-23",
-      "channel": "2026.8"
+      "version": "2026.8.3-12",
+      "channel": "beta"
     },
     {
       "package": "vault-secrets-operator",
@@ -9471,7 +9567,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.6",
+      "version": "3.4.7",
       "channel": "stable"
     },
     {
@@ -9577,7 +9673,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1596,
+  "count": 1612,
   "source": "opm",
-  "timestamp": "2026-08-16T06:42:34.761831"
+  "timestamp": "2026-08-22T06:43:18.682246"
 }

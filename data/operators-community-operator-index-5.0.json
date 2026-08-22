@@ -693,6 +693,12 @@
       "package": "ack-apigateway-controller",
       "name": "ack-apigateway-controller",
       "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigateway-controller",
+      "name": "ack-apigateway-controller",
+      "version": "1.8.1",
       "keywords": [
         "apigateway",
         "aws",
@@ -988,6 +994,12 @@
       "package": "ack-apigatewayv2-controller",
       "name": "ack-apigatewayv2-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigatewayv2-controller",
+      "name": "ack-apigatewayv2-controller",
+      "version": "1.4.1",
       "keywords": [
         "apigatewayv2",
         "aws",
@@ -1307,6 +1319,12 @@
       "package": "ack-applicationautoscaling-controller",
       "name": "ack-applicationautoscaling-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-applicationautoscaling-controller",
+      "name": "ack-applicationautoscaling-controller",
+      "version": "1.6.0",
       "keywords": [
         "applicationautoscaling",
         "aws",
@@ -1744,6 +1762,12 @@
       "package": "ack-bedrockagent-controller",
       "name": "ack-bedrockagent-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagent-controller",
+      "name": "ack-bedrockagent-controller",
+      "version": "1.3.1",
       "keywords": [
         "bedrockagent",
         "aws",
@@ -1799,6 +1823,18 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.12.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.13.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.14.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -2913,6 +2949,19 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-dms-controller",
+      "name": "ack-dms-controller",
+      "version": "0.1.0",
+      "keywords": [
+        "dms",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS Database Migration Service controller is a service controller for managing Database Migration Service resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-documentdb-controller",
       "name": "ack-documentdb-controller",
       "version": "0.0.6",
@@ -3078,6 +3127,18 @@
       "package": "ack-documentdb-controller",
       "name": "ack-documentdb-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-documentdb-controller",
+      "name": "ack-documentdb-controller",
+      "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-documentdb-controller",
+      "name": "ack-documentdb-controller",
+      "version": "1.6.0",
       "keywords": [
         "documentdb",
         "aws",
@@ -3861,13 +3922,12 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.19.0",
-      "keywords": [
-        "ec2",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS EC2 controller is a service controller for managing EC2 resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.19.1",
       "channel": "alpha"
     },
     {
@@ -4012,6 +4072,19 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.2.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.20.0",
+      "keywords": [
+        "ec2",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS EC2 controller is a service controller for managing EC2 resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -5366,13 +5439,6 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.19.1",
-      "keywords": [
-        "eks",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS EKS controller is a service controller for managing EKS resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -5397,6 +5463,19 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.2.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.20.0",
+      "keywords": [
+        "eks",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS EKS controller is a service controller for managing EKS resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -5967,6 +6046,12 @@
       "package": "ack-elasticache-controller",
       "name": "ack-elasticache-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
+      "version": "1.8.0",
       "keywords": [
         "elasticache",
         "aws",
@@ -7324,6 +7409,12 @@
       "package": "ack-iam-controller",
       "name": "ack-iam-controller",
       "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-iam-controller",
+      "name": "ack-iam-controller",
+      "version": "1.8.1",
       "keywords": [
         "iam",
         "aws",
@@ -7510,6 +7601,31 @@
     {
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
+      "version": "1.10.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.11.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.11.1",
+      "keywords": [
+        "kafka",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS Kafka controller is a service controller for managing Kafka resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -7589,13 +7705,6 @@
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
       "version": "1.9.0",
-      "keywords": [
-        "kafka",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS Kafka controller is a service controller for managing Kafka resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -7830,6 +7939,12 @@
       "package": "ack-keyspaces-controller",
       "name": "ack-keyspaces-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-keyspaces-controller",
+      "name": "ack-keyspaces-controller",
+      "version": "1.5.1",
       "keywords": [
         "keyspaces",
         "aws",
@@ -8432,6 +8547,12 @@
       "package": "ack-kms-controller",
       "name": "ack-kms-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kms-controller",
+      "name": "ack-kms-controller",
+      "version": "1.4.1",
       "keywords": [
         "kms",
         "aws",
@@ -9107,6 +9228,12 @@
       "package": "ack-memorydb-controller",
       "name": "ack-memorydb-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-memorydb-controller",
+      "name": "ack-memorydb-controller",
+      "version": "1.6.0",
       "keywords": [
         "memorydb",
         "aws",
@@ -9500,6 +9627,12 @@
       "package": "ack-networkfirewall-controller",
       "name": "ack-networkfirewall-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-networkfirewall-controller",
+      "name": "ack-networkfirewall-controller",
+      "version": "1.4.1",
       "keywords": [
         "networkfirewall",
         "aws",
@@ -9892,6 +10025,12 @@
       "package": "ack-opensearchservice-controller",
       "name": "ack-opensearchservice-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchservice-controller",
+      "name": "ack-opensearchservice-controller",
+      "version": "1.5.1",
       "keywords": [
         "opensearchservice",
         "aws",
@@ -10278,6 +10417,12 @@
       "package": "ack-pipes-controller",
       "name": "ack-pipes-controller",
       "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-pipes-controller",
+      "name": "ack-pipes-controller",
+      "version": "1.5.0",
       "keywords": [
         "pipes",
         "aws",
@@ -10525,6 +10670,12 @@
       "package": "ack-prometheusservice-controller",
       "name": "ack-prometheusservice-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-prometheusservice-controller",
+      "name": "ack-prometheusservice-controller",
+      "version": "1.6.1",
       "keywords": [
         "prometheusservice",
         "aws",
@@ -11387,6 +11538,12 @@
       "package": "ack-recyclebin-controller",
       "name": "ack-recyclebin-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-recyclebin-controller",
+      "name": "ack-recyclebin-controller",
+      "version": "1.4.1",
       "keywords": [
         "recyclebin",
         "aws",
@@ -11616,6 +11773,12 @@
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
+      "version": "1.5.2",
       "keywords": [
         "route53",
         "aws",
@@ -12175,6 +12338,19 @@
     {
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "s3",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS S3 controller is a service controller for managing S3 resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -12272,13 +12448,6 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.9.0",
-      "keywords": [
-        "s3",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS S3 controller is a service controller for managing S3 resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -12565,6 +12734,12 @@
       "package": "ack-sagemaker-controller",
       "name": "ack-sagemaker-controller",
       "version": "1.9.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sagemaker-controller",
+      "name": "ack-sagemaker-controller",
+      "version": "1.9.1",
       "keywords": [
         "sagemaker",
         "aws",
@@ -12837,6 +13012,12 @@
       "package": "ack-ses-controller",
       "name": "ack-ses-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ses-controller",
+      "name": "ack-ses-controller",
+      "version": "1.4.1",
       "keywords": [
         "ses",
         "aws",
@@ -13325,6 +13506,12 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.9.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.9.1",
       "keywords": [
         "sns",
         "aws",
@@ -13964,6 +14151,12 @@
       "package": "ack-wafv2-controller",
       "name": "ack-wafv2-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.5.1",
       "keywords": [
         "wafv2",
         "aws",
@@ -15374,6 +15567,12 @@
       "package": "attune",
       "name": "attune",
       "version": "0.1.22",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.23",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -22174,6 +22373,23 @@
       "channel": "1.x"
     },
     {
+      "package": "kollect",
+      "name": "kollect",
+      "version": "0.18.0",
+      "keywords": [
+        "kubernetes",
+        "inventory",
+        "operator",
+        "gitops",
+        "export",
+        "observability",
+        "multi-tenant",
+        "fleet"
+      ],
+      "description": "Kubernetes inventory export operator \u2014 declare what to collect once and export durable rows to Git, databases, object storage, and event streams.",
+      "channel": "stable"
+    },
+    {
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.1.0",
@@ -22895,12 +23111,6 @@
       "channel": "stable"
     },
     {
-      "package": "kubeturbo",
-      "name": "kubeturbo",
-      "version": "8.3.3",
-      "channel": "beta"
-    },
-    {
       "package": "l5-operator",
       "name": "l5-operator",
       "version": "0.0.2",
@@ -23116,6 +23326,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "0.10.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "0.11.0",
       "keywords": [
         "logging",
         "loki"
@@ -23835,6 +24051,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.15.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.16.0",
       "keywords": [
         "MongoDB",
         "Atlas",
@@ -25123,6 +25345,12 @@
       "package": "ocp-kea-dhcp",
       "name": "ocp-kea-dhcp",
       "version": "0.0.28",
+      "channel": "alpha"
+    },
+    {
+      "package": "ocp-kea-dhcp",
+      "name": "ocp-kea-dhcp",
+      "version": "0.0.30",
       "keywords": [
         "dhcp",
         "kea",
@@ -25588,6 +25816,12 @@
       "package": "opentelemetry-operator",
       "name": "opentelemetry-operator",
       "version": "0.157.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "opentelemetry-operator",
+      "name": "opentelemetry-operator",
+      "version": "0.158.0",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -26034,6 +26268,12 @@
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "pubsubplus-eventbroker-operator",
+      "name": "pubsubplus-eventbroker-operator",
+      "version": "1.4.2",
       "keywords": [
         "solace",
         "pubsubplus",
@@ -26221,6 +26461,12 @@
       "package": "redkey-operator",
       "name": "redkey-operator",
       "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "redkey-operator",
+      "name": "redkey-operator",
+      "version": "0.2.0",
       "keywords": [
         "redis",
         "valkey",
@@ -26230,7 +26476,7 @@
         "k8s",
         "ocp"
       ],
-      "description": "Redkey Cluster Operator for Kubernetes. Manage your Redis/Valkey clusters seamlessly.",
+      "description": "Seamless Redkey management on Kubernetes, in cluster or standalone mode.",
       "channel": "alpha"
     },
     {
@@ -27743,6 +27989,23 @@
       "channel": "strimzi-1.1.x"
     },
     {
+      "package": "strimzi-kafka-operator",
+      "name": "strimzi-kafka-operator",
+      "version": "1.2.0",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Strimzi provides a way to run an Apache Kafka cluster on Kubernetes or OpenShift in various deployment configurations.",
+      "channel": "strimzi-1.2.x"
+    },
+    {
       "package": "susql-operator",
       "name": "susql-operator",
       "version": "0.0.34",
@@ -27935,6 +28198,12 @@
       "package": "tempo-operator",
       "name": "tempo-operator",
       "version": "0.20.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "tempo-operator",
+      "name": "tempo-operator",
+      "version": "0.22.0",
       "keywords": [
         "tempo",
         "tracing",
@@ -28849,6 +29118,12 @@
       "package": "wandb-operator",
       "name": "wandb-operator",
       "version": "1.21.2",
+      "channel": "stable"
+    },
+    {
+      "package": "wandb-operator",
+      "name": "wandb-operator",
+      "version": "1.22.0",
       "keywords": [
         "machine learning",
         "experiment tracking",
@@ -29074,7 +29349,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4375,
+  "count": 4416,
   "source": "opm",
-  "timestamp": "2026-08-16T07:05:11.821415"
+  "timestamp": "2026-08-22T07:06:43.252810"
 }
