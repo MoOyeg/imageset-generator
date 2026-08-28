@@ -2666,6 +2666,12 @@
     "trident.netapp.io/v1/TridentConfigurator": [
       "trident-operator"
     ],
+    "tvo.trilio.io/v1/TVOBackupTarget": [
+      "tvo-operator"
+    ],
+    "tvo.trilio.io/v1/TVOControlPlane": [
+      "tvo-operator"
+    ],
     "ca.broadcom.com/v1alpha1/UniversalMonitoringAgentsAdmin": [
       "uma-admin-operator"
     ],
@@ -2871,5 +2877,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-22T06:47:44.760784"
+  "timestamp": "2026-08-28T06:46:28.152945"
 }

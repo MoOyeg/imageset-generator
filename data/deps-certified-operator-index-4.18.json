@@ -2820,6 +2820,12 @@
     "trident.netapp.io/v1/TridentConfigurator": [
       "trident-operator"
     ],
+    "tvo.trilio.io/v1/TVOBackupTarget": [
+      "tvo-operator"
+    ],
+    "tvo.trilio.io/v1/TVOControlPlane": [
+      "tvo-operator"
+    ],
     "ca.broadcom.com/v1alpha1/UniversalMonitoringAgentsAdmin": [
       "uma-admin-operator"
     ],
@@ -2835,7 +2841,16 @@
     "storage.vastdata.com/v1/VastCluster": [
       "vast-csi-operator"
     ],
+    "storage.vastdata.com/v1/VastExtensionsManager": [
+      "vast-csi-operator"
+    ],
     "storage.vastdata.com/v1/VastStorage": [
+      "vast-csi-operator"
+    ],
+    "vastdata.com/v1alpha1/VastStorageClassReplication": [
+      "vast-csi-operator"
+    ],
+    "vastdata.com/v1alpha1/VastVolumeReplication": [
       "vast-csi-operator"
     ],
     "secrets.hashicorp.com/v1beta1/HCPAuth": [
@@ -3031,5 +3046,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-22T06:59:31.611534"
+  "timestamp": "2026-08-28T06:58:51.013091"
 }

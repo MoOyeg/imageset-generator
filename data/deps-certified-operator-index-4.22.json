@@ -338,6 +338,9 @@
     "crd.k8s.appian.com/v1beta1/Appian": [
       "appian-operator"
     ],
+    "sensors.appsentinels.io/v1alpha1/AppSentinelsSensor": [
+      "appsentinels-sslsniffer-operator"
+    ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
     ],
@@ -656,6 +659,9 @@
     ],
     "datadoghq.com/v1alpha1/DatadogInstrumentation": [
       "datadog-operator-certified"
+    ],
+    "storage.dell.com/v1/ContainerStorageModule": [
+      "dell-csm-operator-certified"
     ],
     "xld.digital.ai/v1alpha1/DigitalaiDeploy": [
       "digitalai-deploy-operator"
@@ -1055,6 +1061,12 @@
     ],
     "trustedservices.intel.com/v1/TdxQuoteGenerationService": [
       "intel-tdx-dcap-operator"
+    ],
+    "apik10.kasten.io/v1alpha1/K10": [
+      "k10-kasten-operator-rhmp"
+    ],
+    "apik10.kasten.io/v1alpha1/K10restore": [
+      "k10-kasten-operator-rhmp"
     ],
     "triliovault.trilio.io/v1/TrilioVaultManager": [
       "k8s-triliovault"
@@ -1893,13 +1905,28 @@
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
+    "tvo.trilio.io/v1/TVOBackupTarget": [
+      "tvo-operator"
+    ],
+    "tvo.trilio.io/v1/TVOControlPlane": [
+      "tvo-operator"
+    ],
     "storage.vastdata.com/v1/VastCSIDriver": [
       "vast-csi-operator"
     ],
     "storage.vastdata.com/v1/VastCluster": [
       "vast-csi-operator"
     ],
+    "storage.vastdata.com/v1/VastExtensionsManager": [
+      "vast-csi-operator"
+    ],
     "storage.vastdata.com/v1/VastStorage": [
+      "vast-csi-operator"
+    ],
+    "vastdata.com/v1alpha1/VastStorageClassReplication": [
+      "vast-csi-operator"
+    ],
+    "vastdata.com/v1alpha1/VastVolumeReplication": [
       "vast-csi-operator"
     ],
     "secrets.hashicorp.com/v1beta1/HCPAuth": [
@@ -2080,5 +2107,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-22T07:05:00.369242"
+  "timestamp": "2026-08-28T07:04:16.609977"
 }

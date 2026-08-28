@@ -1455,6 +1455,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-5",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "channel": "amq-streams-3.0.x"
     },
@@ -1552,6 +1558,12 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.0-8",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.1-10",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -1678,6 +1690,12 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.3-7",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.4-10",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -1819,6 +1837,12 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.1-5",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.0.0-5",
@@ -1924,6 +1948,12 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.2.1-3",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.1-5",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -3125,6 +3155,12 @@
       "name": "apicurio-registry-3",
       "version": "3.2.6-r2",
       "channel": "3.2.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.1-r1",
+      "channel": "3.3.x"
     },
     {
       "package": "authorino-operator",
@@ -8530,6 +8566,12 @@
       "package": "external-dns-operator",
       "name": "external-dns-operator",
       "version": "1.3.8",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.9",
       "channel": "stable-v1"
     },
     {
@@ -19075,6 +19117,18 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1787243741.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1787611435.p",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.0",
@@ -23815,7 +23869,7 @@
       "channel": "preview"
     }
   ],
-  "count": 3969,
+  "count": 3978,
   "source": "opm",
-  "timestamp": "2026-08-22T06:42:20.154708"
+  "timestamp": "2026-08-28T06:41:48.922583"
 }

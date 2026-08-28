@@ -319,6 +319,12 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.8.1",
+      "channel": "stable"
+    },
+    {
       "package": "anchore-engine",
       "name": "anchore-engine",
       "version": "1.0.1",
@@ -658,6 +664,24 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.9.11",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.12",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.13",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.14",
       "channel": "alpha"
     },
     {
@@ -3367,6 +3391,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.1",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -3418,6 +3448,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.52.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.52.1",
       "channel": "stable"
     },
     {
@@ -4737,6 +4773,12 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.18",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -5422,6 +5464,12 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "9.0.3",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.4",
       "channel": "stable"
     },
     {
@@ -6603,6 +6651,12 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.11.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -7174,7 +7228,7 @@
       "package": "nvidia-maintenance-operator",
       "name": "nvidia-maintenance-operator",
       "version": "0.2.3",
-      "channel": "v0.2"
+      "channel": "stable"
     },
     {
       "package": "nvidia-maintenance-operator",
@@ -7389,7 +7443,7 @@
     {
       "package": "operator-certification-operator",
       "name": "operator-certification-operator",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "channel": "alpha"
     },
     {
@@ -9751,6 +9805,42 @@
       "channel": "stable"
     },
     {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.1.1",
+      "channel": "6.0.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.1.13",
+      "channel": "6.1.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.0",
+      "channel": "6.2.0"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.1",
+      "channel": "6.2.0"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.2",
+      "channel": "6.2.0"
+    },
+    {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
       "version": "2024.10.2-12",
@@ -9855,7 +9945,7 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.8.1-23",
+      "version": "2026.8.2-16",
       "channel": "2026.8"
     },
     {
@@ -9969,7 +10059,7 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.8.1-23",
+      "version": "2026.8.2-16",
       "channel": "2026.8"
     },
     {
@@ -10083,7 +10173,7 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.8.1-23",
+      "version": "2026.8.2-16",
       "channel": "2026.8"
     },
     {
@@ -10537,7 +10627,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1756,
+  "count": 1771,
   "source": "opm",
-  "timestamp": "2026-08-22T06:51:29.971569"
+  "timestamp": "2026-08-28T06:50:46.324746"
 }

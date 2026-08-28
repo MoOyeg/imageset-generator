@@ -2485,6 +2485,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-cloudwatch-controller",
+      "name": "ack-cloudwatch-controller",
+      "version": "1.8.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
       "version": "0.0.10",
@@ -3268,6 +3274,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.11.0",
       "channel": "alpha"
     },
     {
@@ -4798,6 +4810,12 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.6.0",
       "channel": "alpha"
     },
     {
@@ -6694,6 +6712,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.6.0",
       "channel": "alpha"
     },
     {
@@ -8614,6 +8638,12 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.16.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.16.1",
       "channel": "alpha"
     },
     {
@@ -11667,6 +11697,12 @@
     {
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
+      "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
       "version": "1.5.2",
       "channel": "alpha"
     },
@@ -12322,6 +12358,12 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.8.2",
       "channel": "alpha"
     },
     {
@@ -14734,6 +14776,12 @@
       "package": "alloydb-omni-operator",
       "name": "alloydb-omni-operator",
       "version": "1.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.8.1",
       "channel": "stable"
     },
     {
@@ -20575,6 +20623,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.1",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -20626,6 +20680,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.52.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.52.1",
       "channel": "stable"
     },
     {
@@ -23461,6 +23521,12 @@
       "channel": "fast"
     },
     {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.7.2",
+      "channel": "fast"
+    },
+    {
       "package": "keycloak-permissions-operator",
       "name": "keycloak-permissions-operator",
       "version": "1.2.0",
@@ -25505,6 +25571,24 @@
       "name": "microcks",
       "version": "1.9.0",
       "channel": "stable"
+    },
+    {
+      "package": "mirror-operator",
+      "name": "mirror-operator",
+      "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "mirror-operator",
+      "name": "mirror-operator",
+      "version": "0.1.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "mirror-operator",
+      "name": "mirror-operator",
+      "version": "0.1.2",
+      "channel": "alpha"
     },
     {
       "package": "mongodb-atlas-kubernetes",
@@ -32731,6 +32815,12 @@
     {
       "package": "vault-config-operator",
       "name": "vault-config-operator",
+      "version": "0.8.50",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
       "version": "0.8.52",
       "channel": "alpha"
     },
@@ -33695,7 +33785,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5544,
+  "count": 5559,
   "source": "opm",
-  "timestamp": "2026-08-22T06:56:29.176767"
+  "timestamp": "2026-08-28T06:55:32.048575"
 }

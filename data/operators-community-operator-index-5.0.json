@@ -2570,6 +2570,12 @@
       "package": "ack-cloudwatch-controller",
       "name": "ack-cloudwatch-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatch-controller",
+      "name": "ack-cloudwatch-controller",
+      "version": "1.8.2",
       "keywords": [
         "cloudwatch",
         "aws",
@@ -3387,6 +3393,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.11.0",
       "keywords": [
         "dynamodb",
         "aws",
@@ -4885,6 +4897,12 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.6.0",
       "keywords": [
         "ecs",
         "aws",
@@ -6830,6 +6848,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.6.0",
       "keywords": [
         "eventbridge",
         "aws",
@@ -8782,6 +8806,12 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.16.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.16.1",
       "keywords": [
         "lambda",
         "aws",
@@ -11778,6 +11808,12 @@
     {
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
+      "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
       "version": "1.5.2",
       "keywords": [
         "route53",
@@ -12442,6 +12478,12 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.8.2",
       "channel": "alpha"
     },
     {
@@ -15573,6 +15615,18 @@
       "package": "attune",
       "name": "attune",
       "version": "0.1.23",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.24",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.25",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -21986,6 +22040,12 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.7.1",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.7.2",
       "keywords": [
         "Keycloak",
         "Identity",
@@ -28762,6 +28822,12 @@
     {
       "package": "vault-config-operator",
       "name": "vault-config-operator",
+      "version": "0.8.50",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
       "version": "0.8.52",
       "keywords": [
         "security",
@@ -29349,7 +29415,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4416,
+  "count": 4427,
   "source": "opm",
-  "timestamp": "2026-08-22T07:06:43.252810"
+  "timestamp": "2026-08-28T07:05:22.869257"
 }

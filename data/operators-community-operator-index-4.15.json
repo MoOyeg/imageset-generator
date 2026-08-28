@@ -2491,6 +2491,12 @@
       "channel": "alpha"
     },
     {
+      "package": "ack-cloudwatch-controller",
+      "name": "ack-cloudwatch-controller",
+      "version": "1.8.2",
+      "channel": "alpha"
+    },
+    {
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
       "version": "0.0.10",
@@ -3274,6 +3280,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.11.0",
       "channel": "alpha"
     },
     {
@@ -4804,6 +4816,12 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.6.0",
       "channel": "alpha"
     },
     {
@@ -6706,6 +6724,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.6.0",
       "channel": "alpha"
     },
     {
@@ -8632,6 +8656,12 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.16.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.16.1",
       "channel": "alpha"
     },
     {
@@ -11685,6 +11715,12 @@
     {
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
+      "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
       "version": "1.5.2",
       "channel": "alpha"
     },
@@ -12340,6 +12376,12 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.8.2",
       "channel": "alpha"
     },
     {
@@ -14752,6 +14794,12 @@
       "package": "alloydb-omni-operator",
       "name": "alloydb-omni-operator",
       "version": "1.8.0",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator",
+      "name": "alloydb-omni-operator",
+      "version": "1.8.1",
       "channel": "stable"
     },
     {
@@ -20845,6 +20893,12 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.1",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -20896,6 +20950,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.52.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.52.1",
       "channel": "stable"
     },
     {
@@ -23824,6 +23884,12 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.7.1",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.7.2",
       "channel": "fast"
     },
     {
@@ -34347,7 +34413,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5651,
+  "count": 5662,
   "source": "opm",
-  "timestamp": "2026-08-22T06:52:19.839762"
+  "timestamp": "2026-08-28T06:51:34.959436"
 }

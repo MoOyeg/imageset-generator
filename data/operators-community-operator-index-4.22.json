@@ -2576,6 +2576,12 @@
       "package": "ack-cloudwatch-controller",
       "name": "ack-cloudwatch-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatch-controller",
+      "name": "ack-cloudwatch-controller",
+      "version": "1.8.2",
       "keywords": [
         "cloudwatch",
         "aws",
@@ -3399,6 +3405,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.11.0",
       "keywords": [
         "dynamodb",
         "aws",
@@ -4897,6 +4909,12 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.6.0",
       "keywords": [
         "ecs",
         "aws",
@@ -6842,6 +6860,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.6.0",
       "keywords": [
         "eventbridge",
         "aws",
@@ -8794,6 +8818,12 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.16.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.16.1",
       "keywords": [
         "lambda",
         "aws",
@@ -11790,6 +11820,12 @@
     {
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
+      "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
       "version": "1.5.2",
       "keywords": [
         "route53",
@@ -12460,6 +12496,12 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.8.2",
       "channel": "alpha"
     },
     {
@@ -15823,6 +15865,18 @@
       "package": "attune",
       "name": "attune",
       "version": "0.1.23",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.24",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.25",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -18731,6 +18785,20 @@
       "channel": "stable-v0"
     },
     {
+      "package": "dotvirt-operator",
+      "name": "dotvirt-operator",
+      "version": "0.0.35",
+      "keywords": [
+        "kubevirt",
+        "gitops",
+        "argocd",
+        "virtualization",
+        "openshift"
+      ],
+      "description": "Installs dotvirt, a GitOps web console for KubeVirt with a point-and-click workflow familiar to virtualization admins, plus its platform/tenant tier.",
+      "channel": "stable-v0"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "0.5.0",
@@ -20740,6 +20808,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -24967,6 +25041,12 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.7.1",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.7.2",
       "keywords": [
         "Keycloak",
         "Identity",
@@ -27238,6 +27318,151 @@
       "channel": "stable"
     },
     {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.3.0",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.3.1",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.4.0",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.4.1",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.5.0",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.5.1",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale",
+        "climate change"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.5.2",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale",
+        "climate change"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.6.0",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale",
+        "climate change"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.7.0",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale",
+        "climate change"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
+      "package": "kube-green",
+      "name": "kube-green",
+      "version": "0.7.1",
+      "keywords": [
+        "green",
+        "green software",
+        "resources",
+        "downscale",
+        "autoscale",
+        "climate change"
+      ],
+      "description": "Suspend your pods when no-one's using them to save energy and restore when necessary",
+      "channel": "alpha"
+    },
+    {
       "package": "kubecost",
       "name": "kubecost",
       "version": "1.106.0",
@@ -28299,6 +28524,54 @@
       "name": "microcks",
       "version": "1.9.0",
       "channel": "stable"
+    },
+    {
+      "package": "mirror-operator",
+      "name": "mirror-operator",
+      "version": "0.1.0",
+      "keywords": [
+        "silvermatic",
+        "mirror-operator",
+        "disconnected",
+        "oc-mirror",
+        "airgap",
+        "openshift",
+        "sneakernet"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "mirror-operator",
+      "name": "mirror-operator",
+      "version": "0.1.1",
+      "keywords": [
+        "silvermatic",
+        "mirror-operator",
+        "disconnected",
+        "oc-mirror",
+        "airgap",
+        "openshift",
+        "sneakernet"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "mirror-operator",
+      "name": "mirror-operator",
+      "version": "0.1.2",
+      "keywords": [
+        "silvermatic",
+        "mirror-operator",
+        "disconnected",
+        "oc-mirror",
+        "airgap",
+        "openshift",
+        "sneakernet"
+      ],
+      "description": "",
+      "channel": "alpha"
     },
     {
       "package": "mongodb-atlas-kubernetes",
@@ -34806,42 +35079,6 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.31.0-nightly-2026-08-10",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.31-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.31.0-nightly-2026-08-11",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.31-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.31.0-nightly-2026-08-12",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.31-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
       "version": "1.31.0-nightly-2026-08-13",
       "keywords": [
         "istio",
@@ -34903,6 +35140,54 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.31.0-nightly-2026-08-22",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.31-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.31.0-nightly-2026-08-23",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.31-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.31.0-nightly-2026-08-24",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.31-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.31.0-nightly-2026-08-26",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.31-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.31.0-nightly-2026-08-27",
       "keywords": [
         "istio",
         "servicemesh",
@@ -37182,6 +37467,12 @@
     {
       "package": "vault-config-operator",
       "name": "vault-config-operator",
+      "version": "0.8.50",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
       "version": "0.8.52",
       "keywords": [
         "security",
@@ -38177,7 +38468,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5093,
+  "count": 5120,
   "source": "opm",
-  "timestamp": "2026-08-22T07:05:49.463981"
+  "timestamp": "2026-08-28T07:04:36.037076"
 }

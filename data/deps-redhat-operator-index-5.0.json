@@ -291,6 +291,42 @@
     "operator.openshift.io/v1/CliManager": [
       "cli-manager"
     ],
+    "compliance.openshift.io/v1alpha1/ComplianceCheckResult": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ComplianceRemediation": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ComplianceScan": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ComplianceSuite": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/Profile": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ProfileBundle": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/Rule": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ScanSetting": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/ScanSettingBinding": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/TailoredProfile": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/Variable": [
+      "compliance-operator"
+    ],
+    "compliance.openshift.io/v1alpha1/CustomRule": [
+      "compliance-operator"
+    ],
     "secscan.quay.redhat.com/v1alpha1/ImageManifestVuln": [
       "container-security-operator"
     ],
@@ -465,39 +501,6 @@
     ],
     "windup.jboss.org/v1/Windup": [
       "mtr-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/ForkliftController": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Hook": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Host": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Migration": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/NetworkMap": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/OpenstackVolumePopulator": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/OvirtVolumePopulator": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Plan": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/Provider": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/StorageMap": [
-      "mtv-operator"
-    ],
-    "forklift.konveyor.io/v1beta1/VSphereXcopyVolumePopulator": [
-      "mtv-operator"
     ],
     "multicluster.openshift.io/v1/MultiClusterEngine": [
       "multicluster-engine"
@@ -722,6 +725,9 @@
       "openshift-pipelines-operator-rh"
     ],
     "operator.tekton.dev/v1alpha1/TektonTrigger": [
+      "openshift-pipelines-operator-rh"
+    ],
+    "operator.tekton.dev/v1alpha1/TektonDashboard": [
       "openshift-pipelines-operator-rh"
     ],
     "operator.openshift.io/v1/SecondaryScheduler": [
@@ -1022,5 +1028,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-08-22T07:06:08.176027"
+  "timestamp": "2026-08-28T07:04:56.332638"
 }

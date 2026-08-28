@@ -738,6 +738,23 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.8.1",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "AlloyDB Omni for Kubernetes lets you run a powerful, PostgreSQL-compatible database within your own Kubernetes environment. It packages the high-performance AlloyDB for PostgreSQL database into a container, managed by a Kubernetes operator, which simplifies deployment and operations.",
+      "channel": "stable"
+    },
+    {
       "package": "amd-gpu-operator",
       "name": "amd-gpu-operator",
       "version": "1.1.1",
@@ -1019,6 +1036,20 @@
         "Appian"
       ],
       "description": "The Appian operator facilitates managing instances of Appian on Kubernetes.",
+      "channel": "alpha"
+    },
+    {
+      "package": "appsentinels-sslsniffer-operator",
+      "name": "appsentinels-sslsniffer-operator",
+      "version": "0.0.1",
+      "keywords": [
+        "ebpf",
+        "ssl",
+        "sniffer",
+        "security",
+        "openshift"
+      ],
+      "description": "",
       "channel": "alpha"
     },
     {
@@ -1471,6 +1502,54 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.9.11",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.12",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.13",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.14",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -4528,6 +4607,241 @@
       "channel": "stable"
     },
     {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.10.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.10.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.10.2",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.11.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.11.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.11.2",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.11.3",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.12.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.12.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.12.2",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.9.0",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
+      "version": "1.9.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
       "version": "24.1.10",
@@ -5398,6 +5712,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.3.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.1",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -7275,6 +7603,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.18",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -7449,6 +7789,738 @@
       ],
       "description": "",
       "channel": "alpha"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "6.5.10",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "6.5.11",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "6.5.12",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "6.5.13",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "6.5.14",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "6.5.5",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "6.5.6",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "6.5.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.1",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.11",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.12",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.13",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.14",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.3",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.4",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.5",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "K10 data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.6",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.7",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.0.9",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.0",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.1",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.10",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.2",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.3",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.4",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.7",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "7.5.9",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.0",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.1",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.10",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.11",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.13",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.14",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.15",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.2",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.3",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.4",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.5",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.6",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.7",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.0.9",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.0",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.1",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.11",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.12",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.13",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.2",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.3",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.4",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.5",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.6",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.7",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "8.5.9",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.1",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.2",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.3",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.4",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
     },
     {
       "package": "k8s-triliovault",
@@ -8862,6 +9934,18 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.11.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -9794,7 +10878,7 @@
         "drain"
       ],
       "description": "Node maintenance in K8s cluster in a coordinated manner",
-      "channel": "v0.2"
+      "channel": "stable"
     },
     {
       "package": "nvidia-maintenance-operator",
@@ -10006,7 +11090,7 @@
     {
       "package": "operator-certification-operator",
       "name": "operator-certification-operator",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "certification",
         "pipeline",
@@ -11891,6 +12975,27 @@
       "channel": "stable"
     },
     {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.6.1",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
       "package": "truenas-csi",
       "name": "truenas-csi",
       "version": "0.1.0",
@@ -11948,9 +13053,79 @@
       "channel": "stable"
     },
     {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.1.1",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.0.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.1.13",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.1.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.0",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.0"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.1",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.0"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.2",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.0"
+    },
+    {
       "package": "vast-csi-operator",
       "name": "vast-csi-operator",
-      "version": "2.6.4",
+      "version": "2.6.8",
       "keywords": [
         "VAST",
         "VASTData",
@@ -12430,7 +13605,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1065,
+  "count": 1152,
   "source": "opm",
-  "timestamp": "2026-08-22T07:04:59.930956"
+  "timestamp": "2026-08-28T07:04:16.116705"
 }

@@ -749,6 +749,23 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.8.1",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "AlloyDB Omni for Kubernetes lets you run a powerful, PostgreSQL-compatible database within your own Kubernetes environment. It packages the high-performance AlloyDB for PostgreSQL database into a container, managed by a Kubernetes operator, which simplifies deployment and operations.",
+      "channel": "stable"
+    },
+    {
       "package": "amd-gpu-operator",
       "name": "amd-gpu-operator",
       "version": "1.1.1",
@@ -1044,6 +1061,20 @@
         "Appian"
       ],
       "description": "The Appian operator facilitates managing instances of Appian on Kubernetes.",
+      "channel": "alpha"
+    },
+    {
+      "package": "appsentinels-sslsniffer-operator",
+      "name": "appsentinels-sslsniffer-operator",
+      "version": "0.0.1",
+      "keywords": [
+        "ebpf",
+        "ssl",
+        "sniffer",
+        "security",
+        "openshift"
+      ],
+      "description": "",
       "channel": "alpha"
     },
     {
@@ -1496,6 +1527,54 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.9.11",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.12",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.13",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.9.14",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -6353,6 +6432,20 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.3",
@@ -6454,6 +6547,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.52.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.52.1",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -8483,6 +8590,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.18",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -9384,6 +9503,18 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "9.0.3",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.4",
       "keywords": [
         "kubernetes",
         "storage",
@@ -11140,6 +11271,18 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.11.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -12065,18 +12208,6 @@
     {
       "package": "nvidia-maintenance-operator",
       "name": "nvidia-maintenance-operator",
-      "version": "0.2.3",
-      "keywords": [
-        "node",
-        "maintenance",
-        "drain"
-      ],
-      "description": "Node maintenance in K8s cluster in a coordinated manner",
-      "channel": "v0.2"
-    },
-    {
-      "package": "nvidia-maintenance-operator",
-      "name": "nvidia-maintenance-operator",
       "version": "26.4.0",
       "keywords": [
         "node",
@@ -12442,7 +12573,7 @@
     {
       "package": "operator-certification-operator",
       "name": "operator-certification-operator",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "certification",
         "pipeline",
@@ -14799,6 +14930,18 @@
       "channel": "stable-v1"
     },
     {
+      "package": "strategy-operator",
+      "name": "strategy-operator",
+      "version": "26.7.2",
+      "keywords": [
+        "AI",
+        "BI",
+        "Strategy"
+      ],
+      "description": "Operator for Strategy Customer Managed Cloud (CMC)",
+      "channel": "stable-v1"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -15111,6 +15254,27 @@
       "channel": "stable"
     },
     {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.6.1",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
       "package": "truenas-csi",
       "name": "truenas-csi",
       "version": "0.1.0",
@@ -15168,24 +15332,79 @@
       "channel": "stable"
     },
     {
-      "package": "vast-csi-operator",
-      "name": "vast-csi-operator",
-      "version": "2.6.4",
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.1.1",
       "keywords": [
-        "VAST",
-        "VASTData",
-        "CSI",
-        "Multi Cluster",
-        "AI",
-        "High-Performance Computing"
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
       ],
-      "description": "Kubernetes operator for automated deployment and lifecycle management of VAST Data CSI drivers.",
-      "channel": "stable"
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.0.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.1.13",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.1.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.0",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.0"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.1",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.0"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.2",
+      "keywords": [
+        "OpenStack",
+        "Backup",
+        "Recovery",
+        "RHOSO Backup",
+        "Disaster Recovery"
+      ],
+      "description": "Cloud-Native Data Protection for OpenStack",
+      "channel": "6.2.0"
     },
     {
       "package": "vast-csi-operator",
       "name": "vast-csi-operator",
-      "version": "2.6.5",
+      "version": "2.6.8",
       "keywords": [
         "VAST",
         "VASTData",
@@ -15791,7 +16010,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1319,
+  "count": 1334,
   "source": "opm",
-  "timestamp": "2026-08-22T07:03:57.749755"
+  "timestamp": "2026-08-28T07:03:12.525176"
 }

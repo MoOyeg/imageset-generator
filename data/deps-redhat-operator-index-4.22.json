@@ -1652,6 +1652,9 @@
     "operator.tekton.dev/v1alpha1/TektonScheduler": [
       "openshift-pipelines-operator-rh"
     ],
+    "operator.tekton.dev/v1alpha1/TektonDashboard": [
+      "openshift-pipelines-operator-rh"
+    ],
     "operator.openshift.io/v1/SecondaryScheduler": [
       "openshift-secondary-scheduler-operator"
     ],
@@ -2000,10 +2003,10 @@
     "components.platform.opendatahub.io/v1alpha1/SparkOperator": [
       "rhods-operator"
     ],
-    "components.platform.opendatahub.io/v1alpha1/OGX": [
+    "config.opendatahub.io/v1alpha1/Platform": [
       "rhods-operator"
     ],
-    "config.opendatahub.io/v1alpha1/Platform": [
+    "components.platform.opendatahub.io/v1alpha1/OGX": [
       "rhods-operator"
     ],
     "keycloak.org/v1alpha1/Keycloak": [
@@ -2448,5 +2451,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-08-22T07:04:47.352695"
+  "timestamp": "2026-08-28T07:04:02.780321"
 }

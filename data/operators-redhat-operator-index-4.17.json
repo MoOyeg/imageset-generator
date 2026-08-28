@@ -276,6 +276,20 @@
     {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
+      "version": "2.11.11",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.11"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
       "version": "2.11.2",
       "keywords": [
         "acm",
@@ -556,6 +570,20 @@
     {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
+      "version": "2.13.11",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.13"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
       "version": "2.13.2",
       "keywords": [
         "acm",
@@ -724,6 +752,20 @@
     {
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
+      "version": "2.14.4",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.14"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
       "version": "2.15.0",
       "keywords": [
         "acm",
@@ -795,6 +837,20 @@
       "package": "advanced-cluster-management",
       "name": "advanced-cluster-management",
       "version": "2.15.5",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.15"
+    },
+    {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
+      "version": "2.15.6",
       "keywords": [
         "acm",
         "advanced-cluster-management",
@@ -3097,6 +3153,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-5",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "keywords": [
         "kafka",
@@ -3370,6 +3443,23 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.0-8",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.1-10",
       "keywords": [
         "kafka",
         "messaging",
@@ -3798,6 +3888,26 @@
         "user interface"
       ],
       "description": "",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.4-10",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -4261,6 +4371,26 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.1-5",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.0.0-5",
@@ -4524,6 +4654,22 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.2.1-3",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.1-5",
       "keywords": [
         "kafka",
         "messaging",
@@ -8075,6 +8221,23 @@
       ],
       "description": "Deploy and manage Red Hat build of Apicurio Registry 3 on OpenShift.",
       "channel": "3.2.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.1-r1",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Red Hat build of Apicurio Registry 3 on OpenShift.",
+      "channel": "3.3.x"
     },
     {
       "package": "authorino-operator",
@@ -20463,6 +20626,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "external-dns-operator",
+      "name": "external-dns-operator",
+      "version": "1.3.9",
+      "keywords": [
+        "openshift",
+        "dns",
+        "externaldns",
+        "operator"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
       "package": "fence-agents-remediation",
       "name": "fence-agents-remediation",
       "version": "0.1.0",
@@ -27742,6 +27918,19 @@
       "channel": "alpha"
     },
     {
+      "package": "lightspeed-operator",
+      "name": "lightspeed-operator",
+      "version": "1.1.3",
+      "keywords": [
+        "ai",
+        "assistant",
+        "openshift",
+        "llm"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "limitador-operator",
       "name": "limitador-operator",
       "version": "0.12.1",
@@ -32618,6 +32807,18 @@
     {
       "package": "multicluster-engine",
       "name": "multicluster-engine",
+      "version": "2.10.6",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.10"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
       "version": "2.6.0",
       "keywords": [
         "mce",
@@ -32679,6 +32880,18 @@
       "package": "multicluster-engine",
       "name": "multicluster-engine",
       "version": "2.6.13",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
+      "version": "2.6.14",
       "keywords": [
         "mce",
         "multicluster-engine",
@@ -32942,6 +33155,18 @@
     {
       "package": "multicluster-engine",
       "name": "multicluster-engine",
+      "version": "2.8.10",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.8"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
       "version": "2.8.2",
       "keywords": [
         "mce",
@@ -33111,6 +33336,18 @@
       "package": "multicluster-engine",
       "name": "multicluster-engine",
       "version": "2.9.6",
+      "keywords": [
+        "mce",
+        "multicluster-engine",
+        "multiclusterengine"
+      ],
+      "description": "Foundational components for central management of multiple OpenShift Container Platform and Kubernetes clusters",
+      "channel": "stable-2.9"
+    },
+    {
+      "package": "multicluster-engine",
+      "name": "multicluster-engine",
+      "version": "2.9.7",
       "keywords": [
         "mce",
         "multicluster-engine",
@@ -50220,6 +50457,32 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1787243741.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1787611435.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.0.15",
@@ -50341,6 +50604,47 @@
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.4.10",
+      "keywords": [
+        "disaster backup",
+        "disaster recovery",
+        "disaster restore",
+        "disaster",
+        "backup",
+        "restore",
+        "backup automation",
+        "recovery",
+        "data protection",
+        "data management",
+        "data",
+        "protection",
+        "management",
+        "application resilience",
+        "resilience",
+        "velero",
+        "openshift",
+        "oadp",
+        "cloud-native",
+        "replication",
+        "kopia",
+        "restic",
+        "network file system",
+        "nfs",
+        "simple cloud storage",
+        "s3",
+        "minio",
+        "cloud storage",
+        "data foundation",
+        "ceph",
+        "csi",
+        "container storage interface"
+      ],
+      "description": "OADP (OpenShift API for Data Protection) operator sets up and installs Data Protection Applications on the OpenShift platform.",
+      "channel": "stable-1.4"
+    },
+    {
+      "package": "redhat-oadp-operator",
+      "name": "redhat-oadp-operator",
+      "version": "1.4.11",
       "keywords": [
         "disaster backup",
         "disaster recovery",
@@ -52231,6 +52535,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.7",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.11.0",
       "keywords": [
         "advanced-cluster-security",
@@ -52274,6 +52599,27 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.11.2",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.11"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.11.3",
       "keywords": [
         "advanced-cluster-security",
         "stackrox",
@@ -53744,6 +54090,27 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.9.10",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.9.11",
       "keywords": [
         "advanced-cluster-security",
         "stackrox",
@@ -58386,6 +58753,18 @@
       "package": "rhtas-operator",
       "name": "rhtas-operator",
       "version": "1.3.6",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "rhtas-operator",
+      "name": "rhtas-operator",
+      "version": "1.3.7",
       "keywords": [
         "security",
         "rhtas",
@@ -66317,7 +66696,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4811,
+  "count": 4834,
   "source": "opm",
-  "timestamp": "2026-08-22T06:57:34.702477"
+  "timestamp": "2026-08-28T06:56:33.369013"
 }

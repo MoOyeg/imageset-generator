@@ -188,6 +188,9 @@
     "cluster.appdynamics.com/v1alpha1/InfraViz": [
       "appdynamics-operator"
     ],
+    "sensors.appsentinels.io/v1alpha1/AppSentinelsSensor": [
+      "appsentinels-sslsniffer-operator"
+    ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
     ],
@@ -1148,6 +1151,12 @@
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
+    "tvo.trilio.io/v1/TVOBackupTarget": [
+      "tvo-operator"
+    ],
+    "tvo.trilio.io/v1/TVOControlPlane": [
+      "tvo-operator"
+    ],
     "storage.vastdata.com/v1/VastCSIDriver": [
       "vast-csi-operator"
     ],
@@ -1254,5 +1263,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-22T07:06:21.062806"
+  "timestamp": "2026-08-28T07:05:08.729040"
 }

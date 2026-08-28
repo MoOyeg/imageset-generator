@@ -2499,6 +2499,12 @@
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
     ],
+    "tvo.trilio.io/v1/TVOBackupTarget": [
+      "tvo-operator"
+    ],
+    "tvo.trilio.io/v1/TVOControlPlane": [
+      "tvo-operator"
+    ],
     "ca.broadcom.com/v1alpha1/UniversalMonitoringAgentsAdmin": [
       "uma-admin-operator"
     ],
@@ -2514,7 +2520,16 @@
     "storage.vastdata.com/v1/VastCluster": [
       "vast-csi-operator"
     ],
+    "storage.vastdata.com/v1/VastExtensionsManager": [
+      "vast-csi-operator"
+    ],
     "storage.vastdata.com/v1/VastStorage": [
+      "vast-csi-operator"
+    ],
+    "vastdata.com/v1alpha1/VastStorageClassReplication": [
+      "vast-csi-operator"
+    ],
+    "vastdata.com/v1alpha1/VastVolumeReplication": [
       "vast-csi-operator"
     ],
     "secrets.hashicorp.com/v1beta1/HCPAuth": [
@@ -2704,5 +2719,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-22T07:02:45.860953"
+  "timestamp": "2026-08-28T07:01:59.335424"
 }
