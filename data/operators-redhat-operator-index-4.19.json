@@ -12121,6 +12121,19 @@
       "channel": "fast"
     },
     {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.5.2",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "fast"
+    },
+    {
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.19.0-202505200051",
@@ -26458,6 +26471,23 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.19.35",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.19.36",
       "keywords": [
         "KubeVirt",
         "Virtualization",
@@ -61606,6 +61636,21 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-netobs-operator",
+      "name": "skupper-netobs-operator",
+      "version": "2.2.2-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Network Observer Operator provides the ability to monitor and observe a service network",
+      "channel": "stable-2"
+    },
+    {
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "1.0.4",
@@ -62208,6 +62253,21 @@
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "2.2.1-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Operator provides the ability to create a service network",
+      "channel": "stable-2"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.2-rh-1",
       "keywords": [
         "skupper",
         "rhsi",
@@ -65058,7 +65118,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4685,
+  "count": 4689,
   "source": "opm",
-  "timestamp": "2026-08-28T06:59:52.272911"
+  "timestamp": "2026-09-01T07:04:18.434542"
 }

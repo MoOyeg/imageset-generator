@@ -13,6 +13,36 @@
       "channel": "release-4.3"
     },
     {
+      "package": "accuknox-operator-certified",
+      "name": "accuknox-operator-certified",
+      "version": "0.2.1",
+      "keywords": [
+        "CNAPP",
+        "CSPM",
+        "CWPP",
+        "Cloud Native",
+        "Runtime Security",
+        "Zero-Trust"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "accuknox-operator-certified",
+      "name": "accuknox-operator-certified",
+      "version": "0.7.1",
+      "keywords": [
+        "CNAPP",
+        "CSPM",
+        "CWPP",
+        "Cloud Native",
+        "Runtime Security",
+        "Zero-Trust"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "aci-containers-operator",
       "name": "aci-containers-operator",
       "version": "1.0.12",
@@ -1028,6 +1058,17 @@
       ],
       "description": "Randoli Agent connects OpenShift clusters to Randoli Observability & Cost Management.",
       "channel": "stable"
+    },
+    {
+      "package": "appdynamics-cloud-operator",
+      "name": "appdynamics-cloud-operator",
+      "version": "24.7.0-133",
+      "keywords": [
+        "monitoring",
+        "appdynamics"
+      ],
+      "description": "",
+      "channel": "alpha"
     },
     {
       "package": "appdynamics-operator",
@@ -3753,6 +3794,17 @@
       "channel": "candidate"
     },
     {
+      "package": "cockroachdb-certified",
+      "name": "cockroachdb-certified",
+      "version": "2.18.3",
+      "keywords": [
+        "database",
+        "cockroachDB"
+      ],
+      "description": "CockroachDB Operator",
+      "channel": "stable"
+    },
+    {
       "package": "coherence-operator",
       "name": "coherence-operator",
       "version": "3.5.9",
@@ -3764,6 +3816,22 @@
       ],
       "description": "The Oracle Coherence Kubernetes Operator enables easy management of Coherence clusters in a Kubernetes environment.",
       "channel": "stable"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "2.11.6",
+      "keywords": [
+        "Confluent",
+        "Kafka",
+        "Kubernetes",
+        "Private Cloud",
+        "Cloud-Native",
+        "Event Streaming",
+        "Data in Motion"
+      ],
+      "description": "",
+      "channel": "2.11"
     },
     {
       "package": "confluent-for-kubernetes",
@@ -5845,7 +5913,85 @@
     {
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
+      "version": "1.2.1",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.2.2",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.2.3",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.3.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.3.1",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
       "version": "1.3.10",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "alpha"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "1.3.2",
       "keywords": [
         "Postgres",
         "Database",
@@ -5971,6 +6117,32 @@
       ],
       "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
       "channel": "stable"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2025.11.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "innovation"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
+      "version": "2025.12.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "innovation"
     },
     {
       "package": "edb-hcp-operator",
@@ -7513,6 +7685,66 @@
     {
       "package": "habana-ai-operator",
       "name": "habana-ai-operator",
+      "version": "1.21.4-3",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.21"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.21.5-6",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.21"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.22.0-740",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.22"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.22.1-6",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.22"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.22.1-6-1",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.22"
+    },
+    {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
       "version": "1.22.1-6-2",
       "keywords": [
         "habanalabs",
@@ -7709,6 +7941,19 @@
     {
       "package": "hpe-csi-operator",
       "name": "hpe-csi-operator",
+      "version": "3.0.1",
+      "keywords": [
+        "HPE",
+        "HPE CSI",
+        "HPE Storage",
+        "CSI"
+      ],
+      "description": "A Container Storage Interface (CSI) driver for HPE storage platforms. The CSI driver allows you to use HPE storage with your preferred container orchestrator.",
+      "channel": "stable"
+    },
+    {
+      "package": "hpe-csi-operator",
+      "name": "hpe-csi-operator",
       "version": "3.0.2",
       "keywords": [
         "HPE",
@@ -7723,19 +7968,6 @@
       "package": "hpe-csi-operator",
       "name": "hpe-csi-operator",
       "version": "3.1.0",
-      "keywords": [
-        "HPE",
-        "HPE CSI",
-        "HPE Storage",
-        "CSI"
-      ],
-      "description": "A Container Storage Interface (CSI) driver for HPE storage platforms. The CSI driver allows you to use HPE storage with your preferred container orchestrator.",
-      "channel": "stable"
-    },
-    {
-      "package": "hpe-csi-operator",
-      "name": "hpe-csi-operator",
-      "version": "3.2.0",
       "keywords": [
         "HPE",
         "HPE CSI",
@@ -7913,6 +8145,30 @@
     {
       "package": "ibm-block-csi-operator",
       "name": "ibm-block-csi-operator",
+      "version": "1.12.4",
+      "keywords": [
+        "IBM",
+        "BlockStorage",
+        "CSI"
+      ],
+      "description": "Run IBM block storage CSI driver on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-block-csi-operator",
+      "name": "ibm-block-csi-operator",
+      "version": "1.12.5",
+      "keywords": [
+        "IBM",
+        "BlockStorage",
+        "CSI"
+      ],
+      "description": "Run IBM block storage CSI driver on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-block-csi-operator",
+      "name": "ibm-block-csi-operator",
       "version": "1.13.0",
       "keywords": [
         "IBM",
@@ -7990,6 +8246,20 @@
       ],
       "description": "The IBM Verify Identity Access Operator manages the lifecycle of IBM Verify Identity Access worker containers.",
       "channel": "stable"
+    },
+    {
+      "package": "ibm-storage-odf-operator",
+      "name": "ibm-storage-odf-operator",
+      "version": "1.8.0",
+      "keywords": [
+        "ODF",
+        "storage",
+        "block storage",
+        "flashsystem",
+        "ibm"
+      ],
+      "description": "IBM Storage ODF operator provides basic storage capabilities and extended management functions through OpenShift data foundation framework for applications.",
+      "channel": "stable-v1.8"
     },
     {
       "package": "ibm-storage-odf-operator",
@@ -11012,6 +11282,20 @@
       "channel": "stable"
     },
     {
+      "package": "kubemq-operator-marketplace",
+      "name": "kubemq-operator-marketplace",
+      "version": "1.7.8",
+      "keywords": [
+        "messaging",
+        "queue",
+        "broker",
+        "pubsub",
+        "rpc"
+      ],
+      "description": "Kubernetes Messaging Platform",
+      "channel": "alpha"
+    },
+    {
       "package": "kurrentdb-operator",
       "name": "kurrentdb-operator",
       "version": "1.4.3",
@@ -11403,21 +11687,6 @@
       "package": "mariadb-enterprise-operator",
       "name": "mariadb-enterprise-operator",
       "version": "26.6.1",
-      "keywords": [
-        "mariadb",
-        "mysql",
-        "database",
-        "operator",
-        "mariadb-enterprise-operator",
-        "database"
-      ],
-      "description": "",
-      "channel": "stable"
-    },
-    {
-      "package": "mariadb-enterprise-operator",
-      "name": "mariadb-enterprise-operator",
-      "version": "26.6.2",
       "keywords": [
         "mariadb",
         "mysql",
@@ -12971,6 +13240,18 @@
     {
       "package": "nvidia-maintenance-operator",
       "name": "nvidia-maintenance-operator",
+      "version": "0.2.3",
+      "keywords": [
+        "node",
+        "maintenance",
+        "drain"
+      ],
+      "description": "Node maintenance in K8s cluster in a coordinated manner",
+      "channel": "stable"
+    },
+    {
+      "package": "nvidia-maintenance-operator",
+      "name": "nvidia-maintenance-operator",
       "version": "26.4.0",
       "keywords": [
         "node",
@@ -13359,6 +13640,18 @@
     {
       "package": "percona-postgresql-operator-certified",
       "name": "percona-postgresql-operator-certified",
+      "version": "2.7.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "2.7.0-cw",
+      "channel": "stable-cw"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
       "version": "2.8.0",
       "channel": "stable"
     },
@@ -13449,6 +13742,24 @@
     {
       "package": "percona-server-mongodb-operator-certified",
       "name": "percona-server-mongodb-operator-certified",
+      "version": "1.21.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified",
+      "name": "percona-server-mongodb-operator-certified",
+      "version": "1.21.1",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified",
+      "name": "percona-server-mongodb-operator-certified",
+      "version": "1.21.2",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-server-mongodb-operator-certified",
+      "name": "percona-server-mongodb-operator-certified",
       "version": "1.22.0",
       "keywords": [
         "mongodb",
@@ -13517,6 +13828,18 @@
       ],
       "description": "Percona Operator for MySQL based on Percona Server for MySQL automates the creation and management of highly available, enterprise-ready MySQL database clusters on Kubernetes.",
       "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified",
+      "name": "percona-xtradb-cluster-operator-certified",
+      "version": "1.18.0",
+      "channel": "stable"
+    },
+    {
+      "package": "percona-xtradb-cluster-operator-certified",
+      "name": "percona-xtradb-cluster-operator-certified",
+      "version": "1.18.0-cw",
+      "channel": "stable-cw"
     },
     {
       "package": "percona-xtradb-cluster-operator-certified",
@@ -14680,6 +15003,172 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.22.0-15.0",
+      "channel": "7.22.0"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.0-16.0",
+      "channel": "7.22.0"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.0-17.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.0"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-21.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-22.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-31.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-32.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-37.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-38.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-39.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-40.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-42.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-43.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "8.0.10-21.0",
       "keywords": [
         "redislabs",
@@ -15004,6 +15493,18 @@
       ],
       "description": "Deploys any runtime component with dynamic and auto-tuning configuration",
       "channel": "v1.6"
+    },
+    {
+      "package": "runtime-fabric-operator",
+      "name": "runtime-fabric-operator",
+      "version": "2.10.34",
+      "channel": "alpha"
+    },
+    {
+      "package": "runtime-fabric-operator",
+      "name": "runtime-fabric-operator",
+      "version": "2.11.0",
+      "channel": "alpha"
     },
     {
       "package": "runtime-fabric-operator",
@@ -16131,55 +16632,7 @@
     {
       "package": "scylladb-operator",
       "name": "scylladb-operator",
-      "version": "1.20.0",
-      "channel": "stable"
-    },
-    {
-      "package": "scylladb-operator",
-      "name": "scylladb-operator",
-      "version": "1.20.1",
-      "channel": "stable"
-    },
-    {
-      "package": "scylladb-operator",
-      "name": "scylladb-operator",
-      "version": "1.20.2",
-      "keywords": [
-        "scylladb-operator",
-        "kubernetes",
-        "scylladb"
-      ],
-      "description": "Kubernetes Operator for ScyllaDB",
-      "channel": "stable"
-    },
-    {
-      "package": "scylladb-operator",
-      "name": "scylladb-operator",
-      "version": "1.21.0",
-      "keywords": [
-        "scylladb-operator",
-        "kubernetes",
-        "scylladb"
-      ],
-      "description": "Kubernetes Operator for ScyllaDB",
-      "channel": "stable"
-    },
-    {
-      "package": "scylladb-operator",
-      "name": "scylladb-operator",
-      "version": "1.21.1",
-      "keywords": [
-        "scylladb-operator",
-        "kubernetes",
-        "scylladb"
-      ],
-      "description": "Kubernetes Operator for ScyllaDB",
-      "channel": "stable"
-    },
-    {
-      "package": "scylladb-operator",
-      "name": "scylladb-operator",
-      "version": "1.22.0-beta.0",
+      "version": "1.20.0-alpha.10",
       "keywords": [
         "scylladb-operator",
         "kubernetes",
@@ -16187,6 +16640,18 @@
       ],
       "description": "Kubernetes Operator for ScyllaDB",
       "channel": "dev"
+    },
+    {
+      "package": "scylladb-operator",
+      "name": "scylladb-operator",
+      "version": "1.20.0-alpha.2",
+      "keywords": [
+        "scylladb-operator",
+        "kubernetes",
+        "scylladb"
+      ],
+      "description": "Kubernetes Operator for ScyllaDB",
+      "channel": "alpha"
     },
     {
       "package": "seawise-backup-operator",
@@ -16377,6 +16842,12 @@
       "package": "splunk-operator",
       "name": "splunk-operator",
       "version": "3.0.0",
+      "channel": "stable"
+    },
+    {
+      "package": "splunk-operator",
+      "name": "splunk-operator",
+      "version": "3.1.0",
       "keywords": [
         "Splunk",
         "Enterprise",
@@ -16387,6 +16858,39 @@
       ],
       "description": "The Splunk Operator for Kubernetes enables you to quickly and easily deploy Splunk Enterprise on your choice of private or public cloud provider. The Operator simplifies scaling and management of Splunk Enterprise by automating administrative workflows using Kubernetes best practices.",
       "channel": "stable"
+    },
+    {
+      "package": "spyre-operator",
+      "name": "spyre-operator",
+      "version": "0.1.2",
+      "keywords": [
+        "app",
+        "operator"
+      ],
+      "description": "Operator for IBM Spyre devices",
+      "channel": "stable-v0.1"
+    },
+    {
+      "package": "spyre-operator",
+      "name": "spyre-operator",
+      "version": "0.2.1",
+      "keywords": [
+        "app",
+        "operator"
+      ],
+      "description": "Operator for IBM Spyre devices",
+      "channel": "stable-v0.2"
+    },
+    {
+      "package": "spyre-operator",
+      "name": "spyre-operator",
+      "version": "1.0.1",
+      "keywords": [
+        "app",
+        "operator"
+      ],
+      "description": "Operator for IBM Spyre devices",
+      "channel": "stable-v1.0"
     },
     {
       "package": "spyre-operator",
@@ -16488,6 +16992,26 @@
     {
       "package": "stackable-airflow-operator",
       "name": "stackable-airflow-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "airflow"
+      ],
+      "description": "Stackable Operator for Apache Airflow",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-airflow-operator",
+      "name": "stackable-airflow-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "airflow"
+      ],
+      "description": "Stackable Operator for Apache Airflow",
+      "channel": "25.7"
+    },
+    {
+      "package": "stackable-airflow-operator",
+      "name": "stackable-airflow-operator",
       "version": "26.3.0",
       "keywords": [
         "airflow"
@@ -16518,12 +17042,32 @@
     {
       "package": "stackable-commons-operator",
       "name": "stackable-commons-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "commons"
+      ],
+      "description": "Stackable Commons Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-commons-operator",
+      "name": "stackable-commons-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "commons"
+      ],
+      "description": "Stackable Commons Operator",
+      "channel": "25.7"
+    },
+    {
+      "package": "stackable-commons-operator",
+      "name": "stackable-commons-operator",
       "version": "26.3.0",
       "keywords": [
         "commons"
       ],
       "description": "Stackable Commons Operator",
-      "channel": "25.3"
+      "channel": "26.3"
     },
     {
       "package": "stackable-commons-operator",
@@ -16544,6 +17088,26 @@
       ],
       "description": "Stackable Operator for Apache Druid",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-druid-operator",
+      "name": "stackable-druid-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "druid"
+      ],
+      "description": "Stackable Operator for Apache Druid",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-druid-operator",
+      "name": "stackable-druid-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "druid"
+      ],
+      "description": "Stackable Operator for Apache Druid",
+      "channel": "25.7"
     },
     {
       "package": "stackable-druid-operator",
@@ -16574,6 +17138,26 @@
       ],
       "description": "Stackable Operator for Apache HBase",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-hbase-operator",
+      "name": "stackable-hbase-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "hbase"
+      ],
+      "description": "Stackable Operator for Apache HBase",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-hbase-operator",
+      "name": "stackable-hbase-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "hbase"
+      ],
+      "description": "Stackable Operator for Apache HBase",
+      "channel": "25.7"
     },
     {
       "package": "stackable-hbase-operator",
@@ -16604,6 +17188,26 @@
       ],
       "description": "Stackable Operator for Apache Hadoop HDFS",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-hdfs-operator",
+      "name": "stackable-hdfs-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "hdfs"
+      ],
+      "description": "Stackable Operator for Apache Hadoop HDFS",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-hdfs-operator",
+      "name": "stackable-hdfs-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "hdfs"
+      ],
+      "description": "Stackable Operator for Apache Hadoop HDFS",
+      "channel": "25.7"
     },
     {
       "package": "stackable-hdfs-operator",
@@ -16634,6 +17238,26 @@
       ],
       "description": "Stackable Operator for Apache Hive",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-hive-operator",
+      "name": "stackable-hive-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "hive"
+      ],
+      "description": "Stackable Operator for Apache Hive",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-hive-operator",
+      "name": "stackable-hive-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "hive"
+      ],
+      "description": "Stackable Operator for Apache Hive",
+      "channel": "25.7"
     },
     {
       "package": "stackable-hive-operator",
@@ -16664,6 +17288,26 @@
       ],
       "description": "Stackable Operator for Apache Kafka",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-kafka-operator",
+      "name": "stackable-kafka-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "kafka"
+      ],
+      "description": "Stackable Operator for Apache Kafka",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-kafka-operator",
+      "name": "stackable-kafka-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "kafka"
+      ],
+      "description": "Stackable Operator for Apache Kafka",
+      "channel": "25.7"
     },
     {
       "package": "stackable-kafka-operator",
@@ -16694,6 +17338,26 @@
       ],
       "description": "Stackable Listener Operator",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-listener-operator",
+      "name": "stackable-listener-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "listener"
+      ],
+      "description": "Stackable Listener Operator",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-listener-operator",
+      "name": "stackable-listener-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "listener"
+      ],
+      "description": "Stackable Listener Operator",
+      "channel": "25.7"
     },
     {
       "package": "stackable-listener-operator",
@@ -16724,6 +17388,26 @@
       ],
       "description": "Stackable Operator for Apache NiFi",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-nifi-operator",
+      "name": "stackable-nifi-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "nifi"
+      ],
+      "description": "Stackable Operator for Apache NiFi",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-nifi-operator",
+      "name": "stackable-nifi-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "nifi"
+      ],
+      "description": "Stackable Operator for Apache NiFi",
+      "channel": "25.7"
     },
     {
       "package": "stackable-nifi-operator",
@@ -16754,6 +17438,26 @@
       ],
       "description": "Stackable Operator for the Open Policy Agent",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-opa-operator",
+      "name": "stackable-opa-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "opa"
+      ],
+      "description": "Stackable Operator for the Open Policy Agent",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-opa-operator",
+      "name": "stackable-opa-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "opa"
+      ],
+      "description": "Stackable Operator for the Open Policy Agent",
+      "channel": "25.7"
     },
     {
       "package": "stackable-opa-operator",
@@ -16814,6 +17518,26 @@
       ],
       "description": "Stackable Secret Operator",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-secret-operator",
+      "name": "stackable-secret-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "secret"
+      ],
+      "description": "Stackable Secret Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "stackable-secret-operator",
+      "name": "stackable-secret-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "secret"
+      ],
+      "description": "Stackable Secret Operator",
+      "channel": "25.7"
     },
     {
       "package": "stackable-secret-operator",
@@ -16844,6 +17568,26 @@
       ],
       "description": "Stackable Operator for Apache Spark",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-spark-operator",
+      "name": "stackable-spark-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "spark-k8s"
+      ],
+      "description": "Stackable Operator for Apache Spark",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-spark-operator",
+      "name": "stackable-spark-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "spark-k8s"
+      ],
+      "description": "Stackable Operator for Apache Spark",
+      "channel": "25.7"
     },
     {
       "package": "stackable-spark-operator",
@@ -16874,6 +17618,26 @@
       ],
       "description": "Stackable Operator for Apache Superset",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-superset-operator",
+      "name": "stackable-superset-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "superset"
+      ],
+      "description": "Stackable Operator for Apache Superset",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-superset-operator",
+      "name": "stackable-superset-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "superset"
+      ],
+      "description": "Stackable Operator for Apache Superset",
+      "channel": "25.7"
     },
     {
       "package": "stackable-superset-operator",
@@ -16904,6 +17668,26 @@
       ],
       "description": "Stackable Operator for Trino",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-trino-operator",
+      "name": "stackable-trino-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "trino"
+      ],
+      "description": "Stackable Operator for Trino",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-trino-operator",
+      "name": "stackable-trino-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "trino"
+      ],
+      "description": "Stackable Operator for Trino",
+      "channel": "25.7"
     },
     {
       "package": "stackable-trino-operator",
@@ -16934,6 +17718,26 @@
       ],
       "description": "Stackable Operator for Apache ZooKeeper",
       "channel": "25.11"
+    },
+    {
+      "package": "stackable-zookeeper-operator",
+      "name": "stackable-zookeeper-operator",
+      "version": "25.3.0",
+      "keywords": [
+        "zookeeper"
+      ],
+      "description": "Stackable Operator for Apache ZooKeeper",
+      "channel": "25.3"
+    },
+    {
+      "package": "stackable-zookeeper-operator",
+      "name": "stackable-zookeeper-operator",
+      "version": "25.7.0",
+      "keywords": [
+        "zookeeper"
+      ],
+      "description": "Stackable Operator for Apache ZooKeeper",
+      "channel": "25.7"
     },
     {
       "package": "stackable-zookeeper-operator",
@@ -17600,6 +18404,111 @@
     {
       "package": "trident-operator",
       "name": "trident-operator",
+      "version": "25.2.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.2.1",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.6.0",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.6.1",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "25.6.2",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
       "version": "26.2.0",
       "keywords": [
         "NetApp",
@@ -17682,63 +18591,6 @@
       "channel": "stable"
     },
     {
-      "package": "truenas-csi",
-      "name": "truenas-csi",
-      "version": "0.1.0",
-      "channel": "stable"
-    },
-    {
-      "package": "truenas-csi",
-      "name": "truenas-csi",
-      "version": "1.0.0",
-      "keywords": [
-        "storage",
-        "csi",
-        "truenas",
-        "nfs",
-        "iscsi",
-        "zfs",
-        "block",
-        "file"
-      ],
-      "description": "Deploys and manages the TrueNAS CSI driver for dynamic volume provisioning",
-      "channel": "stable"
-    },
-    {
-      "package": "truenas-csi",
-      "name": "truenas-csi",
-      "version": "1.1.1",
-      "keywords": [
-        "storage",
-        "csi",
-        "truenas",
-        "nfs",
-        "iscsi",
-        "zfs",
-        "block",
-        "file"
-      ],
-      "description": "Deploys and manages the TrueNAS CSI driver for dynamic volume provisioning",
-      "channel": "stable"
-    },
-    {
-      "package": "truenas-csi",
-      "name": "truenas-csi",
-      "version": "1.1.2",
-      "keywords": [
-        "storage",
-        "csi",
-        "truenas",
-        "nfs",
-        "iscsi",
-        "zfs",
-        "block",
-        "file"
-      ],
-      "description": "Deploys and manages the TrueNAS CSI driver for dynamic volume provisioning",
-      "channel": "stable"
-    },
-    {
       "package": "tvo-operator",
       "name": "tvo-operator",
       "version": "6.1.1",
@@ -17811,6 +18663,36 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
+      "version": "2025.10.1-12",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "2025.10"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2025.11.1-38",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "2025.11"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.1.1-35",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX APM Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "2026.1"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
       "version": "2026.3.1-2",
       "keywords": [
         "uma-admin-operator"
@@ -17891,6 +18773,36 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
+      "version": "2025.10.1-12",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "2025.10"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2025.11.1-38",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "2025.11"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.1.1-35",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "2026.1"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
       "version": "2026.3.1-2",
       "keywords": [
         "uma-operator"
@@ -17967,6 +18879,39 @@
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "beta"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2025.10.1-12",
+      "keywords": [
+        "uma-team-operator",
+        "uma-operator"
+      ],
+      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "2025.10"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2025.11.1-38",
+      "keywords": [
+        "uma-team-operator",
+        "uma-operator"
+      ],
+      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "2025.11"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.1.1-35",
+      "keywords": [
+        "uma-team-operator",
+        "uma-operator"
+      ],
+      "description": "DX APM Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "2026.1"
     },
     {
       "package": "uma-team-operator",
@@ -18719,7 +19664,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1554,
+  "count": 1638,
   "source": "opm",
-  "timestamp": "2026-09-01T07:06:00.017533"
+  "timestamp": "2026-09-01T07:04:40.430242"
 }

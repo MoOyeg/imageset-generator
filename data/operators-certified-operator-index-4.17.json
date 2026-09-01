@@ -1632,6 +1632,22 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
+      "version": "0.9.15",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
       "version": "0.9.2",
       "keywords": [
         "microsegmentation",
@@ -4643,6 +4659,34 @@
       "channel": "2.9.2"
     },
     {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.3-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.3"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.3-2",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.3"
+    },
+    {
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "0.0.1",
@@ -5311,6 +5355,21 @@
       "package": "crunchy-postgres-operator",
       "name": "crunchy-postgres-operator",
       "version": "5.8.8",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "crunchy data"
+      ],
+      "description": "Production Postgres Made Easy",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.9",
       "keywords": [
         "postgres",
         "postgresql",
@@ -7570,103 +7629,22 @@
     {
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.0",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.1",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "Fujitsu",
-        "fep"
-      ],
-      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.2",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "Fujitsu",
-        "fep"
-      ],
-      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.3",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "Fujitsu",
-        "fep"
-      ],
-      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.0",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "Fujitsu",
-        "fep"
-      ],
-      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.1",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "Fujitsu",
-        "fep"
-      ],
-      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.2",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "Fujitsu",
-        "fep"
-      ],
-      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
       "version": "8.3.3",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.3.4",
       "keywords": [
         "postgres",
         "postgresql",
@@ -13823,6 +13801,20 @@
     {
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
+      "version": "2.16.1",
+      "keywords": [
+        "MongoDB",
+        "Atlas",
+        "Database",
+        "Replica Set",
+        "Cluster"
+      ],
+      "description": "The MongoDB Atlas Kubernetes Operator enables easy management of Clusters in MongoDB Atlas",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -16734,6 +16726,21 @@
       "channel": "candidate"
     },
     {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.5.0",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "6.2.10-34",
@@ -19590,6 +19597,32 @@
       "channel": "candidate-v3"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc5",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc6",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -21236,7 +21269,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1848,
+  "count": 1850,
   "source": "opm",
-  "timestamp": "2026-08-28T06:56:57.230434"
+  "timestamp": "2026-09-01T07:01:24.458406"
 }

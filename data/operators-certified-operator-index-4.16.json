@@ -723,6 +723,12 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
+      "version": "0.9.15",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
       "version": "0.9.2",
       "channel": "alpha"
     },
@@ -2311,6 +2317,18 @@
       "channel": "2.9.2"
     },
     {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.3-1",
+      "channel": "2.9.3"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.3-2",
+      "channel": "2.9.3"
+    },
+    {
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "0.0.1",
@@ -2566,6 +2584,12 @@
       "package": "crunchy-postgres-operator",
       "name": "crunchy-postgres-operator",
       "version": "5.8.8",
+      "channel": "v5"
+    },
+    {
+      "package": "crunchy-postgres-operator",
+      "name": "crunchy-postgres-operator",
+      "version": "5.8.9",
       "channel": "v5"
     },
     {
@@ -3723,49 +3747,13 @@
     {
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.0",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.1",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.2",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.3",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.0",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.1",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.2",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
       "version": "8.3.3",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.3.4",
       "channel": "stable"
     },
     {
@@ -6709,6 +6697,12 @@
       "channel": "stable"
     },
     {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "26.6.2",
+      "channel": "stable"
+    },
+    {
       "package": "marketplace-games-operator",
       "name": "marketplace-games-operator",
       "version": "1.0.0",
@@ -7012,6 +7006,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.16.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.16.1",
       "channel": "stable"
     },
     {
@@ -8619,7 +8619,7 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.21.0-beta.1",
+      "version": "8.21.0-beta.2",
       "channel": "beta"
     },
     {
@@ -8668,6 +8668,12 @@
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
       "version": "0.4.5",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.5.0",
       "channel": "candidate"
     },
     {
@@ -8783,6 +8789,12 @@
       "name": "redis-enterprise-operator-cert",
       "version": "7.22.2-43.0",
       "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.4.6-11.0",
+      "channel": "7.4.6"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -10357,6 +10369,18 @@
       "channel": "candidate-v3"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc5",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc6",
+      "channel": "candidate-v3"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -11347,7 +11371,7 @@
       "channel": "lts"
     }
   ],
-  "count": 1891,
+  "count": 1895,
   "source": "opm",
-  "timestamp": "2026-08-28T06:54:41.779467"
+  "timestamp": "2026-09-01T06:59:09.202086"
 }

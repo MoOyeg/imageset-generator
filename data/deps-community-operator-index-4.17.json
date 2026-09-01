@@ -543,6 +543,9 @@
     "cloudwatchlogs.services.k8s.aws/v1alpha1/LogGroup": [
       "ack-cloudwatchlogs-controller"
     ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
+      "ack-cloudwatchlogs-controller"
+    ],
     "codeartifact.services.k8s.aws/v1alpha1/Domain": [
       "ack-codeartifact-controller"
     ],
@@ -1101,10 +1104,10 @@
     "sagemaker.services.k8s.aws/v1alpha1/LabelingJob": [
       "ack-sagemaker-controller"
     ],
-    "sagemaker.services.k8s.aws/v1alpha1/Space": [
+    "sagemaker.services.k8s.aws/v1alpha1/Project": [
       "ack-sagemaker-controller"
     ],
-    "sagemaker.services.k8s.aws/v1alpha1/Project": [
+    "sagemaker.services.k8s.aws/v1alpha1/Space": [
       "ack-sagemaker-controller"
     ],
     "secretsmanager.services.k8s.aws/v1alpha1/Secret": [
@@ -4731,5 +4734,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-08-28T06:57:44.055090"
+  "timestamp": "2026-09-01T07:01:52.148640"
 }

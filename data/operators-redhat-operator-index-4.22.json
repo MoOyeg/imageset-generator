@@ -8666,6 +8666,19 @@
       "channel": "fast"
     },
     {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.5.2",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "fast"
+    },
+    {
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.22.0-202605210944",
@@ -41564,6 +41577,21 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-netobs-operator",
+      "name": "skupper-netobs-operator",
+      "version": "2.2.2-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Network Observer Operator provides the ability to monitor and observe a service network",
+      "channel": "stable-2"
+    },
+    {
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "1.8.1-rh-3",
@@ -41837,6 +41865,21 @@
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "2.2.1-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Operator provides the ability to create a service network",
+      "channel": "stable-2"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.2-rh-1",
       "keywords": [
         "skupper",
         "rhsi",
@@ -43300,7 +43343,35 @@
     {
       "package": "web-terminal",
       "name": "web-terminal",
+      "version": "1.15.1",
+      "keywords": [
+        "workspace",
+        "devtools",
+        "developer",
+        "ide",
+        "terminal"
+      ],
+      "description": "Start a web terminal in your browser with common CLI tools for interacting with the cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "web-terminal",
+      "name": "web-terminal",
       "version": "1.16.0",
+      "keywords": [
+        "workspace",
+        "devtools",
+        "developer",
+        "ide",
+        "terminal"
+      ],
+      "description": "Start a web terminal in your browser with common CLI tools for interacting with the cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "web-terminal",
+      "name": "web-terminal",
+      "version": "1.16.1",
       "keywords": [
         "workspace",
         "devtools",
@@ -43626,7 +43697,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3053,
+  "count": 3058,
   "source": "opm",
-  "timestamp": "2026-08-28T07:04:00.944045"
+  "timestamp": "2026-09-01T07:08:30.003732"
 }

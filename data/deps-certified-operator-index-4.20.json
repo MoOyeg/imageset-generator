@@ -1454,7 +1454,13 @@
     "enterprise.mariadb.com/v1alpha1/User": [
       "mariadb-enterprise-operator"
     ],
+    "enterprise.mariadb.com/v1alpha1/ExternalMariaDB": [
+      "mariadb-enterprise-operator"
+    ],
     "enterprise.mariadb.com/v1alpha1/PhysicalBackup": [
+      "mariadb-enterprise-operator"
+    ],
+    "enterprise.mariadb.com/v1alpha1/PointInTimeRecovery": [
       "mariadb-enterprise-operator"
     ],
     "mediation.turbonomic.ibm.com/v1alpha1/OpenstackProbe": [
@@ -2719,5 +2725,5 @@
       "zabbix-operator-certified"
     ]
   },
-  "timestamp": "2026-08-28T07:01:59.335424"
+  "timestamp": "2026-09-01T07:06:00.989227"
 }

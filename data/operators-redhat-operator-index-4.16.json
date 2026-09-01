@@ -5803,6 +5803,12 @@
       "channel": "fast"
     },
     {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.5.2",
+      "channel": "fast"
+    },
+    {
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.16.0-202406061206",
@@ -13228,6 +13234,12 @@
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
       "version": "4.16.44",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
+      "version": "4.16.45",
       "channel": "candidate"
     },
     {
@@ -29833,6 +29845,12 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-netobs-operator",
+      "name": "skupper-netobs-operator",
+      "version": "2.2.2-rh-1",
+      "channel": "stable-2"
+    },
+    {
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "1.0.4",
@@ -30082,6 +30100,12 @@
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "2.2.1-rh-1",
+      "channel": "stable-2"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.2-rh-1",
       "channel": "stable-2"
     },
     {
@@ -31987,7 +32011,7 @@
       "channel": "preview"
     }
   ],
-  "count": 5331,
+  "count": 5335,
   "source": "opm",
-  "timestamp": "2026-08-28T06:53:48.857631"
+  "timestamp": "2026-09-01T06:58:15.441794"
 }

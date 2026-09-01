@@ -12571,6 +12571,19 @@
       "channel": "fast"
     },
     {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.5.2",
+      "keywords": [
+        "observability",
+        "monitoring",
+        "prometheus",
+        "thanos"
+      ],
+      "description": "A Go based Kubernetes operator to setup and manage highly available Monitoring Stack using Prometheus, Alertmanager and Thanos Querier.",
+      "channel": "fast"
+    },
+    {
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.18.0-202501231202",
@@ -63967,6 +63980,21 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-netobs-operator",
+      "name": "skupper-netobs-operator",
+      "version": "2.2.2-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Network Observer Operator provides the ability to monitor and observe a service network",
+      "channel": "stable-2"
+    },
+    {
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "1.0.4",
@@ -64569,6 +64597,21 @@
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "2.2.1-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Operator provides the ability to create a service network",
+      "channel": "stable-2"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.2-rh-1",
       "keywords": [
         "skupper",
         "rhsi",
@@ -67772,7 +67815,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4930,
+  "count": 4933,
   "source": "opm",
-  "timestamp": "2026-08-28T06:58:27.865583"
+  "timestamp": "2026-09-01T07:02:48.294040"
 }

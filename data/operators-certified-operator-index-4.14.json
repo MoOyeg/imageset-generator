@@ -711,6 +711,12 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
+      "version": "0.9.15",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
       "version": "0.9.2",
       "channel": "alpha"
     },
@@ -3567,49 +3573,13 @@
     {
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.0",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.1",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.2",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.2.3",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.0",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.1",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
-      "version": "8.3.2",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator",
-      "name": "fujitsu-enterprise-postgres-operator",
       "version": "8.3.3",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.3.4",
       "channel": "stable"
     },
     {
@@ -6621,6 +6591,12 @@
     {
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
+      "version": "2.16.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
       "version": "2.2.0",
       "channel": "stable"
     },
@@ -8151,7 +8127,7 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.21.0-beta.1",
+      "version": "8.21.0-beta.2",
       "channel": "beta"
     },
     {
@@ -8273,6 +8249,12 @@
       "name": "redis-enterprise-operator-cert",
       "version": "7.4.2-2.6",
       "channel": "7.4.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.4.6-11.0",
+      "channel": "7.4.6"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -9991,6 +9973,18 @@
       "channel": "candidate-v3"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc5",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc6",
+      "channel": "candidate-v3"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -11131,7 +11125,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1855,
+  "count": 1854,
   "source": "opm",
-  "timestamp": "2026-08-28T06:46:24.827371"
+  "timestamp": "2026-09-01T06:51:20.185300"
 }

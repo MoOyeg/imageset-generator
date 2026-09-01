@@ -291,6 +291,69 @@
     "operator.openshift.io/v1/CliManager": [
       "cli-manager"
     ],
+    "monitoring.rhobs/v1/Alertmanager": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/AlertmanagerConfig": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/MonitoringStack": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/PodMonitor": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/Probe": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/Prometheus": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/PrometheusAgent": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/PrometheusRule": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/ScrapeConfig": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/ServiceMonitor": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1alpha1/ThanosQuerier": [
+      "cluster-observability-operator"
+    ],
+    "monitoring.rhobs/v1/ThanosRuler": [
+      "cluster-observability-operator"
+    ],
+    "observability.openshift.io/v1alpha1/UIPlugin": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha1/Perses": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha1/PersesDashboard": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha1/PersesDatasource": [
+      "cluster-observability-operator"
+    ],
+    "observability.openshift.io/v1alpha1/ObservabilityInstaller": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/Perses": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesDashboard": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesDatasource": [
+      "cluster-observability-operator"
+    ],
+    "perses.dev/v1alpha2/PersesGlobalDatasource": [
+      "cluster-observability-operator"
+    ],
     "compliance.openshift.io/v1alpha1/ComplianceCheckResult": [
       "compliance-operator"
     ],
@@ -1028,5 +1091,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-08-28T07:04:56.332638"
+  "timestamp": "2026-09-01T07:09:19.016644"
 }
