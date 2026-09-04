@@ -393,6 +393,20 @@
       "channel": "2.9.3"
     },
     {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.3-3",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.3"
+    },
+    {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
       "version": "1.0.4",
@@ -1770,6 +1784,18 @@
     {
       "package": "instana-agent-operator-rhmp",
       "name": "instana-agent-operator-rhmp",
+      "version": "2.2.19",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator-rhmp",
+      "name": "instana-agent-operator-rhmp",
       "version": "2.2.2",
       "keywords": [
         "monitoring",
@@ -2824,7 +2850,7 @@
       "channel": "lts"
     }
   ],
-  "count": 227,
+  "count": 229,
   "source": "opm",
-  "timestamp": "2026-09-01T07:08:10.008187"
+  "timestamp": "2026-09-04T07:09:48.860654"
 }

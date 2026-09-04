@@ -1606,6 +1606,22 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
+      "version": "0.9.16",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
       "version": "0.9.2",
       "keywords": [
         "microsegmentation",
@@ -4180,6 +4196,20 @@
       "channel": "2.9.3"
     },
     {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.3-3",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.3"
+    },
+    {
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "0.0.1",
@@ -5742,6 +5772,19 @@
     {
       "package": "edb-hcp-operator",
       "name": "edb-hcp-operator",
+      "version": "2.2.0",
+      "keywords": [
+        "Postgres",
+        "Database",
+        "DBaaS",
+        "EDB Postgres AI"
+      ],
+      "description": "Unify transactional, analytical, and AI workloads and bring cloud agility to your hybrid data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "edb-hcp-operator",
+      "name": "edb-hcp-operator",
       "version": "2026.3.0",
       "keywords": [
         "Postgres",
@@ -6375,6 +6418,21 @@
       "name": "falcon-operator",
       "version": "1.9.0",
       "channel": "certified-1.0"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "7.3.7",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
+      "channel": "stable-z"
     },
     {
       "package": "fujitsu-enterprise-postgres-operator",
@@ -7380,6 +7438,16 @@
       "channel": "stable"
     },
     {
+      "package": "hpeoneview-operator",
+      "name": "hpeoneview-operator",
+      "version": "2.0.0",
+      "keywords": [
+        "hpeoneview-operator"
+      ],
+      "description": "The HPE OneView Operator enables to manage BIOS, RAID and Firmware of HPE Servers using HPE OneView",
+      "channel": "alpha"
+    },
+    {
       "package": "hspc-operator",
       "name": "hspc-operator",
       "version": "1.17.3",
@@ -7458,6 +7526,18 @@
       "package": "hulft",
       "name": "hulft",
       "version": "10.6.0",
+      "keywords": [
+        "Backup & Recovery",
+        "Storage",
+        "Migration"
+      ],
+      "description": "HULFT10 for Container Platform is file integration middleware that provides transfer functions for the data accumulated in your IT system during the daily operations of your business, such as sales data, customer information, and various logs. File transfer from/to on-premises HULFT is also available.",
+      "channel": "stable"
+    },
+    {
+      "package": "hulft",
+      "name": "hulft",
+      "version": "10.6.1",
       "keywords": [
         "Backup & Recovery",
         "Storage",
@@ -8650,6 +8730,18 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.18",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.19",
       "keywords": [
         "monitoring",
         "APM",
@@ -11842,7 +11934,7 @@
     {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
-      "version": "3.90.3-1",
+      "version": "3.96.0-1",
       "keywords": [
         "repository",
         "sonatype"
@@ -11853,7 +11945,7 @@
     {
       "package": "nginx-gateway-fabric",
       "name": "nginx-gateway-fabric",
-      "version": "1.4.7",
+      "version": "1.5.0",
       "keywords": [
         "nginx",
         "gateway",
@@ -12074,6 +12166,21 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.7.0",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -12277,6 +12384,18 @@
       "channel": "stable"
     },
     {
+      "package": "nvidia-maintenance-operator",
+      "name": "nvidia-maintenance-operator",
+      "version": "26.7.0",
+      "keywords": [
+        "node",
+        "maintenance",
+        "drain"
+      ],
+      "description": "Node maintenance in K8s cluster in a coordinated manner",
+      "channel": "stable"
+    },
+    {
       "package": "nvidia-network-operator",
       "name": "nvidia-network-operator",
       "version": "25.10.0",
@@ -12313,6 +12432,17 @@
       "package": "nvidia-network-operator",
       "name": "nvidia-network-operator",
       "version": "26.4.1",
+      "keywords": [
+        "sriov",
+        "networking"
+      ],
+      "description": "Deploy and manage NVIDIA networking resources in Kubernetes",
+      "channel": "stable"
+    },
+    {
+      "package": "nvidia-network-operator",
+      "name": "nvidia-network-operator",
+      "version": "26.7.0",
       "keywords": [
         "sriov",
         "networking"
@@ -12632,7 +12762,7 @@
     {
       "package": "operator-certification-operator",
       "name": "operator-certification-operator",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "keywords": [
         "certification",
         "pipeline",
@@ -15115,6 +15245,32 @@
       "channel": "alpha"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc7",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc8",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -16082,9 +16238,19 @@
       ],
       "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
+    },
+    {
+      "package": "zk-operator",
+      "name": "zk-operator",
+      "version": "0.0.1",
+      "keywords": [
+        "zookeeper"
+      ],
+      "description": "ZooKeeper operator for deploying and managing Transwarp ZooKeeper clusters on OpenShift",
+      "channel": "stable"
     }
   ],
-  "count": 1339,
+  "count": 1352,
   "source": "opm",
-  "timestamp": "2026-09-01T07:07:41.686511"
+  "timestamp": "2026-09-04T07:09:20.412439"
 }

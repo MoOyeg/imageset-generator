@@ -564,6 +564,12 @@
     "cognitoidentityprovider.services.k8s.aws/v1alpha1/UserPool": [
       "ack-cognitoidentityprovider-controller"
     ],
+    "cognitoidentityprovider.services.k8s.aws/v1alpha1/ResourceServer": [
+      "ack-cognitoidentityprovider-controller"
+    ],
+    "cognitoidentityprovider.services.k8s.aws/v1alpha1/UserPoolClient": [
+      "ack-cognitoidentityprovider-controller"
+    ],
     "dms.services.k8s.aws/v1alpha1/Certificate": [
       "ack-dms-controller"
     ],
@@ -758,6 +764,9 @@
     ],
     "elbv2.services.k8s.aws/v1alpha1/TargetGroup": [
       "ack-elbv2-controller"
+    ],
+    "emr.services.k8s.aws/v1alpha1/SecurityConfiguration": [
+      "ack-emr-controller"
     ],
     "emrcontainers.services.k8s.aws/v1alpha1/JobRun": [
       "ack-emrcontainers-controller"
@@ -4725,6 +4734,126 @@
     "redhatcop.redhat.io/v1alpha1/Namespace": [
       "vault-config-operator"
     ],
+    "redhatcop.redhat.io/v1alpha1/AWSAuthEngineClientConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AWSAuthEngineIdentityConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AWSAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AWSSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AWSSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AliCloudAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AppRoleAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/CFAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/CFAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/ConsulSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/ConsulSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GCPSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GCPSecretEngineRoleset": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GCPSecretEngineStaticAccount": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GitHubAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GitHubAuthEngineTeamMap": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GitHubAuthEngineUserMap": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/KerberosAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/KerberosAuthEngineGroup": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/KerberosAuthEngineLDAPConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/LDAPSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/LDAPSecretEngineDynamicRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/LDAPSecretEngineStaticRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/MongoDBAtlasSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/MongoDBAtlasSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/NomadSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/NomadSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/OCIAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/OCIAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/OktaAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/OktaAuthEngineGroup": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/RADIUSAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/RADIUSAuthEngineUser": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/SSHSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/SSHSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/TOTPSecretEngineKey": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/TerraformCloudSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/TerraformCloudSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/TransitSecretEngineKey": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/UserpassAuthEngineUser": [
+      "vault-config-operator"
+    ],
     "vertica.com/v1beta1/VerticaAutoscaler": [
       "verticadb-operator"
     ],
@@ -4849,5 +4978,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-01T07:03:36.776126"
+  "timestamp": "2026-09-04T07:05:27.336011"
 }

@@ -1112,6 +1112,18 @@
     "ezmeral.hpe.com/v1/HPEEzmeralNFSCSIDriver": [
       "hpe-ezmeral-csi-operator"
     ],
+    "infra.hpe.com/v1alpha1/HPEOneView": [
+      "hpeoneview-operator"
+    ],
+    "infra.hpe.com/v1alpha1/HPEServer": [
+      "hpeoneview-operator"
+    ],
+    "infra.hpe.com/v1alpha1/HPEServerProfile": [
+      "hpeoneview-operator"
+    ],
+    "infra.hpe.com/v1alpha1/HPEServerProfileTemplate": [
+      "hpeoneview-operator"
+    ],
     "csi.hitachi.com/v1/HSPC": [
       "hspc-operator"
     ],
@@ -2115,6 +2127,21 @@
     "tawon.mantisnet.com/v1alpha1/TopologyAggregator": [
       "tawon-operator"
     ],
+    "tawon.mantisnet.com/v1alpha1/ClusterDirective": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/Dashboard": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/DirectiveBinding": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/Stream": [
+      "tawon-operator"
+    ],
+    "tawon.mantisnet.com/v1alpha1/StreamStore": [
+      "tawon-operator"
+    ],
     "templates.stakater.com/v1alpha1/ClusterTemplateInstance": [
       "template-operator"
     ],
@@ -2426,7 +2453,10 @@
     ],
     "kubernetes.zabbix.com/v1alpha1/ZabbixServer": [
       "zabbix-operator-certified"
+    ],
+    "zookeeper.transwarp.io/v1alpha1/ZKCluster": [
+      "zk-operator"
     ]
   },
-  "timestamp": "2026-09-01T07:07:42.385242"
+  "timestamp": "2026-09-04T07:09:21.095915"
 }

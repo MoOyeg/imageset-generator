@@ -1417,6 +1417,22 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
+      "version": "0.9.16",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
       "version": "0.9.2",
       "keywords": [
         "microsegmentation",
@@ -4430,6 +4446,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.19",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.2",
       "channel": "stable"
     },
@@ -5338,7 +5366,7 @@
     {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
-      "version": "3.90.3-1",
+      "version": "3.96.0-1",
       "keywords": [
         "repository",
         "sonatype"
@@ -5558,6 +5586,21 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.6.5",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.7.0",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -5831,7 +5874,7 @@
     {
       "package": "operator-certification-operator",
       "name": "operator-certification-operator",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "keywords": [
         "certification",
         "pipeline",
@@ -6865,9 +6908,19 @@
       ],
       "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
+    },
+    {
+      "package": "zk-operator",
+      "name": "zk-operator",
+      "version": "0.0.1",
+      "keywords": [
+        "zookeeper"
+      ],
+      "description": "ZooKeeper operator for deploying and managing Transwarp ZooKeeper clusters on OpenShift",
+      "channel": "stable"
     }
   ],
-  "count": 701,
+  "count": 705,
   "source": "opm",
-  "timestamp": "2026-09-01T07:09:31.036231"
+  "timestamp": "2026-09-04T07:11:14.869610"
 }

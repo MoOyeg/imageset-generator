@@ -1539,6 +1539,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-6",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "channel": "amq-streams-3.0.x"
     },
@@ -1642,6 +1648,12 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.1-10",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.1-11",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -1774,6 +1786,12 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.4-10",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.4-11",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -1921,6 +1939,12 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.1-7",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.0.0-5",
@@ -2032,6 +2056,12 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.2.1-5",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.1-7",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -5469,6 +5499,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.25",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -5896,6 +5932,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.15.7",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.15.8",
       "channel": "stable-3.15"
     },
     {
@@ -8074,6 +8116,12 @@
       "package": "eap",
       "name": "eap",
       "version": "3.2.24",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
+      "version": "3.2.25",
       "channel": "stable"
     },
     {
@@ -17941,6 +17989,12 @@
       "channel": "stable"
     },
     {
+      "package": "openshift-custom-metrics-autoscaler-operator",
+      "name": "openshift-custom-metrics-autoscaler-operator",
+      "version": "2.19.0-3",
+      "channel": "stable"
+    },
+    {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.10.0",
@@ -18369,6 +18423,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.19.7",
+      "channel": "gitops-1.19"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.20.0",
       "channel": "gitops-1.20"
     },
@@ -18411,6 +18471,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.20.7",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.21.0",
       "channel": "gitops-1.21"
     },
@@ -18430,6 +18496,12 @@
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
       "version": "1.21.3",
+      "channel": "gitops-1.21"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
+      "version": "1.21.4",
       "channel": "gitops-1.21"
     },
     {
@@ -19557,6 +19629,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.25",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -19984,6 +20062,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.15.7",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.15.8",
       "channel": "stable-3.15"
     },
     {
@@ -20583,6 +20667,12 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.10.25",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -21010,6 +21100,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.15.7",
+      "channel": "stable-3.15"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.15.8",
       "channel": "stable-3.15"
     },
     {
@@ -22042,6 +22138,18 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0+0.1787611435.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1787765249.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.0+0.1788178587.p",
       "channel": "latest"
     },
     {
@@ -27409,7 +27517,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4568,
+  "count": 4586,
   "source": "opm",
-  "timestamp": "2026-09-01T06:54:14.681737"
+  "timestamp": "2026-09-04T06:56:10.751742"
 }

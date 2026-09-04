@@ -558,6 +558,12 @@
     "cognitoidentityprovider.services.k8s.aws/v1alpha1/UserPool": [
       "ack-cognitoidentityprovider-controller"
     ],
+    "cognitoidentityprovider.services.k8s.aws/v1alpha1/ResourceServer": [
+      "ack-cognitoidentityprovider-controller"
+    ],
+    "cognitoidentityprovider.services.k8s.aws/v1alpha1/UserPoolClient": [
+      "ack-cognitoidentityprovider-controller"
+    ],
     "dms.services.k8s.aws/v1alpha1/Certificate": [
       "ack-dms-controller"
     ],
@@ -752,6 +758,9 @@
     ],
     "elbv2.services.k8s.aws/v1alpha1/TargetGroup": [
       "ack-elbv2-controller"
+    ],
+    "emr.services.k8s.aws/v1alpha1/SecurityConfiguration": [
+      "ack-emr-controller"
     ],
     "emrcontainers.services.k8s.aws/v1alpha1/JobRun": [
       "ack-emrcontainers-controller"
@@ -4744,5 +4753,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-01T06:56:07.401562"
+  "timestamp": "2026-09-04T06:57:51.853087"
 }

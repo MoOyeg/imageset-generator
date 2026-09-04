@@ -1018,6 +1018,12 @@
       "package": "ack-apigatewayv2-controller",
       "name": "ack-apigatewayv2-controller",
       "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigatewayv2-controller",
+      "name": "ack-apigatewayv2-controller",
+      "version": "1.5.0",
       "keywords": [
         "apigatewayv2",
         "aws",
@@ -3065,6 +3071,18 @@
       "package": "ack-cognitoidentityprovider-controller",
       "name": "ack-cognitoidentityprovider-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cognitoidentityprovider-controller",
+      "name": "ack-cognitoidentityprovider-controller",
+      "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cognitoidentityprovider-controller",
+      "name": "ack-cognitoidentityprovider-controller",
+      "version": "1.7.0",
       "keywords": [
         "cognitoidentityprovider",
         "aws",
@@ -4234,6 +4252,12 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.20.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.21.0",
       "keywords": [
         "ec2",
         "aws",
@@ -5342,6 +5366,12 @@
       "package": "ack-efs-controller",
       "name": "ack-efs-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-efs-controller",
+      "name": "ack-efs-controller",
+      "version": "1.6.0",
       "keywords": [
         "efs",
         "aws",
@@ -5709,6 +5739,18 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.20.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.21.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.22.0",
       "keywords": [
         "eks",
         "aws",
@@ -6540,6 +6582,25 @@
         "ack"
       ],
       "description": "AWS ELB controller is a service controller for managing ELB resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emr-controller",
+      "name": "ack-emr-controller",
+      "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emr-controller",
+      "name": "ack-emr-controller",
+      "version": "0.2.0",
+      "keywords": [
+        "emr",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS EMR controller is a service controller for managing EMR resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -9901,6 +9962,12 @@
       "package": "ack-mq-controller",
       "name": "ack-mq-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-mq-controller",
+      "name": "ack-mq-controller",
+      "version": "1.6.0",
       "keywords": [
         "mq",
         "aws",
@@ -9938,6 +10005,12 @@
       "package": "ack-mwaa-controller",
       "name": "ack-mwaa-controller",
       "version": "1.1.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-mwaa-controller",
+      "name": "ack-mwaa-controller",
+      "version": "1.2.0",
       "keywords": [
         "mwaa",
         "aws",
@@ -11277,6 +11350,12 @@
       "package": "ack-quicksight-controller",
       "name": "ack-quicksight-controller",
       "version": "1.1.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-quicksight-controller",
+      "name": "ack-quicksight-controller",
+      "version": "1.1.2",
       "keywords": [
         "quicksight",
         "aws",
@@ -12945,6 +13024,12 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.11.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.12.0",
       "keywords": [
         "s3",
         "aws",
@@ -13803,6 +13888,12 @@
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-secretsmanager-controller",
+      "name": "ack-secretsmanager-controller",
+      "version": "1.6.0",
       "keywords": [
         "secretsmanager",
         "aws",
@@ -19285,6 +19376,12 @@
       "package": "commvault-operator",
       "name": "commvault-operator",
       "version": "0.8.7",
+      "channel": "alpha"
+    },
+    {
+      "package": "commvault-operator",
+      "name": "commvault-operator",
+      "version": "0.8.8",
       "keywords": [
         "commvault",
         "data-protection",
@@ -24634,6 +24731,19 @@
     {
       "package": "hive-operator",
       "name": "hive-operator",
+      "version": "1.2.5318-5068da0",
+      "keywords": [
+        "kubernetes",
+        "openshift",
+        "multi-cluster",
+        "cluster"
+      ],
+      "description": "OpenShift cluster provisioning and management at scale.",
+      "channel": "alpha"
+    },
+    {
+      "package": "hive-operator",
+      "name": "hive-operator",
       "version": "2.3.3039-60b8a9a",
       "keywords": [
         "kubernetes",
@@ -28132,6 +28242,12 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.10.0-alpha.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.11.0-alpha.1",
       "keywords": [
         "modernization",
         "migration",
@@ -30002,6 +30118,38 @@
       "channel": "alpha"
     },
     {
+      "package": "mirror-operator",
+      "name": "mirror-operator",
+      "version": "0.1.3",
+      "keywords": [
+        "silvermatic",
+        "mirror-operator",
+        "disconnected",
+        "oc-mirror",
+        "airgap",
+        "openshift",
+        "sneakernet"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "mirror-operator",
+      "name": "mirror-operator",
+      "version": "0.1.4",
+      "keywords": [
+        "silvermatic",
+        "mirror-operator",
+        "disconnected",
+        "oc-mirror",
+        "airgap",
+        "openshift",
+        "sneakernet"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "1.7.0",
@@ -30143,6 +30291,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.16.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.16.1",
       "keywords": [
         "MongoDB",
         "Atlas",
@@ -37557,38 +37711,14 @@
     {
       "package": "sailoperator",
       "name": "sailoperator",
-      "version": "1.31.0-nightly-2026-08-18",
+      "version": "1.30.4",
       "keywords": [
         "istio",
         "servicemesh",
         "envoy"
       ],
       "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.31-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.31.0-nightly-2026-08-19",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.31-nightly"
-    },
-    {
-      "package": "sailoperator",
-      "name": "sailoperator",
-      "version": "1.31.0-nightly-2026-08-20",
-      "keywords": [
-        "istio",
-        "servicemesh",
-        "envoy"
-      ],
-      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
-      "channel": "1.31-nightly"
+      "channel": "stable"
     },
     {
       "package": "sailoperator",
@@ -37690,6 +37820,18 @@
       "package": "sailoperator",
       "name": "sailoperator",
       "version": "1.31.0-nightly-2026-09-01",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The Sail Operator manages the lifecycle of your Istio control plane. It provides custom resources for you to deploy and manage your control plane components.",
+      "channel": "1.31-nightly"
+    },
+    {
+      "package": "sailoperator",
+      "name": "sailoperator",
+      "version": "1.31.0-nightly-2026-09-02",
       "keywords": [
         "istio",
         "servicemesh",
@@ -41062,15 +41204,13 @@
     {
       "package": "vault-config-operator",
       "name": "vault-config-operator",
+      "version": "0.8.51",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
       "version": "0.8.52",
-      "keywords": [
-        "security",
-        "secrets",
-        "gitops",
-        "policy",
-        "credentials"
-      ],
-      "description": "This operator provides primitives to declaratively configure Hashicorp Vault.",
       "channel": "alpha"
     },
     {
@@ -41083,6 +41223,20 @@
       "package": "vault-config-operator",
       "name": "vault-config-operator",
       "version": "0.8.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "vault-config-operator",
+      "name": "vault-config-operator",
+      "version": "1.0.2",
+      "keywords": [
+        "security",
+        "secrets",
+        "gitops",
+        "policy",
+        "credentials"
+      ],
+      "description": "This operator provides primitives to declaratively configure Hashicorp Vault.",
       "channel": "alpha"
     },
     {
@@ -41298,6 +41452,12 @@
       "package": "verticadb-operator",
       "name": "verticadb-operator",
       "version": "26.2.1-0",
+      "channel": "v2-stable"
+    },
+    {
+      "package": "verticadb-operator",
+      "name": "verticadb-operator",
+      "version": "26.2.2-0",
       "keywords": [
         "database",
         "vertica"
@@ -42131,7 +42291,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5572,
+  "count": 5594,
   "source": "opm",
-  "timestamp": "2026-09-01T07:01:50.672872"
+  "timestamp": "2026-09-04T07:03:56.745803"
 }

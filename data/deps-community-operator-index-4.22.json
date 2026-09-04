@@ -506,6 +506,12 @@
     "cognitoidentityprovider.services.k8s.aws/v1alpha1/UserPool": [
       "ack-cognitoidentityprovider-controller"
     ],
+    "cognitoidentityprovider.services.k8s.aws/v1alpha1/ResourceServer": [
+      "ack-cognitoidentityprovider-controller"
+    ],
+    "cognitoidentityprovider.services.k8s.aws/v1alpha1/UserPoolClient": [
+      "ack-cognitoidentityprovider-controller"
+    ],
     "dms.services.k8s.aws/v1alpha1/Certificate": [
       "ack-dms-controller"
     ],
@@ -700,6 +706,9 @@
     ],
     "elbv2.services.k8s.aws/v1alpha1/TargetGroup": [
       "ack-elbv2-controller"
+    ],
+    "emr.services.k8s.aws/v1alpha1/SecurityConfiguration": [
+      "ack-emr-controller"
     ],
     "emrcontainers.services.k8s.aws/v1alpha1/JobRun": [
       "ack-emrcontainers-controller"
@@ -3368,6 +3377,123 @@
     "openclaw.rocks/v1alpha1/OpenClawSelfConfig": [
       "openclaw-operator"
     ],
+    "kfdef.apps.kubeflow.org/v1/KfDef": [
+      "opendatahub-operator"
+    ],
+    "console.openshift.io/v1/OdhQuickStart": [
+      "opendatahub-operator"
+    ],
+    "dashboard.opendatahub.io/v1alpha/AcceleratorProfile": [
+      "opendatahub-operator"
+    ],
+    "dashboard.opendatahub.io/v1/OdhApplication": [
+      "opendatahub-operator"
+    ],
+    "dashboard.opendatahub.io/v1/OdhDocument": [
+      "opendatahub-operator"
+    ],
+    "opendatahub.io/v1alpha/OdhDashboardConfig": [
+      "opendatahub-operator"
+    ],
+    "datasciencecluster.opendatahub.io/v1/DataScienceCluster": [
+      "opendatahub-operator"
+    ],
+    "dscinitialization.opendatahub.io/v1/DSCInitialization": [
+      "opendatahub-operator"
+    ],
+    "features.opendatahub.io/v1/FeatureTracker": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/CodeFlare": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Dashboard": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/DataSciencePipelines": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Kserve": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Kueue": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/ModelController": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/ModelMeshServing": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/ModelRegistry": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Ray": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/TrainingOperator": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/TrustyAI": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Workbenches": [
+      "opendatahub-operator"
+    ],
+    "services.platform.opendatahub.io/v1alpha1/Monitoring": [
+      "opendatahub-operator"
+    ],
+    "services.platform.opendatahub.io/v1alpha1/Auth": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/FeastOperator": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/LlamaStackOperator": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1alpha1/HardwareProfile": [
+      "opendatahub-operator"
+    ],
+    "services.platform.opendatahub.io/v1alpha1/ServiceMesh": [
+      "opendatahub-operator"
+    ],
+    "datasciencecluster.opendatahub.io/v2/DataScienceCluster": [
+      "opendatahub-operator"
+    ],
+    "dscinitialization.opendatahub.io/v2/DSCInitialization": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1/HardwareProfile": [
+      "opendatahub-operator"
+    ],
+    "services.platform.opendatahub.io/v1alpha1/GatewayConfig": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/MLflowOperator": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/ModelsAsService": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/Trainer": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/SparkOperator": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1alpha1/AzureKubernetesEngine": [
+      "opendatahub-operator"
+    ],
+    "infrastructure.opendatahub.io/v1alpha1/CoreWeaveKubernetesEngine": [
+      "opendatahub-operator"
+    ],
+    "components.platform.opendatahub.io/v1alpha1/OGX": [
+      "opendatahub-operator"
+    ],
+    "config.opendatahub.io/v1alpha1/Platform": [
+      "opendatahub-operator"
+    ],
     "openebs.io/v1alpha1/OpenEBSInstallTemplate": [
       "openebs"
     ],
@@ -4343,6 +4469,126 @@
     "redhatcop.redhat.io/v1alpha1/Namespace": [
       "vault-config-operator"
     ],
+    "redhatcop.redhat.io/v1alpha1/AWSAuthEngineClientConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AWSAuthEngineIdentityConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AWSAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AWSSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AWSSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AliCloudAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/AppRoleAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/CFAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/CFAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/ConsulSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/ConsulSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GCPSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GCPSecretEngineRoleset": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GCPSecretEngineStaticAccount": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GitHubAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GitHubAuthEngineTeamMap": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/GitHubAuthEngineUserMap": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/KerberosAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/KerberosAuthEngineGroup": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/KerberosAuthEngineLDAPConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/LDAPSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/LDAPSecretEngineDynamicRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/LDAPSecretEngineStaticRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/MongoDBAtlasSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/MongoDBAtlasSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/NomadSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/NomadSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/OCIAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/OCIAuthEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/OktaAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/OktaAuthEngineGroup": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/RADIUSAuthEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/RADIUSAuthEngineUser": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/SSHSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/SSHSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/TOTPSecretEngineKey": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/TerraformCloudSecretEngineConfig": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/TerraformCloudSecretEngineRole": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/TransitSecretEngineKey": [
+      "vault-config-operator"
+    ],
+    "redhatcop.redhat.io/v1alpha1/UserpassAuthEngineUser": [
+      "vault-config-operator"
+    ],
     "vertica.com/v1beta1/VerticaAutoscaler": [
       "verticadb-operator"
     ],
@@ -4461,5 +4707,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-01T07:09:01.354250"
+  "timestamp": "2026-09-04T07:10:40.777204"
 }
