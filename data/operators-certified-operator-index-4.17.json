@@ -13420,12 +13420,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.60",
+      "version": "8.21.0",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -14856,6 +14856,21 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.7.0",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.7.1",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -17206,6 +17221,20 @@
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-2.2",
       "channel": "7.22.0"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-20.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.8.6"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -21419,7 +21448,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1861,
+  "count": 1863,
   "source": "opm",
-  "timestamp": "2026-09-04T07:03:18.657072"
+  "timestamp": "2026-09-07T07:04:25.720561"
 }

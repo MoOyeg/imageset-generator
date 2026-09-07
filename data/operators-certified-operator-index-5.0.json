@@ -5613,6 +5613,21 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.7.1",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
       "package": "nim-operator-certified",
       "name": "nim-operator-certified",
       "version": "1.0.1",
@@ -6920,7 +6935,7 @@
       "channel": "stable"
     }
   ],
-  "count": 705,
+  "count": 706,
   "source": "opm",
-  "timestamp": "2026-09-04T07:11:14.869610"
+  "timestamp": "2026-09-07T07:14:36.191496"
 }

@@ -5319,8 +5319,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.20.60",
-      "channel": "stable"
+      "version": "8.21.0",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -5433,8 +5433,8 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.20.60",
-      "channel": "stable"
+      "version": "8.21.0",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -6421,6 +6421,12 @@
       "channel": "alpha"
     },
     {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.7.1",
+      "channel": "alpha"
+    },
+    {
       "package": "nspc-operator",
       "name": "nspc-operator",
       "version": "1.13.1",
@@ -7035,8 +7041,8 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.20.60",
-      "channel": "stable"
+      "version": "8.21.0",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -7324,6 +7330,12 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-2.2",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-20.1",
       "channel": "7.8.6"
     },
     {
@@ -8307,8 +8319,8 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.113.0",
-      "channel": "stable"
+      "version": "42.114.0",
+      "channel": "beta"
     },
     {
       "package": "t8c-certified",
@@ -9799,7 +9811,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1633,
+  "count": 1635,
   "source": "opm",
-  "timestamp": "2026-09-04T06:49:22.244896"
+  "timestamp": "2026-09-07T06:49:43.544124"
 }
