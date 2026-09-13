@@ -5647,6 +5647,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.30.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -6564,6 +6577,20 @@
       "package": "dxoperator-v2",
       "name": "dxoperator-v2",
       "version": "2.0.88",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.89",
       "keywords": [
         "sql server",
         "availability group",
@@ -7607,6 +7634,17 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.15.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -7854,6 +7892,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.3.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -9331,7 +9383,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.7",
+      "version": "2.24.8",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -9423,7 +9475,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.7",
+      "version": "2.24.8",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -10655,6 +10707,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.20",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.4",
       "channel": "stable"
     },
@@ -11680,6 +11744,18 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "9.0.4",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.5",
       "keywords": [
         "kubernetes",
         "storage",
@@ -13425,12 +13501,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.0-beta.1",
+      "version": "8.21.10-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -14181,6 +14257,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.11.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.12.0",
       "keywords": [
         "mongodb",
         "databases",
@@ -15196,6 +15284,17 @@
       "package": "nvidia-network-operator",
       "name": "nvidia-network-operator",
       "version": "26.7.0",
+      "keywords": [
+        "sriov",
+        "networking"
+      ],
+      "description": "Deploy and manage NVIDIA networking resources in Kubernetes",
+      "channel": "stable"
+    },
+    {
+      "package": "nvidia-network-operator",
+      "name": "nvidia-network-operator",
+      "version": "26.7.0-1",
       "keywords": [
         "sriov",
         "networking"
@@ -16745,6 +16844,20 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.3.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.2",
@@ -17111,6 +17224,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-45.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.4-9.0",
       "keywords": [
         "redislabs",
@@ -17234,7 +17361,7 @@
         "cache"
       ],
       "description": "",
-      "channel": "7.8.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -18667,6 +18794,32 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.4",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.5",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seawise-backup-operator",
       "name": "seawise-backup-operator",
       "version": "0.1.0",
@@ -18745,7 +18898,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.19.7",
+      "version": "0.20.9",
       "keywords": [
         "streamnative",
         "pulsar"
@@ -19700,12 +19853,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.2-candidate-20260728001913000",
+      "version": "1.7.3-candidate-20260908103220000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -19729,7 +19882,7 @@
     {
       "package": "tawon-operator",
       "name": "tawon-operator",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "keywords": [
         "monitoring",
         "networking",
@@ -19737,33 +19890,7 @@
         "ebpf"
       ],
       "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "fast-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.1",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "fast-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.2",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
-      "channel": "fast-v3"
+      "channel": "candidate-v3"
     },
     {
       "package": "tawon-operator",
@@ -19782,6 +19909,19 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "3.1.0-rc8",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc9",
       "keywords": [
         "monitoring",
         "networking",
@@ -21275,7 +21415,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.7",
+      "version": "3.4.8",
       "keywords": [
         "autoscaling",
         "kubernetes",
@@ -21347,66 +21487,154 @@
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.13",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.14",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.17",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.26",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.27",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.29",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.33",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.36",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.38",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.40",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.42",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
@@ -21448,7 +21676,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1863,
+  "count": 1874,
   "source": "opm",
-  "timestamp": "2026-09-07T07:04:25.720561"
+  "timestamp": "2026-09-13T07:07:17.365796"
 }

@@ -402,6 +402,9 @@
       "cilium-enterprise",
       "clife"
     ],
+    "intersight.cisco.com/v1/CiscoIntersight": [
+      "cisco-intersight"
+    ],
     "postgresql.k8s.enterprisedb.io/v1/Backup": [
       "cloud-native-postgresql"
     ],
@@ -789,6 +792,9 @@
     "kalybr.ai/v1alpha1/EnterpriseSmall": [
       "ent-small-operator"
     ],
+    "eqube.operator/v1/EQProduct": [
+      "eqube-operator"
+    ],
     "ai.security.f5.com/v1alpha1/SecurityOperator": [
       "f5-ai-security-operator"
     ],
@@ -881,6 +887,9 @@
     ],
     "resource.nvidia.com/v1beta1/ComputeDomainClique": [
       "gpu-operator-certified"
+    ],
+    "habanalabs.habana.ai/v1/ClusterPolicy": [
+      "habana-ai-operator"
     ],
     "hammu.ai/v1alpha1/HammuPlatform": [
       "hammu-platform"
@@ -1088,6 +1097,12 @@
     ],
     "triliovault.trilio.io/v1/TrilioVaultManager": [
       "k8s-triliovault"
+    ],
+    "containers.kove.com/v1/KoveMemoryConfig": [
+      "kove-operator"
+    ],
+    "containers.kove.com/v1/KoveSystem": [
+      "kove-operator"
     ],
     "operator.kubearmor.com/v1/KubeArmorConfig": [
       "kubearmor-operator-certified"
@@ -1512,6 +1527,30 @@
     "certification.redhat.com/v1alpha1/OperatorPipeline": [
       "operator-certification-operator"
     ],
+    "pgv2.percona.com/v2/PerconaPGBackup": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGCluster": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGRestore": [
+      "percona-postgresql-operator-certified"
+    ],
+    "pgv2.percona.com/v2/PerconaPGUpgrade": [
+      "percona-postgresql-operator-certified"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/CrunchyBridgeCluster": [
+      "percona-postgresql-operator-certified"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PGAdmin": [
+      "percona-postgresql-operator-certified"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PGUpgrade": [
+      "percona-postgresql-operator-certified"
+    ],
+    "upstream.pgv2.percona.com/v1beta1/PostgresCluster": [
+      "percona-postgresql-operator-certified"
+    ],
     "psmdb.percona.com/v1/PerconaServerMongoDB": [
       "percona-server-mongodb-operator-certified"
     ],
@@ -1699,6 +1738,36 @@
       "simplyblock-operator"
     ],
     "storage.simplyblock.io/v1alpha1/BackupPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/BackupImport": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ControlPlane": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPair": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationSlot": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeSet": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StoragePool": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/VolumeMigration": [
       "simplyblock-operator"
     ],
     "spyre.ibm.com/v1alpha1/SpyreClusterPolicy": [
@@ -2152,5 +2221,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-09-07T07:13:45.456805"
+  "timestamp": "2026-09-13T07:14:11.863486"
 }

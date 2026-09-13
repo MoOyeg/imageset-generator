@@ -1018,6 +1018,12 @@
       "package": "ack-apigatewayv2-controller",
       "name": "ack-apigatewayv2-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigatewayv2-controller",
+      "name": "ack-apigatewayv2-controller",
+      "version": "1.6.0",
       "keywords": [
         "apigatewayv2",
         "aws",
@@ -1810,6 +1816,18 @@
       "package": "ack-bedrockagent-controller",
       "name": "ack-bedrockagent-controller",
       "version": "1.3.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagent-controller",
+      "name": "ack-bedrockagent-controller",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagent-controller",
+      "name": "ack-bedrockagent-controller",
+      "version": "1.4.1",
       "keywords": [
         "bedrockagent",
         "aws",
@@ -2853,6 +2871,12 @@
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatchlogs-controller",
+      "name": "ack-cloudwatchlogs-controller",
+      "version": "1.6.1",
       "keywords": [
         "cloudwatchlogs",
         "aws",
@@ -5655,6 +5679,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.22.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.23.0",
       "keywords": [
         "eks",
         "aws",
@@ -6244,6 +6274,12 @@
       "package": "ack-elasticache-controller",
       "name": "ack-elasticache-controller",
       "version": "1.9.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
+      "version": "1.9.1",
       "keywords": [
         "elasticache",
         "aws",
@@ -7223,6 +7259,12 @@
       "package": "ack-glue-controller",
       "name": "ack-glue-controller",
       "version": "1.2.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-glue-controller",
+      "name": "ack-glue-controller",
+      "version": "1.2.1",
       "keywords": [
         "glue",
         "aws",
@@ -9077,6 +9119,18 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.17.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.17.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.17.2",
       "keywords": [
         "lambda",
         "aws",
@@ -9300,6 +9354,12 @@
       "package": "ack-lambdamicrovms-controller",
       "name": "ack-lambdamicrovms-controller",
       "version": "0.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambdamicrovms-controller",
+      "name": "ack-lambdamicrovms-controller",
+      "version": "0.3.1",
       "keywords": [
         "lambdamicrovms",
         "aws",
@@ -9892,6 +9952,19 @@
         "ack"
       ],
       "description": "Amazon Managed Workflows for Apache Airflow controller is a service controller for managing Amazon Managed Workflows for Apache Airflow resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-mwaaserverless-controller",
+      "name": "ack-mwaaserverless-controller",
+      "version": "0.1.0",
+      "keywords": [
+        "mwaaserverless",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS MWAA Serverless controller is a service controller for managing MWAA Serverless resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -12748,6 +12821,12 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.12.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.12.1",
       "keywords": [
         "s3",
         "aws",
@@ -13396,6 +13475,12 @@
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-secretsmanager-controller",
+      "name": "ack-secretsmanager-controller",
+      "version": "1.6.1",
       "keywords": [
         "secretsmanager",
         "aws",
@@ -13848,6 +13933,12 @@
       "package": "ack-sfn-controller",
       "name": "ack-sfn-controller",
       "version": "1.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sfn-controller",
+      "name": "ack-sfn-controller",
+      "version": "1.7.0",
       "keywords": [
         "sfn",
         "aws",
@@ -13867,6 +13958,12 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.10.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.10.1",
       "keywords": [
         "sns",
         "aws",
@@ -15289,6 +15386,12 @@
       "package": "argocd-operator",
       "name": "argocd-operator",
       "version": "0.18.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "argocd-operator",
+      "name": "argocd-operator",
+      "version": "0.19.0",
       "keywords": [
         "gitops",
         "kubernetes"
@@ -15378,6 +15481,12 @@
       "package": "arkmq-org-broker-operator",
       "name": "arkmq-org-broker-operator",
       "version": "2.1.6",
+      "channel": "stable"
+    },
+    {
+      "package": "arkmq-org-broker-operator",
+      "name": "arkmq-org-broker-operator",
+      "version": "2.1.7",
       "keywords": [
         "messaging",
         "cloud",
@@ -16674,6 +16783,12 @@
       "package": "camel-k",
       "name": "camel-k",
       "version": "2.10.1",
+      "channel": "latest"
+    },
+    {
+      "package": "camel-k",
+      "name": "camel-k",
+      "version": "2.11.0",
       "keywords": [
         "apache",
         "kamel",
@@ -17380,6 +17495,12 @@
       "package": "clickhouse",
       "name": "clickhouse",
       "version": "0.27.2",
+      "channel": "latest"
+    },
+    {
+      "package": "clickhouse",
+      "name": "clickhouse",
+      "version": "0.27.3",
       "keywords": [
         "clickhouse",
         "database",
@@ -18315,6 +18436,18 @@
       "package": "datadog-operator",
       "name": "datadog-operator",
       "version": "1.29.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
+      "version": "1.3.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
+      "version": "1.30.0",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -18322,12 +18455,6 @@
         "Tracing"
       ],
       "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
-      "channel": "stable"
-    },
-    {
-      "package": "datadog-operator",
-      "name": "datadog-operator",
-      "version": "1.3.0",
       "channel": "stable"
     },
     {
@@ -18970,6 +19097,12 @@
       "package": "eclipse-che",
       "name": "eclipse-che",
       "version": "7.121.0",
+      "channel": "stable"
+    },
+    {
+      "package": "eclipse-che",
+      "name": "eclipse-che",
+      "version": "7.122.0",
       "keywords": [
         "eclipse che",
         "workspaces",
@@ -22989,6 +23122,24 @@
       "package": "konveyor-operator",
       "name": "konveyor-operator",
       "version": "0.11.0-alpha.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.11.0-alpha.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.11.0-alpha.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "konveyor-operator",
+      "name": "konveyor-operator",
+      "version": "0.11.0-alpha.4",
       "keywords": [
         "modernization",
         "migration",
@@ -25892,6 +26043,12 @@
       "package": "ocp-kea-dhcp",
       "name": "ocp-kea-dhcp",
       "version": "0.0.30",
+      "channel": "alpha"
+    },
+    {
+      "package": "ocp-kea-dhcp",
+      "name": "ocp-kea-dhcp",
+      "version": "0.0.31",
       "keywords": [
         "dhcp",
         "kea",
@@ -26402,6 +26559,12 @@
       "package": "paperclip-operator",
       "name": "paperclip-operator",
       "version": "0.19.0",
+      "channel": "stable"
+    },
+    {
+      "package": "paperclip-operator",
+      "name": "paperclip-operator",
+      "version": "0.19.1",
       "keywords": [
         "paperclip",
         "ai",
@@ -29920,7 +30083,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4510,
+  "count": 4536,
   "source": "opm",
-  "timestamp": "2026-09-07T07:14:53.491124"
+  "timestamp": "2026-09-13T07:15:59.103394"
 }

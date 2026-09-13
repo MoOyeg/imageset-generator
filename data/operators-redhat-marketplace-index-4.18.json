@@ -871,6 +871,19 @@
     {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
+      "version": "1.30.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
       "version": "1.4.0",
       "keywords": [
         "Datadog",
@@ -4036,9 +4049,22 @@
       ],
       "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified-rhmp",
+      "name": "zabbix-operator-certified-rhmp",
+      "version": "6.0.47",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
     }
   ],
-  "count": 317,
+  "count": 319,
   "source": "opm",
-  "timestamp": "2026-09-07T07:07:13.059618"
+  "timestamp": "2026-09-13T07:09:42.011204"
 }

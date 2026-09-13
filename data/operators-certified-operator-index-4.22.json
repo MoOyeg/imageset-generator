@@ -687,6 +687,32 @@
       "channel": "5.1"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.1.6",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.1"
+    },
+    {
       "package": "alloydb-omni-operator-certified",
       "name": "alloydb-omni-operator-certified",
       "version": "1.7.0",
@@ -2168,6 +2194,19 @@
       "name": "cilium-enterprise",
       "version": "1.13.9+xe8a359b",
       "channel": "1.13"
+    },
+    {
+      "package": "cisco-intersight",
+      "name": "cisco-intersight",
+      "version": "1.0.3",
+      "keywords": [
+        "Cisco",
+        "Intersight",
+        "ConsolePlugin",
+        "UCS"
+      ],
+      "description": "",
+      "channel": "stable"
     },
     {
       "package": "clife",
@@ -4620,6 +4659,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.30.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -5105,6 +5157,20 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.89",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.10.2",
@@ -5247,6 +5313,18 @@
       ],
       "description": "",
       "channel": "6.0"
+    },
+    {
+      "package": "eda-k8s-operator",
+      "name": "eda-k8s-operator",
+      "version": "7.0.0",
+      "keywords": [
+        "EDA Connect",
+        "K8s Controller",
+        "EDA K8s Controller Operator"
+      ],
+      "description": "",
+      "channel": "7.0"
     },
     {
       "package": "edb-hcp-operator",
@@ -5541,6 +5619,50 @@
       "channel": "alpha"
     },
     {
+      "package": "eqube-operator",
+      "name": "eqube-operator",
+      "version": "1.0.0",
+      "keywords": [
+        "operator",
+        "product"
+      ],
+      "description": "Eqube Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "eqube-operator",
+      "name": "eqube-operator",
+      "version": "1.0.1",
+      "keywords": [
+        "operator",
+        "product"
+      ],
+      "description": "Eqube Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "eqube-operator",
+      "name": "eqube-operator",
+      "version": "1.0.2",
+      "keywords": [
+        "operator",
+        "product"
+      ],
+      "description": "Eqube Operator",
+      "channel": "stable"
+    },
+    {
+      "package": "eqube-operator",
+      "name": "eqube-operator",
+      "version": "1.0.3",
+      "keywords": [
+        "operator",
+        "product"
+      ],
+      "description": "eQube\u00ae-Operator automates the deployment and lifecycle management of the eQube\u00ae DaaS platform",
+      "channel": "stable"
+    },
+    {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
       "version": "0.0.2",
@@ -5609,6 +5731,19 @@
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
       "version": "0.11.4",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.12.0",
       "keywords": [
         "ai",
         "security",
@@ -5776,6 +5911,17 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.14.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.15.0",
       "keywords": [
         "security",
         "runtime-protection"
@@ -5970,6 +6116,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.3.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -6553,6 +6713,18 @@
       "channel": "stable"
     },
     {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.24.1-482",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.24"
+    },
+    {
       "package": "hammu-platform",
       "name": "hammu-platform",
       "version": "0.1.0",
@@ -6681,6 +6853,19 @@
       "package": "hpe-csi-operator",
       "name": "hpe-csi-operator",
       "version": "3.2.0",
+      "keywords": [
+        "HPE",
+        "HPE CSI",
+        "HPE Storage",
+        "CSI"
+      ],
+      "description": "A Container Storage Interface (CSI) driver for HPE storage platforms. The CSI driver allows you to use HPE storage with your preferred container orchestrator.",
+      "channel": "stable"
+    },
+    {
+      "package": "hpe-csi-operator",
+      "name": "hpe-csi-operator",
+      "version": "3.3.0",
       "keywords": [
         "HPE",
         "HPE CSI",
@@ -6828,7 +7013,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.7",
+      "version": "2.24.8",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -6839,7 +7024,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.7",
+      "version": "2.24.8",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -7947,6 +8132,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.20",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.4",
       "channel": "stable"
     },
@@ -8849,6 +9046,18 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.5",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -9243,6 +9452,21 @@
       ],
       "description": "Cloud-Native Data Protection for Kubernetes",
       "channel": "5.4.x"
+    },
+    {
+      "package": "kove-operator",
+      "name": "kove-operator",
+      "version": "3.2.0",
+      "keywords": [
+        "Kove",
+        "Pooled Memory",
+        "Memory Pool",
+        "Memory Target",
+        "External Memory",
+        "Memory"
+      ],
+      "description": "Configure containers with Kove\u00ae pooled memory",
+      "channel": "stable"
     },
     {
       "package": "kubearmor-operator-certified",
@@ -10150,6 +10374,21 @@
       "channel": "stable"
     },
     {
+      "package": "mariadb-enterprise-operator",
+      "name": "mariadb-enterprise-operator",
+      "version": "26.6.3",
+      "keywords": [
+        "mariadb",
+        "mysql",
+        "database",
+        "operator",
+        "mariadb-enterprise-operator",
+        "database"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.19.50-beta.1",
@@ -10167,12 +10406,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.0-beta.1",
+      "version": "8.21.10-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -10182,10 +10421,164 @@
     {
       "package": "minio-minkms-operator",
       "name": "minio-minkms-operator",
+      "version": "2025.12.20100920",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.2.9031243",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.3.18173617",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.4.13102716",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
       "version": "2026.7.16235330",
       "keywords": [
         "AI Storage",
         "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.19074437",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.19091821",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.12.20100920",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.5.12190907",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2025.8.19175300",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.2.9031243",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.3.18173617",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.4.13102716",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
       ],
       "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
       "channel": "stable"
@@ -10474,6 +10867,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.11.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.12.0",
       "keywords": [
         "mongodb",
         "databases",
@@ -11496,6 +11901,17 @@
       "channel": "stable"
     },
     {
+      "package": "nvidia-network-operator",
+      "name": "nvidia-network-operator",
+      "version": "26.7.0-1",
+      "keywords": [
+        "sriov",
+        "networking"
+      ],
+      "description": "Deploy and manage NVIDIA networking resources in Kubernetes",
+      "channel": "stable"
+    },
+    {
       "package": "nxiq-operator-certified",
       "name": "nxiq-operator-certified",
       "version": "1.204.0-1",
@@ -11690,6 +12106,21 @@
       ],
       "description": "",
       "channel": "alpha"
+    },
+    {
+      "package": "percona-postgresql-operator-certified",
+      "name": "percona-postgresql-operator-certified",
+      "version": "3.1.0",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "operator",
+        "percona"
+      ],
+      "description": "Percona Operator for PostgreSQL manages the lifecycle of Percona PostgreSQL cluster instances.",
+      "channel": "stable"
     },
     {
       "package": "percona-server-mongodb-operator-certified",
@@ -12394,6 +12825,20 @@
       "channel": "alpha"
     },
     {
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.3.2",
+      "keywords": [
+        "portworx",
+        "persistent storage",
+        "storage",
+        "cloud native",
+        "open source"
+      ],
+      "description": "Cloud native storage solution for production workloads",
+      "channel": "alpha"
+    },
+    {
       "package": "portworx-multi-cluster-certified",
       "name": "portworx-multi-cluster-certified",
       "version": "26.1.0",
@@ -12524,6 +12969,20 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "8.2.0-12.0",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.2.0"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "8.2.0-15.1",
       "keywords": [
         "redislabs",
         "redis",
@@ -12817,6 +13276,24 @@
       "package": "simplyblock-operator",
       "name": "simplyblock-operator",
       "version": "26.2.5",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "26.3.0",
       "keywords": [
         "simplyblock",
         "storage",
@@ -13412,12 +13889,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.2-candidate-20260728001913000",
+      "version": "1.7.3-candidate-20260908103220000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -13441,6 +13918,19 @@
     {
       "package": "tawon-operator",
       "name": "tawon-operator",
+      "version": "3.1.0",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
       "version": "3.1.0-rc7",
       "keywords": [
         "monitoring",
@@ -13455,6 +13945,19 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "3.1.0-rc8",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc9",
       "keywords": [
         "monitoring",
         "networking",
@@ -14130,7 +14633,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.7",
+      "version": "3.4.8",
       "keywords": [
         "autoscaling",
         "kubernetes",
@@ -14162,66 +14665,154 @@
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.13",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.14",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.17",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.26",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.27",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.29",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.33",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.36",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.38",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.40",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.42",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
@@ -14263,7 +14854,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1199,
+  "count": 1237,
   "source": "opm",
-  "timestamp": "2026-09-07T07:13:44.817429"
+  "timestamp": "2026-09-13T07:14:11.160913"
 }

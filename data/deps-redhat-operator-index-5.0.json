@@ -22,6 +22,96 @@
       ],
       "requires_gvks": []
     },
+    "ocs-client-operator": {
+      "requires_packages": [
+        {
+          "packageName": "cephcsi-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "odf-csi-addons-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "odf-external-snapshotter-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "recipe",
+          "versionRange": "4.22.3-rhodf"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "odf-dependencies": {
+      "requires_packages": [
+        {
+          "packageName": "cephcsi-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "mcg-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "ocs-client-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "ocs-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "ocs-tls-profiles",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "odf-csi-addons-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "odf-external-snapshotter-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "odf-prometheus-operator",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "recipe",
+          "versionRange": "4.22.3-rhodf"
+        },
+        {
+          "packageName": "rook-ceph-operator",
+          "versionRange": "4.22.3-rhodf"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "odf-multicluster-orchestrator": {
+      "requires_packages": [
+        {
+          "packageName": "odr-hub-operator",
+          "versionRange": "<=4.22.3"
+        }
+      ],
+      "requires_gvks": []
+    },
+    "odr-volsync-plugin-operator": {
+      "requires_packages": [],
+      "requires_gvks": [
+        {
+          "group": "volsync.backube",
+          "kind": "ReplicationDestination",
+          "version": "v1alpha1"
+        },
+        {
+          "group": "volsync.backube",
+          "kind": "ReplicationSource",
+          "version": "v1alpha1"
+        }
+      ]
+    },
     "web-terminal": {
       "requires_packages": [
         {
@@ -296,6 +386,36 @@
     ],
     "app.kiegroup.org/v1/KieApp": [
       "businessautomation-operator"
+    ],
+    "csi.ceph.io/v1/CephConnection": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/CephConnection": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1/ClientProfile": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/ClientProfile": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1/ClientProfileMapping": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/ClientProfileMapping": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1/Driver": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/Driver": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1/OperatorConfig": [
+      "cephcsi-operator"
+    ],
+    "csi.ceph.io/v1alpha1/OperatorConfig": [
+      "cephcsi-operator"
     ],
     "updateservice.operator.openshift.io/v1/UpdateService": [
       "cincinnati-operator"
@@ -577,6 +697,57 @@
     "machine-deletion-remediation.medik8s.io/v1alpha1/MachineDeletionRemediationTemplate": [
       "machine-deletion-remediation"
     ],
+    "noobaa.io/v1alpha1/BackingStore": [
+      "mcg-operator"
+    ],
+    "noobaa.io/v1alpha1/BucketClass": [
+      "mcg-operator"
+    ],
+    "noobaa.io/v1alpha1/NamespaceStore": [
+      "mcg-operator"
+    ],
+    "noobaa.io/v1alpha1/NooBaa": [
+      "mcg-operator"
+    ],
+    "noobaa.io/v1alpha1/NooBaaAccount": [
+      "mcg-operator"
+    ],
+    "objectbucket.io/v1alpha1/ObjectBucket": [
+      "mcg-operator"
+    ],
+    "objectbucket.io/v1alpha1/ObjectBucketClaim": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/Backup": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/Cluster": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/ClusterImageCatalog": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/Database": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/FailoverQuorum": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/ImageCatalog": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/Pooler": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/Publication": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/ScheduledBackup": [
+      "mcg-operator"
+    ],
+    "postgresql.cnpg.noobaa.io/v1/Subscription": [
+      "mcg-operator"
+    ],
     "tackle.konveyor.io/v1alpha1/Addon": [
       "mta-operator"
     ],
@@ -648,6 +819,105 @@
     ],
     "nodetopology.openshift.io/v1alpha1/NUMAResourcesScheduler": [
       "numaresources-operator"
+    ],
+    "ocs.openshift.io/v1alpha1/StorageClient": [
+      "ocs-client-operator"
+    ],
+    "ocs.openshift.io/v1/OCSInitialization": [
+      "ocs-operator"
+    ],
+    "ocs.openshift.io/v1/StorageAutoScaler": [
+      "ocs-operator"
+    ],
+    "ocs.openshift.io/v1/StorageCluster": [
+      "ocs-operator"
+    ],
+    "ocs.openshift.io/v1/StorageClusterPeer": [
+      "ocs-operator"
+    ],
+    "ocs.openshift.io/v1alpha1/StorageConsumer": [
+      "ocs-operator"
+    ],
+    "ocs.openshift.io/v1/TLSProfile": [
+      "ocs-tls-profiles"
+    ],
+    "csiaddons.openshift.io/v1alpha1/CSIAddonsNode": [
+      "odf-csi-addons-operator"
+    ],
+    "csiaddons.openshift.io/v1alpha1/EncryptionKeyRotationCronJob": [
+      "odf-csi-addons-operator"
+    ],
+    "csiaddons.openshift.io/v1alpha1/EncryptionKeyRotationJob": [
+      "odf-csi-addons-operator"
+    ],
+    "csiaddons.openshift.io/v1alpha1/NetworkFence": [
+      "odf-csi-addons-operator"
+    ],
+    "csiaddons.openshift.io/v1alpha1/NetworkFenceClass": [
+      "odf-csi-addons-operator"
+    ],
+    "csiaddons.openshift.io/v1alpha1/ReclaimSpaceCronJob": [
+      "odf-csi-addons-operator"
+    ],
+    "csiaddons.openshift.io/v1alpha1/ReclaimSpaceJob": [
+      "odf-csi-addons-operator"
+    ],
+    "replication.storage.openshift.io/v1alpha1/VolumeGroupReplication": [
+      "odf-csi-addons-operator"
+    ],
+    "replication.storage.openshift.io/v1alpha1/VolumeGroupReplicationClass": [
+      "odf-csi-addons-operator"
+    ],
+    "replication.storage.openshift.io/v1alpha1/VolumeGroupReplicationContent": [
+      "odf-csi-addons-operator"
+    ],
+    "replication.storage.openshift.io/v1alpha1/VolumeReplication": [
+      "odf-csi-addons-operator"
+    ],
+    "replication.storage.openshift.io/v1alpha1/VolumeReplicationClass": [
+      "odf-csi-addons-operator"
+    ],
+    "groupsnapshot.storage.openshift.io/v1beta1/VolumeGroupSnapshot": [
+      "odf-external-snapshotter-operator"
+    ],
+    "groupsnapshot.storage.openshift.io/v1beta1/VolumeGroupSnapshotClass": [
+      "odf-external-snapshotter-operator"
+    ],
+    "groupsnapshot.storage.openshift.io/v1beta1/VolumeGroupSnapshotContent": [
+      "odf-external-snapshotter-operator"
+    ],
+    "multicluster.odf.openshift.io/v1alpha1/MirrorPeer": [
+      "odf-multicluster-orchestrator"
+    ],
+    "multicluster.odf.openshift.io/v1alpha1/ProtectedApplicationView": [
+      "odf-multicluster-orchestrator"
+    ],
+    "ramendr.openshift.io/v1alpha1/DRClusterConfig": [
+      "odr-cluster-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/MaintenanceMode": [
+      "odr-cluster-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/ProtectedVolumeReplicationGroupList": [
+      "odr-cluster-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/ReplicationGroupDestination": [
+      "odr-cluster-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/ReplicationGroupSource": [
+      "odr-cluster-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/VolumeReplicationGroup": [
+      "odr-cluster-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/DRCluster": [
+      "odr-hub-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/DRPlacementControl": [
+      "odr-hub-operator"
+    ],
+    "ramendr.openshift.io/v1alpha1/DRPolicy": [
+      "odr-hub-operator"
     ],
     "acme.cert-manager.io/v1/Challenge": [
       "openshift-cert-manager-operator"
@@ -865,6 +1135,9 @@
     "redhatcop.redhat.io/v1alpha1/QuayEcosystem": [
       "quay-operator"
     ],
+    "ramendr.openshift.io/v1alpha1/Recipe": [
+      "recipe"
+    ],
     "hawt.io/v1/Hawtio": [
       "red-hat-hawtio-operator"
     ],
@@ -918,6 +1191,63 @@
     ],
     "keycloak.org/v1alpha1/KeycloakUser": [
       "rhsso-operator"
+    ],
+    "ceph.rook.io/v1/CephBlockPool": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephBlockPoolRadosNamespace": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephBucketNotification": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephBucketTopic": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephCOSIDriver": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephClient": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephCluster": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephFilesystem": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephFilesystemMirror": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephFilesystemSubVolumeGroup": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephNFS": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephNVMeOFGateway": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectRealm": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectStore": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectStoreAccount": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectStoreUser": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectZone": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephObjectZoneGroup": [
+      "rook-ceph-operator"
+    ],
+    "ceph.rook.io/v1/CephRBDMirror": [
+      "rook-ceph-operator"
     ],
     "operator.openshift.io/v1/RunOnceDurationOverride": [
       "run-once-duration-override-operator"
@@ -1131,7 +1461,13 @@
     ],
     "daemons.redhat.com/v1alpha1/TangServer": [
       "tang-operator"
+    ],
+    "tempo.grafana.com/v1alpha1/TempoStack": [
+      "tempo-product"
+    ],
+    "tempo.grafana.com/v1alpha1/TempoMonolithic": [
+      "tempo-product"
     ]
   },
-  "timestamp": "2026-09-07T07:14:23.976262"
+  "timestamp": "2026-09-13T07:15:31.773337"
 }

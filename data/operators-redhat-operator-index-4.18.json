@@ -1987,6 +1987,17 @@
     {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
+      "version": "7.13.6-opr-1",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
       "version": "7.14.0-opr-1",
       "keywords": [
         "activemqartemis",
@@ -2032,6 +2043,17 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.14.0-opr-1+0.1778764984.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.1-opr-1",
       "keywords": [
         "activemqartemis",
         "operator"
@@ -8904,6 +8926,20 @@
     {
       "package": "automation-orchestrator-operator",
       "name": "automation-orchestrator-operator",
+      "version": "2026.8.1788958058",
+      "keywords": [
+        "automation",
+        "orchestrator",
+        "ansible",
+        "aap",
+        "workflow"
+      ],
+      "description": "Operator for deploying and managing Automation Orchestrator on Kubernetes",
+      "channel": "stable"
+    },
+    {
+      "package": "automation-orchestrator-operator",
+      "name": "automation-orchestrator-operator",
       "version": "2026.9.1784677103",
       "keywords": [
         "automation",
@@ -8914,6 +8950,20 @@
       ],
       "description": "Operator for deploying and managing Automation Orchestrator on Kubernetes",
       "channel": "early-access"
+    },
+    {
+      "package": "automation-portal-operator",
+      "name": "automation-portal-operator",
+      "version": "2.2.20260909",
+      "keywords": [
+        "ansible",
+        "automation",
+        "portal",
+        "backstage",
+        "rhdh"
+      ],
+      "description": "Operator for deploying and managing the Ansible automation portal on OpenShift",
+      "channel": "fast"
     },
     {
       "package": "aws-efs-csi-driver-operator",
@@ -13659,6 +13709,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.26",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.3",
       "keywords": [
         "open source",
@@ -14080,6 +14142,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.12.21",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.12.22",
       "keywords": [
         "open source",
         "containers",
@@ -15412,6 +15486,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.9.25",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.9.26",
       "keywords": [
         "open source",
         "containers",
@@ -17716,6 +17802,20 @@
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.6.6",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.7",
       "keywords": [
         "infinispan",
         "key value",
@@ -28007,6 +28107,23 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.18.48",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "candidate"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.18.5",
       "keywords": [
         "KubeVirt",
@@ -28203,6 +28320,16 @@
       "package": "kueue-operator",
       "name": "kueue-operator",
       "version": "1.4.1",
+      "keywords": [
+        "kueue-operator"
+      ],
+      "description": "",
+      "channel": "stable-v1.4"
+    },
+    {
+      "package": "kueue-operator",
+      "name": "kueue-operator",
+      "version": "1.4.2",
       "keywords": [
         "kueue-operator"
       ],
@@ -32841,6 +32968,17 @@
       "package": "multiarch-tuning-operator",
       "name": "multiarch-tuning-operator",
       "version": "1.3.3",
+      "keywords": [
+        "multiarch-tuning-operator",
+        "pod-placement"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "multiarch-tuning-operator",
+      "name": "multiarch-tuning-operator",
+      "version": "1.3.4",
       "keywords": [
         "multiarch-tuning-operator",
         "pod-placement"
@@ -43246,66 +43384,6 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
-      "version": "1.1.0",
-      "keywords": [
-        "secondary",
-        "scheduling",
-        "workload"
-      ],
-      "description": "Runs a secondary scheduler in an OpenShift cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "openshift-secondary-scheduler-operator",
-      "name": "openshift-secondary-scheduler-operator",
-      "version": "1.1.1",
-      "keywords": [
-        "secondary",
-        "scheduling",
-        "workload"
-      ],
-      "description": "Runs a secondary scheduler in an OpenShift cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "openshift-secondary-scheduler-operator",
-      "name": "openshift-secondary-scheduler-operator",
-      "version": "1.1.2",
-      "keywords": [
-        "secondary",
-        "scheduling",
-        "workload"
-      ],
-      "description": "Runs a secondary scheduler in an OpenShift cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "openshift-secondary-scheduler-operator",
-      "name": "openshift-secondary-scheduler-operator",
-      "version": "1.1.3",
-      "keywords": [
-        "secondary",
-        "scheduling",
-        "workload"
-      ],
-      "description": "Runs a secondary scheduler in an OpenShift cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "openshift-secondary-scheduler-operator",
-      "name": "openshift-secondary-scheduler-operator",
-      "version": "1.1.4",
-      "keywords": [
-        "secondary",
-        "scheduling",
-        "workload"
-      ],
-      "description": "Runs a secondary scheduler in an OpenShift cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "openshift-secondary-scheduler-operator",
-      "name": "openshift-secondary-scheduler-operator",
       "version": "1.2.0",
       "keywords": [
         "secondary",
@@ -43331,6 +43409,30 @@
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
       "version": "1.2.2",
+      "keywords": [
+        "secondary",
+        "scheduling",
+        "workload"
+      ],
+      "description": "Runs a secondary scheduler in an OpenShift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-secondary-scheduler-operator",
+      "name": "openshift-secondary-scheduler-operator",
+      "version": "1.2.3",
+      "keywords": [
+        "secondary",
+        "scheduling",
+        "workload"
+      ],
+      "description": "Runs a secondary scheduler in an OpenShift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-secondary-scheduler-operator",
+      "name": "openshift-secondary-scheduler-operator",
+      "version": "1.2.4",
       "keywords": [
         "secondary",
         "scheduling",
@@ -43378,6 +43480,18 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
+      "version": "1.3.3",
+      "keywords": [
+        "secondary",
+        "scheduling",
+        "workload"
+      ],
+      "description": "Runs a secondary scheduler in an OpenShift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-secondary-scheduler-operator",
+      "name": "openshift-secondary-scheduler-operator",
       "version": "1.4.0",
       "keywords": [
         "secondary",
@@ -43403,6 +43517,18 @@
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
       "version": "1.4.2",
+      "keywords": [
+        "secondary",
+        "scheduling",
+        "workload"
+      ],
+      "description": "Runs a secondary scheduler in an OpenShift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-secondary-scheduler-operator",
+      "name": "openshift-secondary-scheduler-operator",
+      "version": "1.4.3",
       "keywords": [
         "secondary",
         "scheduling",
@@ -43961,6 +44087,21 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.152.0-3",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.158.0-1",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -45359,6 +45500,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.26",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "keywords": [
         "registry",
@@ -45780,6 +45933,18 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.12.21",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.12.22",
       "keywords": [
         "registry",
         "containers",
@@ -47123,6 +47288,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.26",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "keywords": [
         "registry",
@@ -47424,6 +47601,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.25",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.10.26",
       "keywords": [
         "open source",
         "containers",
@@ -47856,6 +48045,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.12.21",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.12.22",
       "keywords": [
         "open source",
         "containers",
@@ -49068,6 +49269,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.25",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.26",
       "keywords": [
         "open source",
         "containers",
@@ -50973,6 +51186,19 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0+0.1788178587.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1",
       "keywords": [
         "Hawtio",
         "Java",
@@ -57675,6 +57901,43 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
+      "version": "2.25.11",
+      "keywords": [
+        "Operator",
+        "OpenShift",
+        "Open Data Hub",
+        "ODH",
+        "opendatahub",
+        "Red Hat OpenShift AI",
+        "RHOAI",
+        "OAI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "notebooks",
+        "serving",
+        "training",
+        "kserve",
+        "distributed-workloads",
+        "trustyai",
+        "modelregistry",
+        "RHOAI",
+        "ODH",
+        "OAI",
+        "AI",
+        "ML",
+        "Machine Learning",
+        "Data Science",
+        "Feast",
+        "featurestore",
+        "llamastack"
+      ],
+      "description": "Operator for deployment and management of Red Hat OpenShift AI",
+      "channel": "alpha"
+    },
+    {
+      "package": "rhods-operator",
+      "name": "rhods-operator",
       "version": "2.25.2",
       "keywords": [
         "Operator",
@@ -58978,6 +59241,18 @@
     {
       "package": "rhsso-operator",
       "name": "rhsso-operator",
+      "version": "7.6.12-opr-013",
+      "keywords": [
+        "Keycloak",
+        "Identity",
+        "Access"
+      ],
+      "description": "An Operator for installing and managing Red Hat Single Sign-On",
+      "channel": "stable"
+    },
+    {
+      "package": "rhsso-operator",
+      "name": "rhsso-operator",
       "version": "7.6.2-opr-001",
       "keywords": [
         "Keycloak",
@@ -59581,6 +59856,17 @@
       "package": "rhtpa-operator",
       "name": "rhtpa-operator",
       "version": "1.1.7",
+      "keywords": [
+        "rhtpa",
+        "trusted-profile-analyzer"
+      ],
+      "description": "",
+      "channel": "stable-v1.1"
+    },
+    {
+      "package": "rhtpa-operator",
+      "name": "rhtpa-operator",
+      "version": "1.1.8",
       "keywords": [
         "rhtpa",
         "trusted-profile-analyzer"
@@ -60509,45 +60795,6 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
-      "version": "1.0.0",
-      "keywords": [
-        "mutating",
-        "webhook",
-        "workload",
-        "run-once"
-      ],
-      "description": "An operator to manage the OpenShift RunOnceDurationOverride Mutating Admission Webhook Server",
-      "channel": "stable"
-    },
-    {
-      "package": "run-once-duration-override-operator",
-      "name": "run-once-duration-override-operator",
-      "version": "1.0.1",
-      "keywords": [
-        "mutating",
-        "webhook",
-        "workload",
-        "run-once"
-      ],
-      "description": "An operator to manage the OpenShift RunOnceDurationOverride Mutating Admission Webhook Server",
-      "channel": "stable"
-    },
-    {
-      "package": "run-once-duration-override-operator",
-      "name": "run-once-duration-override-operator",
-      "version": "1.0.2",
-      "keywords": [
-        "mutating",
-        "webhook",
-        "workload",
-        "run-once"
-      ],
-      "description": "An operator to manage the OpenShift RunOnceDurationOverride Mutating Admission Webhook Server",
-      "channel": "stable"
-    },
-    {
-      "package": "run-once-duration-override-operator",
-      "name": "run-once-duration-override-operator",
       "version": "1.1.0",
       "keywords": [
         "mutating",
@@ -60575,6 +60822,32 @@
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
       "version": "1.1.2",
+      "keywords": [
+        "mutating",
+        "webhook",
+        "workload",
+        "run-once"
+      ],
+      "description": "An operator to manage the OpenShift RunOnceDurationOverride Mutating Admission Webhook Server",
+      "channel": "stable"
+    },
+    {
+      "package": "run-once-duration-override-operator",
+      "name": "run-once-duration-override-operator",
+      "version": "1.1.3",
+      "keywords": [
+        "mutating",
+        "webhook",
+        "workload",
+        "run-once"
+      ],
+      "description": "An operator to manage the OpenShift RunOnceDurationOverride Mutating Admission Webhook Server",
+      "channel": "stable"
+    },
+    {
+      "package": "run-once-duration-override-operator",
+      "name": "run-once-duration-override-operator",
+      "version": "1.1.4",
       "keywords": [
         "mutating",
         "webhook",
@@ -60627,6 +60900,19 @@
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
       "version": "1.2.3",
+      "keywords": [
+        "mutating",
+        "webhook",
+        "workload",
+        "run-once"
+      ],
+      "description": "An operator to manage the OpenShift RunOnceDurationOverride Mutating Admission Webhook Server",
+      "channel": "stable"
+    },
+    {
+      "package": "run-once-duration-override-operator",
+      "name": "run-once-duration-override-operator",
+      "version": "1.2.4",
       "keywords": [
         "mutating",
         "webhook",
@@ -63847,6 +64133,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.0.15",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.0.2",
       "keywords": [
         "istio",
@@ -63980,6 +64278,18 @@
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
       "version": "3.1.11",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.1.12",
       "keywords": [
         "istio",
         "servicemesh",
@@ -64195,6 +64505,18 @@
     {
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
+      "version": "3.2.9",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
       "version": "3.3.0",
       "keywords": [
         "istio",
@@ -64268,6 +64590,18 @@
       "package": "servicemeshoperator3",
       "name": "servicemeshoperator3",
       "version": "3.3.6",
+      "keywords": [
+        "istio",
+        "servicemesh",
+        "envoy"
+      ],
+      "description": "The OpenShift Service Mesh Operator enables you to install, configure, and manage an instance of Red Hat OpenShift Service Mesh. OpenShift Service Mesh is based on the open source Istio project.",
+      "channel": "stable"
+    },
+    {
+      "package": "servicemeshoperator3",
+      "name": "servicemeshoperator3",
+      "version": "3.3.7",
       "keywords": [
         "istio",
         "servicemesh",
@@ -66605,6 +66939,34 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.22.0-1",
+      "keywords": [
+        "tempo",
+        "tracing",
+        "observability",
+        "monitoring",
+        "database"
+      ],
+      "description": "Create and manage deployments of Tempo, a high-scale distributed tracing backend.",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.22.0-2",
+      "keywords": [
+        "tempo",
+        "tracing",
+        "observability",
+        "monitoring",
+        "database"
+      ],
+      "description": "Create and manage deployments of Tempo, a high-scale distributed tracing backend.",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "keywords": [
         "tracing",
@@ -68200,7 +68562,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4961,
+  "count": 4988,
   "source": "opm",
-  "timestamp": "2026-09-07T07:05:38.946421"
+  "timestamp": "2026-09-13T07:08:43.598028"
 }

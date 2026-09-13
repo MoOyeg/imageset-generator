@@ -2533,6 +2533,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.30.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -3138,6 +3151,17 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.14.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
+      "version": "1.15.0",
       "keywords": [
         "security",
         "runtime-protection"
@@ -4464,6 +4488,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.20",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.4",
       "channel": "stable"
     },
@@ -4855,6 +4891,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.11.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.12.0",
       "keywords": [
         "mongodb",
         "databases",
@@ -6202,6 +6250,24 @@
       "channel": "alpha"
     },
     {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
       "package": "sriov-fec",
       "name": "sriov-fec",
       "version": "2.10.0",
@@ -6276,12 +6342,12 @@
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.2-candidate-20260728001913000",
+      "version": "1.7.3-candidate-20260908103220000",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
@@ -6817,7 +6883,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.7",
+      "version": "3.4.8",
       "keywords": [
         "autoscaling",
         "kubernetes",
@@ -6834,66 +6900,154 @@
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.13",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.14",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.17",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.26",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.27",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.29",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.33",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.36",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.38",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.40",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
       "version": "6.0.42",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "appliance",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
       "channel": "lts"
     },
     {
@@ -6935,7 +7089,7 @@
       "channel": "stable"
     }
   ],
-  "count": 706,
+  "count": 711,
   "source": "opm",
-  "timestamp": "2026-09-07T07:14:36.191496"
+  "timestamp": "2026-09-13T07:15:44.319376"
 }

@@ -1064,6 +1064,36 @@
     "storage.simplyblock.io/v1alpha1/BackupPolicy": [
       "simplyblock-operator"
     ],
+    "storage.simplyblock.io/v1alpha1/BackupImport": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ControlPlane": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPair": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationSlot": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeSet": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StoragePool": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/VolumeMigration": [
+      "simplyblock-operator"
+    ],
     "sriovfec.intel.com/v1/SriovFecClusterConfig": [
       "sriov-fec"
     ],
@@ -1266,5 +1296,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-09-07T07:14:36.569503"
+  "timestamp": "2026-09-13T07:15:44.583951"
 }

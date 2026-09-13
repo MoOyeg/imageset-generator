@@ -2595,6 +2595,12 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.30.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -3127,6 +3133,12 @@
       "channel": "alpha"
     },
     {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.89",
+      "channel": "alpha"
+    },
+    {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.10.2",
@@ -3519,6 +3531,12 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.15.0",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -3664,6 +3682,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.3.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.3.2",
       "channel": "stable"
     },
     {
@@ -4329,7 +4353,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.7",
+      "version": "2.24.8",
       "channel": "beta"
     },
     {
@@ -4365,7 +4389,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.7",
+      "version": "2.24.8",
       "channel": "beta"
     },
     {
@@ -5038,6 +5062,12 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.2",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.20",
       "channel": "stable"
     },
     {
@@ -5725,6 +5755,12 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.5",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -6238,12 +6274,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.21.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.21.0-beta.1",
+      "version": "8.21.10-beta.1",
       "channel": "beta"
     },
     {
@@ -6358,18 +6394,24 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.21.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.0-beta.1",
+      "version": "8.21.10-beta.1",
       "channel": "beta"
     },
     {
       "package": "memcached-operator-ogaye",
       "name": "memcached-operator-ogaye",
       "version": "0.0.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "merak-ai-agent",
+      "name": "merak-ai-agent",
+      "version": "0.1.0",
       "channel": "alpha"
     },
     {
@@ -6892,6 +6934,12 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.11.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.12.0",
       "channel": "stable"
     },
     {
@@ -8167,15 +8215,21 @@
       "channel": "alpha"
     },
     {
-      "package": "prometurbo-certified",
-      "name": "prometurbo-certified",
-      "version": "8.21.0",
-      "channel": "beta"
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.3.2",
+      "channel": "alpha"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.21.0-beta.2",
+      "version": "8.21.0",
+      "channel": "stable"
+    },
+    {
+      "package": "prometurbo-certified",
+      "name": "prometurbo-certified",
+      "version": "8.21.10-beta.1",
       "channel": "beta"
     },
     {
@@ -9049,6 +9103,18 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.4",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.5",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -9075,7 +9141,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.19.7",
+      "version": "0.20.9",
       "channel": "alpha"
     },
     {
@@ -9718,24 +9784,24 @@
       "package": "t8c-certified",
       "name": "t8c-certified",
       "version": "42.114.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.114.0-beta.1",
+      "version": "42.115.0-beta.1",
       "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
       "version": "1.7.2",
-      "channel": "candidate"
+      "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.2-candidate-20260728001913000",
+      "version": "1.7.3-candidate-20260908103220000",
       "channel": "candidate"
     },
     {
@@ -10017,20 +10083,8 @@
     {
       "package": "tawon-operator",
       "name": "tawon-operator",
-      "version": "3.0.0",
-      "channel": "fast-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.1",
-      "channel": "fast-v3"
-    },
-    {
-      "package": "tawon-operator",
-      "name": "tawon-operator",
-      "version": "3.0.2",
-      "channel": "fast-v3"
+      "version": "3.1.0",
+      "channel": "candidate-v3"
     },
     {
       "package": "tawon-operator",
@@ -10042,6 +10096,12 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "3.1.0-rc8",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.0-rc9",
       "channel": "candidate-v3"
     },
     {
@@ -11079,7 +11139,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.7",
+      "version": "3.4.8",
       "channel": "stable"
     },
     {
@@ -11191,7 +11251,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1865,
+  "count": 1875,
   "source": "opm",
-  "timestamp": "2026-09-07T06:53:26.500462"
+  "timestamp": "2026-09-13T06:57:03.276584"
 }

@@ -1161,6 +1161,12 @@
     {
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
+      "version": "7.13.6-opr-1",
+      "channel": "7.13.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
       "version": "7.14.0-opr-1",
       "channel": "7.14.x"
     },
@@ -1186,6 +1192,12 @@
       "package": "amq-broker-rhel9",
       "name": "amq-broker-rhel9",
       "version": "7.14.0-opr-1+0.1778764984.p",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.1-opr-1",
       "channel": "7.14.x"
     },
     {
@@ -5505,6 +5517,12 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.26",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -5716,6 +5734,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.12.21",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.12.22",
       "channel": "stable-3.12"
     },
     {
@@ -6382,6 +6406,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.9.25",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.9.26",
       "channel": "stable-3.9"
     },
     {
@@ -7282,6 +7312,12 @@
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.6.6",
+      "channel": "stable"
+    },
+    {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.7",
       "channel": "stable"
     },
     {
@@ -18873,6 +18909,18 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
+      "version": "1.1.0",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-secondary-scheduler-operator",
+      "name": "openshift-secondary-scheduler-operator",
+      "version": "1.1.1",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-secondary-scheduler-operator",
+      "name": "openshift-secondary-scheduler-operator",
       "version": "1.1.2",
       "channel": "stable"
     },
@@ -18897,6 +18945,12 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
+      "version": "1.1.6",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-secondary-scheduler-operator",
+      "name": "openshift-secondary-scheduler-operator",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -18916,6 +18970,12 @@
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
       "version": "1.2.3",
+      "channel": "stable"
+    },
+    {
+      "package": "openshift-secondary-scheduler-operator",
+      "name": "openshift-secondary-scheduler-operator",
+      "version": "1.2.4",
       "channel": "stable"
     },
     {
@@ -19042,6 +19102,12 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.152.0-3",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.158.0-1",
       "channel": "stable"
     },
     {
@@ -19635,6 +19701,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.26",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -19846,6 +19918,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.12.21",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.12.22",
       "channel": "stable-3.12"
     },
     {
@@ -20517,6 +20595,12 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.26",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -20668,6 +20752,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.25",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.10.26",
       "channel": "stable-3.10"
     },
     {
@@ -20884,6 +20974,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.12.21",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.12.22",
       "channel": "stable-3.12"
     },
     {
@@ -21490,6 +21586,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.25",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.26",
       "channel": "stable-3.9"
     },
     {
@@ -22150,6 +22252,12 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.0+0.1788178587.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1",
       "channel": "latest"
     },
     {
@@ -24363,6 +24471,12 @@
     {
       "package": "rhsso-operator",
       "name": "rhsso-operator",
+      "version": "7.6.12-opr-013",
+      "channel": "stable"
+    },
+    {
+      "package": "rhsso-operator",
+      "name": "rhsso-operator",
       "version": "7.6.2-opr-001",
       "channel": "stable"
     },
@@ -24561,6 +24675,12 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
+      "version": "1.0.4",
+      "channel": "stable"
+    },
+    {
+      "package": "run-once-duration-override-operator",
+      "name": "run-once-duration-override-operator",
       "version": "1.1.0",
       "channel": "stable"
     },
@@ -24580,6 +24700,12 @@
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
       "version": "1.1.3",
+      "channel": "stable"
+    },
+    {
+      "package": "run-once-duration-override-operator",
+      "name": "run-once-duration-override-operator",
+      "version": "1.1.4",
       "channel": "stable"
     },
     {
@@ -26829,6 +26955,18 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.22.0-1",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
+      "version": "0.22.0-2",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "channel": "stable"
     },
@@ -27517,7 +27655,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4586,
+  "count": 4609,
   "source": "opm",
-  "timestamp": "2026-09-07T06:56:21.923605"
+  "timestamp": "2026-09-13T07:00:01.081690"
 }

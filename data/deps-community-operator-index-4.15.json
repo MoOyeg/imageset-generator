@@ -894,6 +894,9 @@
     "mwaa.services.k8s.aws/v1alpha1/Environment": [
       "ack-mwaa-controller"
     ],
+    "mwaaserverless.services.k8s.aws/v1alpha1/Workflow": [
+      "ack-mwaaserverless-controller"
+    ],
     "networkfirewall.services.k8s.aws/v1alpha1/Firewall": [
       "ack-networkfirewall-controller"
     ],
@@ -4753,5 +4756,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-07T06:58:01.904762"
+  "timestamp": "2026-09-13T07:01:45.614249"
 }

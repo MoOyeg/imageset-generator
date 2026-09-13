@@ -963,6 +963,9 @@
     "kalybr.ai/v1alpha1/EnterpriseSmall": [
       "ent-small-operator"
     ],
+    "eqube.operator/v1/EQProduct": [
+      "eqube-operator"
+    ],
     "charts.ddn.com/v1alpha1/ExaCsi": [
       "exascaler-csi-driver-operator"
     ],
@@ -1321,6 +1324,12 @@
     ],
     "app.loadcore.keysight.com/v1alpha1/Agents": [
       "keysight-loadcore-agents"
+    ],
+    "containers.kove.com/v1/KoveMemoryConfig": [
+      "kove-operator"
+    ],
+    "containers.kove.com/v1/KoveSystem": [
+      "kove-operator"
     ],
     "operator.kubearmor.com/v1/KubeArmorConfig": [
       "kubearmor-operator-certified"
@@ -2094,6 +2103,36 @@
     "storage.simplyblock.io/v1alpha1/BackupPolicy": [
       "simplyblock-operator"
     ],
+    "storage.simplyblock.io/v1alpha1/BackupImport": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ControlPlane": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPair": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationSlot": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeSet": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StoragePool": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/VolumeMigration": [
+      "simplyblock-operator"
+    ],
     "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
       "sn-operator"
     ],
@@ -2784,9 +2823,30 @@
     "kubernetes.zabbix.com/v1alpha1/ZabbixServer": [
       "zabbix-operator-certified"
     ],
+    "operator.zabbix.com/v1beta1/ZabbixAPIMigration": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixAgent": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixAgent2": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixFull": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixProxyMysql": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixProxySqlite": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixServer": [
+      "zabbix-operator-certified"
+    ],
     "zookeeper.transwarp.io/v1alpha1/ZKCluster": [
       "zk-operator"
     ]
   },
-  "timestamp": "2026-09-07T07:08:01.532576"
+  "timestamp": "2026-09-13T07:10:30.514510"
 }

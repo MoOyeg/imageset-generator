@@ -876,6 +876,9 @@
     "mwaa.services.k8s.aws/v1alpha1/Environment": [
       "ack-mwaa-controller"
     ],
+    "mwaaserverless.services.k8s.aws/v1alpha1/Workflow": [
+      "ack-mwaaserverless-controller"
+    ],
     "networkfirewall.services.k8s.aws/v1alpha1/Firewall": [
       "ack-networkfirewall-controller"
     ],
@@ -3000,6 +3003,27 @@
     "tackle.konveyor.io/v1alpha1/Task": [
       "konveyor-operator"
     ],
+    "konveyor.io/v1alpha1/Agent": [
+      "konveyor-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentRun": [
+      "konveyor-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentWorkflow": [
+      "konveyor-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentWorkflowRun": [
+      "konveyor-operator"
+    ],
+    "konveyor.io/v1alpha1/Gateway": [
+      "konveyor-operator"
+    ],
+    "konveyor.io/v1alpha1/SkillCard": [
+      "konveyor-operator"
+    ],
+    "konveyor.io/v1alpha1/SkillCollection": [
+      "konveyor-operator"
+    ],
     "tackle.konveyor.io/v1alpha2/Addon": [
       "konveyor-operator"
     ],
@@ -5068,5 +5092,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-07T07:09:40.961994"
+  "timestamp": "2026-09-13T07:12:07.189412"
 }
