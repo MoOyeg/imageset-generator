@@ -1695,6 +1695,48 @@
     "argocd-image-updater.argoproj.io/v1alpha1/ImageUpdater": [
       "openshift-gitops-operator"
     ],
+    "promoter.argoproj.io/v1alpha1/ArgoCDCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ChangeTransferPolicy": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ClusterScmProvider": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/CommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ControllerConfiguration": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/GitCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/GitRepository": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/PromotionStrategy": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/PullRequest": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/RevertCommit": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ScheduledCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ScmProvider": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/TimedCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/WebRequestCommitStatus": [
+      "openshift-gitops-operator"
+    ],
     "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
       "openshift-pipelines-operator-rh"
     ],
@@ -2500,5 +2542,5 @@
       "watcher-operator"
     ]
   },
-  "timestamp": "2026-09-13T07:04:10.600841"
+  "timestamp": "2026-10-07T07:04:23.893694"
 }

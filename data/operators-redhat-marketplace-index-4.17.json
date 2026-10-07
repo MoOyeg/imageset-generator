@@ -328,7 +328,7 @@
     {
       "package": "cockroachdb-certified-rhmp",
       "name": "cockroachdb-certified-rhmp",
-      "version": "2.18.3",
+      "version": "2.18.4",
       "keywords": [
         "database",
         "cockroachDB"
@@ -518,6 +518,20 @@
     {
       "package": "couchbase-enterprise-certified-rhmp",
       "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.2-4",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.2"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
       "version": "2.9.3-1",
       "keywords": [
         "couchbase",
@@ -547,6 +561,20 @@
       "package": "couchbase-enterprise-certified-rhmp",
       "name": "couchbase-enterprise-certified-rhmp",
       "version": "2.9.3-3",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.3"
+    },
+    {
+      "package": "couchbase-enterprise-certified-rhmp",
+      "name": "couchbase-enterprise-certified-rhmp",
+      "version": "2.9.3-4",
       "keywords": [
         "couchbase",
         "database",
@@ -3826,6 +3854,38 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.19.0-rc3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.19.0-rc4",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
       "package": "starburst-enterprise-helm-operator-paygo-rhmp",
       "name": "starburst-enterprise-helm-operator-paygo-rhmp",
       "version": "402.1.0",
@@ -3906,6 +3966,19 @@
       "channel": "alpha"
     },
     {
+      "package": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "name": "sumologic-kubernetes-collection-helm-operator-rhmp",
+      "version": "5.7.0-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
       "package": "timemachine-operator-rhmp",
       "name": "timemachine-operator-rhmp",
       "version": "1.0.16",
@@ -3951,6 +4024,18 @@
       "package": "vfunction-server-operator-rhmp",
       "name": "vfunction-server-operator-rhmp",
       "version": "4.7.2072",
+      "keywords": [
+        "vfunction",
+        "analyzing",
+        "services"
+      ],
+      "description": "vFunction is a cutting-edge code analysis, machine learning, and automation to boost your Java modernization projects.",
+      "channel": "stable"
+    },
+    {
+      "package": "vfunction-server-operator-rhmp",
+      "name": "vfunction-server-operator-rhmp",
+      "version": "5.0.2157",
       "keywords": [
         "vfunction",
         "analyzing",
@@ -4179,7 +4264,7 @@
       "channel": "lts"
     }
   ],
-  "count": 327,
+  "count": 333,
   "source": "opm",
-  "timestamp": "2026-09-13T07:08:00.162430"
+  "timestamp": "2026-10-07T07:08:09.274021"
 }

@@ -82,6 +82,31 @@
       ],
       "requires_gvks": []
     },
+    "krkn-operator-acm": {
+      "requires_packages": [
+        {
+          "packageName": "krkn-operator",
+          "versionRange": ">=1.0.1"
+        }
+      ],
+      "requires_gvks": [
+        {
+          "group": "krkn.krkn-chaos.dev",
+          "kind": "KrknOperatorTargetProvider",
+          "version": "v1alpha1"
+        },
+        {
+          "group": "krkn.krkn-chaos.dev",
+          "kind": "KrknOperatorTargetProviderConfig",
+          "version": "v1alpha1"
+        },
+        {
+          "group": "krkn.krkn-chaos.dev",
+          "kind": "KrknTargetRequest",
+          "version": "v1alpha1"
+        }
+      ]
+    },
     "kuadrant-operator": {
       "requires_packages": [
         {
@@ -303,6 +328,9 @@
       "ack-acm-controller"
     ],
     "acm.services.k8s.aws/v1alpha1/AcmeEndpoint": [
+      "ack-acm-controller"
+    ],
+    "acm.services.k8s.aws/v1alpha1/AcmeExternalAccountBinding": [
       "ack-acm-controller"
     ],
     "acmpca.services.k8s.aws/v1alpha1/CertificateAuthority": [
@@ -746,6 +774,9 @@
     "glue.services.k8s.aws/v1alpha1/Job": [
       "ack-glue-controller"
     ],
+    "glue.services.k8s.aws/v1alpha1/Database": [
+      "ack-glue-controller"
+    ],
     "iam.services.k8s.aws/v1alpha1/Policy": [
       "ack-iam-controller"
     ],
@@ -869,10 +900,19 @@
     "opensearchserverless.services.k8s.aws/v1alpha1/Collection": [
       "ack-opensearchserverless-controller"
     ],
+    "opensearchserverless.services.k8s.aws/v1alpha1/AccessPolicy": [
+      "ack-opensearchserverless-controller"
+    ],
+    "opensearchserverless.services.k8s.aws/v1alpha1/LifecyclePolicy": [
+      "ack-opensearchserverless-controller"
+    ],
     "opensearchservice.services.k8s.aws/v1alpha1/Domain": [
       "ack-opensearchservice-controller"
     ],
     "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpoint": [
+      "ack-opensearchservice-controller"
+    ],
+    "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpointAccess": [
       "ack-opensearchservice-controller"
     ],
     "organizations.services.k8s.aws/v1alpha1/OrganizationalUnit": [
@@ -2425,6 +2465,78 @@
     "networking.turbosimone.com/v1alpha1/NetworkPolicy": [
       "fqdn-egress-operator"
     ],
+    "vyogo.tech/v1/FrappeBench": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/FrappeSite": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/FrappeWorkspace": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteAPIKey": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteApp": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteBackup": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteClientScript": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteConfig": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteCron": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteCustomField": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDashboard": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDashboardChart": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDomain": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteJob": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteMigration": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SitePropertySetter": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteQuota": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteRestore": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteRole": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteServerScript": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteUser": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteUserPermission": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteWebhook": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteWorkspace": [
+      "frappe-operator"
+    ],
     "github-practice.boxboat.com/v1alpha1/ActionsRunnerController": [
       "github-arc-operator"
     ],
@@ -2668,6 +2780,15 @@
     ],
     "mlops.mlops.dev/v1alpha1/NotebookValidationJob": [
       "jupyter-notebook-validator-operator"
+    ],
+    "k8boss.io/v1alpha1/PlatformConfig": [
+      "k8boss-operator"
+    ],
+    "k8boss.io/v1alpha1/RuntimeSecurityPolicy": [
+      "k8boss-operator"
+    ],
+    "k8boss.io/v1alpha1/SegmentationPolicy": [
+      "k8boss-operator"
     ],
     "k8gb.absa.oss/v1beta1/Gslb": [
       "k8gb"
@@ -2915,6 +3036,36 @@
     "korrel8r.openshift.io/v1alpha1/Korrel8r": [
       "korrel8r"
     ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknFileType": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknGraphRun": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknOperatorTarget": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknOperatorTargetProvider": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknOperatorTargetProviderConfig": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknScenarioRun": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknTargetRequest": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknUser": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknUserGroup": [
+      "krkn-operator"
+    ],
+    "krkn.krkn-chaos.dev/v1alpha1/KrknCategory": [
+      "krkn-operator"
+    ],
     "kruize.io/v1alpha1/Kruize": [
       "kruize-operator"
     ],
@@ -2944,6 +3095,9 @@
     ],
     "charts.kubecost.com/v1alpha1/CostAnalyzer": [
       "kubecost"
+    ],
+    "aiops.kubeheal.io/v1alpha1/SelfHealingPlatform": [
+      "kubeheal-operator"
     ],
     "kubernaut.ai/v1alpha1/Kubernaut": [
       "kubernaut-operator"
@@ -3400,6 +3554,15 @@
     ],
     "monitoring.rhobs/v1/ThanosRuler": [
       "observability-operator"
+    ],
+    "mirror.openshift.io/v1alpha1/ImageSet": [
+      "oc-mirror"
+    ],
+    "mirror.openshift.io/v1alpha1/MirrorExport": [
+      "oc-mirror"
+    ],
+    "mirror.openshift.io/v1alpha1/MirrorTarget": [
+      "oc-mirror"
     ],
     "ccm.oraclecloud.com/v1alpha1/OCICloudManager": [
       "oci-ccm-operator"
@@ -4121,6 +4284,54 @@
     "sts.silicom.com/v1alpha1/StsOperatorConfig": [
       "silicom-sts-operator"
     ],
+    "storage.simplyblock.io/v1alpha1/BackupImport": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/BackupPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/BackupRestore": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ControlPlane": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPair": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationSlot": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageBackup": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageCluster": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNode": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeSet": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StoragePool": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/Task": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/VolumeMigration": [
+      "simplyblock-operator"
+    ],
     "slinky.slurm.net/v1alpha1/Accounting": [
       "slurm-operator"
     ],
@@ -4254,6 +4465,9 @@
       "stackgres-community"
     ],
     "stackgres.io/v1alpha1/SGStream": [
+      "stackgres-community"
+    ],
+    "stackgres.io/v1beta1/SGShardedCluster": [
       "stackgres-community"
     ],
     "kafka.strimzi.io/v1beta2/Kafka": [
@@ -4393,6 +4607,12 @@
     ],
     "pingcap.com/v1alpha1/TidbNGMonitoring": [
       "tidb-operator"
+    ],
+    "security.telco.openshift.io/v1alpha1/TLSComplianceReport": [
+      "tls-compliance-operator"
+    ],
+    "security.telco.openshift.io/v1alpha1/TLSComplianceTarget": [
+      "tls-compliance-operator"
     ],
     "trident.netapp.io/v1/TridentOrchestrator": [
       "trident-operator"
@@ -4823,6 +5043,9 @@
     "operator.victoriametrics.com/v1alpha1/VLDistributed": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1/VTAgent": [
+      "victoriametrics-operator"
+    ],
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
       "visionone-containersecurity"
     ],
@@ -4839,5 +5062,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-13T07:13:24.198065"
+  "timestamp": "2026-10-07T07:13:24.855429"
 }

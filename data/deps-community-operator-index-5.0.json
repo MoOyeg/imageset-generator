@@ -260,6 +260,9 @@
     "acm.services.k8s.aws/v1alpha1/AcmeEndpoint": [
       "ack-acm-controller"
     ],
+    "acm.services.k8s.aws/v1alpha1/AcmeExternalAccountBinding": [
+      "ack-acm-controller"
+    ],
     "acmpca.services.k8s.aws/v1alpha1/CertificateAuthority": [
       "ack-acmpca-controller"
     ],
@@ -701,6 +704,9 @@
     "glue.services.k8s.aws/v1alpha1/Job": [
       "ack-glue-controller"
     ],
+    "glue.services.k8s.aws/v1alpha1/Database": [
+      "ack-glue-controller"
+    ],
     "iam.services.k8s.aws/v1alpha1/Policy": [
       "ack-iam-controller"
     ],
@@ -824,10 +830,19 @@
     "opensearchserverless.services.k8s.aws/v1alpha1/Collection": [
       "ack-opensearchserverless-controller"
     ],
+    "opensearchserverless.services.k8s.aws/v1alpha1/AccessPolicy": [
+      "ack-opensearchserverless-controller"
+    ],
+    "opensearchserverless.services.k8s.aws/v1alpha1/LifecyclePolicy": [
+      "ack-opensearchserverless-controller"
+    ],
     "opensearchservice.services.k8s.aws/v1alpha1/Domain": [
       "ack-opensearchservice-controller"
     ],
     "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpoint": [
+      "ack-opensearchservice-controller"
+    ],
+    "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpointAccess": [
       "ack-opensearchservice-controller"
     ],
     "organizations.services.k8s.aws/v1alpha1/OrganizationalUnit": [
@@ -2313,6 +2328,78 @@
     "networking.turbosimone.com/v1alpha1/NetworkPolicy": [
       "fqdn-egress-operator"
     ],
+    "vyogo.tech/v1/FrappeBench": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/FrappeSite": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/FrappeWorkspace": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteAPIKey": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteApp": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteBackup": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteClientScript": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteConfig": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteCron": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteCustomField": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDashboard": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDashboardChart": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDomain": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteJob": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteMigration": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SitePropertySetter": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteQuota": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteRestore": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteRole": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteServerScript": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteUser": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteUserPermission": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteWebhook": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteWorkspace": [
+      "frappe-operator"
+    ],
     "github-practice.boxboat.com/v1alpha1/ActionsRunnerController": [
       "github-arc-operator"
     ],
@@ -2458,6 +2545,15 @@
     "maximilianopizarro.github.io/v1alpha1/PyhipsterWorker": [
       "jhipster-online-operator"
     ],
+    "k8boss.io/v1alpha1/PlatformConfig": [
+      "k8boss-operator"
+    ],
+    "k8boss.io/v1alpha1/RuntimeSecurityPolicy": [
+      "k8boss-operator"
+    ],
+    "k8boss.io/v1alpha1/SegmentationPolicy": [
+      "k8boss-operator"
+    ],
     "k8gb.absa.oss/v1beta1/Gslb": [
       "k8gb"
     ],
@@ -2541,6 +2637,15 @@
     ],
     "app.kiegroup.org/v1beta1/KogitoSupportingService": [
       "kogito-operator"
+    ],
+    "koku-metrics-cfg.openshift.io/v1alpha1/KokuMetricsConfig": [
+      "koku-metrics-operator"
+    ],
+    "koku-metrics-cfg.openshift.io/v1beta1/KokuMetricsConfig": [
+      "koku-metrics-operator"
+    ],
+    "costmanagement-metrics-cfg.openshift.io/v1beta1/CostManagementMetricsConfig": [
+      "koku-metrics-operator"
     ],
     "kollect.dev/v1alpha1/KollectClusterInventory": [
       "kollect"
@@ -3358,6 +3463,54 @@
     "sts.silicom.com/v1alpha1/StsOperatorConfig": [
       "silicom-sts-operator"
     ],
+    "storage.simplyblock.io/v1alpha1/BackupImport": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/BackupPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/BackupRestore": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ControlPlane": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPair": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/ReplicationSlot": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageBackup": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageCluster": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNode": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageNodeSet": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StoragePool": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/Task": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/VolumeMigration": [
+      "simplyblock-operator"
+    ],
     "snapscheduler.backube/v1/SnapshotSchedule": [
       "snapscheduler"
     ],
@@ -3558,6 +3711,12 @@
     ],
     "pingcap.com/v1alpha1/TidbNGMonitoring": [
       "tidb-operator"
+    ],
+    "security.telco.openshift.io/v1alpha1/TLSComplianceReport": [
+      "tls-compliance-operator"
+    ],
+    "security.telco.openshift.io/v1alpha1/TLSComplianceTarget": [
+      "tls-compliance-operator"
     ],
     "org.trustify/v1alpha1/Trustify": [
       "trustify-operator"
@@ -3923,5 +4082,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-13T07:15:59.692333"
+  "timestamp": "2026-10-07T07:16:22.886166"
 }

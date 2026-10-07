@@ -44,7 +44,7 @@
       "requires_packages": [
         {
           "packageName": "ibm-block-csi-operator",
-          "versionRange": ">=1.13.2"
+          "versionRange": ">=1.14.0"
         }
       ],
       "requires_gvks": []
@@ -146,16 +146,16 @@
     "tenant-operator": {
       "requires_packages": [
         {
-          "packageName": "template-operator",
-          "versionRange": ">=0.1.4"
-        },
-        {
           "packageName": "hibernation-operator",
-          "versionRange": ">=0.1.103"
+          "versionRange": ">=0.1.104"
         },
         {
           "packageName": "mto-dependencies-operator",
-          "versionRange": ">=0.0.5"
+          "versionRange": ">=0.0.14"
+        },
+        {
+          "packageName": "template-operator",
+          "versionRange": ">=0.1.8"
         }
       ],
       "requires_gvks": []
@@ -204,9 +204,6 @@
     "microgateway.airlock.com/v1alpha1/EnvoyCluster": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/EnvoyConfiguration": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
       "airlock-microgateway"
     ],
@@ -222,6 +219,12 @@
     "microgateway.airlock.com/v1alpha1/HeaderRewrites": [
       "airlock-microgateway"
     ],
+    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
+      "airlock-microgateway"
+    ],
     "microgateway.airlock.com/v1alpha1/IdentityPropagation": [
       "airlock-microgateway"
     ],
@@ -232,6 +235,9 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/Limits": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/OIDCProvider": [
@@ -256,15 +262,6 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/TokenExchange": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
@@ -471,6 +468,9 @@
     ],
     "intersight.cisco.com/v1/CiscoIntersight": [
       "cisco-intersight"
+    ],
+    "isovalent.com/v1alpha1/RegistryCredential": [
+      "clife"
     ],
     "postgresql.k8s.enterprisedb.io/v1/Backup": [
       "cloud-native-postgresql"
@@ -746,6 +746,9 @@
     "cte-k8s-operator.csi.cte.cpl.thalesgroup.com/v1/CteK8sOperator": [
       "cte-k8s-operator"
     ],
+    "thalesgroup.com/v1/CMregistrationClass": [
+      "cte-k8s-operator"
+    ],
     "datadoghq.com/v1alpha1/DatadogAgent": [
       "datadog-operator-certified"
     ],
@@ -913,9 +916,6 @@
     ],
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
-    ],
-    "kalybr.ai/v1alpha1/EnterpriseSmall": [
-      "ent-small-operator"
     ],
     "eqube.operator/v1/EQProduct": [
       "eqube-operator"
@@ -1142,6 +1142,12 @@
     "itrsgroup.com/v1/IAXPlatform": [
       "iax-webhook-router"
     ],
+    "ama.ibm.com/v2/AppMod": [
+      "ibm-app-mod-accelerator"
+    ],
+    "ama.ibm.com/v3/AppMod": [
+      "ibm-app-mod-accelerator"
+    ],
     "ibm.com/v1/IBMApplicationGateway": [
       "ibm-application-gateway-operator"
     ],
@@ -1249,6 +1255,9 @@
     ],
     "triliovault.trilio.io/v1/TrilioVaultManager": [
       "k8s-triliovault"
+    ],
+    "kalybr.ai/v1alpha1/Kalybr": [
+      "kalybr-ent-operator"
     ],
     "charts.kedify.io/v1alpha1/KedifyAgent": [
       "kedify-agent-helm-operator"
@@ -1424,6 +1433,9 @@
     "mediation.turbonomic.ibm.com/v1alpha1/OpenstackProbe": [
       "mediation-openstack-operator"
     ],
+    "charts.quay.io/v1alpha1/Directpv": [
+      "minio-directpv"
+    ],
     "minkms.min.io/v1alpha1/MinKMS": [
       "minio-minkms-operator"
     ],
@@ -1549,6 +1561,9 @@
       "mto-dependencies-operator"
     ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Prometheus": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/TemplateOperatorV2": [
       "mto-dependencies-operator"
     ],
     "deployments.netai.tech/v1alpha1/AntennaDeployment": [
@@ -2217,13 +2232,13 @@
     "tenantoperator.stakater.com/v1beta1/Quota": [
       "tenant-operator"
     ],
-    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
-      "tenant-operator"
-    ],
     "tenantoperator.stakater.com/v1beta2/Tenant": [
       "tenant-operator"
     ],
     "tenantoperator.stakater.com/v1beta3/Tenant": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
       "tenant-operator"
     ],
     "crd.projectcalico.org/v1/BGPConfiguration": [
@@ -2298,6 +2313,15 @@
     "tvo.trilio.io/v1/TVOControlPlane": [
       "tvo-operator"
     ],
+    "ca.broadcom.com/v1alpha1/UniversalMonitoringAgentsAdmin": [
+      "uma-admin-operator"
+    ],
+    "ca.broadcom.com/v1alpha1/UniversalMonitoringAgent": [
+      "uma-operator"
+    ],
+    "ca.broadcom.com1/v1alpha1/UniversalMonitoringAgentsTeam": [
+      "uma-team-operator"
+    ],
     "storage.vastdata.com/v1/VastCSIDriver": [
       "vast-csi-operator"
     ],
@@ -2348,6 +2372,9 @@
     ],
     "installer.venafi.com/v1alpha1/VenafiInstall": [
       "vcp-operator"
+    ],
+    "vfunction.com/v1/VfunctionServer": [
+      "vfunction-server-operator"
     ],
     "operator.victoriametrics.com/v1/VLAgent": [
       "victoriametrics-operator"
@@ -2422,6 +2449,9 @@
       "victoriametrics-operator"
     ],
     "operator.victoriametrics.com/v1alpha1/VLDistributed": [
+      "victoriametrics-operator"
+    ],
+    "operator.victoriametrics.com/v1/VTAgent": [
       "victoriametrics-operator"
     ],
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
@@ -2521,5 +2551,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-09-13T07:13:06.316824"
+  "timestamp": "2026-10-07T07:13:07.419629"
 }

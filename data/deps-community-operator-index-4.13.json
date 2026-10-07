@@ -348,6 +348,9 @@
     "acm.services.k8s.aws/v1alpha1/AcmeEndpoint": [
       "ack-acm-controller"
     ],
+    "acm.services.k8s.aws/v1alpha1/AcmeExternalAccountBinding": [
+      "ack-acm-controller"
+    ],
     "acmpca.services.k8s.aws/v1alpha1/CertificateAuthority": [
       "ack-acmpca-controller"
     ],
@@ -789,6 +792,9 @@
     "glue.services.k8s.aws/v1alpha1/Job": [
       "ack-glue-controller"
     ],
+    "glue.services.k8s.aws/v1alpha1/Database": [
+      "ack-glue-controller"
+    ],
     "iam.services.k8s.aws/v1alpha1/Policy": [
       "ack-iam-controller"
     ],
@@ -912,10 +918,19 @@
     "opensearchserverless.services.k8s.aws/v1alpha1/Collection": [
       "ack-opensearchserverless-controller"
     ],
+    "opensearchserverless.services.k8s.aws/v1alpha1/AccessPolicy": [
+      "ack-opensearchserverless-controller"
+    ],
+    "opensearchserverless.services.k8s.aws/v1alpha1/LifecyclePolicy": [
+      "ack-opensearchserverless-controller"
+    ],
     "opensearchservice.services.k8s.aws/v1alpha1/Domain": [
       "ack-opensearchservice-controller"
     ],
     "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpoint": [
+      "ack-opensearchservice-controller"
+    ],
+    "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpointAccess": [
       "ack-opensearchservice-controller"
     ],
     "organizations.services.k8s.aws/v1alpha1/OrganizationalUnit": [
@@ -4215,6 +4230,9 @@
     "stackgres.io/v1alpha1/SGStream": [
       "stackgres-community"
     ],
+    "stackgres.io/v1beta1/SGShardedCluster": [
+      "stackgres-community"
+    ],
     "operator.open-cluster-management.io/v1/MultiClusterHub": [
       "stolostron"
     ],
@@ -4674,6 +4692,9 @@
     "operator.victoriametrics.com/v1alpha1/VLDistributed": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1/VTAgent": [
+      "victoriametrics-operator"
+    ],
     "virt.mathianasj.github.com/v1alpha1/VirtGitSync": [
       "virt-git-sync"
     ],
@@ -4693,5 +4714,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-13T06:54:05.083563"
+  "timestamp": "2026-10-07T06:54:10.640321"
 }

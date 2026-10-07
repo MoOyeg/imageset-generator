@@ -1431,6 +1431,48 @@
     "argocd-image-updater.argoproj.io/v1alpha1/ImageUpdater": [
       "openshift-gitops-operator"
     ],
+    "promoter.argoproj.io/v1alpha1/ArgoCDCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ChangeTransferPolicy": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ClusterScmProvider": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/CommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ControllerConfiguration": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/GitCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/GitRepository": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/PromotionStrategy": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/PullRequest": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/RevertCommit": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ScheduledCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ScmProvider": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/TimedCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/WebRequestCommitStatus": [
+      "openshift-gitops-operator"
+    ],
     "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
       "openshift-pipelines-operator-rh"
     ],
@@ -1795,6 +1837,30 @@
       "rhtas-operator"
     ],
     "rhtas.redhat.com/v1alpha1/Tuf": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/CTlog": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Console": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Fulcio": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Rekor": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Securesign": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/TimestampAuthority": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Trillian": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Tuf": [
       "rhtas-operator"
     ],
     "charts.rhtpa.io/v1/TrustedProfileAnalyzer": [
@@ -2188,5 +2254,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-09-13T07:06:55.824912"
+  "timestamp": "2026-10-07T07:07:03.571068"
 }

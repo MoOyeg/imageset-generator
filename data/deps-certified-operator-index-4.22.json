@@ -40,6 +40,15 @@
         }
       ]
     },
+    "ibm-storage-odf-operator": {
+      "requires_packages": [
+        {
+          "packageName": "ibm-block-csi-operator",
+          "versionRange": ">=1.14.0"
+        }
+      ],
+      "requires_gvks": []
+    },
     "infoscale-sds-operator": {
       "requires_packages": [
         {
@@ -94,16 +103,16 @@
     "tenant-operator": {
       "requires_packages": [
         {
-          "packageName": "template-operator",
-          "versionRange": ">=0.1.4"
-        },
-        {
           "packageName": "hibernation-operator",
-          "versionRange": ">=0.1.103"
+          "versionRange": ">=0.1.104"
         },
         {
           "packageName": "mto-dependencies-operator",
-          "versionRange": ">=0.0.5"
+          "versionRange": ">=0.0.14"
+        },
+        {
+          "packageName": "template-operator",
+          "versionRange": ">=0.1.8"
         }
       ],
       "requires_gvks": []
@@ -152,9 +161,6 @@
     "microgateway.airlock.com/v1alpha1/EnvoyCluster": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/EnvoyConfiguration": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
       "airlock-microgateway"
     ],
@@ -170,6 +176,12 @@
     "microgateway.airlock.com/v1alpha1/HeaderRewrites": [
       "airlock-microgateway"
     ],
+    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
+      "airlock-microgateway"
+    ],
     "microgateway.airlock.com/v1alpha1/IdentityPropagation": [
       "airlock-microgateway"
     ],
@@ -180,6 +192,9 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/Limits": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/OIDCProvider": [
@@ -204,15 +219,6 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/TokenExchange": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
@@ -405,6 +411,9 @@
     "intersight.cisco.com/v1/CiscoIntersight": [
       "cisco-intersight"
     ],
+    "isovalent.com/v1alpha1/RegistryCredential": [
+      "clife"
+    ],
     "postgresql.k8s.enterprisedb.io/v1/Backup": [
       "cloud-native-postgresql"
     ],
@@ -440,6 +449,9 @@
     ],
     "postgresql.k8s.enterprisedb.io/v1/DatabaseRole": [
       "cloud-native-postgresql"
+    ],
+    "apps.cloudcasa.io/v1alpha1/Cloudcasa": [
+      "cloudcasa-operator"
     ],
     "core.strimzi.io/v1beta2/StrimziPodSet": [
       "cloudera-streams-messaging-kubernetes-operator"
@@ -621,6 +633,9 @@
     "cte-k8s-operator.csi.cte.cpl.thalesgroup.com/v1/CteK8sOperator": [
       "cte-k8s-operator"
     ],
+    "thalesgroup.com/v1/CMregistrationClass": [
+      "cte-k8s-operator"
+    ],
     "datadoghq.com/v1alpha1/DatadogAgent": [
       "datadog-operator-certified"
     ],
@@ -789,11 +804,11 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
-    "kalybr.ai/v1alpha1/EnterpriseSmall": [
-      "ent-small-operator"
-    ],
     "eqube.operator/v1/EQProduct": [
       "eqube-operator"
+    ],
+    "charts.ddn.com/v1alpha1/ExaCsi": [
+      "exascaler-csi-driver-operator"
     ],
     "ai.security.f5.com/v1alpha1/SecurityOperator": [
       "f5-ai-security-operator"
@@ -812,6 +827,9 @@
     ],
     "falcon.crowdstrike.com/v1alpha1/FalconDeployment": [
       "falcon-operator"
+    ],
+    "charts.nutanix.com/v1alpha1/NutanixFlowCni": [
+      "flow-cni-operator"
     ],
     "fep.fujitsu.io/v1/FEPAction": [
       "fujitsu-enterprise-postgres-operator"
@@ -1005,8 +1023,23 @@
     "hulft.saison-technology.com/v1/Hulft": [
       "hulft"
     ],
+    "ama.ibm.com/v2/AppMod": [
+      "ibm-app-mod-accelerator"
+    ],
+    "ama.ibm.com/v3/AppMod": [
+      "ibm-app-mod-accelerator"
+    ],
     "ibm.com/v1/IBMApplicationGateway": [
       "ibm-application-gateway-operator"
+    ],
+    "csi.ibm.com/v1/HostDefiner": [
+      "ibm-block-csi-operator"
+    ],
+    "csi.ibm.com/v1/HostDefinition": [
+      "ibm-block-csi-operator"
+    ],
+    "csi.ibm.com/v1/IBMBlockCSI": [
+      "ibm-block-csi-operator"
     ],
     "marketplace.redhat.com/v1alpha1/DataReporterConfig": [
       "ibm-data-reporter-operator"
@@ -1028,6 +1061,9 @@
     ],
     "ibm.com/v1/IBMSecurityVerifyAccess": [
       "ibm-security-verify-access-operator"
+    ],
+    "odf.ibm.com/v1alpha1/FlashSystemCluster": [
+      "ibm-storage-odf-operator"
     ],
     "csidriver.infinidat.com/v1/Iboxcg": [
       "infinibox-operator-certified"
@@ -1097,6 +1133,9 @@
     ],
     "triliovault.trilio.io/v1/TrilioVaultManager": [
       "k8s-triliovault"
+    ],
+    "kalybr.ai/v1alpha1/Kalybr": [
+      "kalybr-ent-operator"
     ],
     "containers.kove.com/v1/KoveMemoryConfig": [
       "kove-operator"
@@ -1272,6 +1311,9 @@
     "mediation.turbonomic.ibm.com/v1alpha1/OpenstackProbe": [
       "mediation-openstack-operator"
     ],
+    "charts.quay.io/v1alpha1/Directpv": [
+      "minio-directpv"
+    ],
     "minkms.min.io/v1alpha1/MinKMS": [
       "minio-minkms-operator"
     ],
@@ -1390,6 +1432,9 @@
       "mto-dependencies-operator"
     ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Prometheus": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/TemplateOperatorV2": [
       "mto-dependencies-operator"
     ],
     "deployments.netai.tech/v1alpha1/AntennaDeployment": [
@@ -1866,6 +1911,51 @@
     "zookeeper.stackable.tech/v1alpha1/ZookeeperZnode": [
       "stackable-zookeeper-operator"
     ],
+    "stackgres.io/v1/SGBackup": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGCluster": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGConfig": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGDbOps": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGDistributedLogs": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGInstanceProfile": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1beta1/SGObjectStorage": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGPoolingConfig": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGPostgresConfig": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGScript": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGShardedBackup": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1alpha1/SGShardedCluster": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1/SGShardedDbOps": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1alpha1/SGStream": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1beta1/SGShardedCluster": [
+      "stackgres-certified"
+    ],
     "card.synaxg.app.com/v1/SG3Reset": [
       "synaxg-operator"
     ],
@@ -1941,13 +2031,13 @@
     "tenantoperator.stakater.com/v1beta1/Quota": [
       "tenant-operator"
     ],
-    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
-      "tenant-operator"
-    ],
     "tenantoperator.stakater.com/v1beta2/Tenant": [
       "tenant-operator"
     ],
     "tenantoperator.stakater.com/v1beta3/Tenant": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
       "tenant-operator"
     ],
     "crd.projectcalico.org/v1/BGPConfiguration": [
@@ -2073,6 +2163,9 @@
     "installer.venafi.com/v1alpha1/VenafiInstall": [
       "vcp-operator"
     ],
+    "vfunction.com/v1/VfunctionServer": [
+      "vfunction-server-operator"
+    ],
     "operator.victoriametrics.com/v1/VLAgent": [
       "victoriametrics-operator"
     ],
@@ -2148,6 +2241,9 @@
     "operator.victoriametrics.com/v1alpha1/VLDistributed": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1/VTAgent": [
+      "victoriametrics-operator"
+    ],
     "wavek8s.com/v1alpha1/Wave": [
       "wave"
     ],
@@ -2221,5 +2317,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-09-13T07:14:11.863486"
+  "timestamp": "2026-10-07T07:14:18.929811"
 }

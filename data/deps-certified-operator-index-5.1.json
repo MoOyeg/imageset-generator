@@ -25,16 +25,16 @@
     "tenant-operator": {
       "requires_packages": [
         {
-          "packageName": "template-operator",
-          "versionRange": ">=0.1.4"
-        },
-        {
           "packageName": "hibernation-operator",
-          "versionRange": ">=0.1.103"
+          "versionRange": ">=0.1.104"
         },
         {
           "packageName": "mto-dependencies-operator",
-          "versionRange": ">=0.0.5"
+          "versionRange": ">=0.0.14"
+        },
+        {
+          "packageName": "template-operator",
+          "versionRange": ">=0.1.8"
         }
       ],
       "requires_gvks": []
@@ -311,6 +311,9 @@
     "cte-k8s-operator.csi.cte.cpl.thalesgroup.com/v1/CteK8sOperator": [
       "cte-k8s-operator"
     ],
+    "thalesgroup.com/v1/CMregistrationClass": [
+      "cte-k8s-operator"
+    ],
     "datadoghq.com/v1alpha1/DatadogAgent": [
       "datadog-operator-certified"
     ],
@@ -443,9 +446,6 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
-    "kalybr.ai/v1alpha1/EnterpriseSmall": [
-      "ent-small-operator"
-    ],
     "falcon.crowdstrike.com/v1alpha1/FalconAdmission": [
       "falcon-operator"
     ],
@@ -460,6 +460,9 @@
     ],
     "falcon.crowdstrike.com/v1alpha1/FalconDeployment": [
       "falcon-operator"
+    ],
+    "charts.nutanix.com/v1alpha1/NutanixFlowCni": [
+      "flow-cni-operator"
     ],
     "fep.fujitsu.io/v1/FEPAction": [
       "fujitsu-enterprise-postgres-operator"
@@ -647,6 +650,9 @@
     "instana.io/v1/InstanaAgentRemote": [
       "instana-agent-operator"
     ],
+    "kalybr.ai/v1alpha1/Kalybr": [
+      "kalybr-ent-operator"
+    ],
     "operator.kubearmor.com/v1/KubeArmorConfig": [
       "kubearmor-operator-certified"
     ],
@@ -779,6 +785,9 @@
     "enterprise.mariadb.com/v1alpha1/PhysicalBackup": [
       "mariadb-enterprise-operator"
     ],
+    "charts.quay.io/v1alpha1/Directpv": [
+      "minio-directpv"
+    ],
     "atlas.mongodb.com/v1/AtlasBackupPolicy": [
       "mongodb-atlas-kubernetes"
     ],
@@ -873,6 +882,9 @@
       "mto-dependencies-operator"
     ],
     "dependencies.tenantoperator.stakater.com/v1alpha1/Prometheus": [
+      "mto-dependencies-operator"
+    ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/TemplateOperatorV2": [
       "mto-dependencies-operator"
     ],
     "deployments.netai.tech/v1alpha1/AntennaDeployment": [
@@ -1154,13 +1166,13 @@
     "tenantoperator.stakater.com/v1beta1/Quota": [
       "tenant-operator"
     ],
-    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
-      "tenant-operator"
-    ],
     "tenantoperator.stakater.com/v1beta2/Tenant": [
       "tenant-operator"
     ],
     "tenantoperator.stakater.com/v1beta3/Tenant": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
       "tenant-operator"
     ],
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
@@ -1275,5 +1287,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-09-13T07:16:30.100483"
+  "timestamp": "2026-10-07T07:16:55.975013"
 }

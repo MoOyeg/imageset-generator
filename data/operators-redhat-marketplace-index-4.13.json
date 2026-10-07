@@ -171,7 +171,7 @@
     {
       "package": "cockroachdb-certified-rhmp",
       "name": "cockroachdb-certified-rhmp",
-      "version": "2.18.3",
+      "version": "2.18.4",
       "channel": "stable"
     },
     {
@@ -1897,6 +1897,18 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.19.0-rc3",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.19.0-rc4",
+      "channel": "candidate"
+    },
+    {
       "package": "starburst-enterprise-helm-operator-paygo-rhmp",
       "name": "starburst-enterprise-helm-operator-paygo-rhmp",
       "version": "402.1.0",
@@ -1942,6 +1954,12 @@
       "package": "vfunction-server-operator-rhmp",
       "name": "vfunction-server-operator-rhmp",
       "version": "4.7.2072",
+      "channel": "stable"
+    },
+    {
+      "package": "vfunction-server-operator-rhmp",
+      "name": "vfunction-server-operator-rhmp",
+      "version": "5.0.2157",
       "channel": "stable"
     },
     {
@@ -2041,7 +2059,7 @@
       "channel": "lts"
     }
   ],
-  "count": 340,
+  "count": 343,
   "source": "opm",
-  "timestamp": "2026-09-13T06:54:30.080589"
+  "timestamp": "2026-10-07T06:54:37.910291"
 }

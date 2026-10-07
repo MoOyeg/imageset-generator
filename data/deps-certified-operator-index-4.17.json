@@ -174,16 +174,16 @@
     "tenant-operator": {
       "requires_packages": [
         {
-          "packageName": "template-operator",
-          "versionRange": ">=0.1.4"
-        },
-        {
           "packageName": "hibernation-operator",
-          "versionRange": ">=0.1.103"
+          "versionRange": ">=0.1.104"
         },
         {
           "packageName": "mto-dependencies-operator",
-          "versionRange": ">=0.0.5"
+          "versionRange": ">=0.0.14"
+        },
+        {
+          "packageName": "template-operator",
+          "versionRange": ">=0.1.8"
         }
       ],
       "requires_gvks": []
@@ -241,9 +241,6 @@
     "microgateway.airlock.com/v1alpha1/EnvoyCluster": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/EnvoyConfiguration": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
       "airlock-microgateway"
     ],
@@ -259,6 +256,12 @@
     "microgateway.airlock.com/v1alpha1/HeaderRewrites": [
       "airlock-microgateway"
     ],
+    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
+      "airlock-microgateway"
+    ],
     "microgateway.airlock.com/v1alpha1/IdentityPropagation": [
       "airlock-microgateway"
     ],
@@ -269,6 +272,9 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/Limits": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/OIDCProvider": [
@@ -293,15 +299,6 @@
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/TokenExchange": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "aiu.ibm.com/v2/AiuClusterPolicy": [
@@ -433,7 +430,13 @@
     "apelocal.csi.apecloud.com/v1alpha1/HostPathDefinition": [
       "apelocal-csi"
     ],
-    "appinsights.randoli/v1beta1/RandoliAgent": [
+    "insights.randoli.io/v1beta1/DataPlane": [
+      "app-insights-operator"
+    ],
+    "mcp.ai.randoli.io/v1beta1/MCPConfiguration": [
+      "app-insights-operator"
+    ],
+    "telemetry.randoli.io/v1/TelemetryBackend": [
       "app-insights-operator"
     ],
     "cluster.appdynamics.com/v1alpha1/Clustermon": [
@@ -536,6 +539,9 @@
     "cilium.io/v1alpha1/CiliumConfig": [
       "cilium",
       "cilium-enterprise",
+      "clife"
+    ],
+    "isovalent.com/v1alpha1/RegistryCredential": [
       "clife"
     ],
     "postgresql.k8s.enterprisedb.io/v1/Backup": [
@@ -827,6 +833,9 @@
     "cte-k8s-operator.csi.cte.cpl.thalesgroup.com/v1/CteK8sOperator": [
       "cte-k8s-operator"
     ],
+    "thalesgroup.com/v1/CMregistrationClass": [
+      "cte-k8s-operator"
+    ],
     "datadoghq.com/v1alpha1/DatadogAgent": [
       "datadog-operator-certified"
     ],
@@ -995,9 +1004,6 @@
     "packageregistry.k8s.elastic.co/v1alpha1/PackageRegistry": [
       "elasticsearch-eck-operator-certified"
     ],
-    "kalybr.ai/v1alpha1/EnterpriseSmall": [
-      "ent-small-operator"
-    ],
     "eqube.operator/v1/EQProduct": [
       "eqube-operator"
     ],
@@ -1032,60 +1038,46 @@
       "federatorai-certified"
     ],
     "fep.fujitsu.io/v1/FEPAction": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPAutoscale": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPBackup": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPCert": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v2/FEPCluster": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPConfig": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPExporter": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPLogging": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPPgpool2": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPPgpool2Cert": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPRestore": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPUpgrade": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPUser": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "fep.fujitsu.io/v1/FEPVolume": [
-      "fujitsu-enterprise-postgres-operator",
-      "fujitsu-enterprise-postgres-operator-with-cg-module"
+      "fujitsu-enterprise-postgres-operator"
     ],
     "compute.functionmesh.io/v1alpha1/Function": [
       "function-mesh"
@@ -1889,6 +1881,9 @@
     "dependencies.tenantoperator.stakater.com/v1alpha1/Prometheus": [
       "mto-dependencies-operator"
     ],
+    "dependencies.tenantoperator.stakater.com/v1alpha1/TemplateOperatorV2": [
+      "mto-dependencies-operator"
+    ],
     "netscaler.com/v1/AdmAgent": [
       "netscaler-adm-agent-operator"
     ],
@@ -2649,13 +2644,13 @@
     "tenantoperator.stakater.com/v1beta1/Quota": [
       "tenant-operator"
     ],
-    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
-      "tenant-operator"
-    ],
     "tenantoperator.stakater.com/v1beta2/Tenant": [
       "tenant-operator"
     ],
     "tenantoperator.stakater.com/v1beta3/Tenant": [
+      "tenant-operator"
+    ],
+    "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
       "tenant-operator"
     ],
     "crd.projectcalico.org/v1/BGPConfiguration": [
@@ -2862,6 +2857,9 @@
     "operator.victoriametrics.com/v1alpha1/VLDistributed": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1/VTAgent": [
+      "victoriametrics-operator"
+    ],
     "container-security.trendmicro.com/v1alpha1/VisionOneContainerSecurity": [
       "visionone-containersecurity"
     ],
@@ -2941,5 +2939,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-09-13T07:07:18.459742"
+  "timestamp": "2026-10-07T07:07:25.014255"
 }

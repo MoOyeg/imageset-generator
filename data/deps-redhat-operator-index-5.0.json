@@ -328,6 +328,93 @@
     "interconnectedcloud.github.io/v1alpha1/Interconnect": [
       "amq7-interconnect-operator"
     ],
+    "aap.ansible.com/v1alpha1/AnsibleAutomationPlatform": [
+      "ansible-automation-platform-operator"
+    ],
+    "aap.ansible.com/v1alpha1/AnsibleAutomationPlatformBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "aap.ansible.com/v1alpha1/AnsibleAutomationPlatformRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationcontroller.ansible.com/v1beta1/AutomationController": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationcontroller.ansible.com/v1beta1/AutomationControllerBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationcontroller.ansible.com/v1alpha1/AutomationControllerMeshIngress": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationcontroller.ansible.com/v1beta1/AutomationControllerRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationhub.ansible.com/v1beta1/AutomationHub": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationhub.ansible.com/v1beta1/AutomationHubBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationhub.ansible.com/v1beta1/AutomationHubRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsService": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "eda.ansible.com/v1alpha1/EDA": [
+      "ansible-automation-platform-operator"
+    ],
+    "eda.ansible.com/v1alpha1/EDABackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "eda.ansible.com/v1alpha1/EDARestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "lightspeed.ansible.com/v1alpha1/AnsibleLightspeed": [
+      "ansible-automation-platform-operator"
+    ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServer": [
+      "ansible-automation-platform-operator"
+    ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServerBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServerRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleCredential": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleInstanceGroup": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleInventory": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleJob": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleProject": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleSchedule": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleWorkflow": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/JobTemplate": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/WorkflowTemplate": [
+      "ansible-automation-platform-operator"
+    ],
     "platform.ansible.com/v1alpha1/AnsibleAutomationPlatformAwsBilling": [
       "ansible-cloud-addons-operator"
     ],
@@ -358,6 +445,21 @@
     "authorino.kuadrant.io/v1beta3/AuthConfig": [
       "authorino-operator"
     ],
+    "elbv2.k8s.aws/v1beta1/IngressClassParams": [
+      "aws-load-balancer-operator"
+    ],
+    "elbv2.k8s.aws/v1alpha1/TargetGroupBinding": [
+      "aws-load-balancer-operator"
+    ],
+    "elbv2.k8s.aws/v1beta1/TargetGroupBinding": [
+      "aws-load-balancer-operator"
+    ],
+    "networking.olm.openshift.io/v1/AWSLoadBalancerController": [
+      "aws-load-balancer-operator"
+    ],
+    "networking.olm.openshift.io/v1alpha1/AWSLoadBalancerController": [
+      "aws-load-balancer-operator"
+    ],
     "app.kiegroup.org/v2/KieApp": [
       "bamoe-businessautomation-operator",
       "businessautomation-operator"
@@ -382,6 +484,12 @@
       "bgp-cloud-connector"
     ],
     "networking.openshift.io/v1alpha1/CUDNBgpRouting": [
+      "bgp-cloud-connector"
+    ],
+    "networking.openshift.io/v1beta1/BGPCloudConfiguration": [
+      "bgp-cloud-connector"
+    ],
+    "networking.openshift.io/v1beta1/BGPRouting": [
       "bgp-cloud-connector"
     ],
     "app.kiegroup.org/v1/KieApp": [
@@ -528,6 +636,9 @@
     "secscan.quay.redhat.com/v1alpha1/ImageManifestVuln": [
       "container-security-operator"
     ],
+    "costmanagement-metrics-cfg.openshift.io/v1beta1/CostManagementMetricsConfig": [
+      "costmanagement-metrics-operator"
+    ],
     "operator.cryostat.io/v1beta1/Cryostat": [
       "cryostat-operator"
     ],
@@ -594,11 +705,52 @@
     "fence-agents-remediation.medik8s.io/v1alpha1/FenceAgentsRemediationTemplate": [
       "fence-agents-remediation"
     ],
+    "fileintegrity.openshift.io/v1alpha1/FileIntegrity": [
+      "file-integrity-operator"
+    ],
+    "fileintegrity.openshift.io/v1alpha1/FileIntegrityNodeStatus": [
+      "file-integrity-operator"
+    ],
+    "operator.gatekeeper.sh/v1alpha1/Gatekeeper": [
+      "gatekeeper-operator-product"
+    ],
     "operator.openshift.io/v1/JobSetOperator": [
       "job-set"
     ],
     "web.servers.org/v1alpha1/WebServer": [
       "jws-operator"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta1/Module": [
+      "kernel-module-management"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta1/NodeModulesConfig": [
+      "kernel-module-management"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta1/PreflightValidation": [
+      "kernel-module-management"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta1/PreflightValidationOCP": [
+      "kernel-module-management"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta2/PreflightValidation": [
+      "kernel-module-management"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta2/PreflightValidationOCP": [
+      "kernel-module-management"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta1/ModuleBuildSignConfig": [
+      "kernel-module-management",
+      "kernel-module-management-hub"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta1/ModuleImagesConfig": [
+      "kernel-module-management",
+      "kernel-module-management-hub"
+    ],
+    "kmm.sigs.x-k8s.io/v1beta1/BootModuleConfig": [
+      "kernel-module-management"
+    ],
+    "hub.kmm.sigs.x-k8s.io/v1beta1/ManagedClusterModule": [
+      "kernel-module-management-hub"
     ],
     "kiali.io/v1alpha1/Kiali": [
       "kiali-ossm"
@@ -748,6 +900,9 @@
     "postgresql.cnpg.noobaa.io/v1/Subscription": [
       "mcg-operator"
     ],
+    "ml.sigstore.dev/v1alpha1/ModelValidation": [
+      "model-validation-operator"
+    ],
     "tackle.konveyor.io/v1alpha1/Addon": [
       "mta-operator"
     ],
@@ -761,6 +916,36 @@
       "mta-operator"
     ],
     "tackle.konveyor.io/v1alpha1/Schema": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/Agent": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentRun": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentWorkflow": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentWorkflowRun": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/Gateway": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/SkillCard": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/SkillCollection": [
+      "mta-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/IdentityProvider": [
+      "mta-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/IdpClient": [
+      "mta-operator"
+    ],
+    "tackle.konveyor.io/v1alpha1/LdapProvider": [
       "mta-operator"
     ],
     "windup.jboss.org/v1/Windup": [
@@ -1060,6 +1245,93 @@
     "operator.openshift.io/v1alpha1/ExternalSecretsManager": [
       "openshift-external-secrets-operator"
     ],
+    "argoproj.io/v1alpha1/AnalysisRun": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/AnalysisTemplate": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/AppProject": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/Application": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/ApplicationSet": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/ArgoCD": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1beta1/ArgoCD": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/ClusterAnalysisTemplate": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/Experiment": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/Rollout": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/RolloutManager": [
+      "openshift-gitops-operator"
+    ],
+    "pipelines.openshift.io/v1alpha1/GitopsService": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1alpha1/NotificationsConfiguration": [
+      "openshift-gitops-operator"
+    ],
+    "argoproj.io/v1beta1/NamespaceManagement": [
+      "openshift-gitops-operator"
+    ],
+    "argocd-image-updater.argoproj.io/v1alpha1/ImageUpdater": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ArgoCDCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ChangeTransferPolicy": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ClusterScmProvider": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/CommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ControllerConfiguration": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/GitCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/GitRepository": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/PromotionStrategy": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/PullRequest": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/RevertCommit": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ScheduledCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ScmProvider": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/TimedCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/WebRequestCommitStatus": [
+      "openshift-gitops-operator"
+    ],
     "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
       "openshift-pipelines-operator-rh"
     ],
@@ -1122,6 +1394,18 @@
     ],
     "opentelemetry.io/v1alpha1/TargetAllocator": [
       "opentelemetry-product"
+    ],
+    "policy.sigstore.dev/v1alpha1/ClusterImagePolicy": [
+      "policy-controller-operator"
+    ],
+    "policy.sigstore.dev/v1beta1/ClusterImagePolicy": [
+      "policy-controller-operator"
+    ],
+    "policy.sigstore.dev/v1alpha1/TrustRoot": [
+      "policy-controller-operator"
+    ],
+    "rhtas.charts.redhat.com/v1alpha1/PolicyController": [
+      "policy-controller-operator"
     ],
     "quay.redhat.com/v1/QuayIntegration": [
       "quay-bridge-operator"
@@ -1192,6 +1476,51 @@
     "keycloak.org/v1alpha1/KeycloakUser": [
       "rhsso-operator"
     ],
+    "rhtas.redhat.com/v1alpha1/CTlog": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1alpha1/Fulcio": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1alpha1/Rekor": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1alpha1/Securesign": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1alpha1/TimestampAuthority": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1alpha1/Trillian": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1alpha1/Tuf": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/CTlog": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Console": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Fulcio": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Rekor": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Securesign": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/TimestampAuthority": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Trillian": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Tuf": [
+      "rhtas-operator"
+    ],
     "ceph.rook.io/v1/CephBlockPool": [
       "rook-ceph-operator"
     ],
@@ -1251,6 +1580,30 @@
     ],
     "operator.openshift.io/v1/RunOnceDurationOverride": [
       "run-once-duration-override-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/AppArmorProfile": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/ProfileBinding": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/ProfileRecording": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha2/RawSelinuxProfile": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1beta1/SeccompProfile": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/SecurityProfileNodeStatus": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha1/SecurityProfilesOperatorDaemon": [
+      "security-profiles-operator"
+    ],
+    "security-profiles-operator.x-k8s.io/v1alpha2/SelinuxProfile": [
+      "security-profiles-operator"
     ],
     "self-node-remediation.medik8s.io/v1alpha1/SelfNodeRemediation": [
       "self-node-remediation"
@@ -1467,7 +1820,16 @@
     ],
     "tempo.grafana.com/v1alpha1/TempoMonolithic": [
       "tempo-product"
+    ],
+    "lcm.openshift.io/v1alpha1/ImageBasedGroupUpgrade": [
+      "topology-aware-lifecycle-manager"
+    ],
+    "ran.openshift.io/v1alpha1/ClusterGroupUpgrade": [
+      "topology-aware-lifecycle-manager"
+    ],
+    "ran.openshift.io/v1alpha1/PreCachingConfig": [
+      "topology-aware-lifecycle-manager"
     ]
   },
-  "timestamp": "2026-09-13T07:15:31.773337"
+  "timestamp": "2026-10-07T07:15:55.136446"
 }

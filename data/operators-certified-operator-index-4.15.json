@@ -325,6 +325,12 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.8.2",
+      "channel": "stable"
+    },
+    {
       "package": "anchore-engine",
       "name": "anchore-engine",
       "version": "1.0.1",
@@ -411,7 +417,7 @@
     {
       "package": "app-insights-operator",
       "name": "app-insights-operator",
-      "version": "1.20.0-1",
+      "version": "2.1.3",
       "channel": "stable"
     },
     {
@@ -550,6 +556,12 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "0.10.0",
       "channel": "alpha"
     },
     {
@@ -742,6 +754,12 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.9.9",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.0.0",
       "channel": "alpha"
     },
     {
@@ -1497,6 +1515,18 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.17.18-cee.1",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.17.19-cee.1",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.4-cee.1",
       "channel": "1.17"
     },
@@ -1534,6 +1564,12 @@
       "package": "clife",
       "name": "clife",
       "version": "1.18.11-cee.1",
+      "channel": "1.18"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.13-cee.1",
       "channel": "1.18"
     },
     {
@@ -1582,6 +1618,18 @@
       "package": "clife",
       "name": "clife",
       "version": "1.19.5-cee.1",
+      "channel": "1.19"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.19.7-cee.2",
+      "channel": "1.19"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.19.7-cee.3",
       "channel": "1.19"
     },
     {
@@ -1635,7 +1683,7 @@
     {
       "package": "cockroachdb-certified",
       "name": "cockroachdb-certified",
-      "version": "2.18.3",
+      "version": "2.18.4",
       "channel": "stable"
     },
     {
@@ -1653,7 +1701,19 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
+      "version": "2.10.7",
+      "channel": "2.10"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
       "version": "2.11.6",
+      "channel": "2.11"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "2.11.7",
       "channel": "2.11"
     },
     {
@@ -1677,7 +1737,19 @@
     {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
+      "version": "3.0.6",
+      "channel": "3.0"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
       "version": "3.1.3",
+      "channel": "3.1"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "3.1.4",
       "channel": "3.1"
     },
     {
@@ -1690,6 +1762,12 @@
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
       "version": "3.3.0",
+      "channel": "3.3"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "3.3.1",
       "channel": "3.3"
     },
     {
@@ -1911,6 +1989,12 @@
     {
       "package": "cp-fko",
       "name": "cp-fko",
+      "version": "1.13.0-cp5",
+      "channel": "stable-v1.13"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
       "version": "1.14.0-cp1",
       "channel": "stable-v1.14"
     },
@@ -1923,7 +2007,19 @@
     {
       "package": "cp-fko",
       "name": "cp-fko",
+      "version": "1.14.0-cp4",
+      "channel": "stable-v1.14"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
       "version": "1.15.0-cp2",
+      "channel": "stable"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.15.0-cp4",
       "channel": "stable"
     },
     {
@@ -1954,6 +2050,12 @@
       "package": "cpd-platform-operator",
       "name": "cpd-platform-operator",
       "version": "6.4.12",
+      "channel": "v6.4"
+    },
+    {
+      "package": "cpd-platform-operator",
+      "name": "cpd-platform-operator",
+      "version": "6.4.13",
       "channel": "v6.4"
     },
     {
@@ -2169,7 +2271,7 @@
     {
       "package": "cte-k8s-operator",
       "name": "cte-k8s-operator",
-      "version": "1.7.8",
+      "version": "2.0.33",
       "channel": "candidate"
     },
     {
@@ -2811,14 +2913,14 @@
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.0",
-      "channel": "beta"
+      "version": "26.1.5",
+      "channel": "stable-v26.1"
     },
     {
       "package": "digitalai-release-operator",
       "name": "digitalai-release-operator",
-      "version": "26.1.5",
-      "channel": "stable-v26.1"
+      "version": "26.3.1",
+      "channel": "beta"
     },
     {
       "package": "dxoperator",
@@ -2866,6 +2968,12 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.10.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.11.0",
       "channel": "alpha"
     },
     {
@@ -3151,12 +3259,6 @@
       "channel": "stable"
     },
     {
-      "package": "ent-small-operator",
-      "name": "ent-small-operator",
-      "version": "0.1.0",
-      "channel": "alpha"
-    },
-    {
       "package": "eqube-operator",
       "name": "eqube-operator",
       "version": "1.0.0",
@@ -3183,7 +3285,7 @@
     {
       "package": "exascaler-csi-driver-operator",
       "name": "exascaler-csi-driver-operator",
-      "version": "2.9.0",
+      "version": "2.10.0",
       "channel": "alpha"
     },
     {
@@ -3343,18 +3445,6 @@
       "channel": "stable"
     },
     {
-      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "version": "8.1.5",
-      "channel": "stable"
-    },
-    {
-      "package": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "name": "fujitsu-enterprise-postgres-operator-with-cg-module",
-      "version": "8.1.6",
-      "channel": "stable"
-    },
-    {
       "package": "function-mesh",
       "name": "function-mesh",
       "version": "0.7.0",
@@ -3415,6 +3505,18 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.4.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.4.1",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.48.2",
@@ -3472,6 +3574,18 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.52.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.52.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.53.0",
       "channel": "stable"
     },
     {
@@ -3849,13 +3963,13 @@
     {
       "package": "harness-gitops-operator",
       "name": "harness-gitops-operator",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "channel": "alpha"
     },
     {
       "package": "hazelcast-platform-operator",
       "name": "hazelcast-platform-operator",
-      "version": "5.19.0",
+      "version": "5.20.0",
       "channel": "alpha"
     },
     {
@@ -3897,7 +4011,7 @@
     {
       "package": "hibernation-operator",
       "name": "hibernation-operator",
-      "version": "0.1.103",
+      "version": "0.1.104",
       "channel": "release-0.1"
     },
     {
@@ -4821,6 +4935,12 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.21",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.4",
       "channel": "stable"
     },
@@ -5515,6 +5635,18 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.6",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.7",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -6007,6 +6139,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.3.0",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -6051,13 +6189,13 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.21.0",
-      "channel": "stable"
+      "version": "8.21.20",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.21.10-beta.1",
+      "version": "8.21.20-beta.1",
       "channel": "beta"
     },
     {
@@ -6129,6 +6267,12 @@
     {
       "package": "linstor-operator",
       "name": "linstor-operator",
+      "version": "2.12.0",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
       "version": "2.8.1",
       "channel": "stable-v2"
     },
@@ -6165,13 +6309,13 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.0",
-      "channel": "stable"
+      "version": "8.21.20",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.10-beta.1",
+      "version": "8.21.20-beta.1",
       "channel": "beta"
     },
     {
@@ -6430,6 +6574,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.16.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.17.0",
       "channel": "stable"
     },
     {
@@ -6711,6 +6861,12 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.13.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -6777,7 +6933,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.12",
+      "version": "0.0.15",
       "channel": "alpha"
     },
     {
@@ -7045,6 +7201,12 @@
       "channel": "beta"
     },
     {
+      "package": "neuvector-certified-operator",
+      "name": "neuvector-certified-operator",
+      "version": "1.5.9",
+      "channel": "beta"
+    },
+    {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
       "version": "3.96.0-1",
@@ -7162,6 +7324,18 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.7.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.7.3",
       "channel": "alpha"
     },
     {
@@ -7389,7 +7563,7 @@
     {
       "package": "odigos-operator",
       "name": "odigos-operator",
-      "version": "1.25.0",
+      "version": "1.37.1",
       "channel": "alpha"
     },
     {
@@ -8005,15 +8179,21 @@
       "channel": "alpha"
     },
     {
-      "package": "prometurbo-certified",
-      "name": "prometurbo-certified",
-      "version": "8.21.0",
-      "channel": "stable"
+      "package": "portworx-certified",
+      "name": "portworx-certified",
+      "version": "26.4.0",
+      "channel": "alpha"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.21.10-beta.1",
+      "version": "8.21.20",
+      "channel": "beta"
+    },
+    {
+      "package": "prometurbo-certified",
+      "name": "prometurbo-certified",
+      "version": "8.21.20-beta.1",
       "channel": "beta"
     },
     {
@@ -8919,6 +9099,42 @@
     {
       "package": "scaleops-operator",
       "name": "scaleops-operator",
+      "version": "1.34.10",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.11",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.12",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.13",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.14",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.15",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
       "version": "1.34.2",
       "channel": "stable-v1"
     },
@@ -8938,6 +9154,24 @@
       "package": "scaleops-operator",
       "name": "scaleops-operator",
       "version": "1.34.5",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.7",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.8",
+      "channel": "stable-v1"
+    },
+    {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.34.9",
       "channel": "stable-v1"
     },
     {
@@ -8967,7 +9201,7 @@
     {
       "package": "sn-operator",
       "name": "sn-operator",
-      "version": "0.20.9",
+      "version": "0.20.10",
       "channel": "alpha"
     },
     {
@@ -9028,6 +9262,12 @@
       "package": "sriov-fec",
       "name": "sriov-fec",
       "version": "2.12.0",
+      "channel": "stable"
+    },
+    {
+      "package": "sriov-fec",
+      "name": "sriov-fec",
+      "version": "2.12.2",
       "channel": "stable"
     },
     {
@@ -9501,85 +9741,19 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.1",
+      "version": "1.18.9",
       "channel": "candidate"
     },
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.2",
+      "version": "1.19.2",
       "channel": "candidate"
     },
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.3",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.4",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.5",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.6",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.7",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.8",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.0",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.0-rc1",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.0-rc2",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.0-rc3",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.0-rc4",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.0-rc5",
+      "version": "1.19.3",
       "channel": "candidate"
     },
     {
@@ -9607,27 +9781,33 @@
       "channel": "alpha"
     },
     {
-      "package": "t8c-certified",
-      "name": "t8c-certified",
-      "version": "42.114.0",
-      "channel": "stable"
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "5.7.0-0",
+      "channel": "alpha"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.115.0-beta.1",
+      "version": "42.116.0",
+      "channel": "beta"
+    },
+    {
+      "package": "t8c-certified",
+      "name": "t8c-certified",
+      "version": "42.116.0-beta.2",
       "channel": "beta"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.2",
+      "version": "1.7.3",
       "channel": "stable"
     },
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.3-candidate-20260908103220000",
+      "version": "1.7.4-candidate-20261001163912000",
       "channel": "candidate"
     },
     {
@@ -9751,6 +9931,18 @@
       "channel": "candidate-v3"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.1-rc1",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.1-rc2",
+      "channel": "candidate-v3"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -9759,7 +9951,7 @@
     {
       "package": "template-operator",
       "name": "template-operator",
-      "version": "0.1.5",
+      "version": "0.1.8",
       "channel": "release-0.1"
     },
     {
@@ -9791,6 +9983,12 @@
       "name": "tenant-operator",
       "version": "1.1.0",
       "channel": "release-1.1"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.10.1",
+      "channel": "release-1.10"
     },
     {
       "package": "tenant-operator",
@@ -9946,19 +10144,31 @@
       "package": "tvo-operator",
       "name": "tvo-operator",
       "version": "6.2.0",
-      "channel": "6.2.0"
+      "channel": "6.2.x"
     },
     {
       "package": "tvo-operator",
       "name": "tvo-operator",
       "version": "6.2.1",
-      "channel": "6.2.0"
+      "channel": "6.2.x"
     },
     {
       "package": "tvo-operator",
       "name": "tvo-operator",
       "version": "6.2.2",
-      "channel": "6.2.0"
+      "channel": "6.2.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.3",
+      "channel": "6.2.x"
+    },
+    {
+      "package": "tvo-operator",
+      "name": "tvo-operator",
+      "version": "6.2.4",
+      "channel": "6.2.x"
     },
     {
       "package": "uma-admin-operator",
@@ -10047,12 +10257,6 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.5.2-49",
-      "channel": "alpha"
-    },
-    {
-      "package": "uma-admin-operator",
-      "name": "uma-admin-operator",
       "version": "2026.6.1-26",
       "channel": "2026.6"
     },
@@ -10073,6 +10277,12 @@
       "name": "uma-admin-operator",
       "version": "2026.8.3-12",
       "channel": "beta"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.9.0-2221",
+      "channel": "alpha"
     },
     {
       "package": "uma-operator",
@@ -10161,12 +10371,6 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.5.2-49",
-      "channel": "alpha"
-    },
-    {
-      "package": "uma-operator",
-      "name": "uma-operator",
       "version": "2026.6.1-26",
       "channel": "2026.6"
     },
@@ -10187,6 +10391,12 @@
       "name": "uma-operator",
       "version": "2026.8.3-12",
       "channel": "beta"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
+      "version": "2026.9.0-2221",
+      "channel": "alpha"
     },
     {
       "package": "uma-team-operator",
@@ -10275,12 +10485,6 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.5.2-49",
-      "channel": "alpha"
-    },
-    {
-      "package": "uma-team-operator",
-      "name": "uma-team-operator",
       "version": "2026.6.1-26",
       "channel": "2026.6"
     },
@@ -10301,6 +10505,12 @@
       "name": "uma-team-operator",
       "version": "2026.8.3-12",
       "channel": "beta"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.9.0-2221",
+      "channel": "alpha"
     },
     {
       "package": "vast-csi-operator",
@@ -10435,6 +10645,12 @@
       "channel": "stable"
     },
     {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.6.0",
+      "channel": "stable"
+    },
+    {
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.0.0",
@@ -10444,6 +10660,12 @@
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.1.1",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.10.0",
       "channel": "stable"
     },
     {
@@ -10521,25 +10743,7 @@
     {
       "package": "vfunction-server-operator",
       "name": "vfunction-server-operator",
-      "version": "4.5.1961",
-      "channel": "stable"
-    },
-    {
-      "package": "vfunction-server-operator",
-      "name": "vfunction-server-operator",
-      "version": "4.6.1984",
-      "channel": "stable"
-    },
-    {
-      "package": "vfunction-server-operator",
-      "name": "vfunction-server-operator",
-      "version": "4.6.2014",
-      "channel": "stable"
-    },
-    {
-      "package": "vfunction-server-operator",
-      "name": "vfunction-server-operator",
-      "version": "4.7.2072",
+      "version": "5.0.2163",
       "channel": "stable"
     },
     {
@@ -10588,6 +10792,12 @@
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.74.1",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.75.0",
       "channel": "beta"
     },
     {
@@ -10753,7 +10963,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1792,
+  "count": 1827,
   "source": "opm",
-  "timestamp": "2026-09-13T07:00:50.362176"
+  "timestamp": "2026-10-07T07:00:56.330609"
 }

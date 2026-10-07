@@ -226,6 +226,93 @@
     "interconnectedcloud.github.io/v1alpha1/Interconnect": [
       "amq7-interconnect-operator"
     ],
+    "aap.ansible.com/v1alpha1/AnsibleAutomationPlatform": [
+      "ansible-automation-platform-operator"
+    ],
+    "aap.ansible.com/v1alpha1/AnsibleAutomationPlatformBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "aap.ansible.com/v1alpha1/AnsibleAutomationPlatformRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationcontroller.ansible.com/v1beta1/AutomationController": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationcontroller.ansible.com/v1beta1/AutomationControllerBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationcontroller.ansible.com/v1alpha1/AutomationControllerMeshIngress": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationcontroller.ansible.com/v1beta1/AutomationControllerRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationhub.ansible.com/v1beta1/AutomationHub": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationhub.ansible.com/v1beta1/AutomationHubBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationhub.ansible.com/v1beta1/AutomationHubRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsService": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "automationmetricsservice.ansible.com/v1alpha1/MetricsServiceRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "eda.ansible.com/v1alpha1/EDA": [
+      "ansible-automation-platform-operator"
+    ],
+    "eda.ansible.com/v1alpha1/EDABackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "eda.ansible.com/v1alpha1/EDARestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "lightspeed.ansible.com/v1alpha1/AnsibleLightspeed": [
+      "ansible-automation-platform-operator"
+    ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServer": [
+      "ansible-automation-platform-operator"
+    ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServerBackup": [
+      "ansible-automation-platform-operator"
+    ],
+    "mcpserver.ansible.com/v1alpha1/AnsibleMCPServerRestore": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleCredential": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleInstanceGroup": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleInventory": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleJob": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleProject": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleSchedule": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/AnsibleWorkflow": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/JobTemplate": [
+      "ansible-automation-platform-operator"
+    ],
+    "tower.ansible.com/v1alpha1/WorkflowTemplate": [
+      "ansible-automation-platform-operator"
+    ],
     "platform.ansible.com/v1alpha1/AnsibleAutomationPlatformAwsBilling": [
       "ansible-cloud-addons-operator"
     ],
@@ -336,8 +423,62 @@
     "wildfly.org/v1alpha1/WildFlyServer": [
       "eap"
     ],
+    "operator.gatekeeper.sh/v1alpha1/Gatekeeper": [
+      "gatekeeper-operator-product"
+    ],
     "web.servers.org/v1alpha1/WebServer": [
       "jws-operator"
+    ],
+    "cdi.kubevirt.io/v1alpha1/CDI": [
+      "kubevirt-hyperconverged"
+    ],
+    "cdi.kubevirt.io/v1beta1/CDI": [
+      "kubevirt-hyperconverged"
+    ],
+    "hco.kubevirt.io/v1beta1/HyperConverged": [
+      "kubevirt-hyperconverged"
+    ],
+    "hostpathprovisioner.kubevirt.io/v1alpha1/HostPathProvisioner": [
+      "kubevirt-hyperconverged"
+    ],
+    "hostpathprovisioner.kubevirt.io/v1beta1/HostPathProvisioner": [
+      "kubevirt-hyperconverged"
+    ],
+    "kubevirt.io/v1/KubeVirt": [
+      "kubevirt-hyperconverged"
+    ],
+    "kubevirt.io/v1alpha3/KubeVirt": [
+      "kubevirt-hyperconverged"
+    ],
+    "networkaddonsoperator.network.kubevirt.io/v1/NetworkAddonsConfig": [
+      "kubevirt-hyperconverged"
+    ],
+    "networkaddonsoperator.network.kubevirt.io/v1alpha1/NetworkAddonsConfig": [
+      "kubevirt-hyperconverged"
+    ],
+    "ssp.kubevirt.io/v1beta1/SSP": [
+      "kubevirt-hyperconverged"
+    ],
+    "tektontasks.kubevirt.io/v1alpha1/TektonTasks": [
+      "kubevirt-hyperconverged"
+    ],
+    "mtq.kubevirt.io/v1alpha1/MTQ": [
+      "kubevirt-hyperconverged"
+    ],
+    "ssp.kubevirt.io/v1beta2/SSP": [
+      "kubevirt-hyperconverged"
+    ],
+    "aaq.kubevirt.io/v1alpha1/AAQ": [
+      "kubevirt-hyperconverged"
+    ],
+    "ssp.kubevirt.io/v1beta3/SSP": [
+      "kubevirt-hyperconverged"
+    ],
+    "migrations.kubevirt.io/v1alpha1/MigController": [
+      "kubevirt-hyperconverged"
+    ],
+    "hco.kubevirt.io/v1/HyperConverged": [
+      "kubevirt-hyperconverged"
     ],
     "sonataflow.org/v1alpha08/SonataFlow": [
       "logic-operator",
@@ -503,5 +644,5 @@
       "tang-operator"
     ]
   },
-  "timestamp": "2026-09-13T07:16:17.202482"
+  "timestamp": "2026-10-07T07:16:43.594259"
 }

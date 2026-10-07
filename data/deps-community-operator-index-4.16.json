@@ -345,6 +345,9 @@
     "acm.services.k8s.aws/v1alpha1/AcmeEndpoint": [
       "ack-acm-controller"
     ],
+    "acm.services.k8s.aws/v1alpha1/AcmeExternalAccountBinding": [
+      "ack-acm-controller"
+    ],
     "acmpca.services.k8s.aws/v1alpha1/CertificateAuthority": [
       "ack-acmpca-controller"
     ],
@@ -786,6 +789,9 @@
     "glue.services.k8s.aws/v1alpha1/Job": [
       "ack-glue-controller"
     ],
+    "glue.services.k8s.aws/v1alpha1/Database": [
+      "ack-glue-controller"
+    ],
     "iam.services.k8s.aws/v1alpha1/Policy": [
       "ack-iam-controller"
     ],
@@ -909,10 +915,19 @@
     "opensearchserverless.services.k8s.aws/v1alpha1/Collection": [
       "ack-opensearchserverless-controller"
     ],
+    "opensearchserverless.services.k8s.aws/v1alpha1/AccessPolicy": [
+      "ack-opensearchserverless-controller"
+    ],
+    "opensearchserverless.services.k8s.aws/v1alpha1/LifecyclePolicy": [
+      "ack-opensearchserverless-controller"
+    ],
     "opensearchservice.services.k8s.aws/v1alpha1/Domain": [
       "ack-opensearchservice-controller"
     ],
     "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpoint": [
+      "ack-opensearchservice-controller"
+    ],
+    "opensearchservice.services.k8s.aws/v1alpha1/VPCEndpointAccess": [
       "ack-opensearchservice-controller"
     ],
     "organizations.services.k8s.aws/v1alpha1/OrganizationalUnit": [
@@ -2491,6 +2506,78 @@
     "networking.turbosimone.com/v1alpha1/NetworkPolicy": [
       "fqdn-egress-operator"
     ],
+    "vyogo.tech/v1/FrappeBench": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/FrappeSite": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/FrappeWorkspace": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteAPIKey": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteApp": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteBackup": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteClientScript": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteConfig": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteCron": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteCustomField": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDashboard": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDashboardChart": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteDomain": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteJob": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteMigration": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SitePropertySetter": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteQuota": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteRestore": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteRole": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteServerScript": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteUser": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteUserPermission": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteWebhook": [
+      "frappe-operator"
+    ],
+    "vyogo.tech/v1/SiteWorkspace": [
+      "frappe-operator"
+    ],
     "github-practice.boxboat.com/v1alpha1/ActionsRunnerController": [
       "github-arc-operator"
     ],
@@ -2728,6 +2815,15 @@
     ],
     "maximilianopizarro.github.io/v1alpha1/PyhipsterWorker": [
       "jhipster-online-operator"
+    ],
+    "k8boss.io/v1alpha1/PlatformConfig": [
+      "k8boss-operator"
+    ],
+    "k8boss.io/v1alpha1/RuntimeSecurityPolicy": [
+      "k8boss-operator"
+    ],
+    "k8boss.io/v1alpha1/SegmentationPolicy": [
+      "k8boss-operator"
     ],
     "k8gb.absa.oss/v1beta1/Gslb": [
       "k8gb"
@@ -4232,6 +4328,9 @@
     "stackgres.io/v1alpha1/SGStream": [
       "stackgres-community"
     ],
+    "stackgres.io/v1beta1/SGShardedCluster": [
+      "stackgres-community"
+    ],
     "operator.open-cluster-management.io/v1/MultiClusterHub": [
       "stolostron"
     ],
@@ -4808,6 +4907,9 @@
     "operator.victoriametrics.com/v1alpha1/VLDistributed": [
       "victoriametrics-operator"
     ],
+    "operator.victoriametrics.com/v1/VTAgent": [
+      "victoriametrics-operator"
+    ],
     "virt.mathianasj.github.com/v1alpha1/VirtGitSync": [
       "virt-git-sync"
     ],
@@ -4827,5 +4929,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-09-13T07:05:54.871269"
+  "timestamp": "2026-10-07T07:05:58.695594"
 }

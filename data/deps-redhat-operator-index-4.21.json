@@ -1099,6 +1099,27 @@
     "tackle.konveyor.io/v1alpha1/LdapProvider": [
       "mta-operator"
     ],
+    "konveyor.io/v1alpha1/Agent": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentRun": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentWorkflow": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/AgentWorkflowRun": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/Gateway": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/SkillCard": [
+      "mta-operator"
+    ],
+    "konveyor.io/v1alpha1/SkillCollection": [
+      "mta-operator"
+    ],
     "windup.jboss.org/v1/Windup": [
       "mtr-operator"
     ],
@@ -1576,6 +1597,48 @@
     "argocd-image-updater.argoproj.io/v1alpha1/ImageUpdater": [
       "openshift-gitops-operator"
     ],
+    "promoter.argoproj.io/v1alpha1/ArgoCDCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ChangeTransferPolicy": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ClusterScmProvider": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/CommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ControllerConfiguration": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/GitCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/GitRepository": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/PromotionStrategy": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/PullRequest": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/RevertCommit": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ScheduledCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/ScmProvider": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/TimedCommitStatus": [
+      "openshift-gitops-operator"
+    ],
+    "promoter.argoproj.io/v1alpha1/WebRequestCommitStatus": [
+      "openshift-gitops-operator"
+    ],
     "operator.tekton.dev/v1alpha1/ManualApprovalGate": [
       "openshift-pipelines-operator-rh"
     ],
@@ -1999,9 +2062,6 @@
     "config.opendatahub.io/v1alpha1/Platform": [
       "rhods-operator"
     ],
-    "components.platform.opendatahub.io/v1alpha1/OGX": [
-      "rhods-operator"
-    ],
     "keycloak.org/v1alpha1/Keycloak": [
       "rhsso-operator"
     ],
@@ -2036,6 +2096,30 @@
       "rhtas-operator"
     ],
     "rhtas.redhat.com/v1alpha1/Tuf": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/CTlog": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Console": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Fulcio": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Rekor": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Securesign": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/TimestampAuthority": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Trillian": [
+      "rhtas-operator"
+    ],
+    "rhtas.redhat.com/v1/Tuf": [
       "rhtas-operator"
     ],
     "rhtpa.io/v1/TrustedProfileAnalyzer": [
@@ -2438,5 +2522,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-09-13T07:12:50.798250"
+  "timestamp": "2026-10-07T07:12:51.841594"
 }
