@@ -173,6 +173,16 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.6.0",
+      "keywords": [
+        "Aerospike"
+      ],
+      "description": "The Aerospike Kubernetes Operator automates the deployment and management of Aerospike enterprise clusters on Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "keywords": [
         "Aerospike"
@@ -854,6 +864,20 @@
       "package": "dynatrace-operator-rhmp",
       "name": "dynatrace-operator-rhmp",
       "version": "1.10.2",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.11.0",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -2988,7 +3012,7 @@
       "channel": "stable-v7.4"
     }
   ],
-  "count": 239,
+  "count": 241,
   "source": "opm",
-  "timestamp": "2026-10-07T07:13:41.136840"
+  "timestamp": "2026-10-10T07:12:28.432889"
 }

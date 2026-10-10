@@ -1029,13 +1029,13 @@
     "route53resolver.services.k8s.aws/v1alpha1/ResolverRule": [
       "ack-route53resolver-controller"
     ],
-    "route53resolver.services.k8s.aws/v1alpha1/ResolverRuleAssociation": [
-      "ack-route53resolver-controller"
-    ],
     "route53resolver.services.k8s.aws/v1alpha1/ResolverQueryLogConfig": [
       "ack-route53resolver-controller"
     ],
     "route53resolver.services.k8s.aws/v1alpha1/ResolverQueryLogConfigAssociation": [
+      "ack-route53resolver-controller"
+    ],
+    "route53resolver.services.k8s.aws/v1alpha1/ResolverRuleAssociation": [
       "ack-route53resolver-controller"
     ],
     "s3.services.k8s.aws/v1alpha1/Bucket": [
@@ -2853,6 +2853,9 @@
     "infinispan.org/v2alpha1/Restore": [
       "infinispan"
     ],
+    "infinispan.org/v2alpha1/Schema": [
+      "infinispan"
+    ],
     "apis.integrityshield.io/v1/IntegrityShield": [
       "integrity-shield-operator"
     ],
@@ -4512,9 +4515,6 @@
     "stackgres.io/v1alpha1/SGStream": [
       "stackgres-community"
     ],
-    "stackgres.io/v1beta1/SGShardedCluster": [
-      "stackgres-community"
-    ],
     "operator.open-cluster-management.io/v1/MultiClusterHub": [
       "stolostron"
     ],
@@ -5113,5 +5113,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-10-07T07:09:18.716316"
+  "timestamp": "2026-10-10T07:08:04.379503"
 }

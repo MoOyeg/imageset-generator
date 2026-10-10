@@ -553,6 +553,12 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.1.0",
+      "channel": "alpha"
+    },
+    {
       "package": "bonree-operator",
       "name": "bonree-operator",
       "version": "1.1.0",
@@ -1269,7 +1275,7 @@
     {
       "package": "cockroachdb-certified",
       "name": "cockroachdb-certified",
-      "version": "2.18.4",
+      "version": "2.18.5",
       "channel": "stable"
     },
     {
@@ -3555,7 +3561,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.8",
+      "version": "2.24.9",
       "channel": "beta"
     },
     {
@@ -3591,7 +3597,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.8",
+      "version": "2.24.9",
       "channel": "beta"
     },
     {
@@ -5089,6 +5095,12 @@
       "channel": "5.4.x"
     },
     {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.4.1",
+      "channel": "5.4.x"
+    },
+    {
       "package": "keysight-ati-updates",
       "name": "keysight-ati-updates",
       "version": "0.1.21",
@@ -5458,12 +5470,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.21.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.21.20-beta.1",
+      "version": "8.21.30-beta.1",
       "channel": "beta"
     },
     {
@@ -5578,12 +5590,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.21.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.20-beta.1",
+      "version": "8.21.30-beta.1",
       "channel": "beta"
     },
     {
@@ -7240,12 +7252,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.21.20",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.21.20-beta.1",
+      "version": "8.21.30-beta.1",
       "channel": "beta"
     },
     {
@@ -7384,6 +7396,12 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.4.6-11.0",
+      "channel": "7.4.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "7.4.6-12.0",
       "channel": "7.4.6"
     },
     {
@@ -8191,6 +8209,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.1",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seldon-operator-certified",
       "name": "seldon-operator-certified",
       "version": "1.16.0-0",
@@ -8499,19 +8523,7 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.9",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.2",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.3",
+      "version": "1.18.10",
       "channel": "candidate"
     },
     {
@@ -8524,12 +8536,12 @@
       "package": "t8c-certified",
       "name": "t8c-certified",
       "version": "42.116.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.116.0-beta.2",
+      "version": "42.117.0-beta.1",
       "channel": "beta"
     },
     {
@@ -10027,7 +10039,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1671,
+  "count": 1673,
   "source": "opm",
-  "timestamp": "2026-10-07T06:53:19.176268"
+  "timestamp": "2026-10-10T06:51:47.159636"
 }

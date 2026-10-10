@@ -204,6 +204,19 @@
     {
       "package": "ack-acm-controller",
       "name": "ack-acm-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "acm",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS ACM controller is a service controller for managing ACM resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-acm-controller",
+      "name": "ack-acm-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -313,13 +326,6 @@
       "package": "ack-acm-controller",
       "name": "ack-acm-controller",
       "version": "1.9.2",
-      "keywords": [
-        "acm",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS ACM controller is a service controller for managing ACM resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -554,6 +560,12 @@
       "package": "ack-acmpca-controller",
       "name": "ack-acmpca-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-acmpca-controller",
+      "name": "ack-acmpca-controller",
+      "version": "1.6.0",
       "keywords": [
         "acmpca",
         "aws",
@@ -615,6 +627,19 @@
       "package": "ack-apigateway-controller",
       "name": "ack-apigateway-controller",
       "version": "1.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigateway-controller",
+      "name": "ack-apigateway-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "apigateway",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS API Gateway controller is a service controller for managing API Gateway resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -741,13 +766,6 @@
       "package": "ack-apigateway-controller",
       "name": "ack-apigateway-controller",
       "version": "1.9.1",
-      "keywords": [
-        "apigateway",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS API Gateway controller is a service controller for managing API Gateway resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -1060,6 +1078,12 @@
       "package": "ack-apigatewayv2-controller",
       "name": "ack-apigatewayv2-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigatewayv2-controller",
+      "name": "ack-apigatewayv2-controller",
+      "version": "1.7.0",
       "keywords": [
         "apigatewayv2",
         "aws",
@@ -1397,6 +1421,12 @@
       "package": "ack-applicationautoscaling-controller",
       "name": "ack-applicationautoscaling-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-applicationautoscaling-controller",
+      "name": "ack-applicationautoscaling-controller",
+      "version": "1.8.0",
       "keywords": [
         "applicationautoscaling",
         "aws",
@@ -1663,6 +1693,12 @@
       "package": "ack-autoscaling-controller",
       "name": "ack-autoscaling-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-autoscaling-controller",
+      "name": "ack-autoscaling-controller",
+      "version": "1.4.0",
       "keywords": [
         "autoscaling",
         "aws",
@@ -1730,6 +1766,12 @@
       "package": "ack-backup-controller",
       "name": "ack-backup-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-backup-controller",
+      "name": "ack-backup-controller",
+      "version": "1.3.0",
       "keywords": [
         "backup",
         "aws",
@@ -2009,6 +2051,12 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.15.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.16.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -2310,6 +2358,12 @@
       "package": "ack-cloudfront-controller",
       "name": "ack-cloudfront-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudfront-controller",
+      "name": "ack-cloudfront-controller",
+      "version": "1.9.0",
       "keywords": [
         "cloudfront",
         "aws",
@@ -3015,6 +3069,12 @@
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
       "version": "1.6.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatchlogs-controller",
+      "name": "ack-cloudwatchlogs-controller",
+      "version": "1.7.0",
       "keywords": [
         "cloudwatchlogs",
         "aws",
@@ -3124,6 +3184,12 @@
       "package": "ack-codeartifact-controller",
       "name": "ack-codeartifact-controller",
       "version": "1.7.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-codeartifact-controller",
+      "name": "ack-codeartifact-controller",
+      "version": "1.8.0",
       "keywords": [
         "codeartifact",
         "aws",
@@ -3227,6 +3293,12 @@
       "package": "ack-cognitoidentityprovider-controller",
       "name": "ack-cognitoidentityprovider-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cognitoidentityprovider-controller",
+      "name": "ack-cognitoidentityprovider-controller",
+      "version": "1.8.0",
       "keywords": [
         "cognitoidentityprovider",
         "aws",
@@ -3252,6 +3324,12 @@
       "package": "ack-dms-controller",
       "name": "ack-dms-controller",
       "version": "0.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dms-controller",
+      "name": "ack-dms-controller",
+      "version": "0.3.0",
       "keywords": [
         "dms",
         "aws",
@@ -5979,6 +6057,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.23.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.23.2",
       "keywords": [
         "eks",
         "aws",
@@ -7443,6 +7527,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.7.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.8.0",
       "keywords": [
         "eventbridge",
         "aws",
@@ -9280,6 +9370,12 @@
       "package": "ack-kms-controller",
       "name": "ack-kms-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kms-controller",
+      "name": "ack-kms-controller",
+      "version": "1.5.2",
       "keywords": [
         "kms",
         "aws",
@@ -11825,6 +11921,12 @@
       "package": "ack-quicksight-controller",
       "name": "ack-quicksight-controller",
       "version": "1.1.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-quicksight-controller",
+      "name": "ack-quicksight-controller",
+      "version": "1.2.0",
       "keywords": [
         "quicksight",
         "aws",
@@ -11946,6 +12048,12 @@
       "package": "ack-ram-controller",
       "name": "ack-ram-controller",
       "version": "1.5.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ram-controller",
+      "name": "ack-ram-controller",
+      "version": "1.6.0",
       "keywords": [
         "ram",
         "aws",
@@ -12692,6 +12800,12 @@
       "package": "ack-recyclebin-controller",
       "name": "ack-recyclebin-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-recyclebin-controller",
+      "name": "ack-recyclebin-controller",
+      "version": "1.6.0",
       "keywords": [
         "recyclebin",
         "aws",
@@ -13083,6 +13197,19 @@
     {
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "route53resolver",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS Route53Resolver controller is a service controller for managing Route53Resolver resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -13162,13 +13289,6 @@
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
       "version": "1.9.1",
-      "keywords": [
-        "route53resolver",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS Route53Resolver controller is a service controller for managing Route53Resolver resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -13911,6 +14031,12 @@
       "package": "ack-s3vectors-controller",
       "name": "ack-s3vectors-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3vectors-controller",
+      "name": "ack-s3vectors-controller",
+      "version": "1.3.0",
       "keywords": [
         "s3vectors",
         "aws",
@@ -15266,6 +15392,12 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.10.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.11.0",
       "keywords": [
         "sns",
         "aws",
@@ -26607,6 +26739,20 @@
     {
       "package": "infinispan",
       "name": "infinispan",
+      "version": "2.5.17",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Infinispan clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "infinispan",
+      "name": "infinispan",
       "version": "2.5.2",
       "keywords": [
         "infinispan",
@@ -30609,6 +30755,50 @@
     {
       "package": "libredb-studio-operator",
       "name": "libredb-studio-operator",
+      "version": "0.18.1",
+      "keywords": [
+        "sql",
+        "database",
+        "ide",
+        "sql-editor",
+        "postgresql",
+        "mysql",
+        "mongodb",
+        "redis",
+        "oracle",
+        "db2",
+        "sql-server",
+        "sqlite",
+        "couchbase",
+        "clickhouse",
+        "druid",
+        "elasticsearch",
+        "opensearch",
+        "trino",
+        "cassandra",
+        "libsql",
+        "turso",
+        "duckdb",
+        "prometheus",
+        "promql",
+        "kafka",
+        "etcd",
+        "neo4j",
+        "cypher",
+        "milvus",
+        "qdrant",
+        "influxdb",
+        "influxql",
+        "influxdb3",
+        "oxia",
+        "databend"
+      ],
+      "description": "Open-source web-based SQL IDE for twenty-seven engines - PostgreSQL, MySQL, Oracle, Db2 LUW, SQL Server, SQLite, DuckDB, MongoDB, Redis, Couchbase, ClickHouse, Apache Druid, Elasticsearch, OpenSearch, Trino, Apache Cassandra, libSQL, Prometheus, Apache Kafka, etcd, Neo4j, Milvus, Qdrant, InfluxDB, InfluxDB 3, Oxia and Databend - with AI-powered query assistance.",
+      "channel": "alpha"
+    },
+    {
+      "package": "libredb-studio-operator",
+      "name": "libredb-studio-operator",
       "version": "0.9.59",
       "keywords": [
         "sql",
@@ -30772,6 +30962,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "0.11.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "0.12.0",
       "keywords": [
         "logging",
         "loki"
@@ -36427,6 +36623,18 @@
     {
       "package": "project-quay",
       "name": "project-quay",
+      "version": "3.10.27",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "project-quay",
+      "name": "project-quay",
       "version": "3.10.3",
       "keywords": [
         "open source",
@@ -38749,6 +38957,12 @@
       "package": "redis-operator",
       "name": "redis-operator",
       "version": "0.15.1",
+      "channel": "stable"
+    },
+    {
+      "package": "redis-operator",
+      "name": "redis-operator",
+      "version": "0.25.0",
       "keywords": [
         "DevOps",
         "Kubernetes",
@@ -40361,407 +40575,7 @@
     {
       "package": "stackgres-community",
       "name": "stackgres-community",
-      "version": "1.17.0",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.17.0-rc1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.17.1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.17.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.17.3",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.17.4",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.0",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.0-rc1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.0-rc2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.0-rc3",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.0-rc4",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.3",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.4",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.5",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.6",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.7",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.18.8",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.19.0",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.19.0-rc1",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.19.0-rc2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.19.0-rc3",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.19.0-rc4",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.19.0-rc5",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-community",
-      "name": "stackgres-community",
-      "version": "1.19.1",
+      "version": "1.18.10",
       "keywords": [
         "postgresql",
         "postgres",
@@ -43657,7 +43471,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5738,
+  "count": 5740,
   "source": "opm",
-  "timestamp": "2026-10-07T07:09:17.431065"
+  "timestamp": "2026-10-10T07:08:03.440442"
 }

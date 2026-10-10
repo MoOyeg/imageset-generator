@@ -987,6 +987,22 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.1.0",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cfm-operator",
       "name": "cfm-operator",
       "version": "2.11.0-b57",
@@ -6043,7 +6059,7 @@
       "channel": "stable"
     }
   ],
-  "count": 737,
+  "count": 738,
   "source": "opm",
-  "timestamp": "2026-10-07T07:15:19.966591"
+  "timestamp": "2026-10-10T07:13:54.601262"
 }

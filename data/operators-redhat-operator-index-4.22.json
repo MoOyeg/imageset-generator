@@ -4991,6 +4991,40 @@
       "channel": "stable-2.7"
     },
     {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1791268465",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1791268467",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
       "package": "ansible-cloud-addons-operator",
       "name": "ansible-cloud-addons-operator",
       "version": "2.5.0+0.1727240231",
@@ -19966,6 +20000,16 @@
       "channel": "stable-v1.4"
     },
     {
+      "package": "kueue-operator",
+      "name": "kueue-operator",
+      "version": "1.4.3",
+      "keywords": [
+        "kueue-operator"
+      ],
+      "description": "",
+      "channel": "stable-v1.4"
+    },
+    {
       "package": "leader-worker-set",
       "name": "leader-worker-set",
       "version": "1.0.0",
@@ -20441,6 +20485,20 @@
       "package": "logic-operator",
       "name": "logic-operator",
       "version": "1.38.1",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.38.2",
       "keywords": [
         "sonataflow",
         "cncf",
@@ -34820,6 +34878,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.10",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.10.2",
       "keywords": [
         "advanced-cluster-security",
@@ -37763,6 +37842,17 @@
       "package": "rhdh",
       "name": "rhdh",
       "version": "1.10.4",
+      "keywords": [
+        "Backstage",
+        "RHDH"
+      ],
+      "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins and configuration settings, supports use of an external database, and can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
+      "channel": "fast"
+    },
+    {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.10.5",
       "keywords": [
         "Backstage",
         "RHDH"
@@ -47022,6 +47112,20 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.22.0-3",
+      "keywords": [
+        "tempo",
+        "tracing",
+        "observability",
+        "monitoring",
+        "database"
+      ],
+      "description": "Create and manage deployments of Tempo, a high-scale distributed tracing backend.",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "keywords": [
         "tracing",
@@ -47678,6 +47782,20 @@
     {
       "package": "web-terminal",
       "name": "web-terminal",
+      "version": "1.11.2",
+      "keywords": [
+        "workspace",
+        "devtools",
+        "developer",
+        "ide",
+        "terminal"
+      ],
+      "description": "Start a web terminal in your browser with common CLI tools for interacting with the cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "web-terminal",
+      "name": "web-terminal",
       "version": "1.12.1",
       "keywords": [
         "workspace",
@@ -48200,7 +48318,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3404,
+  "count": 3412,
   "source": "opm",
-  "timestamp": "2026-10-07T07:14:01.557590"
+  "timestamp": "2026-10-10T07:12:49.780387"
 }

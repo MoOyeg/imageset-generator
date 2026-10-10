@@ -1215,6 +1215,22 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.1.0",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -3685,7 +3701,7 @@
     {
       "package": "cockroachdb-certified",
       "name": "cockroachdb-certified",
-      "version": "2.18.4",
+      "version": "2.18.5",
       "keywords": [
         "database",
         "cockroachDB"
@@ -8705,7 +8721,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.8",
+      "version": "2.24.9",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -8797,7 +8813,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.8",
+      "version": "2.24.9",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -11333,6 +11349,24 @@
       "channel": "5.4.x"
     },
     {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.4.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.4.x"
+    },
+    {
       "package": "kedify-agent-helm-operator",
       "name": "kedify-agent-helm-operator",
       "version": "0.5.7",
@@ -12686,12 +12720,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.20-beta.1",
+      "version": "8.21.30-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -17945,6 +17979,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.1",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seawise-backup-operator",
       "name": "seawise-backup-operator",
       "version": "0.1.0",
@@ -18683,39 +18730,7 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.9",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.3",
+      "version": "1.18.10",
       "keywords": [
         "postgresql",
         "postgres",
@@ -20684,7 +20699,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1909,
+  "count": 1910,
   "source": "opm",
-  "timestamp": "2026-10-07T07:07:24.131521"
+  "timestamp": "2026-10-10T07:06:18.639968"
 }

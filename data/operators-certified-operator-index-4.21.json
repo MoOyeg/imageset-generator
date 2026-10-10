@@ -1249,6 +1249,22 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.1.0",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -5856,6 +5872,20 @@
     {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
+      "version": "0.15.0",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team",
+        "remediate"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
       "version": "0.4.3",
       "keywords": [
         "ai",
@@ -6895,6 +6925,18 @@
       "channel": "1.24"
     },
     {
+      "package": "habana-ai-operator",
+      "name": "habana-ai-operator",
+      "version": "1.24.2-481",
+      "keywords": [
+        "habanalabs",
+        "hardware",
+        "driver"
+      ],
+      "description": "Manages Intel Gaudi AI accelerators within a Kubernetes cluster",
+      "channel": "1.24"
+    },
+    {
       "package": "hammu-platform",
       "name": "hammu-platform",
       "version": "0.1.0",
@@ -7251,7 +7293,7 @@
     {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.8",
+      "version": "2.24.9",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -7262,7 +7304,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.8",
+      "version": "2.24.9",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -9590,6 +9632,24 @@
       "channel": "5.4.x"
     },
     {
+      "package": "k8s-triliovault",
+      "name": "k8s-triliovault",
+      "version": "5.4.1",
+      "keywords": [
+        "backup",
+        "restore",
+        "data protection",
+        "disaster recovery",
+        "protect",
+        "recover",
+        "migrate",
+        "migration",
+        "DR"
+      ],
+      "description": "Cloud-Native Data Protection for Kubernetes",
+      "channel": "5.4.x"
+    },
+    {
       "package": "kalybr-ent-operator",
       "name": "kalybr-ent-operator",
       "version": "0.1.0",
@@ -10383,12 +10443,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.20-beta.1",
+      "version": "8.21.30-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -12289,6 +12349,20 @@
       "channel": "stable"
     },
     {
+      "package": "percona-server-mongodb-operator-certified",
+      "name": "percona-server-mongodb-operator-certified",
+      "version": "1.23.1",
+      "keywords": [
+        "mongodb",
+        "percona",
+        "database",
+        "replicaset",
+        "shard"
+      ],
+      "description": "Percona Distribution for MongoDB Operator automates the creation, modification, or deletion of items in your Percona Server for MongoDB environment",
+      "channel": "stable"
+    },
+    {
       "package": "percona-server-mysql-operator-certified",
       "name": "percona-server-mysql-operator-certified",
       "version": "1.1.0",
@@ -13763,7 +13837,7 @@
     {
       "package": "runtime-fabric-operator",
       "name": "runtime-fabric-operator",
-      "version": "3.0.277",
+      "version": "3.0.35601",
       "keywords": [
         "operator",
         "agent",
@@ -14437,39 +14511,7 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.9",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.3",
+      "version": "1.18.10",
       "keywords": [
         "postgresql",
         "postgres",
@@ -15876,7 +15918,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1436,
+  "count": 1439,
   "source": "opm",
-  "timestamp": "2026-10-07T07:13:06.732031"
+  "timestamp": "2026-10-10T07:11:59.466685"
 }

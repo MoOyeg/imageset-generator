@@ -996,13 +996,13 @@
     "route53resolver.services.k8s.aws/v1alpha1/ResolverRule": [
       "ack-route53resolver-controller"
     ],
-    "route53resolver.services.k8s.aws/v1alpha1/ResolverRuleAssociation": [
-      "ack-route53resolver-controller"
-    ],
     "route53resolver.services.k8s.aws/v1alpha1/ResolverQueryLogConfig": [
       "ack-route53resolver-controller"
     ],
     "route53resolver.services.k8s.aws/v1alpha1/ResolverQueryLogConfigAssociation": [
+      "ack-route53resolver-controller"
+    ],
+    "route53resolver.services.k8s.aws/v1alpha1/ResolverRuleAssociation": [
       "ack-route53resolver-controller"
     ],
     "s3.services.k8s.aws/v1alpha1/Bucket": [
@@ -2670,6 +2670,60 @@
     "hyperfoil.io/v1alpha1/Horreum": [
       "horreum-operator"
     ],
+    "keycloak.hostzero.com/v1beta1/ClusterKeycloakInstance": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/ClusterKeycloakRealm": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakAuthenticationFlow": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakClient": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakClientScope": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakComponent": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakGroup": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakIdentityProvider": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakIdentityProviderMapper": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakInstance": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakOrganization": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakProtocolMapper": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakRealm": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakRequiredAction": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakRole": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakRoleMapping": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakUser": [
+      "hostzero-keycloak-operator"
+    ],
+    "keycloak.hostzero.com/v1beta1/KeycloakUserCredential": [
+      "hostzero-keycloak-operator"
+    ],
     "hyperfoil.io/v1alpha2/Hyperfoil": [
       "hyperfoil-bundle"
     ],
@@ -2719,6 +2773,9 @@
       "infinispan"
     ],
     "infinispan.org/v2alpha1/Restore": [
+      "infinispan"
+    ],
+    "infinispan.org/v2alpha1/Schema": [
       "infinispan"
     ],
     "apis.integrityshield.io/v1/IntegrityShield": [
@@ -4227,6 +4284,9 @@
     "servicebinding.io/v1beta1/ServiceBinding": [
       "service-binding-operator"
     ],
+    "shiftwise.ai/v1alpha1/ShiftWise": [
+      "shiftwise-operator"
+    ],
     "helm.sigstore.dev/v1alpha1/Rekor": [
       "sigstore-helm-operator"
     ],
@@ -4987,5 +5047,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-10-07T07:14:49.154920"
+  "timestamp": "2026-10-10T07:13:23.458481"
 }

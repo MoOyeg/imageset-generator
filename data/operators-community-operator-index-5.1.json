@@ -204,6 +204,19 @@
     {
       "package": "ack-acm-controller",
       "name": "ack-acm-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "acm",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS ACM controller is a service controller for managing ACM resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-acm-controller",
+      "name": "ack-acm-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -313,13 +326,6 @@
       "package": "ack-acm-controller",
       "name": "ack-acm-controller",
       "version": "1.9.2",
-      "keywords": [
-        "acm",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS ACM controller is a service controller for managing ACM resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -554,6 +560,12 @@
       "package": "ack-acmpca-controller",
       "name": "ack-acmpca-controller",
       "version": "1.5.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-acmpca-controller",
+      "name": "ack-acmpca-controller",
+      "version": "1.6.0",
       "keywords": [
         "acmpca",
         "aws",
@@ -615,6 +627,19 @@
       "package": "ack-apigateway-controller",
       "name": "ack-apigateway-controller",
       "version": "1.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigateway-controller",
+      "name": "ack-apigateway-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "apigateway",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS API Gateway controller is a service controller for managing API Gateway resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -735,13 +760,6 @@
       "package": "ack-apigateway-controller",
       "name": "ack-apigateway-controller",
       "version": "1.9.1",
-      "keywords": [
-        "apigateway",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS API Gateway controller is a service controller for managing API Gateway resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -1054,6 +1072,12 @@
       "package": "ack-apigatewayv2-controller",
       "name": "ack-apigatewayv2-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-apigatewayv2-controller",
+      "name": "ack-apigatewayv2-controller",
+      "version": "1.7.0",
       "keywords": [
         "apigatewayv2",
         "aws",
@@ -1391,6 +1415,12 @@
       "package": "ack-applicationautoscaling-controller",
       "name": "ack-applicationautoscaling-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-applicationautoscaling-controller",
+      "name": "ack-applicationautoscaling-controller",
+      "version": "1.8.0",
       "keywords": [
         "applicationautoscaling",
         "aws",
@@ -1645,6 +1675,12 @@
       "package": "ack-autoscaling-controller",
       "name": "ack-autoscaling-controller",
       "version": "1.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-autoscaling-controller",
+      "name": "ack-autoscaling-controller",
+      "version": "1.4.0",
       "keywords": [
         "autoscaling",
         "aws",
@@ -1712,6 +1748,12 @@
       "package": "ack-backup-controller",
       "name": "ack-backup-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-backup-controller",
+      "name": "ack-backup-controller",
+      "version": "1.3.0",
       "keywords": [
         "backup",
         "aws",
@@ -1985,6 +2027,12 @@
       "package": "ack-bedrockagentcorecontrol-controller",
       "name": "ack-bedrockagentcorecontrol-controller",
       "version": "1.15.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrockagentcorecontrol-controller",
+      "name": "ack-bedrockagentcorecontrol-controller",
+      "version": "1.16.0",
       "keywords": [
         "bedrockagentcorecontrol",
         "aws",
@@ -2286,6 +2334,12 @@
       "package": "ack-cloudfront-controller",
       "name": "ack-cloudfront-controller",
       "version": "1.8.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudfront-controller",
+      "name": "ack-cloudfront-controller",
+      "version": "1.9.0",
       "keywords": [
         "cloudfront",
         "aws",
@@ -2991,6 +3045,12 @@
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
       "version": "1.6.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatchlogs-controller",
+      "name": "ack-cloudwatchlogs-controller",
+      "version": "1.7.0",
       "keywords": [
         "cloudwatchlogs",
         "aws",
@@ -3094,6 +3154,12 @@
       "package": "ack-codeartifact-controller",
       "name": "ack-codeartifact-controller",
       "version": "1.7.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-codeartifact-controller",
+      "name": "ack-codeartifact-controller",
+      "version": "1.8.0",
       "keywords": [
         "codeartifact",
         "aws",
@@ -3185,6 +3251,12 @@
       "package": "ack-cognitoidentityprovider-controller",
       "name": "ack-cognitoidentityprovider-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cognitoidentityprovider-controller",
+      "name": "ack-cognitoidentityprovider-controller",
+      "version": "1.8.0",
       "keywords": [
         "cognitoidentityprovider",
         "aws",
@@ -3210,6 +3282,12 @@
       "package": "ack-dms-controller",
       "name": "ack-dms-controller",
       "version": "0.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dms-controller",
+      "name": "ack-dms-controller",
+      "version": "0.3.0",
       "keywords": [
         "dms",
         "aws",
@@ -4402,6 +4480,12 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.21.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.21.3",
       "keywords": [
         "ec2",
         "aws",
@@ -5859,6 +5943,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.23.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.23.2",
       "keywords": [
         "eks",
         "aws",
@@ -7323,6 +7413,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.7.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.8.0",
       "keywords": [
         "eventbridge",
         "aws",
@@ -9142,6 +9238,12 @@
       "package": "ack-kms-controller",
       "name": "ack-kms-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kms-controller",
+      "name": "ack-kms-controller",
+      "version": "1.5.2",
       "keywords": [
         "kms",
         "aws",
@@ -11537,6 +11639,12 @@
       "package": "ack-quicksight-controller",
       "name": "ack-quicksight-controller",
       "version": "1.1.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-quicksight-controller",
+      "name": "ack-quicksight-controller",
+      "version": "1.2.0",
       "keywords": [
         "quicksight",
         "aws",
@@ -11658,6 +11766,12 @@
       "package": "ack-ram-controller",
       "name": "ack-ram-controller",
       "version": "1.5.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ram-controller",
+      "name": "ack-ram-controller",
+      "version": "1.6.0",
       "keywords": [
         "ram",
         "aws",
@@ -12398,6 +12512,12 @@
       "package": "ack-recyclebin-controller",
       "name": "ack-recyclebin-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-recyclebin-controller",
+      "name": "ack-recyclebin-controller",
+      "version": "1.6.0",
       "keywords": [
         "recyclebin",
         "aws",
@@ -12783,6 +12903,19 @@
     {
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "route53resolver",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS Route53Resolver controller is a service controller for managing Route53Resolver resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53resolver-controller",
+      "name": "ack-route53resolver-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -12856,13 +12989,6 @@
       "package": "ack-route53resolver-controller",
       "name": "ack-route53resolver-controller",
       "version": "1.9.1",
-      "keywords": [
-        "route53resolver",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS Route53Resolver controller is a service controller for managing Route53Resolver resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -13587,6 +13713,12 @@
       "package": "ack-s3vectors-controller",
       "name": "ack-s3vectors-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3vectors-controller",
+      "name": "ack-s3vectors-controller",
+      "version": "1.3.0",
       "keywords": [
         "s3vectors",
         "aws",
@@ -14420,6 +14552,18 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.10.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.10.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.11.0",
       "keywords": [
         "sns",
         "aws",
@@ -16727,6 +16871,12 @@
       "package": "attune",
       "name": "attune",
       "version": "0.1.32",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.33",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -21240,13 +21390,6 @@
       "package": "fqdn-egress-operator",
       "name": "fqdn-egress-operator",
       "version": "1.0.6",
-      "keywords": [
-        "operator",
-        "network",
-        "fqdn",
-        "egress"
-      ],
-      "description": "Creates and maintains NetworkPolicies that supports outbound flows based on FQDNs",
       "channel": "stable"
     },
     {
@@ -21853,6 +21996,24 @@
       ],
       "description": "Performance results repository",
       "channel": "alpha"
+    },
+    {
+      "package": "hostzero-keycloak-operator",
+      "name": "hostzero-keycloak-operator",
+      "version": "0.13.1",
+      "keywords": [
+        "keycloak",
+        "identity",
+        "authentication",
+        "authorization",
+        "oauth2",
+        "oidc",
+        "saml",
+        "sso",
+        "iam"
+      ],
+      "description": "A Kubernetes operator for managing Keycloak resources declaratively",
+      "channel": "stable"
     },
     {
       "package": "hyperfoil-bundle",
@@ -24636,6 +24797,12 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "0.11.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "0.12.0",
       "keywords": [
         "logging",
         "loki"
@@ -27759,6 +27926,12 @@
       "package": "redis-operator",
       "name": "redis-operator",
       "version": "0.15.1",
+      "channel": "stable"
+    },
+    {
+      "package": "redis-operator",
+      "name": "redis-operator",
+      "version": "0.25.0",
       "keywords": [
         "DevOps",
         "Kubernetes",
@@ -28355,6 +28528,20 @@
       "version": "1.4.0",
       "keywords": [],
       "description": "An operator to support binding capabilities between imported apps and operator backed services",
+      "channel": "stable"
+    },
+    {
+      "package": "shiftwise-operator",
+      "name": "shiftwise-operator",
+      "version": "1.0.5",
+      "keywords": [
+        "shiftwise",
+        "kubeoptix",
+        "openshift",
+        "kubernetes",
+        "aiops"
+      ],
+      "description": "ShiftWise operator that reconciles the KubeOptix platform on OpenShift.",
       "channel": "stable"
     },
     {
@@ -30737,7 +30924,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4639,
+  "count": 4668,
   "source": "opm",
-  "timestamp": "2026-10-07T07:17:10.150009"
+  "timestamp": "2026-10-10T07:15:51.139715"
 }

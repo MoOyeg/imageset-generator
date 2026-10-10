@@ -6386,6 +6386,40 @@
       "channel": "stable-2.7"
     },
     {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1791268465",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1791268467",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
       "package": "ansible-cloud-addons-operator",
       "name": "ansible-cloud-addons-operator",
       "version": "2.5.0+0.1727240231",
@@ -11004,6 +11038,20 @@
     {
       "package": "cluster-logging",
       "name": "cluster-logging",
+      "version": "6.4.7",
+      "keywords": [
+        "logging",
+        "observability",
+        "loki",
+        "vector",
+        "otlp"
+      ],
+      "description": "The Red Hat OpenShift Logging Operator for OCP provides a means for configuring and managing log collection and forwarding.",
+      "channel": "stable-6.4"
+    },
+    {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
       "version": "6.5.0",
       "keywords": [
         "logging",
@@ -12121,6 +12169,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.10.27",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.10.3",
       "keywords": [
         "open source",
@@ -12554,6 +12614,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.12.22",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.12.23",
       "keywords": [
         "open source",
         "containers",
@@ -13934,6 +14006,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.9.26",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.9.27",
       "keywords": [
         "open source",
         "containers",
@@ -22817,6 +22901,16 @@
       "channel": "stable-v1.4"
     },
     {
+      "package": "kueue-operator",
+      "name": "kueue-operator",
+      "version": "1.4.3",
+      "keywords": [
+        "kueue-operator"
+      ],
+      "description": "",
+      "channel": "stable-v1.4"
+    },
+    {
       "package": "leader-worker-set",
       "name": "leader-worker-set",
       "version": "1.0.0",
@@ -23525,6 +23619,20 @@
       "channel": "stable"
     },
     {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.38.2",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable"
+    },
+    {
       "package": "logic-operator-rhel8",
       "name": "logic-operator-rhel8",
       "version": "1.33.0",
@@ -23664,6 +23772,17 @@
       "package": "loki-operator",
       "name": "loki-operator",
       "version": "6.4.6",
+      "keywords": [
+        "logging",
+        "loki"
+      ],
+      "description": "The Loki Operator for OCP provides a means for configuring and managing a Loki stack for cluster logging.\\n## Prerequisites and Requirements\\n### Loki Operator Namespace\\nThe Loki Operator must be deployed to the global operator group namespace `openshift-operators-redhat`.\\n### Memory Considerations\\nLoki is a memory intensive application.  The initial\\nset of OCP nodes may not be large enough to support the Loki stack.  Additional OCP nodes must be added\\nto the OCP cluster if you desire to run with the recommended (or better) memory.\\n",
+      "channel": "stable-6.4"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.4.7",
       "keywords": [
         "logging",
         "loki"
@@ -35517,6 +35636,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.10.27",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "keywords": [
         "registry",
@@ -35950,6 +36081,18 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.12.22",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.12.23",
       "keywords": [
         "registry",
         "containers",
@@ -37341,6 +37484,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.9.27",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "keywords": [
         "registry",
@@ -37654,6 +37809,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.26",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.10"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.10.27",
       "keywords": [
         "open source",
         "containers",
@@ -38098,6 +38265,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.12.22",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.12"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.12.23",
       "keywords": [
         "open source",
         "containers",
@@ -39358,6 +39537,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.26",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.9"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.9.27",
       "keywords": [
         "open source",
         "containers",
@@ -42891,6 +43082,27 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.10.10",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.10"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.10.2",
       "keywords": [
         "advanced-cluster-security",
@@ -45978,6 +46190,17 @@
       "package": "rhdh",
       "name": "rhdh",
       "version": "1.10.4",
+      "keywords": [
+        "Backstage",
+        "RHDH"
+      ],
+      "description": "Red Hat Developer Hub is a Red Hat supported version of Backstage. It comes with pre-built plug-ins and configuration settings, supports use of an external database, and can help streamline the process of setting up a self-managed internal developer portal for adopters who are just starting out.",
+      "channel": "fast"
+    },
+    {
+      "package": "rhdh",
+      "name": "rhdh",
+      "version": "1.10.5",
       "keywords": [
         "Backstage",
         "RHDH"
@@ -56603,6 +56826,20 @@
     {
       "package": "tempo-product",
       "name": "tempo-product",
+      "version": "0.22.0-3",
+      "keywords": [
+        "tempo",
+        "tracing",
+        "observability",
+        "monitoring",
+        "database"
+      ],
+      "description": "Create and manage deployments of Tempo, a high-scale distributed tracing backend.",
+      "channel": "stable"
+    },
+    {
+      "package": "tempo-product",
+      "name": "tempo-product",
       "version": "0.3.1-3",
       "keywords": [
         "tracing",
@@ -57516,6 +57753,20 @@
     {
       "package": "web-terminal",
       "name": "web-terminal",
+      "version": "1.11.2",
+      "keywords": [
+        "workspace",
+        "devtools",
+        "developer",
+        "ide",
+        "terminal"
+      ],
+      "description": "Start a web terminal in your browser with common CLI tools for interacting with the cluster",
+      "channel": "fast"
+    },
+    {
+      "package": "web-terminal",
+      "name": "web-terminal",
       "version": "1.12.1",
       "keywords": [
         "workspace",
@@ -58020,7 +58271,7 @@
       "channel": "stable"
     }
   ],
-  "count": 4139,
+  "count": 4158,
   "source": "opm",
-  "timestamp": "2026-10-07T07:12:49.138465"
+  "timestamp": "2026-10-10T07:11:41.466318"
 }

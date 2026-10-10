@@ -188,6 +188,16 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.6.0",
+      "keywords": [
+        "Aerospike"
+      ],
+      "description": "The Aerospike Kubernetes Operator automates the deployment and management of Aerospike enterprise clusters on Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "keywords": [
         "Aerospike"
@@ -328,7 +338,7 @@
     {
       "package": "cockroachdb-certified-rhmp",
       "name": "cockroachdb-certified-rhmp",
-      "version": "2.18.4",
+      "version": "2.18.5",
       "keywords": [
         "database",
         "cockroachDB"
@@ -1005,6 +1015,20 @@
       "package": "dynatrace-operator-rhmp",
       "name": "dynatrace-operator-rhmp",
       "version": "1.10.2",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator-rhmp",
+      "name": "dynatrace-operator-rhmp",
+      "version": "1.11.0",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -4264,7 +4288,7 @@
       "channel": "lts"
     }
   ],
-  "count": 333,
+  "count": 335,
   "source": "opm",
-  "timestamp": "2026-10-07T07:08:09.274021"
+  "timestamp": "2026-10-10T07:06:58.114229"
 }
