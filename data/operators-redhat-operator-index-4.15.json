@@ -5619,12 +5619,6 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
-      "version": "3.10.27",
-      "channel": "stable-3.10"
-    },
-    {
-      "package": "container-security-operator",
-      "name": "container-security-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -5842,12 +5836,6 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.12.22",
-      "channel": "stable-3.12"
-    },
-    {
-      "package": "container-security-operator",
-      "name": "container-security-operator",
-      "version": "3.12.23",
       "channel": "stable-3.12"
     },
     {
@@ -6160,6 +6148,12 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.18.0",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.18.1",
       "channel": "stable-3.18"
     },
     {
@@ -6543,12 +6537,6 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
-      "version": "3.9.27",
-      "channel": "stable-3.9"
-    },
-    {
-      "package": "container-security-operator",
-      "name": "container-security-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -6754,6 +6742,12 @@
       "package": "costmanagement-metrics-operator",
       "name": "costmanagement-metrics-operator",
       "version": "4.4.2",
+      "channel": "stable"
+    },
+    {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.5.0",
       "channel": "stable"
     },
     {
@@ -19467,6 +19461,12 @@
     {
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
+      "version": "0.158.0-3",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
       "version": "0.56.0-1",
       "channel": "stable"
     },
@@ -20067,12 +20067,6 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
-      "version": "3.10.27",
-      "channel": "stable-3.10"
-    },
-    {
-      "package": "quay-bridge-operator",
-      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "channel": "stable-3.10"
     },
@@ -20290,12 +20284,6 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.12.22",
-      "channel": "stable-3.12"
-    },
-    {
-      "package": "quay-bridge-operator",
-      "name": "quay-bridge-operator",
-      "version": "3.12.23",
       "channel": "stable-3.12"
     },
     {
@@ -20608,6 +20596,12 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.18.0",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.18.1",
       "channel": "stable-3.18"
     },
     {
@@ -20991,12 +20985,6 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
-      "version": "3.9.27",
-      "channel": "stable-3.9"
-    },
-    {
-      "package": "quay-bridge-operator",
-      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "channel": "stable-3.9"
     },
@@ -21154,12 +21142,6 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.26",
-      "channel": "stable-3.10"
-    },
-    {
-      "package": "quay-operator",
-      "name": "quay-operator",
-      "version": "3.10.27",
       "channel": "stable-3.10"
     },
     {
@@ -21382,12 +21364,6 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.12.22",
-      "channel": "stable-3.12"
-    },
-    {
-      "package": "quay-operator",
-      "name": "quay-operator",
-      "version": "3.12.23",
       "channel": "stable-3.12"
     },
     {
@@ -21700,6 +21676,12 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.18.0",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.18.1",
       "channel": "stable-3.18"
     },
     {
@@ -22018,12 +22000,6 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.26",
-      "channel": "stable-3.9"
-    },
-    {
-      "package": "quay-operator",
-      "name": "quay-operator",
-      "version": "3.9.27",
       "channel": "stable-3.9"
     },
     {
@@ -22726,6 +22702,12 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.1+0.1790560657.p",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1+0.1791769495.p",
       "channel": "latest"
     },
     {
@@ -28171,7 +28153,7 @@
       "channel": "preview"
     }
   ],
-  "count": 4695,
+  "count": 4692,
   "source": "opm",
-  "timestamp": "2026-10-10T06:58:27.008881"
+  "timestamp": "2026-10-13T07:03:40.601530"
 }

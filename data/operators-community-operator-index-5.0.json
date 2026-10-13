@@ -1421,6 +1421,12 @@
       "package": "ack-applicationautoscaling-controller",
       "name": "ack-applicationautoscaling-controller",
       "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-applicationautoscaling-controller",
+      "name": "ack-applicationautoscaling-controller",
+      "version": "1.8.1",
       "keywords": [
         "applicationautoscaling",
         "aws",
@@ -1839,6 +1845,12 @@
       "package": "ack-bedrock-controller",
       "name": "ack-bedrock-controller",
       "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-bedrock-controller",
+      "name": "ack-bedrock-controller",
+      "version": "1.5.0",
       "keywords": [
         "bedrock",
         "aws",
@@ -2719,6 +2731,19 @@
     {
       "package": "ack-cloudwatch-controller",
       "name": "ack-cloudwatch-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "cloudwatch",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS CloudWatch controller is a service controller for managing CloudWatch resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatch-controller",
+      "name": "ack-cloudwatch-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -2822,13 +2847,6 @@
       "package": "ack-cloudwatch-controller",
       "name": "ack-cloudwatch-controller",
       "version": "1.9.2",
-      "keywords": [
-        "cloudwatch",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS CloudWatch controller is a service controller for managing CloudWatch resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -3493,6 +3511,12 @@
       "package": "ack-documentdb-controller",
       "name": "ack-documentdb-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-documentdb-controller",
+      "name": "ack-documentdb-controller",
+      "version": "1.8.0",
       "keywords": [
         "documentdb",
         "aws",
@@ -3560,6 +3584,12 @@
       "package": "ack-dsql-controller",
       "name": "ack-dsql-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dsql-controller",
+      "name": "ack-dsql-controller",
+      "version": "1.3.0",
       "keywords": [
         "dsql",
         "aws",
@@ -3777,6 +3807,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.12.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.13.0",
       "keywords": [
         "dynamodb",
         "aws",
@@ -4492,6 +4528,12 @@
       "package": "ack-ec2-controller",
       "name": "ack-ec2-controller",
       "version": "1.21.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ec2-controller",
+      "name": "ack-ec2-controller",
+      "version": "1.22.0",
       "keywords": [
         "ec2",
         "aws",
@@ -4996,6 +5038,19 @@
     {
       "package": "ack-ecr-controller",
       "name": "ack-ecr-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "ecr",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS ECR controller is a service controller for managing ECR resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecr-controller",
+      "name": "ack-ecr-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -5105,13 +5160,6 @@
       "package": "ack-ecr-controller",
       "name": "ack-ecr-controller",
       "version": "1.9.1",
-      "keywords": [
-        "ecr",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS ECR controller is a service controller for managing ECR resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -5208,6 +5256,12 @@
       "package": "ack-ecrpublic-controller",
       "name": "ack-ecrpublic-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecrpublic-controller",
+      "name": "ack-ecrpublic-controller",
+      "version": "1.6.0",
       "keywords": [
         "ecrpublic",
         "aws",
@@ -5341,6 +5395,18 @@
       "package": "ack-ecs-controller",
       "name": "ack-ecs-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecs-controller",
+      "name": "ack-ecs-controller",
+      "version": "1.8.1",
       "keywords": [
         "ecs",
         "aws",
@@ -5570,6 +5636,12 @@
       "package": "ack-efs-controller",
       "name": "ack-efs-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-efs-controller",
+      "name": "ack-efs-controller",
+      "version": "1.7.0",
       "keywords": [
         "efs",
         "aws",
@@ -5967,6 +6039,12 @@
       "package": "ack-eks-controller",
       "name": "ack-eks-controller",
       "version": "1.23.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eks-controller",
+      "name": "ack-eks-controller",
+      "version": "1.24.0",
       "keywords": [
         "eks",
         "aws",
@@ -6435,6 +6513,19 @@
     {
       "package": "ack-elasticache-controller",
       "name": "ack-elasticache-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "elasticache",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS ElastiCache controller is a service controller for managing ElastiCache resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -6568,13 +6659,6 @@
       "package": "ack-elasticache-controller",
       "name": "ack-elasticache-controller",
       "version": "1.9.2",
-      "keywords": [
-        "elasticache",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS ElastiCache controller is a service controller for managing ElastiCache resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -6809,6 +6893,18 @@
       "package": "ack-elbv2-controller",
       "name": "ack-elbv2-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elbv2-controller",
+      "name": "ack-elbv2-controller",
+      "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elbv2-controller",
+      "name": "ack-elbv2-controller",
+      "version": "1.8.1",
       "keywords": [
         "elbv2",
         "aws",
@@ -6834,6 +6930,12 @@
       "package": "ack-emr-controller",
       "name": "ack-emr-controller",
       "version": "0.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emr-controller",
+      "name": "ack-emr-controller",
+      "version": "0.3.0",
       "keywords": [
         "emr",
         "aws",
@@ -7111,6 +7213,12 @@
       "package": "ack-emrcontainers-controller",
       "name": "ack-emrcontainers-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emrcontainers-controller",
+      "name": "ack-emrcontainers-controller",
+      "version": "1.8.0",
       "keywords": [
         "emrcontainers",
         "aws",
@@ -7160,6 +7268,12 @@
       "package": "ack-emrserverless-controller",
       "name": "ack-emrserverless-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-emrserverless-controller",
+      "name": "ack-emrserverless-controller",
+      "version": "1.3.0",
       "keywords": [
         "emrserverless",
         "aws",
@@ -7613,6 +7727,12 @@
       "package": "ack-glue-controller",
       "name": "ack-glue-controller",
       "version": "1.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-glue-controller",
+      "name": "ack-glue-controller",
+      "version": "1.4.0",
       "keywords": [
         "glue",
         "aws",
@@ -7788,6 +7908,19 @@
       "package": "ack-iam-controller",
       "name": "ack-iam-controller",
       "version": "1.1.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-iam-controller",
+      "name": "ack-iam-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "iam",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS IAM controller is a service controller for managing IAM resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -8070,13 +8203,6 @@
       "package": "ack-iam-controller",
       "name": "ack-iam-controller",
       "version": "1.9.1",
-      "keywords": [
-        "iam",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS IAM controller is a service controller for managing IAM resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -8281,6 +8407,12 @@
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
       "version": "1.12.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.13.0",
       "keywords": [
         "kafka",
         "aws",
@@ -8624,6 +8756,12 @@
       "package": "ack-keyspaces-controller",
       "name": "ack-keyspaces-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-keyspaces-controller",
+      "name": "ack-keyspaces-controller",
+      "version": "1.7.0",
       "keywords": [
         "keyspaces",
         "aws",
@@ -8883,6 +9021,12 @@
       "package": "ack-kinesis-controller",
       "name": "ack-kinesis-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kinesis-controller",
+      "name": "ack-kinesis-controller",
+      "version": "1.6.0",
       "keywords": [
         "kinesis",
         "aws",
@@ -9262,6 +9406,12 @@
       "package": "ack-kms-controller",
       "name": "ack-kms-controller",
       "version": "1.5.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kms-controller",
+      "name": "ack-kms-controller",
+      "version": "1.6.0",
       "keywords": [
         "kms",
         "aws",
@@ -9521,6 +9671,12 @@
       "package": "ack-lambda-controller",
       "name": "ack-lambda-controller",
       "version": "1.17.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambda-controller",
+      "name": "ack-lambda-controller",
+      "version": "1.18.0",
       "keywords": [
         "lambda",
         "aws",
@@ -9756,6 +9912,12 @@
       "package": "ack-lambdamicrovms-controller",
       "name": "ack-lambdamicrovms-controller",
       "version": "0.3.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-lambdamicrovms-controller",
+      "name": "ack-lambdamicrovms-controller",
+      "version": "0.4.0",
       "keywords": [
         "lambdamicrovms",
         "aws",
@@ -10003,6 +10165,12 @@
       "package": "ack-memorydb-controller",
       "name": "ack-memorydb-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-memorydb-controller",
+      "name": "ack-memorydb-controller",
+      "version": "1.8.0",
       "keywords": [
         "memorydb",
         "aws",
@@ -10310,6 +10478,12 @@
       "package": "ack-mq-controller",
       "name": "ack-mq-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-mq-controller",
+      "name": "ack-mq-controller",
+      "version": "1.7.0",
       "keywords": [
         "mq",
         "aws",
@@ -10353,6 +10527,12 @@
       "package": "ack-mwaa-controller",
       "name": "ack-mwaa-controller",
       "version": "1.2.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-mwaa-controller",
+      "name": "ack-mwaa-controller",
+      "version": "1.3.0",
       "keywords": [
         "mwaa",
         "aws",
@@ -10372,6 +10552,12 @@
       "package": "ack-mwaaserverless-controller",
       "name": "ack-mwaaserverless-controller",
       "version": "0.1.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-mwaaserverless-controller",
+      "name": "ack-mwaaserverless-controller",
+      "version": "0.2.0",
       "keywords": [
         "mwaaserverless",
         "aws",
@@ -10451,6 +10637,12 @@
       "package": "ack-networkfirewall-controller",
       "name": "ack-networkfirewall-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-networkfirewall-controller",
+      "name": "ack-networkfirewall-controller",
+      "version": "1.6.0",
       "keywords": [
         "networkfirewall",
         "aws",
@@ -10596,6 +10788,12 @@
       "package": "ack-opensearchserverless-controller",
       "name": "ack-opensearchserverless-controller",
       "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchserverless-controller",
+      "name": "ack-opensearchserverless-controller",
+      "version": "1.5.0",
       "keywords": [
         "opensearchserverless",
         "aws",
@@ -10909,6 +11107,12 @@
       "package": "ack-opensearchservice-controller",
       "name": "ack-opensearchservice-controller",
       "version": "1.7.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-opensearchservice-controller",
+      "name": "ack-opensearchservice-controller",
+      "version": "1.8.0",
       "keywords": [
         "opensearchservice",
         "aws",
@@ -11096,6 +11300,12 @@
       "package": "ack-organizations-controller",
       "name": "ack-organizations-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-organizations-controller",
+      "name": "ack-organizations-controller",
+      "version": "1.6.0",
       "keywords": [
         "organizations",
         "aws",
@@ -11325,6 +11535,12 @@
       "package": "ack-pipes-controller",
       "name": "ack-pipes-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-pipes-controller",
+      "name": "ack-pipes-controller",
+      "version": "1.7.0",
       "keywords": [
         "pipes",
         "aws",
@@ -11590,6 +11806,12 @@
       "package": "ack-prometheusservice-controller",
       "name": "ack-prometheusservice-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-prometheusservice-controller",
+      "name": "ack-prometheusservice-controller",
+      "version": "1.8.0",
       "keywords": [
         "prometheusservice",
         "aws",
@@ -12049,6 +12271,12 @@
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
       "version": "1.12.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
+      "version": "1.13.0",
       "keywords": [
         "rds",
         "aws",
@@ -13391,6 +13619,12 @@
       "package": "ack-s3-controller",
       "name": "ack-s3-controller",
       "version": "1.12.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3-controller",
+      "name": "ack-s3-controller",
+      "version": "1.13.0",
       "keywords": [
         "s3",
         "aws",
@@ -13596,6 +13830,12 @@
       "package": "ack-s3control-controller",
       "name": "ack-s3control-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3control-controller",
+      "name": "ack-s3control-controller",
+      "version": "1.7.0",
       "keywords": [
         "s3control",
         "aws",
@@ -13645,6 +13885,12 @@
       "package": "ack-s3files-controller",
       "name": "ack-s3files-controller",
       "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3files-controller",
+      "name": "ack-s3files-controller",
+      "version": "1.3.0",
       "keywords": [
         "s3files",
         "aws",
@@ -13688,6 +13934,12 @@
       "package": "ack-s3tables-controller",
       "name": "ack-s3tables-controller",
       "version": "1.2.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-s3tables-controller",
+      "name": "ack-s3tables-controller",
+      "version": "1.3.0",
       "keywords": [
         "s3tables",
         "aws",
@@ -13762,6 +14014,12 @@
       "package": "ack-sagemaker-controller",
       "name": "ack-sagemaker-controller",
       "version": "1.10.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sagemaker-controller",
+      "name": "ack-sagemaker-controller",
+      "version": "1.11.0",
       "keywords": [
         "sagemaker",
         "aws",
@@ -14081,6 +14339,12 @@
       "package": "ack-secretsmanager-controller",
       "name": "ack-secretsmanager-controller",
       "version": "1.6.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-secretsmanager-controller",
+      "name": "ack-secretsmanager-controller",
+      "version": "1.7.0",
       "keywords": [
         "secretsmanager",
         "aws",
@@ -14172,6 +14436,12 @@
       "package": "ack-ses-controller",
       "name": "ack-ses-controller",
       "version": "1.5.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ses-controller",
+      "name": "ack-ses-controller",
+      "version": "1.6.0",
       "keywords": [
         "ses",
         "aws",
@@ -14551,6 +14821,12 @@
       "package": "ack-sfn-controller",
       "name": "ack-sfn-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sfn-controller",
+      "name": "ack-sfn-controller",
+      "version": "1.8.0",
       "keywords": [
         "sfn",
         "aws",
@@ -15033,6 +15309,12 @@
       "package": "ack-sqs-controller",
       "name": "ack-sqs-controller",
       "version": "1.7.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sqs-controller",
+      "name": "ack-sqs-controller",
+      "version": "1.8.0",
       "keywords": [
         "sqs",
         "aws",
@@ -15208,6 +15490,12 @@
       "package": "ack-ssm-controller",
       "name": "ack-ssm-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ssm-controller",
+      "name": "ack-ssm-controller",
+      "version": "1.7.0",
       "keywords": [
         "ssm",
         "aws",
@@ -15407,6 +15695,12 @@
       "package": "ack-wafv2-controller",
       "name": "ack-wafv2-controller",
       "version": "1.6.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-wafv2-controller",
+      "name": "ack-wafv2-controller",
+      "version": "1.7.0",
       "keywords": [
         "wafv2",
         "aws",
@@ -15574,6 +15868,12 @@
       "package": "aerospike-kubernetes-operator",
       "name": "aerospike-kubernetes-operator",
       "version": "4.5.0",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator",
+      "name": "aerospike-kubernetes-operator",
+      "version": "4.6.0",
       "keywords": [
         "Aerospike"
       ],
@@ -19168,6 +19468,12 @@
       "package": "datadog-operator",
       "name": "datadog-operator",
       "version": "1.30.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
+      "version": "1.31.0",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -30359,6 +30665,20 @@
       "channel": "stable"
     },
     {
+      "package": "tls-compliance-operator",
+      "name": "tls-compliance-operator",
+      "version": "1.1.17",
+      "keywords": [
+        "TLS",
+        "security",
+        "compliance",
+        "certificates",
+        "post-quantum"
+      ],
+      "description": "Continuously discovers TLS endpoints and reports their protocol, certificate, and compliance status.",
+      "channel": "stable"
+    },
+    {
       "package": "trustify-operator",
       "name": "trustify-operator",
       "version": "0.1.0-alpha.2",
@@ -31448,7 +31768,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4712,
+  "count": 4764,
   "source": "opm",
-  "timestamp": "2026-10-10T07:14:57.894994"
+  "timestamp": "2026-10-13T07:19:45.313062"
 }

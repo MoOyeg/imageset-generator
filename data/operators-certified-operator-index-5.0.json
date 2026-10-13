@@ -3710,6 +3710,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.22",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.4",
       "channel": "stable"
     },
@@ -4349,7 +4361,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.15",
+      "version": "0.1.16",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -5451,13 +5463,13 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.3",
+      "version": "1.7.4",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "stable"
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -5900,6 +5912,18 @@
       "channel": "stable"
     },
     {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.6.1",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.0.0",
@@ -6210,7 +6234,7 @@
       "channel": "stable"
     }
   ],
-  "count": 753,
+  "count": 755,
   "source": "opm",
-  "timestamp": "2026-10-10T07:14:42.992669"
+  "timestamp": "2026-10-13T07:19:30.629130"
 }

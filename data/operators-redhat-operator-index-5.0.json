@@ -7382,6 +7382,17 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "cephcsi-operator",
+      "name": "cephcsi-operator",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "cincinnati-operator",
       "name": "cincinnati-operator",
       "version": "4.9.0",
@@ -9032,6 +9043,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.18.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.4.7",
       "keywords": [
         "open source",
@@ -10224,6 +10247,19 @@
       "package": "costmanagement-metrics-operator",
       "name": "costmanagement-metrics-operator",
       "version": "4.4.2",
+      "keywords": [
+        "cost",
+        "management",
+        "usage",
+        "monitor"
+      ],
+      "description": "A Golang-based OpenShift Operator that generates and uploads OpenShift usage metrics to cost management.",
+      "channel": "stable"
+    },
+    {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.5.0",
       "keywords": [
         "cost",
         "management",
@@ -17021,6 +17057,26 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "mcg-operator",
+      "name": "mcg-operator",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "noobaa",
+        "kubernetes",
+        "openshift",
+        "cloud",
+        "hybrid",
+        "multi",
+        "data",
+        "storage",
+        "s3",
+        "tiering",
+        "mirroring"
+      ],
+      "description": "NooBaa is an object data service for hybrid and multi cloud environments.",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "model-validation-operator",
       "name": "model-validation-operator",
       "version": "0.1.2",
@@ -18275,9 +18331,36 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "ocs-client-operator",
+      "name": "ocs-client-operator",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation client operator enables consumption of storage services from a remote centralized OpenShift Data Foundation provider cluster.",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "ocs-operator",
       "name": "ocs-operator",
       "version": "4.22.3-rhodf",
+      "keywords": [
+        "storage",
+        "rook",
+        "ceph",
+        "block storage",
+        "shared filesystem",
+        "object storage"
+      ],
+      "description": "Red Hat OpenShift Container Storage provides hyperconverged storage for applications within an OpenShift cluster.",
+      "channel": "stable-4.22"
+    },
+    {
+      "package": "ocs-operator",
+      "name": "ocs-operator",
+      "version": "4.22.5-rhodf",
       "keywords": [
         "storage",
         "rook",
@@ -18300,9 +18383,30 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "ocs-tls-profiles",
+      "name": "ocs-tls-profiles",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "tls"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "odf-csi-addons-operator",
       "name": "odf-csi-addons-operator",
       "version": "4.22.3-rhodf",
+      "keywords": [
+        "storage",
+        "csi"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
+      "package": "odf-csi-addons-operator",
+      "name": "odf-csi-addons-operator",
+      "version": "4.22.5-rhodf",
       "keywords": [
         "storage",
         "csi"
@@ -18322,9 +18426,34 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "odf-external-snapshotter-operator",
+      "name": "odf-external-snapshotter-operator",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "csi",
+        "odf-external-snapshotter-operator"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "odf-multicluster-orchestrator",
       "name": "odf-multicluster-orchestrator",
       "version": "4.22.3-rhodf",
+      "keywords": [
+        "df",
+        "multicluster",
+        "orchestrator",
+        "storage",
+        "acm"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
+      "package": "odf-multicluster-orchestrator",
+      "name": "odf-multicluster-orchestrator",
+      "version": "4.22.5-rhodf",
       "keywords": [
         "df",
         "multicluster",
@@ -18348,9 +18477,35 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "odf-operator",
+      "name": "odf-operator",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "operator",
+        "data",
+        "storage"
+      ],
+      "description": "OpenShift Data Foundation provides a common control plane for storage solutions on OpenShift Container Platform.",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "odf-prometheus-operator",
       "name": "odf-prometheus-operator",
       "version": "4.22.3-rhodf",
+      "keywords": [
+        "prometheus",
+        "monitoring",
+        "tsdb",
+        "alerting",
+        "observability"
+      ],
+      "description": "Manage the full lifecycle of configuring and managing Prometheus and Alertmanager servers.",
+      "channel": "stable-4.22"
+    },
+    {
+      "package": "odf-prometheus-operator",
+      "name": "odf-prometheus-operator",
+      "version": "4.22.5-rhodf",
       "keywords": [
         "prometheus",
         "monitoring",
@@ -18374,6 +18529,18 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "odr-cluster-operator",
+      "name": "odr-cluster-operator",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "odr-hub-operator",
       "name": "odr-hub-operator",
       "version": "4.22.3-rhodf",
@@ -18386,9 +18553,38 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "odr-hub-operator",
+      "name": "odr-hub-operator",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "Storage",
+        "Integration & Delivery",
+        "OpenShift Optional"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "odr-volsync-plugin-operator",
       "name": "odr-volsync-plugin-operator",
       "version": "4.22.3-rhodf",
+      "keywords": [
+        "ceph-volsync-plugin-operator",
+        "data",
+        "csi",
+        "disaster recovery",
+        "replication",
+        "storage",
+        "backup",
+        "ceph"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
+      "package": "odr-volsync-plugin-operator",
+      "name": "odr-volsync-plugin-operator",
+      "version": "4.22.5-rhodf",
       "keywords": [
         "ceph-volsync-plugin-operator",
         "data",
@@ -20238,19 +20434,6 @@
       "channel": "latest"
     },
     {
-      "package": "openshift-pipelines-operator-rh",
-      "name": "openshift-pipelines-operator-rh",
-      "version": "1.24.1",
-      "keywords": [
-        "tektoncd",
-        "openshift",
-        "build",
-        "pipeline"
-      ],
-      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "latest"
-    },
-    {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
       "version": "1.1.2",
@@ -20333,6 +20516,20 @@
       ],
       "description": "Runs a secondary scheduler in an OpenShift cluster.",
       "channel": "stable"
+    },
+    {
+      "package": "openshift-zero-trust-workload-identity-manager",
+      "name": "openshift-zero-trust-workload-identity-manager",
+      "version": "1.1.2",
+      "keywords": [
+        "zero-trust-workload-identity-manager",
+        "ztwim",
+        "spire",
+        "spiffe-spire",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable-v1"
     },
     {
       "package": "opentelemetry-product",
@@ -20692,6 +20889,21 @@
     {
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
+      "version": "0.158.0-3",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
       "version": "0.56.0-1",
       "keywords": [
         "opentelemetry",
@@ -20849,6 +21061,20 @@
       "package": "policy-controller-operator",
       "name": "policy-controller-operator",
       "version": "1.0.2",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust",
+        "admissions controller",
+        "policy controller"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "policy-controller-operator",
+      "name": "policy-controller-operator",
+      "version": "1.1.0",
       "keywords": [
         "security",
         "rhtas",
@@ -21997,6 +22223,18 @@
         "quay"
       ],
       "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.18.1",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Quay container registry",
       "channel": "stable-3.18"
     },
     {
@@ -23982,6 +24220,18 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.18.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.4.7",
       "keywords": [
         "open source",
@@ -24710,6 +24960,16 @@
       "channel": "stable-4.22"
     },
     {
+      "package": "recipe",
+      "name": "recipe",
+      "version": "4.22.5-rhodf",
+      "keywords": [
+        "recipe"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "1.0.0",
@@ -25311,6 +25571,19 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.1+0.1790560657.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1+0.1791769495.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -27014,6 +27287,27 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.11.4",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.11"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.11.5",
       "keywords": [
         "advanced-cluster-security",
         "stackrox",
@@ -29866,6 +30160,22 @@
       "package": "rook-ceph-operator",
       "name": "rook-ceph-operator",
       "version": "4.22.3-rhodf",
+      "keywords": [
+        "rook",
+        "ceph",
+        "storage",
+        "object storage",
+        "open source",
+        "block storage",
+        "shared filesystem"
+      ],
+      "description": "",
+      "channel": "stable-4.22"
+    },
+    {
+      "package": "rook-ceph-operator",
+      "name": "rook-ceph-operator",
+      "version": "4.22.5-rhodf",
       "keywords": [
         "rook",
         "ceph",
@@ -33882,7 +34192,7 @@
       "channel": "fast"
     }
   ],
-  "count": 2367,
+  "count": 2390,
   "source": "opm",
-  "timestamp": "2026-10-10T07:14:29.602417"
+  "timestamp": "2026-10-13T07:19:16.798993"
 }

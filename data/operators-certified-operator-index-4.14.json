@@ -3003,14 +3003,14 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.0",
-      "channel": "beta"
+      "version": "26.1.5",
+      "channel": "stable-v26.1"
     },
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.5",
-      "channel": "stable-v26.1"
+      "version": "26.3.0",
+      "channel": "beta"
     },
     {
       "package": "digitalai-release-operator",
@@ -3772,6 +3772,12 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.4.1",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.4.2",
       "channel": "stable"
     },
     {
@@ -5170,6 +5176,12 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.21",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.22",
       "channel": "stable"
     },
     {
@@ -7155,7 +7167,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.15",
+      "version": "0.1.16",
       "channel": "alpha"
     },
     {
@@ -8685,6 +8697,12 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-22.1",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-3.2",
       "channel": "7.8.6"
     },
@@ -9349,6 +9367,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.2",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -9963,8 +9987,8 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.3",
-      "channel": "stable"
+      "version": "1.7.4",
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -10641,6 +10665,12 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
+      "version": "2026.10.0-5",
+      "channel": "beta"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
       "version": "2026.3.1-2",
       "channel": "2026.3"
     },
@@ -10673,12 +10703,6 @@
       "name": "uma-admin-operator",
       "version": "2026.8.2-16",
       "channel": "2026.8"
-    },
-    {
-      "package": "uma-admin-operator",
-      "name": "uma-admin-operator",
-      "version": "2026.8.3-12",
-      "channel": "beta"
     },
     {
       "package": "uma-admin-operator",
@@ -10797,6 +10821,12 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
+      "version": "2026.10.0-5",
+      "channel": "beta"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
       "version": "2026.3.1-2",
       "channel": "2026.3"
     },
@@ -10829,12 +10859,6 @@
       "name": "uma-operator",
       "version": "2026.8.2-16",
       "channel": "2026.8"
-    },
-    {
-      "package": "uma-operator",
-      "name": "uma-operator",
-      "version": "2026.8.3-12",
-      "channel": "beta"
     },
     {
       "package": "uma-operator",
@@ -10953,6 +10977,12 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
+      "version": "2026.10.0-5",
+      "channel": "beta"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
       "version": "2026.3.1-2",
       "channel": "2026.3"
     },
@@ -10985,12 +11015,6 @@
       "name": "uma-team-operator",
       "version": "2026.8.2-16",
       "channel": "2026.8"
-    },
-    {
-      "package": "uma-team-operator",
-      "name": "uma-team-operator",
-      "version": "2026.8.3-12",
-      "channel": "beta"
     },
     {
       "package": "uma-team-operator",
@@ -11134,6 +11158,12 @@
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.6.1",
       "channel": "stable"
     },
     {
@@ -11449,7 +11479,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1908,
+  "count": 1913,
   "source": "opm",
-  "timestamp": "2026-10-10T06:55:27.919775"
+  "timestamp": "2026-10-13T07:00:38.830807"
 }

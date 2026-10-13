@@ -1380,6 +1380,30 @@
     "operator.openshift.io/v1/SecondaryScheduler": [
       "openshift-secondary-scheduler-operator"
     ],
+    "operator.openshift.io/v1alpha1/SpiffeCSIDriver": [
+      "openshift-zero-trust-workload-identity-manager"
+    ],
+    "operator.openshift.io/v1alpha1/SpireAgent": [
+      "openshift-zero-trust-workload-identity-manager"
+    ],
+    "operator.openshift.io/v1alpha1/SpireOIDCDiscoveryProvider": [
+      "openshift-zero-trust-workload-identity-manager"
+    ],
+    "operator.openshift.io/v1alpha1/SpireServer": [
+      "openshift-zero-trust-workload-identity-manager"
+    ],
+    "operator.openshift.io/v1alpha1/ZeroTrustWorkloadIdentityManager": [
+      "openshift-zero-trust-workload-identity-manager"
+    ],
+    "spire.spiffe.io/v1alpha1/ClusterFederatedTrustDomain": [
+      "openshift-zero-trust-workload-identity-manager"
+    ],
+    "spire.spiffe.io/v1alpha1/ClusterSPIFFEID": [
+      "openshift-zero-trust-workload-identity-manager"
+    ],
+    "spire.spiffe.io/v1alpha1/ClusterStaticEntry": [
+      "openshift-zero-trust-workload-identity-manager"
+    ],
     "opentelemetry.io/v1alpha1/Instrumentation": [
       "opentelemetry-product"
     ],
@@ -1831,5 +1855,5 @@
       "topology-aware-lifecycle-manager"
     ]
   },
-  "timestamp": "2026-10-10T07:14:31.062739"
+  "timestamp": "2026-10-13T07:19:18.266821"
 }

@@ -5687,6 +5687,26 @@
     {
       "package": "dell-csm-operator-certified",
       "name": "dell-csm-operator-certified",
+      "version": "1.13.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
       "version": "1.6.1",
       "keywords": [
         "Dell Container Storage Modules",
@@ -6022,19 +6042,6 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.0",
-      "keywords": [
-        "digitalai",
-        "digital.ai",
-        "deploy",
-        "devops"
-      ],
-      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
-      "channel": "beta"
-    },
-    {
-      "package": "digitalai-deploy-operator",
-      "name": "digitalai-deploy-operator",
       "version": "26.1.5",
       "keywords": [
         "digitalai",
@@ -6044,6 +6051,19 @@
       ],
       "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
       "channel": "stable-v26.1"
+    },
+    {
+      "package": "digitalai-deploy-operator",
+      "name": "digitalai-deploy-operator",
+      "version": "26.3.0",
+      "keywords": [
+        "digitalai",
+        "digital.ai",
+        "deploy",
+        "devops"
+      ],
+      "description": "Digital.ai Deploy enables organizations to achieve fast, secure, and reliable deployments to hybrid infrastructure \u2014 including containers, private and public clouds, middleware, and mainframe.",
+      "channel": "beta"
     },
     {
       "package": "digitalai-release-operator",
@@ -7669,6 +7689,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.4.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.4.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -10271,6 +10305,18 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.21",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.22",
       "keywords": [
         "monitoring",
         "APM",
@@ -14031,7 +14077,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.15",
+      "version": "0.1.16",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -16927,6 +16973,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.8.6-22.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.8.6"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-3.2",
       "channel": "7.22.0"
     },
@@ -18601,6 +18661,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.2",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seawise-backup-operator",
       "name": "seawise-backup-operator",
       "version": "0.1.0",
@@ -19813,13 +19886,13 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.3",
+      "version": "1.7.4",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "stable"
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -20529,6 +20602,16 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
+      "version": "2026.10.0-5",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "beta"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
       "version": "2026.3.1-2",
       "keywords": [
         "uma-admin-operator"
@@ -20585,16 +20668,6 @@
       ],
       "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
       "channel": "2026.8"
-    },
-    {
-      "package": "uma-admin-operator",
-      "name": "uma-admin-operator",
-      "version": "2026.8.3-12",
-      "keywords": [
-        "uma-admin-operator"
-      ],
-      "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
-      "channel": "beta"
     },
     {
       "package": "uma-admin-operator",
@@ -20689,6 +20762,16 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
+      "version": "2026.10.0-5",
+      "keywords": [
+        "uma-operator"
+      ],
+      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
+      "channel": "beta"
+    },
+    {
+      "package": "uma-operator",
+      "name": "uma-operator",
       "version": "2026.3.1-2",
       "keywords": [
         "uma-operator"
@@ -20745,16 +20828,6 @@
       ],
       "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
       "channel": "2026.8"
-    },
-    {
-      "package": "uma-operator",
-      "name": "uma-operator",
-      "version": "2026.8.3-12",
-      "keywords": [
-        "uma-operator"
-      ],
-      "description": "The Universal Monitoring Agent for Openshift (UMA for Openshift) acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes.",
-      "channel": "beta"
     },
     {
       "package": "uma-operator",
@@ -20857,6 +20930,16 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
+      "version": "2026.10.0-5",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "beta"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
       "version": "2026.3.1-2",
       "keywords": [
         "uma-team-operator",
@@ -20914,16 +20997,6 @@
       ],
       "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "2026.8"
-    },
-    {
-      "package": "uma-team-operator",
-      "name": "uma-team-operator",
-      "version": "2026.8.3-12",
-      "keywords": [
-        "uma-team-operator"
-      ],
-      "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
-      "channel": "beta"
     },
     {
       "package": "uma-team-operator",
@@ -21074,6 +21147,18 @@
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.6.0",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.6.1",
       "keywords": [
         "vault",
         "security",
@@ -21763,7 +21848,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1985,
+  "count": 1991,
   "source": "opm",
-  "timestamp": "2026-10-10T07:07:46.499869"
+  "timestamp": "2026-10-13T07:12:07.734938"
 }

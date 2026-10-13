@@ -14400,18 +14400,6 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
-      "version": "3.10.27",
-      "keywords": [
-        "open source",
-        "containers",
-        "security"
-      ],
-      "description": "Identify image vulnerabilities in Kubernetes pods",
-      "channel": "stable-3.10"
-    },
-    {
-      "package": "container-security-operator",
-      "name": "container-security-operator",
       "version": "3.10.3",
       "keywords": [
         "open source",
@@ -14845,18 +14833,6 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.12.22",
-      "keywords": [
-        "open source",
-        "containers",
-        "security"
-      ],
-      "description": "Identify image vulnerabilities in Kubernetes pods",
-      "channel": "stable-3.12"
-    },
-    {
-      "package": "container-security-operator",
-      "name": "container-security-operator",
-      "version": "3.12.23",
       "keywords": [
         "open source",
         "containers",
@@ -15481,6 +15457,18 @@
       "package": "container-security-operator",
       "name": "container-security-operator",
       "version": "3.18.0",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
+      "version": "3.18.1",
       "keywords": [
         "open source",
         "containers",
@@ -16248,18 +16236,6 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
-      "version": "3.9.27",
-      "keywords": [
-        "open source",
-        "containers",
-        "security"
-      ],
-      "description": "Identify image vulnerabilities in Kubernetes pods",
-      "channel": "stable-3.9"
-    },
-    {
-      "package": "container-security-operator",
-      "name": "container-security-operator",
       "version": "3.9.3",
       "keywords": [
         "open source",
@@ -16696,6 +16672,19 @@
       "package": "costmanagement-metrics-operator",
       "name": "costmanagement-metrics-operator",
       "version": "4.4.2",
+      "keywords": [
+        "cost",
+        "management",
+        "usage",
+        "monitor"
+      ],
+      "description": "A Golang-based OpenShift Operator that generates and uploads OpenShift usage metrics to cost management.",
+      "channel": "stable"
+    },
+    {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.5.0",
       "keywords": [
         "cost",
         "management",
@@ -29722,6 +29711,19 @@
       "package": "lightspeed-operator",
       "name": "lightspeed-operator",
       "version": "1.1.4",
+      "keywords": [
+        "ai",
+        "assistant",
+        "openshift",
+        "llm"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "lightspeed-operator",
+      "name": "lightspeed-operator",
+      "version": "1.1.5",
       "keywords": [
         "ai",
         "assistant",
@@ -45238,19 +45240,6 @@
       "channel": "latest"
     },
     {
-      "package": "openshift-pipelines-operator-rh",
-      "name": "openshift-pipelines-operator-rh",
-      "version": "1.24.1",
-      "keywords": [
-        "tektoncd",
-        "openshift",
-        "build",
-        "pipeline"
-      ],
-      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "latest"
-    },
-    {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
       "version": "1.2.0",
@@ -45986,6 +45975,21 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.158.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.158.0-3",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -47454,18 +47458,6 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
-      "version": "3.10.27",
-      "keywords": [
-        "registry",
-        "containers",
-        "quay"
-      ],
-      "description": "Enhance OCP using Red Hat Red Hat container registry",
-      "channel": "stable-3.10"
-    },
-    {
-      "package": "quay-bridge-operator",
-      "name": "quay-bridge-operator",
       "version": "3.10.3",
       "keywords": [
         "registry",
@@ -47899,18 +47891,6 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.12.22",
-      "keywords": [
-        "registry",
-        "containers",
-        "quay"
-      ],
-      "description": "Enhance OCP using Red Hat Red Hat container registry",
-      "channel": "stable-3.12"
-    },
-    {
-      "package": "quay-bridge-operator",
-      "name": "quay-bridge-operator",
-      "version": "3.12.23",
       "keywords": [
         "registry",
         "containers",
@@ -48541,6 +48521,18 @@
         "quay"
       ],
       "description": "Enhance OCP using Red Hat Red Hat container registry",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.18.1",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Quay container registry",
       "channel": "stable-3.18"
     },
     {
@@ -49302,18 +49294,6 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
-      "version": "3.9.27",
-      "keywords": [
-        "registry",
-        "containers",
-        "quay"
-      ],
-      "description": "Enhance OCP using Red Hat Red Hat container registry",
-      "channel": "stable-3.9"
-    },
-    {
-      "package": "quay-bridge-operator",
-      "name": "quay-bridge-operator",
       "version": "3.9.3",
       "keywords": [
         "registry",
@@ -49627,18 +49607,6 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.10.26",
-      "keywords": [
-        "open source",
-        "containers",
-        "registry"
-      ],
-      "description": "Opinionated deployment of Red Hat on Kubernetes.",
-      "channel": "stable-3.10"
-    },
-    {
-      "package": "quay-operator",
-      "name": "quay-operator",
-      "version": "3.10.27",
       "keywords": [
         "open source",
         "containers",
@@ -50083,18 +50051,6 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.12.22",
-      "keywords": [
-        "open source",
-        "containers",
-        "registry"
-      ],
-      "description": "Opinionated deployment of Red Hat on Kubernetes.",
-      "channel": "stable-3.12"
-    },
-    {
-      "package": "quay-operator",
-      "name": "quay-operator",
-      "version": "3.12.23",
       "keywords": [
         "open source",
         "containers",
@@ -50730,6 +50686,18 @@
     {
       "package": "quay-operator",
       "name": "quay-operator",
+      "version": "3.18.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
       "version": "3.4.7",
       "keywords": [
         "open source",
@@ -51355,18 +51323,6 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.9.26",
-      "keywords": [
-        "open source",
-        "containers",
-        "registry"
-      ],
-      "description": "Opinionated deployment of Red Hat on Kubernetes.",
-      "channel": "stable-3.9"
-    },
-    {
-      "package": "quay-operator",
-      "name": "quay-operator",
-      "version": "3.9.27",
       "keywords": [
         "open source",
         "containers",
@@ -53383,6 +53339,19 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.1+0.1790560657.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1+0.1791769495.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -55614,6 +55583,27 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.11.4",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.11"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.11.5",
       "keywords": [
         "advanced-cluster-security",
         "stackrox",
@@ -69652,6 +69642,16 @@
       "channel": "4.18"
     },
     {
+      "package": "topology-aware-lifecycle-manager",
+      "name": "topology-aware-lifecycle-manager",
+      "version": "4.18.6",
+      "keywords": [
+        "acm lifecyclemanagement upgrades cluster"
+      ],
+      "description": "The topology aware lifecycle manager is an operator that facilitates platform upgrades of group of clusters",
+      "channel": "4.18"
+    },
+    {
       "package": "trustee-operator",
       "name": "trustee-operator",
       "version": "0.2.0",
@@ -71213,7 +71213,7 @@
       "channel": "stable"
     }
   ],
-  "count": 5186,
+  "count": 5185,
   "source": "opm",
-  "timestamp": "2026-10-10T07:07:25.859744"
+  "timestamp": "2026-10-13T07:11:47.419603"
 }

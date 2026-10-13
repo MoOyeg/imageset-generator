@@ -4516,6 +4516,26 @@
     {
       "package": "dell-csm-operator-certified",
       "name": "dell-csm-operator-certified",
+      "version": "1.13.1",
+      "keywords": [
+        "Dell Container Storage Modules",
+        "Dell CSI Driver",
+        "Dell CSM Modules",
+        "Powerflex",
+        "Powerscale",
+        "Powerstore",
+        "Unity",
+        "Cosi",
+        "Authorization",
+        "Observability",
+        "Replication"
+      ],
+      "description": "Easily install and manage Dell\u2019s CSI Drivers and CSM",
+      "channel": "stable"
+    },
+    {
+      "package": "dell-csm-operator-certified",
+      "name": "dell-csm-operator-certified",
       "version": "1.9.0",
       "keywords": [
         "Dell Container Storage Modules",
@@ -4605,7 +4625,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.1.0-beta.5",
+      "version": "26.3.0",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -5702,6 +5722,20 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.4.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.4.2",
       "keywords": [
         "GitLab",
         "DevOps",
@@ -7616,6 +7650,18 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.21",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
+      "version": "2.2.22",
       "keywords": [
         "monitoring",
         "APM",
@@ -10567,7 +10613,7 @@
     {
       "package": "mto-dependencies-operator",
       "name": "mto-dependencies-operator",
-      "version": "0.0.15",
+      "version": "0.1.16",
       "keywords": [
         "Operator",
         "Kubernetes",
@@ -13327,13 +13373,13 @@
     {
       "package": "t8c-tsc-client-certified",
       "name": "t8c-tsc-client-certified",
-      "version": "1.7.3",
+      "version": "1.7.4",
       "keywords": [
         "turbonomic",
         "turbo secure connect"
       ],
       "description": "Turbonomic Secure Connect for Hybrid environment management",
-      "channel": "stable"
+      "channel": "candidate"
     },
     {
       "package": "t8c-tsc-client-certified",
@@ -13881,6 +13927,18 @@
       "channel": "stable"
     },
     {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.6.1",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.0.0",
@@ -14326,7 +14384,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1296,
+  "count": 1300,
   "source": "opm",
-  "timestamp": "2026-10-10T07:13:05.612091"
+  "timestamp": "2026-10-13T07:17:41.877960"
 }

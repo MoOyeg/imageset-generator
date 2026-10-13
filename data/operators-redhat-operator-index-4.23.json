@@ -15640,19 +15640,6 @@
       "channel": "latest"
     },
     {
-      "package": "openshift-pipelines-operator-rh",
-      "name": "openshift-pipelines-operator-rh",
-      "version": "1.24.1",
-      "keywords": [
-        "tektoncd",
-        "openshift",
-        "build",
-        "pipeline"
-      ],
-      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
-      "channel": "latest"
-    },
-    {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
       "version": "1.1.2",
@@ -16080,6 +16067,21 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.158.0-2",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.158.0-3",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -16861,6 +16863,19 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.1+0.1790560657.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1+0.1791769495.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -22043,7 +22058,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1506,
+  "count": 1507,
   "source": "opm",
-  "timestamp": "2026-10-10T07:13:41.265627"
+  "timestamp": "2026-10-13T07:18:30.514873"
 }
