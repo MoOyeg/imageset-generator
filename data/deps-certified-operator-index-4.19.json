@@ -852,6 +852,12 @@
     "xlr.digital.ai/v1alpha1/DigitalaiRelease": [
       "digitalai-release-operator"
     ],
+    "docling.docling-project.io/v1alpha1/DoclingCluster": [
+      "docling-operator"
+    ],
+    "docling.docling-project.io/v1alpha1/DoclingClusterConfig": [
+      "docling-operator"
+    ],
     "dh2i.com/v1/DxEnterpriseSqlAg": [
       "dxoperator"
     ],
@@ -1294,6 +1300,9 @@
       "intel-device-plugins-operator"
     ],
     "deviceplugin.intel.com/v1/DsaDevicePlugin": [
+      "intel-device-plugins-operator"
+    ],
+    "deviceplugin.intel.com/v1/IaaDevicePlugin": [
       "intel-device-plugins-operator"
     ],
     "intel.com/v1alpha1/NetworkClusterPolicy": [
@@ -2308,6 +2317,15 @@
     "enterprise.splunk.com/v4/Queue": [
       "splunk-operator"
     ],
+    "enterprise.splunk.com/v4/PostgresCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/PostgresClusterClass": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/PostgresDatabase": [
+      "splunk-operator"
+    ],
     "spyre.ibm.com/v1alpha1/SpyreClusterPolicy": [
       "spyre-operator"
     ],
@@ -2450,6 +2468,9 @@
       "stackgres-certified"
     ],
     "stackgres.io/v1alpha1/SGStream": [
+      "stackgres-certified"
+    ],
+    "stackgres.io/v1beta1/SGShardedCluster": [
       "stackgres-certified"
     ],
     "cloud.microstrategy.com/v1/MstrManagementService": [
@@ -2852,5 +2873,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-13T07:13:27.497522"
+  "timestamp": "2026-10-16T07:20:47.623436"
 }

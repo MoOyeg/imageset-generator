@@ -757,6 +757,19 @@
       "channel": "2022.4"
     },
     {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.941",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.1.0",
@@ -990,6 +1003,22 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.1.0",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.1.1",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -1953,6 +1982,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.31.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -2117,6 +2159,76 @@
       ],
       "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
       "channel": "beta"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.85",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.86",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.87",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.88",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
+    },
+    {
+      "package": "dxoperator-v2",
+      "name": "dxoperator-v2",
+      "version": "2.0.89",
+      "keywords": [
+        "sql server",
+        "availability group",
+        "always on",
+        "availability",
+        "mssql"
+      ],
+      "description": "DxOperator by DH2i automates the lifecycle of cloud-native Microsoft SQL Server Availability Group database operations.",
+      "channel": "alpha"
     },
     {
       "package": "dynatrace-operator",
@@ -4530,7 +4642,7 @@
     {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
-      "version": "3.96.0-1",
+      "version": "3.96.4-1",
       "keywords": [
         "repository",
         "sonatype"
@@ -4675,6 +4787,21 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.7.3",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.8.0",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -5939,7 +6066,7 @@
       "channel": "stable"
     }
   ],
-  "count": 729,
+  "count": 738,
   "source": "opm",
-  "timestamp": "2026-10-13T07:20:13.847846"
+  "timestamp": "2026-10-16T07:27:27.483409"
 }

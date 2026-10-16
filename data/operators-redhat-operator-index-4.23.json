@@ -5652,6 +5652,20 @@
       "channel": "fast"
     },
     {
+      "package": "automation-portal-operator",
+      "name": "automation-portal-operator",
+      "version": "2.2.20261013",
+      "keywords": [
+        "ansible",
+        "automation",
+        "portal",
+        "aap",
+        "openshift"
+      ],
+      "description": "Operator for deploying and managing the Ansible automation portal on OpenShift",
+      "channel": "fast"
+    },
+    {
       "package": "bamoe-businessautomation-operator",
       "name": "bamoe-businessautomation-operator",
       "version": "8.0.0-1",
@@ -9734,6 +9748,20 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.9",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
       "version": "0.10.0",
@@ -13456,6 +13484,20 @@
       "channel": "stable"
     },
     {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.39.0",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable"
+    },
+    {
       "package": "logic-operator-rhel8",
       "name": "logic-operator-rhel8",
       "version": "1.33.0",
@@ -15590,6 +15632,19 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.7",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.23.0",
       "keywords": [
         "tektoncd",
@@ -15630,6 +15685,19 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.24.0",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.24.1",
       "keywords": [
         "tektoncd",
         "openshift",
@@ -16876,6 +16944,19 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.1+0.1791769495.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1+0.1791865867.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -18779,6 +18860,125 @@
       "package": "serverless-operator",
       "name": "serverless-operator",
       "version": "1.34.1",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable-1.34"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.35.0",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.35.1",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable-1.35"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.36.0",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.36.1",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.37.0",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.37.1",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.37.2",
       "keywords": [
         "serverless",
         "FaaS",
@@ -20724,6 +20924,21 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-netobs-operator",
+      "name": "skupper-netobs-operator",
+      "version": "2.2.3-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Network Observer Operator provides the ability to monitor and observe a service network",
+      "channel": "stable-2"
+    },
+    {
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "1.8.1-rh-3",
@@ -21012,6 +21227,21 @@
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "2.2.2-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Operator provides the ability to create a service network",
+      "channel": "stable-2"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.3-rh-1",
       "keywords": [
         "skupper",
         "rhsi",
@@ -22058,7 +22288,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1507,
+  "count": 1522,
   "source": "opm",
-  "timestamp": "2026-10-13T07:18:30.514873"
+  "timestamp": "2026-10-16T07:25:32.133594"
 }

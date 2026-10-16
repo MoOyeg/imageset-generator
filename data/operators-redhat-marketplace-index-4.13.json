@@ -465,6 +465,12 @@
     {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
+      "version": "1.31.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -1905,6 +1911,12 @@
     {
       "package": "stackgres",
       "name": "stackgres",
+      "version": "1.19.0",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
       "version": "1.19.0-rc1",
       "channel": "candidate"
     },
@@ -1924,6 +1936,12 @@
       "package": "stackgres",
       "name": "stackgres",
       "version": "1.19.0-rc4",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.19.0-rc5",
       "channel": "candidate"
     },
     {
@@ -2077,7 +2095,7 @@
       "channel": "lts"
     }
   ],
-  "count": 346,
+  "count": 349,
   "source": "opm",
-  "timestamp": "2026-10-13T06:58:11.178733"
+  "timestamp": "2026-10-16T07:04:07.801290"
 }

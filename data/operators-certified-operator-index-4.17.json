@@ -164,6 +164,32 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "5.0.10",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.0.2",
       "keywords": [
         "Gateway API",
@@ -491,6 +517,23 @@
       "package": "alloydb-omni-operator-certified",
       "name": "alloydb-omni-operator-certified",
       "version": "1.8.2",
+      "keywords": [
+        "database",
+        "sql",
+        "postgres",
+        "vector",
+        "ai",
+        "analytics",
+        "postgresql",
+        "alloydb"
+      ],
+      "description": "AlloyDB Omni for Kubernetes lets you run a powerful, PostgreSQL-compatible database within your own Kubernetes environment. It packages the high-performance AlloyDB for PostgreSQL database into a container, managed by a Kubernetes operator, which simplifies deployment and operations.",
+      "channel": "stable"
+    },
+    {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.9.0",
       "keywords": [
         "database",
         "sql",
@@ -985,6 +1028,19 @@
       "channel": "2022.4"
     },
     {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.941",
+      "keywords": [
+        "aqua-security",
+        "scanning",
+        "security",
+        "runtime-security"
+      ],
+      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
+      "channel": "2022.4"
+    },
+    {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.1.0",
@@ -1218,6 +1274,22 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.1.0",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.1.1",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -4449,6 +4521,26 @@
     {
       "package": "cpd-platform-operator",
       "name": "cpd-platform-operator",
+      "version": "6.10.7",
+      "keywords": [
+        "Cloud Pak",
+        "Data",
+        "Analytics",
+        "IBM",
+        "AI",
+        "Machine Learning",
+        "Cloud Pak for Data",
+        "Auto AI",
+        "Db2",
+        "Watson",
+        "Data Governance"
+      ],
+      "description": "",
+      "channel": "v6.4"
+    },
+    {
+      "package": "cpd-platform-operator",
+      "name": "cpd-platform-operator",
       "version": "6.2.2",
       "keywords": [
         "Cloud Pak",
@@ -5278,6 +5370,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.31.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -6068,6 +6173,21 @@
       ],
       "description": "Digital.ai Release empowers developer teams to seamlessly release and deploy software on a large scale across hybrid environments, all while ensuring that compliance and security requirements are effectively in place.",
       "channel": "beta"
+    },
+    {
+      "package": "docling-operator",
+      "name": "docling-operator",
+      "version": "0.1.0",
+      "keywords": [
+        "docling",
+        "document conversion",
+        "AI",
+        "machine learning",
+        "ray",
+        "NLP"
+      ],
+      "description": "An OpenShift Operator for deploying and managing Docling as a scalable API service on Kubernetes and OpenShift clusters.",
+      "channel": "alpha"
     },
     {
       "package": "dxoperator",
@@ -7335,75 +7455,37 @@
       "channel": "stable"
     },
     {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.48.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.48.3",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.49.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.49.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.50.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.50.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.51.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.51.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.52.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.52.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.52.2",
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.5.0",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.53.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.54.0",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -12233,6 +12315,23 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.3.1",
+      "keywords": [
+        "kubernetes",
+        "cost",
+        "kubernetes costs",
+        "kubernetes optimization",
+        "k8s",
+        "cost monitoring",
+        "cloud costs",
+        "k8s cost"
+      ],
+      "description": "Deploys Kubecost 3.3.1 via the Helm chart.",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -12741,12 +12840,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.20",
+      "version": "8.21.30",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -13881,7 +13980,7 @@
     {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
-      "version": "3.96.0-1",
+      "version": "3.96.4-1",
       "keywords": [
         "repository",
         "sonatype"
@@ -14013,6 +14112,21 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.7.3",
+      "keywords": [
+        "nginx",
+        "ingress-controller",
+        "ingress",
+        "controller",
+        "kubernetes",
+        "openshift"
+      ],
+      "description": "The NGINX Ingress Operator is a Kubernetes/OpenShift component which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.8.0",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -15253,6 +15367,27 @@
       "channel": "stable-v2"
     },
     {
+      "package": "pg4k-pgd",
+      "name": "pg4k-pgd",
+      "version": "2.2.0",
+      "keywords": [
+        "postgresql",
+        "distributed",
+        "postgres",
+        "database",
+        "sql",
+        "cloud",
+        "native",
+        "edb",
+        "enterprisedb",
+        "cnp",
+        "pg4k",
+        "pgd"
+      ],
+      "description": "EDB Postgres Distributed for Kubernetes is an operator designed to manage EDB Postgres Distributed (PGD) workloads on Kubernetes both in a single Kubernetes cluster or across multiple ones.",
+      "channel": "stable-v2"
+    },
+    {
       "package": "pmem-csi-operator-os",
       "name": "pmem-csi-operator-os",
       "version": "1.0.0",
@@ -16092,6 +16227,21 @@
       "package": "rbln-npu-operator",
       "name": "rbln-npu-operator",
       "version": "0.5.0",
+      "keywords": [
+        "rebellions",
+        "ai",
+        "AI",
+        "NPU",
+        "AI acceleration",
+        "ML inference"
+      ],
+      "description": "Deploy and manage Rebellions NPU in Kubernetes",
+      "channel": "candidate"
+    },
+    {
+      "package": "rbln-npu-operator",
+      "name": "rbln-npu-operator",
+      "version": "0.6.0",
       "keywords": [
         "rebellions",
         "ai",
@@ -18045,6 +18195,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.4",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seawise-backup-operator",
       "name": "seawise-backup-operator",
       "version": "0.1.0",
@@ -18797,6 +18960,54 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.9",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.2",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.3",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
       "package": "strategy-operator",
       "name": "strategy-operator",
       "version": "26.5.6",
@@ -18976,6 +19187,19 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "3.1.0-rc9",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.1",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
       "channel": "candidate-v3"
     },
     {
@@ -19419,6 +19643,27 @@
       "package": "trident-operator",
       "name": "trident-operator",
       "version": "26.6.1",
+      "keywords": [
+        "NetApp",
+        "ONTAP",
+        "Trident",
+        "storage",
+        "performance",
+        "open source",
+        "Astra",
+        "Cloud Native",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Cloud Volumes"
+      ],
+      "description": "Trident Operator, to manage NetApp Trident installations",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.6.2",
       "keywords": [
         "NetApp",
         "ONTAP",
@@ -20501,6 +20746,18 @@
       "channel": "alpha"
     },
     {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.5.3",
+      "keywords": [
+        "trendai",
+        "visionone",
+        "container-security"
+      ],
+      "description": "Operator for deploying the TrendAI Vision One Container Security components in Kubernetes clusters",
+      "channel": "alpha"
+    },
+    {
       "package": "wave",
       "name": "wave",
       "version": "3.4.8",
@@ -20764,7 +21021,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1915,
+  "count": 1924,
   "source": "opm",
-  "timestamp": "2026-10-13T07:10:38.407880"
+  "timestamp": "2026-10-16T07:17:20.555872"
 }

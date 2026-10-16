@@ -6460,6 +6460,20 @@
       "channel": "stable"
     },
     {
+      "package": "authorino-operator",
+      "name": "authorino-operator",
+      "version": "1.4.4",
+      "keywords": [
+        "Authorino",
+        "Authorino Operator",
+        "Kuadrant",
+        "Authorization",
+        "Authentication"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "automation-orchestrator-operator",
       "name": "automation-orchestrator-operator",
       "version": "2026.8.1786400991",
@@ -6574,6 +6588,20 @@
     {
       "package": "automation-orchestrator-operator",
       "name": "automation-orchestrator-operator",
+      "version": "2026.8.1791513611",
+      "keywords": [
+        "automation",
+        "orchestrator",
+        "ansible",
+        "aap",
+        "workflow"
+      ],
+      "description": "Operator for deploying and managing Automation Orchestrator on Kubernetes",
+      "channel": "stable"
+    },
+    {
+      "package": "automation-orchestrator-operator",
+      "name": "automation-orchestrator-operator",
       "version": "2026.9.1784677103",
       "keywords": [
         "automation",
@@ -6603,6 +6631,20 @@
       "package": "automation-portal-operator",
       "name": "automation-portal-operator",
       "version": "2.2.20260929",
+      "keywords": [
+        "ansible",
+        "automation",
+        "portal",
+        "aap",
+        "openshift"
+      ],
+      "description": "Operator for deploying and managing the Ansible automation portal on OpenShift",
+      "channel": "fast"
+    },
+    {
+      "package": "automation-portal-operator",
+      "name": "automation-portal-operator",
+      "version": "2.2.20261013",
       "keywords": [
         "ansible",
         "automation",
@@ -14167,6 +14209,20 @@
       "channel": "stable"
     },
     {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.9",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
       "package": "deployment-validation-operator",
       "name": "deployment-validation-operator",
       "version": "0.7.5",
@@ -15685,6 +15741,17 @@
       "channel": "stable"
     },
     {
+      "package": "dns-operator",
+      "name": "dns-operator",
+      "version": "1.4.3",
+      "keywords": [
+        "dns",
+        "kuadrant"
+      ],
+      "description": "A Kubernetes Operator to manage the lifecycle of DNS resources",
+      "channel": "stable"
+    },
+    {
       "package": "dpu-network-operator",
       "name": "dpu-network-operator",
       "version": "4.13.0-202309181427",
@@ -16473,6 +16540,19 @@
       ],
       "description": "",
       "channel": "stable"
+    },
+    {
+      "package": "exploit-iq-operator",
+      "name": "exploit-iq-operator",
+      "version": "3.1.1",
+      "keywords": [
+        "cve",
+        "vulnerability",
+        "security",
+        "ai"
+      ],
+      "description": "",
+      "channel": "stable-v3"
     },
     {
       "package": "external-dns-operator",
@@ -20277,6 +20357,18 @@
       "channel": "stable"
     },
     {
+      "package": "limitador-operator",
+      "name": "limitador-operator",
+      "version": "1.4.3",
+      "keywords": [
+        "api",
+        "rate-limit",
+        "kuadrant"
+      ],
+      "description": "The Limitador operator installs and maintains limitador instances",
+      "channel": "stable"
+    },
+    {
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.22.0-202605222050",
@@ -20537,6 +20629,20 @@
       "package": "logic-operator",
       "name": "logic-operator",
       "version": "1.38.2",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.39.0",
       "keywords": [
         "sonataflow",
         "cncf",
@@ -21806,6 +21912,32 @@
       "package": "mta-operator",
       "name": "mta-operator",
       "version": "8.3.0",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Migration Toolkit for Applications is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
+      "channel": "stable-v8.3"
+    },
+    {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.3.1",
+      "keywords": [
+        "modernization",
+        "migration",
+        "konveyor",
+        "tackle"
+      ],
+      "description": "Migration Toolkit for Applications is an application modernization platform that helps organizations safely and predictably modernize applications to OpenShift at scale.",
+      "channel": "stable-v8.3"
+    },
+    {
+      "package": "mta-operator",
+      "name": "mta-operator",
+      "version": "8.3.2",
       "keywords": [
         "modernization",
         "migration",
@@ -23338,6 +23470,17 @@
       ],
       "description": "The O-Cloud Manager operator provides an implementation of the O-RAN O2 IMS API on top of OpenShift and ACM.",
       "channel": "4.22.2"
+    },
+    {
+      "package": "o-cloud-manager",
+      "name": "o-cloud-manager",
+      "version": "4.22.3",
+      "keywords": [
+        "ORAN",
+        "O2IMS"
+      ],
+      "description": "The O-Cloud Manager operator provides an implementation of the O-RAN O2 IMS API on top of OpenShift and ACM.",
+      "channel": "4.22.3"
     },
     {
       "package": "ocs-client-operator",
@@ -27274,6 +27417,18 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.22.2",
+      "keywords": [
+        "devtools",
+        "gitops",
+        "pipelines"
+      ],
+      "description": "Enables teams to adopt GitOps principles for managing cluster configurations and application delivery across hybrid multi-cluster Kubernetes environments.",
+      "channel": "gitops-1.22"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.5.2",
       "keywords": [
         "devtools",
@@ -27777,6 +27932,19 @@
     {
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
+      "version": "1.22.7",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
       "version": "1.23.0",
       "keywords": [
         "tektoncd",
@@ -27817,6 +27985,19 @@
       "package": "openshift-pipelines-operator-rh",
       "name": "openshift-pipelines-operator-rh",
       "version": "1.24.0",
+      "keywords": [
+        "tektoncd",
+        "openshift",
+        "build",
+        "pipeline"
+      ],
+      "description": "Red Hat OpenShift Pipelines is a cloud-native CI/CD solution for building pipelines using Tekton concepts which run natively on OpenShift and Kubernetes.",
+      "channel": "latest"
+    },
+    {
+      "package": "openshift-pipelines-operator-rh",
+      "name": "openshift-pipelines-operator-rh",
+      "version": "1.24.1",
       "keywords": [
         "tektoncd",
         "openshift",
@@ -28588,6 +28769,20 @@
       "package": "policy-controller-operator",
       "name": "policy-controller-operator",
       "version": "1.0.2",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust",
+        "admissions controller",
+        "policy controller"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "policy-controller-operator",
+      "name": "policy-controller-operator",
+      "version": "1.0.3",
       "keywords": [
         "security",
         "rhtas",
@@ -33481,6 +33676,19 @@
       "channel": "latest"
     },
     {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1+0.1791865867.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
       "package": "redhat-oadp-operator",
       "name": "redhat-oadp-operator",
       "version": "1.6.0",
@@ -37854,6 +38062,24 @@
       "channel": "stable"
     },
     {
+      "package": "rhcl-operator",
+      "name": "rhcl-operator",
+      "version": "1.4.4",
+      "keywords": [
+        "api",
+        "api-management",
+        "Kuadrant",
+        "kubernetes",
+        "openshift",
+        "cloud-service-protection",
+        "rate-limiting",
+        "authentication",
+        "authorization"
+      ],
+      "description": "A Kubernetes Operator to manage the lifecycle of the Kuadrant system",
+      "channel": "stable-1.4"
+    },
+    {
       "package": "rhdh",
       "name": "rhdh",
       "version": "1.1.0",
@@ -40638,7 +40864,7 @@
     {
       "package": "rhods-operator",
       "name": "rhods-operator",
-      "version": "3.6.0-ea.1",
+      "version": "3.6.0-ea.2",
       "keywords": [
         "Operator",
         "OpenShift",
@@ -41825,6 +42051,18 @@
     {
       "package": "rhtas-operator",
       "name": "rhtas-operator",
+      "version": "1.4.4",
+      "keywords": [
+        "security",
+        "rhtas",
+        "trust"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "rhtas-operator",
+      "name": "rhtas-operator",
       "version": "1.5.0",
       "keywords": [
         "security",
@@ -41904,6 +42142,17 @@
       "package": "rhtpa-operator",
       "name": "rhtpa-operator",
       "version": "3.1.0",
+      "keywords": [
+        "rhtpa",
+        "trusted-profile-analyzer"
+      ],
+      "description": "",
+      "channel": "stable-v3"
+    },
+    {
+      "package": "rhtpa-operator",
+      "name": "rhtpa-operator",
+      "version": "3.1.1",
       "keywords": [
         "rhtpa",
         "trusted-profile-analyzer"
@@ -43422,6 +43671,23 @@
       "package": "serverless-operator",
       "name": "serverless-operator",
       "version": "1.37.1",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.37.2",
       "keywords": [
         "serverless",
         "FaaS",
@@ -45847,6 +46113,21 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-netobs-operator",
+      "name": "skupper-netobs-operator",
+      "version": "2.2.3-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Network Observer Operator provides the ability to monitor and observe a service network",
+      "channel": "stable-2"
+    },
+    {
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "1.8.1-rh-3",
@@ -46135,6 +46416,21 @@
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "2.2.2-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Operator provides the ability to create a service network",
+      "channel": "stable-2"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.3-rh-1",
       "keywords": [
         "skupper",
         "rhsi",
@@ -48443,7 +48739,7 @@
       "channel": "stable"
     }
   ],
-  "count": 3421,
+  "count": 3443,
   "source": "opm",
-  "timestamp": "2026-10-13T07:17:25.602646"
+  "timestamp": "2026-10-16T07:24:39.222810"
 }

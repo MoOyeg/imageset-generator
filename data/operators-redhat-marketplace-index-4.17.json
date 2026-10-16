@@ -936,6 +936,19 @@
     {
       "package": "datadog-operator-certified-rhmp",
       "name": "datadog-operator-certified-rhmp",
+      "version": "1.31.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified-rhmp",
+      "name": "datadog-operator-certified-rhmp",
       "version": "1.4.0",
       "keywords": [
         "Datadog",
@@ -3872,6 +3885,22 @@
     {
       "package": "stackgres",
       "name": "stackgres",
+      "version": "1.19.0",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
       "version": "1.19.0-rc1",
       "keywords": [
         "postgresql",
@@ -3921,6 +3950,22 @@
       "package": "stackgres",
       "name": "stackgres",
       "version": "1.19.0-rc4",
+      "keywords": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "rdbms",
+        "open source",
+        "ongres"
+      ],
+      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres",
+      "name": "stackgres",
+      "version": "1.19.0-rc5",
       "keywords": [
         "postgresql",
         "postgres",
@@ -4312,7 +4357,7 @@
       "channel": "lts"
     }
   ],
-  "count": 337,
+  "count": 340,
   "source": "opm",
-  "timestamp": "2026-10-13T07:11:19.382610"
+  "timestamp": "2026-10-16T07:18:04.575311"
 }

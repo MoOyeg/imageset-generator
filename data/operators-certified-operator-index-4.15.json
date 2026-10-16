@@ -331,6 +331,12 @@
       "channel": "stable"
     },
     {
+      "package": "alloydb-omni-operator-certified",
+      "name": "alloydb-omni-operator-certified",
+      "version": "1.9.0",
+      "channel": "stable"
+    },
+    {
       "package": "anchore-engine",
       "name": "anchore-engine",
       "version": "1.0.1",
@@ -553,6 +559,12 @@
       "channel": "2022.4"
     },
     {
+      "package": "aqua-operator-certified",
+      "name": "aqua-operator-certified",
+      "version": "2022.4.941",
+      "channel": "2022.4"
+    },
+    {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.1.0",
@@ -766,6 +778,12 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.1.1",
       "channel": "alpha"
     },
     {
@@ -2037,6 +2055,12 @@
     {
       "package": "cpd-platform-operator",
       "name": "cpd-platform-operator",
+      "version": "6.10.7",
+      "channel": "v6.4"
+    },
+    {
+      "package": "cpd-platform-operator",
+      "name": "cpd-platform-operator",
       "version": "6.2.2",
       "channel": "v6.2"
     },
@@ -2434,6 +2458,12 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.30.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.31.0",
       "channel": "stable"
     },
     {
@@ -2927,6 +2957,12 @@
       "name": "digitalai-release-operator",
       "version": "26.3.1",
       "channel": "beta"
+    },
+    {
+      "package": "docling-operator",
+      "name": "docling-operator",
+      "version": "0.1.0",
+      "channel": "alpha"
     },
     {
       "package": "dxoperator",
@@ -3529,75 +3565,21 @@
       "channel": "stable"
     },
     {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.48.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.48.3",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.49.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.49.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.50.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.50.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.51.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.51.2",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.52.0",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.52.1",
-      "channel": "stable"
-    },
-    {
-      "package": "gitlab-runner-operator",
-      "name": "gitlab-runner-operator",
-      "version": "1.52.2",
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.5.0",
       "channel": "stable"
     },
     {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.53.0",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.54.0",
       "channel": "stable"
     },
     {
@@ -6169,6 +6151,12 @@
       "channel": "stable"
     },
     {
+      "package": "kubecost-operator",
+      "name": "kubecost-operator",
+      "version": "3.3.1",
+      "channel": "stable"
+    },
+    {
       "package": "kubedb-installer",
       "name": "kubedb-installer",
       "version": "2026.2.26",
@@ -6213,8 +6201,8 @@
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.21.20",
-      "channel": "stable"
+      "version": "8.21.30",
+      "channel": "beta"
     },
     {
       "package": "kubeturbo-certified",
@@ -6333,8 +6321,8 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.20",
-      "channel": "stable"
+      "version": "8.21.30",
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -7233,7 +7221,7 @@
     {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
-      "version": "3.96.0-1",
+      "version": "3.96.4-1",
       "channel": "stable"
     },
     {
@@ -7360,6 +7348,12 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.7.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.8.0",
       "channel": "alpha"
     },
     {
@@ -8211,8 +8205,8 @@
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.21.20",
-      "channel": "stable"
+      "version": "8.21.30",
+      "channel": "beta"
     },
     {
       "package": "prometurbo-certified",
@@ -9223,6 +9217,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.4",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -9793,6 +9793,24 @@
       "channel": "candidate"
     },
     {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.18.9",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.2",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.19.3",
+      "channel": "candidate"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -9825,13 +9843,13 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.116.0",
+      "version": "42.117.0",
       "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.117.0-beta.1",
+      "version": "42.118.0-beta.1",
       "channel": "beta"
     },
     {
@@ -9964,6 +9982,12 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "3.1.0-rc9",
+      "channel": "candidate-v3"
+    },
+    {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.1.1",
       "channel": "candidate-v3"
     },
     {
@@ -10162,6 +10186,12 @@
       "package": "trident-operator",
       "name": "trident-operator",
       "version": "26.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "trident-operator",
+      "name": "trident-operator",
+      "version": "26.6.2",
       "channel": "stable"
     },
     {
@@ -10891,6 +10921,12 @@
       "channel": "alpha"
     },
     {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.5.3",
+      "channel": "alpha"
+    },
+    {
       "package": "wave",
       "name": "wave",
       "version": "3.4.8",
@@ -11005,7 +11041,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1834,
+  "count": 1840,
   "source": "opm",
-  "timestamp": "2026-10-13T07:04:22.174245"
+  "timestamp": "2026-10-16T07:10:40.269498"
 }

@@ -687,6 +687,12 @@
     "xlr.digital.ai/v1alpha1/DigitalaiRelease": [
       "digitalai-release-operator"
     ],
+    "docling.docling-project.io/v1alpha1/DoclingCluster": [
+      "docling-operator"
+    ],
+    "docling.docling-project.io/v1alpha1/DoclingClusterConfig": [
+      "docling-operator"
+    ],
     "dh2i.com/v1/DxEnterpriseSqlAg": [
       "dxoperator"
     ],
@@ -888,6 +894,9 @@
     "apps.gitlab.com/v1beta1/GitLab": [
       "gitlab-operator-kubernetes"
     ],
+    "apps.gitlab.com/v1beta2/Runner": [
+      "gitlab-runner-operator"
+    ],
     "cluster-services-openshift.cloud.google.com/v1alpha1/TelemetryConfig": [
       "google-cloud-cluster-services-for-openshift-telemetry"
     ],
@@ -1014,10 +1023,10 @@
     "infra.hpe.com/v1alpha1/HPEServerProfileTemplate": [
       "hpeoneview-operator"
     ],
-    "csi.hitachi.com/v1/GadPairAction": [
+    "csi.hitachi.com/v1/HSPC": [
       "hspc-operator"
     ],
-    "csi.hitachi.com/v1/HSPC": [
+    "csi.hitachi.com/v1/GadPairAction": [
       "hspc-operator"
     ],
     "hulft.saison-technology.com/v1/Hulft": [
@@ -1120,6 +1129,9 @@
       "intel-device-plugins-operator"
     ],
     "deviceplugin.intel.com/v1/DsaDevicePlugin": [
+      "intel-device-plugins-operator"
+    ],
+    "deviceplugin.intel.com/v1/IaaDevicePlugin": [
       "intel-device-plugins-operator"
     ],
     "trustedservices.intel.com/v1/TdxQuoteGenerationService": [
@@ -1815,6 +1827,90 @@
     "storage.simplyblock.io/v1alpha1/VolumeMigration": [
       "simplyblock-operator"
     ],
+    "enterprise.splunk.com/v4/ClusterManager": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/ClusterMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/ClusterMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/ClusterMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/IndexerCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/IndexerCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/IndexerCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/IndexerCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/IngestorCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/LicenseManager": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/LicenseMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/LicenseMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/LicenseMaster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/MonitoringConsole": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/MonitoringConsole": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/ObjectStorage": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/PostgresCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/PostgresClusterClass": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/PostgresDatabase": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/Queue": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/SearchHeadCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/SearchHeadCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/SearchHeadCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/SearchHeadCluster": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v1/Standalone": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v2/Standalone": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v3/Standalone": [
+      "splunk-operator"
+    ],
+    "enterprise.splunk.com/v4/Standalone": [
+      "splunk-operator"
+    ],
     "spyre.ibm.com/v1alpha1/SpyreClusterPolicy": [
       "spyre-operator"
     ],
@@ -2317,5 +2413,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-13T07:17:42.561690"
+  "timestamp": "2026-10-16T07:24:56.615584"
 }

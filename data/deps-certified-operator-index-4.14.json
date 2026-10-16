@@ -1039,6 +1039,12 @@
     "xlr.digital.ai/v1alpha1/DigitalaiRelease": [
       "digitalai-release-operator"
     ],
+    "docling.docling-project.io/v1alpha1/DoclingCluster": [
+      "docling-operator"
+    ],
+    "docling.docling-project.io/v1alpha1/DoclingClusterConfig": [
+      "docling-operator"
+    ],
     "dh2i.com/v1/DxEnterpriseSqlAg": [
       "dxoperator"
     ],
@@ -2556,6 +2562,9 @@
     "stackgres.io/v1alpha1/SGStream": [
       "stackgres-certified"
     ],
+    "stackgres.io/v1beta1/SGShardedCluster": [
+      "stackgres-certified"
+    ],
     "helm-operator.sumologic.com/v1alpha1/SumologicCollection": [
       "sumologic-kubernetes-collection-helm-operator"
     ],
@@ -2878,5 +2887,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-13T07:00:41.636803"
+  "timestamp": "2026-10-16T07:06:44.432814"
 }

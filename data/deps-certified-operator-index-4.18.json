@@ -890,6 +890,12 @@
     "xlr.digital.ai/v1alpha1/DigitalaiRelease": [
       "digitalai-release-operator"
     ],
+    "docling.docling-project.io/v1alpha1/DoclingCluster": [
+      "docling-operator"
+    ],
+    "docling.docling-project.io/v1alpha1/DoclingClusterConfig": [
+      "docling-operator"
+    ],
     "dh2i.com/v1/DxEnterpriseSqlAg": [
       "dxoperator"
     ],
@@ -2665,6 +2671,9 @@
     "stackgres.io/v1alpha1/SGStream": [
       "stackgres-certified"
     ],
+    "stackgres.io/v1beta1/SGShardedCluster": [
+      "stackgres-certified"
+    ],
     "cloud.microstrategy.com/v1/MstrManagementService": [
       "strategy-operator"
     ],
@@ -3074,5 +3083,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-13T07:12:08.678244"
+  "timestamp": "2026-10-16T07:18:58.128801"
 }
