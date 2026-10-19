@@ -6879,6 +6879,12 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.14.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -7480,6 +7486,12 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.8.1",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.9.0",
       "channel": "stable-3.x"
     },
     {
@@ -8355,6 +8367,12 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-47.1",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "7.4.2-12.0",
       "channel": "7.22.0"
     },
@@ -8368,7 +8386,7 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.4.6-12.0",
-      "channel": "7.4.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -8524,7 +8542,7 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-22.1",
-      "channel": "7.8.6"
+      "channel": "7.22.2"
     },
     {
       "package": "redis-enterprise-operator-cert",
@@ -9223,6 +9241,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.5",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -9790,18 +9814,6 @@
       "package": "stackgres-certified",
       "name": "stackgres-certified",
       "version": "1.18.10",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.9",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.2",
       "channel": "candidate"
     },
     {
@@ -10929,7 +10941,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.8",
+      "version": "3.5.0",
       "channel": "stable"
     },
     {
@@ -11041,7 +11053,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1840,
+  "count": 1842,
   "source": "opm",
-  "timestamp": "2026-10-16T07:10:40.269498"
+  "timestamp": "2026-10-19T07:02:23.932674"
 }

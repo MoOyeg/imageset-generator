@@ -477,6 +477,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/HarnessEndpoint": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/GatewayRateLimit": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -2521,6 +2524,9 @@
     ],
     "apps.gitlab.com/v1beta1/GitLab": [
       "gitlab-operator-kubernetes"
+    ],
+    "apps.gitlab.com/v1beta2/Runner": [
+      "gitlab-runner-operator"
     ],
     "primer.gitops.io/v1alpha1/Export": [
       "gitops-primer"
@@ -5047,5 +5053,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-10-16T07:25:15.013985"
+  "timestamp": "2026-10-19T07:16:18.791257"
 }

@@ -4407,6 +4407,18 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.14.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -6155,7 +6167,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.8",
+      "version": "3.5.0",
       "keywords": [
         "autoscaling",
         "kubernetes",
@@ -6361,7 +6373,7 @@
       "channel": "stable"
     }
   ],
-  "count": 764,
+  "count": 765,
   "source": "opm",
-  "timestamp": "2026-10-16T07:26:35.512092"
+  "timestamp": "2026-10-19T07:17:39.481233"
 }

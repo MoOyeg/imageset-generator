@@ -6153,6 +6153,12 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.14.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -8239,6 +8245,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.5",
+      "channel": "stable-v1"
+    },
+    {
       "package": "seldon-operator-certified",
       "name": "seldon-operator-certified",
       "version": "1.16.0-0",
@@ -8548,18 +8560,6 @@
       "package": "stackgres-certified",
       "name": "stackgres-certified",
       "version": "1.18.10",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.9",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.2",
       "channel": "candidate"
     },
     {
@@ -9987,7 +9987,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.8",
+      "version": "3.5.0",
       "channel": "stable"
     },
     {
@@ -10101,5 +10101,5 @@
   ],
   "count": 1683,
   "source": "opm",
-  "timestamp": "2026-10-16T07:02:43.734712"
+  "timestamp": "2026-10-19T06:54:39.682388"
 }

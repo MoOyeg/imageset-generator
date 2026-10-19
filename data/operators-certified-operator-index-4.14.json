@@ -7089,6 +7089,12 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.14.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -7630,6 +7636,12 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.8.1",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.9.0",
       "channel": "stable-3.x"
     },
     {
@@ -9373,6 +9385,12 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.5",
+      "channel": "stable-v1"
+    },
+    {
       "package": "silicom-sts-operator",
       "name": "silicom-sts-operator",
       "version": "0.0.8",
@@ -9940,18 +9958,6 @@
       "package": "stackgres-certified",
       "name": "stackgres-certified",
       "version": "1.18.10",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.18.9",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.2",
       "channel": "candidate"
     },
     {
@@ -11403,7 +11409,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.8",
+      "version": "3.5.0",
       "channel": "stable"
     },
     {
@@ -11515,7 +11521,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 1919,
+  "count": 1920,
   "source": "opm",
-  "timestamp": "2026-10-16T07:06:41.415761"
+  "timestamp": "2026-10-19T06:58:29.778889"
 }

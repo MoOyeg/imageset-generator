@@ -15508,6 +15508,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.17.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.18.0",
       "keywords": [
         "open source",
@@ -45746,6 +45758,20 @@
       "channel": "stable-v1"
     },
     {
+      "package": "openshift-zero-trust-workload-identity-manager",
+      "name": "openshift-zero-trust-workload-identity-manager",
+      "version": "1.0.3",
+      "keywords": [
+        "zero-trust-workload-identity-manager",
+        "ztwim",
+        "spire",
+        "spiffe-spire",
+        "security"
+      ],
+      "description": "",
+      "channel": "stable-v1"
+    },
+    {
       "package": "openstack-operator",
       "name": "openstack-operator",
       "version": "1.0.10",
@@ -48844,6 +48870,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.17.6",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Quay container registry",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.18.0",
       "keywords": [
         "registry",
@@ -50999,6 +51037,18 @@
         "registry"
       ],
       "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.17.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.17"
     },
     {
@@ -71673,7 +71723,7 @@
       "channel": "stable"
     }
   ],
-  "count": 5221,
+  "count": 5225,
   "source": "opm",
-  "timestamp": "2026-10-16T07:18:35.041798"
+  "timestamp": "2026-10-19T07:10:15.550123"
 }

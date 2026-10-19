@@ -510,6 +510,9 @@
     "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/HarnessEndpoint": [
       "ack-bedrockagentcorecontrol-controller"
     ],
+    "bedrockagentcorecontrol.services.k8s.aws/v1alpha1/GatewayRateLimit": [
+      "ack-bedrockagentcorecontrol-controller"
+    ],
     "cloudfront.services.k8s.aws/v1alpha1/CachePolicy": [
       "ack-cloudfront-controller"
     ],
@@ -4515,6 +4518,9 @@
     "stackgres.io/v1alpha1/SGStream": [
       "stackgres-community"
     ],
+    "stackgres.io/v1beta1/SGShardedCluster": [
+      "stackgres-community"
+    ],
     "operator.open-cluster-management.io/v1/MultiClusterHub": [
       "stolostron"
     ],
@@ -5113,5 +5119,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-10-16T07:19:30.668993"
+  "timestamp": "2026-10-19T07:11:00.393789"
 }

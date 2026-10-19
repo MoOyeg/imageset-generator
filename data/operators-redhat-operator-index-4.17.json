@@ -15025,6 +15025,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.17.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.18.0",
       "keywords": [
         "open source",
@@ -47789,6 +47801,18 @@
     {
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
+      "version": "3.17.6",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Quay container registry",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
       "version": "3.18.0",
       "keywords": [
         "registry",
@@ -49932,6 +49956,18 @@
         "registry"
       ],
       "description": "Opinionated deployment of Red Hat on Kubernetes.",
+      "channel": "stable-3.17"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.17.6",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
       "channel": "stable-3.17"
     },
     {
@@ -69667,7 +69703,7 @@
       "channel": "stable"
     }
   ],
-  "count": 5057,
+  "count": 5060,
   "source": "opm",
-  "timestamp": "2026-10-16T07:16:51.905425"
+  "timestamp": "2026-10-19T07:08:34.770203"
 }

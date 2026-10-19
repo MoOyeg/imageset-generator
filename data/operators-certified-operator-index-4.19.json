@@ -12220,6 +12220,18 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.14.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -12996,6 +13008,20 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.8.1",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.9.0",
       "keywords": [
         "Nutanix",
         "CSI",
@@ -15021,6 +15047,20 @@
     {
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
+      "version": "7.22.2-47.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "7.22.2"
+    },
+    {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
       "version": "8.0.10-21.0",
       "keywords": [
         "redislabs",
@@ -16714,6 +16754,19 @@
       "channel": "stable-v1"
     },
     {
+      "package": "scaleops-operator",
+      "name": "scaleops-operator",
+      "version": "1.35.5",
+      "keywords": [
+        "vertical scaling",
+        "horizontal scaling",
+        "node optimization",
+        "application runtime"
+      ],
+      "description": "ScaleOps is the industry-first Kubernetes Optimization Platform that automatically adjusts Compute Resources to changes in real-time, streamlining a new Kubernetes experience for engineering teams.\\n\\nScaleOps eliminates 80% of Kubernetes cloud spending, frees engineers from repeated ongoing configurations, and proactively ensures SLAs are always achieved.\\n\\nInstallation takes only 2 minutes, and value is provided immediately. Starting from read-only recommendations to continuous and automatic pod optimization during runtime with zero disruption.\\n\\nBattle-tested on some of the most critical production clusters in full automation mode. Trusted by industry leaders, such as Wiz, Outbrain, SentinelOne, Outreach, Cato Networks, and many others!\\n\\nContact [us](mailto:team@scaleops.com) to start your free trial today",
+      "channel": "stable-v1"
+    },
+    {
       "package": "scylladb-operator",
       "name": "scylladb-operator",
       "version": "1.20.0-alpha.10",
@@ -17869,38 +17922,6 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.9",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
       "version": "1.19.3",
       "keywords": [
         "postgresql",
@@ -19003,6 +19024,21 @@
       "channel": "stable"
     },
     {
+      "package": "vast-csi-operator",
+      "name": "vast-csi-operator",
+      "version": "2.7.2",
+      "keywords": [
+        "VAST",
+        "VASTData",
+        "CSI",
+        "Multi Cluster",
+        "AI",
+        "High-Performance Computing"
+      ],
+      "description": "Kubernetes operator for automated deployment and lifecycle management of VAST Data CSI drivers.",
+      "channel": "stable"
+    },
+    {
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "0.10.0",
@@ -19479,7 +19515,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.8",
+      "version": "3.5.0",
       "keywords": [
         "autoscaling",
         "kubernetes",
@@ -19793,6 +19829,19 @@
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
+      "version": "7.0.31",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "stable-v7.0"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
       "version": "7.4.14",
       "keywords": [
         "monitoring",
@@ -19814,7 +19863,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1745,
+  "count": 1749,
   "source": "opm",
-  "timestamp": "2026-10-16T07:20:46.639892"
+  "timestamp": "2026-10-19T07:12:06.007774"
 }

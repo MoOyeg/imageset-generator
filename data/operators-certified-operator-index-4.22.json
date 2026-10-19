@@ -10788,6 +10788,18 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.14.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -11564,6 +11576,20 @@
       "package": "nutanixcsioperator",
       "name": "nutanixcsioperator",
       "version": "3.8.1",
+      "keywords": [
+        "Nutanix",
+        "CSI",
+        "Volumes",
+        "Files",
+        "Storage"
+      ],
+      "description": "An Operator for deploying and managing the Nutanix CSI Driver",
+      "channel": "stable-3.x"
+    },
+    {
+      "package": "nutanixcsioperator",
+      "name": "nutanixcsioperator",
+      "version": "3.9.0",
       "keywords": [
         "Nutanix",
         "CSI",
@@ -13600,38 +13626,6 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
-      "version": "1.18.9",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
-      "version": "1.19.2",
-      "keywords": [
-        "postgresql",
-        "postgres",
-        "database",
-        "sql",
-        "rdbms",
-        "open source",
-        "ongres"
-      ],
-      "description": "The most advanced Postgres Enterprise Platform.\\nFully Open Source.\\n",
-      "channel": "candidate"
-    },
-    {
-      "package": "stackgres-certified",
-      "name": "stackgres-certified",
       "version": "1.19.3",
       "keywords": [
         "postgresql",
@@ -14131,6 +14125,21 @@
       "channel": "stable"
     },
     {
+      "package": "vast-csi-operator",
+      "name": "vast-csi-operator",
+      "version": "2.7.2",
+      "keywords": [
+        "VAST",
+        "VASTData",
+        "CSI",
+        "Multi Cluster",
+        "AI",
+        "High-Performance Computing"
+      ],
+      "description": "Kubernetes operator for automated deployment and lifecycle management of VAST Data CSI drivers.",
+      "channel": "stable"
+    },
+    {
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "0.10.0",
@@ -14499,7 +14508,7 @@
     {
       "package": "wave",
       "name": "wave",
-      "version": "3.4.8",
+      "version": "3.5.0",
       "keywords": [
         "autoscaling",
         "kubernetes",
@@ -14720,7 +14729,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1320,
+  "count": 1321,
   "source": "opm",
-  "timestamp": "2026-10-16T07:24:55.830750"
+  "timestamp": "2026-10-19T07:16:00.053192"
 }
