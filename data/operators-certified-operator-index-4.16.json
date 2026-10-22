@@ -757,6 +757,24 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -1515,6 +1533,12 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.17.20-cee.1",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.4-cee.1",
       "channel": "1.17"
     },
@@ -1558,6 +1582,12 @@
       "package": "clife",
       "name": "clife",
       "version": "1.18.13-cee.1",
+      "channel": "1.18"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.14-cee.1",
       "channel": "1.18"
     },
     {
@@ -1618,6 +1648,12 @@
       "package": "clife",
       "name": "clife",
       "version": "1.19.7-cee.3",
+      "channel": "1.19"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.19.8-cee.1",
       "channel": "1.19"
     },
     {
@@ -2878,6 +2914,12 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.31.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.31.1",
       "channel": "stable"
     },
     {
@@ -6133,6 +6175,12 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.8",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -6688,12 +6736,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.21.30",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.21.30-beta.1",
+      "version": "8.21.40-beta.1",
       "channel": "beta"
     },
     {
@@ -6928,12 +6976,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.21.30",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.30-beta.1",
+      "version": "8.21.40-beta.1",
       "channel": "beta"
     },
     {
@@ -8926,12 +8974,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.21.30",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.21.30-beta.1",
+      "version": "8.21.40-beta.1",
       "channel": "beta"
     },
     {
@@ -10551,6 +10599,42 @@
     {
       "package": "stackgres-certified",
       "name": "stackgres-certified",
+      "version": "1.12.0",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.13.0",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.14.3",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.15.2",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.16.3",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
+      "version": "1.17.4",
+      "channel": "candidate"
+    },
+    {
+      "package": "stackgres-certified",
+      "name": "stackgres-certified",
       "version": "1.18.10",
       "channel": "candidate"
     },
@@ -10635,7 +10719,7 @@
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.118.0-beta.1",
+      "version": "42.118.0-beta.2",
       "channel": "beta"
     },
     {
@@ -10821,7 +10905,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.10.1",
+      "version": "1.10.2",
       "channel": "release-1.10"
     },
     {
@@ -11503,6 +11587,12 @@
       "channel": "stable"
     },
     {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.6.2",
+      "channel": "stable"
+    },
+    {
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.0.0",
@@ -11650,6 +11740,12 @@
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.75.0",
+      "channel": "beta"
+    },
+    {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.75.1",
       "channel": "beta"
     },
     {
@@ -11821,7 +11917,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1970,
+  "count": 1986,
   "source": "opm",
-  "timestamp": "2026-10-19T07:06:34.345848"
+  "timestamp": "2026-10-22T07:07:44.821038"
 }

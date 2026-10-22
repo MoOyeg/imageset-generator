@@ -1509,6 +1509,17 @@
       "channel": "7.14.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.1-opr-1+0.1791975501.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -2531,6 +2542,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-8",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "keywords": [
         "kafka",
@@ -2872,6 +2900,23 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.1-8",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.2-5",
       "keywords": [
         "kafka",
         "messaging",
@@ -3329,6 +3374,26 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.4-14",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.4-15",
       "keywords": [
         "kafka",
         "messaging",
@@ -3866,6 +3931,26 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.2-3",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.0.0-5",
@@ -4190,6 +4275,22 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.2-4",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1788929740",
@@ -4278,6 +4379,40 @@
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1791268467",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1792432839",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1792432849",
       "keywords": [
         "ansible",
         "automation",
@@ -9068,6 +9203,18 @@
     {
       "package": "container-security-operator",
       "name": "container-security-operator",
+      "version": "3.18.2",
+      "keywords": [
+        "open source",
+        "containers",
+        "security"
+      ],
+      "description": "Identify image vulnerabilities in Kubernetes pods",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "container-security-operator",
+      "name": "container-security-operator",
       "version": "3.4.7",
       "keywords": [
         "open source",
@@ -12970,571 +13117,7 @@
     {
       "package": "devworkspace-operator",
       "name": "devworkspace-operator",
-      "version": "0.10.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.11.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.12.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.13.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.14.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.15.2",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.15.2+0.1661828401.p",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.16.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.16.0+0.1666668361.p",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.17.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.18.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.18.1+0.1675929565.p",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.19.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.19.1+0.1679521112.p",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.19.1+0.1682321189.p",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.20.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.21.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.21.2",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.22.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.23.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.24.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.25.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.26.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.27.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.27.0+0.1714987663.p",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.28.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.28.0+0.1719314743.p",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.29.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.30.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.30.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.30.2",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.31.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.31.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.31.2",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.32.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.33.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.34.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.35.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.36.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.37.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.38.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.39.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.40.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.40.1",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.41.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.42.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.43.0",
-      "keywords": [
-        "Devworkspace Operator",
-        "DevWorkspaces",
-        "Devfile"
-      ],
-      "description": "",
-      "channel": "fast"
-    },
-    {
-      "package": "devworkspace-operator",
-      "name": "devworkspace-operator",
-      "version": "0.9.0",
+      "version": "1.0.0",
       "keywords": [
         "Devworkspace Operator",
         "DevWorkspaces",
@@ -16723,6 +16306,23 @@
     {
       "package": "kubevirt-hyperconverged",
       "name": "kubevirt-hyperconverged",
+      "version": "4.22.12",
+      "keywords": [
+        "KubeVirt",
+        "Virtualization",
+        "VM",
+        "CNV",
+        "Container-native virtualization",
+        "Container native virtualization",
+        "Virt",
+        "Virtual"
+      ],
+      "description": "Creates and maintains an OpenShift Virtualization Deployment",
+      "channel": "stable"
+    },
+    {
+      "package": "kubevirt-hyperconverged",
+      "name": "kubevirt-hyperconverged",
       "version": "4.22.2",
       "keywords": [
         "KubeVirt",
@@ -16922,6 +16522,20 @@
       ],
       "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
       "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.37.4",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable-1.37"
     },
     {
       "package": "logic-operator",
@@ -18289,6 +17903,23 @@
         "ebpf",
         "ipfix",
         "flow tracing",
+        "flows",
+        "topology",
+        "network",
+        "observability"
+      ],
+      "description": "Network flows collector and monitoring solution",
+      "channel": "stable"
+    },
+    {
+      "package": "netobserv-operator",
+      "name": "netobserv-operator",
+      "version": "2.0.0",
+      "keywords": [
+        "netobserv",
+        "ebpf",
+        "ipfix",
+        "netflows",
         "flows",
         "topology",
         "network",
@@ -20994,6 +20625,21 @@
     {
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
+      "version": "0.158.0-202610151241",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
       "version": "0.158.0-3",
       "keywords": [
         "opentelemetry",
@@ -22348,6 +21994,18 @@
       "package": "quay-bridge-operator",
       "name": "quay-bridge-operator",
       "version": "3.18.1",
+      "keywords": [
+        "registry",
+        "containers",
+        "quay"
+      ],
+      "description": "Enhance OCP using Red Hat Quay container registry",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "quay-bridge-operator",
+      "name": "quay-bridge-operator",
+      "version": "3.18.2",
       "keywords": [
         "registry",
         "containers",
@@ -24340,6 +23998,18 @@
       "package": "quay-operator",
       "name": "quay-operator",
       "version": "3.18.1",
+      "keywords": [
+        "open source",
+        "containers",
+        "registry"
+      ],
+      "description": "Opinionated deployment of Quay on Kubernetes.",
+      "channel": "stable-3.18"
+    },
+    {
+      "package": "quay-operator",
+      "name": "quay-operator",
+      "version": "3.18.2",
       "keywords": [
         "open source",
         "containers",
@@ -27440,6 +27110,27 @@
       "package": "rhacs-operator",
       "name": "rhacs-operator",
       "version": "4.11.5",
+      "keywords": [
+        "advanced-cluster-security",
+        "stackrox",
+        "security",
+        "vulnerabilities",
+        "compliance",
+        "devsecops",
+        "monitoring",
+        "scanning",
+        "runtime-security",
+        "network policy",
+        "configuration",
+        "risk"
+      ],
+      "description": "Red Hat Advanced Cluster Security (RHACS) operator provisions the services necessary to secure each of your OpenShift and Kubernetes clusters.",
+      "channel": "rhacs-4.11"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "4.11.6",
       "keywords": [
         "advanced-cluster-security",
         "stackrox",
@@ -33813,6 +33504,66 @@
       "channel": "4.22"
     },
     {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.16.0",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.16.1",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.16.2",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.17.0",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
       "package": "web-terminal",
       "name": "web-terminal",
       "version": "1.10.0",
@@ -34485,7 +34236,7 @@
       "channel": "fast"
     }
   ],
-  "count": 2410,
+  "count": 2383,
   "source": "opm",
-  "timestamp": "2026-10-19T07:17:25.646404"
+  "timestamp": "2026-10-22T07:19:15.051184"
 }

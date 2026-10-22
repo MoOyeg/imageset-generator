@@ -514,6 +514,21 @@
     "windup.jboss.org/v1/Windup": [
       "mtr-operator"
     ],
+    "flows.netobserv.io/v1alpha1/FlowCollector": [
+      "netobserv-operator"
+    ],
+    "flows.netobserv.io/v1beta2/FlowCollector": [
+      "netobserv-operator"
+    ],
+    "flows.netobserv.io/v1alpha1/FlowMetric": [
+      "netobserv-operator"
+    ],
+    "flows.netobserv.io/v1alpha1/FlowCollectorSlice": [
+      "netobserv-operator"
+    ],
+    "flows.netobserv.io/v1beta1/FlowCollector": [
+      "netobserv-operator"
+    ],
     "nodeobservability.olm.openshift.io/v1alpha1/NodeObservability": [
       "node-observability-operator"
     ],
@@ -642,7 +657,13 @@
     ],
     "daemons.redhat.com/v1alpha1/TangServer": [
       "tang-operator"
+    ],
+    "volsync.backube/v1alpha1/ReplicationDestination": [
+      "volsync-product"
+    ],
+    "volsync.backube/v1alpha1/ReplicationSource": [
+      "volsync-product"
     ]
   },
-  "timestamp": "2026-10-19T07:18:15.968766"
+  "timestamp": "2026-10-22T07:20:09.003564"
 }

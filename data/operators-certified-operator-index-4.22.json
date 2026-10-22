@@ -24,6 +24,17 @@
       "channel": "stable"
     },
     {
+      "package": "aic-operator",
+      "name": "aic-operator",
+      "version": "0.5.0",
+      "keywords": [
+        "AIC",
+        "AIC-Operator"
+      ],
+      "description": "Automate the management of OpenShift Operator for Qualcomm AI 100 accelerators.",
+      "channel": "stable"
+    },
+    {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
       "version": "5.0.0",
@@ -1346,6 +1357,70 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.0",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.1",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.2",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.3",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
       "package": "cfm-operator",
       "name": "cfm-operator",
       "version": "2.11.0-b57",
@@ -2063,6 +2138,21 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.17.20-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.4-cee.1",
       "keywords": [
         "Cilium",
@@ -2169,6 +2259,21 @@
       "package": "clife",
       "name": "clife",
       "version": "1.18.13-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.18"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.14-cee.1",
       "keywords": [
         "Cilium",
         "networking",
@@ -2319,6 +2424,21 @@
       "package": "clife",
       "name": "clife",
       "version": "1.19.7-cee.3",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.19"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.19.8-cee.1",
       "keywords": [
         "Cilium",
         "networking",
@@ -4388,6 +4508,19 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.31.0",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
+      "version": "1.31.1",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -6817,6 +6950,19 @@
       "channel": "stable"
     },
     {
+      "package": "human-voice-speaker-verification",
+      "name": "human-voice-speaker-verification",
+      "version": "0.1.4",
+      "keywords": [
+        "speaker verification",
+        "voice",
+        "PostgreSQL",
+        "pgvector"
+      ],
+      "description": "Language-independent speaker verification with client isolation on OpenShift.",
+      "channel": "beta"
+    },
+    {
       "package": "ibm-app-mod-accelerator",
       "name": "ibm-app-mod-accelerator",
       "version": "5.1.0",
@@ -8823,6 +8969,18 @@
       "channel": "stable"
     },
     {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
       "package": "k8s-triliovault",
       "name": "k8s-triliovault",
       "version": "3.1.0",
@@ -10266,12 +10424,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.30-beta.1",
+      "version": "8.21.40-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -10295,6 +10453,17 @@
       "package": "minio-minkms-operator",
       "name": "minio-minkms-operator",
       "version": "2025.12.20100920",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.10.14041630",
       "keywords": [
         "AI Storage",
         "MinIO"
@@ -10421,6 +10590,20 @@
         "S3",
         "MinIO",
         "Object Storage"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.10.14041630",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
       ],
       "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
       "channel": "stable"
@@ -12804,6 +12987,20 @@
       "channel": "8.2.0"
     },
     {
+      "package": "redis-enterprise-operator-cert",
+      "name": "redis-enterprise-operator-cert",
+      "version": "8.2.0-19.1",
+      "keywords": [
+        "redislabs",
+        "redis",
+        "database",
+        "nosql",
+        "cache"
+      ],
+      "description": "",
+      "channel": "8.2.0"
+    },
+    {
       "package": "runtime-component-operator-certified",
       "name": "runtime-component-operator-certified",
       "version": "0.8.0",
@@ -13795,7 +13992,7 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
-      "version": "1.10.1",
+      "version": "1.10.2",
       "keywords": [
         "tenant",
         "stakater",
@@ -14284,6 +14481,18 @@
       "channel": "stable"
     },
     {
+      "package": "vault-secrets-operator",
+      "name": "vault-secrets-operator",
+      "version": "1.6.2",
+      "keywords": [
+        "vault",
+        "security",
+        "secrets"
+      ],
+      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
+      "channel": "stable"
+    },
+    {
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.0.0",
@@ -14506,6 +14715,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.75.1",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "wave",
       "name": "wave",
       "version": "3.5.0",
@@ -14719,6 +14940,58 @@
       "channel": "lts"
     },
     {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.47",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.48",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.48-1",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "6.0.49",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "lts"
+    },
+    {
       "package": "zk-operator",
       "name": "zk-operator",
       "version": "0.0.1",
@@ -14729,7 +15002,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1321,
+  "count": 1341,
   "source": "opm",
-  "timestamp": "2026-10-19T07:16:00.053192"
+  "timestamp": "2026-10-22T07:17:07.403471"
 }

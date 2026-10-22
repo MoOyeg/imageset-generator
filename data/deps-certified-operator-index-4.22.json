@@ -137,6 +137,9 @@
     "aci.ctrl/v1alpha1/AciContainersOperator": [
       "aci-containers-operator"
     ],
+    "aic.qualcomm.com/v1/AIC": [
+      "aic-operator"
+    ],
     "microgateway.airlock.com/v1alpha1/APIProtection": [
       "airlock-microgateway"
     ],
@@ -918,6 +921,9 @@
     "habanalabs.habana.ai/v1/ClusterPolicy": [
       "habana-ai-operator"
     ],
+    "storage.hammerspace.com/v1alpha1/HammerspaceCSIDriver": [
+      "hammerspace-csi-operator"
+    ],
     "hammu.ai/v1alpha1/HammuPlatform": [
       "hammu-platform"
     ],
@@ -1031,6 +1037,9 @@
     ],
     "hulft.saison-technology.com/v1/Hulft": [
       "hulft"
+    ],
+    "alert.hvi.ai/v1alpha1/HVIAlert": [
+      "human-voice-speaker-verification"
     ],
     "ama.ibm.com/v2/AppMod": [
       "ibm-app-mod-accelerator"
@@ -2409,9 +2418,30 @@
     "kubernetes.zabbix.com/v1alpha1/ZabbixServer": [
       "zabbix-operator-certified"
     ],
+    "operator.zabbix.com/v1beta1/ZabbixAPIMigration": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixAgent": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixAgent2": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixFull": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixProxyMysql": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixProxySqlite": [
+      "zabbix-operator-certified"
+    ],
+    "operator.zabbix.com/v1beta1/ZabbixServer": [
+      "zabbix-operator-certified"
+    ],
     "zookeeper.transwarp.io/v1alpha1/ZKCluster": [
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-19T07:16:00.915133"
+  "timestamp": "2026-10-22T07:17:08.227824"
 }

@@ -1661,6 +1661,12 @@
     {
       "package": "ack-athena-controller",
       "name": "ack-athena-controller",
+      "version": "1.9.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-athena-controller",
+      "name": "ack-athena-controller",
       "version": "1.9.1",
       "keywords": [
         "athena",
@@ -3951,6 +3957,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.13.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.13.1",
       "keywords": [
         "dynamodb",
         "aws",
@@ -7857,6 +7869,12 @@
     {
       "package": "ack-firehose-controller",
       "name": "ack-firehose-controller",
+      "version": "0.6.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-firehose-controller",
+      "name": "ack-firehose-controller",
       "version": "0.6.1",
       "channel": "alpha"
     },
@@ -8677,6 +8695,12 @@
       "package": "ack-kafka-controller",
       "name": "ack-kafka-controller",
       "version": "1.13.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kafka-controller",
+      "name": "ack-kafka-controller",
+      "version": "1.13.2",
       "keywords": [
         "kafka",
         "aws",
@@ -12690,6 +12714,12 @@
     {
       "package": "ack-rds-controller",
       "name": "ack-rds-controller",
+      "version": "1.13.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-rds-controller",
+      "name": "ack-rds-controller",
       "version": "1.13.4",
       "keywords": [
         "rds",
@@ -13443,6 +13473,12 @@
       "package": "ack-route53-controller",
       "name": "ack-route53-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-route53-controller",
+      "name": "ack-route53-controller",
+      "version": "1.7.0",
       "channel": "alpha"
     },
     {
@@ -15313,6 +15349,12 @@
       "package": "ack-sfn-controller",
       "name": "ack-sfn-controller",
       "version": "1.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sfn-controller",
+      "name": "ack-sfn-controller",
+      "version": "1.8.1",
       "channel": "alpha"
     },
     {
@@ -17741,6 +17783,12 @@
       "package": "attune",
       "name": "attune",
       "version": "0.1.34",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.35",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -19769,6 +19817,12 @@
       "package": "dapr-kubernetes-operator",
       "name": "dapr-kubernetes-operator",
       "version": "0.0.13",
+      "channel": "alpha"
+    },
+    {
+      "package": "dapr-kubernetes-operator",
+      "name": "dapr-kubernetes-operator",
+      "version": "0.0.14",
       "keywords": [
         "dapr"
       ],
@@ -20008,6 +20062,12 @@
       "package": "datadog-operator",
       "name": "datadog-operator",
       "version": "1.31.0",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator",
+      "name": "datadog-operator",
+      "version": "1.31.1",
       "keywords": [
         "Datadog",
         "Monitoring",
@@ -20675,6 +20735,12 @@
       "package": "eclipse-che",
       "name": "eclipse-che",
       "version": "7.123.0",
+      "channel": "stable"
+    },
+    {
+      "package": "eclipse-che",
+      "name": "eclipse-che",
+      "version": "7.124.0",
       "keywords": [
         "eclipse che",
         "workspaces",
@@ -28196,6 +28262,12 @@
       "package": "ocp-kea-dhcp",
       "name": "ocp-kea-dhcp",
       "version": "0.0.32",
+      "channel": "alpha"
+    },
+    {
+      "package": "ocp-kea-dhcp",
+      "name": "ocp-kea-dhcp",
+      "version": "0.0.33",
       "keywords": [
         "dhcp",
         "kea",
@@ -32343,7 +32415,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 4858,
+  "count": 4870,
   "source": "opm",
-  "timestamp": "2026-10-19T07:17:55.485116"
+  "timestamp": "2026-10-22T07:19:51.182356"
 }
