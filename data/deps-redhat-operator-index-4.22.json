@@ -949,6 +949,36 @@
     "ols.openshift.io/v1alpha1/OLSConfig": [
       "lightspeed-operator"
     ],
+    "agentic.openshift.io/v1alpha1/Agent": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/AgenticOLSConfig": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/AgenticRun": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/AgenticRunApproval": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/AnalysisResult": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/ApprovalPolicy": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/EscalationResult": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/ExecutionResult": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/LLMProvider": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/VerificationResult": [
+      "lightspeed-operator"
+    ],
     "limitador.kuadrant.io/v1alpha1/Limitador": [
       "limitador-operator"
     ],
@@ -1436,25 +1466,28 @@
     "ramendr.openshift.io/v1alpha1/DRPolicy": [
       "odr-hub-operator"
     ],
-    "openpe.openperouter.github.io/v1alpha1/L2VNI": [
+    "network.openperouter.io/v1alpha1/L2VNI": [
       "openperouter-operator"
     ],
-    "openpe.openperouter.github.io/v1alpha1/L3Passthrough": [
+    "network.openperouter.io/v1alpha1/L3Passthrough": [
       "openperouter-operator"
     ],
-    "openpe.openperouter.github.io/v1alpha1/L3VNI": [
+    "network.openperouter.io/v1alpha1/L3VNI": [
       "openperouter-operator"
     ],
-    "openpe.openperouter.github.io/v1alpha1/OpenPERouter": [
+    "network.openperouter.io/v1alpha1/L3VPN": [
       "openperouter-operator"
     ],
-    "openpe.openperouter.github.io/v1alpha1/RawFRRConfig": [
+    "network.openperouter.io/v1alpha1/OpenPERouter": [
       "openperouter-operator"
     ],
-    "openpe.openperouter.github.io/v1alpha1/RouterNodeConfigurationStatus": [
+    "network.openperouter.io/v1alpha1/RawFRRConfig": [
       "openperouter-operator"
     ],
-    "openpe.openperouter.github.io/v1alpha1/Underlay": [
+    "network.openperouter.io/v1alpha1/RouterNodeConfigurationStatus": [
+      "openperouter-operator"
+    ],
+    "network.openperouter.io/v1alpha1/Underlay": [
       "openperouter-operator"
     ],
     "operator.openshift.io/v1alpha1/OpenShiftBuild": [
@@ -1977,6 +2010,9 @@
       "rhcl-operator"
     ],
     "kuadrant.io/v1alpha1/TokenRateLimitPolicy": [
+      "rhcl-operator"
+    ],
+    "kuadrant.io/v1alpha1/KuadrantControlPlane": [
       "rhcl-operator"
     ],
     "rhdh.redhat.com/v1alpha1/Backstage": [
@@ -2553,5 +2589,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-10-22T07:16:52.620406"
+  "timestamp": "2026-11-04T08:19:46.785963"
 }

@@ -469,6 +469,9 @@
     "crd.k8s.appian.com/v1beta1/Appian": [
       "appian-operator"
     ],
+    "sensors.appsentinels.io/v1alpha1/AppSentinelsSensor": [
+      "appsentinels-sslsniffer-operator"
+    ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
     ],
@@ -740,6 +743,9 @@
       "confluent-for-kubernetes"
     ],
     "platform.confluent.io/v1beta1/USMAgent": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/LogicalKafkaCluster": [
       "confluent-for-kubernetes"
     ],
     "conjur.cyberark.com/v1/ConjurFollower": [
@@ -1201,9 +1207,6 @@
     ],
     "storage.hpe.com/v1/HPEGreenLakeFileCSIDriver": [
       "hpe-filex-csi-operator"
-    ],
-    "csi.hitachi.com/v1/HSPC": [
-      "hspc-operator"
     ],
     "hulft.saison-technology.com/v1/Hulft": [
       "hulft"
@@ -2584,6 +2587,9 @@
     "tenantoperator.stakater.com/v1beta3/Tenant": [
       "tenant-operator"
     ],
+    "tenanttab.denegra.ai/v1alpha1/TenantTab": [
+      "tenanttab-operator"
+    ],
     "crd.projectcalico.org/v1/BGPConfiguration": [
       "tigera-operator"
     ],
@@ -2870,5 +2876,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-22T07:07:48.866963"
+  "timestamp": "2026-11-04T08:10:52.534624"
 }

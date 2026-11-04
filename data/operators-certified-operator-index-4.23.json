@@ -618,13 +618,7 @@
     {
       "package": "appsentinels-sslsniffer-operator",
       "name": "appsentinels-sslsniffer-operator",
-      "version": "0.0.1",
-      "channel": "alpha"
-    },
-    {
-      "package": "appsentinels-sslsniffer-operator",
-      "name": "appsentinels-sslsniffer-operator",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "keywords": [
         "ebpf",
         "ssl",
@@ -1083,6 +1077,86 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.3",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.4",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.5",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.6",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "2.0.0",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "2.0.1",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -1590,6 +1664,22 @@
       "channel": "stable"
     },
     {
+      "package": "commvault-operator",
+      "name": "commvault-operator",
+      "version": "1.0.2",
+      "keywords": [
+        "commvault",
+        "data-protection",
+        "observability",
+        "monitoring",
+        "virtualization",
+        "kubevirt",
+        "openshift"
+      ],
+      "description": "OpenShift console visibility for Commvault application protection, jobs, and VM backup status",
+      "channel": "stable"
+    },
+    {
       "package": "conjur-follower-operator",
       "name": "conjur-follower-operator",
       "version": "2.10.1",
@@ -2072,6 +2162,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.31.2",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -2325,6 +2428,20 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.11.0",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.11.1",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -2694,6 +2811,17 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.16.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -2936,6 +3064,18 @@
       "package": "ibm-block-csi-operator",
       "name": "ibm-block-csi-operator",
       "version": "1.14.0",
+      "keywords": [
+        "IBM",
+        "BlockStorage",
+        "CSI"
+      ],
+      "description": "Run IBM block storage CSI driver on OpenShift.",
+      "channel": "stable"
+    },
+    {
+      "package": "ibm-block-csi-operator",
+      "name": "ibm-block-csi-operator",
+      "version": "1.14.1",
       "keywords": [
         "IBM",
         "BlockStorage",
@@ -3912,6 +4052,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.23",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.4",
       "channel": "stable"
     },
@@ -4066,6 +4218,19 @@
       ],
       "description": "",
       "channel": "stable"
+    },
+    {
+      "package": "merak-ai-agent",
+      "name": "merak-ai-agent",
+      "version": "0.3.0",
+      "keywords": [
+        "ai",
+        "agent",
+        "digital-employee",
+        "automation"
+      ],
+      "description": "",
+      "channel": "alpha"
     },
     {
       "package": "minio-directpv",
@@ -4346,6 +4511,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.14.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
+      "version": "1.15.0",
       "keywords": [
         "mongodb",
         "databases",
@@ -4777,7 +4954,7 @@
     {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
-      "version": "3.96.4-1",
+      "version": "3.97.2-1",
       "keywords": [
         "repository",
         "sonatype"
@@ -5005,7 +5182,7 @@
     {
       "package": "nspc-operator",
       "name": "nspc-operator",
-      "version": "1.17.3",
+      "version": "1.18.3",
       "keywords": [
         "NEC",
         "Storage",
@@ -5044,7 +5221,7 @@
     {
       "package": "nxiq-operator-certified",
       "name": "nxiq-operator-certified",
-      "version": "1.204.0-1",
+      "version": "1.204.5-1",
       "keywords": [
         "security",
         "sonatype",
@@ -5454,6 +5631,24 @@
       "channel": "alpha"
     },
     {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "26.4.0-beta4",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
       "package": "sriov-fec",
       "name": "sriov-fec",
       "version": "2.10.0",
@@ -5603,6 +5798,18 @@
     {
       "package": "tenant-operator",
       "name": "tenant-operator",
+      "version": "1.11.0",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.11"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
       "version": "1.2.1",
       "keywords": [
         "tenant",
@@ -5695,6 +5902,21 @@
       ],
       "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
       "channel": "release-1.9"
+    },
+    {
+      "package": "tensormesh-platform",
+      "name": "tensormesh-platform",
+      "version": "1.0.1",
+      "keywords": [
+        "llm",
+        "kv-cache",
+        "vllm",
+        "lmcache",
+        "inference",
+        "gpu"
+      ],
+      "description": "KV-cache offloading and CacheBlend non-prefix reuse for vLLM on OpenShift.",
+      "channel": "stable"
     },
     {
       "package": "truenas-csi",
@@ -6311,7 +6533,7 @@
       "channel": "stable"
     }
   ],
-  "count": 756,
+  "count": 771,
   "source": "opm",
-  "timestamp": "2026-10-22T07:18:13.336904"
+  "timestamp": "2026-11-04T08:21:09.256688"
 }

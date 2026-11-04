@@ -937,6 +937,36 @@
     "ols.openshift.io/v1alpha1/OLSConfig": [
       "lightspeed-operator"
     ],
+    "agentic.openshift.io/v1alpha1/Agent": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/AgenticOLSConfig": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/AgenticRun": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/AgenticRunApproval": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/AnalysisResult": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/ApprovalPolicy": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/EscalationResult": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/ExecutionResult": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/LLMProvider": [
+      "lightspeed-operator"
+    ],
+    "agentic.openshift.io/v1alpha1/VerificationResult": [
+      "lightspeed-operator"
+    ],
     "limitador.kuadrant.io/v1alpha1/Limitador": [
       "limitador-operator"
     ],
@@ -1988,6 +2018,9 @@
     "devportal.kuadrant.io/v1alpha1/APIKeyRequest": [
       "rhcl-operator"
     ],
+    "kuadrant.io/v1alpha1/KuadrantControlPlane": [
+      "rhcl-operator"
+    ],
     "rhdh.redhat.com/v1alpha1/Backstage": [
       "rhdh"
     ],
@@ -2565,5 +2598,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-10-22T07:14:20.099185"
+  "timestamp": "2026-11-04T08:17:19.864239"
 }

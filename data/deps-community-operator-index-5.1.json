@@ -368,6 +368,9 @@
     "backup.services.k8s.aws/v1alpha1/BackupVault": [
       "ack-backup-controller"
     ],
+    "backup.services.k8s.aws/v1alpha1/LogicallyAirGappedBackupVault": [
+      "ack-backup-controller"
+    ],
     "bedrock.services.k8s.aws/v1alpha1/InferenceProfile": [
       "ack-bedrock-controller"
     ],
@@ -465,6 +468,15 @@
       "ack-cloudwatchlogs-controller"
     ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestination": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliverySource": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
       "ack-cloudwatchlogs-controller"
     ],
     "codeartifact.services.k8s.aws/v1alpha1/Domain": [
@@ -2788,9 +2800,6 @@
     "korrel8r.openshift.io/v1alpha1/Korrel8r": [
       "korrel8r"
     ],
-    "charts.kubecost.com/v1alpha1/CostAnalyzer": [
-      "kubecost"
-    ],
     "che.eclipse.org/v1alpha1/KubernetesImagePuller": [
       "kubernetes-imagepuller-operator"
     ],
@@ -3454,6 +3463,9 @@
     "ripsaw.cloudbulldozer.io/v1alpha1/Benchmark": [
       "ripsaw"
     ],
+    "ruptura.io/v1alpha1/RupturaInstance": [
+      "ruptura-operator"
+    ],
     "hybris.hybris.org/v1alpha1/HybrisApp": [
       "sap-commerce-operator"
     ],
@@ -3498,6 +3510,15 @@
     ],
     "servicebinding.io/v1beta1/ServiceBinding": [
       "service-binding-operator"
+    ],
+    "agents.x-k8s.io/v1beta1/Sandbox": [
+      "shellwarden-operator"
+    ],
+    "openshell.denegra.ai/v1alpha1/OpenShell": [
+      "shellwarden-operator"
+    ],
+    "openshell.denegra.ai/v1alpha1/OpenShellWorkspace": [
+      "shellwarden-operator"
     ],
     "shiftwise.ai/v1alpha1/ShiftWise": [
       "shiftwise-operator"
@@ -4127,5 +4148,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-10-22T07:20:54.681662"
+  "timestamp": "2026-11-04T08:23:00.250166"
 }

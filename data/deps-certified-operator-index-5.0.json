@@ -91,19 +91,19 @@
     "microgateway.airlock.com/v1alpha1/APIProtection": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/AccessControl": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/AccessControlPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/CSRFProtection": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/ContentSecurity": [
+    "microgateway.airlock.com/v1alpha1/ContentSecurityPolicy": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/ContentSecurityPolicy": [
+    "microgateway.airlock.com/v1alpha1/CustomResponse": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/CustomResponsePolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/DenyRules": [
@@ -112,7 +112,7 @@
     "microgateway.airlock.com/v1alpha1/EnvoyCluster": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/EnvoyConfiguration": [
+    "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/EnvoyHTTPFilter": [
@@ -127,13 +127,25 @@
     "microgateway.airlock.com/v1alpha1/HeaderRewrites": [
       "airlock-microgateway"
     ],
+    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
+      "airlock-microgateway"
+    ],
     "microgateway.airlock.com/v1alpha1/IdentityPropagation": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/JWKS": [
       "airlock-microgateway"
     ],
+    "microgateway.airlock.com/v1alpha1/JWT": [
+      "airlock-microgateway"
+    ],
     "microgateway.airlock.com/v1alpha1/Limits": [
+      "airlock-microgateway"
+    ],
+    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/OIDCProvider": [
@@ -154,34 +166,10 @@
     "microgateway.airlock.com/v1alpha1/SessionHandling": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/SidecarGateway": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/Telemetry": [
       "airlock-microgateway"
     ],
-    "microgateway.airlock.com/v1alpha1/JWT": [
-      "airlock-microgateway"
-    ],
     "microgateway.airlock.com/v1alpha1/TokenExchange": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/EnvoyExtensionPolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/CustomResponse": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/CustomResponsePolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/ICAPPolicy": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/ICAPProvider": [
-      "airlock-microgateway"
-    ],
-    "microgateway.airlock.com/v1alpha1/LogMaskingPolicy": [
       "airlock-microgateway"
     ],
     "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
@@ -841,6 +829,9 @@
     "mediation.turbonomic.ibm.com/v1alpha1/OpenstackProbe": [
       "mediation-openstack-operator"
     ],
+    "merak.example.com/v1alpha1/MerakAIAgent": [
+      "merak-ai-agent"
+    ],
     "charts.quay.io/v1alpha1/Directpv": [
       "minio-directpv"
     ],
@@ -1018,6 +1009,9 @@
     "apps.nvidia.com/v1alpha1/NIMBuild": [
       "nim-operator-certified"
     ],
+    "csi.nec.com/v1/GadPairAction": [
+      "nspc-operator"
+    ],
     "csi.nec.com/v1/NSPC": [
       "nspc-operator"
     ],
@@ -1150,6 +1144,84 @@
     "storage.simplyblock.io/v1alpha1/VolumeMigration": [
       "simplyblock-operator"
     ],
+    "storage.simplyblock.io/v1alpha2/ClusterDeploymentConfig": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/ControlPlane": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/ControlPlaneOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/NFSExport": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/OperatorOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/PersistentVolumeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/SimplyblockDriver": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageBackup": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageBackupOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageBackupPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageCluster": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageClusterOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageClusterOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageDevice": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageDeviceOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageFenceRemediation": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageFenceRemediationTemplate": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageGroupBackup": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageNode": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageNodeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StoragePool": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StoragePoolOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageSiteDeployment": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StretchedCluster": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/TestFailover": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/VolumeGroupSnapshotOps": [
+      "simplyblock-operator"
+    ],
     "sriovfec.intel.com/v1/SriovFecClusterConfig": [
       "sriov-fec"
     ],
@@ -1233,6 +1305,15 @@
     ],
     "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
       "tenant-operator"
+    ],
+    "lmcache.lmcache.ai/v1alpha1/CacheBlendEngine": [
+      "tensormesh-platform"
+    ],
+    "lmcache.lmcache.ai/v1alpha1/LMCacheCoordinator": [
+      "tensormesh-platform"
+    ],
+    "lmcache.lmcache.ai/v1alpha1/LMCacheEngine": [
+      "tensormesh-platform"
     ],
     "csi.truenas.io/v1alpha1/TrueNASCSI": [
       "truenas-csi"
@@ -1352,5 +1433,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-22T07:19:29.112300"
+  "timestamp": "2026-11-04T08:21:59.598342"
 }

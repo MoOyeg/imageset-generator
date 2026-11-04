@@ -626,6 +626,9 @@
     "crd.k8s.appian.com/v1beta1/Appian": [
       "appian-operator"
     ],
+    "sensors.appsentinels.io/v1alpha1/AppSentinelsSensor": [
+      "appsentinels-sslsniffer-operator"
+    ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
     ],
@@ -1329,9 +1332,6 @@
     ],
     "storage.hpe.com/v1/HPEGreenLakeFileCSIDriver": [
       "hpe-filex-csi-operator"
-    ],
-    "csi.hitachi.com/v1/HSPC": [
-      "hspc-operator"
     ],
     "hulft.saison-technology.com/v1/Hulft": [
       "hulft"
@@ -2887,5 +2887,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-22T06:59:43.621314"
+  "timestamp": "2026-11-04T08:02:22.217537"
 }

@@ -453,6 +453,9 @@
     "backup.services.k8s.aws/v1alpha1/BackupVault": [
       "ack-backup-controller"
     ],
+    "backup.services.k8s.aws/v1alpha1/LogicallyAirGappedBackupVault": [
+      "ack-backup-controller"
+    ],
     "bedrock.services.k8s.aws/v1alpha1/InferenceProfile": [
       "ack-bedrock-controller"
     ],
@@ -550,6 +553,15 @@
       "ack-cloudwatchlogs-controller"
     ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestination": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliverySource": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
       "ack-cloudwatchlogs-controller"
     ],
     "codeartifact.services.k8s.aws/v1alpha1/Domain": [
@@ -3086,9 +3098,6 @@
     "kube-green.com/v1alpha1/SleepInfo": [
       "kube-green"
     ],
-    "charts.kubecost.com/v1alpha1/CostAnalyzer": [
-      "kubecost"
-    ],
     "che.eclipse.org/v1alpha1/KubernetesImagePuller": [
       "kubernetes-imagepuller-operator"
     ],
@@ -4042,6 +4051,9 @@
     ],
     "rsct.ibm.com/v1alpha1/RSCT": [
       "rsct-operator"
+    ],
+    "ruptura.io/v1alpha1/RupturaInstance": [
+      "ruptura-operator"
     ],
     "extensions.istio.io/v1alpha1/WasmPlugin": [
       "sailoperator"
@@ -5028,5 +5040,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-10-22T07:10:34.226326"
+  "timestamp": "2026-11-04T08:13:40.965589"
 }

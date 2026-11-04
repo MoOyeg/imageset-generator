@@ -313,6 +313,54 @@
     "aiu.ibm.com/v2/AiuNodeState": [
       "aiu-operator"
     ],
+    "ako.vmware.com/v1alpha1/AKOConfig": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1beta1/AKOConfig": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/ApplicationProfile": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/AviInfraSetting": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1beta1/AviInfraSetting": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/HTTPRule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1beta1/HTTPRule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/HealthMonitor": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/HostRule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1beta1/HostRule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha2/L4Rule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha2/L7Rule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/PKIProfile": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/RouteBackendExtension": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/SSLProfile": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha2/SSORule": [
+      "ako-operator"
+    ],
     "charts.alloys.com/v1alpha1/Alloy": [
       "alloy"
     ],
@@ -468,6 +516,9 @@
     ],
     "crd.k8s.appian.com/v1beta1/Appian": [
       "appian-operator"
+    ],
+    "sensors.appsentinels.io/v1alpha1/AppSentinelsSensor": [
+      "appsentinels-sslsniffer-operator"
     ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
@@ -743,6 +794,9 @@
       "confluent-for-kubernetes"
     ],
     "platform.confluent.io/v1beta1/USMAgent": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/LogicalKafkaCluster": [
       "confluent-for-kubernetes"
     ],
     "conjur.cyberark.com/v1/ConjurFollower": [
@@ -2029,6 +2083,9 @@
     "apps.nvidia.com/v1alpha1/NIMBuild": [
       "nim-operator-certified"
     ],
+    "csi.nec.com/v1/GadPairAction": [
+      "nspc-operator"
+    ],
     "csi.nec.com/v1/NSPC": [
       "nspc-operator"
     ],
@@ -2764,6 +2821,9 @@
     "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
       "tenant-operator"
     ],
+    "tenanttab.denegra.ai/v1alpha1/TenantTab": [
+      "tenanttab-operator"
+    ],
     "crd.projectcalico.org/v1/BGPConfiguration": [
       "tigera-operator"
     ],
@@ -3086,5 +3146,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-22T07:11:44.911594"
+  "timestamp": "2026-11-04T08:14:50.014725"
 }

@@ -295,6 +295,54 @@
     "aiu.ibm.com/v2/AiuNodeState": [
       "aiu-operator"
     ],
+    "ako.vmware.com/v1alpha1/AKOConfig": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1beta1/AKOConfig": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/ApplicationProfile": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/AviInfraSetting": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1beta1/AviInfraSetting": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/HTTPRule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1beta1/HTTPRule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/HealthMonitor": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/HostRule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1beta1/HostRule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha2/L4Rule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha2/L7Rule": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/PKIProfile": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/RouteBackendExtension": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha1/SSLProfile": [
+      "ako-operator"
+    ],
+    "ako.vmware.com/v1alpha2/SSORule": [
+      "ako-operator"
+    ],
     "alloydbomni.dbadmin.goog/v1/Backup": [
       "alloydb-omni-operator-certified"
     ],
@@ -444,6 +492,9 @@
     ],
     "crd.k8s.appian.com/v1beta1/Appian": [
       "appian-operator"
+    ],
+    "sensors.appsentinels.io/v1alpha1/AppSentinelsSensor": [
+      "appsentinels-sslsniffer-operator"
     ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
@@ -708,6 +759,9 @@
       "confluent-for-kubernetes"
     ],
     "platform.confluent.io/v1beta1/USMAgent": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/LogicalKafkaCluster": [
       "confluent-for-kubernetes"
     ],
     "conjur.cyberark.com/v1/ConjurFollower": [
@@ -1193,12 +1247,6 @@
     ],
     "infra.hpe.com/v1alpha1/HPEServerProfileTemplate": [
       "hpeoneview-operator"
-    ],
-    "csi.hitachi.com/v1/HSPC": [
-      "hspc-operator"
-    ],
-    "csi.hitachi.com/v1/GadPairAction": [
-      "hspc-operator"
     ],
     "hulft.saison-technology.com/v1/Hulft": [
       "hulft"
@@ -1741,6 +1789,9 @@
     "apps.nvidia.com/v1alpha1/NIMBuild": [
       "nim-operator-certified"
     ],
+    "csi.nec.com/v1/GadPairAction": [
+      "nspc-operator"
+    ],
     "csi.nec.com/v1/NSPC": [
       "nspc-operator"
     ],
@@ -1891,10 +1942,10 @@
     "ps.percona.com/v1/PerconaServerMySQLBackup": [
       "percona-server-mysql-operator-certified"
     ],
-    "ps.percona.com/v1/PerconaServerMySQLRestore": [
+    "ps.percona.com/v1/PerconaServerMySQLClusterSet": [
       "percona-server-mysql-operator-certified"
     ],
-    "ps.percona.com/v1/PerconaServerMySQLClusterSet": [
+    "ps.percona.com/v1/PerconaServerMySQLRestore": [
       "percona-server-mysql-operator-certified"
     ],
     "pxc.percona.com/v1/PerconaXtraDBCluster": [
@@ -2147,6 +2198,84 @@
       "simplyblock-operator"
     ],
     "storage.simplyblock.io/v1alpha1/VolumeMigration": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/ClusterDeploymentConfig": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/ControlPlane": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/ControlPlaneOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/NFSExport": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/OperatorOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/PersistentVolumeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/SimplyblockDriver": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageBackup": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageBackupOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageBackupPolicy": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageCluster": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha1/StorageClusterOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageClusterOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageDevice": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageDeviceOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageFenceRemediation": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageFenceRemediationTemplate": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageGroupBackup": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageNode": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageNodeOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StoragePool": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StoragePoolOps": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StorageSiteDeployment": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/StretchedCluster": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/TestFailover": [
+      "simplyblock-operator"
+    ],
+    "storage.simplyblock.io/v1alpha2/VolumeGroupSnapshotOps": [
       "simplyblock-operator"
     ],
     "bookkeeper.streamnative.io/v1alpha1/BookKeeperCluster": [
@@ -2563,6 +2692,9 @@
     "tenantoperator.stakater.com/v1beta1/ResourceSupervisor": [
       "tenant-operator"
     ],
+    "tenanttab.denegra.ai/v1alpha1/TenantTab": [
+      "tenanttab-operator"
+    ],
     "crd.projectcalico.org/v1/BGPConfiguration": [
       "tigera-operator"
     ],
@@ -2876,5 +3008,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-22T07:13:13.111213"
+  "timestamp": "2026-11-04T08:16:14.992620"
 }

@@ -616,6 +616,9 @@
     "cluster.appdynamics.com/v1alpha1/InfraViz": [
       "appdynamics-operator"
     ],
+    "sensors.appsentinels.io/v1alpha1/AppSentinelsSensor": [
+      "appsentinels-sslsniffer-operator"
+    ],
     "aquasecurity.github.io/v1alpha1/AquaStarboard": [
       "aqua-operator-certified"
     ],
@@ -822,6 +825,9 @@
       "confluent-for-kubernetes"
     ],
     "platform.confluent.io/v1beta1/USMAgent": [
+      "confluent-for-kubernetes"
+    ],
+    "platform.confluent.io/v1beta1/LogicalKafkaCluster": [
       "confluent-for-kubernetes"
     ],
     "conjur.cyberark.com/v1/ConjurFollower": [
@@ -1274,9 +1280,6 @@
     ],
     "storage.hpe.com/v1/HPEGreenLakeFileCSIDriver": [
       "hpe-filex-csi-operator"
-    ],
-    "csi.hitachi.com/v1/HSPC": [
-      "hspc-operator"
     ],
     "hulft.saison-technology.com/v1/Hulft": [
       "hulft"
@@ -2889,5 +2892,5 @@
       "zk-operator"
     ]
   },
-  "timestamp": "2026-10-22T07:03:34.121328"
+  "timestamp": "2026-11-04T08:06:18.555297"
 }

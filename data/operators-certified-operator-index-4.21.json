@@ -115,6 +115,32 @@
     {
       "package": "airlock-microgateway",
       "name": "airlock-microgateway",
+      "version": "5.0.11",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.0"
+    },
+    {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
       "version": "5.0.2",
       "keywords": [
         "Gateway API",
@@ -555,6 +581,32 @@
       "channel": "5.2"
     },
     {
+      "package": "airlock-microgateway",
+      "name": "airlock-microgateway",
+      "version": "5.2.2",
+      "keywords": [
+        "Gateway API",
+        "WAF",
+        "Web Application Firewall",
+        "WAAP",
+        "Web Application and API protection",
+        "OWASP",
+        "Airlock",
+        "Microgateway",
+        "Security",
+        "Filtering",
+        "DevSecOps",
+        "shift left",
+        "control plane",
+        "Operator",
+        "Token exchange",
+        "OIDC",
+        "JWT"
+      ],
+      "description": "Airlock Microgateway is a Kubernetes native WAAP (Web Application and API Protection) solution to protect microservices.",
+      "channel": "5.2"
+    },
+    {
       "package": "aiu-operator",
       "name": "aiu-operator",
       "version": "2.3.3",
@@ -564,6 +616,20 @@
       ],
       "description": "operator for AIU devices",
       "channel": "stable-v2.3"
+    },
+    {
+      "package": "ako-operator",
+      "name": "ako-operator",
+      "version": "2.2.3",
+      "keywords": [
+        "AKO",
+        "AKO Operator",
+        "Load Balancer",
+        "Ingress Controller",
+        "GatewayAPI"
+      ],
+      "description": "",
+      "channel": "stable"
     },
     {
       "package": "alloydb-omni-operator-certified",
@@ -984,15 +1050,19 @@
       "channel": "alpha"
     },
     {
-      "package": "appsentinels-sslsniffer-operator",
-      "name": "appsentinels-sslsniffer-operator",
-      "version": "0.0.1",
+      "package": "appian-operator",
+      "name": "appian-operator",
+      "version": "0.218.0",
+      "keywords": [
+        "Appian"
+      ],
+      "description": "The Appian operator facilitates managing instances of Appian on Kubernetes.",
       "channel": "alpha"
     },
     {
       "package": "appsentinels-sslsniffer-operator",
       "name": "appsentinels-sslsniffer-operator",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "keywords": [
         "ebpf",
         "ssl",
@@ -1451,6 +1521,86 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.3",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.4",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.5",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "1.2.6",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "2.0.0",
+      "keywords": [
+        "microsegmentation",
+        "ndr",
+        "networkpolicy",
+        "zero-trust",
+        "openshift",
+        "security",
+        "observability"
+      ],
+      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "2.0.1",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -2224,6 +2374,21 @@
     {
       "package": "clife",
       "name": "clife",
+      "version": "1.17.21-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.17"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
       "version": "1.17.4-cee.1",
       "keywords": [
         "Cilium",
@@ -2345,6 +2510,21 @@
       "package": "clife",
       "name": "clife",
       "version": "1.18.14-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.18"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.18.15-cee.1",
       "keywords": [
         "Cilium",
         "networking",
@@ -2510,6 +2690,21 @@
       "package": "clife",
       "name": "clife",
       "version": "1.19.8-cee.1",
+      "keywords": [
+        "Cilium",
+        "networking",
+        "observability",
+        "security",
+        "eBPF",
+        "CNI"
+      ],
+      "description": "",
+      "channel": "1.19"
+    },
+    {
+      "package": "clife",
+      "name": "clife",
+      "version": "1.19.9-cee.1",
       "keywords": [
         "Cilium",
         "networking",
@@ -3638,6 +3833,17 @@
       "channel": "stable-v1"
     },
     {
+      "package": "cockroachdb-certified",
+      "name": "cockroachdb-certified",
+      "version": "2.18.6",
+      "keywords": [
+        "database",
+        "cockroachDB"
+      ],
+      "description": "CockroachDB Operator",
+      "channel": "stable"
+    },
+    {
       "package": "coherence-operator",
       "name": "coherence-operator",
       "version": "3.5.9",
@@ -3651,9 +3857,41 @@
       "channel": "stable"
     },
     {
+      "package": "commvault-operator",
+      "name": "commvault-operator",
+      "version": "1.0.2",
+      "keywords": [
+        "commvault",
+        "data-protection",
+        "observability",
+        "monitoring",
+        "virtualization",
+        "kubevirt",
+        "openshift"
+      ],
+      "description": "OpenShift console visibility for Commvault application protection, jobs, and VM backup status",
+      "channel": "stable"
+    },
+    {
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
       "version": "3.2.3",
+      "keywords": [
+        "Confluent",
+        "Kafka",
+        "Kubernetes",
+        "Private Cloud",
+        "Cloud-Native",
+        "Event Streaming",
+        "Data in Motion"
+      ],
+      "description": "",
+      "channel": "3.2"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "3.2.4",
       "keywords": [
         "Confluent",
         "Kafka",
@@ -3687,6 +3925,22 @@
       ],
       "description": "",
       "channel": "3.3"
+    },
+    {
+      "package": "confluent-for-kubernetes",
+      "name": "confluent-for-kubernetes",
+      "version": "3.4.0",
+      "keywords": [
+        "Confluent",
+        "Kafka",
+        "Kubernetes",
+        "Private Cloud",
+        "Cloud-Native",
+        "Event Streaming",
+        "Data in Motion"
+      ],
+      "description": "",
+      "channel": "3.4"
     },
     {
       "package": "conjur-follower-operator",
@@ -4105,6 +4359,34 @@
       ],
       "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
       "channel": "2.9.3"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.3-5",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.3"
+    },
+    {
+      "package": "couchbase-enterprise-certified",
+      "name": "couchbase-enterprise-certified",
+      "version": "2.9.4-1",
+      "keywords": [
+        "couchbase",
+        "database",
+        "key value",
+        "nosql",
+        "open source"
+      ],
+      "description": "The Couchbase Autonomous Operator allows users to easily deploy, manage, and maintain Couchbase deployments",
+      "channel": "2.9.4"
     },
     {
       "package": "cp-fko",
@@ -4888,6 +5170,19 @@
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
+      "version": "1.31.2",
+      "keywords": [
+        "Datadog",
+        "Monitoring",
+        "Logs",
+        "Tracing"
+      ],
+      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
+      "channel": "stable"
+    },
+    {
+      "package": "datadog-operator-certified",
+      "name": "datadog-operator-certified",
       "version": "1.4.0",
       "channel": "stable"
     },
@@ -5281,7 +5576,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "25.3.9",
+      "version": "25.3.10",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -5294,7 +5589,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.1.5",
+      "version": "26.1.6",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -5307,7 +5602,7 @@
     {
       "package": "digitalai-deploy-operator",
       "name": "digitalai-deploy-operator",
-      "version": "26.3.0",
+      "version": "26.3.2",
       "keywords": [
         "digitalai",
         "digital.ai",
@@ -5570,6 +5865,20 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.11.0",
+      "keywords": [
+        "monitoring",
+        "dynatrace",
+        "oneagent",
+        "activegate",
+        "observability"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "dynatrace-operator",
+      "name": "dynatrace-operator",
+      "version": "1.11.1",
       "keywords": [
         "monitoring",
         "dynatrace",
@@ -6191,6 +6500,34 @@
     {
       "package": "f5-ai-security-operator",
       "name": "f5-ai-security-operator",
+      "version": "0.16.0",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team",
+        "remediate"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
+      "version": "0.17.0",
+      "keywords": [
+        "ai",
+        "security",
+        "guardrails",
+        "red-team",
+        "remediate"
+      ],
+      "description": "Seamless upgrades of AI security guardrails, content moderation, vulnerability scanning, and adversarial testing for applications",
+      "channel": "stable"
+    },
+    {
+      "package": "f5-ai-security-operator",
+      "name": "f5-ai-security-operator",
       "version": "0.4.3",
       "keywords": [
         "ai",
@@ -6367,6 +6704,17 @@
     {
       "package": "falcon-operator",
       "name": "falcon-operator",
+      "version": "1.16.0",
+      "keywords": [
+        "security",
+        "runtime-protection"
+      ],
+      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
+      "channel": "certified-1.0"
+    },
+    {
+      "package": "falcon-operator",
+      "name": "falcon-operator",
       "version": "1.2.0",
       "channel": "certified-1.0"
     },
@@ -6437,6 +6785,21 @@
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
       "version": "8.3.4",
+      "keywords": [
+        "postgres",
+        "postgresql",
+        "database",
+        "sql",
+        "Fujitsu",
+        "fep"
+      ],
+      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
+      "channel": "stable"
+    },
+    {
+      "package": "fujitsu-enterprise-postgres-operator",
+      "name": "fujitsu-enterprise-postgres-operator",
+      "version": "8.3.5",
       "keywords": [
         "postgres",
         "postgresql",
@@ -6560,6 +6923,48 @@
       "channel": "stable"
     },
     {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.5.1",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.5.2",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-operator-kubernetes",
+      "name": "gitlab-operator-kubernetes",
+      "version": "3.5.3",
+      "keywords": [
+        "GitLab",
+        "DevOps",
+        "CI/CD",
+        "DAST",
+        "SAST"
+      ],
+      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
+      "channel": "stable"
+    },
+    {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.53.0",
@@ -6577,6 +6982,20 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.54.0",
+      "keywords": [
+        "GitLab",
+        "CI/CD",
+        "DevOps",
+        "SAST",
+        "DAST"
+      ],
+      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.54.1",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -7442,6 +7861,19 @@
       "channel": "stable"
     },
     {
+      "package": "hspc-operator",
+      "name": "hspc-operator",
+      "version": "1.19.0",
+      "keywords": [
+        "Hitachi",
+        "Storage",
+        "Container Storage Interface",
+        "CSI"
+      ],
+      "description": "An operator for managing Hitachi Storage Plug-in for Containers CSI driver",
+      "channel": "stable"
+    },
+    {
       "package": "hulft",
       "name": "hulft",
       "version": "10.3.0",
@@ -7581,9 +8013,21 @@
       "channel": "stable"
     },
     {
+      "package": "ibm-block-csi-operator",
+      "name": "ibm-block-csi-operator",
+      "version": "1.14.1",
+      "keywords": [
+        "IBM",
+        "BlockStorage",
+        "CSI"
+      ],
+      "description": "Run IBM block storage CSI driver on OpenShift.",
+      "channel": "stable"
+    },
+    {
       "package": "ibm-data-reporter-operator",
       "name": "ibm-data-reporter-operator",
-      "version": "2.24.9",
+      "version": "2.24.10",
       "keywords": [
         "red hat marketplace",
         "operators"
@@ -7594,7 +8038,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.9",
+      "version": "2.24.10",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -7665,6 +8109,21 @@
       "package": "infinibox-operator-certified",
       "name": "infinibox-operator-certified",
       "version": "2.30.1",
+      "keywords": [
+        "csi",
+        "nas",
+        "san",
+        "storage",
+        "infinidat",
+        "infinibox"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "infinibox-operator-certified",
+      "name": "infinibox-operator-certified",
+      "version": "2.30.2",
       "keywords": [
         "csi",
         "nas",
@@ -8613,6 +9072,18 @@
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
+      "version": "2.2.23",
+      "keywords": [
+        "monitoring",
+        "APM",
+        "Instana"
+      ],
+      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
+      "channel": "stable"
+    },
+    {
+      "package": "instana-agent-operator",
+      "name": "instana-agent-operator",
       "version": "2.2.4",
       "channel": "stable"
     },
@@ -9496,6 +9967,18 @@
     {
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.10",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
       "version": "9.0.2",
       "keywords": [
         "kubernetes",
@@ -9569,6 +10052,18 @@
       "package": "k10-kasten-operator-rhmp",
       "name": "k10-kasten-operator-rhmp",
       "version": "9.0.8",
+      "keywords": [
+        "kubernetes",
+        "storage",
+        "data-management"
+      ],
+      "description": "Kasten data management platform for OpenShift, The Market Leader for Kubernetes Backup and DR",
+      "channel": "stable"
+    },
+    {
+      "package": "k10-kasten-operator-rhmp",
+      "name": "k10-kasten-operator-rhmp",
+      "version": "9.0.9",
       "keywords": [
         "kubernetes",
         "storage",
@@ -10797,12 +11292,12 @@
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.30",
+      "version": "8.21.40",
       "keywords": [
         "monitoring"
       ],
       "description": "",
-      "channel": "stable"
+      "channel": "beta"
     },
     {
       "package": "mediation-openstack-operator",
@@ -10842,6 +11337,17 @@
       "package": "minio-minkms-operator",
       "name": "minio-minkms-operator",
       "version": "2026.10.14041630",
+      "keywords": [
+        "AI Storage",
+        "MinIO"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-minkms-operator",
+      "name": "minio-minkms-operator",
+      "version": "2026.10.29184737",
       "keywords": [
         "AI Storage",
         "MinIO"
@@ -10976,6 +11482,20 @@
       "package": "minio-object-store-operator",
       "name": "minio-object-store-operator",
       "version": "2026.10.14041630",
+      "keywords": [
+        "AI Storage",
+        "S3",
+        "MinIO",
+        "Object Storage",
+        "Iceberg"
+      ],
+      "description": "MinIO AIStor is the standard for building large scale AI data infrastructure.",
+      "channel": "stable"
+    },
+    {
+      "package": "minio-object-store-operator",
+      "name": "minio-object-store-operator",
+      "version": "2026.10.29184737",
       "keywords": [
         "AI Storage",
         "S3",
@@ -11505,6 +12025,18 @@
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
+      "version": "1.15.0",
+      "keywords": [
+        "mongodb",
+        "databases",
+        "nosql"
+      ],
+      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-kubernetes",
+      "name": "mongodb-kubernetes",
       "version": "1.2.0",
       "channel": "stable"
     },
@@ -11925,7 +12457,7 @@
     {
       "package": "nexus-repository-ha-operator-certified",
       "name": "nexus-repository-ha-operator-certified",
-      "version": "3.96.4-1",
+      "version": "3.97.2-1",
       "keywords": [
         "repository",
         "sonatype"
@@ -11936,7 +12468,7 @@
     {
       "package": "nginx-gateway-fabric",
       "name": "nginx-gateway-fabric",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "keywords": [
         "nginx",
         "gateway",
@@ -12153,7 +12685,7 @@
     {
       "package": "nspc-operator",
       "name": "nspc-operator",
-      "version": "1.17.3",
+      "version": "1.18.3",
       "keywords": [
         "NEC",
         "Storage",
@@ -12398,7 +12930,7 @@
     {
       "package": "nxiq-operator-certified",
       "name": "nxiq-operator-certified",
-      "version": "1.204.0-1",
+      "version": "1.204.5-1",
       "keywords": [
         "security",
         "sonatype",
@@ -12790,13 +13322,7 @@
     {
       "package": "percona-server-mysql-operator-certified",
       "name": "percona-server-mysql-operator-certified",
-      "version": "1.1.0",
-      "channel": "stable"
-    },
-    {
-      "package": "percona-server-mysql-operator-certified",
-      "name": "percona-server-mysql-operator-certified",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "keywords": [
         "mysql",
         "percona",
@@ -13866,6 +14392,22 @@
       "channel": "stable"
     },
     {
+      "package": "portworx-multi-cluster-certified",
+      "name": "portworx-multi-cluster-certified",
+      "version": "26.2.0",
+      "keywords": [
+        "portworx",
+        "storage",
+        "disaster recovery",
+        "multi-cluster",
+        "backup",
+        "replication",
+        "cloud native"
+      ],
+      "description": "Multi-cluster disaster recovery and management for Portworx Enterprise",
+      "channel": "stable"
+    },
+    {
       "package": "pubsubplus-eventbroker-operator",
       "name": "pubsubplus-eventbroker-operator",
       "version": "1.4.2",
@@ -14326,7 +14868,7 @@
     {
       "package": "runtime-fabric-operator",
       "name": "runtime-fabric-operator",
-      "version": "3.0.35601",
+      "version": "3.0.38401",
       "keywords": [
         "operator",
         "agent",
@@ -14410,6 +14952,24 @@
       "package": "simplyblock-operator",
       "name": "simplyblock-operator",
       "version": "26.3.0",
+      "keywords": [
+        "simplyblock",
+        "storage",
+        "nvme",
+        "nvme-tcp",
+        "nvme-rdma",
+        "software-defined storage",
+        "openshift",
+        "hyper-converged",
+        "disaggregated"
+      ],
+      "description": "The Simplyblock Operator helps with installation, operation, and management",
+      "channel": "alpha"
+    },
+    {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "26.4.0-beta4",
       "keywords": [
         "simplyblock",
         "storage",
@@ -15105,6 +15665,18 @@
       "channel": "candidate"
     },
     {
+      "package": "strategy-operator",
+      "name": "strategy-operator",
+      "version": "26.8.1",
+      "keywords": [
+        "AI",
+        "BI",
+        "Strategy"
+      ],
+      "description": "Operator for Strategy Customer Managed Cloud (CMC)",
+      "channel": "stable-v1"
+    },
+    {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "4.21.0-0",
@@ -15139,6 +15711,19 @@
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "5.7.0-0",
+      "keywords": [
+        "collection",
+        "logging",
+        "metrics",
+        "monitoring"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "sumologic-kubernetes-collection-helm-operator",
+      "name": "sumologic-kubernetes-collection-helm-operator",
+      "version": "6.2.0-0",
       "keywords": [
         "collection",
         "logging",
@@ -15259,6 +15844,19 @@
       "channel": "candidate-v3"
     },
     {
+      "package": "tawon-operator",
+      "name": "tawon-operator",
+      "version": "3.2.0-rc1",
+      "keywords": [
+        "monitoring",
+        "networking",
+        "metrics",
+        "ebpf"
+      ],
+      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
+      "channel": "candidate-v3"
+    },
+    {
       "package": "template-operator",
       "name": "template-operator",
       "version": "0.0.1",
@@ -15297,6 +15895,18 @@
       ],
       "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
       "channel": "release-1.10"
+    },
+    {
+      "package": "tenant-operator",
+      "name": "tenant-operator",
+      "version": "1.11.0",
+      "keywords": [
+        "tenant",
+        "stakater",
+        "SRO"
+      ],
+      "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
+      "channel": "release-1.11"
     },
     {
       "package": "tenant-operator",
@@ -15393,6 +16003,77 @@
       ],
       "description": "Stakater Multi-Tenancy Operator helps to solve the complexity issues of doing true multi-tenancy in Openshift by providing simplified abstractions on top of the native primitives to provide organizations and platform providers the tooling, self-service capabilities and robust automation needed to do secure and efficient Multi-Tenancy in a single OpenShift cluster. OpenShift is designed to support a single tenant platform, hence making it difficult for cluster admins to host multi-tenancy in a single OpenShift cluster. If multi-tenancy is achieved by sharing a cluster, it can have many advantages, e.g. efficient resource utilization, less configuration effort and easier sharing of cluster-internal resources among different tenants.",
       "channel": "release-1.9"
+    },
+    {
+      "package": "tenanttab-operator",
+      "name": "tenanttab-operator",
+      "version": "0.3.0",
+      "keywords": [
+        "ai",
+        "platform",
+        "portal",
+        "multi-tenancy",
+        "self-service",
+        "gpu",
+        "llm"
+      ],
+      "description": "Run TenantTab as a self-service AI platform portal on a cluster you already have.",
+      "channel": "alpha"
+    },
+    {
+      "package": "tenanttab-operator",
+      "name": "tenanttab-operator",
+      "version": "0.4.0",
+      "keywords": [
+        "ai",
+        "platform",
+        "portal",
+        "multi-tenancy",
+        "self-service",
+        "gpu",
+        "llm"
+      ],
+      "description": "Run TenantTab as a self-service AI platform portal on a cluster you already have.",
+      "channel": "alpha"
+    },
+    {
+      "package": "tenanttab-operator",
+      "name": "tenanttab-operator",
+      "version": "0.4.1",
+      "keywords": [
+        "ai",
+        "gpu",
+        "gpuaas",
+        "maas",
+        "llm",
+        "model-serving",
+        "multi-tenancy",
+        "self-service",
+        "portal",
+        "chargeback",
+        "metering",
+        "billing",
+        "mig",
+        "kueue",
+        "virtualization"
+      ],
+      "description": "Sell GPUs, models and AI apps from your OpenShift cluster: self-service sign-up, tenants, GPU quotas, metering, prepaid credit and invoices. 14 days free trial.",
+      "channel": "alpha"
+    },
+    {
+      "package": "tensormesh-platform",
+      "name": "tensormesh-platform",
+      "version": "1.0.1",
+      "keywords": [
+        "llm",
+        "kv-cache",
+        "vllm",
+        "lmcache",
+        "inference",
+        "gpu"
+      ],
+      "description": "KV-cache offloading and CacheBlend non-prefix reuse for vLLM on OpenShift.",
+      "channel": "stable"
     },
     {
       "package": "tigera-operator",
@@ -15671,6 +16352,16 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
+      "version": "2026.10.1-18",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "2026.10"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
       "version": "2026.9.0-2221",
       "keywords": [
         "uma-admin-operator"
@@ -15711,6 +16402,16 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
+      "version": "2026.10.1-18",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "2026.10"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
       "version": "2026.9.0-2221",
       "keywords": [
         "uma-team-operator"
@@ -15736,7 +16437,7 @@
     {
       "package": "vast-csi-operator",
       "name": "vast-csi-operator",
-      "version": "2.7.2",
+      "version": "2.7.3",
       "keywords": [
         "VAST",
         "VASTData",
@@ -16019,6 +16720,18 @@
       "channel": "stable"
     },
     {
+      "package": "vfunction-server-operator",
+      "name": "vfunction-server-operator",
+      "version": "5.0.2198",
+      "keywords": [
+        "vfunction",
+        "analyzing",
+        "services"
+      ],
+      "description": "vFunction is a cutting-edge code analysis, machine learning, and automation to boost your Java modernization projects.",
+      "channel": "stable"
+    },
+    {
       "package": "victoriametrics-operator",
       "name": "victoriametrics-operator",
       "version": "0.68.2",
@@ -16139,6 +16852,18 @@
       "channel": "beta"
     },
     {
+      "package": "victoriametrics-operator",
+      "name": "victoriametrics-operator",
+      "version": "0.75.2",
+      "keywords": [
+        "monitoring",
+        "prometheus",
+        "victoriametrics"
+      ],
+      "description": "Provides monitoring capabilities for kubernetes clusters and applications",
+      "channel": "beta"
+    },
+    {
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "3.3.9",
@@ -16238,6 +16963,18 @@
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "3.5.3",
+      "keywords": [
+        "trendai",
+        "visionone",
+        "container-security"
+      ],
+      "description": "Operator for deploying the TrendAI Vision One Container Security components in Kubernetes clusters",
+      "channel": "alpha"
+    },
+    {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.5.6",
       "keywords": [
         "trendai",
         "visionone",
@@ -16570,7 +17307,46 @@
     {
       "package": "zabbix-operator-certified",
       "name": "zabbix-operator-certified",
+      "version": "7.0.32",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "stable-v7.0"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "7.0.32-1",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "stable-v7.0"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
       "version": "7.4.14",
+      "keywords": [
+        "monitoring",
+        "zabbix",
+        "agent",
+        "metrics"
+      ],
+      "description": "Zabbix operator with multiple deployment variants and different components",
+      "channel": "stable-v7.4"
+    },
+    {
+      "package": "zabbix-operator-certified",
+      "name": "zabbix-operator-certified",
+      "version": "7.4.16",
       "keywords": [
         "monitoring",
         "zabbix",
@@ -16591,7 +17367,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1478,
+  "count": 1531,
   "source": "opm",
-  "timestamp": "2026-10-22T07:15:51.550230"
+  "timestamp": "2026-11-04T08:18:52.503077"
 }

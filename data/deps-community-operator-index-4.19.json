@@ -463,6 +463,9 @@
     "backup.services.k8s.aws/v1alpha1/BackupVault": [
       "ack-backup-controller"
     ],
+    "backup.services.k8s.aws/v1alpha1/LogicallyAirGappedBackupVault": [
+      "ack-backup-controller"
+    ],
     "bedrock.services.k8s.aws/v1alpha1/InferenceProfile": [
       "ack-bedrock-controller"
     ],
@@ -560,6 +563,15 @@
       "ack-cloudwatchlogs-controller"
     ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestination": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliverySource": [
+      "ack-cloudwatchlogs-controller"
+    ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
       "ack-cloudwatchlogs-controller"
     ],
     "codeartifact.services.k8s.aws/v1alpha1/Domain": [
@@ -3235,9 +3247,6 @@
     "core.kubebrowser.io/v1alpha1/BrowserSystem": [
       "kubebrowser"
     ],
-    "charts.kubecost.com/v1alpha1/CostAnalyzer": [
-      "kubecost"
-    ],
     "kubernaut.ai/v1alpha1/Kubernaut": [
       "kubernaut-operator"
     ],
@@ -4258,6 +4267,9 @@
     "rsct.ibm.com/v1alpha1/RSCT": [
       "rsct-operator"
     ],
+    "ruptura.io/v1alpha1/RupturaInstance": [
+      "ruptura-operator"
+    ],
     "extensions.istio.io/v1alpha1/WasmPlugin": [
       "sailoperator"
     ],
@@ -4431,6 +4443,15 @@
     ],
     "servicebinding.io/v1beta1/ServiceBinding": [
       "service-binding-operator"
+    ],
+    "agents.x-k8s.io/v1beta1/Sandbox": [
+      "shellwarden-operator"
+    ],
+    "openshell.denegra.ai/v1alpha1/OpenShell": [
+      "shellwarden-operator"
+    ],
+    "openshell.denegra.ai/v1alpha1/OpenShellWorkspace": [
+      "shellwarden-operator"
     ],
     "helm.sigstore.dev/v1alpha1/Rekor": [
       "sigstore-helm-operator"
@@ -5324,5 +5345,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-10-22T07:13:34.146458"
+  "timestamp": "2026-11-04T08:16:35.475092"
 }

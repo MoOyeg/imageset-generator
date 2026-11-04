@@ -1464,6 +1464,50 @@
       "channel": "7.14.x"
     },
     {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.1-opr-1+0.1792781996.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.1-opr-1+0.1793275785.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.1-opr-1+0.1793285763.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
+      "package": "amq-broker-rhel9",
+      "name": "amq-broker-rhel9",
+      "version": "7.14.1-opr-1+0.1793629954.p",
+      "keywords": [
+        "activemqartemis",
+        "operator"
+      ],
+      "description": "AMQ Broker Operator for RHEL 9 (Multiarch) provides the ability to deploy and manage stateful AMQ Broker clusters",
+      "channel": "7.14.x"
+    },
+    {
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.0.0-9",
@@ -4369,6 +4413,40 @@
       ],
       "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
       "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1793214848",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1793214862",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
     },
     {
       "package": "ansible-cloud-addons-operator",
@@ -10533,6 +10611,19 @@
     {
       "package": "eap",
       "name": "eap",
+      "version": "3.2.27",
+      "keywords": [
+        "eap",
+        "java",
+        "open source",
+        "application runtime"
+      ],
+      "description": "Operator that creates and manages Java applications running on JBoss EAP.",
+      "channel": "stable"
+    },
+    {
+      "package": "eap",
+      "name": "eap",
       "version": "3.2.3",
       "keywords": [
         "eap",
@@ -10654,6 +10745,16 @@
     {
       "package": "gatekeeper-operator-product",
       "name": "gatekeeper-operator-product",
+      "version": "3.19.3",
+      "keywords": [
+        "Gatekeeper"
+      ],
+      "description": "",
+      "channel": "3.19"
+    },
+    {
+      "package": "gatekeeper-operator-product",
+      "name": "gatekeeper-operator-product",
       "version": "3.20.0",
       "keywords": [
         "Gatekeeper"
@@ -10674,6 +10775,16 @@
     {
       "package": "gatekeeper-operator-product",
       "name": "gatekeeper-operator-product",
+      "version": "3.20.2",
+      "keywords": [
+        "Gatekeeper"
+      ],
+      "description": "",
+      "channel": "3.20"
+    },
+    {
+      "package": "gatekeeper-operator-product",
+      "name": "gatekeeper-operator-product",
       "version": "3.21.0",
       "keywords": [
         "Gatekeeper"
@@ -10685,6 +10796,16 @@
       "package": "gatekeeper-operator-product",
       "name": "gatekeeper-operator-product",
       "version": "3.21.1",
+      "keywords": [
+        "Gatekeeper"
+      ],
+      "description": "",
+      "channel": "3.21"
+    },
+    {
+      "package": "gatekeeper-operator-product",
+      "name": "gatekeeper-operator-product",
+      "version": "3.21.2",
       "keywords": [
         "Gatekeeper"
       ],
@@ -10974,6 +11095,17 @@
       "package": "jws-operator",
       "name": "jws-operator",
       "version": "2.3.3",
+      "keywords": [
+        "WebServer",
+        "JBoss"
+      ],
+      "description": "",
+      "channel": "alpha"
+    },
+    {
+      "package": "jws-operator",
+      "name": "jws-operator",
+      "version": "2.3.4",
       "keywords": [
         "WebServer",
         "JBoss"
@@ -11788,6 +11920,34 @@
     {
       "package": "logic-operator",
       "name": "logic-operator",
+      "version": "1.37.5",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable-1.37"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.37.6",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable-1.37"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
       "version": "1.38.0",
       "keywords": [
         "sonataflow",
@@ -11830,7 +11990,63 @@
     {
       "package": "logic-operator",
       "name": "logic-operator",
+      "version": "1.38.3",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable-1.38"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.38.4",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable-1.38"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
       "version": "1.39.0",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.39.1",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
+      "version": "1.39.2",
       "keywords": [
         "sonataflow",
         "cncf",
@@ -13731,6 +13947,32 @@
       "package": "red-hat-hawtio-operator",
       "name": "red-hat-hawtio-operator",
       "version": "2.0.1+0.1791865867.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1+0.1792974076.p",
+      "keywords": [
+        "Hawtio",
+        "Java",
+        "Management",
+        "Console"
+      ],
+      "description": "HawtIO eases the discovery and management of Java applications deployed on OpenShift.",
+      "channel": "latest"
+    },
+    {
+      "package": "red-hat-hawtio-operator",
+      "name": "red-hat-hawtio-operator",
+      "version": "2.0.1+0.1793013910.p",
       "keywords": [
         "Hawtio",
         "Java",
@@ -16716,6 +16958,21 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-netobs-operator",
+      "name": "skupper-netobs-operator",
+      "version": "2.2.4-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Network Observer Operator provides the ability to monitor and observe a service network",
+      "channel": "stable-2"
+    },
+    {
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "1.8.1-rh-3",
@@ -17031,6 +17288,21 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.4-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Operator provides the ability to create a service network",
+      "channel": "stable-2"
+    },
+    {
       "package": "tang-operator",
       "name": "tang-operator",
       "version": "1.0.0",
@@ -17056,6 +17328,21 @@
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.17.0",
+      "keywords": [
+        "backup",
+        "csi",
+        "data",
+        "disaster recovery",
+        "replication",
+        "storage"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "volsync-product",
+      "name": "volsync-product",
+      "version": "0.17.1",
       "keywords": [
         "backup",
         "csi",
@@ -17572,7 +17859,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1176,
+  "count": 1198,
   "source": "opm",
-  "timestamp": "2026-10-22T07:20:07.989952"
+  "timestamp": "2026-11-04T08:22:31.246278"
 }
