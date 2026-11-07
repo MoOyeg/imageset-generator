@@ -495,6 +495,9 @@
     "updateservice.operator.openshift.io/v1/UpdateService": [
       "cincinnati-operator"
     ],
+    "operator.openshift.io/v1/KubeDescheduler": [
+      "cluster-kube-descheduler-operator"
+    ],
     "logging.openshift.io/v1alpha1/LogFileMetricExporter": [
       "cluster-logging"
     ],
@@ -1603,5 +1606,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-11-04T08:20:56.908967"
+  "timestamp": "2026-11-07T08:22:13.914499"
 }

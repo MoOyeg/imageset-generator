@@ -741,13 +741,6 @@
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
       "version": "2022.4.893",
-      "keywords": [
-        "aqua-security",
-        "scanning",
-        "security",
-        "runtime-security"
-      ],
-      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
       "channel": "2022.4"
     },
     {
@@ -773,16 +766,6 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.10.0",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
@@ -981,166 +964,72 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.0.0",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.1.0",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.1.1",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.0",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.1",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.2",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.3",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.4",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.5",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.6",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "2.0.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "2.0.1",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -1156,7 +1045,7 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -1863,14 +1752,6 @@
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "1.13.0-cp4",
-      "keywords": [
-        "Confluent",
-        "Flink",
-        "Kubernetes",
-        "Operator",
-        "FKO"
-      ],
-      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
       "channel": "stable-v1.13"
     },
     {
@@ -1897,14 +1778,6 @@
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "1.14.0-cp3",
-      "keywords": [
-        "Confluent",
-        "Flink",
-        "Kubernetes",
-        "Operator",
-        "FKO"
-      ],
-      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
       "channel": "stable-v1.14"
     },
     {
@@ -1925,6 +1798,12 @@
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "1.15.0-cp2",
+      "channel": "stable-v1.15"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.15.0-cp4",
       "keywords": [
         "Confluent",
         "Flink",
@@ -1933,12 +1812,12 @@
         "FKO"
       ],
       "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
-      "channel": "stable"
+      "channel": "stable-v1.15"
     },
     {
       "package": "cp-fko",
       "name": "cp-fko",
-      "version": "1.15.0-cp4",
+      "version": "1.16.1-cp1",
       "keywords": [
         "Confluent",
         "Flink",
@@ -2124,39 +2003,18 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.30.0",
-      "keywords": [
-        "Datadog",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
       "channel": "stable"
     },
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.31.0",
-      "keywords": [
-        "Datadog",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
       "channel": "stable"
     },
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.31.1",
-      "keywords": [
-        "Datadog",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
       "channel": "stable"
     },
     {
@@ -2414,28 +2272,12 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.10.2",
-      "keywords": [
-        "monitoring",
-        "dynatrace",
-        "oneagent",
-        "activegate",
-        "observability"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.11.0",
-      "keywords": [
-        "monitoring",
-        "dynatrace",
-        "oneagent",
-        "activegate",
-        "observability"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
@@ -2801,11 +2643,6 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.15.0",
-      "keywords": [
-        "security",
-        "runtime-protection"
-      ],
-      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
       "channel": "certified-1.0"
     },
     {
@@ -4029,24 +3866,12 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.21",
-      "keywords": [
-        "monitoring",
-        "APM",
-        "Instana"
-      ],
-      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
       "channel": "stable"
     },
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.22",
-      "keywords": [
-        "monitoring",
-        "APM",
-        "Instana"
-      ],
-      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
       "channel": "stable"
     },
     {
@@ -4171,6 +3996,156 @@
       ],
       "description": "",
       "channel": "alpha"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.1",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.1-0.gbf3c346",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.2",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.3",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.4",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.5",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.6",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.7",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.10.8",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.11.0",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.12.0",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.12.1",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.8.1",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.9.0",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.9.1",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
     },
     {
       "package": "mariadb-enterprise-operator",
@@ -4487,36 +4462,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.12.0",
-      "keywords": [
-        "mongodb",
-        "databases",
-        "nosql"
-      ],
-      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.13.0",
-      "keywords": [
-        "mongodb",
-        "databases",
-        "nosql"
-      ],
-      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.14.0",
-      "keywords": [
-        "mongodb",
-        "databases",
-        "nosql"
-      ],
-      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
@@ -5099,6 +5056,12 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.7.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.8.0",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -5113,7 +5076,7 @@
     {
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
-      "version": "3.8.0",
+      "version": "3.8.1",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -5616,6 +5579,12 @@
       "package": "simplyblock-operator",
       "name": "simplyblock-operator",
       "version": "26.3.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "simplyblock-operator",
+      "name": "simplyblock-operator",
+      "version": "26.4.0-beta4",
       "keywords": [
         "simplyblock",
         "storage",
@@ -5633,7 +5602,7 @@
     {
       "package": "simplyblock-operator",
       "name": "simplyblock-operator",
-      "version": "26.4.0-beta4",
+      "version": "26.4.0-beta5",
       "keywords": [
         "simplyblock",
         "storage",
@@ -6190,24 +6159,12 @@
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.6.0",
-      "keywords": [
-        "vault",
-        "security",
-        "secrets"
-      ],
-      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
       "channel": "stable"
     },
     {
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.6.1",
-      "keywords": [
-        "vault",
-        "security",
-        "secrets"
-      ],
-      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
       "channel": "stable"
     },
     {
@@ -6244,6 +6201,12 @@
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.11.0",
       "keywords": [
         "cert-manager",
         "cyberark",
@@ -6531,9 +6494,25 @@
       ],
       "description": "ZooKeeper operator for deploying and managing Transwarp ZooKeeper clusters on OpenShift",
       "channel": "stable"
+    },
+    {
+      "package": "ztouch-os-operator",
+      "name": "ztouch-os-operator",
+      "version": "1.0.1",
+      "keywords": [
+        "ztouch",
+        "gpu",
+        "ran",
+        "o-ran",
+        "cbrs",
+        "orchestration",
+        "ansible"
+      ],
+      "description": "Deploys and manages zTouch.OS, a GPU and RAN workload orchestration platform for OpenShift.",
+      "channel": "stable"
     }
   ],
-  "count": 771,
+  "count": 792,
   "source": "opm",
-  "timestamp": "2026-11-04T08:21:09.256688"
+  "timestamp": "2026-11-07T08:22:26.652749"
 }

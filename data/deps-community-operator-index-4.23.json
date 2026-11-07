@@ -467,16 +467,19 @@
     "cloudwatchlogs.services.k8s.aws/v1alpha1/LogGroup": [
       "ack-cloudwatchlogs-controller"
     ],
-    "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
       "ack-cloudwatchlogs-controller"
     ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestination": [
       "ack-cloudwatchlogs-controller"
     ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestinationPolicy": [
+      "ack-cloudwatchlogs-controller"
+    ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliverySource": [
       "ack-cloudwatchlogs-controller"
     ],
-    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
       "ack-cloudwatchlogs-controller"
     ],
     "codeartifact.services.k8s.aws/v1alpha1/Domain": [
@@ -715,6 +718,9 @@
     ],
     "firehose.services.k8s.aws/v1alpha1/DeliveryStream": [
       "ack-firehose-controller"
+    ],
+    "fsx.services.k8s.aws/v1alpha1/FileSystem": [
+      "ack-fsx-controller"
     ],
     "glue.services.k8s.aws/v1alpha1/Job": [
       "ack-glue-controller"
@@ -4157,5 +4163,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-11-04T08:21:24.986766"
+  "timestamp": "2026-11-07T08:22:42.174949"
 }

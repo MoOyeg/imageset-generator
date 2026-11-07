@@ -1018,13 +1018,6 @@
       "package": "aqua-operator-certified",
       "name": "aqua-operator-certified",
       "version": "2022.4.893",
-      "keywords": [
-        "aqua-security",
-        "scanning",
-        "security",
-        "runtime-security"
-      ],
-      "description": "The Aqua Security Operator runs within a Openshift cluster and provides a means to deploy and manage Aqua Security cluster and components.",
       "channel": "2022.4"
     },
     {
@@ -1050,16 +1043,6 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "0.10.0",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
@@ -1258,166 +1241,72 @@
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.0.0",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.1.0",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.1.1",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.0",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.1",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.2",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.3",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.4",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.5",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "1.2.6",
-      "keywords": [
-        "microsegmentation",
-        "ndr",
-        "networkpolicy",
-        "zero-trust",
-        "openshift",
-        "security",
-        "observability"
-      ],
-      "description": "Deploy and lifecycle-manage the Axera Kubernetes microsegmentation & NDR platform on OpenShift through a single Axera custom resource.",
       "channel": "alpha"
     },
     {
       "package": "axera-operator",
       "name": "axera-operator",
       "version": "2.0.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "2.0.1",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -1433,7 +1322,7 @@
     {
       "package": "axera-operator",
       "name": "axera-operator",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "keywords": [
         "microsegmentation",
         "ndr",
@@ -4007,7 +3896,7 @@
     {
       "package": "cockroachdb-certified",
       "name": "cockroachdb-certified",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "keywords": [
         "database",
         "cockroachDB"
@@ -4136,16 +4025,6 @@
       "package": "confluent-for-kubernetes",
       "name": "confluent-for-kubernetes",
       "version": "3.2.3",
-      "keywords": [
-        "Confluent",
-        "Kafka",
-        "Kubernetes",
-        "Private Cloud",
-        "Cloud-Native",
-        "Event Streaming",
-        "Data in Motion"
-      ],
-      "description": "",
       "channel": "3.2"
     },
     {
@@ -4706,14 +4585,6 @@
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "1.13.0-cp4",
-      "keywords": [
-        "Confluent",
-        "Flink",
-        "Kubernetes",
-        "Operator",
-        "FKO"
-      ],
-      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
       "channel": "stable-v1.13"
     },
     {
@@ -4740,14 +4611,6 @@
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "1.14.0-cp3",
-      "keywords": [
-        "Confluent",
-        "Flink",
-        "Kubernetes",
-        "Operator",
-        "FKO"
-      ],
-      "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
       "channel": "stable-v1.14"
     },
     {
@@ -4768,6 +4631,12 @@
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "1.15.0-cp2",
+      "channel": "stable-v1.15"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.15.0-cp4",
       "keywords": [
         "Confluent",
         "Flink",
@@ -4776,12 +4645,12 @@
         "FKO"
       ],
       "description": "Flink Kubernetes Operator manages the complete deployment lifecycle of Apache Flink applications.",
-      "channel": "stable"
+      "channel": "stable-v1.15"
     },
     {
       "package": "cp-fko",
       "name": "cp-fko",
-      "version": "1.15.0-cp4",
+      "version": "1.16.1-cp1",
       "keywords": [
         "Confluent",
         "Flink",
@@ -5672,39 +5541,18 @@
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.30.0",
-      "keywords": [
-        "Datadog",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
       "channel": "stable"
     },
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.31.0",
-      "keywords": [
-        "Datadog",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
       "channel": "stable"
     },
     {
       "package": "datadog-operator-certified",
       "name": "datadog-operator-certified",
       "version": "1.31.1",
-      "keywords": [
-        "Datadog",
-        "Monitoring",
-        "Logs",
-        "Tracing"
-      ],
-      "description": "Datadog provides a modern monitoring and analytics platform. Gather metrics, logs and traces for full observability of your Kubernetes cluster with Datadog Operator.\\n\\n**WARNING**: Starting from version `1.21.0`, the Datadog Operator DatadogAgent controller only watches by default the namespace where it is installed. This means your `DatadogAgent` custom resource must be created in the same namespace as the Operator. This can be changed by removing the `DD_AGENT_WATCH_NAMESPACE` environment variable from the Datadog Operator deployment inside the ClusterServiceVersion YAML.",
       "channel": "stable"
     },
     {
@@ -6631,28 +6479,12 @@
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.10.2",
-      "keywords": [
-        "monitoring",
-        "dynatrace",
-        "oneagent",
-        "activegate",
-        "observability"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
       "package": "dynatrace-operator",
       "name": "dynatrace-operator",
       "version": "1.11.0",
-      "keywords": [
-        "monitoring",
-        "dynatrace",
-        "oneagent",
-        "activegate",
-        "observability"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
@@ -7596,11 +7428,6 @@
       "package": "falcon-operator",
       "name": "falcon-operator",
       "version": "1.15.0",
-      "keywords": [
-        "security",
-        "runtime-protection"
-      ],
-      "description": "Falcon Operator installs CrowdStrike Falcon Sensors on the cluster",
       "channel": "certified-1.0"
     },
     {
@@ -7711,15 +7538,6 @@
       "package": "fujitsu-enterprise-postgres-operator",
       "name": "fujitsu-enterprise-postgres-operator",
       "version": "8.3.4",
-      "keywords": [
-        "postgres",
-        "postgresql",
-        "database",
-        "sql",
-        "Fujitsu",
-        "fep"
-      ],
-      "description": "OpenShift Operator for Fujitsu Enterprise Postgres",
       "channel": "stable"
     },
     {
@@ -7810,70 +7628,30 @@
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.4.1",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.4.2",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.5.0",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.5.1",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
       "package": "gitlab-operator-kubernetes",
       "name": "gitlab-operator-kubernetes",
       "version": "3.5.2",
-      "keywords": [
-        "GitLab",
-        "DevOps",
-        "CI/CD",
-        "DAST",
-        "SAST"
-      ],
-      "description": "The GitLab operator is responsible for managing the full lifecycle of GitLab instances in your Kubernetes or Openshift container platforms.",
       "channel": "stable"
     },
     {
@@ -7894,28 +7672,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.53.0",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
       "channel": "stable"
     },
     {
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.54.0",
-      "keywords": [
-        "GitLab",
-        "CI/CD",
-        "DevOps",
-        "SAST",
-        "DAST"
-      ],
-      "description": "GitLab Runner operator manages lifecycle of GitLab Runner instances",
       "channel": "stable"
     },
     {
@@ -8997,55 +8759,7 @@
     {
       "package": "hulft",
       "name": "hulft",
-      "version": "10.3.0",
-      "keywords": [
-        "Backup & Recovery",
-        "Storage",
-        "Migration"
-      ],
-      "description": "HULFT10 for Container Platform is file integration middleware that provides transfer functions for the data accumulated in your IT system during the daily operations of your business, such as sales data, customer information, and various logs. File transfer from/to on-premises HULFT is also available.",
-      "channel": "stable"
-    },
-    {
-      "package": "hulft",
-      "name": "hulft",
-      "version": "10.4.0",
-      "keywords": [
-        "Backup & Recovery",
-        "Storage",
-        "Migration"
-      ],
-      "description": "HULFT10 for Container Platform is file integration middleware that provides transfer functions for the data accumulated in your IT system during the daily operations of your business, such as sales data, customer information, and various logs. File transfer from/to on-premises HULFT is also available.",
-      "channel": "stable"
-    },
-    {
-      "package": "hulft",
-      "name": "hulft",
-      "version": "10.5.0",
-      "keywords": [
-        "Backup & Recovery",
-        "Storage",
-        "Migration"
-      ],
-      "description": "HULFT10 for Container Platform is file integration middleware that provides transfer functions for the data accumulated in your IT system during the daily operations of your business, such as sales data, customer information, and various logs. File transfer from/to on-premises HULFT is also available.",
-      "channel": "stable"
-    },
-    {
-      "package": "hulft",
-      "name": "hulft",
-      "version": "10.6.0",
-      "keywords": [
-        "Backup & Recovery",
-        "Storage",
-        "Migration"
-      ],
-      "description": "HULFT10 for Container Platform is file integration middleware that provides transfer functions for the data accumulated in your IT system during the daily operations of your business, such as sales data, customer information, and various logs. File transfer from/to on-premises HULFT is also available.",
-      "channel": "stable"
-    },
-    {
-      "package": "hulft",
-      "name": "hulft",
-      "version": "10.6.1",
+      "version": "10.6.1-A",
       "keywords": [
         "Backup & Recovery",
         "Storage",
@@ -9332,7 +9046,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.10",
+      "version": "2.24.11",
       "keywords": [
         "red hat marketplace",
         "operators",
@@ -10411,24 +10125,12 @@
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.21",
-      "keywords": [
-        "monitoring",
-        "APM",
-        "Instana"
-      ],
-      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
       "channel": "stable"
     },
     {
       "package": "instana-agent-operator",
       "name": "instana-agent-operator",
       "version": "2.2.22",
-      "keywords": [
-        "monitoring",
-        "APM",
-        "Instana"
-      ],
-      "description": "Fully automated Application Performance Monitoring (APM) for microservices.",
       "channel": "stable"
     },
     {
@@ -13031,6 +12733,16 @@
     {
       "package": "linstor-operator",
       "name": "linstor-operator",
+      "version": "2.12.1",
+      "keywords": [
+        "storage"
+      ],
+      "description": "LINSTOR Operator deploys LINBIT SDS in the cluster.",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
       "version": "2.8.1",
       "keywords": [
         "storage"
@@ -13316,12 +13028,12 @@
         "monitoring"
       ],
       "description": "",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.40-beta.1",
+      "version": "8.21.50-beta.1",
       "keywords": [
         "monitoring"
       ],
@@ -13740,6 +13452,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.17.0",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.17.1",
       "keywords": [
         "MongoDB",
         "Atlas",
@@ -13753,7 +13471,7 @@
     {
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
-      "version": "2.17.1",
+      "version": "2.18.0",
       "keywords": [
         "MongoDB",
         "Atlas",
@@ -14044,36 +13762,18 @@
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.12.0",
-      "keywords": [
-        "mongodb",
-        "databases",
-        "nosql"
-      ],
-      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.13.0",
-      "keywords": [
-        "mongodb",
-        "databases",
-        "nosql"
-      ],
-      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
       "package": "mongodb-kubernetes",
       "name": "mongodb-kubernetes",
       "version": "1.14.0",
-      "keywords": [
-        "mongodb",
-        "databases",
-        "nosql"
-      ],
-      "description": "The MongoDB Controllers for Kubernetes enable easy deploys of MongoDB into Kubernetes clusters, using our management, monitoring and backup platforms, Ops Manager and Cloud Manager.",
       "channel": "stable"
     },
     {
@@ -14621,6 +14321,12 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.7.3",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.8.0",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -14635,7 +14341,7 @@
     {
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
-      "version": "3.8.0",
+      "version": "3.8.1",
       "keywords": [
         "nginx",
         "ingress-controller",
@@ -17108,14 +16814,6 @@
       "package": "redis-enterprise-operator-cert",
       "name": "redis-enterprise-operator-cert",
       "version": "7.8.6-20.1",
-      "keywords": [
-        "redislabs",
-        "redis",
-        "database",
-        "nosql",
-        "cache"
-      ],
-      "description": "",
       "channel": "7.22.2"
     },
     {
@@ -19722,26 +19420,12 @@
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "5.1.1-0",
-      "keywords": [
-        "collection",
-        "logging",
-        "metrics",
-        "monitoring"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
       "package": "sumologic-kubernetes-collection-helm-operator",
       "name": "sumologic-kubernetes-collection-helm-operator",
       "version": "5.7.0-0",
-      "keywords": [
-        "collection",
-        "logging",
-        "metrics",
-        "monitoring"
-      ],
-      "description": "",
       "channel": "alpha"
     },
     {
@@ -19808,13 +19492,6 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "3.1.0",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
       "channel": "candidate-v3"
     },
     {
@@ -19858,13 +19535,6 @@
       "package": "tawon-operator",
       "name": "tawon-operator",
       "version": "3.1.1-rc2",
-      "keywords": [
-        "monitoring",
-        "networking",
-        "metrics",
-        "ebpf"
-      ],
-      "description": "Tawon is a cloud-native observability fabric for deeply instrumenting microservice-based applications.",
       "channel": "candidate-v3"
     },
     {
@@ -20589,22 +20259,22 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.10.0-5",
-      "keywords": [
-        "uma-admin-operator"
-      ],
-      "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-admin-operator",
-      "name": "uma-admin-operator",
       "version": "2026.10.1-18",
       "keywords": [
         "uma-admin-operator"
       ],
       "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
       "channel": "2026.10"
+    },
+    {
+      "package": "uma-admin-operator",
+      "name": "uma-admin-operator",
+      "version": "2026.11.0-15",
+      "keywords": [
+        "uma-admin-operator"
+      ],
+      "description": "The DX Operational Observability Universal Monitoring Agent Admin For Multi-tenancy installs the UMA Admin deployment on a cluster. This deployment is required for the Cluster Administrator to view the DX APM cluster performance metrics. This UMA Admin capability provides the Cluster Administrator with complete cluster monitoring visibility. Installing the UMA Admin deployment requires admin privileges and the Application Administrator install the UMA Team capability.",
+      "channel": "beta"
     },
     {
       "package": "uma-admin-operator",
@@ -20759,7 +20429,7 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.10.0-5",
+      "version": "2026.11.0-15",
       "keywords": [
         "uma-operator"
       ],
@@ -20927,22 +20597,22 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.10.0-5",
-      "keywords": [
-        "uma-team-operator"
-      ],
-      "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
-      "channel": "beta"
-    },
-    {
-      "package": "uma-team-operator",
-      "name": "uma-team-operator",
       "version": "2026.10.1-18",
       "keywords": [
         "uma-team-operator"
       ],
       "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
       "channel": "2026.10"
+    },
+    {
+      "package": "uma-team-operator",
+      "name": "uma-team-operator",
+      "version": "2026.11.0-15",
+      "keywords": [
+        "uma-team-operator"
+      ],
+      "description": "DX Operational Observability Universal Monitoring Agent Team For Multi-tenancy acts as single deployment that automatically discovers and monitors cloud and container infrastructures and containerized application processes given namespaces.",
+      "channel": "beta"
     },
     {
       "package": "uma-team-operator",
@@ -21154,24 +20824,12 @@
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.6.0",
-      "keywords": [
-        "vault",
-        "security",
-        "secrets"
-      ],
-      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
       "channel": "stable"
     },
     {
       "package": "vault-secrets-operator",
       "name": "vault-secrets-operator",
       "version": "1.6.1",
-      "keywords": [
-        "vault",
-        "security",
-        "secrets"
-      ],
-      "description": "The Vault Secrets Operator (VSO) allows Pods to consume Vault secrets natively from Kubernetes Secrets.",
       "channel": "stable"
     },
     {
@@ -21208,6 +20866,12 @@
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.11.0",
       "keywords": [
         "cert-manager",
         "cyberark",
@@ -21292,12 +20956,6 @@
       "package": "vfunction-server-operator",
       "name": "vfunction-server-operator",
       "version": "5.0.2163",
-      "keywords": [
-        "vfunction",
-        "analyzing",
-        "services"
-      ],
-      "description": "vFunction is a cutting-edge code analysis, machine learning, and automation to boost your Java modernization projects.",
       "channel": "stable"
     },
     {
@@ -21556,6 +21214,18 @@
       "package": "visionone-containersecurity",
       "name": "visionone-containersecurity",
       "version": "3.5.6",
+      "keywords": [
+        "trendai",
+        "visionone",
+        "container-security"
+      ],
+      "description": "Operator for deploying the TrendAI Vision One Container Security components in Kubernetes clusters",
+      "channel": "alpha"
+    },
+    {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.5.7",
       "keywords": [
         "trendai",
         "visionone",
@@ -21828,7 +21498,7 @@
       "channel": "stable"
     }
   ],
-  "count": 1979,
+  "count": 1982,
   "source": "opm",
-  "timestamp": "2026-11-04T08:13:11.881293"
+  "timestamp": "2026-11-07T08:14:26.291344"
 }

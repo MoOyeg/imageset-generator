@@ -198,6 +198,16 @@
     {
       "package": "aerospike-kubernetes-operator-rhmp",
       "name": "aerospike-kubernetes-operator-rhmp",
+      "version": "4.7.0",
+      "keywords": [
+        "Aerospike"
+      ],
+      "description": "The Aerospike Kubernetes Operator automates the deployment and management of Aerospike enterprise clusters on Kubernetes.",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator-rhmp",
+      "name": "aerospike-kubernetes-operator-rhmp",
       "version": "2.5.0",
       "keywords": [
         "Aerospike"
@@ -338,7 +348,7 @@
     {
       "package": "cockroachdb-certified-rhmp",
       "name": "cockroachdb-certified-rhmp",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "keywords": [
         "database",
         "cockroachDB"
@@ -3960,7 +3970,7 @@
       "channel": "stable-v7.4"
     }
   ],
-  "count": 314,
+  "count": 315,
   "source": "opm",
-  "timestamp": "2026-11-04T08:16:48.081124"
+  "timestamp": "2026-11-07T08:18:09.925603"
 }

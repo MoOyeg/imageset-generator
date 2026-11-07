@@ -829,6 +829,12 @@
       "channel": "alpha"
     },
     {
+      "package": "axera-operator",
+      "name": "axera-operator",
+      "version": "2.0.2",
+      "channel": "alpha"
+    },
+    {
       "package": "cass-operator",
       "name": "cass-operator",
       "version": "1.23.2",
@@ -2169,7 +2175,7 @@
     {
       "package": "cockroachdb-certified",
       "name": "cockroachdb-certified",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "channel": "stable"
     },
     {
@@ -2584,12 +2590,18 @@
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "1.15.0-cp2",
-      "channel": "stable"
+      "channel": "stable-v1.15"
     },
     {
       "package": "cp-fko",
       "name": "cp-fko",
       "version": "1.15.0-cp4",
+      "channel": "stable-v1.15"
+    },
+    {
+      "package": "cp-fko",
+      "name": "cp-fko",
+      "version": "1.16.1-cp1",
       "channel": "stable"
     },
     {
@@ -4689,31 +4701,7 @@
     {
       "package": "hulft",
       "name": "hulft",
-      "version": "10.3.0",
-      "channel": "stable"
-    },
-    {
-      "package": "hulft",
-      "name": "hulft",
-      "version": "10.4.0",
-      "channel": "stable"
-    },
-    {
-      "package": "hulft",
-      "name": "hulft",
-      "version": "10.5.0",
-      "channel": "stable"
-    },
-    {
-      "package": "hulft",
-      "name": "hulft",
-      "version": "10.6.0",
-      "channel": "stable"
-    },
-    {
-      "package": "hulft",
-      "name": "hulft",
-      "version": "10.6.1",
+      "version": "10.6.1-A",
       "channel": "stable"
     },
     {
@@ -4851,7 +4839,7 @@
     {
       "package": "ibm-metrics-operator",
       "name": "ibm-metrics-operator",
-      "version": "2.24.10",
+      "version": "2.24.11",
       "channel": "beta"
     },
     {
@@ -6898,12 +6886,12 @@
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
       "version": "8.21.40",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "kubeturbo-certified",
       "name": "kubeturbo-certified",
-      "version": "8.21.40-beta.1",
+      "version": "8.21.50-beta.1",
       "channel": "beta"
     },
     {
@@ -6994,6 +6982,12 @@
       "package": "linstor-operator",
       "name": "linstor-operator",
       "version": "2.12.0",
+      "channel": "stable-v2"
+    },
+    {
+      "package": "linstor-operator",
+      "name": "linstor-operator",
+      "version": "2.12.1",
       "channel": "stable-v2"
     },
     {
@@ -7138,12 +7132,12 @@
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
       "version": "8.21.40",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "mediation-openstack-operator",
       "name": "mediation-openstack-operator",
-      "version": "8.21.40-beta.1",
+      "version": "8.21.50-beta.1",
       "channel": "beta"
     },
     {
@@ -7444,6 +7438,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.17.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.18.0",
       "channel": "stable"
     },
     {
@@ -8218,6 +8218,12 @@
       "package": "nginx-ingress-operator",
       "name": "nginx-ingress-operator",
       "version": "3.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "nginx-ingress-operator",
+      "name": "nginx-ingress-operator",
+      "version": "3.8.1",
       "channel": "alpha"
     },
     {
@@ -9148,12 +9154,12 @@
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
       "version": "8.21.40",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "prometurbo-certified",
       "name": "prometurbo-certified",
-      "version": "8.21.40-beta.1",
+      "version": "8.21.50-beta.1",
       "channel": "beta"
     },
     {
@@ -10918,12 +10924,12 @@
       "package": "t8c-certified",
       "name": "t8c-certified",
       "version": "42.118.0",
-      "channel": "beta"
+      "channel": "stable"
     },
     {
       "package": "t8c-certified",
       "name": "t8c-certified",
-      "version": "42.118.0-beta.2",
+      "version": "42.119.0-beta.1",
       "channel": "beta"
     },
     {
@@ -11409,14 +11415,14 @@
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.10.0-5",
-      "channel": "beta"
+      "version": "2026.10.1-18",
+      "channel": "2026.10"
     },
     {
       "package": "uma-admin-operator",
       "name": "uma-admin-operator",
-      "version": "2026.10.1-18",
-      "channel": "2026.10"
+      "version": "2026.11.0-15",
+      "channel": "beta"
     },
     {
       "package": "uma-admin-operator",
@@ -11529,7 +11535,7 @@
     {
       "package": "uma-operator",
       "name": "uma-operator",
-      "version": "2026.10.0-5",
+      "version": "2026.11.0-15",
       "channel": "beta"
     },
     {
@@ -11643,14 +11649,14 @@
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.10.0-5",
-      "channel": "beta"
+      "version": "2026.10.1-18",
+      "channel": "2026.10"
     },
     {
       "package": "uma-team-operator",
       "name": "uma-team-operator",
-      "version": "2026.10.1-18",
-      "channel": "2026.10"
+      "version": "2026.11.0-15",
+      "channel": "beta"
     },
     {
       "package": "uma-team-operator",
@@ -11854,6 +11860,12 @@
       "package": "vcp-operator",
       "name": "vcp-operator",
       "version": "1.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "vcp-operator",
+      "name": "vcp-operator",
+      "version": "1.11.0",
       "channel": "stable"
     },
     {
@@ -12067,6 +12079,12 @@
       "channel": "alpha"
     },
     {
+      "package": "visionone-containersecurity",
+      "name": "visionone-containersecurity",
+      "version": "3.5.7",
+      "channel": "alpha"
+    },
+    {
       "package": "wave",
       "name": "wave",
       "version": "3.5.0",
@@ -12181,7 +12199,7 @@
       "channel": "stable"
     }
   ],
-  "count": 2030,
+  "count": 2033,
   "source": "opm",
-  "timestamp": "2026-11-04T08:10:48.334272"
+  "timestamp": "2026-11-07T08:11:42.479150"
 }

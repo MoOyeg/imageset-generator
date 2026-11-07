@@ -562,16 +562,19 @@
     "cloudwatchlogs.services.k8s.aws/v1alpha1/LogGroup": [
       "ack-cloudwatchlogs-controller"
     ],
-    "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
       "ack-cloudwatchlogs-controller"
     ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestination": [
       "ack-cloudwatchlogs-controller"
     ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestinationPolicy": [
+      "ack-cloudwatchlogs-controller"
+    ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliverySource": [
       "ack-cloudwatchlogs-controller"
     ],
-    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
       "ack-cloudwatchlogs-controller"
     ],
     "codeartifact.services.k8s.aws/v1alpha1/Domain": [
@@ -810,6 +813,9 @@
     ],
     "firehose.services.k8s.aws/v1alpha1/DeliveryStream": [
       "ack-firehose-controller"
+    ],
+    "fsx.services.k8s.aws/v1alpha1/FileSystem": [
+      "ack-fsx-controller"
     ],
     "glue.services.k8s.aws/v1alpha1/Job": [
       "ack-glue-controller"
@@ -3001,6 +3007,9 @@
     "kairos.maximilianopizarro.github.io/v1alpha1/SmartScalingPolicy": [
       "kairos-operator"
     ],
+    "designer.kaoto.io/v1alpha1/Kaoto": [
+      "kaoto-operator"
+    ],
     "keda.sh/v1alpha1/KedaController": [
       "keda"
     ],
@@ -3884,6 +3893,12 @@
       "opendatahub-operator"
     ],
     "config.opendatahub.io/v1alpha1/Platform": [
+      "opendatahub-operator"
+    ],
+    "config.opendatahub.io/v1alpha2/Platform": [
+      "opendatahub-operator"
+    ],
+    "datasciencecluster.opendatahub.io/v3/DataScienceCluster": [
       "opendatahub-operator"
     ],
     "openebs.io/v1alpha1/OpenEBSInstallTemplate": [
@@ -5345,5 +5360,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-11-04T08:16:35.475092"
+  "timestamp": "2026-11-07T08:17:56.744995"
 }

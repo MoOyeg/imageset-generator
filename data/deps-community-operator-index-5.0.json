@@ -467,16 +467,19 @@
     "cloudwatchlogs.services.k8s.aws/v1alpha1/LogGroup": [
       "ack-cloudwatchlogs-controller"
     ],
-    "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
       "ack-cloudwatchlogs-controller"
     ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestination": [
       "ack-cloudwatchlogs-controller"
     ],
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliveryDestinationPolicy": [
+      "ack-cloudwatchlogs-controller"
+    ],
     "cloudwatchlogs.services.k8s.aws/v1alpha1/DeliverySource": [
       "ack-cloudwatchlogs-controller"
     ],
-    "cloudwatchlogs.services.k8s.aws/v1alpha1/Delivery": [
+    "cloudwatchlogs.services.k8s.aws/v1alpha1/ResourcePolicy": [
       "ack-cloudwatchlogs-controller"
     ],
     "codeartifact.services.k8s.aws/v1alpha1/Domain": [
@@ -715,6 +718,9 @@
     ],
     "firehose.services.k8s.aws/v1alpha1/DeliveryStream": [
       "ack-firehose-controller"
+    ],
+    "fsx.services.k8s.aws/v1alpha1/FileSystem": [
+      "ack-fsx-controller"
     ],
     "glue.services.k8s.aws/v1alpha1/Job": [
       "ack-glue-controller"
@@ -3814,6 +3820,9 @@
     "security.telco.openshift.io/v1alpha1/TLSComplianceTarget": [
       "tls-compliance-operator"
     ],
+    "trident.netapp.io/v1/TridentOrchestrator": [
+      "trident-operator"
+    ],
     "org.trustify/v1alpha1/Trustify": [
       "trustify-operator"
     ],
@@ -4178,5 +4187,5 @@
       "yaks"
     ]
   },
-  "timestamp": "2026-11-04T08:22:14.840092"
+  "timestamp": "2026-11-07T08:24:18.446008"
 }

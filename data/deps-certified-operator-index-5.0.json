@@ -175,6 +175,12 @@
     "microgateway.airlock.com/v1alpha1/RateLimitPolicy": [
       "airlock-microgateway"
     ],
+    "amd.com/v1alpha1/DeviceConfig": [
+      "amd-gpu-operator"
+    ],
+    "amd.com/v1alpha1/RemediationWorkflowStatus": [
+      "amd-gpu-operator"
+    ],
     "anzo.cambridgesemantics.com/v2/Anzo": [
       "anzo-operator"
     ],
@@ -257,7 +263,11 @@
       "cfm-operator"
     ],
     "cilium.io/v1alpha1/CiliumConfig": [
-      "cilium-enterprise"
+      "cilium-enterprise",
+      "clife"
+    ],
+    "isovalent.com/v1alpha1/RegistryCredential": [
+      "clife"
     ],
     "core.strimzi.io/v1beta2/StrimziPodSet": [
       "cloudera-streams-messaging-kubernetes-operator"
@@ -1431,7 +1441,13 @@
     ],
     "zookeeper.transwarp.io/v1alpha1/ZKCluster": [
       "zk-operator"
+    ],
+    "ztouch.ztouch.net/v1alpha1/Semaphore": [
+      "ztouch-os-operator"
+    ],
+    "ztouch.ztouch.net/v1alpha1/ZTouchOS": [
+      "ztouch-os-operator"
     ]
   },
-  "timestamp": "2026-11-04T08:21:59.598342"
+  "timestamp": "2026-11-07T08:24:02.999571"
 }

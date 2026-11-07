@@ -167,6 +167,20 @@
       "channel": "release-2.17"
     },
     {
+      "package": "advanced-cluster-management",
+      "name": "advanced-cluster-management",
+      "version": "2.17.4",
+      "keywords": [
+        "acm",
+        "advanced-cluster-management",
+        "install",
+        "multiclusterhub",
+        "rhacm"
+      ],
+      "description": "Advanced provisioning and management of OpenShift and Kubernetes clusters",
+      "channel": "release-2.17"
+    },
+    {
       "package": "amq-broker-rhel8",
       "name": "amq-broker-rhel8",
       "version": "7.10.0-opr-1",
@@ -2603,6 +2617,23 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-9",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "keywords": [
         "kafka",
@@ -2961,6 +2992,23 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.2-5",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-connect",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "Streams for Apache Kafka is a massively scalable, distributed, and high performance data streaming platform based on Apache Kafka\u00ae.",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.2-7",
       "keywords": [
         "kafka",
         "messaging",
@@ -3438,6 +3486,26 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.4-15",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.4-16",
       "keywords": [
         "kafka",
         "messaging",
@@ -3995,6 +4063,26 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.2-5",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams",
+        "web",
+        "console",
+        "ui",
+        "user interface"
+      ],
+      "description": "User interface to monitor Apache Kafka\u00ae clusters",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.0.0-5",
@@ -4335,6 +4423,22 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.2-6",
+      "keywords": [
+        "kafka",
+        "messaging",
+        "kafka-streams",
+        "data-streaming",
+        "data-streams",
+        "streaming",
+        "streams"
+      ],
+      "description": "",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1789677985",
@@ -4571,6 +4675,40 @@
       ],
       "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
       "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1793374941",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1793374989",
+      "keywords": [
+        "ansible",
+        "automation",
+        "automation-controller",
+        "automation-hub",
+        "automation-platform",
+        "ansible-automation-platform",
+        "aap",
+        "management"
+      ],
+      "description": "The Ansible Automation Platform Resource Operator manages everything Automation",
+      "channel": "stable-2.7-cluster-scoped"
     },
     {
       "package": "ansible-cloud-addons-operator",
@@ -5739,6 +5877,23 @@
       "channel": "3.3.x"
     },
     {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.3-r2",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Red Hat build of Apicurio Registry 3 on OpenShift.",
+      "channel": "3.3.x"
+    },
+    {
       "package": "authorino-operator",
       "name": "authorino-operator",
       "version": "1.0.2",
@@ -5895,7 +6050,35 @@
     {
       "package": "automation-portal-operator",
       "name": "automation-portal-operator",
+      "version": "2.2.20261105",
+      "keywords": [
+        "ansible",
+        "automation",
+        "portal",
+        "aap",
+        "openshift"
+      ],
+      "description": "Operator for deploying and managing the Ansible automation portal on OpenShift",
+      "channel": "fast"
+    },
+    {
+      "package": "automation-portal-operator",
+      "name": "automation-portal-operator",
       "version": "2.3.20261026",
+      "keywords": [
+        "ansible",
+        "automation",
+        "portal",
+        "aap",
+        "openshift"
+      ],
+      "description": "Operator for deploying and managing the Ansible automation portal on OpenShift",
+      "channel": "fast"
+    },
+    {
+      "package": "automation-portal-operator",
+      "name": "automation-portal-operator",
+      "version": "2.3.20261105",
       "keywords": [
         "ansible",
         "automation",
@@ -7845,6 +8028,174 @@
       "channel": "v1"
     },
     {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.2.0",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.2.1",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.2.2",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.2.3",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.3.0",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.3.1",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.3.2",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.3.3",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.3.4",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.4.0",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.4.1",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.4.2",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.4.3",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
+      "package": "cluster-kube-descheduler-operator",
+      "name": "cluster-kube-descheduler-operator",
+      "version": "5.4.4",
+      "keywords": [
+        "scheduling",
+        "descheduler",
+        "workload"
+      ],
+      "description": "An operator to run descheduler in Openshift cluster.",
+      "channel": "stable"
+    },
+    {
       "package": "cluster-logging",
       "name": "cluster-logging",
       "version": "6.6.0",
@@ -7887,6 +8238,20 @@
       "channel": "stable-6.6"
     },
     {
+      "package": "cluster-logging",
+      "name": "cluster-logging",
+      "version": "6.7.0",
+      "keywords": [
+        "logging",
+        "observability",
+        "loki",
+        "vector",
+        "otlp"
+      ],
+      "description": "The Red Hat OpenShift Logging Operator for OCP provides a means for configuring and managing log collection and forwarding.",
+      "channel": "stable-6.7"
+    },
+    {
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "0.1.32",
@@ -7916,6 +8281,19 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.10.0",
+      "keywords": [
+        "security",
+        "compliance",
+        "openscap",
+        "audit"
+      ],
+      "description": "",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.10.1",
       "keywords": [
         "security",
         "compliance",
@@ -9239,6 +9617,24 @@
     {
       "package": "cryostat-operator",
       "name": "cryostat-operator",
+      "version": "4.2.0+15",
+      "keywords": [
+        "flightrecorder",
+        "java",
+        "jdk",
+        "jfr",
+        "jmc",
+        "missioncontrol",
+        "monitoring",
+        "profiling",
+        "diagnostic"
+      ],
+      "description": "JVM monitoring and profiling tool",
+      "channel": "stable"
+    },
+    {
+      "package": "cryostat-operator",
+      "name": "cryostat-operator",
       "version": "4.2.0+8",
       "keywords": [
         "flightrecorder",
@@ -9916,6 +10312,20 @@
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.6.1",
+      "keywords": [
+        "infinispan",
+        "key value",
+        "database",
+        "datagrid",
+        "open source"
+      ],
+      "description": "Create and manage Red Hat Data Grid clusters.",
+      "channel": "stable"
+    },
+    {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.10",
       "keywords": [
         "infinispan",
         "key value",
@@ -13903,6 +14313,20 @@
     {
       "package": "logic-operator",
       "name": "logic-operator",
+      "version": "1.38.4",
+      "keywords": [
+        "sonataflow",
+        "cncf",
+        "serverless",
+        "serverlessworkflow",
+        "workflows"
+      ],
+      "description": "OpenShift Serverless Logic Kubernetes Operator for deploying workflow applications based on the CNCF Serverless Workflow specification",
+      "channel": "stable-1.38"
+    },
+    {
+      "package": "logic-operator",
+      "name": "logic-operator",
       "version": "1.39.0",
       "keywords": [
         "sonataflow",
@@ -14044,6 +14468,17 @@
       ],
       "description": "The Loki Operator for OCP provides a means for configuring and managing a Loki stack for cluster logging.\\n## Prerequisites and Requirements\\n### Loki Operator Namespace\\nThe Loki Operator must be deployed to the global operator group namespace `openshift-operators-redhat`.\\n### Memory Considerations\\nLoki is a memory intensive application.  The initial\\nset of OCP nodes may not be large enough to support the Loki stack.  Additional OCP nodes must be added\\nto the OCP cluster if you desire to run with the recommended (or better) memory.\\n",
       "channel": "stable-6.6"
+    },
+    {
+      "package": "loki-operator",
+      "name": "loki-operator",
+      "version": "6.7.0",
+      "keywords": [
+        "logging",
+        "loki"
+      ],
+      "description": "The Loki Operator for OCP provides a means for configuring and managing a Loki stack for cluster logging.\\n## Prerequisites and Requirements\\n### Loki Operator Namespace\\nThe Loki Operator must be deployed to the global operator group namespace `openshift-operators-redhat`.\\n### Memory Considerations\\nLoki is a memory intensive application.  The initial\\nset of OCP nodes may not be large enough to support the Loki stack.  Additional OCP nodes must be added\\nto the OCP cluster if you desire to run with the recommended (or better) memory.\\n",
+      "channel": "stable-6.7"
     },
     {
       "package": "machine-deletion-remediation",
@@ -16661,7 +17096,7 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
-      "version": "1.1.2",
+      "version": "1.5.0",
       "keywords": [
         "secondary",
         "scheduling",
@@ -16673,7 +17108,7 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
-      "version": "1.1.4",
+      "version": "1.5.1",
       "keywords": [
         "secondary",
         "scheduling",
@@ -16685,7 +17120,7 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
-      "version": "1.2.0",
+      "version": "1.5.2",
       "keywords": [
         "secondary",
         "scheduling",
@@ -16697,7 +17132,7 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
-      "version": "1.2.1",
+      "version": "1.6.0",
       "keywords": [
         "secondary",
         "scheduling",
@@ -16709,31 +17144,7 @@
     {
       "package": "openshift-secondary-scheduler-operator",
       "name": "openshift-secondary-scheduler-operator",
-      "version": "1.2.2",
-      "keywords": [
-        "secondary",
-        "scheduling",
-        "workload"
-      ],
-      "description": "Runs a secondary scheduler in an OpenShift cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "openshift-secondary-scheduler-operator",
-      "name": "openshift-secondary-scheduler-operator",
-      "version": "1.3.0",
-      "keywords": [
-        "secondary",
-        "scheduling",
-        "workload"
-      ],
-      "description": "Runs a secondary scheduler in an OpenShift cluster.",
-      "channel": "stable"
-    },
-    {
-      "package": "openshift-secondary-scheduler-operator",
-      "name": "openshift-secondary-scheduler-operator",
-      "version": "1.3.1",
+      "version": "1.6.1",
       "keywords": [
         "secondary",
         "scheduling",
@@ -17131,6 +17542,21 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.158.0-202611022311",
+      "keywords": [
+        "opentelemetry",
+        "tracing",
+        "logging",
+        "metrics",
+        "monitoring",
+        "troubleshooting"
+      ],
+      "description": "Provides the OpenTelemetry components, including the Collector",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.158.0-202611041238",
       "keywords": [
         "opentelemetry",
         "tracing",
@@ -19396,7 +19822,7 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
-      "version": "1.0.0",
+      "version": "1.3.0",
       "keywords": [
         "mutating",
         "webhook",
@@ -19409,7 +19835,7 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
-      "version": "1.0.1",
+      "version": "1.3.1",
       "keywords": [
         "mutating",
         "webhook",
@@ -19422,7 +19848,7 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
-      "version": "1.0.2",
+      "version": "1.3.2",
       "keywords": [
         "mutating",
         "webhook",
@@ -19435,7 +19861,7 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
-      "version": "1.1.0",
+      "version": "1.4.0",
       "keywords": [
         "mutating",
         "webhook",
@@ -19448,7 +19874,7 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
-      "version": "1.1.1",
+      "version": "1.4.1",
       "keywords": [
         "mutating",
         "webhook",
@@ -19461,7 +19887,7 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
-      "version": "1.1.2",
+      "version": "1.4.2",
       "keywords": [
         "mutating",
         "webhook",
@@ -19474,7 +19900,7 @@
     {
       "package": "run-once-duration-override-operator",
       "name": "run-once-duration-override-operator",
-      "version": "1.2.0",
+      "version": "1.5.0",
       "keywords": [
         "mutating",
         "webhook",
@@ -20094,6 +20520,23 @@
       "package": "serverless-operator",
       "name": "serverless-operator",
       "version": "1.37.2",
+      "keywords": [
+        "serverless",
+        "FaaS",
+        "microservices",
+        "scale to zero",
+        "knative",
+        "serving",
+        "eventing",
+        "kafka"
+      ],
+      "description": "Deploy and manage event-driven serverless applications and functions using Knative.",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.37.3",
       "keywords": [
         "serverless",
         "FaaS",
@@ -22141,6 +22584,21 @@
       "channel": "stable-2"
     },
     {
+      "package": "skupper-netobs-operator",
+      "name": "skupper-netobs-operator",
+      "version": "2.2.4-rh-2",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Network Observer Operator provides the ability to monitor and observe a service network",
+      "channel": "stable-2"
+    },
+    {
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "1.8.1-rh-3",
@@ -22459,6 +22917,21 @@
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "2.2.4-rh-1",
+      "keywords": [
+        "skupper",
+        "rhsi",
+        "service",
+        "interconnect",
+        "mesh",
+        "van"
+      ],
+      "description": "Red Hat Service Interconnect Operator provides the ability to create a service network",
+      "channel": "stable-2"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.4-rh-2",
       "keywords": [
         "skupper",
         "rhsi",
@@ -23578,7 +24051,7 @@
       "channel": "fast"
     }
   ],
-  "count": 1617,
+  "count": 1650,
   "source": "opm",
-  "timestamp": "2026-11-04T08:20:55.625067"
+  "timestamp": "2026-11-07T08:22:12.554053"
 }

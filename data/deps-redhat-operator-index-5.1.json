@@ -369,6 +369,12 @@
     "updateservice.operator.openshift.io/v1/UpdateService": [
       "cincinnati-operator"
     ],
+    "logging.openshift.io/v1alpha1/LogFileMetricExporter": [
+      "cluster-logging"
+    ],
+    "observability.openshift.io/v1/ClusterLogForwarder": [
+      "cluster-logging"
+    ],
     "operator.cryostat.io/v1beta1/Cryostat": [
       "cryostat-operator"
     ],
@@ -495,6 +501,30 @@
     "sonataflow.org/v1alpha08/SonataFlowPlatform": [
       "logic-operator",
       "logic-operator-rhel8"
+    ],
+    "loki.grafana.com/v1/AlertingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/AlertingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/LokiStack": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/LokiStack": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/RecordingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/RecordingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/RulerConfig": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/RulerConfig": [
+      "loki-operator"
     ],
     "tackle.konveyor.io/v1alpha1/Addon": [
       "mta-operator"
@@ -665,5 +695,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-11-04T08:22:32.288933"
+  "timestamp": "2026-11-07T08:24:36.879395"
 }

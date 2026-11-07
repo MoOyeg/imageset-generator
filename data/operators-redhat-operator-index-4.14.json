@@ -1599,6 +1599,12 @@
     {
       "package": "amq-streams",
       "name": "amq-streams",
+      "version": "2.9.4-9",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
       "version": "3.0.0-13",
       "channel": "amq-streams-3.0.x"
     },
@@ -1726,6 +1732,12 @@
       "package": "amq-streams",
       "name": "amq-streams",
       "version": "3.2.2-5",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams",
+      "name": "amq-streams",
+      "version": "3.2.2-7",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -1870,6 +1882,12 @@
       "package": "amq-streams-console",
       "name": "amq-streams-console",
       "version": "2.9.4-15",
+      "channel": "amq-streams-2.9.x"
+    },
+    {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "2.9.4-16",
       "channel": "amq-streams-2.9.x"
     },
     {
@@ -2035,6 +2053,12 @@
       "channel": "amq-streams-3.2.x"
     },
     {
+      "package": "amq-streams-console",
+      "name": "amq-streams-console",
+      "version": "3.2.2-5",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.0.0-5",
@@ -2164,6 +2188,12 @@
       "package": "amq-streams-proxy",
       "name": "amq-streams-proxy",
       "version": "3.2.2-4",
+      "channel": "amq-streams-3.2.x"
+    },
+    {
+      "package": "amq-streams-proxy",
+      "name": "amq-streams-proxy",
+      "version": "3.2.2-6",
       "channel": "amq-streams-3.2.x"
     },
     {
@@ -3231,6 +3261,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1793401832",
+      "channel": "stable-2.5-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.5.0+0.1793401855",
+      "channel": "stable-2.5"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.6.0+0.1758684783",
       "channel": "stable-2.6"
     },
@@ -3507,6 +3549,18 @@
     {
       "package": "ansible-automation-platform-operator",
       "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1793352771",
+      "channel": "stable-2.6-cluster-scoped"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.6.0+0.1793352877",
+      "channel": "stable-2.6"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1779173639",
       "channel": "stable-2.7"
     },
@@ -3671,6 +3725,18 @@
       "name": "ansible-automation-platform-operator",
       "version": "2.7.0+0.1793214862",
       "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1793374941",
+      "channel": "stable-2.7"
+    },
+    {
+      "package": "ansible-automation-platform-operator",
+      "name": "ansible-automation-platform-operator",
+      "version": "2.7.0+0.1793374989",
+      "channel": "stable-2.7-cluster-scoped"
     },
     {
       "package": "ansible-cloud-addons-operator",
@@ -4195,6 +4261,12 @@
       "channel": "3.3.x"
     },
     {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.3-r2",
+      "channel": "3.3.x"
+    },
+    {
       "package": "authorino-operator",
       "name": "authorino-operator",
       "version": "1.0.1",
@@ -4312,6 +4384,18 @@
       "package": "automation-orchestrator-operator",
       "name": "automation-orchestrator-operator",
       "version": "2026.8.1793321256",
+      "channel": "stable"
+    },
+    {
+      "package": "automation-orchestrator-operator",
+      "name": "automation-orchestrator-operator",
+      "version": "2026.8.1793803831",
+      "channel": "early-access"
+    },
+    {
+      "package": "automation-orchestrator-operator",
+      "name": "automation-orchestrator-operator",
+      "version": "2026.8.1793830765",
       "channel": "stable"
     },
     {
@@ -4654,6 +4738,12 @@
       "package": "aws-efs-csi-driver-operator",
       "name": "aws-efs-csi-driver-operator",
       "version": "4.14.0-202610242213",
+      "channel": "stable"
+    },
+    {
+      "package": "aws-efs-csi-driver-operator",
+      "name": "aws-efs-csi-driver-operator",
+      "version": "4.14.0-202611032100",
       "channel": "stable"
     },
     {
@@ -6061,6 +6151,18 @@
       "channel": "fast"
     },
     {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.5.4",
+      "channel": "fast"
+    },
+    {
+      "package": "cluster-observability-operator",
+      "name": "cluster-observability-operator",
+      "version": "1.5.5",
+      "channel": "fast"
+    },
+    {
       "package": "clusterresourceoverride",
       "name": "clusterresourceoverride",
       "version": "4.14.0-202310201027",
@@ -6379,6 +6481,12 @@
       "channel": "stable"
     },
     {
+      "package": "clusterresourceoverride",
+      "name": "clusterresourceoverride",
+      "version": "4.14.0-202611032100",
+      "channel": "stable"
+    },
+    {
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "0.1.32",
@@ -6394,6 +6502,12 @@
       "package": "compliance-operator",
       "name": "compliance-operator",
       "version": "1.10.0",
+      "channel": "stable"
+    },
+    {
+      "package": "compliance-operator",
+      "name": "compliance-operator",
+      "version": "1.10.1",
       "channel": "stable"
     },
     {
@@ -7747,6 +7861,12 @@
       "channel": "stable"
     },
     {
+      "package": "costmanagement-metrics-operator",
+      "name": "costmanagement-metrics-operator",
+      "version": "4.5.1",
+      "channel": "stable"
+    },
+    {
       "package": "cryostat-operator",
       "name": "cryostat-operator",
       "version": "2.1.0",
@@ -8121,6 +8241,12 @@
     {
       "package": "cryostat-operator",
       "name": "cryostat-operator",
+      "version": "4.2.0+15",
+      "channel": "stable"
+    },
+    {
+      "package": "cryostat-operator",
+      "name": "cryostat-operator",
       "version": "4.2.0+8",
       "channel": "stable"
     },
@@ -8410,6 +8536,12 @@
       "package": "datagrid",
       "name": "datagrid",
       "version": "8.6.1",
+      "channel": "stable"
+    },
+    {
+      "package": "datagrid",
+      "name": "datagrid",
+      "version": "8.6.10",
       "channel": "stable"
     },
     {
@@ -11509,6 +11641,12 @@
       "channel": "stable"
     },
     {
+      "package": "gcp-filestore-csi-driver-operator",
+      "name": "gcp-filestore-csi-driver-operator",
+      "version": "4.14.0-202611032100",
+      "channel": "stable"
+    },
+    {
       "package": "ingress-node-firewall",
       "name": "ingress-node-firewall",
       "version": "4.14.0-202310201027",
@@ -13648,6 +13786,12 @@
       "package": "local-storage-operator",
       "name": "local-storage-operator",
       "version": "4.18.0-202610242213",
+      "channel": "stable"
+    },
+    {
+      "package": "local-storage-operator",
+      "name": "local-storage-operator",
+      "version": "4.18.0-202611032100",
       "channel": "stable"
     },
     {
@@ -16759,6 +16903,12 @@
       "channel": "stable"
     },
     {
+      "package": "nfd",
+      "name": "nfd",
+      "version": "4.14.0-202611032100",
+      "channel": "stable"
+    },
+    {
       "package": "node-healthcheck-operator",
       "name": "node-healthcheck-operator",
       "version": "0.10.1",
@@ -16882,6 +17032,12 @@
       "package": "numaresources-operator",
       "name": "numaresources-operator",
       "version": "4.14.12",
+      "channel": "4.14"
+    },
+    {
+      "package": "numaresources-operator",
+      "name": "numaresources-operator",
+      "version": "4.14.13",
       "channel": "4.14"
     },
     {
@@ -19857,6 +20013,12 @@
     {
       "package": "openshift-gitops-operator",
       "name": "openshift-gitops-operator",
+      "version": "1.20.11",
+      "channel": "gitops-1.20"
+    },
+    {
+      "package": "openshift-gitops-operator",
+      "name": "openshift-gitops-operator",
       "version": "1.20.2",
       "channel": "gitops-1.20"
     },
@@ -20710,6 +20872,18 @@
       "package": "opentelemetry-product",
       "name": "opentelemetry-product",
       "version": "0.158.0-202610221301",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.158.0-202611022311",
+      "channel": "stable"
+    },
+    {
+      "package": "opentelemetry-product",
+      "name": "opentelemetry-product",
+      "version": "0.158.0-202611041238",
       "channel": "stable"
     },
     {
@@ -24921,6 +25095,12 @@
     {
       "package": "rhacs-operator",
       "name": "rhacs-operator",
+      "version": "4.11.7",
+      "channel": "rhacs-4.11"
+    },
+    {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
       "version": "4.2.0",
       "channel": "rhacs-4.10"
     },
@@ -25393,6 +25573,12 @@
       "channel": "rhacs-4.10"
     },
     {
+      "package": "rhacs-operator",
+      "name": "rhacs-operator",
+      "version": "5.0.0",
+      "channel": "rhacs-5.0"
+    },
+    {
       "package": "rhbk-operator",
       "name": "rhbk-operator",
       "version": "22.0.10-opr.1",
@@ -25737,6 +25923,12 @@
     {
       "package": "rhbk-operator",
       "name": "rhbk-operator",
+      "version": "26.4.17-opr.1",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
       "version": "26.4.2-opr.1",
       "channel": "stable-v26"
     },
@@ -25816,6 +26008,12 @@
       "package": "rhbk-operator",
       "name": "rhbk-operator",
       "version": "26.6.7-opr.3",
+      "channel": "stable-v26"
+    },
+    {
+      "package": "rhbk-operator",
+      "name": "rhbk-operator",
+      "version": "26.6.8-opr.1",
       "channel": "stable-v26"
     },
     {
@@ -27307,6 +27505,12 @@
       "channel": "preview"
     },
     {
+      "package": "secrets-store-csi-driver-operator",
+      "name": "secrets-store-csi-driver-operator",
+      "version": "4.14.0-202611022015",
+      "channel": "preview"
+    },
+    {
       "package": "security-profiles-operator",
       "name": "security-profiles-operator",
       "version": "0.10.0",
@@ -27574,6 +27778,12 @@
       "package": "serverless-operator",
       "name": "serverless-operator",
       "version": "1.37.2",
+      "channel": "stable"
+    },
+    {
+      "package": "serverless-operator",
+      "name": "serverless-operator",
+      "version": "1.37.3",
       "channel": "stable"
     },
     {
@@ -28672,6 +28882,12 @@
       "package": "skupper-operator",
       "name": "skupper-operator",
       "version": "2.2.4-rh-1",
+      "channel": "stable-2"
+    },
+    {
+      "package": "skupper-operator",
+      "name": "skupper-operator",
+      "version": "2.2.4-rh-2",
       "channel": "stable-2"
     },
     {
@@ -29863,6 +30079,12 @@
       "channel": "stable"
     },
     {
+      "package": "vertical-pod-autoscaler",
+      "name": "vertical-pod-autoscaler",
+      "version": "4.14.0-202611022015",
+      "channel": "stable"
+    },
+    {
       "package": "volsync-product",
       "name": "volsync-product",
       "version": "0.10.0",
@@ -30259,7 +30481,7 @@
       "channel": "preview"
     }
   ],
-  "count": 5043,
+  "count": 5080,
   "source": "opm",
-  "timestamp": "2026-11-04T08:01:29.370504"
+  "timestamp": "2026-11-07T08:02:25.021664"
 }

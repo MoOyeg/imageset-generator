@@ -3188,6 +3188,19 @@
     {
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
+      "version": "1.10.0",
+      "keywords": [
+        "cloudwatchlogs",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS CloudWatch Logs controller is a service controller for managing CloudWatch Logs resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-cloudwatchlogs-controller",
+      "name": "ack-cloudwatchlogs-controller",
       "version": "1.2.0",
       "channel": "alpha"
     },
@@ -3291,13 +3304,6 @@
       "package": "ack-cloudwatchlogs-controller",
       "name": "ack-cloudwatchlogs-controller",
       "version": "1.9.0",
-      "keywords": [
-        "cloudwatchlogs",
-        "aws",
-        "amazon",
-        "ack"
-      ],
-      "description": "AWS CloudWatch Logs controller is a service controller for managing CloudWatch Logs resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -4113,6 +4119,12 @@
       "package": "ack-dynamodb-controller",
       "name": "ack-dynamodb-controller",
       "version": "1.13.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-dynamodb-controller",
+      "name": "ack-dynamodb-controller",
+      "version": "1.14.2",
       "keywords": [
         "dynamodb",
         "aws",
@@ -5375,6 +5387,12 @@
       "package": "ack-ecr-controller",
       "name": "ack-ecr-controller",
       "version": "1.11.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-ecr-controller",
+      "name": "ack-ecr-controller",
+      "version": "1.11.1",
       "keywords": [
         "ecr",
         "aws",
@@ -6934,6 +6952,12 @@
       "package": "ack-elasticache-controller",
       "name": "ack-elasticache-controller",
       "version": "1.11.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-elasticache-controller",
+      "name": "ack-elasticache-controller",
+      "version": "1.12.0",
       "keywords": [
         "elasticache",
         "aws",
@@ -8019,6 +8043,12 @@
       "package": "ack-eventbridge-controller",
       "name": "ack-eventbridge-controller",
       "version": "1.9.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-eventbridge-controller",
+      "name": "ack-eventbridge-controller",
+      "version": "1.9.2",
       "keywords": [
         "eventbridge",
         "aws",
@@ -8116,6 +8146,12 @@
       "package": "ack-firehose-controller",
       "name": "ack-firehose-controller",
       "version": "0.8.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-firehose-controller",
+      "name": "ack-firehose-controller",
+      "version": "0.8.1",
       "keywords": [
         "firehose",
         "aws",
@@ -8123,6 +8159,19 @@
         "ack"
       ],
       "description": "AWS Firehose controller is a service controller for managing Firehose resources in Kubernetes",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-fsx-controller",
+      "name": "ack-fsx-controller",
+      "version": "0.1.0",
+      "keywords": [
+        "fsx",
+        "aws",
+        "amazon",
+        "ack"
+      ],
+      "description": "AWS FSx controller is a service controller for managing FSx resources in Kubernetes",
       "channel": "alpha"
     },
     {
@@ -9591,6 +9640,12 @@
       "package": "ack-kinesis-controller",
       "name": "ack-kinesis-controller",
       "version": "1.6.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-kinesis-controller",
+      "name": "ack-kinesis-controller",
+      "version": "1.7.1",
       "keywords": [
         "kinesis",
         "aws",
@@ -15836,6 +15891,12 @@
       "package": "ack-sns-controller",
       "name": "ack-sns-controller",
       "version": "1.12.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ack-sns-controller",
+      "name": "ack-sns-controller",
+      "version": "1.13.0",
       "keywords": [
         "sns",
         "aws",
@@ -16888,6 +16949,12 @@
       "package": "aerospike-kubernetes-operator",
       "name": "aerospike-kubernetes-operator",
       "version": "4.6.0",
+      "channel": "stable"
+    },
+    {
+      "package": "aerospike-kubernetes-operator",
+      "name": "aerospike-kubernetes-operator",
+      "version": "4.7.0",
       "keywords": [
         "Aerospike"
       ],
@@ -17479,6 +17546,23 @@
       "package": "apicurio-registry-3",
       "name": "apicurio-registry-3",
       "version": "3.3.3",
+      "keywords": [
+        "integration",
+        "streaming",
+        "messaging",
+        "api",
+        "schemas",
+        "registry",
+        "apicurio",
+        "apicurio-registry"
+      ],
+      "description": "Deploy and manage Apicurio Registry 3 on Kubernetes.",
+      "channel": "3.3.x"
+    },
+    {
+      "package": "apicurio-registry-3",
+      "name": "apicurio-registry-3",
+      "version": "3.3.4",
       "keywords": [
         "integration",
         "streaming",
@@ -18510,6 +18594,12 @@
       "package": "attune",
       "name": "attune",
       "version": "0.1.35",
+      "channel": "stable"
+    },
+    {
+      "package": "attune",
+      "name": "attune",
+      "version": "0.1.36",
       "keywords": [
         "kubernetes",
         "autoscaling",
@@ -23740,6 +23830,12 @@
       "package": "gitlab-runner-operator",
       "name": "gitlab-runner-operator",
       "version": "1.54.2",
+      "channel": "stable"
+    },
+    {
+      "package": "gitlab-runner-operator",
+      "name": "gitlab-runner-operator",
+      "version": "1.54.3",
       "keywords": [
         "GitLab",
         "CI/CD",
@@ -27311,6 +27407,19 @@
       "channel": "candidate-v2"
     },
     {
+      "package": "kaoto-operator",
+      "name": "kaoto-operator",
+      "version": "2.14.0",
+      "keywords": [
+        "integration",
+        "kaoto",
+        "camel-k",
+        "designer"
+      ],
+      "description": "Integration Editor for Apache Camel",
+      "channel": "alpha"
+    },
+    {
       "package": "keda",
       "name": "keda",
       "version": "2.0.0",
@@ -28245,6 +28354,12 @@
       "package": "keycloak-operator",
       "name": "keycloak-operator",
       "version": "26.8.1",
+      "channel": "fast"
+    },
+    {
+      "package": "keycloak-operator",
+      "name": "keycloak-operator",
+      "version": "26.8.2",
       "keywords": [
         "Keycloak",
         "Identity",
@@ -32724,6 +32839,12 @@
       "package": "mongodb-atlas-kubernetes",
       "name": "mongodb-atlas-kubernetes",
       "version": "2.17.1",
+      "channel": "stable"
+    },
+    {
+      "package": "mongodb-atlas-kubernetes",
+      "name": "mongodb-atlas-kubernetes",
+      "version": "2.18.0",
       "keywords": [
         "MongoDB",
         "Atlas",
@@ -35340,6 +35461,32 @@
     {
       "package": "opendatahub-operator",
       "name": "opendatahub-operator",
+      "version": "3.6.0",
+      "keywords": [
+        "odh",
+        "notebooks",
+        "serving",
+        "training",
+        "pipelines",
+        "workbenches",
+        "dashboard",
+        "kserve",
+        "distributed workloads",
+        "trustyai",
+        "modelregistry",
+        "feast",
+        "featurestore",
+        "ogx",
+        "mlflow",
+        "sparkoperator",
+        "databaseservice"
+      ],
+      "description": "",
+      "channel": "fast-3"
+    },
+    {
+      "package": "opendatahub-operator",
+      "name": "opendatahub-operator",
       "version": "3.6.0-ea.1",
       "keywords": [
         "odh",
@@ -35534,6 +35681,19 @@
       "package": "openstack-lightspeed-operator",
       "name": "openstack-lightspeed-operator",
       "version": "0.0.3",
+      "keywords": [
+        "ai",
+        "assistant",
+        "openstack",
+        "llm"
+      ],
+      "description": "AI-powered virtual assistant for Red Hat OpenStack Services on OpenShift",
+      "channel": "alpha"
+    },
+    {
+      "package": "openstack-lightspeed-operator",
+      "name": "openstack-lightspeed-operator",
+      "version": "0.0.4",
       "keywords": [
         "ai",
         "assistant",
@@ -40372,6 +40532,24 @@
       "package": "ruptura-operator",
       "name": "ruptura-operator",
       "version": "1.2.2",
+      "channel": "alpha"
+    },
+    {
+      "package": "ruptura-operator",
+      "name": "ruptura-operator",
+      "version": "1.4.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "ruptura-operator",
+      "name": "ruptura-operator",
+      "version": "1.4.1",
+      "channel": "alpha"
+    },
+    {
+      "package": "ruptura-operator",
+      "name": "ruptura-operator",
+      "version": "1.4.2",
       "keywords": [
         "monitoring",
         "observability",
@@ -41149,6 +41327,12 @@
       "package": "shellwarden-operator",
       "name": "shellwarden-operator",
       "version": "0.1.0",
+      "channel": "alpha"
+    },
+    {
+      "package": "shellwarden-operator",
+      "name": "shellwarden-operator",
+      "version": "0.1.1",
       "keywords": [
         "openshell",
         "ai agents",
@@ -42428,6 +42612,12 @@
       "package": "strimzi-kafka-operator",
       "name": "strimzi-kafka-operator",
       "version": "1.3.0",
+      "channel": "strimzi-1.3.x"
+    },
+    {
+      "package": "strimzi-kafka-operator",
+      "name": "strimzi-kafka-operator",
+      "version": "1.3.1",
       "keywords": [
         "kafka",
         "messaging",
@@ -44361,7 +44551,7 @@
       "channel": "alpha"
     }
   ],
-  "count": 5781,
+  "count": 5804,
   "source": "opm",
-  "timestamp": "2026-11-04T08:20:36.416917"
+  "timestamp": "2026-11-07T08:21:53.164059"
 }

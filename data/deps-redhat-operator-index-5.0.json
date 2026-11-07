@@ -546,6 +546,15 @@
     "operator.openshift.io/v1/CliManager": [
       "cli-manager"
     ],
+    "operator.openshift.io/v1/KubeDescheduler": [
+      "cluster-kube-descheduler-operator"
+    ],
+    "logging.openshift.io/v1alpha1/LogFileMetricExporter": [
+      "cluster-logging"
+    ],
+    "observability.openshift.io/v1/ClusterLogForwarder": [
+      "cluster-logging"
+    ],
     "monitoring.rhobs/v1/Alertmanager": [
       "cluster-observability-operator"
     ],
@@ -851,6 +860,12 @@
     "hco.kubevirt.io/v1/HyperConverged": [
       "kubevirt-hyperconverged"
     ],
+    "filerestore.kubevirt.io/v1alpha1/FileRestoreOperator": [
+      "kubevirt-hyperconverged"
+    ],
+    "filerestore.kubevirt.io/v1alpha1/VirtualMachineFileRestore": [
+      "kubevirt-hyperconverged"
+    ],
     "kueue.openshift.io/v1/Kueue": [
       "kueue-operator"
     ],
@@ -929,6 +944,30 @@
     "sonataflow.org/v1alpha08/SonataFlowPlatform": [
       "logic-operator",
       "logic-operator-rhel8"
+    ],
+    "loki.grafana.com/v1/AlertingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/AlertingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/LokiStack": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/LokiStack": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/RecordingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/RecordingRule": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1/RulerConfig": [
+      "loki-operator"
+    ],
+    "loki.grafana.com/v1beta1/RulerConfig": [
+      "loki-operator"
     ],
     "lvm.topolvm.io/v1alpha1/LVMCluster": [
       "lvms-operator"
@@ -1095,6 +1134,54 @@
     "windup.jboss.org/v1/Windup": [
       "mtr-operator"
     ],
+    "forklift.konveyor.io/v1beta1/Conversion": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/CopyAppliance": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/CopyApplianceTemplate": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/ForkliftController": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/Hook": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/Host": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/HyperVProviderServer": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/Migration": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/NetworkMap": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/OVAProviderServer": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/OpenstackVolumePopulator": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/OvirtVolumePopulator": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/Plan": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/Provider": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/StorageMap": [
+      "mtv-operator"
+    ],
+    "forklift.konveyor.io/v1beta1/VSphereXcopyVolumePopulator": [
+      "mtv-operator"
+    ],
     "multiarch.openshift.io/v1alpha1/ClusterPodPlacementConfig": [
       "multiarch-tuning-operator"
     ],
@@ -1109,6 +1196,15 @@
     ],
     "multicluster.openshift.io/v1/MultiClusterEngine": [
       "multicluster-engine"
+    ],
+    "global-hub.open-cluster-management.io/v1alpha1/ManagedClusterMigration": [
+      "multicluster-global-hub-operator-rh"
+    ],
+    "operator.open-cluster-management.io/v1alpha4/MulticlusterGlobalHub": [
+      "multicluster-global-hub-operator-rh"
+    ],
+    "operator.open-cluster-management.io/v1alpha1/MulticlusterGlobalHubAgent": [
+      "multicluster-global-hub-operator-rh"
     ],
     "flows.netobserv.io/v1alpha1/FlowCollector": [
       "netobserv-operator"
@@ -2193,6 +2289,21 @@
     "storage-based-remediation.medik8s.io/v1alpha1/StorageBasedRemediationTemplate": [
       "storage-based-remediation"
     ],
+    "submariner.io/v1alpha1/Broker": [
+      "submariner"
+    ],
+    "submariner.io/v1alpha1/ServiceDiscovery": [
+      "submariner"
+    ],
+    "submariner.io/v1alpha1/Submariner": [
+      "submariner"
+    ],
+    "operator.openshift.io/v1/MustGather": [
+      "support-log-gather-operator"
+    ],
+    "operator.openshift.io/v1alpha1/MustGather": [
+      "support-log-gather-operator"
+    ],
     "daemons.redhat.com/v1alpha1/TangServer": [
       "tang-operator"
     ],
@@ -2239,5 +2350,5 @@
       "volsync-product"
     ]
   },
-  "timestamp": "2026-11-04T08:21:46.107298"
+  "timestamp": "2026-11-07T08:23:03.891517"
 }
